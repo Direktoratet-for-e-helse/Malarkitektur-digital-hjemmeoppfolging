@@ -1,3 +1,11 @@
+---
+layout: default
+title: Målarkitektur
+nav_order: 2
+---
+
+# Målarkitektur
+
 *Digital hjemmeoppfølging er nye tjenester under utvikling hvor deler av helse- og omsorgstjenesten kan flyttes hjem til innbygger ved hjelp av teknologi.*
 
 Begrepet tolkes ulikt, men vil som regel inkludere oppfølging basert på egenmåling og egenrapportering, nettbasert behandling, hjemmesykehus, medisinsk avstandsoppfølging, videokonsultasjon og bruk av visse typer velferdsteknologi, som for eksempel digitalt tilsyn og medisindispensere.
