@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Arkitekturprinsipper
-nav_order: 3
+nav_order: 2
 ---
 
 Arkitektuprinsippene beskriver hvordan arbeidet med målarkitektur for samhandling innen digital hjemmeoppføling etterfølger de overordnede arkitekturprinsippene for digitalisering av offentlig sektor.
