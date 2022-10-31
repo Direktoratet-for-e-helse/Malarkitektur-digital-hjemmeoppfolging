@@ -1,6 +1,7 @@
 # Testdokumentasjon Målarkitektur-digital-hjemmeoppfølging
 
 Testprosjekt for å se hvordan arkitekturdokumentasjon enklest mulig kan publiseres og vedlikeholdes på Github.
+* [Generert dokumentasjon](https://thomiz.github.io/Malarkitektur-digital-hjemmeoppfolging/)
 
 ## Bruker 
 * [just the docs - layout template for Github.io sidene](https://github.com/just-the-docs/just-the-docs)
