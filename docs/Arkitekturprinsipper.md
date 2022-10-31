@@ -1,3 +1,9 @@
+---
+layout: default
+title: Arkitekturprinsipper
+nav_order: 3
+---
+
 Arkitektuprinsippene beskriver hvordan arbeidet med målarkitektur for samhandling innen digital hjemmeoppføling etterfølger de overordnede arkitekturprinsippene for digitalisering av offentlig sektor.
 
 [Arkitekturprinsipp Ta utgangspunkt i brukernes behov](https://confluence.ehelse.no/display/AA/Arkitekturprinsipp+Ta+utgangspunkt+i+brukernes+behov). Etterleves både ved å definere nytteverdien av en målarkitektur innen området DHO og gjennom en behovs og interessentanalyse hvor ulike behov for samhandling vektes basert på prioriterte behov fra klinikere og representanter for de ulike tjenesteutførerne.
