@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Målarkitektur
+title: Innledning
 nav_order: 2
 ---
 
-# Målarkitektur
+# Målarkitektur Samhandling DHO
 
 *Digital hjemmeoppfølging er nye tjenester under utvikling hvor deler av helse- og omsorgstjenesten kan flyttes hjem til innbygger ved hjelp av teknologi.*
 
