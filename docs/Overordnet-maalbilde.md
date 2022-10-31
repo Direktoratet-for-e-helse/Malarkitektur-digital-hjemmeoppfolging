@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Overordnet målbilde DHO
-nav_order: 4
+nav_order: 3
 ---
 
 Kapittelet beskriver de overordnede strategiske målene for DHO arbeidet definert for Tiltak 5 som identifiserer "Definere en overordnet arkitektur for datadeling" som en hovedleveranse.
