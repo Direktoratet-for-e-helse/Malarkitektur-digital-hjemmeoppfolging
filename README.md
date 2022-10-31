@@ -1,3 +1,19 @@
-# Målarkitektur-digital-hjemmeoppfølging
+# Testdokumentasjon Målarkitektur-digital-hjemmeoppfølging
 
-Målarkitektur for samhandling innen Digital hjemmeoppfølging
+Testprosjekt for å se hvordan arkitekturdokumentasjon enklest mulig kan publiseres og vedlikeholdes på Github.
+
+## Bruker 
+* [just the docs - layout template for Github.io sidene](https://github.com/just-the-docs/just-the-docs)
+* [Oversette](https://metamug.com/util/confluence-to-markdown/) confluence sider til markdown
+
+## Forutsetninger
+
+* index.md må ligge i rotkatalog på prosjektet?
+* markdown filene bør ha just-the-docs metadata
+~~~ 
+---
+layout: default
+title: Innledning
+nav_order: 1
+---
+~~~
