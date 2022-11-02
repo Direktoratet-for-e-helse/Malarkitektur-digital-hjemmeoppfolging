@@ -9,7 +9,7 @@ QA version
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| QA version | v0.5 | review  | veileder
+| QA version | v0.5 | review  | veileder |
 
 # Målarkitektur Samhandling DHO
 
