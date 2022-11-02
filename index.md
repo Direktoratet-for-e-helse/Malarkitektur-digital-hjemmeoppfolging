@@ -4,6 +4,10 @@ title: Innledning
 nav_order: 1
 ---
 
+| Status | Version | AOB |
+|:-------------|:------------------|:------|
+| Work in progress {: .label .label-yellow } | v0.5 | test  |
+
 # Målarkitektur Samhandling DHO
 
 *Digital hjemmeoppfølging er nye tjenester under utvikling hvor deler av helse- og omsorgstjenesten kan flyttes hjem til innbygger ved hjelp av teknologi.*
