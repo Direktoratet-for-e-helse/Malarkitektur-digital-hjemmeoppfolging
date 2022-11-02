@@ -7,9 +7,9 @@ nav_order: 2
 Work in progress
 {: .label .label-yellow }
 
-| Status | Version | AOB |
+| Status | Version | Maturity |
 |:-------------|:------------------|:------|
-| Work in progress | v0.5 | test  |
+| Work in progress | v0.5 | Testing |
 
 Arkitektuprinsippene beskriver hvordan arbeidet med målarkitektur for samhandling innen digital hjemmeoppføling etterfølger de overordnede arkitekturprinsippene for digitalisering av offentlig sektor.
 
