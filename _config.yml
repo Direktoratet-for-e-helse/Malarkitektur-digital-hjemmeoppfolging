@@ -1,4 +1,4 @@
-remote_theme: Direktoratet-for-e-helse/just-the-docs
+remote_theme: Direktoratet-for-e-helse/just-the-docs-e-helse
 logo: images/logo.png
 title: Digital hjemmeoppfølging målarkitektur Datadeling
 exclude: README.md
