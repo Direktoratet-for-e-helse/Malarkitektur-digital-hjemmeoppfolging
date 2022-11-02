@@ -1,4 +1,4 @@
-remote_theme: just-the-docs/just-the-docs
+remote_theme: thomiz/just-the-docs
 logo: images/logo.png
 title: Digital hjemmeoppfølging målarkitektur Datadeling
 exclude: README.md
