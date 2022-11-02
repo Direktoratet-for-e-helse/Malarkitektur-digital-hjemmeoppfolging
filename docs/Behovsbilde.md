@@ -73,7 +73,7 @@ Referanser: [sentrale begreper definert i Program Digital Samhandling](https://s
 ## Informasjonskomponenter
 
 Modellen viser overordnede informasjonskomponenter som målarkitekturen for DHO dekker. Mapping mot informasjonstjenester definert i [Akson](https://www.ehelse.no/publikasjoner/sentralt-styringsdokument-akson-helhetlig-samhandling-og-felles-kommunal-journallosning).
-![image2022-7-5_13-5-7](https://user-images.githubusercontent.com/6229665/199491224-b4c53ef3-91a6-4231-ae18-623ef3a7233a.png)
+![Behov](../images/image2022-7-5_13-5-7.png)
 
 I tillegg er det identifisert behov for dialogtjenester for kommunikasjon mellom helsepersonell og mellom helsepersonell og innbygger:
 ![image](https://user-images.githubusercontent.com/6229665/199491338-ae581b83-5b29-4e71-aea8-c50ed31ec174.png)
