@@ -2,3 +2,6 @@ remote_theme: just-the-docs/just-the-docs
 logo: images/logo.png
 title: Digital hjemmeoppfølging målarkitektur Datadeling
 exclude: README.md
+
+plugins:
+  - jekyll-seo-tag
