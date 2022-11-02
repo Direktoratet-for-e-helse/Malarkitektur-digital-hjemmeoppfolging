@@ -6,7 +6,10 @@ nav_order: 1
 
 | Status | Version | AOB |
 |:-------------|:------------------|:------|
-| Work in progress {: .label .label-yellow } | v0.5 | test  |
+| Work in progress | v0.5 | test  |
+
+Work in progress 
+{: .label .label-yellow }
 
 # Målarkitektur Samhandling DHO
 
