@@ -21,7 +21,24 @@ Det er vesentlig at oppfølgingen ikke begrenses til der pasienten bor, men at d
 
 Pasienten kan i prinsippet oppholde seg hvor som helst fysisk, men likevel kunne nå et avstandsbasert helsetilbud når det er forsvarlig.
 
+## Formålet med målarkitekturen
+
+Målarkitekturen skal være et verktøy for å koordinere innsatsen i sektoren slik at alle aktørene arbeider i samme retning for å løse samhandlingsutfordringene.
+
+* Definere felles arkitekturmål for samhandling innen DHO
+  * Målarkitekturen har fokus på pasientrapporterte data og samhandlingsløsninger for å utveksle disse mellom virksomheter og omsorgsnivå
+  * Målarkitekturen skal fungere som et verktøy for å koordinere innsatsen i sektoren for å etablere datadelingsløsninger innen DHO området
+  * Dokumentere felles arkitekturvalg og anbefalte samhandlingsmønster for DHO
+  * Beskrive informasjonstjenester og infrastrukturtjenester som må etableres for å realisere samhandlingen
+* Gi oversikt over behovsbildet
+  * Beskrive behov for informasjon og samhandling på tvers av virksomheter og omsorgsnivå
+* Skal fungere som kommunikasjonsverktøy mot helse- og omsorgstjenesten, leverandører og NHN
+  * Benyttes i drøfting og forankring av felles retning for utvikling av DHO løsninger
+* Beskrive juridiske problemstillinger knyttet til DHO
+  * Beskrive det juridiske handlingsrommet for etablering av datadelingsløsninger i helsesektoren
+
 ## Målarkitektur for samhandling innen digital hjemmeoppfølging inneholder
+
 * Dokumenterer felles arkitekturvalg og samhandlingsmønster som benyttes i DHO
 * Behov for informasjon og samhandling for å understøtte tjenesten
   * Inkludert bruk av eksisterende eller planlagte informasjonstjenester
@@ -34,22 +51,14 @@ Pasienten kan i prinsippet oppholde seg hvor som helst fysisk, men likevel kunne
 * Behov for andre normerende produkter (Semantisk nivå, tillitstjenester, hvordan etablere infrastrukturtjenester i virksomheten)
 * Overordnede juridiske avklaringer
 
-## Formålet med målarkitekturen
-* Skal fungere som kommunikasjonsverktøy mot helse- og omsorgstjenesten, leverandører og NHN
-  * Benyttes i drøfting og forankring av felles retning for utvikling av DHO
-  * Enighet om felles mål, definere mulighetsrom for aktørene
-* Definere felles arkitekturmål for samhandling innen DHO
-  * Fokus på pasientrapporterte data og samhandlingsløsninger for å utveksle disse mellom virksomheter og omsorgsnivå
-* Gi oversikt over behovsbildet
-  * knyttet til behov for utveksling på tvers av virksomheter
-* Beskrive juridiske problemstillinger knyttet til DHO på et overordnet nivå
- 
 ## Kontekst for målarkitekturen
+
 En målarkitektur er en fremtidig, ønsket tilstand. Det er naturlig å ha en stegvis, behovsprøvd tilnærming til realisering av målarkitekturen.
 
 Samtidig er det viktig at de første stegene forholder seg til en fremtidig målarkitektur for å unngå arkitekturvalg som senere vil være kostbare å endre på. Målarkitekturen beskriver ikke hvordan løsningene i arkitekturen skal realiseres og kan derfor sammenlignes med en reguleringsplan.
 
 ### Hvor passer dette produktet inn
-* Referansearkitektur
-* Målarkitektur
-* Løsningsarkitektur
+
+* Referansearkitektur - Målarkitekturen for datadeling DHO bygger på relevante referansearkitekturer på området
+* Målarkitektur - Målarkitekturen for datadeling DHO bygger på relevante eksisterende målarkitekturer og videreutvikler og konkretiserer hvordan disse anvendes på DHO området
+* Løsningsarkitektur - Målarkitekturen gir føringer for løsningsarkitektur innden datadeling og DHO
