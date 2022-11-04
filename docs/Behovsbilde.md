@@ -29,7 +29,7 @@ Den nasjonale samhandlingstjenesten for DHO skal tilrettelegge for følgende fun
 * *Jeg som helsepersonell kan samarbeide med pasienter og helsepersonell om utarbeidelse og oppfølging av pasientplaner*
 * *Jeg som pasient får tilgang til oppdatert og relevant informasjon for å ivareta egen helse*
 
-![image](https://user-images.githubusercontent.com/6229665/199927751-579260ae-c483-4d4b-8a3f-e58ad4aa5c50.png)
+![image](https://user-images.githubusercontent.com/6229665/199928633-4a1aafb4-ba76-41e3-a081-4d1db995ec49.png)
 
 ### Hypoteser knyttet til behov
 
