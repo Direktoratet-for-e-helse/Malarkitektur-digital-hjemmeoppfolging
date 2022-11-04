@@ -29,6 +29,8 @@ Den nasjonale samhandlingstjenesten for DHO skal tilrettelegge for følgende fun
 * *Jeg som helsepersonell kan samarbeide med pasienter og helsepersonell om utarbeidelse og oppfølging av pasientplaner*
 * *Jeg som pasient får tilgang til oppdatert og relevant informasjon for å ivareta egen helse*
 
+![image](https://user-images.githubusercontent.com/6229665/199927751-579260ae-c483-4d4b-8a3f-e58ad4aa5c50.png)
+
 ### Hypoteser knyttet til behov
 
 Hypotesene beskriver forutsetninger som ligger til grunn for behovskartleggingen knyttet til DHO. Det ligger i hypotesenes behov at de bør testes før målarkitekturen ferdigstilles, det er et åpent spørsmål hvordan disse hypotesene testes og om de kan testes som en del av utprøvingsprosjektene innen DHO.
