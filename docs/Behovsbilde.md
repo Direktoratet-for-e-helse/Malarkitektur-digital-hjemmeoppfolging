@@ -4,12 +4,11 @@ title: Overordnet behovsbilde DHO
 nav_order: 4
 ---
 
-QA version
-{: .label .label-yellow }
+QA version {: .label .label-yellow }
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| QA version | v0.5 | review  | veileder |
+| QA version {: .label .label-yellow } | v0.5 | review  | veileder |
 
 ## Behovene skal konkretiseres i utprøvingene
 
