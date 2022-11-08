@@ -4,12 +4,11 @@ title: Arkitekturprinsipper
 nav_order: 2
 ---
 
-QA version
-{: .label .label-yellow }
+Work in progress {: .label .label-yellow }
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| QA version | v0.5 | review  | veileder |
+| Work in progress | v0.5 | review  | veileder |
 
 
 Arkitektuprinsippene beskriver hvordan arbeidet med målarkitektur for samhandling innen digital hjemmeoppføling etterfølger de overordnede arkitekturprinsippene for digitalisering av offentlig sektor.
