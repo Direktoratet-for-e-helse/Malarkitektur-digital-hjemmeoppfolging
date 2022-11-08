@@ -4,7 +4,8 @@ title: Innledning
 nav_order: 1
 ---
 
-Work in progress {: .label .label-yellow }
+Work in progress 
+{: .label .label-yellow }
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
