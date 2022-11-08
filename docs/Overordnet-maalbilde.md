@@ -4,12 +4,11 @@ title: Overordnet målbilde DHO
 nav_order: 3
 ---
 
-QA version
-{: .label .label-yellow }
+Work in progress {: .label .label-yellow }
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| QA version | v0.5 | review  | veileder |
+| Work in progress | v0.5 | review  | veileder |
 
 Kapittelet beskriver de overordnede strategiske målene for DHO arbeidet definert for Tiltak 5 som identifiserer "Definere en overordnet arkitektur for datadeling" som en hovedleveranse.
 
