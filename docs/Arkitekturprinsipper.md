@@ -4,7 +4,8 @@ title: Arkitekturprinsipper
 nav_order: 2
 ---
 
-Work in progress {: .label .label-yellow }
+Work in progress 
+{: .label .label-yellow }
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
