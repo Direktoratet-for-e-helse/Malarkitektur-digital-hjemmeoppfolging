@@ -4,7 +4,8 @@ title: Overordnet målbilde DHO
 nav_order: 3
 ---
 
-Work in progress {: .label .label-yellow }
+Work in progress 
+{: .label .label-yellow }
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
