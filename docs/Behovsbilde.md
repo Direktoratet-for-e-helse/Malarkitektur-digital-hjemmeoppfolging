@@ -4,7 +4,8 @@ title: Overordnet behovsbilde DHO
 nav_order: 4
 ---
 
-Work in progress {: .label .label-yellow }
+Work in progress 
+{: .label .label-yellow }
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
