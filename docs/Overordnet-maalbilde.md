@@ -11,14 +11,14 @@ Work in progress
 |:-------------|:------------------|:------|:-------|
 | Work in progress | v0.5 | review  | veileder |
 
-Kapittelet beskriver de overordnede strategiske målene for DHO arbeidet definert for Tiltak 5 som identifiserer "Definere en overordnet arkitektur for datadeling" som en hovedleveranse.
+Kapittelet beskriver de overordnede strategiske målene for DHO arbeidet. Utviklingen av målarkitektur for samhandling innen DHO er en hovedleveranse fra Tiltak 5 i DHO arbeidet.
 
 Målbildet på strategisk nivå for DHO er beskrevet i [Veien videre for Nasjonalt velferdsteknologiprogram og Digi-hjem 2022-2024](https://sh.ehelse.no/dihj/_layouts/15/WopiFrame.aspx?sourcedoc={ef7e38d0-ed5d-4983-9c3c-a73ed4a21b23}). Modellen viser sammenhengene mellom overordnede samfunnsmål definert for området. Det er også identifisert eksisterende barrierer for utbredelsen av velferdsteknologi og effektiv utnyttelse av DHO i helse og omsorgssektoren. 
 ![image](https://user-images.githubusercontent.com/6229665/198982995-9deae3a8-bb01-4acc-abff-12751f471475.png)
 
 ## Resultatmål
 Vi konkretiserer ikke resultatmål i dette arbeidet utover det som er beskrevet i [Veien videre for Nasjonalt   
-velferdsteknologiprogram og Digi-hjem](https://sh.ehelse.no/dihj/_layouts/15/WopiFrame.aspx?sourcedoc={ef7e38d0-ed5d-4983-9c3c-a73ed4a21b23}) hvor dette er grundig behandlet og det er listet opp en rekke resultatmål for arbeidet. Vi gjengir likevel de mest sentrale for Tiltak 5 her:
+velferdsteknologiprogram og Digi-hjem](https://sh.ehelse.no/dihj/_layouts/15/WopiFrame.aspx?sourcedoc={ef7e38d0-ed5d-4983-9c3c-a73ed4a21b23}) hvor dette er behandlet og det er listet opp en rekke resultatmål for arbeidet. Vi gjengir de som er mest sentrale for Tiltak 5 her:
 
 * Behov for informasjonsdeling knyttet til bruk av velferdsteknologi og digital hjemmeoppfølging er innen utgangen av 2024 ivaretatt i planene og leveransene for normerende produkter og nasjonale samhandlingsløsninger, og det er etablert varige strukturer som ivaretar tjenestens behov for videreutvikling etter programmets slutt.
 * Det er konsensus om definisjoner og terminologi knyttet til velferdsteknologi og digital hjemmeoppfølging innen utgangen av 2022.
