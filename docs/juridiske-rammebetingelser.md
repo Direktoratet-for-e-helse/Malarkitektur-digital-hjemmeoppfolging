@@ -1,3 +1,16 @@
+---
+layout: default
+title: Arkitekturprinsipper
+nav_order: 5
+---
+
+Work in progress 
+{: .label .label-yellow }
+
+| Status | Version | Maturity | Normative level |
+|:-------------|:------------------|:------|:-------|
+| Work in progress | v0.3 | draft  | veileder |
+
 ## Sammendrag
 
 Digital hjemmeoppfølging er underlagt det samme rettslige rammeverket som øvrig helsehjelp. Krav til behandling av helse- og personopplysninger som stilles i helselovgivningen og personvernregelverket må følges når en benytter digital hjemmeoppfølging som en integrert del av et behandlingsforløp. Ved bruk av digital hjemmeoppfølging må det dermed gjøres konkrete vurderinger i de enkelte tilfellene slik at det sikres at bestemmelsene om f.eks. dokumentasjonsplikt, tilgjengeliggjøring av opplysninger, taushetsplikt, ansvarsforhold, behandlingsgrunnlag, informasjonssikkerhet mv. oppfylles på vanlig måte.
