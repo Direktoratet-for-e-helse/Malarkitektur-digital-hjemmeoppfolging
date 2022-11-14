@@ -35,3 +35,11 @@ Digitaliseringstiltakene innenfor tiltak 5 er definert til å være:
 3. Utvide dagens utprøving av datadeling som også omfatter samhandling mellom primær- og spesialisthelsetjenesten
 4. Råd og veiledning som dekker behov hos både spesialist- og primærhelsetjenesten.
 5. Videreutvikle velferdsteknologisk knutepunkt
+
+## Verdistrøm for samhandling i behandlingsforløpet
+
+Formålet med effektmålet "økt, bedre og sikker digital samhandling på tvers av tjenestenivåer og øvrige sektorer" er å gi verdi for sluttbrukere som helsepersonell og innbygger.
+
+Modellen viser en overordnet verdistrøm med fokus på verdi som effektmålet kan gi for helsepersonell og innbygger involvert i et behandlingsforløp.
+
+![Verdistrøm for samhandling](../images/verdistrøm.png)
