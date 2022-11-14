@@ -77,7 +77,7 @@ For å komme fort i gang gjør vi noen avgrensninger i forhold til de behovene v
     *   Det antas at utveksling av strukturert informasjon kan være nyttig også knyttet til sekundærbruk innen forskning og kvalitetssikring av helsehjelp
 *   Tradisjonell trygghets og mestringsteknologi er ikke en del av omfanget for målarkitekturen for DHO.
     *   Behovene knyttet til trygghet og mestring er relativt godt analysert i tidligere arbeid og det er bare små overlapp mellom DHO og trygghet og mestringsområdet
-    *   Noen teknologiske løsninger og utfordringer er imidlertid sammenfallende med trygghet og mestringsområdet og vil også være en naturlig del av behovsbildet for DHO
+    *   Noen teknologiske løsninger og utfordringer er imidlertid sammenfallende med trygghet og mestringsområdet og vil også være en naturlig del av behovsbildet og løsningene som benyttes innen DHO området
 
 ### Hypoteser knyttet til behov
 
