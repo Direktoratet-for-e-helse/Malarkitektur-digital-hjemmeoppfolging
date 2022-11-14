@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Arkitekturprinsipper
+title: Juridiske rammebetingelser
 nav_order: 5
 ---
 
