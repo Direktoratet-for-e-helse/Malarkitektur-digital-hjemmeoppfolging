@@ -184,24 +184,20 @@ Kombinasjon av §9 og distribuert implementasjon av datadeling mellom virksomhet
 
 ![Full fleks](../images/226722841.png)
 
-**Fordeler**
-
+#### Fordeler  
 *   Fleksibel løsning
 *   I tråd med målarkitektur for datadeling
 *   Kan realiseres innenfor gjeldende rett
 
-**Ulemper**
-
+#### Ulemper  
 *   Mangler retning
 *   Tillitsanker finnes ikke
 *   PIL finnes ikke
 
-**Muligheter**
-
+#### Muligheter  
 *   Kan gjennomføres med begrensede investeringer (for et lite antall virksomheter)
 
-**Trusler**
-
+#### Trusler  
 *   Skalering krever utvikling av felleskomponenter
 *   Usikkert om PIL kan realiseres innen gjeldende rett
 *   Det eksisterer ikke avklart finansieringsmodell for nye felleskomponenter i felles infrastruktur
