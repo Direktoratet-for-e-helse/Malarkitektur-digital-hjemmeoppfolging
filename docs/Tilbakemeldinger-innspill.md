@@ -1,0 +1,2 @@
+# Tilbakemeldinger og innspill
+Arbeidet med målarkitekturen er en dynamisk prosess og vi ønsker løpende innspill på innholdet. Hvis du ønsker å komme med innspill eller endringsforslag anbefaler vi å opprette saker, kalt [issues](https://github.com/Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging/issues), direkte i GitHub, det er også mulig å be om tilgang til å oppdatere dokumentasjonen hvis du ønsker å delta i arbeidet direkte. Du kan da be om skrivetiltang til repoet ved å kontakte en av administratorene for området.
