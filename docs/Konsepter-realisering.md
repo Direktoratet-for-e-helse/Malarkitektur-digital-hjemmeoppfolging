@@ -59,7 +59,7 @@ Ved etablering av distribuerte datadelingsløsninger i virksomhetenes egne infra
 *   Det kan være utfordrende å utarbeide felles semantiske spesifikasjoner som gir god nok nytte for virksomhetene
 *   Etablering av tillitsanker og felles krav knyttet til dette kan være komplisert
 
-### **Distribuerte datadelingsløsninger (i sentral infrastruktur)**
+### Distribuerte datadelingsløsninger (i sentral infrastruktur)
 
 Datadelingsløsninger i regional infrastruktur gjør det mulig å etablere datadelingsløsningene fra flere virksomheter i den samme tekniske infrastrukturen og basere seg på den samme kildekoden som basis for datadelingsløsningene. Informasjonen fra hver enkelt dataansvarlig virksomhet lagres imidlertid logisk adskilt og reguleres av en databehandleravtale mellom virksomheten og tilbyderen av tjenesten. Fordelen med en slik tilnærming er at man kan gjenbruke kode og infrastruktur, på tvers av virksomheter, for å etablere mange datadelingstjenester med like grensesnitt. Gjenbruk av kode og kompetanse vil gjøre det raskere å skalere samt at man får stordriftsfordeler knyttet til drift og vedlikehold av tjenestene. Hvis denne tilnærmingen skal fungere for mange aktører kreves det at man benytter en PIL komponent i sentral infrastruktur (pasientinformasjons lokalisator) siden man i praksis må etablere støtte for distribuerte søk på tvers av virksomheter.
 
@@ -76,17 +76,18 @@ Datadelingsløsninger i regional infrastruktur gjør det mulig å etablere datad
 
 #### Fordeler
 
-*   Fordeler som med distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)
-*   I tillegg gir modellen mulighet for å gjenbruke funksjonalitet på tvers av virksomheter
-*   Kan gjøre det enklere å realisere PIL
-*   Det kan være enklere å implementere felles tillitsmodell som en del av databehandleravtalene
+* Fordeler som med distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)
+* I tillegg gir modellen mulighet for å gjenbruke funksjonalitet på tvers av virksomheter
+* Det er større potensiale for gjenbruk av kode på tvers av virksomhetene og derfor enklere å skalere raskt
+* Kan gjøre det enklere å realisere PIL
+* Det kan være enklere å implementere felles tillitsmodell som en del av databehandleravtalene
 
 #### Ulemper
 
-*   Ulemper som for distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)
-*   Det er større potensiale for gjenbruk av kode på tvers av virksomhetene og derfor enklere å skalere raskt
-*   Med en sentral leverandør av søkefunksjonalitet er det en risiko for at den sentrale leverandøren kan bli en flaskehals og dermed gi dårligere rammer for lokal innovasjon
-*   Det er uavklart juridisk om 3.parts leverandør kan håndtere søkefunksjonalitet (med lagring) for virksomhetene
+* Ulemper som for distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)
+* Alle virksomhetene må implementere synkronisering av egne data mot datalager i sentral infrastruktur
+* Med en sentral leverandør av søkefunksjonalitet er det en risiko for at den sentrale leverandøren kan bli en flaskehals og dermed gi dårligere rammer for lokal innovasjon
+* Det er uavklart juridisk om 3.parts leverandør kan håndtere søkefunksjonalitet (med lagring) for virksomhetene
 
 ### Regionale fellesløsninger
 
@@ -148,7 +149,8 @@ Ved etablering av sentral regional datadelingsløsning baserer vi oss på at inf
 
 #### Ulemper
 
-*   Foreløpige vurderinger tyder på at §9 ikke kan benyttes til å etablere felles regionale løsninger hvor hovedformålet er datadeling
+* Foreløpige juridiske vurderinger tyder på at §9 ikke kan benyttes til å etablere felles regionale løsninger hvor hovedformålet er datadeling
+* Alle virksomhetene må implementere synkronisering av egne data mot datalager i sentral infrastruktur
 
 ### Nasjonal sentral datadelingsløsning med lagring
 
@@ -173,10 +175,11 @@ Ved etablering av en nasjonal sentral datadelingsløsning baserer vi oss på at 
 
 #### Ulemper
 
-*   Det er ikke mulig å hjemle opprettelsen av nasjonal datadelingsløsning i gjeldende lover og regler
-*   Det er vanskelig å argumentere for regelverksutvikling for en slik løsning siden hoveddelen av samhandlingen antakelig vil foregå regionalt 
-    *   Informasjonen som skal lagres i registeret er ikke sammenfallende med eksisterende nasjonale løsninger som kjernejournal eller e-resept. Det er derfor ikke mulig å benytte noen av disse forordningene som rettslig grunnlag for et nasjonalt register for datadeling innen DHO. Det er heller ikke snakk om å erstatte lokale løsninger med sentrale, men å etablere nasjonale løsninger som kommer i tillegg til de lokale med hovedfokus på å etablere bedre samhandlingsløsninger mellom virksomhetene.
-*   Kan gi mindre fleksibilitet og mulighet for tjenesteinnovasjon siden den nasjonale datadelingen håndtere av en løsning og en leverandør
+* Det er ikke mulig å hjemle opprettelsen av nasjonal datadelingsløsning i gjeldende lover og regler
+* Det er vanskelig å argumentere for regelverksutvikling for en slik løsning siden hoveddelen av samhandlingen antakelig vil foregå regionalt 
+   * Informasjonen som skal lagres i registeret er ikke sammenfallende med eksisterende nasjonale løsninger som kjernejournal eller e-resept. Det er derfor ikke mulig å benytte noen av disse forordningene som rettslig grunnlag for et nasjonalt register for datadeling innen DHO. Det er heller ikke snakk om å erstatte lokale løsninger med sentrale, men å etablere nasjonale løsninger som kommer i tillegg til de lokale med hovedfokus på å etablere bedre samhandlingsløsninger mellom virksomhetene.
+* Kan gi mindre fleksibilitet og mulighet for tjenesteinnovasjon siden den nasjonale datadelingen håndtere av en løsning og en leverandør
+* Alle virksomhetene må implementere synkronisering av egne data mot sentalt datalager
 
 ### Alternativ full fleks
 
