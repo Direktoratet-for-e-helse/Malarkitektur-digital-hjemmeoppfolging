@@ -9,7 +9,7 @@ Work in progress
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| Work in progress | v0.5 | review  | veileder |
+| Work in progress | v0.5 | review  | ikke normert |
 
 Ulike arkitekturprodukter for e-helse må henge sammen for å beskrive helheten. Vi må beskrive hvordan totalbildet ser ut av produkter og hvordan det henger sammen.
 

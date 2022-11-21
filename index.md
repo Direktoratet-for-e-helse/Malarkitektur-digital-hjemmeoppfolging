@@ -9,7 +9,7 @@ Work in progress
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| Work in progress | v0.5 | review  | veileder |
+| Work in progress | v0.5 | review  | ikke normert |
 
 # Målarkitektur Samhandling DHO
 

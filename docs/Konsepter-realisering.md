@@ -9,7 +9,7 @@ Work in progress
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| Work in progress | v0.5 | review  | veileder |
+| Work in progress | v0.5 | review  | ikke normert |
 
 Formålet med denne delen av målarkitekturen er å vise hvordan målarkitekturen kan benyttes for å beskrive løsningskonsepter for realisering av datadeling innen DHO. Det er da fokus på å dokumentere samhandlingsmønstre og nødvendige tjenester og komponenter som må etableres i virksomhetene for å svare ut konkrete behov knyttet til DHO.
 

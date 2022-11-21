@@ -9,7 +9,7 @@ Work in progress
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| Work in progress | v0.3 | draft  | veileder |
+| Work in progress | v0.3 | draft  | ikke normert |
 
 ## Sammendrag
 
