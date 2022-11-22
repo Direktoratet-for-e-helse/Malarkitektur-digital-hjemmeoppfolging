@@ -15,8 +15,7 @@ Helse- og omsorgssektoren har behov for mer effektiv samhandling for å øke til
 
 Behovene i helsetjenesten ligger til grunn for etablering av samhandlingsløsningene i sektoren og legger premissene for hvilke samhandlingsløsninger som skal etableres og videreutvikles. Behovene knyttet til Digital hjemmeoppfølging er i stor grad overlappende med andre tjenesteforløp og vi kan derfor lære mye om nødvendige samhandlingsløsninger i sektoren ved å se spesielt på sammensatte tjenesteforløp innen DHO. Behovene henter vi fra utprøvingsprosjekter og tjenesteeiere i helse- og omsorgssektoren. Erfaring fra utprøvingsprosjektene skal over tid føre til mer spesifikk behovskartlegging knyttet til erfaring med utveksling av informasjon mellom virksomheter og behandlingsnivå knyttet til DHO. Vi skiller i det videre arbeidet mellom informasjonsbehov og funksjonelle behov.
 
-Hva er Digital hjemmeoppfølging
--------------------------------
+## Hva er Digital hjemmeoppfølging
 
 __Digital hjemmeoppfølging innebærer at hele eller deler av et behandlingstilbud foregår uten fysisk kontakt, der dialog og deling av data mellom pasient/bruker og behandler(e) skjer digitalt.__
 
@@ -30,8 +29,7 @@ _egen helsetilstand eller automatiske målinger, sendes digitalt til helsetjenes
 _og ved behov følger opp pasienten primært via digitale verktøy (Helse- og_   
 _omsorgsdepartementet, 2019)._
 
-Overordnede brukerhistorier (konklusjon)
-----------------------------------------
+## Overordnede brukerhistorier (konklusjon)
 
 Samhandlingstjenester for DHO skal tilrettelegge for følgende funksjonelle behov:
 
@@ -107,7 +105,7 @@ Prioritet scores mellom høy/middels/lav/ekstern (ekstern betegner behov som spi
 |Helsepersonell (kommune, spesialist og fastlege)|middels / lang|Tilgang til sanntidsinformasjon der det er relevant (målinger for eksempel)|Dette er ikke påpekt av tjenestene som er en del av utprøvingene, men er en del av HSØ sitt målbilde for utveksling av målinger|
 |Helsepersonell (kommune, spesialist og fastlege)|middels / lang|Behov for å ivareta at utstyret følger pasienten uavhengig hvem som er behandlingsansvarlig|Løsninger knyttet til delt sanking av data og oppfølging av utplassert utstyr hos pasient stiller store krav til hvordan utstyrslogistikken samordnes mellom partene. Dette inkluderer utveksling av informasjon om utstyrstype, fastvareversjoner, strømstatus, feilmeldinger og direkte tilgang til automatisert og manuell teknisk inngripen med utstyret via internett eller på stedet. I og med at det ikke eksisterer gode standardiserte løsninger knyttet til utstyrslogistikk av heterogent utstyr anskaffet fra mange virksomheter har vi valgt å ikke inkludere utstyrslogistikk i det kortsiktige målbildet. Dette kan også påvirke muligheten til å ivareta denne delen av behovet på kort sikt.|
 |Fastlege||Fastlegen har de samme behov som helsepersonell for øvrig, men har ikke daglig oppfølging av pasienten i en DHO tjeneste. De har behov for informasjon om pasient på forespørsel når pasienten tar kontakt.|Likt behov som for øvrig helsepersonell? Systemer: EPJ og noen bruker KJ og Helsenorge.|
-|Pasient / pårørende|høy / kort|Som innbygger ønsker jeg å ha tilgang til informasjon som gjør det mulig å håndtere og forstå egen helse.|Finne informasjon om pasienten </br> Vise informasjon som gjelder pasienten </br> Vise trender og sammenhenger mellom informasjon samlet inn av flere virksomheter|Det må være lett for pasient å få tilgang til egen helseinformasjon. </br> Det må være lett for pasient å oppdatere data om egen helse og behandling. </br> Pårørende må ha mulighet til å få innsyn og være deltakende ut fra behov og ønske fra pasient.|
+|Pasient / pårørende|høy / kort|Som innbygger ønsker jeg å ha tilgang til informasjon som gjør det mulig å håndtere og forstå egen helse. Finne informasjon om pasienten </br> Vise informasjon som gjelder pasienten </br> Vise trender og sammenhenger mellom informasjon samlet inn av flere virksomheter|Det må være lett for pasient å få tilgang til egen helseinformasjon. </br> Det må være lett for pasient å oppdatere data om egen helse og behandling. </br> Pårørende må ha mulighet til å få innsyn og være deltakende ut fra behov og ønske fra pasient.|
 |Pasient / pårørende|middels / kort|Det må være mulig for meg som pasient å se hvem som har tilgang til mine data for å ivareta mitt personvern.|Det må være lett for pasient å se hvem som har tilgang til mine data.|
 |Pasient / pårørende|høy / mellom|Jeg må være sikker på at relevant helsepersonell får tilgang til tilstrekkelig informasjon slik at jeg kan motta best mulig helsetilbud og at helsetjenesten iverksetter de beste tiltakene for å ivareta min helse.|Pasient skal ikke trenge å videreformidle informasjon mellom helsepersonell, det skal skje ved hjelp av datadeling på tvers.|
 
