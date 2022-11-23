@@ -1,6 +1,6 @@
 # Testdokumentasjon Målarkitektur-digital-hjemmeoppfølging
 
-Testprosjekt for å se hvordan arkitekturdokumentasjon enklest mulig kan publiseres og vedlikeholdes på Github.
+Testprosjekt for å se hvordan arkitekturdokumentasjon enklest mulig kan publiseres og vedlikeholdes på Github i regi Direktoratet for e-helse.
 * [Generert dokumentasjon for målarkitekturen](https://direktoratet-for-e-helse.github.io/Malarkitektur-digital-hjemmeoppfolging/)
 
 ## Bruker 
