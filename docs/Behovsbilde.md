@@ -76,8 +76,10 @@ For å komme fort i gang gjør vi noen avgrensninger i forhold til de behovene v
 
 Hypotesene beskriver forutsetninger som ligger til grunn for behovskartleggingen knyttet til DHO. Det ligger i hypotesenes behov at de bør testes før målarkitekturen ferdigstilles, det er et åpent spørsmål hvordan disse hypotesene testes og om de kan testes som en del av utprøvingsprosjektene innen DHO.
 
-*   Samhandlingsbehovet knyttet til DHO er størst regionalt
-    *   Arbeidet med målarkitektur for DHO fokuserer derfor på å tilrettelegge for samhandling på regionalt nivå
+* Samhandlingsbehovet knyttet til DHO er størst regionalt
+  * Arbeidet med målarkitektur for DHO fokuserer derfor på å tilrettelegge for samhandling på regionalt nivå
+<!-- Hvordan unngår vi å ta arkitekturvalg som hindrer oss fleksibilitet senere -->
+
 
 ### Behov sluttbruker
 
@@ -92,8 +94,9 @@ Prioritet scores mellom høy/middels/lav/ekstern (ekstern betegner behov som spi
 |Helsepersonell (kommune, spesialist og fastlege)|høy / kort|Vise informasjon som andre virksomheter og behandlingsnivåer har samlet inn om pasienten|Felles informasjonsstruktur og innhold er viktig både for: </br> - Å vise informasjon fra flere eksterne virksomheter </br> - Tilby enhetlig søkegrensesnitt på tvers av flere virksomheter </br> - Sammenstilling av informasjon fra flere kilder i felles visning|
 |Helsepersonell (kommune, spesialist og fastlege) | høy / mellom | Vise trender og sammenhenger mellom informasjon samlet inn i egen og andre virksomheter|Felles informasjonsstruktur og innhold er viktig både for: </br> - Å vise informasjon fra flere eksterne virksomheter </br> - Tilby enhetlig søkegrensesnitt på tvers av flere virksomheter </br> - Sammenstilling av informasjon fra flere kilder i felles visning|
 |Helsepersonell (kommune, spesialist og fastlege)|høy / kort|Samhandlingen og arbeidsflyten skal ikke medføre dobbeltarbeid|Det skal ikke være nødvendig å registrere samme informasjon flere ganger (i ulike systemer) eller logge seg på i ulike systemer for å gjennomføre arbeidsoppgaver knyttet til samme pasient og tiltak (SSO) /Er det noe krav til innlogging med tanke på HPR, må alle være registrert der? Trenger også personell som sekretærer tilgang?|
+|Helsepersonell (kommune, spesialist og fastlege)|middels / mellom|Arbeidsflyt og samhandling må støttes i en enhetlig utformet brukerflate|Unngå særegne systemer for oppslag i DHO resultater </br> Unngå mange ulike utformede arbeidsflater som ikke er integrert|
 |Helsepersonell (kommune, spesialist og fastlege)|middels / mellom|Det må være mulig å kvalitetssikre relevant informasjon ved å se hvor informasjonen kommer fra og hvordan den er samlet inn|Proveniens og metadata med riktig detaljnivå må følge informasjonen når den utveksles|
-|Helsepersonell (kommune, spesialist og fastlege)|middels / mellom|Tilgang til ulike typer informasjon for å understøtte tjenesteforløpet knyttet til flere pasientgrupper. </br> Aktuelle pasientgrupper kan være KOLS syke, multisyke og andre pasientgrupper med behov for digital hjemmeoppfølging||
+|Helsepersonell (kommune, spesialist og fastlege)|middels / mellom|Tilgang til ulike typer informasjon for å understøtte tjenesteforløpet knyttet til flere pasientgrupper.|Aktuelle pasientgrupper kan være KOLS syke, multisyke og andre pasientgrupper med behov for digital hjemmeoppfølging|
 |Helsepersonell (kommune, spesialist og fastlege)|ekstern (høy) / mellom|Samarbeide om utarbeidelsen av behandlingsplan og egenbehandlingsplan med pasienten og klinikere fra andre virksomheter|Det må eksistere felles kilde til planer og felles verktøy for samarbeid om planer|
 |Helsepersonell (kommune, spesialist og fastlege)|ekstern (høy) / lang|Det må være tydelig og avklart sammenheng mellom tiltak i egenbehandlingsplanen og DHO utstyr/verktøy benyttes i egenbehandlingsplanens tiltak|Det må være lett å se informasjon fra plan og DHO-utstyr i sammenheng|
 |Helsepersonell (kommune, spesialist og fastlege)|høy / mellom|Behov for individuell tilpasset tjeneste ut fra type pasient og behov knyttet til daglig oppfølging||
