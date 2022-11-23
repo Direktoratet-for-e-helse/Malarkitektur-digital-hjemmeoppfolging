@@ -17,27 +17,22 @@ Behovene i helsetjenesten ligger til grunn for etablering av samhandlingsløsnin
 
 ## Hva er Digital hjemmeoppfølging
 
-__Digital hjemmeoppfølging innebærer at hele eller deler av et behandlingstilbud foregår uten fysisk kontakt, der dialog og deling av data mellom pasient/bruker og behandler(e) skjer digitalt.__
+**Digital hjemmeoppfølging innebærer at hele eller deler av et behandlingstilbud foregår uten fysisk kontakt, der dialog og deling av data mellom pasient/bruker og behandler(e) skjer digitalt.**
 
 Helse og omsorgsdepartementet
 
-_Digital hjemmeoppfølging (tidligere kalt medisinsk avstandsoppfølging) er nye helsetjenester_   
-_hvor deler av helse- og omsorgstjenesten kan flyttes hjem til pasienten ved hjelp av_   
-_teknologi. Pasientene er aktive deltakere og bidragsytere i helsehjelpen de mottar og kan_   
-_følges opp i hjemmet ved at pasientens egenmålinger, pasientrapporterte opplysninger om_   
-_egen helsetilstand eller automatiske målinger, sendes digitalt til helsetjenesten, som vurderer_   
-_og ved behov følger opp pasienten primært via digitale verktøy (Helse- og_   
-_omsorgsdepartementet, 2019)._
+*Digital hjemmeoppfølging (tidligere kalt medisinsk avstandsoppfølging) er nye helsetjenester*  
+*hvor deler av helse- og omsorgstjenesten kan flyttes hjem til pasienten ved hjelp av teknologi. Pasientene er aktive deltakere og bidragsytere i helsehjelpen de mottar og kan følges opp i hjemmet ved at pasientens egenmålinger, pasientrapporterte opplysninger om egen helsetilstand eller automatiske målinger, sendes digitalt til helsetjenesten, som vurderer og ved behov følger opp pasienten primært via digitale verktøy (Helse- og omsorgsdepartementet, 2019).*
 
 ## Overordnede brukerhistorier (konklusjon)
 
 Samhandlingstjenester for DHO skal tilrettelegge for følgende funksjonelle behov:
 
-*   _Jeg som helsepersonell får tilgang til oppdatert informasjon om pasienten som er nødvendig for å yte_ _god helsehjelp på en effektiv måte_
-*   _Jeg som helsepersonell kan søke etter og få tilgjengeliggjort relevant informasjon for tjenesteforløp der Digital hjemmeoppfølging benyttes_
-*   _Jeg som ansatt i helse- og omsorgstjenesten slipper å registrere informasjon knyttet til Digital hjemmeoppfølging flere ganger i ulike systemer_
-*   _Jeg som helsepersonell kan samarbeide med pasienter og helsepersonell om utarbeidelse og oppfølging av_ behandlings- og egenbehandlingsplaner 
-*   _Jeg som pasient får tilgang til oppdatert og relevant informasjon for å ivareta egen helse_
+* _Jeg som helsepersonell får tilgang til oppdatert informasjon om pasienten som er nødvendig for å yte_ _god helsehjelp på en effektiv måte_
+* _Jeg som helsepersonell kan søke etter og få tilgjengeliggjort relevant informasjon for tjenesteforløp der Digital hjemmeoppfølging benyttes_
+* _Jeg som ansatt i helse- og omsorgstjenesten slipper å registrere informasjon knyttet til Digital hjemmeoppfølging flere ganger i ulike systemer_
+* _Jeg som helsepersonell kan samarbeide med pasienter og helsepersonell om utarbeidelse og oppfølging av_ behandlings- og egenbehandlingsplaner 
+* _Jeg som pasient får tilgang til oppdatert og relevant informasjon for å ivareta egen helse_
 
 ![229246071](https://user-images.githubusercontent.com/6229665/201673221-debad9fc-b32f-42fb-b0d4-0c8dbeefc2ab.png)
 
@@ -45,11 +40,11 @@ Samhandlingstjenester for DHO skal tilrettelegge for følgende funksjonelle beho
 
 Som en ramme for behovskartleggingen beskrives generelle prosesstrinn som de fleste tjenesteforløp gjennomgår. Prosesstrinnene er angitt på overordnet nivå og har som formål å knytte samhandlingsbehovene til et generelt tjenesteforløp. De overordnede prosesstrinnene kan spesialiseres ved behov for å synliggjøre hvordan samhandlingen understøtter mer spesifikke tjenesteforløp. Ved analyse av samhandlingsbehovene konsentrerer vi oss om hvordan tjenesteforløpet kan understøttes med nye eller endrede samhandlingsløsninger og det meste av arbeidet vil derfor handle om prosessene for **samhandling**. Vi tar utgangspunkt i en generell prosess for tjenesteforløpet i helsetjenesten (for eksempel knyttet til DHO). Prosesstegene baserer seg på behovskartlegging knyttet til utprøvingsprosjekter som arbeider innenfor ulike medisinske fagfelt og er ment å vise generelle prosesser som er involvert i de fleste tjenesteforløpene.
 
-*   **Søknad/Henvisning** er prosesser knyttet til å motta søknad eller henvisning fra andre deler av helsetjenesten  eller innbygger/pårørende. Eksempler kan være at en pasient er tildelt en tjeneste basert på søknad som omfatter hjemmetjenester kombinert med utplassering av DHO-utstyr/ medisinsk utstyr i pasientens hjem
-*   **Oppstart** Oppstart av en ny helsetjeneste inkludert opplæring av involvert helsepersonell og pasienter/pårørende, for eksempel knyttet til bruk av medisindispenser eller annet DHO utstyr
-*   **Behandling og oppfølging** behandling og oppfølging av pasient gjennom tjenesteforløpet er den mest sentrale prosessen i tjenesteforløpet og vil omfatte alle former for oppfølging og behandling som gjennomføres. Det kan være oppfølging ved hjelp av teknologi, tradisjonelle hjemmebesøk eller behandling som krever besøk/innleggelse på helseinstitusjon
-*   **Evaluering** gjennomgå hvordan oppfølgingen fungerer og vurdere nye tiltak og justeringer av eksisterende tiltak. 
-*   **Avslutte** tjeneste, tjenesteforløpet avsluttes etter evaluering.
+* **Søknad/Henvisning** er prosesser knyttet til å motta søknad eller henvisning fra andre deler av helsetjenesten  eller innbygger/pårørende. Eksempler kan være at en pasient er tildelt en tjeneste basert på søknad som omfatter hjemmetjenester kombinert med utplassering av DHO-utstyr/ medisinsk utstyr i pasientens hjem
+* **Diagnose og oppstart** Oppstart av en ny helsetjeneste basert på henvisning og/eller diagnose av pasientens symptomer og utredning av pasientens tilstand. Oppstart inkluderer planlegging av behandling og tiltak som skal gjennomføres, opplæring av involvert helsepersonell og pasienter/pårørende, for eksempel knyttet til bruk av medisindispenser eller annet DHO utstyr
+* **Behandling og oppfølging** behandling og oppfølging av pasient gjennom tjenesteforløpet er den mest sentrale prosessen i tjenesteforløpet og vil omfatte alle former for oppfølging og behandling som gjennomføres. Det kan være oppfølging ved hjelp av teknologi, tradisjonelle hjemmebesøk eller behandling som krever besøk/innleggelse på helseinstitusjon
+* **Evaluering** gjennomgå hvordan oppfølgingen fungerer og vurdere nye tiltak og justeringer av eksisterende tiltak.
+* **Avslutte** tjeneste, tjenesteforløpet avsluttes etter evaluering.
 
 Prosessene i **Samhandling** er brutt ned til generelle prosesser som kjennetegner en samhandlingsprosess og kan understøttes på mange måter av automatiserte eller manuelle prosesser og funksjoner.
 
