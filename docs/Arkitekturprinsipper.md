@@ -11,6 +11,7 @@ Work in progress
 |:-------------|:------------------|:------|:-------|
 | Work in progress | v0.5 | review  | ikke normert |
 
+<!-- Her vil jeg ha et prinsipp om åpenhet -->
 
 Arkitektuprinsippene beskriver hvordan arbeidet med målarkitektur for samhandling innen digital hjemmeoppføling etterfølger de overordnede arkitekturprinsippene for digitalisering av offentlig sektor.
 
