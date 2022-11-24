@@ -17,27 +17,22 @@ Behovene i helsetjenesten ligger til grunn for etablering av samhandlingsløsnin
 
 ## Hva er Digital hjemmeoppfølging
 
-__Digital hjemmeoppfølging innebærer at hele eller deler av et behandlingstilbud foregår uten fysisk kontakt, der dialog og deling av data mellom pasient/bruker og behandler(e) skjer digitalt.__
+**Digital hjemmeoppfølging innebærer at hele eller deler av et behandlingstilbud foregår uten fysisk kontakt, der dialog og deling av data mellom pasient/bruker og behandler(e) skjer digitalt.**
 
 Helse og omsorgsdepartementet
 
-_Digital hjemmeoppfølging (tidligere kalt medisinsk avstandsoppfølging) er nye helsetjenester_   
-_hvor deler av helse- og omsorgstjenesten kan flyttes hjem til pasienten ved hjelp av_   
-_teknologi. Pasientene er aktive deltakere og bidragsytere i helsehjelpen de mottar og kan_   
-_følges opp i hjemmet ved at pasientens egenmålinger, pasientrapporterte opplysninger om_   
-_egen helsetilstand eller automatiske målinger, sendes digitalt til helsetjenesten, som vurderer_   
-_og ved behov følger opp pasienten primært via digitale verktøy (Helse- og_   
-_omsorgsdepartementet, 2019)._
+*Digital hjemmeoppfølging (tidligere kalt medisinsk avstandsoppfølging) er nye helsetjenester*  
+*hvor deler av helse- og omsorgstjenesten kan flyttes hjem til pasienten ved hjelp av teknologi. Pasientene er aktive deltakere og bidragsytere i helsehjelpen de mottar og kan følges opp i hjemmet ved at pasientens egenmålinger, pasientrapporterte opplysninger om egen helsetilstand eller automatiske målinger, sendes digitalt til helsetjenesten, som vurderer og ved behov følger opp pasienten primært via digitale verktøy (Helse- og omsorgsdepartementet, 2019).*
 
 ## Overordnede brukerhistorier (konklusjon)
 
 Samhandlingstjenester for DHO skal tilrettelegge for følgende funksjonelle behov:
 
-*   _Jeg som helsepersonell får tilgang til oppdatert informasjon om pasienten som er nødvendig for å yte_ _god helsehjelp på en effektiv måte_
-*   _Jeg som helsepersonell kan søke etter og få tilgjengeliggjort relevant informasjon for tjenesteforløp der Digital hjemmeoppfølging benyttes_
-*   _Jeg som ansatt i helse- og omsorgstjenesten slipper å registrere informasjon knyttet til Digital hjemmeoppfølging flere ganger i ulike systemer_
-*   _Jeg som helsepersonell kan samarbeide med pasienter og helsepersonell om utarbeidelse og oppfølging av_ behandlings- og egenbehandlingsplaner 
-*   _Jeg som pasient får tilgang til oppdatert og relevant informasjon for å ivareta egen helse_
+* _Jeg som helsepersonell får tilgang til oppdatert informasjon om pasienten som er nødvendig for å yte_ _god helsehjelp på en effektiv måte_
+* _Jeg som helsepersonell kan søke etter og få tilgjengeliggjort relevant informasjon for tjenesteforløp der Digital hjemmeoppfølging benyttes_
+* _Jeg som ansatt i helse- og omsorgstjenesten slipper å registrere informasjon knyttet til Digital hjemmeoppfølging flere ganger i ulike systemer_
+* _Jeg som helsepersonell kan samarbeide med pasienter og helsepersonell om utarbeidelse og oppfølging av_ behandlings- og egenbehandlingsplaner 
+* _Jeg som pasient får tilgang til oppdatert og relevant informasjon for å ivareta egen helse_
 
 ![229246071](https://user-images.githubusercontent.com/6229665/201673221-debad9fc-b32f-42fb-b0d4-0c8dbeefc2ab.png)
 
@@ -45,11 +40,11 @@ Samhandlingstjenester for DHO skal tilrettelegge for følgende funksjonelle beho
 
 Som en ramme for behovskartleggingen beskrives generelle prosesstrinn som de fleste tjenesteforløp gjennomgår. Prosesstrinnene er angitt på overordnet nivå og har som formål å knytte samhandlingsbehovene til et generelt tjenesteforløp. De overordnede prosesstrinnene kan spesialiseres ved behov for å synliggjøre hvordan samhandlingen understøtter mer spesifikke tjenesteforløp. Ved analyse av samhandlingsbehovene konsentrerer vi oss om hvordan tjenesteforløpet kan understøttes med nye eller endrede samhandlingsløsninger og det meste av arbeidet vil derfor handle om prosessene for **samhandling**. Vi tar utgangspunkt i en generell prosess for tjenesteforløpet i helsetjenesten (for eksempel knyttet til DHO). Prosesstegene baserer seg på behovskartlegging knyttet til utprøvingsprosjekter som arbeider innenfor ulike medisinske fagfelt og er ment å vise generelle prosesser som er involvert i de fleste tjenesteforløpene.
 
-*   **Søknad/Henvisning** er prosesser knyttet til å motta søknad eller henvisning fra andre deler av helsetjenesten  eller innbygger/pårørende. Eksempler kan være at en pasient er tildelt en tjeneste basert på søknad som omfatter hjemmetjenester kombinert med utplassering av DHO-utstyr/ medisinsk utstyr i pasientens hjem
-*   **Oppstart** Oppstart av en ny helsetjeneste inkludert opplæring av involvert helsepersonell og pasienter/pårørende, for eksempel knyttet til bruk av medisindispenser eller annet DHO utstyr
-*   **Behandling og oppfølging** behandling og oppfølging av pasient gjennom tjenesteforløpet er den mest sentrale prosessen i tjenesteforløpet og vil omfatte alle former for oppfølging og behandling som gjennomføres. Det kan være oppfølging ved hjelp av teknologi, tradisjonelle hjemmebesøk eller behandling som krever besøk/innleggelse på helseinstitusjon
-*   **Evaluering** gjennomgå hvordan oppfølgingen fungerer og vurdere nye tiltak og justeringer av eksisterende tiltak. 
-*   **Avslutte** tjeneste, tjenesteforløpet avsluttes etter evaluering.
+* **Søknad/Henvisning** er prosesser knyttet til å motta søknad eller henvisning fra andre deler av helsetjenesten  eller innbygger/pårørende. Eksempler kan være at en pasient er tildelt en tjeneste basert på søknad som omfatter hjemmetjenester kombinert med utplassering av DHO-utstyr/ medisinsk utstyr i pasientens hjem
+* **Diagnose og oppstart** Oppstart av en ny helsetjeneste basert på henvisning og/eller diagnose av pasientens symptomer og utredning av pasientens tilstand. Oppstart inkluderer planlegging av behandling og tiltak som skal gjennomføres, opplæring av involvert helsepersonell og pasienter/pårørende, for eksempel knyttet til bruk av medisindispenser eller annet DHO utstyr
+* **Behandling og oppfølging** behandling og oppfølging av pasient gjennom tjenesteforløpet er den mest sentrale prosessen i tjenesteforløpet og vil omfatte alle former for oppfølging og behandling som gjennomføres. Det kan være oppfølging ved hjelp av teknologi, tradisjonelle hjemmebesøk eller behandling som krever besøk/innleggelse på helseinstitusjon
+* **Evaluering** gjennomgå hvordan oppfølgingen fungerer og vurdere nye tiltak og justeringer av eksisterende tiltak.
+* **Avslutte** tjeneste, tjenesteforløpet avsluttes etter evaluering.
 
 Prosessene i **Samhandling** er brutt ned til generelle prosesser som kjennetegner en samhandlingsprosess og kan understøttes på mange måter av automatiserte eller manuelle prosesser og funksjoner.
 
@@ -81,8 +76,10 @@ For å komme fort i gang gjør vi noen avgrensninger i forhold til de behovene v
 
 Hypotesene beskriver forutsetninger som ligger til grunn for behovskartleggingen knyttet til DHO. Det ligger i hypotesenes behov at de bør testes før målarkitekturen ferdigstilles, det er et åpent spørsmål hvordan disse hypotesene testes og om de kan testes som en del av utprøvingsprosjektene innen DHO.
 
-*   Samhandlingsbehovet knyttet til DHO er størst regionalt
-    *   Arbeidet med målarkitektur for DHO fokuserer derfor på å tilrettelegge for samhandling på regionalt nivå
+* Samhandlingsbehovet knyttet til DHO er størst regionalt
+  * Arbeidet med målarkitektur for DHO fokuserer derfor på å tilrettelegge for samhandling på regionalt nivå
+<!-- Hvordan unngår vi å ta arkitekturvalg som hindrer oss fleksibilitet senere -->
+
 
 ### Behov sluttbruker
 
@@ -97,11 +94,13 @@ Prioritet scores mellom høy/middels/lav/ekstern (ekstern betegner behov som spi
 |Helsepersonell (kommune, spesialist og fastlege)|høy / kort|Vise informasjon som andre virksomheter og behandlingsnivåer har samlet inn om pasienten|Felles informasjonsstruktur og innhold er viktig både for: </br> - Å vise informasjon fra flere eksterne virksomheter </br> - Tilby enhetlig søkegrensesnitt på tvers av flere virksomheter </br> - Sammenstilling av informasjon fra flere kilder i felles visning|
 |Helsepersonell (kommune, spesialist og fastlege) | høy / mellom | Vise trender og sammenhenger mellom informasjon samlet inn i egen og andre virksomheter|Felles informasjonsstruktur og innhold er viktig både for: </br> - Å vise informasjon fra flere eksterne virksomheter </br> - Tilby enhetlig søkegrensesnitt på tvers av flere virksomheter </br> - Sammenstilling av informasjon fra flere kilder i felles visning|
 |Helsepersonell (kommune, spesialist og fastlege)|høy / kort|Samhandlingen og arbeidsflyten skal ikke medføre dobbeltarbeid|Det skal ikke være nødvendig å registrere samme informasjon flere ganger (i ulike systemer) eller logge seg på i ulike systemer for å gjennomføre arbeidsoppgaver knyttet til samme pasient og tiltak (SSO) /Er det noe krav til innlogging med tanke på HPR, må alle være registrert der? Trenger også personell som sekretærer tilgang?|
+|Helsepersonell (kommune, spesialist og fastlege)|middels / mellom|Arbeidsflyt og samhandling må støttes i en enhetlig utformet brukerflate|Unngå særegne systemer for oppslag i DHO resultater </br> Unngå mange ulike utformede arbeidsflater som ikke er integrert|
 |Helsepersonell (kommune, spesialist og fastlege)|middels / mellom|Det må være mulig å kvalitetssikre relevant informasjon ved å se hvor informasjonen kommer fra og hvordan den er samlet inn|Proveniens og metadata med riktig detaljnivå må følge informasjonen når den utveksles|
-|Helsepersonell (kommune, spesialist og fastlege)|middels / mellom|Tilgang til ulike typer informasjon for å understøtte tjenesteforløpet knyttet til flere pasientgrupper. </br> Aktuelle pasientgrupper kan være KOLS syke, multisyke og andre pasientgrupper med behov for digital hjemmeoppfølging||
+|Helsepersonell (kommune, spesialist og fastlege)|middels / mellom|Tilgang til ulike typer informasjon for å understøtte tjenesteforløpet knyttet til flere pasientgrupper.|Aktuelle pasientgrupper kan være KOLS syke, multisyke og andre pasientgrupper med behov for digital hjemmeoppfølging|
 |Helsepersonell (kommune, spesialist og fastlege)|ekstern (høy) / mellom|Samarbeide om utarbeidelsen av behandlingsplan og egenbehandlingsplan med pasienten og klinikere fra andre virksomheter|Det må eksistere felles kilde til planer og felles verktøy for samarbeid om planer|
 |Helsepersonell (kommune, spesialist og fastlege)|ekstern (høy) / lang|Det må være tydelig og avklart sammenheng mellom tiltak i egenbehandlingsplanen og DHO utstyr/verktøy benyttes i egenbehandlingsplanens tiltak|Det må være lett å se informasjon fra plan og DHO-utstyr i sammenheng|
 |Helsepersonell (kommune, spesialist og fastlege)|høy / mellom|Behov for individuell tilpasset tjeneste ut fra type pasient og behov knyttet til daglig oppfølging||
+|Helsepersonell (kommune, spesialist og fastlege)|høy / lang|Å være oppdatert|Når data i kilden endrer seg, skal løsningen oppdatere seg uten opphold. Dette skal også skje når dataene endrer seg hyppig.|
 |Helsepersonell (kommune, spesialist og fastlege)|middels / lang|Tilgang til sanntidsinformasjon der det er relevant (målinger for eksempel)|Dette er ikke påpekt av tjenestene som er en del av utprøvingene, men er en del av HSØ sitt målbilde for utveksling av målinger|
 |Helsepersonell (kommune, spesialist og fastlege)|middels / lang|Behov for å ivareta at utstyret følger pasienten uavhengig hvem som er behandlingsansvarlig|Løsninger knyttet til delt sanking av data og oppfølging av utplassert utstyr hos pasient stiller store krav til hvordan utstyrslogistikken samordnes mellom partene. Dette inkluderer utveksling av informasjon om utstyrstype, fastvareversjoner, strømstatus, feilmeldinger og direkte tilgang til automatisert og manuell teknisk inngripen med utstyret via internett eller på stedet. I og med at det ikke eksisterer gode standardiserte løsninger knyttet til utstyrslogistikk av heterogent utstyr anskaffet fra mange virksomheter har vi valgt å ikke inkludere utstyrslogistikk i det kortsiktige målbildet. Dette kan også påvirke muligheten til å ivareta denne delen av behovet på kort sikt.|
 |Fastlege||Fastlegen har de samme behov som helsepersonell for øvrig, men har ikke daglig oppfølging av pasienten i en DHO tjeneste. De har behov for informasjon om pasient på forespørsel når pasienten tar kontakt.|Likt behov som for øvrig helsepersonell? Systemer: EPJ og noen bruker KJ og Helsenorge.|
