@@ -4,7 +4,7 @@ title: Referanser
 nav_order: 8
 ---
 
-Work in progress 
+Work in progress  
 {: .label .label-yellow }
 
 | Status | Version | Maturity | Normative level |
