@@ -80,12 +80,11 @@ Hypotesene beskriver forutsetninger som ligger til grunn for behovskartleggingen
   * Arbeidet med målarkitektur for DHO fokuserer derfor på å tilrettelegge for samhandling på regionalt nivå
 <!-- Hvordan unngår vi å ta arkitekturvalg som hindrer oss fleksibilitet senere -->
 
-
 ### Behov sluttbruker
 
 Tabellen under viser en oversikt over funksjonelle behov som ligger til grunn for arbeidet.
-<!-- Denne tabellen er uoversiktlig i markdown, kan vi gjøre noe med det? -->
-Prioritet <!-- Denne må vi endre på--> scores mellom høy/middels/lav/ekstern (ekstern betegner behov som spilles inn til andre prosjekter). Tidsperspektiv oppgis på med kategoriene kort/mellom(lang)/lang.  
+
+Prioritet scores mellom høy/middels/lav/ekstern (ekstern betegner behov som spilles inn til andre prosjekter). Tidsperspektiv oppgis på med kategoriene kort/mellom(lang)/lang.  
 
 |Rolle| Prioritet/ tidsperspektiv|Behov|Funksjonelle krav|
 |-----|-----------|-----------------|--------------------|
