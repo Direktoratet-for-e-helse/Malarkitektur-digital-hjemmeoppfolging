@@ -4,12 +4,12 @@ Testprosjekt for å se hvordan arkitekturdokumentasjon enklest mulig kan publise
 
 * [Generert dokumentasjon for målarkitekturen](https://direktoratet-for-e-helse.github.io/Malarkitektur-digital-hjemmeoppfolging/)
 
-## Bruker
+## Verktøy
 
 * [just the docs - layout template for Github.io sidene](https://github.com/just-the-docs/just-the-docs)
 * [Oversette](https://metamug.com/util/confluence-to-markdown/) confluence sider til markdown
 
-### Anbefaling
+### Markdown
 
 Ukjent med [Github markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)? Da anbefaler vi [Markdown Editor til Visual Studio](https://marketplace.visualstudio.com/items?itemName=zaaack.markdown-editor)
 
