@@ -70,7 +70,7 @@ Målarkitekturen skal være et verktøy for å koordinere innsatsen i sektoren s
 *   Det er fokus på tilrettelegging for samhandling mellom virksomheter og omsorgsnivå og samhandling med innbygger
     *   Noen av de samme mekanismene kan også benyttes for samhandling internt i en virksomhet, men det er ikke hovedfokuset i dette arbeidet
 *   Det er fokus på utveksling av strukturert informasjon mellom virksomheter og omsorgsnivå. Høy semantisk samhandlingsevne (hva dataene betyr og hvordan de er definert) er nødvendig
-*   Det er fokus på primærbruk av data, sekundærbruk er ikke et sentralt tema for dette arbeidet
+*   Det er fokus på primærbruk av data. Sekundærbruk av data er ikke et sentralt tema for dette arbeidet
     *   Det antas at utveksling av strukturert informasjon kan være nyttig også knyttet til sekundærbruk innen forskning og kvalitetssikring av helsehjelp
 *   Tradisjonell trygghets og mestringsteknologi er ikke en del av omfanget for målarkitekturen for DHO.
     *   Behovene knyttet til trygghet og mestring er relativt godt analysert i tidligere arbeid og det er bare små overlapp mellom DHO og trygghet og mestringsområdet
