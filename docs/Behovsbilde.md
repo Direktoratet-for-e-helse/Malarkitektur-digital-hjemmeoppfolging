@@ -22,7 +22,7 @@ I 2021 ble det i rapport fra de regionale helseforetakene foreslått følgende d
 
 
 
-Forslaget til definisjon har til hensikt å romme en bredde av ulike former for digital oppfølging og samhandling mellom pasienten og helsetjenesten. Dette arbeidet har hatt hovedfokus på den delen som omhandler oppfølging basert på data fra pasient. Dett ekan være data fra sensorer og medisinsk utstyr eller pasientregistrerte data som symptomer, funksjon og målinger. 
+Forslaget til definisjon har til hensikt å romme en bredde av ulike former for digital oppfølging og samhandling mellom pasienten og helsetjenesten. Dette arbeidet har hatt hovedfokus på den delen som omhandler oppfølging basert på data fra pasient. Dette kan være data fra sensorer og medisinsk utstyr eller pasientregistrerte data som symptomer, funksjon og målinger. 
 
 Det skal jobbes videre med definisjonsbeskrivelsen gjennom Nasjonalt velferdsteknologiprogram.
 
