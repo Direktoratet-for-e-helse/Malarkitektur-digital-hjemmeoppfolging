@@ -33,7 +33,7 @@ https://github.com/Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolgi
 
 Du skal nå få opp katalogstrukturen til repositoriet i fil explorer på venstre side i VSCode.
 Husk at endringer du gjør i VSCode skrives til kopien av repoet på lokal disk. Du må commite og pushes endrede filer til repoet (remote) for at dine endringer skal bli synlige for andre.
-## Forutsetninger
+## Forutsetninger *just-the-docs*
 
 * index.md må ligge i rotkatalog på prosjektet?
 * markdown filene bør ha just-the-docs metadata
