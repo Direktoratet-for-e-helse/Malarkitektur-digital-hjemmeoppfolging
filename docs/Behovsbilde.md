@@ -65,11 +65,11 @@ For å understøtte tjenesteforløp der pasienter følges med digital hjemmeoppf
 
 ### Avgrensninger
 
-Målarkitekturen skal være et verktøy for å koordinere innsatsen i sektoren slik at aktørenen arbeider i samme retning for å løses samhandlingsutfordringene. Den skal blant annet inneholde hvilke samhandlingstjenester som skal tilbys nasjonalt. Deter derfor gjort noen avgrensninger i forhold til de behovene vi analyserer i arbeidet med målarkitektur for samhandling innen DHO.
+Målarkitekturen skal være et verktøy for å koordinere innsatsen i sektoren slik at aktørenen arbeider i samme retning for å løses samhandlingsutfordringene. Den skal blant annet inneholde hvilke samhandlingstjenester som skal tilbys nasjonalt. Det er derfor gjort noen avgrensninger i forhold til de behovene som analyseres i arbeidet med målarkitektur for samhandling innen DHO.
 
-*   Det er fokus på tilrettelegging av samhandling mellom virksomheter og omsorgsnivå og samhandling med innbygger
+*   Det er fokus på tilrettelegging for samhandling mellom virksomheter og omsorgsnivå og samhandling med innbygger
     *   Noen av de samme mekanismene kan også benyttes for samhandling internt i en virksomhet, men det er ikke hovedfokuset i dette arbeidet
-*   Det er fokus på utveksling av strukturert informasjon mellom virksomheter og omsorgsnivå
+*   Det er fokus på utveksling av strukturert informasjon mellom virksomheter og omsorgsnivå. Høy semantisk samhandlingsevne (hva dataene betyr og hvordan de er definert) er nødvendig
 *   Det er fokus på primærbruk av data, sekundærbruk er ikke et sentralt tema for dette arbeidet
     *   Det antas at utveksling av strukturert informasjon kan være nyttig også knyttet til sekundærbruk innen forskning og kvalitetssikring av helsehjelp
 *   Tradisjonell trygghets og mestringsteknologi er ikke en del av omfanget for målarkitekturen for DHO.
