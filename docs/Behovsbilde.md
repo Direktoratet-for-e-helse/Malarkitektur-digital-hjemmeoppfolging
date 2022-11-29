@@ -61,7 +61,7 @@ Prosessen for **Samhandling** er brutt ned til generelle prosessteg som kjennet
 
 ## Kartlagte behov og funksjonelle krav
 
-For å understøtte tjenesteforløp der pasienter følges med digital hjemmeoppfølging på en effektiv måte er det identifisert en rekke brukerbehov som kan understøttes med bedre samhandlingsløsninger. Dette kapitelet oppsummerer de mest sentrale behovene og funksjonelle krav/behov som kan utledes fra disse.
+For å understøtte tjenesteforløp der pasienter følges med digital hjemmeoppfølging på en effektiv måte er det identifisert en rekke brukerbehov som kan understøttes med bedre samhandlingsløsninger. Dette kapitelet oppsummerer de mest sentrale behovene og funksjonelle krav som kan utledes fra disse.
 
 ### Avgrensninger
 
