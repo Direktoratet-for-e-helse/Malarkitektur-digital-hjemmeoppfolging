@@ -65,7 +65,7 @@ For å understøtte tjenesteforløp der pasienter følges med digital hjemmeoppf
 
 ### Avgrensninger
 
-For å komme fort i gang gjør vi noen avgrensninger i forhold til de behovene vi analyserer i arbeidet med målarkitektur for samhandling innen DHO.
+Målarkitekturen skal være et verktøy for å koordinere innsatsen i sektoren slik at aktørenen arbeider i samme retning for å løses samhandlingsutfordringene. Den skal blant annet inneholde hvilke samhandlingstjenester som skal tilbys nasjonalt. Deter derfor gjort noen avgrensninger i forhold til de behovene vi analyserer i arbeidet med målarkitektur for samhandling innen DHO.
 
 *   Det er fokus på tilrettelegging av samhandling mellom virksomheter og omsorgsnivå og samhandling med innbygger
     *   Noen av de samme mekanismene kan også benyttes for samhandling internt i en virksomhet, men det er ikke hovedfokuset i dette arbeidet
