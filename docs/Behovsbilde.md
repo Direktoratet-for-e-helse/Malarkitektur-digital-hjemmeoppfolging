@@ -95,7 +95,7 @@ Hvilke funksjonelle behov som ligger til grunn for arbeidet.
 
  
 
-|Rolle| Prioritet/ tidsperspektiv|Behov|Funksjonelle krav|
+|Rolle| Prioritet  tidsperspektiv|Behov|Funksjonelle krav|
 |-----|-----------|-----------------|--------------------|
 |Helsepersonell (kommune, spesialist og fastlege)|høy / lang|Bedre støtte for eksplisitte ansvarsoverganger mellom virksomheter||
 |Helsepersonell (kommune, spesialist og fastlege)|høy / mellom|Finne hvilken informasjon andre virksomheter og behandlingsnivåer har om pasienten|Søkefunksjonalitet for å finne hvilke virksomhetene som har informasjon om pasienten|
