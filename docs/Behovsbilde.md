@@ -55,7 +55,7 @@ Prosessen for **Samhandling** er brutt ned til generelle prosessteg som kjennet
 *   **Innhente informasjon** er enhver prossess hvor en aktør leser, finner eller henter informasjon fra andre interne eller eksterne kilder
 *   **Vurdere og gjennomføre tiltak** er enhver prosess hvor informasjon benyttes til å vurdere og gjennomføre faktiske tiltak for en pasient
 *   **Produsere informasjon** er enhver prosess knyttet til å dokumentere tiltakene som er gjennomført og vurderingene som ligger til grunn for tiltakene
-*   **Dele informasjon** er enhver prosess knyttet til å dele eller tilgjengeliggjøre produsert informasjon, slik at andre aktører kan konsumere informasjonen
+*   **Dele informasjon** er enhver prosess knyttet til å dele eller tilgjengeliggjøre produsert informasjon, slik at andre aktører kan konsumere (bruke) informasjonen
 
 ![229246025](https://user-images.githubusercontent.com/6229665/201673317-48a59010-08a9-45e0-8671-3cfd9710e082.png)
 
