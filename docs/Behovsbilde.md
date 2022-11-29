@@ -59,7 +59,7 @@ Prosessen for **Samhandling** er brutt ned til generelle prosessteg som kjennet
 
 ![229246025](https://user-images.githubusercontent.com/6229665/201673317-48a59010-08a9-45e0-8671-3cfd9710e082.png)
 
-## Kartlagte behov og funksjonelle krav
+## Kartlagte behov og funksjonelle krav/behov
 
 For å understøtte Tjenesteforløpene i DHO på en effektiv måte er det identifisert en rekke brukerbehov som kan understøttes med bedre samhandlingsløsninger. Dette kapitelet oppsummerer de mest sentrale behovene og funksjonelle krav som kan utledes fra disse.
 
