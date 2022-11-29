@@ -20,7 +20,7 @@ Kom igang med VSCode og repo fra Github:
 For å komme i gang må du installere VSCode og klone repositoriet vårt fra Github til din lokale harddisk. Kloningen trenger du bare å gjøre en gang. Neste gang åpner du kopien fra lokal disk og trykker **Pull changes** for å hente de siste endringene fra serveren/repoet.
 
 1. Hente opp Command palette
-> View -> Command palette <kbd>Enter</kbd>
+> View -> Command palette
 
 2. Skriv inn kommandoen: 
 > Git: Clone <kbd>Enter</kbd>
