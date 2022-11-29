@@ -46,7 +46,7 @@ Som en ramme for behovskartlegging beskrives generelle prosesstrinn som de flest
 
 * **Søknad/Henvisning** er prosesser knyttet til å motta søknad eller henvisning fra andre deler av helsetjenesten  eller innbygger/pårørende. Eksempler kan være at en pasient er tildelt en tjeneste basert på søknad som omfatter hjemmetjenester kombinert med utplassering av DHO-utstyr/ medisinsk utstyr i pasientens hjem
 * **Oppstart/Diagnose** Oppstart av ny helsehjelp basert på søknad/henvisning med bakgrunn i behov og/eller diagnose, pasientens symptomer med utredning av pasientens tilstand. Oppstart inkluderer planlegging av behandling/oppfølging og tiltak som skal gjennomføres, og opplæring av involvert helsepersonell og pasienter/pårørende, for eksempel knyttet til bruk av medisindispenser eller annet DHO utstyr/ medisinsk utstyr.
-* **Behandling og oppfølging** behandling og oppfølging av pasient gjennom tjenesteforløpet er den mest sentrale prosessen i tjenesteforløpet og vil omfatte alle former for oppfølging og behandling som gjennomføres. Det kan være oppfølging ved hjelp av teknologi, tradisjonelle hjemmebesøk eller behandling som krever besøk/innleggelse på helseinstitusjon
+* **Behandling og oppfølging** Behandling og oppfølging av pasient er det mest sentrale prosessteget i tjenesteforløpet og vil omfatte alle former for oppfølging og behandling som gjennomføres. Det kan være oppfølging ved hjelp av teknologi, tradisjonelle hjemmebesøk eller behandling som krever besøk/innleggelse på helseinstitusjon
 * **Evaluering** gjennomgå hvordan oppfølgingen fungerer og vurdere nye tiltak og justeringer av eksisterende tiltak.
 * **Avslutte** tjeneste, tjenesteforløpet avsluttes etter evaluering.
 
