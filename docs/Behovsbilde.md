@@ -86,9 +86,14 @@ Hypotesen beskriver en antagelse som er fremkommet gjennom behovskartleggingen k
 
 ### Behov sluttbruker og funksjonelle krav
 
-Tabellen under viser en oversikt over funksjonelle behov som ligger til grunn for arbeidet.
+Tabellen under viser en oversikt over:
+Hvilken rolle sluttbruker kan ha
+Hvilken prioritet/ tidsperspektiv behovet har
+    Prioritet scores mellom (høy/middels/lav/ekstern (ekstern betegner behov som spilles inn til andre prosjekter))
+    Tidsperspektiv oppgis med kategoriene (kort/mellom(lang)/lang)
+Hvilke funksjonelle behov som ligger til grunn for arbeidet.
 
-Prioritet scores mellom høy/middels/lav/ekstern (ekstern betegner behov som spilles inn til andre prosjekter). Tidsperspektiv oppgis på med kategoriene kort/mellom(lang)/lang.  
+ 
 
 |Rolle| Prioritet/ tidsperspektiv|Behov|Funksjonelle krav|
 |-----|-----------|-----------------|--------------------|
