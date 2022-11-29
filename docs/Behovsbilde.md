@@ -84,7 +84,7 @@ Hypotesen beskriver en antagelse som er fremkommet gjennom behovskartleggingen k
   * Arbeidet med målarkitektur for DHO fokuserer derfor på å tilrettelegge for samhandling på regionalt nivå
 <!-- Hvordan unngår vi å ta arkitekturvalg som hindrer oss fleksibilitet senere -->
 
-### Behov sluttbruker
+### Behov sluttbruker og funksjonelle krav
 
 Tabellen under viser en oversikt over funksjonelle behov som ligger til grunn for arbeidet.
 
