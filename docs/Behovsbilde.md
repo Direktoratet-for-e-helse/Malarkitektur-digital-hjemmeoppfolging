@@ -13,16 +13,20 @@ Work in progress
 
 Helse- og omsorgssektoren har behov for mer effektiv samhandling for å øke tilgjengeligheten til relevante helseopplysninger. Målbildet for helhetlig samhandling er å tilby informasjonstjenester på en samhandlingsinfrastruktur som representerer et sett av informasjonsbehov som ikke er tilstrekkelig dekket i dagens nasjonale e-helseløsninger for samhandling. Hver informasjonstjeneste gir mulighet for å utveksle eller dele helseinformasjon mellom ulike aktører. Særskilte behov løses nasjonalt når det gir vesentlig gevinst/ nytte. Høy semantisk samhandlingsevne (hva dataene betyr og hvordan de er definert) er nødvendig for å lykkes med dette. Arbeidet med behov for informasjonsdeling i tjenesten Digital hjemmeoppfølging sees i sammenheng med målbildet for helhetlig samhandling. Kartlegging av behov for deling av informasjon, fra innbygger til helsepersonells løsninger, er utført med ulike perspektiv. 
 
-Behovene i helsetjenesten ligger til grunn for etablering av samhandlingsløsningene i sektoren og legger premissene for hvilke samhandlingsløsninger som skal etableres og videreutvikles. Behovene knyttet til Digital hjemmeoppfølging er i stor grad overlappende med andre tjenesteforløp og vi kan derfor lære mye om nødvendige samhandlingsløsninger i sektoren ved å se spesielt på sammensatte tjenesteforløp innen DHO. Behovene henter vi fra utprøvingsprosjekter og tjenesteeiere i helse- og omsorgssektoren. Erfaring fra utprøvingsprosjektene skal over tid føre til mer spesifikk behovskartlegging knyttet til erfaring med utveksling av informasjon mellom virksomheter og behandlingsnivå knyttet til DHO. Vi skiller i det videre arbeidet mellom informasjonsbehov og funksjonelle behov.
+Behovene i helsetjenesten ligger til grunn for etablering av samhandlingsløsningene i sektoren og legger premissene for hvilke samhandlingsløsninger som skal etableres og videreutvikles. Behovene knyttet til Digital hjemmeoppfølging (DHO) er i stor grad overlappende med andre tjenesteforløp og vi kan derfor lære mye om nødvendige samhandlingsløsninger i sektoren ved å se spesielt på sammensatte tjenesteforløp innen DHO. Behovene henter vi fra utprøvingsprosjekter og tjenesteeiere i helse- og omsorgssektoren. Erfaring fra utprøvingsprosjektene skal over tid føre til mer spesifikk behovskartlegging knyttet til erfaring med utveksling av informasjon mellom virksomheter og behandlingsnivå (primær- og spesialisthelsetjenesten) knyttet til DHO. Vi skiller i det videre arbeidet mellom informasjonsbehov og funksjonelle behov.
 
 ## Hva er Digital hjemmeoppfølging
+I 2021 ble det i rapport fra de regionale helseforetakene foreslått følgende definisjon
 
 **Digital hjemmeoppfølging innebærer at hele eller deler av et behandlingstilbud foregår uten fysisk kontakt, der dialog og deling av data mellom pasient/bruker og behandler(e) skjer digitalt.**
 
-Helse og omsorgsdepartementet
 
-*Digital hjemmeoppfølging (tidligere kalt medisinsk avstandsoppfølging) er nye helsetjenester*  
-*hvor deler av helse- og omsorgstjenesten kan flyttes hjem til pasienten ved hjelp av teknologi. Pasientene er aktive deltakere og bidragsytere i helsehjelpen de mottar og kan følges opp i hjemmet ved at pasientens egenmålinger, pasientrapporterte opplysninger om egen helsetilstand eller automatiske målinger, sendes digitalt til helsetjenesten, som vurderer og ved behov følger opp pasienten primært via digitale verktøy (Helse- og omsorgsdepartementet, 2019).*
+
+Forslaget til definisjon har til hensikt å romme en bredde av ulike former for digital oppfølging og samhandling mellom pasienten og helsetjenesten. Dette arbeidet har hatt hovedfokus på den delen som omhandler oppfølging basert på data fra pasient. Dette kan være data fra sensorer og medisinsk utstyr eller pasientregistrerte data som symptomer, funksjon og målinger. 
+
+Det skal jobbes videre med definisjonsbeskrivelsen gjennom Nasjonalt velferdsteknologiprogram.
+
+
 
 ## Overordnede brukerhistorier (konklusjon)
 
@@ -38,34 +42,34 @@ Samhandlingstjenester for DHO skal tilrettelegge for følgende funksjonelle beho
 
 ## Tjenesteforløp og samhandling
 
-Som en ramme for behovskartleggingen beskrives generelle prosesstrinn som de fleste tjenesteforløp gjennomgår. Prosesstrinnene er angitt på overordnet nivå og har som formål å knytte samhandlingsbehovene til et generelt tjenesteforløp. De overordnede prosesstrinnene kan spesialiseres ved behov for å synliggjøre hvordan samhandlingen understøtter mer spesifikke tjenesteforløp. Ved analyse av samhandlingsbehovene konsentrerer vi oss om hvordan tjenesteforløpet kan understøttes med nye eller endrede samhandlingsløsninger og det meste av arbeidet vil derfor handle om prosessene for **samhandling**. Vi tar utgangspunkt i en generell prosess for tjenesteforløpet i helsetjenesten (for eksempel knyttet til DHO). Prosesstegene baserer seg på behovskartlegging knyttet til utprøvingsprosjekter som arbeider innenfor ulike medisinske fagfelt og er ment å vise generelle prosesser som er involvert i de fleste tjenesteforløpene.
+Som en ramme for behovskartlegging beskrives generelle prosesstrinn som de fleste tjenesteforløp gjennomgår. Et tjenesteforløp beskriver organisering og oppgaver knyttet til å yte helsetjenester til pasienter som følges med digital hjemmeoppfølging. Prosesstrinnene er angitt på overordnet nivå og har som formål å knytte samhandlingsbehovene til et generelt tjenesteforløp/pasientforløp. De overordnede prosesstrinnene kan spesifiseres ved behov for å synliggjøre hvordan samhandlingen understøtter mer spesifikke tjenesteforløp. Ved analyse av samhandlingsbehovene konsentrerer vi oss om hvordan tjenesteforløpet kan understøttes med nye eller endrede samhandlingsløsninger og det meste av arbeidet vil derfor handle om prosessene for **samhandling**. Vi tar utgangspunkt i en generell prosess for tjenesteforløpet i helsetjenesten (for eksempel knyttet til DHO) i figuren under. ..Prosesstegene baserer seg på behovskartlegging knyttet til utprøvingsprosjekter som arbeider innenfor ulike medisinske fagfelt og er ment å vise generelle prosesser som er involvert i de fleste tjenesteforløpene. 
 
 * **Søknad/Henvisning** er prosesser knyttet til å motta søknad eller henvisning fra andre deler av helsetjenesten  eller innbygger/pårørende. Eksempler kan være at en pasient er tildelt en tjeneste basert på søknad som omfatter hjemmetjenester kombinert med utplassering av DHO-utstyr/ medisinsk utstyr i pasientens hjem
-* **Diagnose og oppstart** Oppstart av en ny helsetjeneste basert på henvisning og/eller diagnose av pasientens symptomer og utredning av pasientens tilstand. Oppstart inkluderer planlegging av behandling og tiltak som skal gjennomføres, opplæring av involvert helsepersonell og pasienter/pårørende, for eksempel knyttet til bruk av medisindispenser eller annet DHO utstyr
-* **Behandling og oppfølging** behandling og oppfølging av pasient gjennom tjenesteforløpet er den mest sentrale prosessen i tjenesteforløpet og vil omfatte alle former for oppfølging og behandling som gjennomføres. Det kan være oppfølging ved hjelp av teknologi, tradisjonelle hjemmebesøk eller behandling som krever besøk/innleggelse på helseinstitusjon
-* **Evaluering** gjennomgå hvordan oppfølgingen fungerer og vurdere nye tiltak og justeringer av eksisterende tiltak.
-* **Avslutte** tjeneste, tjenesteforløpet avsluttes etter evaluering.
+* **Oppstart/Diagnose** er oppstart av ny helsehjelp basert på søknad/henvisning med bakgrunn i behov og/eller diagnose, pasientens symptomer med utredning av pasientens tilstand. Oppstart inkluderer planlegging av behandling/oppfølging og tiltak som skal gjennomføres, og opplæring av involvert helsepersonell og pasienter/pårørende, for eksempel knyttet til bruk av medisindispenser eller annet DHO utstyr/ medisinsk utstyr.
+* **Behandling og oppfølging** av pasient er det mest sentrale prosessteget i tjenesteforløpet og vil omfatte alle former for oppfølging og behandling som gjennomføres. Det kan være oppfølging ved hjelp av teknologi, hjemmebesøk eller behandling som krever besøk/innleggelse på helseinstitusjon
+* **Evaluering** innebærer å gjennomgå hvordan oppfølgingen fungerer, vurdere nye tiltak og eventuelt justere eksisterende tiltak.
+* **Avslutte** tjeneste innebærer at tjenesteforløpet avsluttes etter evaluering.
 
-Prosessene i **Samhandling** er brutt ned til generelle prosesser som kjennetegner en samhandlingsprosess og kan understøttes på mange måter av automatiserte eller manuelle prosesser og funksjoner.
+Prosessen for **Samhandling** er brutt ned til generelle prosessteg som kjennetegner en samhandlingsprosess, og kan understøttes på mange måter av automatiserte eller manuelle prosesser og funksjoner.
 
 *   **Innhente informasjon** er enhver prossess hvor en aktør leser, finner eller henter informasjon fra andre interne eller eksterne kilder
 *   **Vurdere og gjennomføre tiltak** er enhver prosess hvor informasjon benyttes til å vurdere og gjennomføre faktiske tiltak for en pasient
 *   **Produsere informasjon** er enhver prosess knyttet til å dokumentere tiltakene som er gjennomført og vurderingene som ligger til grunn for tiltakene
-*   **Dele informasjon** er enhver prosess knyttet til å dele eller tilgjengeliggjøre produsert informasjon, slik at andre aktører kan konsumere informasjonen
+*   **Dele informasjon** er enhver prosess knyttet til å dele eller tilgjengeliggjøre produsert informasjon, slik at andre aktører kan konsumere (bruke) informasjonen
 
 ![229246025](https://user-images.githubusercontent.com/6229665/201673317-48a59010-08a9-45e0-8671-3cfd9710e082.png)
 
-## Kartlagte behov og funksjonelle krav
+## Kartlagte behov og funksjonelle krav/behov
 
-For å understøtte Tjenesteforløpene i DHO på en effektiv måte er det identifisert en rekke brukerbehov som kan understøttes med bedre samhandlingsløsninger. Dette kapitelet oppsummerer de mest sentrale behovene og funksjonelle krav som kan utledes fra disse.
+For å understøtte tjenesteforløp der pasienter følges med digital hjemmeoppfølging på en effektiv måte er det identifisert en rekke brukerbehov som kan understøttes med bedre samhandlingsløsninger. Dette kapitelet oppsummerer de mest sentrale behovene og funksjonelle krav/behov som kan utledes fra disse.
 
 ### Avgrensninger
 
-For å komme fort i gang gjør vi noen avgrensninger i forhold til de behovene vi analyserer i arbeidet med målarkitektur for samhandling innen DHO.
+Målarkitekturen skal være et verktøy for å koordinere innsatsen i sektoren slik at aktørenen arbeider i samme retning for å løses samhandlingsutfordringene. Den skal blant annet inneholde hvilke samhandlingstjenester som skal tilbys nasjonalt. Det er derfor gjort noen avgrensninger i forhold til de behovene som analyseres i arbeidet med målarkitektur for samhandling innen DHO.
 
-*   Det er fokus på tilrettelegging av samhandling mellom virksomheter og omsorgsnivå og samhandling med innbygger
+*   Det er fokus på tilrettelegging for samhandling mellom virksomheter og omsorgsnivå og samhandling med innbygger
     *   Noen av de samme mekanismene kan også benyttes for samhandling internt i en virksomhet, men det er ikke hovedfokuset i dette arbeidet
-*   Det er fokus på utveksling av strukturert informasjon mellom virksomheter og omsorgsnivå
+*   Det er fokus på utveksling av strukturert informasjon mellom virksomheter og omsorgsnivå. Høy semantisk samhandlingsevne (hva dataene betyr og hvordan de er definert) er nødvendig
 *   Det er fokus på primærbruk av data, sekundærbruk er ikke et sentralt tema for dette arbeidet
     *   Det antas at utveksling av strukturert informasjon kan være nyttig også knyttet til sekundærbruk innen forskning og kvalitetssikring av helsehjelp
 *   Tradisjonell trygghets og mestringsteknologi er ikke en del av omfanget for målarkitekturen for DHO.
