@@ -16,13 +16,17 @@ Helse- og omsorgssektoren har behov for mer effektiv samhandling for å øke til
 Behovene i helsetjenesten ligger til grunn for etablering av samhandlingsløsningene i sektoren og legger premissene for hvilke samhandlingsløsninger som skal etableres og videreutvikles. Behovene knyttet til Digital hjemmeoppfølging (DHO) er i stor grad overlappende med andre tjenesteforløp og vi kan derfor lære mye om nødvendige samhandlingsløsninger i sektoren ved å se spesielt på sammensatte tjenesteforløp innen DHO. Behovene henter vi fra utprøvingsprosjekter og tjenesteeiere i helse- og omsorgssektoren. Erfaring fra utprøvingsprosjektene skal over tid føre til mer spesifikk behovskartlegging knyttet til erfaring med utveksling av informasjon mellom virksomheter og behandlingsnivå (primær- og spesialisthelsetjenesten) knyttet til DHO. Vi skiller i det videre arbeidet mellom informasjonsbehov og funksjonelle behov.
 
 ## Hva er Digital hjemmeoppfølging
+I 2021 ble det i rapport fra de regionale helseforetakene foreslått følgende definisjon
 
 **Digital hjemmeoppfølging innebærer at hele eller deler av et behandlingstilbud foregår uten fysisk kontakt, der dialog og deling av data mellom pasient/bruker og behandler(e) skjer digitalt.**
 
-Helse og omsorgsdepartementet
 
-*Digital hjemmeoppfølging (tidligere kalt medisinsk avstandsoppfølging) er nye helsetjenester*  
-*hvor deler av helse- og omsorgstjenesten kan flyttes hjem til pasienten ved hjelp av teknologi. Pasientene er aktive deltakere og bidragsytere i helsehjelpen de mottar og kan følges opp i hjemmet ved at pasientens egenmålinger, pasientrapporterte opplysninger om egen helsetilstand eller automatiske målinger, sendes digitalt til helsetjenesten, som vurderer og ved behov følger opp pasienten primært via digitale verktøy (Helse- og omsorgsdepartementet, 2019).*
+
+Forslaget til definisjon har til hensikt å romme en bredde av ulike former for digital oppfølging og samhandling mellom pasienten og helsetjenesten. Dette arbeidet har hatt hovedfokus på den delen som omhandler oppfølging basert på data fra pasient. Dett ekan være data fra sensorer og medisinsk utstyr eller pasientregistrerte data som symptomer, funksjon og målinger. 
+
+Det skal jobbes videre med definisjonsbeskrivelsen gjennom Nasjonalt velferdsteknologiprogram.
+
+
 
 ## Overordnede brukerhistorier (konklusjon)
 
