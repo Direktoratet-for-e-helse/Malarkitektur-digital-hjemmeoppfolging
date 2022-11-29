@@ -13,6 +13,26 @@ Testprosjekt for å se hvordan arkitekturdokumentasjon enklest mulig kan publise
 
 Ukjent med [Github markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)? Da anbefaler vi [Markdown Editor til Visual Studio](https://marketplace.visualstudio.com/items?itemName=zaaack.markdown-editor)
 
+### VSCode
+
+Kom igang med VSCode og repo fra Github:
+
+For å komme i gang må du installere VSCode og klone repositoriet vårt fra Github til din lokale harddisk.
+
+1. Hente opp Command palette
+> View -> Command palette <kbd>Enter</kbd>
+
+2. Skriv inn kommandoen: 
+> Git: Clone <kbd>Enter</kbd>
+3. Lim inn adressen til GitHub repoet:
+~~~
+https://github.com/Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging
+~~~
+4. Velg en katalog på harddisken du ønsker å klone til (jeg bruker vanligvis C:\Github). <kbd>Select Repository Location</kpd>
+5. Trykk <kbd>Open</kbd> i dialogvinduet
+
+Du skal nå få opp katalogstrukturen til repositoriet i fil explorer på venstre side i VSCode.
+Husk at endringer du gjør i VSCode skrives til kopien av repoet på lokal disk. Du må commite og pushes endrede filer til repoet (remote) for at dine endringer skal bli synlige for andre.
 ## Forutsetninger
 
 * index.md må ligge i rotkatalog på prosjektet?
