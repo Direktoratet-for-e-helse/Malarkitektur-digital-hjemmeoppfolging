@@ -50,7 +50,7 @@ Som en ramme for behovskartlegging beskrives generelle prosesstrinn som de flest
 * **Evaluering** innebærer å gjennomgå hvordan oppfølgingen fungerer, vurdere nye tiltak og eventuelt justere eksisterende tiltak.
 * **Avslutte** tjeneste innebærer at tjenesteforløpet avsluttes etter evaluering.
 
-Prosessene i **Samhandling** er brutt ned til generelle prosesser som kjennetegner en samhandlingsprosess og kan understøttes på mange måter av automatiserte eller manuelle prosesser og funksjoner.
+Prosessen for **Samhandling** er brutt ned til generelle prosessteg som kjennetegner en samhandlingsprosess, og kan understøttes på mange måter av automatiserte eller manuelle prosesser og funksjoner.
 
 *   **Innhente informasjon** er enhver prossess hvor en aktør leser, finner eller henter informasjon fra andre interne eller eksterne kilder
 *   **Vurdere og gjennomføre tiltak** er enhver prosess hvor informasjon benyttes til å vurdere og gjennomføre faktiske tiltak for en pasient
