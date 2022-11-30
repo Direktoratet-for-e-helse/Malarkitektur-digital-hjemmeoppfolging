@@ -249,6 +249,7 @@ Målinger kan lagres og vises direkte eller fungere som grunnlag for andre arbei
 
 ## Detaljer om egenbehandlingsplan/behandlingsplan
 
+Behovene knyttet til egenbehandlingsplan og behandlingsplan og samarbeid mellom virksomheter og omsorgsnivå i utarbeidelsen av disse planene er viktig for klinikere og pasienter. I Digital hjemmeoppfølging er det stort behov for koordinering siden pasientene er i kontakt med mange deler av helsetjenesten og trenger tett oppfølging knyttet til kroniske og sammensatte sykdommer og oppfølging av symptomer.
 <!-- Det er etterspurt beskrivelse over sammenhenger mellom behandling/egenbehandlingsplan og målarkitekturen -->
 
 ## Detaljer om Pasientens legemiddelliste
@@ -256,3 +257,4 @@ Målinger kan lagres og vises direkte eller fungere som grunnlag for andre arbei
 <!-- Det er etterspurt beskrivelse over sammenhenger mellom pasientens legemiddelliste og målarkitekturen -->
 ## Roller og samhandlingsmønstre
 
+<!-- Er det noen forskjell i hvilke roller som har vilke samhandlingsbehov? -->
