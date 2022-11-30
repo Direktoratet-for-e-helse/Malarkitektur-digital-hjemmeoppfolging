@@ -221,7 +221,7 @@ Det er identifisert behov for samhandling om ytterligere informasjon og informas
 
 ## Prioritering av informasjonstjenester
 
-De informasjonstjenestene som er mest etterspurt av tjenesteeiere som tilbyr DHO tjenester er i prioritert rekkefølge:
+De informasjonstjenestene som er mest etterspurt av helsepersonell som tilbyr tjenesteforløp som inkluderer DHO er i prioritert rekkefølge:
 
 1.  Egenbehandlingsplan og behandlingsplan
 2.  Legemiddelliste
