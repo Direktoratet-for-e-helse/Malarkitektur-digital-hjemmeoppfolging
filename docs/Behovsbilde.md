@@ -159,13 +159,15 @@ I tillegg er det identifisert behov for dialogtjenester for kommunikasjon mellom
 
 Tabellen under viser en oversikt over identifiserte informasjonsbehov og kobling til tidligere identifiserte  informasjonstjenester fra bilag G2 Helhetlig samhandling. Tabellen oppsummerer:
 
-*   Hva betyr behovet
+*   Informasjonsbehov
+*   Er informasjonsbehovet beskrevet i en informasjonstjeneste
+*   Hva betyr informasjonsbehovet
 *   Hvorfor er det behov for informasjonen
 *   Hvor kommer informasjonen fra (kilde)
 *   Hvordan blir informasjonen til
 *   Hvordan kan man samhandle om informasjonen for å dekke informasjonsbehovet
 *   Når er det behov for informasjonen og hvor lenge vil informasjon være relevant
-*   Er det sammenhenger/avhengigheter med andre informasjonstjenester
+*   Er det sammenhenger/ avhengigheter med andre informasjonstjenester
 
 | Informasjonsbehov | Informasjons-tjeneste | Hva | Hvorfor | Hvor (kilde) | Hvordan | Samhandlingsform | Når og hvor lenge | Sammenheng med andre informasjonstjenester |
 |---|---|---|---|---|---|---|---|---|
