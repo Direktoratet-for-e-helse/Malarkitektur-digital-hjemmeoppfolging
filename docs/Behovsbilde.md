@@ -200,7 +200,7 @@ Vi skiller mellom informasjonskomponenter (..) og informasjonstjenester som arbe
 
 ## Data fra pasient og informasjonstjenester
 
-Hovedmålet for målarkitekturen DHO er å vise hvordan samhandlingen knyttet til pasientrapporterte data skal gjennomføres, samtidig som den må vise hvilke andre informasjonstjenester som må være tilsteder for å understøtte en sammenhengende DHO tjeneste. Informasjonstjenestene som omfattes av begrepet pasientrapporterte data er i denne sammenhengen:
+Hovedmålet for målarkitekturen DHO er å vise hvordan samhandlingen knyttet til data fra pasient skal gjennomføres, samtidig som den må vise hvilke andre informasjonstjenester som må være tilstede for å understøtte en sammenhengende DHO tjeneste. Informasjonstjenestene som omfattes er i denne sammenhengen:
 
 *   Undersøkelser, målinger og funn
 *   Skjemabesvarelser og NEWS scoringer
