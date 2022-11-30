@@ -157,7 +157,7 @@ I tillegg er det identifisert behov for dialogtjenester for kommunikasjon mellom
 
 ## Analyse av informasjonsbehov
 
-Oversikt over identifiserte informasjonsbehov og informasjonstjenester. Tabellen oppsummerer:
+Tabellen under viser en oversikt over identifiserte informasjonsbehov og kobling til tidligere identifiserte  informasjonstjenester fra bilag G2 Helhetlig samhandling. Tabellen oppsummerer:
 
 *   Hva betyr behovet
 *   Hvorfor er det behov for informasjonen
