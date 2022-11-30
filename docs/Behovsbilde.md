@@ -118,7 +118,7 @@ Hvilke funksjonelle behov som ligger til grunn for arbeidet.
 
 ## Roller i DHO tjenesteforløp
 
-Overordnet oversikt over roller involvert i DHO baserte tjenesteforløp. Rolleoversikten er basert på dialog med kommune, fastlege og spesialisthelsetjenesten.
+Overordnet oversikt over roller som kan være involvert i DHO baserte tjenesteforløp. Rolleoversikten er basert på dialog med aktører fra kommune-, fastlege- og spesialisthelsetjenesten i et utprøvingsprosjekt.
 
 [![Roller](../images/roller.png)](../images/roller.png)
 
