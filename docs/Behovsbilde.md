@@ -124,7 +124,7 @@ Overordnet oversikt over roller involvert i DHO baserte tjenesteforløp. Rolleov
 
 | **Rolle** | **Definisjon** |
 |---|---|
-| Innbygger | Samlebetegnelse på alle roller en person kan ha som tjenestemotaker i helsesektoren enten som pasient, bruker eller pårørende |
+| Innbygger | Samlebetegnelse på alle roller en person kan ha som tjenestemotaker i helse- og omsorgssektoren enten som pasient, bruker eller pårørende |
 | Pasient | Begrepet pasient brukes om personer som gis eller tilbys hjelp fra helsetjenesten eller som henvender seg til helsetjenesten med anmodning om helsehjelp (kilde Hdir) |
 | Pårørende | Pårørende er en person som står en annen person særlig nær, for eksempel partner/ektefelle eller nærmeste familie. (Store Norske leksikon) |
 | Nærmeste pårørende | Det er nærmeste pårørende som i enkelte tilfeller har en selvstendig rett til å motta informasjon, klage på vedtak mv. Det er altså ikke pårørende generelt, men den som oppgis som nærmeste pårørende, som har rettigheter og oppgaver etter helselovgivningen, og som helsepersonell har rettslige plikter overfor. (kilde Hdir) |
