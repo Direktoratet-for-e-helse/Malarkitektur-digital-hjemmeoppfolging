@@ -208,7 +208,7 @@ Hovedmålet for målarkitekturen DHO er å vise hvordan samhandlingen knyttet ti
 
 ## Informasjonstjenester i andre kategorier
 
-Flere andre informasjonstjenester som ikke er å regne som pasientrapporterte data er viktig for å få til en sammenhengende DHO tjeneste. Vi har identifisert spesielle behov knyttet til disse tjenestene:
+Det er identifisert behov for samhandling om ytterligere informasjon og informasjonstjenester for å understøtte et  sammenhengende tjenesteforløp som inkluderer DHO. Dette inkluderer følgende behov:
 
 *   Plan
 *   Hendelser
