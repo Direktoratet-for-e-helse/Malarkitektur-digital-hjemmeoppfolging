@@ -191,7 +191,7 @@ Tabellen under viser en oversikt over identifiserte informasjonsbehov og kobling
 
 ## Informasjonstjenester som beskrives i DHO arbeidet
 
-Vi skiller mellom informasjonskomponenter og informasjonstjenester som arbeidet med DHO skal beskrive både behov for samhandling og informasjonstjenester som kan sikre at samhandlingen om informasjonen kan  understøtte helsetjenesten på en hensiktsmessig måte. I den grad det er nødvendig vil arbeidet også beskrive andre initiativer som etablerer informasjonstjenester det er behov for i forbindelse med DHO og hvordan disse tjenestene bør tilgjengeliggjøres for å svare ut behov som er identifisert i forbindelse med DHO. Digital hjemmeoppfølging har hovedfokus på hvordan pasientrapporterte data kan brukes i helsetjenesten på en hensiktsmessig måte og hvordan samhandlingen om denne informasjonen bør innrettes.
+Vi skiller mellom informasjonskomponenter (..) og informasjonstjenester som arbeidet med DHO skal beskrive både behov for samhandling og informasjonstjenester som kan sikre at samhandlingen om informasjonen kan  understøtte helsetjenesten på en hensiktsmessig måte. I den grad det er nødvendig vil arbeidet også beskrive andre initiativer som etablerer informasjonstjenester det er behov for i forbindelse med DHO og hvordan disse tjenestene bør tilgjengeliggjøres for å svare ut behov som er identifisert i forbindelse med DHO. Digital hjemmeoppfølging har hovedfokus på hvordan pasientrapporterte data kan brukes i helsetjenesten på en hensiktsmessig måte og hvordan samhandlingen om denne informasjonen bør innrettes.
 
 > Pasientrapporterte data
 > _Pasientene er aktive deltakere og bidragsytere i helsehjelpen de mottar og kan_   
