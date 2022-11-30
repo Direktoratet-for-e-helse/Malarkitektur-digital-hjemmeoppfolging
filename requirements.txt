@@ -1,0 +1,4 @@
+mkdocs
+mkdocs-bootswatch
+mkdocs-minify-plugin
+mkdocs-material

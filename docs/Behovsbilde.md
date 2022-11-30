@@ -11,7 +11,7 @@ Work in progress
 |:-------------|:------------------|:------|:-------|
 | Work in progress | v0.5 | review  | ikke normert |
 
-Helse- og omsorgssektoren har behov for mer effektiv samhandling for å øke tilgjengeligheten til relevante helseopplysninger. Målbildet for helhetlig samhandling er å tilby informasjonstjenester på en samhandlingsinfrastruktur som representerer et sett av informasjonsbehov som ikke er tilstrekkelig dekket i dagens nasjonale e-helseløsninger for samhandling. Hver informasjonstjeneste gir mulighet for å utveksle eller dele helseinformasjon mellom ulike aktører. Særskilte behov løses nasjonalt når det gir vesentlig gevinst/ nytte. Høy semantisk samhandlingsevne (hva dataene betyr og hvordan de er definert) er nødvendig for å lykkes med dette. Arbeidet med behov for informasjonsdeling i tjenesten Digital hjemmeoppfølging sees i sammenheng med målbildet for helhetlig samhandling. Kartlegging av behov for deling av informasjon, fra innbygger til helsepersonells løsninger, er utført med ulike perspektiv. 
+Helse- og omsorgssektoren har behov for mer effektiv samhandling for å øke tilgjengeligheten til relevante helseopplysninger. Målbildet for helhetlig samhandling er å tilby informasjonstjenester på en samhandlingsinfrastruktur som representerer et sett av informasjonsbehov som ikke er tilstrekkelig dekket i dagens nasjonale e-helseløsninger for samhandling. Hver informasjonstjeneste gir mulighet for å utveksle eller dele helseinformasjon mellom ulike aktører. Særskilte behov løses nasjonalt når det gir vesentlig gevinst/ nytte. Høy semantisk samhandlingsevne (hva dataene betyr og hvordan de er definert) er nødvendig for å lykkes med dette. Arbeidet med behov for informasjonsdeling i tjenesten Digital hjemmeoppfølging sees i sammenheng med målbildet for helhetlig samhandling. Kartlegging av behov for deling av informasjon, fra innbygger til helsepersonells løsninger, er utført med ulike perspektiv.  
 
 Behovene i helsetjenesten ligger til grunn for etablering av samhandlingsløsningene i sektoren og legger premissene for hvilke samhandlingsløsninger som skal etableres og videreutvikles. Behovene knyttet til Digital hjemmeoppfølging (DHO) er i stor grad overlappende med andre tjenesteforløp og vi kan derfor lære mye om nødvendige samhandlingsløsninger i sektoren ved å se spesielt på sammensatte tjenesteforløp innen DHO. Behovene henter vi fra utprøvingsprosjekter og tjenesteeiere i helse- og omsorgssektoren. Erfaring fra utprøvingsprosjektene skal over tid føre til mer spesifikk behovskartlegging knyttet til erfaring med utveksling av informasjon mellom virksomheter og behandlingsnivå (primær- og spesialisthelsetjenesten) knyttet til DHO. Vi skiller i det videre arbeidet mellom informasjonsbehov og funksjonelle krav.
 
@@ -42,7 +42,7 @@ Samhandlingstjenester for DHO skal tilrettelegge for følgende funksjonelle beho
 
 ## Tjenesteforløp og samhandling
 
-Som en ramme for behovskartlegging beskrives generelle prosesstrinn som de fleste tjenesteforløp gjennomgår. Et tjenesteforløp beskriver organisering og oppgaver knyttet til å yte helsetjenester til pasienter som følges med digital hjemmeoppfølging. Prosesstrinnene er angitt på overordnet nivå og har som formål å knytte samhandlingsbehovene til et generelt tjenesteforløp/pasientforløp. De overordnede prosesstrinnene kan spesifiseres ved behov for å synliggjøre hvordan samhandlingen understøtter mer spesifikke tjenesteforløp. Ved analyse av samhandlingsbehovene konsentrerer vi oss om hvordan tjenesteforløpet kan understøttes med nye eller endrede samhandlingsløsninger og det meste av arbeidet vil derfor handle om prosessene for **samhandling**. Vi tar utgangspunkt i en generell prosess for tjenesteforløpet i helsetjenesten (for eksempel knyttet til DHO) i figuren under. ..Prosesstegene baserer seg på behovskartlegging knyttet til utprøvingsprosjekter som arbeider innenfor ulike medisinske fagfelt og er ment å vise generelle prosesser som er involvert i de fleste tjenesteforløpene. 
+Som en ramme for behovskartlegging beskrives generelle prosesstrinn som de fleste tjenesteforløp gjennomgår. Et tjenesteforløp beskriver organisering og oppgaver knyttet til å yte helsetjenester til pasienter som følges med digital hjemmeoppfølging. Prosesstrinnene er angitt på overordnet nivå og har som formål å knytte samhandlingsbehovene til et generelt tjenesteforløp/pasientforløp. De overordnede prosesstrinnene kan spesifiseres ved behov for å synliggjøre hvordan samhandlingen understøtter mer spesifikke tjenesteforløp. Ved analyse av samhandlingsbehovene konsentrerer vi oss om hvordan tjenesteforløpet kan understøttes med nye eller endrede samhandlingsløsninger og det meste av arbeidet vil derfor handle om prosessene for **samhandling**. Vi tar utgangspunkt i en generell prosess for tjenesteforløpet i helsetjenesten (for eksempel knyttet til DHO) i figuren under. Prosesstegene baserer seg på behovskartlegging knyttet til utprøvingsprosjekter som arbeider innenfor ulike medisinske fagfelt og er ment å vise generelle prosesser som er involvert i de fleste tjenesteforløpene.  
 
 * **Søknad/Henvisning** er prosesser knyttet til å motta søknad eller henvisning fra andre deler av helsetjenesten  eller innbygger/pårørende. Eksempler kan være at en pasient er tildelt en tjeneste basert på søknad som omfatter hjemmetjenester kombinert med utplassering av DHO-utstyr/ medisinsk utstyr i pasientens hjem
 * **Oppstart/Diagnose** er oppstart av ny helsehjelp basert på søknad/henvisning med bakgrunn i behov og/eller diagnose, pasientens symptomer med utredning av pasientens tilstand. Oppstart inkluderer planlegging av behandling/oppfølging og tiltak som skal gjennomføres, og opplæring av involvert helsepersonell og pasienter/pårørende, for eksempel knyttet til bruk av medisindispenser eller annet DHO utstyr/ medisinsk utstyr.
@@ -50,7 +50,7 @@ Som en ramme for behovskartlegging beskrives generelle prosesstrinn som de flest
 * **Evaluering** innebærer å gjennomgå hvordan oppfølgingen fungerer, vurdere nye tiltak og eventuelt justere eksisterende tiltak.
 * **Avslutte** tjeneste innebærer at tjenesteforløpet avsluttes etter evaluering.
 
-Prosessen for **Samhandling** er brutt ned til generelle prosessteg som kjennetegner en samhandlingsprosess, og kan understøttes på mange måter av automatiserte eller manuelle prosesser og funksjoner.
+Prosessen for **Samhandling** er brutt ned til generelle steg som kjennetegner en samhandlingsprosess, og kan understøttes på mange måter av automatiserte eller manuelle prosesser og funksjoner.
 
 *   **Innhente informasjon** er enhver prossess hvor en aktør leser, finner eller henter informasjon fra andre interne eller eksterne kilder
 *   **Vurdere og gjennomføre tiltak** er enhver prosess hvor informasjon benyttes til å vurdere og gjennomføre faktiske tiltak for en pasient
@@ -78,7 +78,7 @@ Målarkitekturen skal være et verktøy for å koordinere innsatsen i sektoren s
 
 ### Hypotese knyttet til behov
 
-Hypotesen beskriver en antagelse som er fremkommet gjennom behovskartleggingen knyttet til DHO. Det ligger i hypotesenes behovusikker p at de bør testes før målarkitekturen ferdigstilles, det er et åpent spørsmål hvordan disse hypotesene testes og om de kan testes som en del av utprøvingsprosjektene innen DHO.
+Hypotesen beskriver en antagelse som er fremkommet gjennom behovskartleggingen knyttet til DHO. Det ligger i hypotesens natur at den bør testes før målarkitekturen ferdigstilles. Det er foreløpig et åpent spørsmål hvordan disse hypotesen testes og om den kan testes som en del av utprøvingsprosjektene innen DHO.
 
 * Samhandlingsbehovet knyttet til DHO er størst regionalt
   * Arbeidet med målarkitektur for DHO fokuserer derfor på å tilrettelegge for samhandling på regionalt nivå
@@ -87,15 +87,13 @@ Hypotesen beskriver en antagelse som er fremkommet gjennom behovskartleggingen k
 ### Behov sluttbruker og funksjonelle krav
 
 Tabellen under viser en oversikt over:
-Hvilken rolle sluttbruker kan ha
-Hvilken prioritet/ tidsperspektiv behovet har
-    Prioritet scores mellom (høy/middels/lav/ekstern (ekstern betegner behov som spilles inn til andre prosjekter))
-    Tidsperspektiv oppgis med kategoriene (kort/mellom(lang)/lang)
-Hvilke funksjonelle behov som ligger til grunn for arbeidet.
+* Hvilken rolle sluttbruker kan ha
+* Hvilken prioritet/ tidsperspektiv behovet har
+  * Prioritet scores mellom (høy/middels/lav/ekstern (ekstern betegner behov som spilles inn til andre prosjekter))
+  * Tidsperspektiv oppgis med kategoriene (kort/mellom(lang)/lang)
+* Hvilke funksjonelle behov som ligger til grunn for arbeidet.
 
- 
-
-|Rolle| Prioritet  tidsperspektiv|Behov|Funksjonelle krav|
+|Rolle| Prioritet / tidsperspektiv|Behov|Funksjonelle krav|
 |-----|-----------|-----------------|--------------------|
 |Helsepersonell (kommune, spesialist og fastlege)|høy / lang|Bedre støtte for eksplisitte ansvarsoverganger mellom virksomheter||
 |Helsepersonell (kommune, spesialist og fastlege)|høy / mellom|Finne hvilken informasjon andre virksomheter og behandlingsnivåer har om pasienten|Søkefunksjonalitet for å finne hvilke virksomhetene som har informasjon om pasienten|
@@ -109,7 +107,7 @@ Hvilke funksjonelle behov som ligger til grunn for arbeidet.
 |Helsepersonell (kommune, spesialist og fastlege)|ekstern (høy) / lang|Det må være tydelig og avklart sammenheng mellom tiltak i egenbehandlingsplanen og DHO utstyr/verktøy benyttes i egenbehandlingsplanens tiltak|Det må være lett å se informasjon fra plan og DHO-utstyr i sammenheng|
 |Helsepersonell (kommune, spesialist og fastlege)|høy / mellom|Behov for individuell tilpasset tjeneste ut fra type pasient og behov knyttet til daglig oppfølging||
 |Helsepersonell (kommune, spesialist og fastlege)|høy / lang|Å være oppdatert|Når data i kilden endrer seg, skal løsningen oppdatere seg uten opphold. Dette skal også skje når dataene endrer seg hyppig.|
-|Helsepersonell (kommune, spesialist og fastlege)|middels / lang|Tilgang til sanntidsinformasjon der det er relevant (målinger for eksempel)|Dette er ikke påpekt av tjenestene som er en del av utprøvingene, men er en del av HSØ sitt målbilde for utveksling av målinger|eks
+|Helsepersonell (kommune, spesialist og fastlege)|middels / lang|Tilgang til sanntidsinformasjon der det er relevant (målinger for eksempel)|Dette er ikke påpekt av tjenestene som er en del av utprøvingene, men er en del av HSØ sitt målbilde for utveksling av målinger|
 |Helsepersonell (kommune, spesialist og fastlege)|middels / lang|Behov for å ivareta at utstyret følger pasienten uavhengig hvem som er behandlingsansvarlig|Løsninger knyttet til delt sanking av data og oppfølging av utplassert utstyr hos pasient stiller store krav til hvordan utstyrslogistikken samordnes mellom partene. Dette inkluderer utveksling av informasjon om utstyrstype, fastvareversjoner, strømstatus, feilmeldinger og direkte tilgang til automatisert og manuell teknisk inngripen med utstyret via internett eller på stedet. I og med at det ikke eksisterer gode standardiserte løsninger knyttet til utstyrslogistikk av heterogent utstyr anskaffet fra mange virksomheter har vi valgt å ikke inkludere utstyrslogistikk i det kortsiktige målbildet. Dette kan også påvirke muligheten til å ivareta denne delen av behovet på kort sikt.|
 |Fastlege||Fastlegen har de samme behov som helsepersonell for øvrig, men har ikke daglig oppfølging av pasienten i en DHO tjeneste. De har behov for informasjon om pasient på forespørsel når pasienten tar kontakt.|Likt behov som for øvrig helsepersonell? Systemer: EPJ og noen bruker KJ og Helsenorge.|
 |Pasient / pårørende|høy / kort|Som innbygger ønsker jeg å ha tilgang til informasjon som gjør det mulig å håndtere og forstå egen helse. Finne informasjon om pasienten </br> Vise informasjon som gjelder pasienten </br> Vise trender og sammenhenger mellom informasjon samlet inn av flere virksomheter|Det må være lett for pasient å få tilgang til egen helseinformasjon. </br> Det må være lett for pasient å oppdatere data om egen helse og behandling. </br> Pårørende må ha mulighet til å få innsyn og være deltakende ut fra behov og ønske fra pasient.|
@@ -247,9 +245,9 @@ Målinger kan lagres og vises direkte eller fungere som grunnlag for andre arbei
 * Målinger kan styres gjennom egenbehandlingsplanen for pasienten
 * Målinger kan inneholde varsel om at målingen ligger utenfor referanseverdien
 
-## Detaljer om egenbehandlingsplan/behandlingsplan
+## Detaljer om egenbehandlingsplan og behandlingsplan
 
-Behovene knyttet til egenbehandlingsplan og behandlingsplan og samarbeid mellom virksomheter og omsorgsnivå i utarbeidelsen av disse planene er viktig for klinikere og pasienter. I Digital hjemmeoppfølging er det stort behov for koordinering siden pasientene er i kontakt med mange deler av helsetjenesten og trenger tett oppfølging knyttet til kroniske og sammensatte sykdommer og oppfølging av symptomer.
+Mange klinikere har uttrykt behov knyttet til samarbeid om utarbeidelsen av  og behandlingsplaner og egenbehandlingsplaner. Et slikt samarbeid må fungere mellom virksomheter og omsorgsnivå og forutsetter en felles kilde til planen. Behandlingsforløp I Digital hjemmeoppfølging er det stort behov for koordinering siden pasientene er i kontakt med mange deler av helsetjenesten og trenger tett oppfølging knyttet til kroniske og sammensatte sykdommer og oppfølging av symptomer.
 <!-- Det er etterspurt beskrivelse over sammenhenger mellom behandling/egenbehandlingsplan og målarkitekturen -->
 
 ## Detaljer om Pasientens legemiddelliste
