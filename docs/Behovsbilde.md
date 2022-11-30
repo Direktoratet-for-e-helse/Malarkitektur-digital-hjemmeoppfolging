@@ -249,10 +249,11 @@ Målinger kan lagres og vises direkte eller fungere som grunnlag for andre arbei
 
 ## Detaljer om egenbehandlingsplan og behandlingsplan
 
-Helsepersonell har uttrykt behov for samarbeid om utarbeidelse og oppfølging av behandlingsplaner og egenbehandlingsplaner. Et slikt samarbeid må fungere med pasient og mellom virksomheter og omsorgsnivå og forutsetter en felles kilde til planen. Behandlingsforløp I Digital hjemmeoppfølging er det stort behov for koordinering siden pasientene er i kontakt med mange deler av helsetjenesten og trenger tett oppfølging knyttet til kroniske og sammensatte sykdommer og oppfølging av symptomer.
+Helsepersonell har uttrykt behov for samarbeid om utarbeidelse og oppfølging av behandlingsplaner og egenbehandlingsplaner. Et slikt samarbeid må fungere med pasient og mellom virksomheter og omsorgsnivå og forutsetter en felles kilde til planen. I tjenesteforløp som inkluderer digital hjemmeoppfølging er det stort behov for koordinering. Dette handler om at pasientene ofte er i kontakt med ulike deler av helsetjenesten og trenger tett oppfølging knyttet til egen sykdom, diagnoser, funksjon og oppfølging av symptomer.
 <!-- Det er etterspurt beskrivelse over sammenhenger mellom behandling/egenbehandlingsplan og målarkitekturen -->
 
 ## Detaljer om Pasientens legemiddelliste
+Helsepersonell som følger opp pasienter i tjenesteforløp der DHO inkluderes etterspør tilgang til en felles legemiddelliste. Tilgang til en felles liste for helsepersonell som følger opp og veileder pasienten kan bidra til å sikre god kvalitet ved behandling med legemidler. Program pasientens legemiddelliste vil etablere en felles digital oversikt over pasientens legemidler, pasientens legemiddelliste (PLL) og PLL vil bli realisert gradvis. 
 
 <!-- Det er etterspurt beskrivelse over sammenhenger mellom pasientens legemiddelliste og målarkitekturen -->
 ## Roller og samhandlingsmønstre
