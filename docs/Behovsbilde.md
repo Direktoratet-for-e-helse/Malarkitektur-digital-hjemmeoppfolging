@@ -249,7 +249,7 @@ Målinger kan lagres og vises direkte eller fungere som grunnlag for andre arbei
 
 ## Detaljer om egenbehandlingsplan og behandlingsplan
 
-Mange klinikere har uttrykt behov knyttet til samarbeid om utarbeidelsen av  og behandlingsplaner og egenbehandlingsplaner. Et slikt samarbeid må fungere mellom virksomheter og omsorgsnivå og forutsetter en felles kilde til planen. Behandlingsforløp I Digital hjemmeoppfølging er det stort behov for koordinering siden pasientene er i kontakt med mange deler av helsetjenesten og trenger tett oppfølging knyttet til kroniske og sammensatte sykdommer og oppfølging av symptomer.
+Helsepersonell har uttrykt behov knyttet til samarbeid om utarbeidelsen av  og behandlingsplaner og egenbehandlingsplaner. Et slikt samarbeid må fungere mellom virksomheter og omsorgsnivå og forutsetter en felles kilde til planen. Behandlingsforløp I Digital hjemmeoppfølging er det stort behov for koordinering siden pasientene er i kontakt med mange deler av helsetjenesten og trenger tett oppfølging knyttet til kroniske og sammensatte sykdommer og oppfølging av symptomer.
 <!-- Det er etterspurt beskrivelse over sammenhenger mellom behandling/egenbehandlingsplan og målarkitekturen -->
 
 ## Detaljer om Pasientens legemiddelliste
