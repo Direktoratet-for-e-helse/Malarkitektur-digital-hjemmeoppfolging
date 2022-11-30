@@ -244,7 +244,7 @@ Målinger kan lagres og vises direkte eller fungere som grunnlag for andre arbei
 ![207618811](https://user-images.githubusercontent.com/6229665/201674806-5f79126a-2505-4629-83af-69888656f6f9.png)
 
 * Målinger kan legges til i journaldokumenter og journalføres (strukturert eller ustrukturert)
-* Målinger kan styres gjennom egenbehandlingsplanen for pasienten
+* Målinger kan styres? gjennom egenbehandlingsplanen for pasienten
 * Målinger kan inneholde varsel om at målingen ligger utenfor referanseverdien
 
 ## Detaljer om egenbehandlingsplan og behandlingsplan
