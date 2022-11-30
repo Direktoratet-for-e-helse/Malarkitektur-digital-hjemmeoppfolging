@@ -116,13 +116,13 @@ Tabellen under viser en oversikt over:
 
 ## Roller i DHO tjenesteforløp
 
-Overordnet oversikt over roller involvert i DHO baserte tjenesteforløp. Rolleoversikten er basert på dialog med kommune, fastlege og spesialisthelsetjenesten.
+Overordnet oversikt over roller som kan være involvert i DHO baserte tjenesteforløp. Rolleoversikten er basert på dialog med aktører fra kommune-, fastlege- og spesialisthelsetjenesten i et utprøvingsprosjekt.
 
 [![Roller](../images/roller.png)](../images/roller.png)
 
 | **Rolle** | **Definisjon** |
 |---|---|
-| Innbygger | Samlebetegnelse på alle roller en person kan ha som tjenestemotaker i helsesektoren enten som pasient, bruker eller pårørende |
+| Innbygger | Samlebetegnelse på alle roller en person kan ha som tjenestemotaker i helse- og omsorgssektoren enten som pasient, bruker eller pårørende |
 | Pasient | Begrepet pasient brukes om personer som gis eller tilbys hjelp fra helsetjenesten eller som henvender seg til helsetjenesten med anmodning om helsehjelp (kilde Hdir) |
 | Pårørende | Pårørende er en person som står en annen person særlig nær, for eksempel partner/ektefelle eller nærmeste familie. (Store Norske leksikon) |
 | Nærmeste pårørende | Det er nærmeste pårørende som i enkelte tilfeller har en selvstendig rett til å motta informasjon, klage på vedtak mv. Det er altså ikke pårørende generelt, men den som oppgis som nærmeste pårørende, som har rettigheter og oppgaver etter helselovgivningen, og som helsepersonell har rettslige plikter overfor. (kilde Hdir) |
@@ -147,7 +147,7 @@ Referanser: [sentrale begreper definert i Program Digital Samhandling](https://s
 
 ## Informasjonsbehov og informasjonstjenester
 
-Ulike tjenesteforløp vil ha forskjellige behov for informasjon. Disse behovene beskriver vi i form av ulike typer informasjonsressurser og informasjonstjenester. Modellen viser hvilke overordnede informasjonsressurser og informasjonstjenester det er avdekket behov for i forbindelse med DHO. Det er gjennomført en mapping av informasjonsressursene og hvordan informasjonsressursen henger sammen med informasjonstjenester definert i [Akson (bilag G2)](https://www.ehelse.no/publikasjoner/sentralt-styringsdokument-akson-helhetlig-samhandling-og-felles-kommunal-journallosning).
+Ulike tjenesteforløp vil ha forskjellige behov for informasjon. Disse behovene beskriver vi i form av ulike typer informasjonsressurser og informasjonstjenester. Modellen viser hvilke overordnede informasjonsressurser og informasjonstjenester (gruppering av informasjonsbehov) det er avdekket behov for i forbindelse med DHO. Det er gjennomført en mapping av informasjonsressursene og hvordan informasjonsressursen henger sammen med informasjonstjenester definert i [Akson (bilag G2)](https://www.ehelse.no/publikasjoner/sentralt-styringsdokument-akson-helhetlig-samhandling-og-felles-kommunal-journallosning).
 
 [![217121482](https://user-images.githubusercontent.com/6229665/201674228-84a1171d-0006-4720-a462-aaba5947dca8.png)](https://user-images.githubusercontent.com/6229665/201674228-84a1171d-0006-4720-a462-aaba5947dca8.png)
 
