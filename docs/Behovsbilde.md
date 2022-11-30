@@ -198,7 +198,7 @@ Vi skiller mellom informasjonskomponenter (..) og informasjonstjenester som arbe
 > _følges opp i hjemmet ved at pasientens egenmålinger, pasientrapporterte opplysninger om_   
 > _egen helsetilstand eller automatiske målinger, sendes digitalt til helsetjenesten,_
 
-## Pasientrapporterte data og informasjonstjenester
+## Data fra pasient og informasjonstjenester
 
 Hovedmålet for målarkitekturen DHO er å vise hvordan samhandlingen knyttet til pasientrapporterte data skal gjennomføres, samtidig som den må vise hvilke andre informasjonstjenester som må være tilsteder for å understøtte en sammenhengende DHO tjeneste. Informasjonstjenestene som omfattes av begrepet pasientrapporterte data er i denne sammenhengen:
 
