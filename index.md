@@ -62,3 +62,5 @@ Samtidig er det viktig at de første stegene forholder seg til en fremtidig mål
 * Referansearkitektur - Målarkitekturen for datadeling DHO bygger på relevante referansearkitekturer på området
 * Målarkitektur - Målarkitekturen for datadeling DHO bygger på relevante eksisterende målarkitekturer og videreutvikler og konkretiserer hvordan disse anvendes på DHO området
 * Løsningsarkitektur - Målarkitekturen gir føringer for løsningsarkitektur innden datadeling og DHO
+
+<!-- Nevne sammenhenger med annet relevant arbeid her, dokumentdeling, Pasientens legemiddelliste og DBEP-->
