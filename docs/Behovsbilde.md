@@ -242,7 +242,7 @@ Målinger kan lagres og vises direkte eller fungere som grunnlag for andre arbei
 ![207618811](https://user-images.githubusercontent.com/6229665/201674806-5f79126a-2505-4629-83af-69888656f6f9.png)
 
 * Målinger kan legges til i journaldokumenter og journalføres (strukturert eller ustrukturert)
-* Målinger kan styres? gjennom egenbehandlingsplanen for pasienten
+* Hvilke målinger som skal gjennomføres kan styres gjennom egenbehandlingsplanen for pasienten
 * Målinger kan inneholde varsel om at målingen ligger utenfor referanseverdien
 
 ## Detaljer om egenbehandlingsplan og behandlingsplan
@@ -254,6 +254,3 @@ Helsepersonell har uttrykt behov for samarbeid om utarbeidelse og oppfølging av
 Helsepersonell som følger opp pasienter i tjenesteforløp der DHO inkluderes etterspør tilgang til en felles legemiddelliste. Tilgang til en felles liste for helsepersonell som følger opp og veileder pasienten kan bidra til å sikre god kvalitet ved behandling med legemidler. Program pasientens legemiddelliste vil etablere en felles digital oversikt over pasientens legemidler, pasientens legemiddelliste (PLL) og PLL vil bli realisert gradvis. 
 
 <!-- Det er etterspurt beskrivelse over sammenhenger mellom pasientens legemiddelliste og målarkitekturen -->
-## Roller og samhandlingsmønstre
-
-<!-- Er det noen forskjell i hvilke roller som har vilke samhandlingsbehov? -->
