@@ -6,9 +6,6 @@ Testprosjekt for å se hvordan arkitekturdokumentasjon enklest mulig kan publise
 
 ## Verktøy
 
-* [just the docs - layout template for Github.io sidene](https://github.com/just-the-docs/just-the-docs)
-* [Oversette](https://metamug.com/util/confluence-to-markdown/) confluence sider til markdown
-
 ### Markdown
 
 Ukjent med [Github markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)? Da anbefaler vi [Markdown Editor til Visual Studio](https://marketplace.visualstudio.com/items?itemName=zaaack.markdown-editor)
@@ -33,7 +30,13 @@ https://github.com/Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolgi
 
 Du skal nå få opp katalogstrukturen til repositoriet i fil explorer på venstre side i VSCode.
 Husk at endringer du gjør i VSCode skrives til kopien av repoet på lokal disk. Du må commite og pushes endrede filer til repoet (remote) for at dine endringer skal bli synlige for andre.
-## Forutsetninger *just-the-docs*
+
+## Layout
+
+* [just the docs - layout template for Github.io sidene](https://github.com/just-the-docs/just-the-docs)
+* [Oversette](https://metamug.com/util/confluence-to-markdown/) confluence sider til markdown
+
+### Forutsetninger *just-the-docs*
 
 * index.md må ligge i rotkatalog på prosjektet?
 * markdown filene bør ha just-the-docs metadata
