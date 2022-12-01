@@ -117,7 +117,7 @@ Tabellen under viser en oversikt over:
 
 ## Roller i DHO tjenesteforløp
 
-Overordnet oversikt over roller som kan være involvert i DHO baserte tjenesteforløp. Rolleoversikten er basert på dialog med aktører fra kommune-, fastlege- og spesialisthelsetjenesten i et utprøvingsprosjekt.
+Figuren viser en overordnet oversikt over roller som kan være involvert i DHO baserte tjenesteforløp. Denne rolleoversikten er basert på dialog med aktører fra kommune-, fastlege- og spesialisthelsetjenesten i to utprøvingsprosjekt.
 
 [![Roller](../images/roller.png)](../images/roller.png)
 
