@@ -25,6 +25,10 @@ Forslaget til definisjon har til hensikt å romme en bredde av ulike former for 
 
 Det skal jobbes videre med definisjonsbeskrivelsen gjennom Nasjonalt velferdsteknologiprogram.
 
+## Sentrale begreper som benyttes i målarkitekturen 
+
+Tabell
+
 ## Overordnede brukerhistorier (konklusjon)
 
 Samhandlingstjenester for DHO skal tilrettelegge for følgende funksjonelle behov:
