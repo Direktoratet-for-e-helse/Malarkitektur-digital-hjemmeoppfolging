@@ -16,5 +16,4 @@ Work in progress
 |Begrep|Definisjon|
 |------|-----------|
 |Informasjonstjeneste|Informasjonstjenester, er en samlebetegnelse for alle typer tjenester som handler om å tilby eller manipulere informasjonsressurser i form av en definert tjeneste|
-|Informasjonskomponent|Denne tar vi ut av bruk og holder oss til informasjonsressurs|
 |Informasjonsressurs|er alle former for logisk avgrenset elektronisk informasjon som eksisterer i virksomheten|
