@@ -30,7 +30,7 @@ Det skal jobbes videre med definisjonsbeskrivelsen gjennom Nasjonalt velferdstek
 Samhandlingstjenester for DHO skal tilrettelegge for følgende funksjonelle behov:
 
 * _Jeg som helsepersonell får tilgang til oppdatert informasjon om pasienten som er nødvendig for å yte_ _god helsehjelp på en effektiv måte_
-* _Jeg som helsepersonell kan søke etter og få tilgjengeliggjort relevant informasjon for tjenesteforløp der Digital hjemmeoppfølging benyttes_
+* _Jeg som helsepersonell kan søke etter og få tilgjengeliggjort relevant informasjon for tjenesteforløp der Digital hjemmeoppfølging benyttes som underlag for beslutninger om helsehjelp_
 * _Jeg som ansatt i helse- og omsorgstjenesten slipper å registrere informasjon knyttet til Digital hjemmeoppfølging flere ganger i ulike systemer_
 * _Jeg som helsepersonell kan samarbeide med pasienter og helsepersonell om utarbeidelse og oppfølging av_ behandlings- og egenbehandlingsplaner 
 * _Jeg som pasient får tilgang til oppdatert og relevant informasjon for å ivareta egen helse_
