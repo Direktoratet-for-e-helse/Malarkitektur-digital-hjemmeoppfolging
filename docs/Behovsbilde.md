@@ -21,7 +21,7 @@ I 2021 ble det i rapport fra de regionale helseforetakene foreslått følgende d
 
 **Digital hjemmeoppfølging innebærer at hele eller deler av et behandlingstilbud foregår uten fysisk kontakt, der dialog og deling av data mellom pasient/bruker og behandler(e) skjer digitalt.**
 
-Forslaget til definisjon har til hensikt å romme en bredde av ulike former for digital oppfølging og samhandling mellom pasienten og helsetjenesten. Dette arbeidet har hatt hovedfokus på den delen som omhandler oppfølging basert på data fra pasient. Dette kan være data fra sensorer og medisinsk utstyr eller pasientregistrerte data som symptomer, funksjon og målinger.  
+Forslaget til definisjon har til hensikt å romme en bredde av ulike former for digital oppfølging og samhandling mellom pasienten og helsetjenesten. Målarkitekturen tar høyde for seg å omfatte hele DHO-området, selv om det for kapitelet om konsepter har vært nødvendig å prioritere noen datadelingsbehov for å lære, utforske og gå i dybden av disse. Vi har derfor startet med informasjon om oppfølging basert på data fra pasient som kan være data fra sensorer og medisinsk utstyr eller pasientregistrerte data som symptomer, funksjon og målinger.  
 
 Det skal jobbes videre med definisjonsbeskrivelsen gjennom Nasjonalt velferdsteknologiprogram.
 
