@@ -31,8 +31,8 @@ Samhandlingstjenester for DHO skal tilrettelegge for følgende funksjonelle beho
 
 * _Jeg som helsepersonell får tilgang til oppdatert informasjon om pasienten som er nødvendig for å yte_ _god helsehjelp på en effektiv måte_
 * _Jeg som helsepersonell kan søke etter og få tilgjengeliggjort relevant informasjon for tjenesteforløp der Digital hjemmeoppfølging benyttes som underlag for beslutninger om helsehjelp_
-* _Jeg som ansatt i helse- og omsorgstjenesten slipper å registrere informasjon knyttet til Digital hjemmeoppfølging flere ganger i ulike systemer_
-* _Jeg som helsepersonell kan samarbeide med pasienter og helsepersonell om utarbeidelse og oppfølging av_ behandlings- og egenbehandlingsplaner 
+* Som helsespersonell slipper jeg å registrere samme informasjon flere ganger i ulike systemer for å spare tid og unngå feil ved duplisering av data
+* _Jeg som helsepersonell kan samarbeide med pasienter og annet helsepersonell om utarbeidelse og oppfølging av_ behandlings- og egenbehandlingsplaner slik at oppdatert informasjon er tilgjengelig eg en unngår forsinkelser i oppfølging av pasienten
 * _Jeg som pasient får tilgang til oppdatert og relevant informasjon for å ivareta egen helse_
 
 ![229246071](https://user-images.githubusercontent.com/6229665/201673221-debad9fc-b32f-42fb-b0d4-0c8dbeefc2ab.png)
