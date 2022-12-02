@@ -24,7 +24,7 @@ I 2021 ble det i rapport fra de regionale helseforetakene foreslått følgende d
 Forslaget til definisjon har til hensikt å romme en bredde av ulike former for digital oppfølging og samhandling mellom pasienten og helsetjenesten. 
 Det skal jobbes videre med definisjonsbeskrivelsen gjennom Nasjonalt velferdsteknologiprogram.
 
-**merk** Målarkitekturen tar høyde for seg å gi et overordnet behovsbilde for hele DHO-området beskrevet over. 
+**Merk:** Målarkitekturen tar høyde for seg å gi et overordnet behovsbilde for hele DHO-området beskrevet over. 
 I de neste kapitelene har vi prioritert i første versjon å kun beskrive datadeling mellom virksomheter innenfor behovet for oppfølging basert på data fra pasient. Dette kan være data fra sensorer og medisinsk utstyr eller pasientregistrerte data som symptomer, funksjon og målinger. Som det kommer frem av behovstabellen er det  også behov for andre samhandlingsformer, dette vil det være nødvendig å detaljere ut i senere versjoner av målarkitekturen. 
 
 ## Overordnede brukerhistorier (konklusjon)
