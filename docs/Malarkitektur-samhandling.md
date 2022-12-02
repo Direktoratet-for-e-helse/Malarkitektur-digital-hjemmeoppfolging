@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Målarkitektur samhandling DHO
-nav_order: 6
+nav_order: 7
 ---
 
 Work in progress 
