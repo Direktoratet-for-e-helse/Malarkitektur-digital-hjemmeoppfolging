@@ -254,5 +254,5 @@ Helsepersonell har uttrykt behov for samarbeid om utarbeidelse og oppfølging av
 
 ## Detaljer om Pasientens legemiddelliste
 Helsepersonell som følger opp pasienter i tjenesteforløp der DHO inkluderes etterspør tilgang til en felles legemiddelliste. Tilgang til en felles liste for helsepersonell som følger opp og veileder pasienten kan bidra til å sikre god kvalitet ved behandling med legemidler. Program pasientens legemiddelliste vil etablere en felles digital oversikt over pasientens legemidler, pasientens legemiddelliste (PLL) og PLL vil bli realisert gradvis. 
-<-Skrive noe om dialogtjenester hvsi tanken er å si noe om de mest prioriterte i informasjonstjenestene->
+<!--Skrive noe om dialogtjenester hvsi tanken er å si noe om de mest prioriterte i informasjonstjenestene-->
 <!-- Det er etterspurt beskrivelse over sammenhenger mellom pasientens legemiddelliste og målarkitekturen -->
