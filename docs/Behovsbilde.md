@@ -87,8 +87,8 @@ Hypotesen beskriver en antagelse som er fremkommet gjennom behovskartleggingen k
 
 Tabellen under viser en oversikt over:
 * Hvilken rolle sluttbruker kan ha
-* Hvilken prioritet/ tidsperspektiv behovet har
-  * Prioritet scores mellom (høy/middels/lav/ekstern (ekstern betegner behov som spilles inn til andre prosjekter)) <!-- Høy (gir umiddelbar effekt for helsepersonell når det tas i bruk, middels (vil føre til spart tid og bedre kvalitet men er ikke kritisk for å ta i bruk tjenesten), lav (ingen beskrevet nytte))>
+* Hvilken prioritet og tidsperspektiv behovet har
+  * Prioritet scores mellom (høy/middels/lav/ekstern (ekstern betegner behov som spilles inn til andre prosjekter)) <!-- Høy (stor nytte for mange som har behovet, middels (vil føre til spart tid og bedre kvalitet men er ikke kritisk for å ta i bruk tjenesten), lav (identifisert liten nytte))-->
   * Tidsperspektiv oppgis med kategoriene (kort/mellom(lang)/lang) <!-- Kort (0-1 år), kort(mellom)lang (1-3 år), lang (3-5 år)>
 * Hvilke funksjonelle behov som ligger til grunn for arbeidet.
 
