@@ -13,6 +13,7 @@ Work in progress
 
 Ulike arkitekturprodukter for e-helse må henge sammen for å beskrive helheten. Vi må beskrive hvordan totalbildet ser ut av produkter og hvordan det henger sammen.
 
+* [Digital hjemmeoppfølging – tilnærming til helhetlig samhandling](https://www.ehelse.no/publikasjoner/rapport-digital-hjemmeoppfolging)
 * Eksisterende referanse og målarkitekturer
   * Referansearkitektur for datadeling
   * Referansearkitektur for dokumentdeling
