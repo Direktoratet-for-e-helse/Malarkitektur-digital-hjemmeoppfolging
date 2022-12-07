@@ -89,7 +89,7 @@ Tabellen under viser en oversikt over:
 * Hvilken rolle sluttbruker kan ha
 * Hvilken prioritet/ tidsperspektiv behovet har
   * Prioritet scores mellom (høy/middels/lav/ekstern (ekstern betegner behov som spilles inn til andre prosjekter))
-  * Tidsperspektiv oppgis med kategoriene (kort/mellom(lang)/lang)
+  * Tidsperspektiv oppgis med kategoriene (kort/mellom(lang)/lang) <!-- Kort (0-1 år), kort(mellom)lang (1-3 år), lang (3-5 år)>
 * Hvilke funksjonelle behov som ligger til grunn for arbeidet.
 
 |Rolle| Prioritet / tidsperspektiv|Behov|Funksjonelle krav|
