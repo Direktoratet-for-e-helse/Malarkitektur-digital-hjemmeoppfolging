@@ -86,11 +86,17 @@ Hypotesen beskriver en antagelse som er fremkommet gjennom behovskartleggingen k
 ### Behov sluttbruker og funksjonelle krav
 
 Tabellen under viser en oversikt over:
+
 * Hvilken rolle sluttbruker kan ha
 * Hvilken prioritet og tidsperspektiv behovet har
-  * Prioritet scores mellom (høy/middels/lav/ekstern (ekstern betegner behov som spilles inn til andre prosjekter)) <!-- Høy (stor nytte for mange som har behovet, middels (vil føre til spart tid og bedre kvalitet men er ikke kritisk for å ta i bruk tjenesten), lav (identifisert liten nytte))-->
-  * Tidsperspektiv oppgis med kategoriene (kort/mellom(lang)/lang) <!-- Kort (0-1 år), kort(mellom)lang (1-3 år), lang (3-5 år)>
-* Hvilke funksjonelle behov som ligger til grunn for arbeidet.
+  * Prioritet scores mellom høy/middels/lav/ekstern
+    * Høy nytteverdi betyr at tilfredstillels av behovet vil gi stor nytte og det er mange brukere
+    * Middels nytteverdi betyr at tilfredstillelse av behovet vil føre til spart tid og bedre kvalitet men er ikke kritisk for å ta i bruk tjenesten
+    * Lav nytteverdi angir behov hvor nytten for brukeren er liten eller at behovet innehas av få brukere
+    * Ekstern betegner behov som må spilles inn til andre prosjekter og behovet må tilfredstilles (i hovedsak) av løsninger som ligger utenfor omfanget av målarkitekturen
+  * Tidsperspektiv oppgis med kategoriene kort/mellom(lang)/lang
+    * Tidsperspektiv kategoriene angis med: Kort (0-1 år), mellom(lang) (1-3 år) og lang (3-5 år)
+* Viktige funksjonelle krav som må oppfylles for å tilfredstille behovet på en god måte
 
 |Rolle| Prioritet / tidsperspektiv|Behov|Funksjonelle krav|
 |-----|-----------|-----------------|--------------------|
