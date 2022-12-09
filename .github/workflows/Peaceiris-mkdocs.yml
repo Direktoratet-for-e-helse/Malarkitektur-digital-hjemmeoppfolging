@@ -3,7 +3,6 @@ name: peaceiris-mkdocks
 on:
   workflow_dispatch:
 
-
 jobs:
   deploy:
     runs-on: ubuntu-22.04

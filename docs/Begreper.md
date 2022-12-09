@@ -9,7 +9,7 @@ Work in progress
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| Work in progress | v0.1 | draft  | ikke normert |
+| Work in progress | v0.8 | draft  | ikke normert |
 
 ## Sentrale begreper som benyttes i målarkitekturen 
 

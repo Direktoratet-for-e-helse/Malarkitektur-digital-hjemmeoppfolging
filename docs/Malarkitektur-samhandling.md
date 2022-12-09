@@ -9,7 +9,7 @@ Work in progress
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| Work in progress | v0.5 | review  | ikke normert |
+| Work in progress | v0.8 | review  | ikke normert |
 
 ## Samhandling mellom helsepersonell på tvers av virksomheter
 
