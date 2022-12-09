@@ -1,0 +1,1491 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Overordnet behovsbilde DHO - Målarkitektur samhandling Digitial hjemmeoppfølging</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.975780f9.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="red">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#hva-er-digital-hjemmeoppflging" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Målarkitektur samhandling Digitial hjemmeoppfølging" class="md-header__button md-logo" aria-label="Målarkitektur samhandling Digitial hjemmeoppfølging" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Målarkitektur samhandling Digitial hjemmeoppfølging
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Overordnet behovsbilde DHO
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="grey" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      Innledning
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Begreper/" class="md-tabs__link">
+      Begreper
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Arkitekturprinsipper/" class="md-tabs__link">
+      Arkitekturprinsipper
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Overordnet-maalbilde/" class="md-tabs__link">
+      Målbilde
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="./" class="md-tabs__link md-tabs__link--active">
+      Overordnet behovsbilde
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Juridiske-rammebetingelser/" class="md-tabs__link">
+      Juridiske rammebetingelser
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Malarkitektur-samhandling/" class="md-tabs__link">
+      Målarkitektur samhandling DHO
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Konsepter-realisering/" class="md-tabs__link">
+      Konsepter realisering
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Referanser/" class="md-tabs__link">
+      Referanser
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Tilbakemeldinger-innspill/" class="md-tabs__link">
+      Tilbakemeldinger og innspill
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Målarkitektur samhandling Digitial hjemmeoppfølging" class="md-nav__button md-logo" aria-label="Målarkitektur samhandling Digitial hjemmeoppfølging" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Målarkitektur samhandling Digitial hjemmeoppfølging
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Innledning
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Begreper/" class="md-nav__link">
+        Begreper
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Arkitekturprinsipper/" class="md-nav__link">
+        Arkitekturprinsipper
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Overordnet-maalbilde/" class="md-nav__link">
+        Målbilde
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Overordnet behovsbilde
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Overordnet behovsbilde
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#hva-er-digital-hjemmeoppflging" class="md-nav__link">
+    Hva er Digital hjemmeoppfølging
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overordnede-brukerhistorier-konklusjon" class="md-nav__link">
+    Overordnede brukerhistorier (konklusjon)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tjenesteforlp-og-samhandling" class="md-nav__link">
+    Tjenesteforløp og samhandling
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kartlagte-behov-og-funksjonelle-krav" class="md-nav__link">
+    Kartlagte behov og funksjonelle krav
+  </a>
+  
+    <nav class="md-nav" aria-label="Kartlagte behov og funksjonelle krav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avgrensninger" class="md-nav__link">
+    Avgrensninger
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hypotese-knyttet-til-behov" class="md-nav__link">
+    Hypotese knyttet til behov
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#behov-sluttbruker-og-funksjonelle-krav" class="md-nav__link">
+    Behov sluttbruker og funksjonelle krav
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#roller-i-tjenesteforlp-med-digital-hjemmeoppflging" class="md-nav__link">
+    Roller i tjenesteforløp med digital hjemmeoppfølging
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#informasjonsbehov-og-informasjonstjenester" class="md-nav__link">
+    Informasjonsbehov og informasjonstjenester
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#analyse-av-informasjonsbehov" class="md-nav__link">
+    Analyse av informasjonsbehov
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#informasjonstjenester-som-beskrives-i-dho-arbeidet" class="md-nav__link">
+    Informasjonstjenester som beskrives i DHO arbeidet
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-fra-pasient-og-informasjonstjenester" class="md-nav__link">
+    Data fra pasient og informasjonstjenester
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#informasjonstjenester-i-andre-kategorier" class="md-nav__link">
+    Informasjonstjenester i andre kategorier
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prioritering-av-informasjonstjenester" class="md-nav__link">
+    Prioritering av informasjonstjenester
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detaljer-om-malinger" class="md-nav__link">
+    Detaljer om målinger
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detaljer-om-egenbehandlingsplan-og-behandlingsplan" class="md-nav__link">
+    Detaljer om egenbehandlingsplan og behandlingsplan
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detaljer-om-pasientens-legemiddelliste" class="md-nav__link">
+    Detaljer om Pasientens legemiddelliste
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Juridiske-rammebetingelser/" class="md-nav__link">
+        Juridiske rammebetingelser
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Malarkitektur-samhandling/" class="md-nav__link">
+        Målarkitektur samhandling DHO
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Konsepter-realisering/" class="md-nav__link">
+        Konsepter realisering
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Referanser/" class="md-nav__link">
+        Referanser
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tilbakemeldinger-innspill/" class="md-nav__link">
+        Tilbakemeldinger og innspill
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#hva-er-digital-hjemmeoppflging" class="md-nav__link">
+    Hva er Digital hjemmeoppfølging
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overordnede-brukerhistorier-konklusjon" class="md-nav__link">
+    Overordnede brukerhistorier (konklusjon)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tjenesteforlp-og-samhandling" class="md-nav__link">
+    Tjenesteforløp og samhandling
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kartlagte-behov-og-funksjonelle-krav" class="md-nav__link">
+    Kartlagte behov og funksjonelle krav
+  </a>
+  
+    <nav class="md-nav" aria-label="Kartlagte behov og funksjonelle krav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avgrensninger" class="md-nav__link">
+    Avgrensninger
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hypotese-knyttet-til-behov" class="md-nav__link">
+    Hypotese knyttet til behov
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#behov-sluttbruker-og-funksjonelle-krav" class="md-nav__link">
+    Behov sluttbruker og funksjonelle krav
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#roller-i-tjenesteforlp-med-digital-hjemmeoppflging" class="md-nav__link">
+    Roller i tjenesteforløp med digital hjemmeoppfølging
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#informasjonsbehov-og-informasjonstjenester" class="md-nav__link">
+    Informasjonsbehov og informasjonstjenester
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#analyse-av-informasjonsbehov" class="md-nav__link">
+    Analyse av informasjonsbehov
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#informasjonstjenester-som-beskrives-i-dho-arbeidet" class="md-nav__link">
+    Informasjonstjenester som beskrives i DHO arbeidet
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-fra-pasient-og-informasjonstjenester" class="md-nav__link">
+    Data fra pasient og informasjonstjenester
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#informasjonstjenester-i-andre-kategorier" class="md-nav__link">
+    Informasjonstjenester i andre kategorier
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prioritering-av-informasjonstjenester" class="md-nav__link">
+    Prioritering av informasjonstjenester
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detaljer-om-malinger" class="md-nav__link">
+    Detaljer om målinger
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detaljer-om-egenbehandlingsplan-og-behandlingsplan" class="md-nav__link">
+    Detaljer om egenbehandlingsplan og behandlingsplan
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detaljer-om-pasientens-legemiddelliste" class="md-nav__link">
+    Detaljer om Pasientens legemiddelliste
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Overordnet behovsbilde</h1>
+
+<p>Work in progress 
+{: .label .label-yellow }</p>
+<table>
+<thead>
+<tr>
+<th align="left">Status</th>
+<th align="left">Version</th>
+<th align="left">Maturity</th>
+<th align="left">Normative level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Work in progress</td>
+<td align="left">v0.8</td>
+<td align="left">review</td>
+<td align="left">ikke normert</td>
+</tr>
+</tbody>
+</table>
+<p>Helse- og omsorgssektoren har behov for mer effektiv samhandling for å øke tilgjengeligheten til relevante helseopplysninger. Målbildet for helhetlig samhandling er å tilby informasjonstjenester på en samhandlingsinfrastruktur som representerer et sett av informasjonsbehov som ikke er tilstrekkelig dekket i dagens nasjonale e-helseløsninger for samhandling. Hver informasjonstjeneste gir mulighet for å utveksle eller dele helseinformasjon mellom ulike aktører. Særskilte behov løses nasjonalt når det gir vesentlig gevinst/ nytte. Høy semantisk samhandlingsevne (hva dataene betyr og hvordan de er definert) er nødvendig for å lykkes med dette. Arbeidet med behov for informasjonsdeling i tjenesten Digital hjemmeoppfølging sees i sammenheng med målbildet for helhetlig samhandling. Kartlegging av behov for deling av informasjon, fra innbygger til helsepersonells løsninger, er utført med ulike perspektiv.  </p>
+<p>Behovene i helsetjenesten ligger til grunn for etablering av samhandlingsløsningene i sektoren og legger premissene for hvilke samhandlingsløsninger som skal etableres og videreutvikles. Behovene knyttet til Digital hjemmeoppfølging (DHO) er i stor grad overlappende med andre tjenesteforløp og vi kan derfor lære mye om nødvendige samhandlingsløsninger i sektoren ved å se spesielt på sammensatte tjenesteforløp innen DHO. Behovene henter vi fra utprøvingsprosjekter og tjenesteeiere i helse- og omsorgssektoren. Erfaring fra utprøvingsprosjektene skal over tid føre til mer spesifikk behovskartlegging knyttet til erfaring med utveksling av informasjon mellom virksomheter og behandlingsnivå (primær- og spesialisthelsetjenesten) knyttet til DHO. Vi skiller i det videre arbeidet mellom informasjonsbehov og funksjonelle krav.</p>
+<h2 id="hva-er-digital-hjemmeoppflging">Hva er Digital hjemmeoppfølging</h2>
+<p>I 2021 ble det i rapport fra de regionale helseforetakene foreslått følgende definisjon</p>
+<p><strong>Digital hjemmeoppfølging innebærer at hele eller deler av et behandlingstilbud foregår uten fysisk kontakt, der dialog og deling av data mellom pasient/bruker og behandler(e) skjer digitalt.</strong></p>
+<p>Forslaget til definisjon har til hensikt å romme en bredde av ulike former for digital oppfølging og samhandling mellom pasienten og helsetjenesten. 
+Det skal jobbes videre med definisjonsbeskrivelsen gjennom Nasjonalt velferdsteknologiprogram.</p>
+<p><strong>Merk:</strong> Målarkitekturen tar høyde for seg å gi et overordnet behovsbilde for hele DHO-området beskrevet over. 
+I de neste kapitelene har vi prioritert i første versjon å kun beskrive datadeling mellom virksomheter innenfor behovet for oppfølging basert på data fra pasient. Dette kan være data fra sensorer og medisinsk utstyr eller pasientregistrerte data som symptomer, funksjon og målinger. Som det kommer frem av behovstabellen er det  også behov for andre samhandlingsformer, dette vil det være nødvendig å detaljere ut i senere versjoner av målarkitekturen. </p>
+<h2 id="overordnede-brukerhistorier-konklusjon">Overordnede brukerhistorier (konklusjon)</h2>
+<p>Samhandlingstjenester for DHO skal tilrettelegge for følgende funksjonelle behov:</p>
+<ul>
+<li><em>Jeg som helsepersonell får tilgang til oppdatert informasjon om pasienten som er nødvendig for å yte</em> <em>god helsehjelp på en effektiv måte</em></li>
+<li><em>Jeg som helsepersonell kan søke etter og få tilgjengeliggjort relevant informasjon for tjenesteforløp der Digital hjemmeoppfølging benyttes som underlag for beslutninger om helsehjelp</em></li>
+<li>Som helsespersonell slipper jeg å registrere samme informasjon flere ganger i ulike systemer for å spare tid og unngå feil ved duplisering av data</li>
+<li><em>Jeg som helsepersonell kan samarbeide med pasienter og annet helsepersonell om utarbeidelse og oppfølging av</em> behandlings- og egenbehandlingsplaner slik at oppdatert informasjon er tilgjengelig eg en unngår forsinkelser i oppfølging av pasienten</li>
+<li><em>Jeg som pasient får tilgang til oppdatert og relevant informasjon for å ivareta egen helse</em></li>
+</ul>
+<p><img alt="229246071" src="https://user-images.githubusercontent.com/6229665/201673221-debad9fc-b32f-42fb-b0d4-0c8dbeefc2ab.png" /></p>
+<h2 id="tjenesteforlp-og-samhandling">Tjenesteforløp og samhandling</h2>
+<p>Som en ramme for behovskartlegging beskrives generelle prosesstrinn som de fleste tjenesteforløp gjennomgår. Et tjenesteforløp beskriver organisering og oppgaver knyttet til å yte helsetjenester til pasienter som følges med digital hjemmeoppfølging. Prosesstrinnene er angitt på overordnet nivå og har som formål å knytte samhandlingsbehovene til et generelt tjenesteforløp/pasientforløp. De overordnede prosesstrinnene kan spesifiseres ved behov for å synliggjøre hvordan samhandlingen understøtter mer spesifikke tjenesteforløp. Ved analyse av samhandlingsbehovene konsentrerer vi oss om hvordan tjenesteforløpet kan understøttes med nye eller endrede samhandlingsløsninger og det meste av arbeidet vil derfor handle om prosessene for <strong>samhandling</strong>. Vi tar utgangspunkt i en generell prosess for tjenesteforløpet i helsetjenesten (for eksempel knyttet til DHO) i figuren under. Prosesstegene baserer seg på behovskartlegging knyttet til utprøvingsprosjekter som arbeider innenfor ulike medisinske fagfelt og er ment å vise generelle prosesser som er involvert i de fleste tjenesteforløpene.  </p>
+<ul>
+<li><strong>Søknad/Henvisning</strong> er prosesser knyttet til å motta søknad eller henvisning fra andre deler av helsetjenesten  eller innbygger/pårørende. Eksempler kan være at en pasient er tildelt en tjeneste basert på søknad som omfatter hjemmetjenester kombinert med utplassering av DHO-utstyr/ medisinsk utstyr i pasientens hjem</li>
+<li><strong>Oppstart/Diagnose</strong> er oppstart av ny helsehjelp basert på søknad/henvisning med bakgrunn i behov og/eller diagnose, pasientens symptomer med utredning av pasientens tilstand. Oppstart inkluderer planlegging av behandling/oppfølging og tiltak som skal gjennomføres, og opplæring av involvert helsepersonell og pasienter/pårørende, for eksempel knyttet til bruk av medisindispenser eller annet DHO utstyr/ medisinsk utstyr.</li>
+<li><strong>Behandling og oppfølging</strong> av pasient er det mest sentrale prosessteget i tjenesteforløpet og vil omfatte alle former for oppfølging og behandling som gjennomføres. Det kan være oppfølging ved hjelp av teknologi, hjemmebesøk eller behandling som krever besøk/innleggelse på helseinstitusjon</li>
+<li><strong>Evaluering</strong> innebærer å gjennomgå hvordan oppfølgingen fungerer, vurdere nye tiltak og eventuelt justere eksisterende tiltak.</li>
+<li><strong>Avslutte</strong> tjeneste innebærer at tjenesteforløpet avsluttes etter evaluering.</li>
+</ul>
+<p>Prosessen for <strong>Samhandling</strong> er brutt ned til generelle steg som kjennetegner en samhandlingsprosess, og kan understøttes på mange måter av automatiserte eller manuelle prosesser og funksjoner.</p>
+<ul>
+<li><strong>Innhente informasjon</strong> er enhver prossess hvor en aktør leser, finner eller henter informasjon fra andre interne eller eksterne kilder</li>
+<li><strong>Vurdere og gjennomføre tiltak</strong> er enhver prosess hvor informasjon benyttes til å vurdere og gjennomføre faktiske tiltak for en pasient</li>
+<li><strong>Produsere informasjon</strong> er enhver prosess knyttet til å dokumentere tiltakene som er gjennomført og vurderingene som ligger til grunn for tiltakene</li>
+<li><strong>Dele informasjon</strong> er enhver prosess knyttet til å dele eller tilgjengeliggjøre produsert informasjon, slik at andre aktører kan konsumere (bruke) informasjonen</li>
+</ul>
+<p><img alt="229246025" src="https://user-images.githubusercontent.com/6229665/201673317-48a59010-08a9-45e0-8671-3cfd9710e082.png" /></p>
+<h2 id="kartlagte-behov-og-funksjonelle-krav">Kartlagte behov og funksjonelle krav</h2>
+<p>For å understøtte tjenesteforløp der pasienter følges med digital hjemmeoppfølging på en effektiv måte er det identifisert en rekke brukerbehov som kan understøttes med bedre samhandlingsløsninger. Dette kapitelet oppsummerer de mest sentrale behovene og funksjonelle krav som kan utledes fra disse.</p>
+<h3 id="avgrensninger">Avgrensninger</h3>
+<p>Målarkitekturen skal være et verktøy for å koordinere innsatsen i sektoren slik at aktørenen arbeider i samme retning for å løses samhandlingsutfordringene. Den skal blant annet inneholde hvilke samhandlingstjenester som skal tilbys nasjonalt. Det er derfor gjort noen avgrensninger i forhold til de behovene som analyseres i arbeidet med målarkitektur for samhandling innen DHO.</p>
+<ul>
+<li>Det er fokus på tilrettelegging for samhandling mellom virksomheter og omsorgsnivå og samhandling med innbygger</li>
+<li>Noen av de samme mekanismene kan også benyttes for samhandling internt i en virksomhet, men det er ikke hovedfokuset i dette arbeidet</li>
+<li>Det er fokus på utveksling av strukturert informasjon mellom virksomheter og omsorgsnivå. Høy semantisk samhandlingsevne (hva dataene betyr og hvordan de er definert) er nødvendig</li>
+<li>Det er fokus på primærbruk av data. Sekundærbruk av data er ikke et sentralt tema for dette arbeidet</li>
+<li>Det antas at utveksling av strukturert informasjon kan være nyttig også knyttet til sekundærbruk innen forskning og kvalitetssikring av helsehjelp</li>
+<li>Velferdsteknologi (tradisjonell trygghets og mestringsteknologi) er ikke en del av omfanget for målarkitekturen for DHO.</li>
+<li>Behovene knyttet til trygghet og mestring er relativt godt analysert i tidligere arbeid og det er bare små overlapp mellom DHO og trygghet og mestringsområdet</li>
+<li>Noen teknologiske løsninger og utfordringer er imidlertid sammenfallende med trygghet og mestringsområdet og vil også være en naturlig del av behovsbildet og løsningene som benyttes innen DHO området</li>
+</ul>
+<h3 id="hypotese-knyttet-til-behov">Hypotese knyttet til behov</h3>
+<p>Hypotesen beskriver en antagelse som er fremkommet gjennom behovskartleggingen knyttet til DHO. Det ligger i hypotesens natur at den bør testes før målarkitekturen ferdigstilles. Det er foreløpig et åpent spørsmål hvordan disse hypotesen testes og om den kan testes som en del av utprøvingsprosjektene innen DHO.</p>
+<ul>
+<li>Samhandlingsbehovet knyttet til DHO er størst regionalt</li>
+<li>Arbeidet med målarkitektur for DHO fokuserer derfor på å tilrettelegge for samhandling på regionalt nivå</li>
+</ul>
+<!-- Hvordan unngår vi å ta arkitekturvalg som hindrer oss fleksibilitet senere -->
+
+<h3 id="behov-sluttbruker-og-funksjonelle-krav">Behov sluttbruker og funksjonelle krav</h3>
+<p>Tabellen under viser en oversikt over:</p>
+<ul>
+<li>Hvilken rolle sluttbruker har behovet</li>
+<li>Hvilken prioritet og tidsperspektiv behovet har</li>
+<li>Prioritet scores mellom høy/middels/lav/ekstern<ul>
+<li>Høy nytteverdi betyr at tilfredstillels av behovet vil gi stor nytte og det er mange brukere</li>
+<li>Middels nytteverdi betyr at tilfredstillelse av behovet vil kunne føre til spart tid og bedre kvalitet men er ikke kritisk for å ta i bruk tjenesten</li>
+<li>Lav nytteverdi angir behov hvor nytten for brukeren er liten eller at behovet innehas av få brukere</li>
+<li>Ekstern betegner behov som må spilles inn til andre prosjekter og behovet må tilfredstilles (i hovedsak) av løsninger som ligger utenfor omfanget av målarkitekturen</li>
+</ul>
+</li>
+<li>Tidsperspektiv kategoriene angis med: Kort (0-1 år), mellom(lang) (1-3 år) og lang (3-5 år)</li>
+<li>Viktige funksjonelle krav som må oppfylles for å tilfredstille behovet på en god måte</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Rolle</th>
+<th>Prioritet / tidsperspektiv</th>
+<th>Behov</th>
+<th>Funksjonelle krav</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Helsepersonell (kommune, spesialist og fastlege)</td>
+<td>høy / lang</td>
+<td>Bedre støtte for eksplisitte ansvarsoverganger mellom virksomheter</td>
+<td></td>
+</tr>
+<tr>
+<td>Helsepersonell (kommune, spesialist og fastlege)</td>
+<td>høy / mellom</td>
+<td>Finne hvilken informasjon andre virksomheter og behandlingsnivåer har om pasienten</td>
+<td>Søkefunksjonalitet for å finne hvilke virksomhetene som har informasjon om pasienten</td>
+</tr>
+<tr>
+<td>Helsepersonell (kommune, spesialist og fastlege)</td>
+<td>høy / kort</td>
+<td>Vise informasjon som andre virksomheter og behandlingsnivåer har samlet inn om pasienten</td>
+<td>Felles informasjonsstruktur og innhold er viktig både for: </br> - Å vise informasjon fra flere eksterne virksomheter </br> - Tilby enhetlig søkegrensesnitt på tvers av flere virksomheter </br> - Sammenstilling av informasjon fra flere kilder i felles visning</td>
+</tr>
+<tr>
+<td>Helsepersonell (kommune, spesialist og fastlege)</td>
+<td>høy / mellom</td>
+<td>Vise trender og sammenhenger mellom informasjon samlet inn i egen og andre virksomheter</td>
+<td>Felles informasjonsstruktur og innhold er viktig både for: </br> - Å vise informasjon fra flere eksterne virksomheter </br> - Tilby enhetlig søkegrensesnitt på tvers av flere virksomheter </br> - Sammenstilling av informasjon fra flere kilder i felles visning</td>
+</tr>
+<tr>
+<td>Helsepersonell (kommune, spesialist og fastlege)</td>
+<td>høy / kort</td>
+<td>Samhandlingen og arbeidsflyten skal ikke medføre dobbeltarbeid</td>
+<td>Det skal ikke være nødvendig å registrere samme informasjon flere ganger (i ulike systemer) eller logge seg på i ulike systemer for å gjennomføre arbeidsoppgaver knyttet til samme pasient og tiltak (SSO) /Er det noe krav til innlogging med tanke på HPR, må alle være registrert der? Trenger også personell som sekretærer tilgang?</td>
+</tr>
+<tr>
+<td>Helsepersonell (kommune, spesialist og fastlege)</td>
+<td>middels / mellom</td>
+<td>Arbeidsflyt og samhandling må støttes i en enhetlig utformet brukerflate</td>
+<td>Unngå særegne systemer for oppslag i DHO resultater </br> Unngå mange ulike utformede arbeidsflater som ikke er integrert</td>
+</tr>
+<tr>
+<td>Helsepersonell (kommune, spesialist og fastlege)</td>
+<td>middels / mellom</td>
+<td>Det må være mulig å kvalitetssikre relevant informasjon ved å se hvor informasjonen kommer fra og hvordan den er samlet inn</td>
+<td>Proveniens og metadata med riktig detaljnivå må følge informasjonen når den utveksles</td>
+</tr>
+<tr>
+<td>Helsepersonell (kommune, spesialist og fastlege)</td>
+<td>middels / mellom</td>
+<td>Tilgang til ulike typer informasjon for å understøtte tjenesteforløpet knyttet til flere pasientgrupper.</td>
+<td>Aktuelle pasientgrupper kan være KOLS syke, multisyke og andre pasientgrupper med behov for digital hjemmeoppfølging</td>
+</tr>
+<tr>
+<td>Helsepersonell (kommune, spesialist og fastlege)</td>
+<td>ekstern (høy) / mellom</td>
+<td>Samarbeide om utarbeidelsen av behandlingsplan og egenbehandlingsplan med pasienten og klinikere fra andre virksomheter</td>
+<td>Det må eksistere felles kilde til planer og felles verktøy for samarbeid om planer</td>
+</tr>
+<tr>
+<td>Helsepersonell (kommune, spesialist og fastlege)</td>
+<td>ekstern (høy) / lang</td>
+<td>Det må være tydelig og avklart sammenheng mellom tiltak i egenbehandlingsplanen og DHO utstyr/verktøy benyttes i egenbehandlingsplanens tiltak</td>
+<td>Det må være lett å se informasjon fra plan og DHO-utstyr i sammenheng</td>
+</tr>
+<tr>
+<td>Helsepersonell (kommune, spesialist og fastlege)</td>
+<td>høy / mellom</td>
+<td>Behov for individuell tilpasset tjeneste ut fra type pasient og behov knyttet til daglig oppfølging</td>
+<td></td>
+</tr>
+<tr>
+<td>Helsepersonell (kommune, spesialist og fastlege)</td>
+<td>høy / lang</td>
+<td>Å være oppdatert</td>
+<td>Når data i kilden endrer seg, skal løsningen oppdatere seg uten opphold. Dette skal også skje når dataene endrer seg hyppig.</td>
+</tr>
+<tr>
+<td>Helsepersonell (kommune, spesialist og fastlege)</td>
+<td>middels / lang</td>
+<td>Tilgang til sanntidsinformasjon der det er relevant (målinger for eksempel)</td>
+<td>Dette er ikke påpekt av tjenestene som er en del av utprøvingene, men er en del av HSØ sitt målbilde for utveksling av målinger</td>
+</tr>
+<tr>
+<td>Helsepersonell (kommune, spesialist og fastlege)</td>
+<td>middels / lang</td>
+<td>Behov for å ivareta at utstyret følger pasienten uavhengig hvem som er behandlingsansvarlig</td>
+<td>Løsninger knyttet til delt sanking av data og oppfølging av utplassert utstyr hos pasient stiller store krav til hvordan utstyrslogistikken samordnes mellom partene. Dette inkluderer utveksling av informasjon om utstyrstype, fastvareversjoner, strømstatus, feilmeldinger og direkte tilgang til automatisert og manuell teknisk inngripen med utstyret via internett eller på stedet. I og med at det ikke eksisterer gode standardiserte løsninger knyttet til utstyrslogistikk av heterogent utstyr anskaffet fra mange virksomheter har vi valgt å ikke inkludere utstyrslogistikk i det kortsiktige målbildet. Dette kan også påvirke muligheten til å ivareta denne delen av behovet på kort sikt.</td>
+</tr>
+<tr>
+<td>Fastlege</td>
+<td></td>
+<td>Fastlegen har de samme behov som helsepersonell for øvrig, men har ikke daglig oppfølging av pasienten i en DHO tjeneste. De har behov for informasjon om pasient på forespørsel når pasienten tar kontakt.</td>
+<td>Likt behov som for øvrig helsepersonell? Systemer: EPJ og noen bruker KJ og Helsenorge.</td>
+</tr>
+<tr>
+<td>Pasient / pårørende</td>
+<td>høy / kort</td>
+<td>Som innbygger ønsker jeg tilgang til informasjon som gjør det mulig å forstå og mestre egen helse. Finne informasjon om pasienten </br> Vise informasjon som gjelder pasienten </br> Vise trender og sammenhenger mellom informasjon samlet inn av flere virksomheter. Det er behov for å ha dialog med helsepersonell og gi tilbakemelding til tjenesten på en enkel måte.</td>
+<td>Det må være lett for pasient å få tilgang til egen helseinformasjon. </br> Pårørende må ha mulighet til å få innsyn og være deltakende ut fra behov og ønske fra pasient.</td>
+</tr>
+<tr>
+<td>Pasient / pårørende</td>
+<td>middels / kort</td>
+<td>Avlevere data basert på mål og tiltak i oppsatt plan.</td>
+<td>Det må være lett for pasient å oppdatere data om egen helse og behandling i en sammenhengende arbeidsflate</td>
+</tr>
+<tr>
+<td>Pasient / pårørende</td>
+<td>middels / kort</td>
+<td>Det må være mulig for meg som pasient å se hvem som har tilgang til mine data for å ivareta mitt personvern.</td>
+<td>Det må være lett for pasient å se hvem som har tilgang til mine data.</td>
+</tr>
+<tr>
+<td>Pasient / pårørende</td>
+<td>høy / mellom</td>
+<td>Jeg må være sikker på at relevant helsepersonell får tilgang til tilstrekkelig informasjon slik at jeg kan motta best mulig helsetilbud og at helsetjenesten iverksetter de beste tiltakene for å ivareta min helse.</td>
+<td>Pasient skal ikke trenge å videreformidle informasjon mellom helsepersonell, det skal skje ved hjelp av datadeling på tvers.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="roller-i-tjenesteforlp-med-digital-hjemmeoppflging">Roller i tjenesteforløp med digital hjemmeoppfølging</h2>
+<p>Figuren viser en overordnet oversikt over roller som kan være involvert i DHO baserte tjenesteforløp. Denne rolleoversikten er basert på dialog med aktører fra kommune-, fastlege- og spesialisthelsetjenesten i to utprøvingsprosjekt.</p>
+<p><a href="../images/roller.png"><img alt="Roller" src="../images/roller.png" /></a></p>
+<table>
+<thead>
+<tr>
+<th><strong>Rolle</strong></th>
+<th><strong>Definisjon</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Innbygger</td>
+<td>Samlebetegnelse på alle roller en person kan ha som tjenestemotaker i helse- og omsorgssektoren enten som pasient, bruker eller pårørende</td>
+</tr>
+<tr>
+<td>Pasient</td>
+<td>Begrepet pasient brukes om personer som gis eller tilbys hjelp fra helsetjenesten eller som henvender seg til helsetjenesten med anmodning om helsehjelp (kilde Hdir)</td>
+</tr>
+<tr>
+<td>Pårørende</td>
+<td>Pårørende er en person som står en annen person særlig nær, for eksempel partner/ektefelle eller nærmeste familie. (Store Norske leksikon)</td>
+</tr>
+<tr>
+<td>Nærmeste pårørende</td>
+<td>Det er nærmeste pårørende som i enkelte tilfeller har en selvstendig rett til å motta informasjon, klage på vedtak mv. Det er altså ikke pårørende generelt, men den som oppgis som nærmeste pårørende, som har rettigheter og oppgaver etter helselovgivningen, og som helsepersonell har rettslige plikter overfor. (kilde Hdir)</td>
+</tr>
+<tr>
+<td>Helsepersonell</td>
+<td>En person som er nevnt i helsepersonelloven § 3 defineres som helsepersonell. For det første omfattes de som har autorisasjon eller lisens etter&nbsp;helsepersonelloven §§ 48&nbsp;og&nbsp;49.&nbsp;Dernest omfattes personell i helse- og omsorgstjenesten eller i apotek som yter helsehjelp, og studenter og elever som yter helsehjelp i forbindelse med helsefaglig opplæring.Medhjelpere til helsepersonell er helsepersonell når de får tildelt oppgaver fra helsepersonell. (kilde Hdir)</td>
+</tr>
+<tr>
+<td>Helsepersonell fastlege</td>
+<td>Samlebetegnelse for helsepersonell tilknyttet fastlegetjenesten.</td>
+</tr>
+<tr>
+<td>Fastlege</td>
+<td>Lege som inngår avtale med en kommune om deltakelse i fastlegeordningen, uavhengig av om legen er ansatt i kommunen eller er selvstendig næringsdrivende. (kilde: Lovdata)</td>
+</tr>
+<tr>
+<td>Primærhelseteam</td>
+<td>Ivaretar daglig oppfølging av en pasient med DHO tjeneste på vegne av fastlegen (bare relevant i noen kommuner)</td>
+</tr>
+<tr>
+<td>Helsesekretær</td>
+<td></td>
+</tr>
+<tr>
+<td>Helsestasjon for eldre</td>
+<td></td>
+</tr>
+<tr>
+<td>Helsepersonell kommune</td>
+<td>Samlebetegnelse for helsepersonell tilknyttet kommunehelsetjenesten.</td>
+</tr>
+<tr>
+<td>Fysioterapeut</td>
+<td>En fysioterapeut behandler og forebygger skader og sykdommer som gir smerte eller nedsatt funksjon i muskel- og skjelettsystemet (kilde utdanning.no)</td>
+</tr>
+<tr>
+<td>Hjemmetjeneste</td>
+<td></td>
+</tr>
+<tr>
+<td>Farmasøyt</td>
+<td></td>
+</tr>
+<tr>
+<td>Oppfølgingsansvarlig</td>
+<td>Den som har ansvar for den daglige oppfølging av pasienten</td>
+</tr>
+<tr>
+<td>Ambulante team</td>
+<td></td>
+</tr>
+<tr>
+<td>Helsepersonell HF</td>
+<td>Samlebetegnelse for helsepersonell tilknyttet spesialisthelsetjenesten.</td>
+</tr>
+<tr>
+<td>Spesialist</td>
+<td></td>
+</tr>
+<tr>
+<td>Helsesekretær</td>
+<td></td>
+</tr>
+<tr>
+<td>Eldrehelsekoordinator</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Referanser: <a href="https://sh.ehelse.no/akson/Dokumentbibliotek%20Forprosjekt%20Steg%202/20%20Leveranser/09.%20Sentralt%20styringsdokument/05%20Vedlegg%20SSD/Vedlegg%20A%20Sentrale%20begreper.docx?d=w5a50e9a879ab4c1a800b8a88cca9040c">sentrale begreper definert i Program Digital Samhandling</a>, Digdir, <a href="https://www.helsedirektoratet.no/rundskriv/pasient-og-brukerrettighetsloven-med-kommentarer/alminnelige-bestemmelser/definisjoner#:~:text=pasient%3A%20en%20person%20som%20henvender,som%20p%C3%A5r%C3%B8rende%20og%20n%C3%A6rmeste%20p%C3%A5r%C3%B8rende.">Helsedirektoratet</a></p>
+<h2 id="informasjonsbehov-og-informasjonstjenester">Informasjonsbehov og informasjonstjenester</h2>
+<p>Ulike tjenesteforløp vil ha forskjellige behov for informasjon. Disse behovene beskriver vi i form av ulike typer informasjonsressurser og informasjonstjenester. Modellen viser hvilke overordnede informasjonsressurser og informasjonstjenester (gruppering av informasjonsbehov) det er avdekket behov for i forbindelse med DHO. Det er gjennomført en mapping av informasjonsressursene og hvordan informasjonsressursen henger sammen med informasjonstjenester definert i <a href="https://www.ehelse.no/publikasjoner/sentralt-styringsdokument-akson-helhetlig-samhandling-og-felles-kommunal-journallosning">Sentralt styringsdokument Akson - Helhetlig samhandling (bilag G2)</a>.</p>
+<p><a href="https://user-images.githubusercontent.com/6229665/201674228-84a1171d-0006-4720-a462-aaba5947dca8.png"><img alt="217121482" src="https://user-images.githubusercontent.com/6229665/201674228-84a1171d-0006-4720-a462-aaba5947dca8.png" /></a></p>
+<p>I tillegg er det identifisert behov for dialogtjenester for kommunikasjon mellom helsepersonell og mellom helsepersonell og innbygger:</p>
+<p><img alt="207618572" src="https://user-images.githubusercontent.com/6229665/201674334-dcbe578d-aeb3-40d1-9124-8ef0ce9087a1.png" /></p>
+<h2 id="analyse-av-informasjonsbehov">Analyse av informasjonsbehov</h2>
+<p>Tabellen under viser en oversikt over identifiserte informasjonsbehov og kobling til tidligere identifiserte  informasjonstjenester fra bilag G2 Helhetlig samhandling. Tabellen oppsummerer:</p>
+<ul>
+<li>Informasjonsbehov</li>
+<li>Er informasjonsbehovet beskrevet i en informasjonstjeneste - informasjonsbehovene er mappet til informasjonstjenester definert for Helhetlig samhandling og felles kommunal journalløsning (<a href="https://www.ehelse.no/publikasjoner/sentralt-styringsdokument-akson-helhetlig-samhandling-og-felles-kommunal-journallosning/Bilag%20G2%20Helhetlig%20samhandling.pdf">Bilag G2 definerer informasjonstjenestene</a>)</li>
+<li>Hva betyr informasjonsbehovet</li>
+<li>Hvorfor er det behov for informasjonen</li>
+<li>Hvor kommer informasjonen fra (kilde)</li>
+<li>Hvordan blir informasjonen til</li>
+<li>Hvordan kan man samhandle om informasjonen for å dekke informasjonsbehovet</li>
+<li>Når er det behov for informasjonen og hvor lenge vil informasjon være relevant</li>
+<li>Er det sammenhenger/ avhengigheter med andre informasjonstjenester</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Informasjonsbehov</th>
+<th>Informasjons-tjeneste</th>
+<th>Hva</th>
+<th>Hvorfor</th>
+<th>Hvor (kilde)</th>
+<th>Hvordan</th>
+<th>Samhandlingsform</th>
+<th>Når og hvor lenge</th>
+<th>Sammenheng med andre informasjonstjenester</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Målinger</td>
+<td>Undersøkelser, målinger og funn (IT17) (Multimedia og MTU-målinger (IT07))</td>
+<td>Inneholder resultater fra målinger og registreringer av informasjon som beskriver pasientens tilstand.blodsukker, Pulsox, temperatur, vekt, blodtrykk og kroppsvekt.</td>
+<td>Målinger av pasientens tilstand i øyeblikket, trender</td>
+<td>pasienten, måleutstyr (Medisinsk Utstyr/DHO-system)DHO-system vil være hovedprodusent</td>
+<td>Automatiske og manuelle registreringer</td>
+<td>Slå opp og tilgjengeliggjøreSende og motta (internt i virksomheten)</td>
+<td>Ved innleggelse og kontinuerlig oppfølging.Det kan være relevant ved behandlingsbeslutninger å ha tilgang til gamle målinger (flere år gamle) (Tilbakemelding fra lege spesialisthelsetjenesten)</td>
+<td>IT08 PlanIT23 Tjeneste, ytelser og hjelpemidlerIT09 JournaldokumenterIT?? Vurderinger</td>
+</tr>
+<tr>
+<td>Skjemabesvarelser</td>
+<td>Undersøkelser, målinger og funn (IT17)</td>
+<td>Innrapporterte data, eventuelt med poengsum,&nbsp; som beskriver pasientens tilstand.For eksempel skjemabesvarelser fra KOLS pasienter</td>
+<td>Observasjon av pasientens tilstand i øyeblikket, trender</td>
+<td>pasienten, Medisinsk Utstyr/DHO-system</td>
+<td>Manuelle observasjoner</td>
+<td>Slå opp og tilgjengeliggjøre</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Journalnotat</td>
+<td>Journaldokumenter (IT09)</td>
+<td>Oppfølgingsnotater og sammenstillinger fra oppfølgingsansvarlig basert på innrapporterte data (målinger, varsel, skjemabesvarelser).Tidligere epikriser og sykepleiesammenfatninger, journalnotater, vurderinger, utredninger</td>
+<td>Dokumentere hva som har skjedd, sammenstille informasjon for journalføringInnhente tilleggsinformasjon&nbsp; fra kommune/spesialist/fastlege?</td>
+<td>Journalsystem/ DHO system som brukes i oppfølgingen/dokumentasjonsarbeidet</td>
+<td>Manuelle føringer</td>
+<td>Slå opp og tilgjengeliggjøre</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Varsel</td>
+<td>Undersøkelser, målinger og funn (IT17)</td>
+<td>Basert på analyser/vurderinger av målinger eller skjemabesvarelserGrønne, gule, røde målinger – alvorlighetsgrad med referanseområde for normalverdi, Poengsum fra skjemabesvarelser, Ikke utførte oppgaver, inaktiv pasient</td>
+<td>Varsle om målinger/poengsum utenfor referanseverdi eller manglende data, for å beslutte tiltak, eller som en del av journalnotatet.Eksisterer det samhandlingsbehov mellom virksomheter/internt i virksomheten rundt selve varslene til andre aktører?Det uttrykkes som et behov at dette kan deles til andre aktører (røde til spesialist etc). Men det er ikke konkretisert og løst p.t. kanskje et mer sentralt behov på sikt.</td>
+<td>DHO-system, Medisinsk utstyr, analyseplattform</td>
+<td>Manuelle eller automatiske vurderinger/analyser?</td>
+<td>Ikke identifisert samhandlingsbehov utenfor virksomheten</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Hendelse</td>
+<td>Pågående og gjennomførte prosedyrer og behandlinger (IT19), Legemidler og vaksiner (IT03)</td>
+<td>Noe som skjer med pasientenPåbegynt medisinkur, sykehusinnleggelse, undersøkelseVi har problemer med å definere "Hendelse" entydig, spesielt å skille det fra "Varsel".</td>
+<td>Oversikt over behandlingsforløpet og statusEr det behov for å opprette nye hendelser og varsle andre aktører om dette?</td>
+<td>Journalsystem/ DHO system både fastlege, spesialist og kommunehelsetjeneste.</td>
+<td>Hovedsaklig manuell opprettelse av hendelser</td>
+<td>Slå opp og tilgjengeliggjøre, hendelsesstrøm? endre og dele?</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Legemiddelliste</td>
+<td>Legemidler og vaksiner (IT03)</td>
+<td>Oversikt over legemidler pasienten bruker</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Pasientdemografi</td>
+<td>Pasientdemografi (IT12)</td>
+<td>Demografisk informasjon om pasientKontaktinformasjon, familierelasjoner, pårørendeinformasjon, vergeinformasjon eksisterer i FREG.Digitale kontaktpunkter, samtykkekompetanse, hjemmesituasjon, kontaktpersoner som ikke er familie eller verge (eksisterer ikke i folkeregisteret), (Kliniske bakgrunnsopplysninger (IT16))</td>
+<td>Oppslag i folkeregisterinformasjonEndre og dele utfyllende informasjon om pasienten demografiske opplysninger som ellers ikke finnes i personregisteret (hjemmesituasjon, utfyllende kontaktinformasjon etc.)</td>
+<td>Journalsystem/ DHO system både fastlege, spesialist og kommunehelsetjeneste.</td>
+<td>Automatiske oppslag og oppdateringer mot folkeregisteret.Manuelle tilleggsinformasjon og endring av disse.</td>
+<td>Slå opp og tilgjengeliggjøre, hendelsesstrøm? endre og dele?</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Tjenester, ytelser og hjelpemidler</td>
+<td>Tjenester, ytelser og hjelpemidler (IT23)</td>
+<td>Nåværende og tidligere kommunale og statlige tjenester og ytelser og hjelpemidler i bruk hos/av innbygger.Trygghetsalarm, medisindispenser, rullestol, hjemmehjelp, MTU-utstyr</td>
+<td>Kjenne til tjenester, ytelser og hjelpemidler og hvilke aktører som har tildelt disse.Kjenne til om relevant utstyr er tildelt fra andre aktører. Unngå dobbelt sett av utstyr med overlappende funksjonalitet.</td>
+<td>Journalsystem/ DHO system både fastlege, spesialist og kommunehelsetjeneste.</td>
+<td>?</td>
+<td>Slå opp og tilgjengeliggjøreHendelsesstrøm for "egne" pasienter?</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Skjemadefinisjon</td>
+<td>Klinisk kunnskap (IT14)(Denne er markert som irrelevant i forhold til Velferdsteknologi)</td>
+<td>Skjema (mal) for å registrere informasjon fra pasient?Forslag til betingede tiltaksplaner eller strukturerte regler til bruk i prosess- og beslutningsstøtte</td>
+<td>Benyttes som grunnlag for pasientens egne registreringer, kunnskapsbaserte standardiserte spørsmål og målemetoder.</td>
+<td>Standardiserte prosedyrer for behandling</td>
+<td>?</td>
+<td>Slå opp og tilgjengeliggjøre</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Plan definisjon</td>
+<td></td>
+<td>Retningslinje for behandling av en tilstand/diagnose/problem</td>
+<td>Benyttes for å beskrive best-practice/guideline for behandling</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Pasientplan</td>
+<td>Plan (IT08)</td>
+<td>Sykepleieplan og veiledende plan</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Behandlingsplan (DBEP)</td>
+<td>Plan (IT08)</td>
+<td>Beskrivelser av forventet eller planlagt helsehjelp og andre tjenester for innbyggerBehandlingsplaner / tiltaksplaner inneholder blant annet planer og mål for utredning og behandling i regi av helsetjenesten, men også innbyggers bruk av egne ressurser</td>
+<td>En behandlingsplan beskriver behandling for én eller flere problemstillinger. Dersom pasienten har flere&nbsp;problemstillinger/diagnoser, kan pasienten ha flere behandlingsplaner, eller det kan samordnes i en&nbsp;felles behandlingsplan.</td>
+<td>Journalsystem/ DHO system både fastlege, spesialist og kommunehelsetjeneste.</td>
+<td>En behandlingsplan kan opprettes i et pasientjournalsystem av den som til enhver tid er ansvarlig for en&nbsp;pasients behandling, eller annet helsepersonell som har et behandlende/terapeutisk forhold til&nbsp;pasienten&nbsp;</td>
+<td>Endre og dele</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Egenbehandlingsplan</td>
+<td>Plan (IT08)</td>
+<td>En plan med beskrivelse av tiltak som pasienten selv har&nbsp;ansvaret for å gjennomføreEgenmestringsplan – ta med rehabiliteringsplan, øvelser, tiltaksplan – alt pasienten skal gjøre selv samlet</td>
+<td>Formålet med egenbehandlingsplanen er å oppdage forverringer&nbsp;tidlig, forebygge og å redusere utvikling av en forverring, hindre sykehusinnleggelse og gi økt&nbsp;trygghet og mestringsopplevelse. Egenbehandlingsplanen er en del av behandlingsplanen, og skal&nbsp;lagres i et pasientjournalsystem</td>
+<td>Pasientens DHO system, Journalsystem/ DHO system både fastlege, spesialist og kommunehelsetjeneste.</td>
+<td>En egnebehandlingsplan kan opprettes som en selvstendig egenbehandlingsplan eller i tilknytning til en&nbsp;eller flere behandlingsplaner. En pasient har kun én egenbehandlingsplan.</td>
+<td>Endre og dele</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Oppgaveruting</td>
+<td></td>
+<td>Hvem har ansvar for pasienten</td>
+<td>Avklare hvem som tar ansvar for oppgaver</td>
+<td></td>
+<td>Henger sammen med hendelser og planer</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Klinisk oppsummering (IT01)</td>
+<td>Klinisk oppsummering er en informasjonstjeneste som vil tilby oppsummert og utvalgt informasjon som beskriver innbyggers behov for helsehjelp her og nå, og hvilken helsehjelp som mottas</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Slå opp og tilgjengeliggjøre</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Dialog</td>
+<td></td>
+<td></td>
+<td>Raske avklaringer mellom behandlingsnivåene</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Vurderinger</td>
+<td></td>
+<td>Henger sammen med varsel og målinger, undersøkelser og funn</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="informasjonstjenester-som-beskrives-i-dho-arbeidet">Informasjonstjenester som beskrives i DHO arbeidet</h2>
+<p>Målarkitekturen skal beskrive behov for samhandling og informasjonstjenester som kan sikre at samhandlingen understøtter helsetjenesten på en hensiktsmessig måte. I arbeidet med å kartlegge informasjonsbehov skiller vi mellom informasjonsressurser og informasjonstjenester som må etableres for å understøtte informasjonsbehovet. I den grad det er nødvendig vil arbeidet også beskrive andre initiativer som etablerer informasjonstjenester () det er behov for i forbindelse med DHO og hvordan disse tjenestene bør tilgjengeliggjøres for å svare ut behov som er identifisert i forbindelse med DHO. Gjennom dette arbeidet er det hovedfokus på hvordan data fra pasient (pasientregistrerte eller fra sensorer og utstyr) kan brukes på tvers av omsorgsnivå i helsetjenesten på en hensiktsmessig måte, og hvordan samhandlingen om denne informasjonen bør innrettes.</p>
+<blockquote>
+<p>Pasientrapporterte data
+<em>Pasientene er aktive deltakere og bidragsytere i helsehjelpen de mottar og kan</em> <br />
+<em>følges opp i hjemmet ved at pasientens egenmålinger, pasientrapporterte opplysninger om</em> <br />
+<em>egen helsetilstand eller automatiske målinger, sendes digitalt til helsetjenesten,</em></p>
+</blockquote>
+<h2 id="data-fra-pasient-og-informasjonstjenester">Data fra pasient og informasjonstjenester</h2>
+<p>Hovedmålet for målarkitekturen DHO er å vise hvordan samhandlingen knyttet til data fra pasient skal gjennomføres, samtidig som den må vise hvilke andre informasjonstjenester som må være tilstede for å understøtte en sammenhengende DHO tjeneste. Informasjonstjenestene som omfattes er i denne sammenhengen:</p>
+<ul>
+<li>Undersøkelser, målinger og funn</li>
+<li>Skjemabesvarelser og NEWS scoringer</li>
+<li>Vurderinger og varsel basert på målinger</li>
+</ul>
+<h2 id="informasjonstjenester-i-andre-kategorier">Informasjonstjenester i andre kategorier</h2>
+<p>Det er identifisert behov for samhandling om ytterligere informasjon og informasjonstjenester for å understøtte et  sammenhengende tjenesteforløp som inkluderer DHO. Dette inkluderer følgende behov:</p>
+<ul>
+<li>Plan</li>
+<li>Hendelser</li>
+<li>Tjenester, inkludert hjelpemidler og logistikk</li>
+<li>Legemiddelliste</li>
+<li>Journalnotat</li>
+<li>Klinisk oppsummering</li>
+<li>Basisinformasjon pasient</li>
+<li>Dialogtjenester</li>
+</ul>
+<h2 id="prioritering-av-informasjonstjenester">Prioritering av informasjonstjenester</h2>
+<p>De informasjonstjenestene som er mest etterspurt av helsepersonell som tilbyr tjenesteforløp som inkluderer DHO er i prioritert rekkefølge:</p>
+<ol>
+<li>Egenbehandlingsplan og behandlingsplan</li>
+<li>Legemiddelliste</li>
+<li>Målinger, vurderinger og varsel</li>
+<li>Dialogtjenester</li>
+</ol>
+<p>I tillegg er det en rekke andre informasjonstjenester som er høyt prioritert av tjenesten, disse vises i figuren:
+<img alt="226722458" src="https://user-images.githubusercontent.com/6229665/201674656-d97f3a8a-912a-41ee-b621-a1df9860d730.png" /></p>
+<p>Siden samhandlingsløsninger knyttet til både Behandlingsplaner/Egenbehandlingsplaner og legemiddelliste utvikles av andre prosjekter er det besluttet at de viktigste tjenestene å utvikle bedre samhandlingsløsninger for i tilknytning til DHO handler om Målinger, vurderinger og Varsel. Dette er informasjonstjenester som etterspørres fra mange virksomheter og alle omsorgsnivå i flere geografiske regioner.</p>
+<h2 id="detaljer-om-malinger">Detaljer om målinger</h2>
+<p>Målinger består av flere typer måleparametere som beskriver pasientens tilstand. Modellen viser omfanget for steg 1 i VKP på dette området:</p>
+<p><img alt="207618771" src="https://user-images.githubusercontent.com/6229665/201674756-0db63ed3-6100-42f1-9e4c-daa2a55b855b.png" /></p>
+<p>Målinger kan lagres og vises direkte eller fungere som grunnlag for andre arbeidsprosesser, for eksempel journalføring:</p>
+<p><img alt="207618811" src="https://user-images.githubusercontent.com/6229665/201674806-5f79126a-2505-4629-83af-69888656f6f9.png" /></p>
+<ul>
+<li>Målinger kan legges til i journaldokumenter og journalføres (strukturert eller ustrukturert)</li>
+<li>Hvilke målinger som skal gjennomføres kan styres gjennom egenbehandlingsplanen for pasienten</li>
+<li>Målinger kan inneholde varsel om at målingen ligger utenfor referanseverdien</li>
+</ul>
+<h2 id="detaljer-om-egenbehandlingsplan-og-behandlingsplan">Detaljer om egenbehandlingsplan og behandlingsplan</h2>
+<p>Helsepersonell har uttrykt behov for samarbeid om utarbeidelse og oppfølging av behandlingsplaner og egenbehandlingsplaner. Et slikt samarbeid må fungere med pasient og mellom virksomheter og omsorgsnivå og forutsetter en felles kilde til planen. I tjenesteforløp som inkluderer digital hjemmeoppfølging er det stort behov for koordinering. Dette handler om at pasientene ofte er i kontakt med ulike deler av helsetjenesten og trenger tett oppfølging knyttet til egen sykdom, diagnoser, funksjon og oppfølging av symptomer.</p>
+<!-- Det er etterspurt beskrivelse over sammenhenger mellom behandling/egenbehandlingsplan og målarkitekturen -->
+
+<h2 id="detaljer-om-pasientens-legemiddelliste">Detaljer om Pasientens legemiddelliste</h2>
+<p>Helsepersonell som følger opp pasienter i tjenesteforløp der DHO inkluderes etterspør tilgang til en felles legemiddelliste. Tilgang til en felles liste for helsepersonell som følger opp og veileder pasienten kan bidra til å sikre god kvalitet ved behandling med legemidler. Program pasientens legemiddelliste vil etablere en felles digital oversikt over pasientens legemidler, pasientens legemiddelliste (PLL) og PLL vil bli realisert gradvis. </p>
+<!--Skrive noe om dialogtjenester hvsi tanken er å si noe om de mest prioriterte i informasjonstjenestene-->
+<!-- Det er etterspurt beskrivelse over sammenhenger mellom pasientens legemiddelliste og målarkitekturen -->
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../Overordnet-maalbilde/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Målbilde" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Målbilde
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../Juridiske-rammebetingelser/" class="md-footer__link md-footer__link--next" aria-label="Next: Juridiske rammebetingelser" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Juridiske rammebetingelser
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.annotate", "content.tooltips", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+      
+    
+    
+  </body>
+</html>

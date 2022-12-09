@@ -1,0 +1,1333 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Konsepter realisering - Målarkitektur samhandling Digitial hjemmeoppfølging</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.975780f9.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="red">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#vurderingskriterier" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Målarkitektur samhandling Digitial hjemmeoppfølging" class="md-header__button md-logo" aria-label="Målarkitektur samhandling Digitial hjemmeoppfølging" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Målarkitektur samhandling Digitial hjemmeoppfølging
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Konsepter realisering
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="grey" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      Innledning
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Begreper/" class="md-tabs__link">
+      Begreper
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Arkitekturprinsipper/" class="md-tabs__link">
+      Arkitekturprinsipper
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Overordnet-maalbilde/" class="md-tabs__link">
+      Målbilde
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Behovsbilde/" class="md-tabs__link">
+      Overordnet behovsbilde
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Juridiske-rammebetingelser/" class="md-tabs__link">
+      Juridiske rammebetingelser
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Malarkitektur-samhandling/" class="md-tabs__link">
+      Målarkitektur samhandling DHO
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="./" class="md-tabs__link md-tabs__link--active">
+      Konsepter realisering
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Referanser/" class="md-tabs__link">
+      Referanser
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Tilbakemeldinger-innspill/" class="md-tabs__link">
+      Tilbakemeldinger og innspill
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Målarkitektur samhandling Digitial hjemmeoppfølging" class="md-nav__button md-logo" aria-label="Målarkitektur samhandling Digitial hjemmeoppfølging" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Målarkitektur samhandling Digitial hjemmeoppfølging
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Innledning
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Begreper/" class="md-nav__link">
+        Begreper
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Arkitekturprinsipper/" class="md-nav__link">
+        Arkitekturprinsipper
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Overordnet-maalbilde/" class="md-nav__link">
+        Målbilde
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Behovsbilde/" class="md-nav__link">
+        Overordnet behovsbilde
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Juridiske-rammebetingelser/" class="md-nav__link">
+        Juridiske rammebetingelser
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Malarkitektur-samhandling/" class="md-nav__link">
+        Målarkitektur samhandling DHO
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Konsepter realisering
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Konsepter realisering
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#vurderingskriterier" class="md-nav__link">
+    Vurderingskriterier
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overordnede-lsningskonsepter" class="md-nav__link">
+    Overordnede løsningskonsepter
+  </a>
+  
+    <nav class="md-nav" aria-label="Overordnede løsningskonsepter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#distribuerte-datadelingslsninger-i-virksomhetenes-infrastruktur" class="md-nav__link">
+    Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)
+  </a>
+  
+    <nav class="md-nav" aria-label="Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#forutsetninger" class="md-nav__link">
+    Forutsetninger
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fordeler" class="md-nav__link">
+    Fordeler
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ulemper" class="md-nav__link">
+    Ulemper
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#distribuerte-datadelingslsninger-i-sentral-infrastruktur" class="md-nav__link">
+    Distribuerte datadelingsløsninger (i sentral infrastruktur)
+  </a>
+  
+    <nav class="md-nav" aria-label="Distribuerte datadelingsløsninger (i sentral infrastruktur)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#forutsetninger_1" class="md-nav__link">
+    Forutsetninger
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fordeler_1" class="md-nav__link">
+    Fordeler
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ulemper_1" class="md-nav__link">
+    Ulemper
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#regionale-felleslsninger" class="md-nav__link">
+    Regionale fellesløsninger
+  </a>
+  
+    <nav class="md-nav" aria-label="Regionale fellesløsninger">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#forutsetninger_2" class="md-nav__link">
+    Forutsetninger
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fordeler_2" class="md-nav__link">
+    Fordeler
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ulemper_2" class="md-nav__link">
+    Ulemper
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#regionale-datadelingslsninger-med-lagring" class="md-nav__link">
+    Regionale datadelingsløsninger med lagring
+  </a>
+  
+    <nav class="md-nav" aria-label="Regionale datadelingsløsninger med lagring">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#forutsetninger_3" class="md-nav__link">
+    Forutsetninger
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fordeler_3" class="md-nav__link">
+    Fordeler
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ulemper_3" class="md-nav__link">
+    Ulemper
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nasjonal-sentral-datadelingslsning-med-lagring" class="md-nav__link">
+    Nasjonal sentral datadelingsløsning med lagring
+  </a>
+  
+    <nav class="md-nav" aria-label="Nasjonal sentral datadelingsløsning med lagring">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#forutsetninger_4" class="md-nav__link">
+    Forutsetninger
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fordeler_4" class="md-nav__link">
+    Fordeler
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ulemper_4" class="md-nav__link">
+    Ulemper
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alternativ-full-fleks" class="md-nav__link">
+    Alternativ full fleks
+  </a>
+  
+    <nav class="md-nav" aria-label="Alternativ full fleks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fordeler_5" class="md-nav__link">
+    Fordeler
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ulemper_5" class="md-nav__link">
+    Ulemper
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#muligheter" class="md-nav__link">
+    Muligheter
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trusler" class="md-nav__link">
+    Trusler
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Referanser/" class="md-nav__link">
+        Referanser
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tilbakemeldinger-innspill/" class="md-nav__link">
+        Tilbakemeldinger og innspill
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#vurderingskriterier" class="md-nav__link">
+    Vurderingskriterier
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overordnede-lsningskonsepter" class="md-nav__link">
+    Overordnede løsningskonsepter
+  </a>
+  
+    <nav class="md-nav" aria-label="Overordnede løsningskonsepter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#distribuerte-datadelingslsninger-i-virksomhetenes-infrastruktur" class="md-nav__link">
+    Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)
+  </a>
+  
+    <nav class="md-nav" aria-label="Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#forutsetninger" class="md-nav__link">
+    Forutsetninger
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fordeler" class="md-nav__link">
+    Fordeler
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ulemper" class="md-nav__link">
+    Ulemper
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#distribuerte-datadelingslsninger-i-sentral-infrastruktur" class="md-nav__link">
+    Distribuerte datadelingsløsninger (i sentral infrastruktur)
+  </a>
+  
+    <nav class="md-nav" aria-label="Distribuerte datadelingsløsninger (i sentral infrastruktur)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#forutsetninger_1" class="md-nav__link">
+    Forutsetninger
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fordeler_1" class="md-nav__link">
+    Fordeler
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ulemper_1" class="md-nav__link">
+    Ulemper
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#regionale-felleslsninger" class="md-nav__link">
+    Regionale fellesløsninger
+  </a>
+  
+    <nav class="md-nav" aria-label="Regionale fellesløsninger">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#forutsetninger_2" class="md-nav__link">
+    Forutsetninger
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fordeler_2" class="md-nav__link">
+    Fordeler
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ulemper_2" class="md-nav__link">
+    Ulemper
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#regionale-datadelingslsninger-med-lagring" class="md-nav__link">
+    Regionale datadelingsløsninger med lagring
+  </a>
+  
+    <nav class="md-nav" aria-label="Regionale datadelingsløsninger med lagring">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#forutsetninger_3" class="md-nav__link">
+    Forutsetninger
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fordeler_3" class="md-nav__link">
+    Fordeler
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ulemper_3" class="md-nav__link">
+    Ulemper
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nasjonal-sentral-datadelingslsning-med-lagring" class="md-nav__link">
+    Nasjonal sentral datadelingsløsning med lagring
+  </a>
+  
+    <nav class="md-nav" aria-label="Nasjonal sentral datadelingsløsning med lagring">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#forutsetninger_4" class="md-nav__link">
+    Forutsetninger
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fordeler_4" class="md-nav__link">
+    Fordeler
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ulemper_4" class="md-nav__link">
+    Ulemper
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alternativ-full-fleks" class="md-nav__link">
+    Alternativ full fleks
+  </a>
+  
+    <nav class="md-nav" aria-label="Alternativ full fleks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fordeler_5" class="md-nav__link">
+    Fordeler
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ulemper_5" class="md-nav__link">
+    Ulemper
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#muligheter" class="md-nav__link">
+    Muligheter
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trusler" class="md-nav__link">
+    Trusler
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Konsepter realisering</h1>
+
+<p>Work in progress 
+{: .label .label-yellow }</p>
+<table>
+<thead>
+<tr>
+<th align="left">Status</th>
+<th align="left">Version</th>
+<th align="left">Maturity</th>
+<th align="left">Normative level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Work in progress</td>
+<td align="left">v0.8</td>
+<td align="left">review</td>
+<td align="left">ikke normert</td>
+</tr>
+</tbody>
+</table>
+<p>Formålet med denne delen av målarkitekturen er å vise hvordan målarkitekturen kan benyttes for å beskrive løsningskonsepter for realisering av datadeling innen DHO. Det er da fokus på å dokumentere samhandlingsmønstre og nødvendige tjenester og komponenter som må etableres i virksomhetene for å svare ut konkrete behov knyttet til DHO.</p>
+<h2 id="vurderingskriterier">Vurderingskriterier</h2>
+<p>Konseptene vurderes i det videre etter en rekke kriterier:</p>
+<ul>
+<li>Behovsoppnåelse, her skiller vi på identifiserte kortsiktige behov og langsiktige behov for samhandling</li>
+<li>Skalerbarhet, her skiller vi på skalering for utprøvingen og skalering nasjonalt<ul>
+<li>Muligheter for gjenbruk av eksisterende felleskomponenter eller koder/spesifikasjoner på tvers av virksomheter</li>
+</ul>
+</li>
+<li>Fleksibilitet og innovasjonskraft, løsninger med stor fleksibilitet i forhold til å dekke lokale behov vil ofte understøtte innovasjon på en bedre måte</li>
+<li>Juridisk kompleksitet, kan hele eller deler av konseptet realiseres basert på gjeldende rett eller krever det lov/forskriftsarbeid for å realisere eller skalere</li>
+<li>Kompleksitet i etablering og vedlikehold av løsningen<ul>
+<li>Etableres det løse eller sterke koblinger mellom aktører og løsningskomponenter for å realisere løsningen</li>
+<li>Etableres det mange spesialløsninger for å oppnå samhandling pådrar sektoren seg også stor teknisk gjeld</li>
+</ul>
+</li>
+</ul>
+<h2 id="overordnede-lsningskonsepter">Overordnede løsningskonsepter</h2>
+<h3 id="distribuerte-datadelingslsninger-i-virksomhetenes-infrastruktur"><strong>Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)</strong></h3>
+<p>Ved etablering av distribuerte datadelingsløsninger i virksomhetenes egne infrastruktur etablerer man løsninger for distribuerte søk på tvers av virksomhetene. Det er viktig at alle løsningene tar utgangspunkt i den samme semantiske spesifikasjonen slik at det blir enkelt å søke i informasjon fra forskjellige virksomheter, løsninger og levert av mange leverandører. Ved en slik tilnærming trenger man i tillegg til PIL også en solid sentralisert tillitsmodell, ellers må man etablere bilaterale avtaler mellom alle aktørene som ønsker å samhandle med hverandre.</p>
+<p><img alt="Distribuerte datadelingsløsninger i virksomhetenes infrastruktur" src="../images/226722844.png" /></p>
+<h4 id="forutsetninger">Forutsetninger</h4>
+<ul>
+<li>For at konseptet skal skalere nasjonalt/regionalt må det etableres Pasientinformasjonslokalisator (PIL) i nasjonal eller regional infrastruktur</li>
+<li>Konseptet forutsetter etablering av tillitsanker funksjonalitet i felles infrastruktur</li>
+<li>Alle produsenter av informasjon må etablere funksjonalitet for tilgjengeliggjøring i egen infrastruktur</li>
+<li>Alle konsumenter av informasjon må etablere søkefunksjonalitet i egen infrastruktur</li>
+<li>Konseptet forutsetter at det etableres felles semantiske spesifikasjoner for søk og oppslag av informasjonen som skal utveksles</li>
+</ul>
+<h4 id="fordeler">Fordeler</h4>
+<ul>
+<li>Distribuert datadeling kan gjennomføres innenfor gjeldende rett (unntatt PIL)</li>
+<li>Fleksibilitet i forhold til hvilken funksjonalitet virksomhetene realiserer (virksomhetene realiserer funksjonalitet som gir mest nytte)<ul>
+<li>Kan gjøre det enklere å få til lokal tjenesteinnovasjon</li>
+</ul>
+</li>
+<li>Felles semantiske spesifikasjoner som alle forholder seg til</li>
+<li>Selve samhandlingsmodellen er avklart juridisk, men det kreves avtaler mellom aktørene og/eller felles tillitsmodell for å realisere samhandlingen</li>
+</ul>
+<h4 id="ulemper">Ulemper</h4>
+<ul>
+<li>Det er komplisert å etablere infrastruktur for tilgjengeliggjøring hos alle virksomheter som skal tilby søk<ul>
+<li>Konseptet blir derfor utfordrende å skalere fort</li>
+</ul>
+</li>
+<li>Oppslag mot mange kilder kan gi dårlig brukeropplevelse</li>
+<li>Det er ikke hjemmel for etablering av PIL i dagens regelverk</li>
+<li>Det kan være utfordrende å utarbeide felles semantiske spesifikasjoner som gir god nok nytte for virksomhetene</li>
+<li>Etablering av tillitsanker og felles krav knyttet til dette kan være komplisert</li>
+</ul>
+<h3 id="distribuerte-datadelingslsninger-i-sentral-infrastruktur">Distribuerte datadelingsløsninger (i sentral infrastruktur)</h3>
+<p>Datadelingsløsninger i regional infrastruktur gjør det mulig å etablere datadelingsløsningene fra flere virksomheter i den samme tekniske infrastrukturen og basere seg på den samme kildekoden som basis for datadelingsløsningene. Informasjonen fra hver enkelt dataansvarlig virksomhet lagres imidlertid logisk adskilt og reguleres av en databehandleravtale mellom virksomheten og tilbyderen av tjenesten. Fordelen med en slik tilnærming er at man kan gjenbruke kode og infrastruktur, på tvers av virksomheter, for å etablere mange datadelingstjenester med like grensesnitt. Gjenbruk av kode og kompetanse vil gjøre det raskere å skalere samt at man får stordriftsfordeler knyttet til drift og vedlikehold av tjenestene. Hvis denne tilnærmingen skal fungere for mange aktører kreves det at man benytter en PIL komponent i sentral infrastruktur (pasientinformasjons lokalisator) siden man i praksis må etablere støtte for distribuerte søk på tvers av virksomheter.</p>
+<p><img alt="" src="../images/226722849.png" /></p>
+<h4 id="forutsetninger_1">Forutsetninger</h4>
+<ul>
+<li>Datalagrene som etableres i felles infrastruktur må være logisk adskilte</li>
+<li>For at konseptet skal skalere nasjonalt/regionalt må det etableres Pasientinformasjonslokalisator (PIL) i nasjonal eller regional infrastruktur</li>
+<li>Konseptet forutsetter etablering av tillitsanker funksjonalitet i felles infrastruktur (kan implementeres som en del av databehandleravtalene)</li>
+<li>Funksjonalitet for tilgjengeliggjøring etableres i felles infrastruktur</li>
+<li>Alle konsumenter av informasjon må etablere søkefunksjonalitet i egen infrastruktur</li>
+<li>Konseptet forutsetter at det etableres felles semantiske spesifikasjoner for søk og oppslag av informasjonen som skal utveksles</li>
+</ul>
+<h4 id="fordeler_1">Fordeler</h4>
+<ul>
+<li>Fordeler som med distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)</li>
+<li>I tillegg gir modellen mulighet for å gjenbruke funksjonalitet på tvers av virksomheter</li>
+<li>Det er større potensiale for gjenbruk av kode på tvers av virksomhetene og derfor enklere å skalere raskt</li>
+<li>Kan gjøre det enklere å realisere PIL</li>
+<li>Det kan være enklere å implementere felles tillitsmodell som en del av databehandleravtalene</li>
+</ul>
+<h4 id="ulemper_1">Ulemper</h4>
+<ul>
+<li>Ulemper som for distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)</li>
+<li>Alle virksomhetene må implementere synkronisering av egne data mot datalager i sentral infrastruktur</li>
+<li>Med en sentral leverandør av søkefunksjonalitet er det en risiko for at den sentrale leverandøren kan bli en flaskehals og dermed gi dårligere rammer for lokal innovasjon</li>
+<li>Det er uavklart juridisk om 3.parts leverandør kan håndtere søkefunksjonalitet (med lagring) for virksomhetene</li>
+</ul>
+<h3 id="regionale-felleslsninger">Regionale fellesløsninger</h3>
+<p>Ved etablering av sentral regional løsninger, for eksempel for DHO, baserer vi oss på at informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagres i sentral infrastruktur i fellesløsningen. Fellesløsningen kommer istedenfor andre systemer i virksomheten og informasjonen lagres i utgangspunktet bare i fellesløsningen. Andre systemer som er knyttet til andre deler av virksomhetene kan søke i den felles regionale løsningen etter informasjon de trenger ved oppfølging av pasienten. Det samme gjelder andre aktører som har behov for å samarbeide med virksomhetene som er omfattet av fellesløsningen.</p>
+<p><img alt="Regionale fellesløsninger" src="../images/229244983.png" /></p>
+<h4 id="forutsetninger_2">Forutsetninger</h4>
+<ul>
+<li>Funksjonalitet for tilgjengeliggjøring etableres i fellesløsningen</li>
+<li>Funksjonalitet og datalager i fellesløsningen kommer istedenfor eksisterende datalager og funksjonalitet i virksomhetenes egne systemer<ul>
+<li>Fellesløsningen etableres for å oppfylle dokumentasjonsplikten</li>
+</ul>
+</li>
+<li>For at konseptet skal skalere nasjonalt/regionalt må det etableres Pasientinformasjonslokalisator (PIL) i nasjonal eller regional infrastruktur</li>
+<li>Konseptet forutsetter etablering av tillitsanker funksjonalitet i felles infrastruktur<ul>
+<li>Gjelder bare ved kommunikasjon mot virksomheter som ikke er en del av samarbeidet</li>
+</ul>
+</li>
+<li>Alle konsumenter av informasjon må etablere søkefunksjonalitet i egen infrastruktur</li>
+<li>Konseptet forutsetter at det etableres felles semantiske spesifikasjoner for søk og oppslag av informasjonen som skal utveksles<ul>
+<li>De semantiske spesifikasjonene kan være regionale eller bygge på nasjonale spesifikasjoner</li>
+</ul>
+</li>
+</ul>
+<h4 id="fordeler_2">Fordeler</h4>
+<ul>
+<li>Stort potensiale for gjenbruk av funksjonalitet på tvers av virksomheter<ul>
+<li>Enklere å skalere siden tilgjengeliggjøring gjennomføres regionalt</li>
+</ul>
+</li>
+<li>Stort potensiale for regional innovasjon og tjenesteutvikling</li>
+<li>Middels fleksibilitet knyttet til lokal innovasjon og tjenesteutvikling</li>
+<li>Innenfor regionen er det liten risiko for dårlig brukeropplevelse knyttet til søk, siden tilgjengeliggjøringen er sentralisert i regionen</li>
+<li>Denne bruken av §9 er avklart og fellesløsningen blir å regne som èn aktør knyttet til samhandling med eventuelle eksterne aktører utenfor samarbeidet</li>
+</ul>
+<h4 id="ulemper_2">Ulemper</h4>
+<ul>
+<li>Den sentrale leverandøren av fellesløsningen kan bli en flaskehals</li>
+<li>Virksomheter utenfor regionen vil ha større risiko for lav ytelse ved oppslag mot mange virksomheter/regionale systemer</li>
+</ul>
+<h3 id="regionale-datadelingslsninger-med-lagring">Regionale datadelingsløsninger med lagring</h3>
+<p>Ved etablering av sentral regional datadelingsløsning baserer vi oss på at informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagres i sentral infrastruktur hos NHN (eller annen leverandør) samtidig som den eksisterer i relevante fagsystem hos den enkelte virksomheten. Virksomhetene som deltar i det regionale samarbeidet kan søke i den felles regionale tjenesten som tilbys og driftes av NHN. Det kan også opprettes søk mot den regionale løsningen for virksomheter som ikke er en del av det regionale samarbeidet.</p>
+<p><img alt="Regionale datadelingsløsninger med lagring" src="../images/229245030.png" /></p>
+<h4 id="forutsetninger_3">Forutsetninger</h4>
+<ul>
+<li>Funksjonalitet for tilgjengeliggjøring (inkludert lagring) etableres i fellesløsningen (likt som regional fellesløsning)</li>
+<li>Funksjonalitet og datalager i fellesløsningen kommer i tillegg til eksisterende datalager og funksjonalitet i virksomhetenes egne systemer<ul>
+<li>Fellesløsningen etableres ikke for å oppfylle dokumentasjonsplikten, men for å tilgjengeliggjøre informasjon på tvers</li>
+<li>Dette skiller konseptet fra regional fellesløsning</li>
+</ul>
+</li>
+<li>For at konseptet skal skalere nasjonalt må det etableres Pasientinformasjonslokalisator (PIL) i nasjonal infrastruktur<ul>
+<li>Den regionale samhandlingen forutsettes løst i regionen</li>
+</ul>
+</li>
+<li>Alle konsumenter av informasjon må etablere søkefunksjonalitet i egen infrastruktur</li>
+<li>Konseptet forutsetter at det etableres felles semantiske spesifikasjoner for søk og oppslag av informasjonen som skal utveksles<ul>
+<li>De semantiske spesifikasjonene kan være regionale eller bygge på nasjonale spesifikasjoner</li>
+</ul>
+</li>
+</ul>
+<h4 id="fordeler_3">Fordeler</h4>
+<ul>
+<li>Konseptet understøtter behovet for regional datadeling på en god måte</li>
+<li>Det er stort potensiale for gjenbruk av kode og løsninger på tvers av virksomhetene i regionen</li>
+<li>Stort potensiale for regional innovasjon og tjenesteutvikling</li>
+<li>Middels fleksibilitet knyttet til lokal innovasjon og tjenesteutvikling</li>
+<li>Innenfor regionen er det liten risiko for dårlig brukeropplevelse knyttet til søk, siden tilgjengeliggjøringen er sentralisert i regionen</li>
+</ul>
+<h4 id="ulemper_3">Ulemper</h4>
+<ul>
+<li>Foreløpige juridiske vurderinger tyder på at §9 ikke kan benyttes til å etablere felles regionale løsninger hvor hovedformålet er datadeling</li>
+<li>Alle virksomhetene må implementere synkronisering av egne data mot datalager i sentral infrastruktur</li>
+</ul>
+<h3 id="nasjonal-sentral-datadelingslsning-med-lagring">Nasjonal sentral datadelingsløsning med lagring</h3>
+<p>Ved etablering av en nasjonal sentral datadelingsløsning baserer vi oss på at informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagres i sentral infrastruktur hos NHN, samtidig som den eksisterer i relevante fagsystemer hos den enkelte virksomheten som samler den inn fra pasienten. Virksomhetene kan da gjennomføre søk mot en felles nasjonal tjeneste som tilbys og driftes av NHN.</p>
+<p><img alt="" src="../images/229245201.png" /></p>
+<h4 id="forutsetninger_4">Forutsetninger</h4>
+<ul>
+<li>Funksjonalitet for tilgjengeliggjøring (inkludert lagring) etableres i nasjonal datadelingsløsning</li>
+<li>Funksjonalitet og datalager i sentral datadelingsløsning kommer i tillegg til eksisterende datalager og funksjonalitet i virksomhetenes egne systemer<ul>
+<li>Sentral datadelingsløsning etableres ikke for å oppfylle dokumentasjonsplikten, men for å tilgjengeliggjøre informasjon på tvers</li>
+<li>Dette skiller konseptet fra regional fellesløsning og regional datadelingsløsning</li>
+</ul>
+</li>
+<li>Alle konsumenter av informasjon må etablere søkefunksjonalitet i egen infrastruktur</li>
+<li>felles semantiske spesifikasjoner for søk og oppslag av informasjonen etableres gjennom den nasjonale datadelings løsningen</li>
+</ul>
+<h4 id="fordeler_4">Fordeler</h4>
+<ul>
+<li>Konseptet understøtter behovet for nasjonal datadeling på en god måte</li>
+<li>Det er stort potensiale for gjenbruk av kode og løsninger på tvers av virksomhetene</li>
+<li>Kan gi best ytelse siden det er bare en tjeneste som skal optimalsieres</li>
+</ul>
+<h4 id="ulemper_4">Ulemper</h4>
+<ul>
+<li>Det er ikke mulig å hjemle opprettelsen av nasjonal datadelingsløsning i gjeldende lover og regler</li>
+<li>Det er vanskelig å argumentere for regelverksutvikling for en slik løsning siden hoveddelen av samhandlingen antakelig vil foregå regionalt </li>
+<li>Informasjonen som skal lagres i registeret er ikke sammenfallende med eksisterende nasjonale løsninger som kjernejournal eller e-resept. Det er derfor ikke mulig å benytte noen av disse forordningene som rettslig grunnlag for et nasjonalt register for datadeling innen DHO. Det er heller ikke snakk om å erstatte lokale løsninger med sentrale, men å etablere nasjonale løsninger som kommer i tillegg til de lokale med hovedfokus på å etablere bedre samhandlingsløsninger mellom virksomhetene.</li>
+<li>Kan gi mindre fleksibilitet og mulighet for tjenesteinnovasjon siden den nasjonale datadelingen håndtere av en løsning og en leverandør</li>
+<li>Alle virksomhetene må implementere synkronisering av egne data mot sentalt datalager</li>
+</ul>
+<h3 id="alternativ-full-fleks">Alternativ full fleks</h3>
+<p>Kombinasjon av §9 og distribuert implementasjon av datadeling mellom virksomhetene. Konseptet tilrettelegger for samhandling mellom flere plattformer (regionale) i form av distribuerte søk mellom plattformene. Stor fleksibilitet for virksomhetene som skal etablere løsninger i forhold til hvordan samhandlingen etableres, men konseptet stiller større krav til løsninger i felles infrastruktur som skal understøtte samhandlingen mellom virksomhetene.</p>
+<p><img alt="Full fleks" src="../images/226722841.png" /></p>
+<h4 id="fordeler_5">Fordeler</h4>
+<ul>
+<li>Fleksibel løsning</li>
+<li>I tråd med målarkitektur for datadeling</li>
+<li>Kan realiseres innenfor gjeldende rett</li>
+</ul>
+<h4 id="ulemper_5">Ulemper</h4>
+<ul>
+<li>Mangler retning</li>
+<li>Tillitsanker finnes ikke</li>
+<li>PIL finnes ikke</li>
+</ul>
+<h4 id="muligheter">Muligheter</h4>
+<ul>
+<li>Kan gjennomføres med begrensede investeringer (for et lite antall virksomheter)</li>
+</ul>
+<h4 id="trusler">Trusler</h4>
+<ul>
+<li>Skalering krever utvikling av felleskomponenter</li>
+<li>Usikkert om PIL kan realiseres innen gjeldende rett</li>
+<li>Det eksisterer ikke avklart finansieringsmodell for nye felleskomponenter i felles infrastruktur</li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../Malarkitektur-samhandling/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Målarkitektur samhandling DHO" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Målarkitektur samhandling DHO
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../Referanser/" class="md-footer__link md-footer__link--next" aria-label="Next: Referanser" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Referanser
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.annotate", "content.tooltips", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+      
+    
+    
+  </body>
+</html>

@@ -1,0 +1,979 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Målarkitektur samhandling DHO - Målarkitektur samhandling Digitial hjemmeoppfølging</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.975780f9.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="red">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#samhandling-mellom-helsepersonell-pa-tvers-av-virksomheter" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Målarkitektur samhandling Digitial hjemmeoppfølging" class="md-header__button md-logo" aria-label="Målarkitektur samhandling Digitial hjemmeoppfølging" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Målarkitektur samhandling Digitial hjemmeoppfølging
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Målarkitektur samhandling DHO
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="grey" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      Innledning
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Begreper/" class="md-tabs__link">
+      Begreper
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Arkitekturprinsipper/" class="md-tabs__link">
+      Arkitekturprinsipper
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Overordnet-maalbilde/" class="md-tabs__link">
+      Målbilde
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Behovsbilde/" class="md-tabs__link">
+      Overordnet behovsbilde
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Juridiske-rammebetingelser/" class="md-tabs__link">
+      Juridiske rammebetingelser
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="./" class="md-tabs__link md-tabs__link--active">
+      Målarkitektur samhandling DHO
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Konsepter-realisering/" class="md-tabs__link">
+      Konsepter realisering
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Referanser/" class="md-tabs__link">
+      Referanser
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Tilbakemeldinger-innspill/" class="md-tabs__link">
+      Tilbakemeldinger og innspill
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Målarkitektur samhandling Digitial hjemmeoppfølging" class="md-nav__button md-logo" aria-label="Målarkitektur samhandling Digitial hjemmeoppfølging" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Målarkitektur samhandling Digitial hjemmeoppfølging
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Innledning
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Begreper/" class="md-nav__link">
+        Begreper
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Arkitekturprinsipper/" class="md-nav__link">
+        Arkitekturprinsipper
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Overordnet-maalbilde/" class="md-nav__link">
+        Målbilde
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Behovsbilde/" class="md-nav__link">
+        Overordnet behovsbilde
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Juridiske-rammebetingelser/" class="md-nav__link">
+        Juridiske rammebetingelser
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Målarkitektur samhandling DHO
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Målarkitektur samhandling DHO
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#samhandling-mellom-helsepersonell-pa-tvers-av-virksomheter" class="md-nav__link">
+    Samhandling mellom helsepersonell på tvers av virksomheter
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kapabilitetskart-konsumere-hendelser-sla-opp-og-oppdatere" class="md-nav__link">
+    Kapabilitetskart Konsumere (hendelser), Slå opp og Oppdatere
+  </a>
+  
+    <nav class="md-nav" aria-label="Kapabilitetskart Konsumere (hendelser), Slå opp og Oppdatere">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kapabiliteter-knyttet-til-tiltak-og-dokumentasjon" class="md-nav__link">
+    Kapabiliteter knyttet til tiltak og dokumentasjon
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tverrgaende-kapabiliteter" class="md-nav__link">
+    Tverrgående kapabiliteter
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kapabiliteter-knyttet-til-samhandling" class="md-nav__link">
+    Kapabiliteter knyttet til samhandling
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ndvendige-komponenter" class="md-nav__link">
+    Nødvendige komponenter
+  </a>
+  
+    <nav class="md-nav" aria-label="Nødvendige komponenter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#samhandlingstjenester" class="md-nav__link">
+    Samhandlingstjenester
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tillitstjenester-og-tjenstlig-behov" class="md-nav__link">
+    Tillitstjenester og tjenstlig behov
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#samhandlingsformer" class="md-nav__link">
+    Samhandlingsformer
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informasjonstjenester-og-komponenter-knyttet-til-api-management-sikkerhet-og-tillitstjenester" class="md-nav__link">
+    Informasjonstjenester og komponenter - knyttet til API management, sikkerhet og tillitstjenester
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tilgjengeliggjring" class="md-nav__link">
+    Tilgjengeliggjøring
+  </a>
+  
+    <nav class="md-nav" aria-label="Tilgjengeliggjøring">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#etablere-api" class="md-nav__link">
+    Etablere API
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fa-tilgang-til-data" class="md-nav__link">
+    Få tilgang til data
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#finne-relevante-data" class="md-nav__link">
+    Finne relevante data
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eksempel-realisere-sla-opp-og-dele-malinger" class="md-nav__link">
+    Eksempel: Realisere slå opp og dele målinger
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Konsepter-realisering/" class="md-nav__link">
+        Konsepter realisering
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Referanser/" class="md-nav__link">
+        Referanser
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tilbakemeldinger-innspill/" class="md-nav__link">
+        Tilbakemeldinger og innspill
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#samhandling-mellom-helsepersonell-pa-tvers-av-virksomheter" class="md-nav__link">
+    Samhandling mellom helsepersonell på tvers av virksomheter
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kapabilitetskart-konsumere-hendelser-sla-opp-og-oppdatere" class="md-nav__link">
+    Kapabilitetskart Konsumere (hendelser), Slå opp og Oppdatere
+  </a>
+  
+    <nav class="md-nav" aria-label="Kapabilitetskart Konsumere (hendelser), Slå opp og Oppdatere">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kapabiliteter-knyttet-til-tiltak-og-dokumentasjon" class="md-nav__link">
+    Kapabiliteter knyttet til tiltak og dokumentasjon
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tverrgaende-kapabiliteter" class="md-nav__link">
+    Tverrgående kapabiliteter
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kapabiliteter-knyttet-til-samhandling" class="md-nav__link">
+    Kapabiliteter knyttet til samhandling
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ndvendige-komponenter" class="md-nav__link">
+    Nødvendige komponenter
+  </a>
+  
+    <nav class="md-nav" aria-label="Nødvendige komponenter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#samhandlingstjenester" class="md-nav__link">
+    Samhandlingstjenester
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tillitstjenester-og-tjenstlig-behov" class="md-nav__link">
+    Tillitstjenester og tjenstlig behov
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#samhandlingsformer" class="md-nav__link">
+    Samhandlingsformer
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#informasjonstjenester-og-komponenter-knyttet-til-api-management-sikkerhet-og-tillitstjenester" class="md-nav__link">
+    Informasjonstjenester og komponenter - knyttet til API management, sikkerhet og tillitstjenester
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tilgjengeliggjring" class="md-nav__link">
+    Tilgjengeliggjøring
+  </a>
+  
+    <nav class="md-nav" aria-label="Tilgjengeliggjøring">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#etablere-api" class="md-nav__link">
+    Etablere API
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fa-tilgang-til-data" class="md-nav__link">
+    Få tilgang til data
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#finne-relevante-data" class="md-nav__link">
+    Finne relevante data
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eksempel-realisere-sla-opp-og-dele-malinger" class="md-nav__link">
+    Eksempel: Realisere slå opp og dele målinger
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Målarkitektur samhandling DHO</h1>
+
+<p>Work in progress 
+{: .label .label-yellow }</p>
+<table>
+<thead>
+<tr>
+<th align="left">Status</th>
+<th align="left">Version</th>
+<th align="left">Maturity</th>
+<th align="left">Normative level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Work in progress</td>
+<td align="left">v0.8</td>
+<td align="left">review</td>
+<td align="left">ikke normert</td>
+</tr>
+</tbody>
+</table>
+<h2 id="samhandling-mellom-helsepersonell-pa-tvers-av-virksomheter">Samhandling mellom helsepersonell på tvers av virksomheter</h2>
+<p><a href="https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren/_/attachment/inline/a5a908cd-5054-4d21-8eaf-8b795dcb25ea:761793d5dd6b6a1f2b9dd334a44e3a754d5b88e6/M%C3%A5larkitektur%20for%20datadeling%20i%20helse-%20og%20omsorgssektoren%20(HITR%201231_2021).pdf">Målarkitektur for datadeling</a> tar frem "samhandling mellom helsepersonell på tvers av virksomheter" som et brukstilfelle, men som ble behandlet i første versjon siden modenheten den gang var for lav.</p>
+<p>Vårt arbeid med målarkitektur for DHO skal ta dette brukstilfellet videre og vil bli en del av den overordnede målarkitekturen for datadeling for helsesektoren. Slik beskrives brukstilfellet i målarkitektur fra datadeling:</p>
+<p>"Dette bruksområdet dekker brukstilfeller som i hovedsak dekker behovet for at helsepersonell i ulike virksomheter må samhandle for å yte best mulig helsehjelp.</p>
+<p>Virksomheter som yter helsehjelp har en plikt til å samarbeide om behandling og forebygging av sykdom hos innbyggere. Det ligger som en forutsetning for godt samarbeid at aktørene<br />
+må samarbeide om behandlingsplaner og andre helseopplysninger. Samarbeidet kan inkludere deling av dokumentasjon ved hjelp av datadeling fra den ene virksomheten til den andre, og kan også inkludere digitalisert samarbeid om pasientforløp på tvers av virksomheter. For mer avanserte samarbeidsformer rundt en pasient vil ikke meldings- og dokumentutveksling være tilstrekkelig for å kunne lage fleksible og gode samarbeidsløsninger. Her vil samarbeidsprosesser og arenaer kreve datadeling der aktørene kan samarbeide om både strukturerte dokumenter og mindre informasjonselementer.</p>
+<p>Dette bruksområdet må sees i sammenheng med de nasjonale tiltakene som for eksempel dokumentdeling via Kjernejournal, Akson journal og Helseplattformen som skal løse hoveddelen av behovet for samhandling ved å ha en felles journal. Disse tiltakene vil redusere antall løsninger som det må lages samhandlingsfunksjoner som benytter datadeling på tvers.</p>
+<p>Det er ulik tidshorisont på når disse løsningene er realisert og tatt i bruk. Det vil derfor være behov for å ta i bruk datadeling også frem til disse løsningene er realisert og tatt i bruk.<br />
+Behovsanalysen til konseptvalgutredningen for nasjonal journalløsning for kommunal helse og omsorgstjeneste beskriver <a href="https://ehelse.no/strategi/akson/_/attachment/download/991f83c3-be61-4556-9df6-44e8430ecf8c:c10adb76b95e679fb5857fec60e5c57650ead80b/Vedlegg%20A%20Behovsanalyse%20Nasjonal%20l%C3%B8sning%20for%20kommunal%20helse-%20og%20omsorgstjeneste.pdf">behovene for samhandling i detalj [7]</a>.</p>
+<p>Dette bruksområdet dekker samhandling gjennom datadeling mellom aktører i ulike helseregioner og mellom aktører i helseregioner og den kommunale helse- og omsorgstjenesten inkludert fastleger. Målarkitekturen for dette bruksområdet trenger mer arbeid og vi har valgt å ikke beskrive arkitekturen nærmere i denne versjonen av dokumentet." </p>
+<h2 id="kapabilitetskart-konsumere-hendelser-sla-opp-og-oppdatere">Kapabilitetskart Konsumere (hendelser), Slå opp og Oppdatere</h2>
+<p>Modellen viser overordnet kapabilitetskart for prosessene Konsumere informasjon, Vurdere og gjennomføre tiltak, Produsere informasjon og Dele informasjon. Dette er prosesser som er knyttet til Konsumenter (og produsenter) som integrerer mot andre aktører sine tjenester for tilgang til informasjon eller som ønsker å oppdatere informasjon de har produsert i informasjonstjenester som tilbys av andre aktører. Vi har identifisert at det mest relevante samhandlingsmønsteret for informasjonsbehovene knyttet til DHO er "Slå opp", men gode alternativer kan være å konsumere hendelsesstrømmer. For å oppdatere felles informasjonstjenester (for eksempel felles behandlingsplan) vil "Oppdatere" best dekke behovet. For prosesser hvor det er behov for bestilling og henvisning til tjenester som tilbys av andre aktører vil imidlertid sende/motta være foretrukket samhandlingsform.</p>
+<p><img alt="Kapabilitetskart prosess" src="../images/kapabilitetskart-prosess.png" /></p>
+<p>Det er identifisert noen grunnleggende kapabiliteter som må gå på tvers av de overbyggende, dette er dialog, sikkerhet og tillitsmodell.</p>
+<p>Kjernekapabilitetene må være tett knyttet til og integrert med den kliniske prosessen som handler om å identifisere og gjennomføre tiltak som en del av pasientbehandlingen, men omfatter også produksjon av informasjon. Dette innebærer både selve dokumentasjonen av hva som gjennomføres, målinger og resultater. Det er også tatt med nødvendige kapabiliteter som handler om å generere metadata og lagring av dokumentasjonen i en egnet form for viderebehandling og deling.</p>
+<h3 id="kapabiliteter-knyttet-til-tiltak-og-dokumentasjon">Kapabiliteter knyttet til tiltak og dokumentasjon</h3>
+<p>Evnene i denne tabellen er tett knyttet opp mot å understøtte vurdering og gjennomføring av tiltak og dokumentasjon av tiltak som utføres som en del av behandlingen av pasient.</p>
+<table class="wrapped confluenceTable"><colgroup><col><col><col></colgroup><tbody><tr><th class="confluenceTh">Kapabilitet</th><th class="confluenceTh">Definisjon</th><th class="confluenceTh">Eksempel</th></tr><tr><td class="confluenceTd"><p>Informasjonsbehandling</p></td><td class="confluenceTd">Sammenstille og tolke informasjon fra interne og eksterne systemer</td><td class="confluenceTd"><br></td></tr><tr><td class="confluenceTd">Visning</td><td class="confluenceTd">Vise informasjonen på en måte som er nyttig for kliniker</td><td class="confluenceTd"><br></td></tr><tr><td class="confluenceTd">Dokumentere</td><td class="confluenceTd">Dokumentere gjennomførte tiltak og begrunnelsen for tiltaket</td><td class="confluenceTd"><br></td></tr><tr><td colspan="1" class="confluenceTd">Produsere metadata</td><td colspan="1" class="confluenceTd">Produsere metadata som beskriver produsert dokumentasjon</td><td colspan="1" class="confluenceTd"><br></td></tr><tr><td colspan="1" class="confluenceTd">Lagring</td><td colspan="1" class="confluenceTd">Lagre informasjon (dokumentasjon og metadata)</td><td colspan="1" class="confluenceTd"><br></td></tr></tbody></table>
+
+<h3 id="tverrgaende-kapabiliteter">Tverrgående kapabiliteter</h3>
+<p>Evnene i denne tabellen er ikke knyttet opp mot noen spesielle deler av prosessen, siden alle deler av prosessen har behov for disse.</p>
+<table class="wrapped confluenceTable"><colgroup><col><col><col></colgroup><tbody><tr><th class="confluenceTh">Kapabilitet</th><th class="confluenceTh">Definisjon</th><th class="confluenceTh">Eksempel</th></tr><tr><td class="confluenceTd">Dialog</td><td class="confluenceTd">Understøtte løpende dialog mellom helsepersonell</td><td class="confluenceTd"><br></td></tr><tr><td class="confluenceTd">Sikkerhet</td><td class="confluenceTd">Ivareta sikker informasjonsutveksling, informasjonsbehandling, tilgangsstyring og personvern</td><td class="confluenceTd"><br></td></tr><tr><td class="confluenceTd">Tillit</td><td class="confluenceTd">Stole på at informasjon kan utveksles med andre aktører</td><td class="confluenceTd"><br></td></tr><tr><td colspan="1" class="confluenceTd">Grunndata</td><td colspan="1" class="confluenceTd">Understøtte behov for tilgang til grunndata i forbindelse med samhandling og pasientbehandling. Grunndata omfatter informasjon om Person, Helsepersonell og Virksomhet.</td><td colspan="1" class="confluenceTd"><br></td></tr></tbody></table>
+
+<h3 id="kapabiliteter-knyttet-til-samhandling">Kapabiliteter knyttet til samhandling</h3>
+<p>Evnene er knyttet til bruk av organisatoriske samhandlingsformer for å utveksle informasjon mellom aktører.</p>
+<table class="wrapped confluenceTable"><colgroup><col><col><col></colgroup><tbody><tr><th class="confluenceTh">Kapabilitet</th><th class="confluenceTh">Definisjon</th><th class="confluenceTh">Eksempel</th></tr><tr><td class="confluenceTd">Konsumere hendelsesstrøm</td><td class="confluenceTd">Konsumere hendelser fra en hendelsesstrøm</td><td class="confluenceTd"><br></td></tr><tr><td class="confluenceTd">Publisere (hendelser)</td><td class="confluenceTd">Publisere hendelser til en hendelsesstrøm</td><td class="confluenceTd"><br></td></tr><tr><td class="confluenceTd">Søk og oppslag (innhente data)</td><td class="confluenceTd">Søke og slå opp informasjon gjennom en <span class="inline-comment-marker" data-ref="9b23afed-5ffd-4399-b2ea-2388ea19eb7c">datadelingstjeneste</span></td><td class="confluenceTd"><br></td></tr><tr><td colspan="1" class="confluenceTd"><span class="inline-comment-marker" data-ref="c4011089-4276-4fba-a61f-85eefff652da">Tilgjengeliggjøring</span></td><td colspan="1" class="confluenceTd">Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet med eller uten krav til innlogget bruker ved hjelp av datadeling. Tilgangsstyring inngår her. Avgjøre h<span class="inline-comment-marker" data-ref="c1287658-7cf4-4576-acaf-2a02016af69e">vilken informasjon som skal deles med andre gjennom en datadelingstjeneste</span>.</td><td colspan="1" class="confluenceTd"><br></td></tr><tr><td colspan="1" class="confluenceTd">Tilgjengeliggjøre data</td><td colspan="1" class="confluenceTd">Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet.</td><td colspan="1" class="confluenceTd"><br></td></tr><tr><td colspan="1" class="confluenceTd">Tilgjengeliggjøre API</td><td colspan="1" class="confluenceTd">Prosessen med å tilby data gjennom et API til aktører utenfor egen virksomhet.</td><td colspan="1" class="confluenceTd"><br></td></tr><tr><td colspan="1" class="confluenceTd">Få tilgang til data</td><td colspan="1" class="confluenceTd">Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør.</td><td colspan="1" class="confluenceTd"><br></td></tr><tr><td colspan="1" class="confluenceTd">Finne relevante data</td><td colspan="1" class="confluenceTd">Evnen til å finne kilder for informasjon om spesifikke kategorier eller personer.</td><td colspan="1" class="confluenceTd"><br></td></tr><tr><td colspan="1" class="confluenceTd">Avgi data</td><td colspan="1" class="confluenceTd">Utlevere data basert på søk og oppslag</td><td colspan="1" class="confluenceTd"><br></td></tr><tr><td colspan="1" class="confluenceTd">Oppdatering av masterdata</td><td colspan="1" class="confluenceTd">Oppdatere delt informasjon i en datadelingstjeneste</td><td colspan="1" class="confluenceTd"><br></td></tr><tr><td colspan="1" class="confluenceTd">Sende</td><td colspan="1" class="confluenceTd">Sende informasjon til en spesifikk mottaker</td><td colspan="1" class="confluenceTd"><br></td></tr><tr><td colspan="1" class="confluenceTd">Motta</td><td colspan="1" class="confluenceTd">Motta informasjon fra en spesifikk mottaker</td><td colspan="1" class="confluenceTd"><br></td></tr></tbody></table>
+
+<h2 id="ndvendige-komponenter">Nødvendige komponenter</h2>
+<ul>
+<li>Beskrive komponentene hvilke kapabiliteter de skal realisere</li>
+<li>Hvem har ansvar for hvilke komponenter (felles/aktører) og hvordan forvaltes disse<ul>
+<li>Grensesnitt mellom komponentene og forvaltning av disse</li>
+</ul>
+</li>
+<li>Lakmustest: Mappe komponentene mot løsningsarkitekturen som er beskrevet for utprøvingene (Oslo, Bodø og Larvik)</li>
+</ul>
+<h3 id="samhandlingstjenester">Samhandlingstjenester</h3>
+<p>Tjenester som det er behov for å realisere samhandlingsevnene. Totalbildet vises i figuren under.</p>
+<p><img alt="Samhandlingstjenester" src="../images/213877779.png" /></p>
+<h3 id="tillitstjenester-og-tjenstlig-behov">Tillitstjenester og tjenstlig behov</h3>
+<p>Juridiske avklaringer i forbindelse datadeling sier at ved oppslag mot kilde/datatilbyder så må konsumentens (sluttbruker) sitt tjenstlige behov dokumenteres overfor datatilbyder før data utleveres. Det eksisterer ikke mekanismer for å håndtere dette i infrastrukturen i dag, verken i sikkerhetsbilletten (må utvides) eller andre tillitsskapende tjenester.</p>
+<h3 id="samhandlingsformer">Samhandlingsformer</h3>
+<p>Behovet for samhandling i DHO løses best ved å benytte flere <a href="https://confluence.ehelse.no/display/DH/Organisatoriske+samhandlingsformer">samhandlingsformer</a> om hverandre der ulike samhandlingsformer svarer ut ulike informasjonsbehov og har ulike roller i forhold til behandlingsforløpet. Det eksisterer i dag utstrakt bruk samhandlingsformen sende og motta spesielt knyttet til rekvisisjon, henvisning, svar og epikrise. Dette er ikke hovedfokuset i forbindelse med å utvikle samhandlingen knyttet til DHO da dette er samhandlingsformer og prosesser som er veletablert i tjenesten i dag men som ikke i tilstrekkelig grad understøtter behovene knyttet til DHO og sammensatte behandlingsforløp, hvor ulike virksomheter og omsorgsnivå følger opp pasienten.</p>
+<h3 id="informasjonstjenester-og-komponenter-knyttet-til-api-management-sikkerhet-og-tillitstjenester">Informasjonstjenester og komponenter - knyttet til API management, sikkerhet og tillitstjenester</h3>
+<p>Det er identifisert et antall nødvendige informasjonstjenester som er nødvendige for å støtte behovene og realisere evnene som trengs for å understøtte deling av informasjon mellom virksomheter og behandlingsnivå. I tillegg er det behov for tjenester knyttet til tilgjengeliggjøring, oppdaging av API identifisert i målarkitektur for datadeling som har hovedformål å legge til rette for datadeling ved bruk av  API teknologi. Beskrivelsen av behovene innenfor dette området, frem til faktisk datautveksling er godt behandlet i målarkitektur i datadeling og vil ikke gjentas her. Det er noen problemstillinger knyttet til å faktisk understøtte utvekslingen av, bruken av og produksjonen av informasjon som ikke er behandlet i detalj i den arkitekturen og det er denne delen av prosessen vi ser nærmere på i forbindelse med DHO.</p>
+<p><img alt="" src="../images/211158301.png" /></p>
+<h3 id="tilgjengeliggjring">Tilgjengeliggjøring</h3>
+<p>Tilgjengeliggjøring av API og hvilke programvarekomponenter det er behov for i den delen av prosessen som omhandler registrering, avtaler og tildele tilganger er godt behandlet i målarkitektur for datadeling, vi vil ikke diskutere denne delen av prosessen ytterligere her. Prosessen knyttet til å etablere og dokumentere API er nærmere beskrevet gjennom beskrivelsen av prosessene for å etablere API, få tilgang til data og finne relevante data.</p>
+<p><img alt="Tilgjengeliggjøring" src="../images/213877320.png" /></p>
+<p>Prosessen knyttet til etablere API for ekstern tilgang til informasjon fra virksomheten er ikke belyst i målarkitekturen for datadeling. <em>Etablere API</em> er ment å dekke den delen av prosessen som foregår før informasjon faktisk kan tilgjengeliggjøres fra en virksomhet til en annen og handler om prosessen knyttet til å vurder hvilken informasjon som skal tilgjengeliggjøres, tilrettelegge for at denne informasjonen kan tilgjengeliggjøres for andre virksomheter (unntatt sikkerhet og tilgangstyring) og etableringen av funksjonalitet for å avgi informasjonen på en effektiv måte gjennom eksternt tilgjengelige funksjonskall, samt å dokumentere de tilgjengelige grensesnittene.</p>
+<p>Vanligvis vil reglene for ekstern tilgang etableres som automatiserte uttrekk fra eksisterende datakilder eller prosesser med fastsatte rammer for hvilken informasjon og metadata som skal være tilgjengelig for eksterne virksomheter. Selve tilgangen etableres ofte ved å etablere en egen løsning for persistering av informasjon som skal være tilgengelig for eksterne funksjonskall. Den eksternt tilgjengelige funksjonen utvikles basert på dette og må gi eksterne virksomheter mulighet til effektive og gode søk etter informasjon slik at konsumenten får dekket sitt behov for gjenbruk av informasjon samtidig som krav til personvern og dataminimering ivaretas. De eksternt tilgjengelige funksjonene dokumenteres vanligvis i API dokumentasjon som publiseres for konsumentene.</p>
+<h4 id="etablere-api">Etablere API</h4>
+<p>Prosessen for å Etablere API knyttet til intern dataflyt og eksterne fagsystemer og mellomvare.</p>
+<p><img alt="Etablere API" src="../images/217121447.png" /></p>
+<h3 id="fa-tilgang-til-data">Få tilgang til data</h3>
+<p>Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør. Omfatter evnen til å oppdage datakilder og sette opp funksjon (klient) for å ta i bruk datakilden. Videre må virksomheten beskrive hvordan den ønsker å integrere eksterne informasjon i intern dataflyt, inkludert hvordan interne fagsystem og mellomvare skal bruke, vise og lagre data fra eksterne. Det må etableres en klientfunksjon som tar i bruk api'et fra den eksterne datatilbyderen og denne må integreres med interne systemer. </p>
+<p><img alt="Få tilgang til data" src="../images/213877674.png" /></p>
+<h3 id="finne-relevante-data">Finne relevante data</h3>
+<p>Evnen til å finne kilder for informasjon om en gitt pasient ~personer~ ~eller informasjonskategorier~.</p>
+<p><img alt="Få tilgang til data" src="../images/213877716.png" /></p>
+<h2 id="eksempel-realisere-sla-opp-og-dele-malinger">Eksempel: Realisere slå opp og dele målinger</h2>
+<p>Behov knyttet til dele egne målinger og slå opp andres målinger kan realiseres med å implementere prosesser for å avgi egne data gjennom en Datadelingstjeneste og en prosess for å fastsette hvilke målinger og på hvilken måte disse skal struktureres, samt hvilke målinger som skal tilgjengeliggjøres gjennom datadelingstjenesten. Datadelingstjenesten må dokumenteres i form av API-dokumentasjon som kan benyttes av konsumenter som ønsker å få tilgang til data som er tilgjengelig for oppslag gjennom datadelingstjenesten.</p>
+<p><img alt="Realisere slå opp" src="../images/217121564.png" /></p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../Juridiske-rammebetingelser/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Juridiske rammebetingelser" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Juridiske rammebetingelser
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../Konsepter-realisering/" class="md-footer__link md-footer__link--next" aria-label="Next: Konsepter realisering" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Konsepter realisering
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.annotate", "content.tooltips", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+      
+    
+    
+  </body>
+</html>
