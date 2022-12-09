@@ -13,6 +13,7 @@ nav:
 #theme: 'readthedocs'
 theme:
   name: material
+  logo: logo/ehelse-hvit.svg
   #custom_dir: material/.overrides
   features:
     # - announce.dismiss
