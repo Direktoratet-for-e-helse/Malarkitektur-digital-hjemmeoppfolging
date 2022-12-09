@@ -1,6 +1,8 @@
 remote_theme: Direktoratet-for-e-helse/just-the-docs-ehelse
 logo: images/logo.png
 title: Digital hjemmeoppfølging målarkitektur Datadeling
+baseurl: "/Malarkitektur-digital-hjemmeoppfolging/version-0.5" # the subpath of your site, e.g. /blog
+url: "https://direktoratet-for-e-helse.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 exclude: README.md
 
 plugins:
