@@ -1,19 +1,17 @@
 site_name: Målarkitektur samhandling Digitial hjemmeoppfølging
+repo_url: https://github.com/Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging
+repo_name: Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging
 nav:
-    - Innledning og sammendrag: 
-      - Innledning: index.md
-      - Begreper: Begreper.md
-      - Arkitekturprinsipper: Arkitekturprinsipper.md
-      - Målbilde: Overordnet-maalbilde.md
-    - Behov og rammebetingelser:
-      - Overordnet behovsbilde: Behovsbilde.md
-      - Juridiske rammebetingelser: Juridiske-rammebetingelser.md
-    - Samhandlingstjenester og realisering:
-      - Målarkitektur samhandling DHO: Malarkitektur-samhandling.md
-      - Konsepter realisering: Konsepter-realisering.md
-    - Referanser og innspill:
-      - Referanser: Referanser.md
-      - Tilbakemeldinger og innspill: Tilbakemeldinger-innspill.md
+    - Innledning: index.md
+    - Begreper: Begreper.md
+    - Arkitekturprinsipper: Arkitekturprinsipper.md
+    - Målbilde: Overordnet-maalbilde.md
+    - Overordnet behovsbilde: Behovsbilde.md
+    - Juridiske rammebetingelser: Juridiske-rammebetingelser.md
+    - Målarkitektur samhandling DHO: Malarkitektur-samhandling.md
+    - Konsepter realisering: Konsepter-realisering.md
+    - Referanser: Referanser.md
+    - Tilbakemeldinger og innspill: Tilbakemeldinger-innspill.md
 #theme: 'readthedocs'
 theme:
   name: material
@@ -55,6 +53,8 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  #favicon: assets/favicon.png
+  icon:
+    repo: fontawesome/brands/git-alt
+  favicon: logo/ehelse-hvit.png
   #icon:
   #  logo: logo
