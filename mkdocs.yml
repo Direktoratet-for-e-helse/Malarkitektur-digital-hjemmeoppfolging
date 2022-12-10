@@ -12,7 +12,7 @@ nav:
     - Konsepter realisering: Konsepter-realisering.md
     - Referanser: Referanser.md
     - Tilbakemeldinger og innspill: Tilbakemeldinger-innspill.md
-#theme: 'readthedocs'
+    - Statusinformasjon: https://direktoratet-for-e-helse.github.io/Common-metadata/
 theme:
   name: material
   logo: logo/ehelse-hvit.svg
