@@ -42,4 +42,4 @@ Formålet med effektmålet "økt, bedre og sikker digital samhandling på tvers 
 
 Modellen viser en overordnet verdistrøm med fokus på verdi som effektmålet kan gi for helsepersonell og innbygger involvert i et behandlingsforløp.
 
-![Verdistrøm for samhandling](../images/verdistrom.png)
+![Verdistrøm for samhandling](img/verdistrom.png)

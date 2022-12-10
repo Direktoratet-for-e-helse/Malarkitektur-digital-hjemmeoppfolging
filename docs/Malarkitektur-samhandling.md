@@ -33,7 +33,7 @@ Dette bruksområdet dekker samhandling gjennom datadeling mellom aktører i ulik
 
 Modellen viser overordnet kapabilitetskart for prosessene Konsumere informasjon, Vurdere og gjennomføre tiltak, Produsere informasjon og Dele informasjon. Dette er prosesser som er knyttet til Konsumenter (og produsenter) som integrerer mot andre aktører sine tjenester for tilgang til informasjon eller som ønsker å oppdatere informasjon de har produsert i informasjonstjenester som tilbys av andre aktører. Vi har identifisert at det mest relevante samhandlingsmønsteret for informasjonsbehovene knyttet til DHO er "Slå opp", men gode alternativer kan være å konsumere hendelsesstrømmer. For å oppdatere felles informasjonstjenester (for eksempel felles behandlingsplan) vil "Oppdatere" best dekke behovet. For prosesser hvor det er behov for bestilling og henvisning til tjenester som tilbys av andre aktører vil imidlertid sende/motta være foretrukket samhandlingsform.
 
-![Kapabilitetskart prosess](../images/kapabilitetskart-prosess.png)
+![Kapabilitetskart prosess](img/kapabilitetskart-prosess.png)
 
 Det er identifisert noen grunnleggende kapabiliteter som må gå på tvers av de overbyggende, dette er dialog, sikkerhet og tillitsmodell.
 
@@ -69,7 +69,7 @@ Nødvendige komponenter
 
 Tjenester som det er behov for å realisere samhandlingsevnene. Totalbildet vises i figuren under.
 
-![Samhandlingstjenester](../images/213877779.png)
+![Samhandlingstjenester](img/213877779.png)
 
 ### Tillitstjenester og tjenstlig behov
 
@@ -83,13 +83,13 @@ Behovet for samhandling i DHO løses best ved å benytte flere [samhandlingsform
 
 Det er identifisert et antall nødvendige informasjonstjenester som er nødvendige for å støtte behovene og realisere evnene som trengs for å understøtte deling av informasjon mellom virksomheter og behandlingsnivå. I tillegg er det behov for tjenester knyttet til tilgjengeliggjøring, oppdaging av API identifisert i målarkitektur for datadeling som har hovedformål å legge til rette for datadeling ved bruk av  API teknologi. Beskrivelsen av behovene innenfor dette området, frem til faktisk datautveksling er godt behandlet i målarkitektur i datadeling og vil ikke gjentas her. Det er noen problemstillinger knyttet til å faktisk understøtte utvekslingen av, bruken av og produksjonen av informasjon som ikke er behandlet i detalj i den arkitekturen og det er denne delen av prosessen vi ser nærmere på i forbindelse med DHO.
 
-![](../images/211158301.png)
+![](img/211158301.png)
 
 ### Tilgjengeliggjøring
 
 Tilgjengeliggjøring av API og hvilke programvarekomponenter det er behov for i den delen av prosessen som omhandler registrering, avtaler og tildele tilganger er godt behandlet i målarkitektur for datadeling, vi vil ikke diskutere denne delen av prosessen ytterligere her. Prosessen knyttet til å etablere og dokumentere API er nærmere beskrevet gjennom beskrivelsen av prosessene for å etablere API, få tilgang til data og finne relevante data.
 
-![Tilgjengeliggjøring](../images/213877320.png)
+![Tilgjengeliggjøring](img/213877320.png)
 
 Prosessen knyttet til etablere API for ekstern tilgang til informasjon fra virksomheten er ikke belyst i målarkitekturen for datadeling. _Etablere API_ er ment å dekke den delen av prosessen som foregår før informasjon faktisk kan tilgjengeliggjøres fra en virksomhet til en annen og handler om prosessen knyttet til å vurder hvilken informasjon som skal tilgjengeliggjøres, tilrettelegge for at denne informasjonen kan tilgjengeliggjøres for andre virksomheter (unntatt sikkerhet og tilgangstyring) og etableringen av funksjonalitet for å avgi informasjonen på en effektiv måte gjennom eksternt tilgjengelige funksjonskall, samt å dokumentere de tilgjengelige grensesnittene.
 
@@ -99,22 +99,22 @@ Vanligvis vil reglene for ekstern tilgang etableres som automatiserte uttrekk fr
 
 Prosessen for å Etablere API knyttet til intern dataflyt og eksterne fagsystemer og mellomvare.
 
-![Etablere API](../images/217121447.png)
+![Etablere API](img/217121447.png)
 
 ### Få tilgang til data
 
 Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør. Omfatter evnen til å oppdage datakilder og sette opp funksjon (klient) for å ta i bruk datakilden. Videre må virksomheten beskrive hvordan den ønsker å integrere eksterne informasjon i intern dataflyt, inkludert hvordan interne fagsystem og mellomvare skal bruke, vise og lagre data fra eksterne. Det må etableres en klientfunksjon som tar i bruk api'et fra den eksterne datatilbyderen og denne må integreres med interne systemer. 
 
-![Få tilgang til data](../images/213877674.png)
+![Få tilgang til data](img/213877674.png)
 
 ### Finne relevante data
 
 Evnen til å finne kilder for informasjon om en gitt pasient ~personer~ ~eller informasjonskategorier~.
 
-![Få tilgang til data](../images/213877716.png)
+![Få tilgang til data](img/213877716.png)
 
 ## Eksempel: Realisere slå opp og dele målinger
 
 Behov knyttet til dele egne målinger og slå opp andres målinger kan realiseres med å implementere prosesser for å avgi egne data gjennom en Datadelingstjeneste og en prosess for å fastsette hvilke målinger og på hvilken måte disse skal struktureres, samt hvilke målinger som skal tilgjengeliggjøres gjennom datadelingstjenesten. Datadelingstjenesten må dokumenteres i form av API-dokumentasjon som kan benyttes av konsumenter som ønsker å få tilgang til data som er tilgjengelig for oppslag gjennom datadelingstjenesten.
 
-![Realisere slå opp](../images/217121564.png)
+![Realisere slå opp](img/217121564.png)
