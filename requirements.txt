@@ -2,4 +2,3 @@ mkdocs
 mkdocs-bootswatch
 mkdocs-minify-plugin
 mkdocs-material
-mdx_truly_sane_lists
