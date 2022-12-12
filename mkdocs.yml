@@ -59,7 +59,7 @@ theme:
     repo: fontawesome/brands/git-alt
   favicon: logo/ehelse-hvit.png
   markdown_extensions:
-    - sane_lists
+    - mdx_truly_sane_lists
 
   #icon:
   #  logo: logo
