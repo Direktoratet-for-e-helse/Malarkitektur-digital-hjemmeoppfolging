@@ -30,16 +30,16 @@ Pasienten kan i prinsippet oppholde seg hvor som helst fysisk, men likevel kunne
 Målarkitekturen skal være et verktøy for å koordinere innsatsen i sektoren slik at alle aktørene arbeider i samme retning for å løse samhandlingsutfordringene.
 
 * Definere felles arkitekturmål for samhandling innen DHO
-  * Målarkitekturen har fokus på pasientrapporterte data og samhandlingsløsninger for å utveksle disse mellom virksomheter og omsorgsnivå
-  * Målarkitekturen skal fungere som et verktøy for å koordinere innsatsen i sektoren for å etablere datadelingsløsninger innen DHO området
-  * Dokumentere felles arkitekturvalg og anbefalte samhandlingsmønster for DHO
-  * Beskrive informasjonstjenester og infrastrukturtjenester som må etableres for å realisere samhandlingen
+   * Målarkitekturen har fokus på pasientrapporterte data og samhandlingsløsninger for å utveksle disse mellom virksomheter og omsorgsnivå
+   * Målarkitekturen skal fungere som et verktøy for å koordinere innsatsen i sektoren for å etablere datadelingsløsninger innen DHO området
+   * Dokumentere felles arkitekturvalg og anbefalte samhandlingsmønster for DHO
+   * Beskrive informasjonstjenester og infrastrukturtjenester som må etableres for å realisere samhandlingen
 * Gi oversikt over behovsbildet
-  * Beskrive behov for informasjon og samhandling på tvers av virksomheter og omsorgsnivå
+   * Beskrive behov for informasjon og samhandling på tvers av virksomheter og omsorgsnivå
 * Skal fungere som kommunikasjonsverktøy mot helse- og omsorgstjenesten, leverandører og NHN
-  * Benyttes i drøfting og forankring av felles retning for utvikling av DHO løsninger
+   * Benyttes i drøfting og forankring av felles retning for utvikling av DHO løsninger
 * Beskrive juridiske problemstillinger knyttet til DHO
-  * Beskrive det juridiske handlingsrommet for etablering av datadelingsløsninger i helsesektoren
+   * Beskrive det juridiske handlingsrommet for etablering av datadelingsløsninger i helsesektoren
 
 ## Målarkitektur for samhandling innen digital hjemmeoppfølging inneholder
 
