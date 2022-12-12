@@ -30,7 +30,7 @@ Pasienten kan i prinsippet oppholde seg hvor som helst fysisk, men likevel kunne
 Målarkitekturen skal være et verktøy for å koordinere innsatsen i sektoren slik at alle aktørene arbeider i samme retning for å løse samhandlingsutfordringene.
 
 * Definere felles arkitekturmål for samhandling innen DHO
-  * Målarkitekturen har fokus på pasientrapporterte data og samhandlingsløsninger for å utveksle disse mellom virksomheter og omsorgsnivå
+    * Målarkitekturen har fokus på pasientrapporterte data og samhandlingsløsninger for å utveksle disse mellom virksomheter og omsorgsnivå
   * Målarkitekturen skal fungere som et verktøy for å koordinere innsatsen i sektoren for å etablere datadelingsløsninger innen DHO området
   * Dokumentere felles arkitekturvalg og anbefalte samhandlingsmønster for DHO
   * Beskrive informasjonstjenester og infrastrukturtjenester som må etableres for å realisere samhandlingen
