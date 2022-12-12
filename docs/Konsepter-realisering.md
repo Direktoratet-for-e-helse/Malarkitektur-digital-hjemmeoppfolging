@@ -4,12 +4,9 @@ title: Konsepter realisering
 nav_order: 8
 ---
 
-Work in progress 
-{: .label .label-yellow }
-
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| Work in progress | v0.8 | review  | ikke normert |
+| <span style="background-color:gold">Work in progress</span> | v0.8 | review  | ikke normert |
 
 Formålet med denne delen av målarkitekturen er å vise hvordan målarkitekturen kan benyttes for å beskrive løsningskonsepter for realisering av datadeling innen DHO. Det er da fokus på å dokumentere samhandlingsmønstre og nødvendige tjenester og komponenter som må etableres i virksomhetene for å svare ut konkrete behov knyttet til DHO.
 

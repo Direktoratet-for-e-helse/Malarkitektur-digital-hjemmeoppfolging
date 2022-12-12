@@ -4,12 +4,9 @@ title: Juridiske rammebetingelser
 nav_order: 6
 ---
 
-Work in progress 
-{: .label .label-yellow }
-
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| Work in progress | v0.3 | draft  | ikke normert |
+| <span style="background-color:gold">Work in progress</span> | v0.3 | draft  | ikke normert |
 
 ## Sammendrag
 

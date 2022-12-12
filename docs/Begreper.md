@@ -4,12 +4,9 @@ title: Begreper
 nav_order: 2
 ---
 
-Work in progress 
-{: .label .label-yellow }
-
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| Work in progress | v0.8 | draft  | ikke normert |
+| <span style="background-color:gold">Work in progress</span> | v0.8 | draft  | ikke normert |
 
 ## Sentrale begreper som benyttes i målarkitekturen 
 

@@ -4,12 +4,9 @@ title: Innledning
 nav_order: 1
 ---
 
-Work in progress 
-{: .label .label-yellow }
-
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| Work in progress | v0.8 | review  | ikke normert |
+| <span style="background-color:gold">Work in progress</span> | v0.8 | review  | ikke normert |
 
 # Målarkitektur Samhandling DHO
 

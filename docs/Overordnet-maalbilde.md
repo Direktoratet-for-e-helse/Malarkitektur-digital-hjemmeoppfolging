@@ -4,12 +4,9 @@ title: Overordnet målbilde DHO
 nav_order: 4
 ---
 
-Work in progress 
-{: .label .label-yellow }
-
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| Work in progress | v0.8 | review  | ikke normert |
+|<span style="background-color:gold">Work in progress</span> | v0.8 | review  | ikke normert |
 
 Kapittelet beskriver de overordnede strategiske målene for DHO arbeidet. Utviklingen av målarkitektur for samhandling innen DHO er en hovedleveranse fra Tiltak 5 i DHO arbeidet.
 

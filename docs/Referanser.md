@@ -4,12 +4,9 @@ title: Referanser
 nav_order: 9
 ---
 
-Work in progress  
-{: .label .label-yellow }
-
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| Work in progress | v0.8 | review  | ikke normert |
+| <span style="background-color:gold">Work in progress</span> | v0.8 | review  | ikke normert |
 
 Ulike arkitekturprodukter for e-helse må henge sammen for å beskrive helheten. Vi må beskrive hvordan totalbildet ser ut av produkter og hvordan det henger sammen.
 
