@@ -1,11 +1,13 @@
-site_name: Målarkitektur samhandling Digitial hjemmeoppfølging
+site_name: Målarkitektur datadeling Digitial hjemmeoppfølging
 repo_url: https://github.com/Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging
 repo_name: Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging
 nav:
     - Innledning: index.md
+    - Sammendrag: Sammendrag.md
     - Begreper: Begreper.md
     - Arkitekturprinsipper: Arkitekturprinsipper.md
     - Målbilde: Overordnet-maalbilde.md
+    - Kontekst for målarkitekturen: Kontekst.md
     - Overordnet behovsbilde: Behovsbilde.md
     - Juridiske rammebetingelser: Juridiske-rammebetingelser.md
     - Målarkitektur samhandling DHO: Malarkitektur-samhandling.md

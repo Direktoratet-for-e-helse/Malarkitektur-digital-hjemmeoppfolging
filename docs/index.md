@@ -6,9 +6,16 @@ nav_order: 1
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:gold">Work in progress</span> | v0.8 | review  | ikke normert |
+| <span style="background-color:gold">Work in progress</span> | v0.6 | draft  | ikke normert |
 
-# Målarkitektur Samhandling DHO
+## Bakgrunn
+
+Direktoratet for e-helse har et overordnet mål om å øke digital samhandling mellom aktørene i helse- og omsorgssektoren. Det er startet en rekke tiltak innenfor området data- og dokumentdeling. Dette arbeidet er prioritert fordi data- og dokumentdeling er samhandlingsformer som tas i bruk på ulike måter innen stadig nye områder innen helse- og omsorgstjenesten. Hensikten er å sikre en koordinert utvikling av datadeling samt økt bruk i hele sektoren.  
+Innen digital hjemmeoppfølging er behovet for datadeling spesielt stort. Pasientene som behandles trenger fortløpende oppfølging av flere virksomheter og omsorgsnivå. Mange tjenestetilbydere ser at eksisterende samhandlingsløsninger ikke understøtter samhandlingsbehovet godt nok.
+Målarkitektur for datadeling ble publisert.. 
+dette arbeidet baserer seg på målarkitektur for datadeling...
+
+### Digital hjemmeoppfølging
 
 *Digital hjemmeoppfølging er nye tjenester under utvikling hvor deler av helse- og omsorgstjenesten kan flyttes hjem til innbygger ved hjelp av teknologi.*
 
@@ -48,16 +55,17 @@ Målarkitekturen skal være et verktøy for å koordinere innsatsen i sektoren s
 * Behov for andre normerende produkter (Semantisk nivå, tillitstjenester, hvordan etablere infrastrukturtjenester i virksomheten)
 * Overordnede juridiske avklaringer
 
-## Kontekst for målarkitekturen
+## Målgruppe
 
-En målarkitektur er en fremtidig, ønsket tilstand. Det er naturlig å ha en stegvis, behovsprøvd tilnærming til realisering av målarkitekturen.
+## Omfang og avgrensninger
 
-Samtidig er det viktig at de første stegene forholder seg til en fremtidig målarkitektur for å unngå arkitekturvalg som senere vil være kostbare å endre på. Målarkitekturen beskriver ikke hvordan løsningene i arkitekturen skal realiseres i detalj men inneholder krav, prinsipper og konsepter som bidrar til å løse felles mål og understøtte behovene tjenesten har for samhandlig innen DHO tjenesteforløp.
+Målarkitekturen skal være et verktøy for å koordinere innsatsen i sektoren slik at aktørenen arbeider i samme retning for å løses samhandlingsutfordringene. Den skal blant annet inneholde hvilke samhandlingstjenester som skal tilbys nasjonalt. Det er derfor gjort noen avgrensninger i forhold til de behovene som analyseres i arbeidet med målarkitektur for samhandling innen DHO.
 
-### Hvor passer dette produktet inn
-
-* Referansearkitektur - Målarkitekturen for datadeling DHO bygger på relevante referansearkitekturer på området
-* Målarkitektur - Målarkitekturen for datadeling DHO bygger på relevante eksisterende målarkitekturer og videreutvikler og konkretiserer hvordan disse anvendes på DHO området
-* Løsningsarkitektur - Målarkitekturen gir føringer for løsningsarkitektur innden datadeling og DHO
-
-<!-- Nevne sammenhenger med annet relevant arbeid her, dokumentdeling, Pasientens legemiddelliste og DBEP-->
+* Det er fokus på tilrettelegging for samhandling mellom virksomheter og omsorgsnivå og samhandling med innbygger
+  * Noen av de samme mekanismene kan også benyttes for samhandling internt i en virksomhet, men det er ikke hovedfokuset i dette arbeidet
+* Det er fokus på utveksling av strukturert informasjon mellom virksomheter og omsorgsnivå. Høy semantisk samhandlingsevne (hva dataene betyr og hvordan de er definert) er nødvendig
+* Det er fokus på primærbruk av data. Sekundærbruk av data er ikke et sentralt tema for dette arbeidet
+  * Det antas at utveksling av strukturert informasjon kan være nyttig også knyttet til sekundærbruk innen forskning og kvalitetssikring av helsehjelp
+* Velferdsteknologi (tradisjonell trygghets og mestringsteknologi) er ikke en del av omfanget for målarkitekturen for DHO.
+  * Behovene knyttet til trygghet og mestring er relativt godt analysert i tidligere arbeid og det er bare små overlapp mellom DHO og trygghet og mestringsområdet
+  * Noen teknologiske løsninger og utfordringer er imidlertid sammenfallende med trygghet og mestringsområdet og vil også være en naturlig del av behovsbildet og løsningene som benyttes innen DHO området
