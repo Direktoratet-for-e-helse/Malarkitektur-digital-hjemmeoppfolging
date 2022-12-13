@@ -29,7 +29,7 @@ Konseptene vurderes i det videre etter en rekke kriterier:
 
 Ved etablering av distribuerte datadelingsløsninger i virksomhetenes egne infrastruktur etablerer man løsninger for distribuerte søk på tvers av virksomhetene. Det er viktig at alle løsningene tar utgangspunkt i den samme semantiske spesifikasjonen slik at det blir enkelt å søke i informasjon fra forskjellige virksomheter, løsninger og levert av mange leverandører. Ved en slik tilnærming trenger man i tillegg til PIL også en solid sentralisert tillitsmodell, ellers må man etablere bilaterale avtaler mellom alle aktørene som ønsker å samhandle med hverandre.
 
-![Distribuerte datadelingsløsninger i virksomhetenes infrastruktur](img/226722844.png)
+![Distribuerte datadelingsløsninger i virksomhetenes infrastruktur](img/distribuert.png)
 
 #### Forutsetninger
 
@@ -60,7 +60,7 @@ Ved etablering av distribuerte datadelingsløsninger i virksomhetenes egne infra
 
 Datadelingsløsninger i regional infrastruktur gjør det mulig å etablere datadelingsløsningene fra flere virksomheter i den samme tekniske infrastrukturen og basere seg på den samme kildekoden som basis for datadelingsløsningene. Informasjonen fra hver enkelt dataansvarlig virksomhet lagres imidlertid logisk adskilt og reguleres av en databehandleravtale mellom virksomheten og tilbyderen av tjenesten. Fordelen med en slik tilnærming er at man kan gjenbruke kode og infrastruktur, på tvers av virksomheter, for å etablere mange datadelingstjenester med like grensesnitt. Gjenbruk av kode og kompetanse vil gjøre det raskere å skalere samt at man får stordriftsfordeler knyttet til drift og vedlikehold av tjenestene. Hvis denne tilnærmingen skal fungere for mange aktører kreves det at man benytter en PIL komponent i sentral infrastruktur (pasientinformasjons lokalisator) siden man i praksis må etablere støtte for distribuerte søk på tvers av virksomheter.
 
-![](img/226722849.png)
+![](img/distribuert-sentral.png)
 
 #### Forutsetninger
 
@@ -90,7 +90,7 @@ Datadelingsløsninger i regional infrastruktur gjør det mulig å etablere datad
 
 Ved etablering av sentral regional løsninger, for eksempel for DHO, baserer vi oss på at informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagres i sentral infrastruktur i fellesløsningen. Fellesløsningen kommer istedenfor andre systemer i virksomheten og informasjonen lagres i utgangspunktet bare i fellesløsningen. Andre systemer som er knyttet til andre deler av virksomhetene kan søke i den felles regionale løsningen etter informasjon de trenger ved oppfølging av pasienten. Det samme gjelder andre aktører som har behov for å samarbeide med virksomhetene som er omfattet av fellesløsningen.
 
-![Regionale fellesløsninger](img/229244983.png)
+![Regionale fellesløsninger](img/regional-felles.png)
 
 #### Forutsetninger
 
@@ -122,7 +122,7 @@ Ved etablering av sentral regional løsninger, for eksempel for DHO, baserer vi 
 
 Ved etablering av sentral regional datadelingsløsning baserer vi oss på at informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagres i sentral infrastruktur hos NHN (eller annen leverandør) samtidig som den eksisterer i relevante fagsystem hos den enkelte virksomheten. Virksomhetene som deltar i det regionale samarbeidet kan søke i den felles regionale tjenesten som tilbys og driftes av NHN. Det kan også opprettes søk mot den regionale løsningen for virksomheter som ikke er en del av det regionale samarbeidet.
 
-![Regionale datadelingsløsninger med lagring](img/229245030.png)
+![Regionale datadelingsløsninger med lagring](img/regional-datadeling.png)
 
 #### Forutsetninger
 
@@ -153,7 +153,7 @@ Ved etablering av sentral regional datadelingsløsning baserer vi oss på at inf
 
 Ved etablering av en nasjonal sentral datadelingsløsning baserer vi oss på at informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagres i sentral infrastruktur hos NHN, samtidig som den eksisterer i relevante fagsystemer hos den enkelte virksomheten som samler den inn fra pasienten. Virksomhetene kan da gjennomføre søk mot en felles nasjonal tjeneste som tilbys og driftes av NHN.
 
-![](img/229245201.png)
+![](img/sentral-original.png)
 
 #### Forutsetninger
 
@@ -182,7 +182,7 @@ Ved etablering av en nasjonal sentral datadelingsløsning baserer vi oss på at 
 
 Kombinasjon av §9 og distribuert implementasjon av datadeling mellom virksomhetene. Konseptet tilrettelegger for samhandling mellom flere plattformer (regionale) i form av distribuerte søk mellom plattformene. Stor fleksibilitet for virksomhetene som skal etablere løsninger i forhold til hvordan samhandlingen etableres, men konseptet stiller større krav til løsninger i felles infrastruktur som skal understøtte samhandlingen mellom virksomhetene.
 
-![Full fleks](img/226722841.png)
+![Full fleks](img/fleksibel.png)
 
 #### Fordeler  
 *   Fleksibel løsning
