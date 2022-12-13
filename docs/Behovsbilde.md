@@ -189,31 +189,31 @@ Tabellen under viser en oversikt over identifiserte informasjonsbehov og kobling
 
 Hovedmålet for målarkitekturen DHO er å vise hvordan samhandlingen knyttet til data fra pasient skal gjennomføres, samtidig som den må vise hvilke andre informasjonstjenester som må være tilstede for å understøtte en sammenhengende DHO tjeneste. Informasjonstjenestene som omfattes er i denne sammenhengen:
 
-*   Undersøkelser, målinger og funn
-*   Skjemabesvarelser og NEWS scoringer
-*   Vurderinger og varsel basert på målinger
+* Undersøkelser, målinger og funn
+* Skjemabesvarelser og NEWS scoringer
+* Vurderinger og varsel basert på målinger
 
 ## Informasjonstjenester i andre kategorier
 
 Det er identifisert behov for samhandling om ytterligere informasjon og informasjonstjenester for å understøtte et  sammenhengende tjenesteforløp som inkluderer DHO. Dette inkluderer følgende behov:
 
-*   Plan
-*   Hendelser
-*   Tjenester, inkludert hjelpemidler og logistikk
-*   Legemiddelliste
-*   Journalnotat
-*   Klinisk oppsummering
-*   Basisinformasjon pasient
-*   Dialogtjenester
+* Plan
+* Hendelser
+* Tjenester, inkludert hjelpemidler og logistikk
+* Legemiddelliste
+* Journalnotat
+* Klinisk oppsummering
+* Basisinformasjon pasient
+* Dialogtjenester
 
 ## Prioritering av informasjonstjenester
 
 De informasjonstjenestene som er mest etterspurt av helsepersonell som tilbyr tjenesteforløp som inkluderer DHO er i prioritert rekkefølge:
 
-1.  Egenbehandlingsplan og behandlingsplan
-2.  Legemiddelliste
-3.  Målinger, vurderinger og varsel
-4.  Dialogtjenester
+1. Egenbehandlingsplan og behandlingsplan
+2. Legemiddelliste
+3. Målinger, vurderinger og varsel
+4. Dialogtjenester
 
 I tillegg er det en rekke andre informasjonstjenester som er høyt prioritert av tjenesten, disse vises i figuren:
 ![226722458](https://user-images.githubusercontent.com/6229665/201674656-d97f3a8a-912a-41ee-b621-a1df9860d730.png)
