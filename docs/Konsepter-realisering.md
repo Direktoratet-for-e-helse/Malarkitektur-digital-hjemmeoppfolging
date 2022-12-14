@@ -34,7 +34,7 @@ Konseptene for etablering av funksjonalitet for datatilbyder (avgi og tilgjengel
 
 ### Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)
 
-Distribuerte datadelingsløsninger i virksomhetenes egne infrastruktur baserer seg på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer. Grensesnitt og datalager for datadeling etableres i virksomhetens egen infrastruktur. Datadelingen mellom virksomhetene gjennomføres ved at hver virksomhet gjør distribuerte oppslag mot grensesnittene for å avgi data som er etablert av andre virksomhetene.
+Distribuerte datadelingsløsninger i virksomhetenes infrastruktur baserer seg på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer. Grensesnitt og datalager for datadeling etableres i virksomhetens egen infrastruktur. Datadelingen mellom virksomhetene gjennomføres ved at hver virksomhet gjør distribuerte oppslag mot grensesnittene for å avgi data som er etablert av andre virksomhetene.
 
 ![Distribuerte datadelingsløsninger i virksomhetenes infrastruktur](img/distribuert.png)
 
@@ -93,7 +93,7 @@ Alle løsninger for å avgi informasjon må ta utgangspunkt i felles semantiske 
 
 * Fordeler som med distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)
   * **Unntatt** Fleksibiliteten knyttet til hvilken funksjonalitet som etableres i hvilke virksomheter når forsvinner helt eller delvis siden det er en leverandør som tilbyr grensesnitt for å avgi data
-* I tillegg gir modellen mulighet for å gjenbruke funksjonalitet på tvers av virksomheter
+* Konseptet gir mulighet for å gjenbruke funksjonalitet på tvers av virksomheter
   * Det er stort potensiale for gjenbruk av kode på tvers av virksomhetene og derfor enklere å skalere raskt
 * Det vil være enklere å realisere PIL
 * Det vil være enklere å implementere felles tillitsmodell som en del av databehandleravtalene
@@ -106,30 +106,34 @@ Alle løsninger for å avgi informasjon må ta utgangspunkt i felles semantiske 
 * Med en sentral leverandør av søkefunksjonalitet er det en risiko for at den sentrale leverandøren kan bli en flaskehals og dermed gi dårligere rammer for lokal innovasjon
 * Det er foreløpig uavklart om 3.parts leverandør kan håndtere søkefunksjonalitet (med lagring) for virksomhetene innenfor gjeldende rett
 
-<!--fortsett-->
-
 ### Regionale fellesløsninger
 
-Ved etablering av sentral regional løsninger, for eksempel for DHO, baserer vi oss på at informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagres i sentral infrastruktur i fellesløsningen. Fellesløsningen kommer istedenfor andre systemer i virksomheten og informasjonen lagres i utgangspunktet bare i fellesløsningen. Andre systemer som er knyttet til andre deler av virksomhetene kan søke i den felles regionale løsningen etter informasjon de trenger ved oppfølging av pasienten. Det samme gjelder andre aktører som har behov for å samarbeide med virksomhetene som er omfattet av fellesløsningen.
+Ved etablering av regionale fellesløsninger, for eksempel for DHO, baserer vi oss på at informasjonen som skal deles med andre virksomhetene lagres i den regionale fellesløsningen og at løsningen for å avgi informasjon etableres i den regionale fellesløsningen. Grensesnittet som etableres i fellesløsningen kan benyttes både i samhandlingen med virksomheter som står utenfor samarbeidet og andre systemer (*) hos de samarbeidende virksomhetene som ivaretar andre deler av tjenesten som ikke er en del av fellesløsningen. I tillegg vil bruk av en fellesløsning gi de samarbeidende virksomhetene mulighet til å se den samme informasjonen om pasienten på tvers av virksomhetene som er med på samarbeidet. En viktig forutsetning for å etablere samarbeidsløsning er at funksjonalitet som etableres i fellesløsningen kommer istedenfor funksjoner i andre systemer i virksomheten og at informasjonen bare lagres i fellesløsningen.
 
 ![Regionale fellesløsninger](img/regional-felles.png)
 
+#### Vurdering
+
+Virksomhetene som samarbeider om en fellesløsning vil ha mindre behov for bruk av datadeling, siden klinikerne kan vise relevant informasjon direkte i fellesløsningen.
+
+<!--fortsett-->
+
 #### Forutsetninger
 
-* Funksjonalitet for tilgjengeliggjøring etableres i fellesløsningen
+* Funksjonalitet for å avgi informasjon etableres i fellesløsningen
 * Funksjonalitet og datalager i fellesløsningen kommer istedenfor eksisterende datalager og funksjonalitet i virksomhetenes egne systemer
-    * Fellesløsningen etableres for å oppfylle dokumentasjonsplikten
+  * Fellesløsningen etableres for å oppfylle dokumentasjonsplikten
 * For at konseptet skal skalere nasjonalt/regionalt må det etableres Pasientinformasjonslokalisator (PIL) i nasjonal eller regional infrastruktur
 * Konseptet forutsetter etablering av tillitsanker funksjonalitet i felles infrastruktur
-    * Gjelder bare ved kommunikasjon mot virksomheter som ikke er en del av samarbeidet
-* Alle konsumenter av informasjon må etablere søkefunksjonalitet i egen infrastruktur
+  * Gjelder bare ved kommunikasjon mot virksomheter som ikke er en del av samarbeidet
+* Alle konsumenter av informasjon, utenfor samarbeidet, må etablere søkefunksjonalitet i egen infrastruktur
 * Konseptet forutsetter at det etableres felles semantiske spesifikasjoner for søk og oppslag av informasjonen som skal utveksles
-    * De semantiske spesifikasjonene kan være regionale eller bygge på nasjonale spesifikasjoner
+  * De semantiske spesifikasjonene kan være regionale eller bygge på nasjonale spesifikasjoner
 
 #### Fordeler
 
-* Stort potensiale for gjenbruk av funksjonalitet på tvers av virksomheter
-    * Enklere å skalere siden tilgjengeliggjøring gjennomføres regionalt
+* Konseptet gir mulighet for å gjenbruke funksjonalitet på tvers av virksomhetene som benytter fellesløsningen
+  * Enklere å skalere siden tilgjengeliggjøring gjennomføres regionalt
 * Stort potensiale for regional innovasjon og tjenesteutvikling
 * Middels fleksibilitet knyttet til lokal innovasjon og tjenesteutvikling
 * Innenfor regionen er det liten risiko for dårlig brukeropplevelse knyttet til søk, siden tilgjengeliggjøringen er sentralisert i regionen
