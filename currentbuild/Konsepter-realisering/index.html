@@ -298,25 +298,65 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../Overordnet-maalbilde/" class="md-nav__link">
-        Målbilde
-      </a>
-    </li>
-  
-
     
       
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
       
-
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Kontekst for målarkitekturen
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Kontekst for målarkitekturen" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Kontekst for målarkitekturen
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
   
   
   
     <li class="md-nav__item">
       <a href="../Kontekst/" class="md-nav__link">
-        Kontekst for målarkitekturen
+        Sammenheng med annet arbeid
       </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Overordnet-maalbilde/" class="md-nav__link">
+        Målbilde for DHO
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -330,7 +370,7 @@
   
     <li class="md-nav__item">
       <a href="../Behovsbilde/" class="md-nav__link">
-        Overordnet behovsbilde
+        Overordnet behovsbilde digital samhandling DHO
       </a>
     </li>
   
@@ -764,7 +804,7 @@
 </ul>
 <h2 id="overordnede-lsningskonsepter">Overordnede løsningskonsepter</h2>
 <h3 id="distribuerte-datadelingslsninger-i-virksomhetenes-infrastruktur">Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)</h3>
-<p>Distribuerte datadelingsløsninger i virksomhetenes egne infrastruktur baserer seg på at hver enkelt virksomhet etablerer sin egen løsninge for å avgi informasjon fra sine systemer. Grensesnitt og datalager for datadeling etableres i virksomhetens egen infrastruktur. Datadelingen mellom virksomhetene gjennomføres ved at hver virksomhet gjør distribuerte oppslag mot grensesnittene for å avgi data som er etablert av andre virksomhetene.</p>
+<p>Distribuerte datadelingsløsninger i virksomhetenes egne infrastruktur baserer seg på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer. Grensesnitt og datalager for datadeling etableres i virksomhetens egen infrastruktur. Datadelingen mellom virksomhetene gjennomføres ved at hver virksomhet gjør distribuerte oppslag mot grensesnittene for å avgi data som er etablert av andre virksomhetene.</p>
 <p><img alt="Distribuerte datadelingsløsninger i virksomhetenes infrastruktur" src="../img/distribuert.png" /></p>
 <h4 id="vurdering">Vurdering</h4>
 <p>Alle løsninger for å avgi informasjon må ta utgangspunkt i felles semantiske spesifikasjoner tilpasset ulike bruksområder, slik at det blir enkelt å søke i informasjon på tvers av mange ulike virksomheter og løsninger som er levert av flere ulike leverandører. Med en distribuert modell må man også vite hvor man skal søke etter informasjon om en bestemt pasient gjennom en pasientinformasjonslokalisator (PIL) siden det er lite effektivt å gjøre oppslag mot alle virksomheter uavhengig av om disse har informasjon om pasienten eller ikke. Det må etableres en sentralisert tillitsmodell, ellers må man etablere bilaterale avtaler mellom alle aktørene som ønsker å samhandle med hverandre. Hovedfordelen med distribuerte datadelingsløsninger er stor fleksibilitet knyttet til hvem som etablerer hvilken funksjonalitet der det gir stor opplevd nytte. Den største ulempen er knyttet til stor kompleksitet ved  etableringen og vedlikehold av funksjonaliteten for å avgi og tilgjengeliggjøre informasjon fra en rekke virksomheter, dette gjør en slik løsning komplisert å bredde og vedlikeholde.</p>
@@ -804,36 +844,45 @@
 <li>Etablering av tillitsanker og felles krav knyttet til dette kan være komplisert</li>
 </ul>
 <h3 id="distribuerte-datadelingslsninger-i-sentral-infrastruktur">Distribuerte datadelingsløsninger (i sentral infrastruktur)</h3>
-<p>Konseptet baserer seg (som ren distribuert modell) på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer, men istedenfor å etablere dette i egen infrastruktur etableres selve grensesnittet og datalager for datadeling i en felles infrastruktur. Det betyr at grensesnittet driftes og vedlikeholdes av en eller noen få leverandør(er). Datadelingen mellom virksomhetene gjennomføres ved at hver virksomhet gjør distribuerte oppslag mot grensesnittene for å avgi data, som er etablert av andre virksomhetene. Det er en forutsetning at informasjonen fra hver virksomhet ikke sammenstilles med informasjon fra andre virksomheter i den sentrale infrastrukturen, men at løsningene for lagring og grensesnittene etableres som logisk adskilte løsninger.</p>
+<p>Konseptet baserer seg (som ren distribuert modell) på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer, men istedenfor å etablere dette i egen infrastruktur etableres selve grensesnittet og datalager for datadeling i en felles infrastruktur. Det betyr at grensesnittet driftes og vedlikeholdes av en eller noen få leverandør(er). Datadelingen mellom virksomhetene gjennomføres ved at hver virksomhet gjør distribuerte oppslag mot grensesnittene for å avgi data, som er etablert av andre virksomhetene. Det er en forutsetning at informasjonen fra hver virksomhet ikke sammenstilles med informasjon fra andre virksomheter i den sentrale infrastrukturen, men at løsningene for lagring og grensesnittene etableres som logisk adskilte løsninger. Behandlingen av helseopplysninger i sentral infrastruktur må reguleres av en databehandleravtale mellom den enkelte virksomheten og leverandøren av infrastrukturen.</p>
 <p><img alt="Distribuerte datadelingsløsninger i sentral infrastruktur" src="../img/distribuert-sentral.png" /></p>
 <h4 id="vurdering_1">Vurdering</h4>
 <p>Alle løsninger for å avgi informasjon må ta utgangspunkt i felles semantiske spesifikasjoner tilpasset ulike bruksområder, slik at det blir enkelt å søke i informasjon på tvers av mange ulike virksomheter og løsninger, dette kan bli noe enklere siden løsningene etableres av en leverandør. Med en distribuert modell må man også vite hvor man skal søke etter informasjon om en bestemt pasient gjennom en pasientinformasjonslokalisator (PIL) siden det er lite effektivt å gjøre oppslag mot alle virksomheter uavhengig av om disse har informasjon om pasienten eller ikke. Det må etableres en sentralisert tillitsmodell, ellers må man etablere bilaterale avtaler mellom alle aktørene som ønsker å samhandle med hverandre. Hovedfordelen med distribuerte datadelingsløsninger er stor fleksibilitet knyttet til hvem som etablerer hvilken funksjonalitet der det gir stor opplevd nytte. Når løsningene etableres i felles infrastruktur ved hjelp av en felles leverandør vil denne fordelen forsvinne helt eller delvis. Den største ulempen knyttet til høy kompleksitet ved etableringen og vedlikehold av funksjonaliteten for å avgi og tilgjengeliggjøre informasjon fra en rekke virksomheter blir imidlertid helt eller delvis borte siden utvikling og drift sentraliseres.</p>
-<!--fortsett-->
-
 <h4 id="forutsetninger_1">Forutsetninger</h4>
 <ul>
 <li>Datalagrene som etableres i felles infrastruktur må være logisk adskilte</li>
+<li>Datatilbydere må etablere funksjonalitet for å avgi data, funksjonaliteten etableres i felles infrastruktur</li>
+<li>Det må etableres databehandleravtale mellom virksomhetene som benytter sentral infrastruktur for å etablere grensesnitt og lagring av helseopplysninger</li>
 <li>For at konseptet skal skalere nasjonalt/regionalt må det etableres Pasientinformasjonslokalisator (PIL) i nasjonal eller regional infrastruktur</li>
 <li>Konseptet forutsetter etablering av tillitsanker funksjonalitet i felles infrastruktur (kan implementeres som en del av databehandleravtalene)</li>
-<li>Funksjonalitet for tilgjengeliggjøring etableres i felles infrastruktur</li>
 <li>Alle konsumenter av informasjon må etablere søkefunksjonalitet i egen infrastruktur</li>
-<li>Konseptet forutsetter at det etableres felles semantiske spesifikasjoner for søk og oppslag av informasjonen som skal utveksles</li>
+<li>Konseptet forutsetter at det etableres felles semantiske spesifikasjoner for oppslag i informasjonen som skal utveksles</li>
 </ul>
 <h4 id="fordeler_1">Fordeler</h4>
 <ul>
-<li>Fordeler som med distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)</li>
-<li>I tillegg gir modellen mulighet for å gjenbruke funksjonalitet på tvers av virksomheter</li>
-<li>Det er større potensiale for gjenbruk av kode på tvers av virksomhetene og derfor enklere å skalere raskt</li>
-<li>Kan gjøre det enklere å realisere PIL</li>
-<li>Det kan være enklere å implementere felles tillitsmodell som en del av databehandleravtalene</li>
+<li>Fordeler som med distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)<ul>
+<li><strong>Unntatt</strong> Fleksibiliteten knyttet til hvilken funksjonalitet som etableres i hvilke virksomheter når forsvinner helt eller delvis siden det er en leverandør som tilbyr grensesnitt for å avgi data</li>
+</ul>
+</li>
+<li>I tillegg gir modellen mulighet for å gjenbruke funksjonalitet på tvers av virksomheter<ul>
+<li>Det er stort potensiale for gjenbruk av kode på tvers av virksomhetene og derfor enklere å skalere raskt</li>
+</ul>
+</li>
+<li>Det vil være enklere å realisere PIL</li>
+<li>Det vil være enklere å implementere felles tillitsmodell som en del av databehandleravtalene</li>
 </ul>
 <h4 id="ulemper_1">Ulemper</h4>
 <ul>
-<li>Ulemper som for distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)</li>
-<li>Alle virksomhetene må implementere synkronisering av egne data mot datalager i sentral infrastruktur</li>
-<li>Med en sentral leverandør av søkefunksjonalitet er det en risiko for at den sentrale leverandøren kan bli en flaskehals og dermed gi dårligere rammer for lokal innovasjon</li>
-<li>Det er uavklart juridisk om 3.parts leverandør kan håndtere søkefunksjonalitet (med lagring) for virksomhetene</li>
+<li>Ulemper som for distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)<ul>
+<li><strong>Unntatt</strong> Det blir ikke like komplisert å etablere og vedlikeholde grensesnittene for å avgi data siden disse etableres i felles infrastruktur av en leverandør</li>
 </ul>
+</li>
+<li>Alle datatilbydere må implementere synkronisering av egne data mot datalager i sentral infrastruktur</li>
+<li>Med en sentral leverandør av søkefunksjonalitet er det en risiko for at den sentrale leverandøren kan bli en flaskehals og dermed gi dårligere rammer for lokal innovasjon</li>
+<li>Det er foreløpig uavklart om 3.parts leverandør kan håndtere søkefunksjonalitet (med lagring) for virksomhetene innenfor gjeldende rett</li>
+</ul>
+<!--fortsett-->
+
 <h3 id="regionale-felleslsninger">Regionale fellesløsninger</h3>
 <p>Ved etablering av sentral regional løsninger, for eksempel for DHO, baserer vi oss på at informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagres i sentral infrastruktur i fellesløsningen. Fellesløsningen kommer istedenfor andre systemer i virksomheten og informasjonen lagres i utgangspunktet bare i fellesløsningen. Andre systemer som er knyttet til andre deler av virksomhetene kan søke i den felles regionale løsningen etter informasjon de trenger ved oppfølging av pasienten. Det samme gjelder andre aktører som har behov for å samarbeide med virksomhetene som er omfattet av fellesløsningen.</p>
 <p><img alt="Regionale fellesløsninger" src="../img/regional-felles.png" /></p>
