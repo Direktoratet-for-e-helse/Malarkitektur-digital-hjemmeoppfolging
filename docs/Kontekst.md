@@ -2,7 +2,7 @@
 |:-------------|:------------------|:------|:-------|
 | <span style="background-color:gold">Work in progress</span> | v0.1 | draft | ikke normert |
 
-## Kontekst for målarkitekturen
+# Kontekst for målarkitekturen
 
 En målarkitektur er en fremtidig, ønsket tilstand. Det er naturlig å ha en stegvis, behovsprøvd tilnærming til realisering av målarkitekturen.
 
