@@ -22,12 +22,12 @@ Konseptene for etablering av funksjonalitet for datatilbyder (avgi og tilgjengel
 
 * Behovsoppnåelse, her skiller vi på identifiserte kortsiktige behov og langsiktige behov for samhandling innen DHO
 * Skalerbarhet, her skiller vi på skalering for utprøvingen og skalering nasjonalt
-    * Muligheter for gjenbruk av eksisterende felleskomponenter eller kode/spesifikasjoner på tvers av virksomheter
+  * Muligheter for gjenbruk av eksisterende felleskomponenter eller kode/spesifikasjoner på tvers av virksomheter
 * Fleksibilitet og innovasjonskraft, løsninger med stor fleksibilitet i forhold til å dekke lokale behov kan understøtte lokal innovasjon
 * Juridisk risiko, kan hele eller deler av konseptet realiseres innenfor gjeldende rett eller krever det lov/forskriftsarbeid for å realisere eller skalere
 * Kompleksitet i etablering og vedlikehold av løsningen
-    * Etableres det løse eller sterke koblinger mellom aktører og løsningskomponenter for å realisere løsningen
-    * Etableres det mange kompliserte spesialløsninger for å oppnå samhandling pådrar sektoren seg stor teknisk gjeld
+  * Etableres det løse eller sterke koblinger mellom aktører og løsningskomponenter for å realisere løsningen
+  * Etableres det mange kompliserte spesialløsninger for å oppnå samhandling pådrar sektoren seg stor teknisk gjeld
 * Bruk av standarder og hyllevare, er det mulig å basere seg på standardiserte grensesnitt og tilgjengelig hyllevare i stor eller liten grad
 
 ## Overordnede løsningskonsepter
@@ -54,19 +54,19 @@ Alle løsninger for å avgi informasjon må ta utgangspunkt i felles semantiske 
 
 * Distribuert datadeling kan etableres innenfor gjeldende rett (med forbehold om realisering av PIL)
 * Det er stor fleksibilitet i forhold til hvilken funksjonalitet virksomhetene realiserer
-    * Virksomhetene realiserer funksjonalitet som gir mest nytte lokalt/regionalt
-    * Kan gjøre det enklere å få til lokal tjenesteinnovasjon
+  * Virksomhetene realiserer funksjonalitet som gir mest nytte lokalt/regionalt
+  * Kan gjøre det enklere å få til lokal tjenesteinnovasjon
 * Det etableres felles semantiske spesifikasjoner som alle virksomheter forholder seg til
 
 #### Ulemper
 
 * Det er komplisert å etablere og vedlikeholde infrastruktur og løsninger for å avgi data i alle virksomheter i helsesektoren
-    * Konseptet blir derfor utfordrende å skalere fort
+  * Konseptet blir derfor utfordrende å skalere fort
 * Det etableres mange sterke koblinger mellom virksomhetenes løsninger
-    * Oppslag mot mange kilder kan gi dårlig brukeropplevelse
+  * Oppslag mot mange kilder kan gi dårlig brukeropplevelse
 * Det er ikke hjemmel for å etablere en sentralisert modell for PIL innenfor dagens regelverk
 * Det kan være utfordrende å utarbeide felles semantiske spesifikasjoner som gir nytte for virksomhetene
-    * Virksomheter som ikke opplever nytte kan velge å ikke tilgjengeliggjøre informasjon fra egne løsninger
+  * Virksomheter som ikke opplever nytte kan velge å ikke tilgjengeliggjøre informasjon fra egne løsninger
 * Etablering av tillitsanker og felles krav knyttet til dette kan være komplisert
 
 ### Distribuerte datadelingsløsninger (i sentral infrastruktur)
@@ -92,16 +92,16 @@ Alle løsninger for å avgi informasjon må ta utgangspunkt i felles semantiske 
 #### Fordeler
 
 * Fordeler som med distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)
-    * **Unntatt** Fleksibiliteten knyttet til hvilken funksjonalitet som etableres i hvilke virksomheter når forsvinner helt eller delvis siden det er en leverandør som tilbyr grensesnitt for å avgi data
+  * **Unntatt** Fleksibiliteten knyttet til hvilken funksjonalitet som etableres i hvilke virksomheter når forsvinner helt eller delvis siden det er en leverandør som tilbyr grensesnitt for å avgi data
 * I tillegg gir modellen mulighet for å gjenbruke funksjonalitet på tvers av virksomheter
-    * Det er stort potensiale for gjenbruk av kode på tvers av virksomhetene og derfor enklere å skalere raskt
+  * Det er stort potensiale for gjenbruk av kode på tvers av virksomhetene og derfor enklere å skalere raskt
 * Det vil være enklere å realisere PIL
 * Det vil være enklere å implementere felles tillitsmodell som en del av databehandleravtalene
 
 #### Ulemper
 
 * Ulemper som for distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)
-    * **Unntatt** Det blir ikke like komplisert å etablere og vedlikeholde grensesnittene for å avgi data siden disse etableres i felles infrastruktur av en leverandør
+  * **Unntatt** Det blir ikke like komplisert å etablere og vedlikeholde grensesnittene for å avgi data siden disse etableres i felles infrastruktur av en leverandør
 * Alle datatilbydere må implementere synkronisering av egne data mot datalager i sentral infrastruktur
 * Med en sentral leverandør av søkefunksjonalitet er det en risiko for at den sentrale leverandøren kan bli en flaskehals og dermed gi dårligere rammer for lokal innovasjon
 * Det er foreløpig uavklart om 3.parts leverandør kan håndtere søkefunksjonalitet (med lagring) for virksomhetene innenfor gjeldende rett
