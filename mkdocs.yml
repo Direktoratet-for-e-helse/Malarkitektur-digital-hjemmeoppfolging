@@ -2,10 +2,12 @@ site_name: Målarkitektur datadeling Digitial hjemmeoppfølging
 repo_url: https://github.com/Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging
 repo_name: Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging
 nav:
-    - Innledning: index.md
     - Sammendrag: Sammendrag.md
-    - Begreper: Begreper.md
-    - Arkitekturprinsipper: Arkitekturprinsipper.md
+    - Innledning: index.md
+    - Prinsipper og metode:
+      - Begreper: Begreper.md
+      - Metode og forvaltning: metode-og-forvaltning.md
+      - Arkitekturprinsipper: Arkitekturprinsipper.md
     - Kontekst for målarkitekturen: 
       - Sammenheng med annet arbeid: Kontekst.md
       - Målbilde for DHO: Overordnet-maalbilde.md
@@ -13,9 +15,12 @@ nav:
     - Juridiske rammebetingelser: Juridiske-rammebetingelser.md
     - Målarkitektur samhandling DHO: Malarkitektur-samhandling.md
     - Konsepter realisering: Konsepter-realisering.md
-    - Referanser: Referanser.md
-    - Tilbakemeldinger og innspill: Tilbakemeldinger-innspill.md
-    - Statusinformasjon: https://direktoratet-for-e-helse.github.io/Common-metadata/
+    - Referanser og innspill:
+      - Referanser: Referanser.md
+      - Tilbakemeldinger og innspill: Tilbakemeldinger-innspill.md
+      - Status for dokumentet: https://direktoratet-for-e-helse.github.io/Common-metadata/
+    - Vedlegg:
+      - Datadeling, slå opp: organisatorisk-sla-opp.md
 theme:
   name: material
   logo: logo/ehelse-hvit.svg
