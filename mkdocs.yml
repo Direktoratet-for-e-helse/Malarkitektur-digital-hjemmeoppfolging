@@ -6,9 +6,10 @@ nav:
     - Sammendrag: Sammendrag.md
     - Begreper: Begreper.md
     - Arkitekturprinsipper: Arkitekturprinsipper.md
-    - Målbilde: Overordnet-maalbilde.md
-    - Kontekst for målarkitekturen: Kontekst.md
-    - Overordnet behovsbilde: Behovsbilde.md
+    - Kontekst for målarkitekturen: 
+      - Sammenheng med annet arbeid: Kontekst.md
+      - Målbilde for DHO: Overordnet-maalbilde.md
+    - Overordnet behovsbilde digital samhandling DHO: Behovsbilde.md
     - Juridiske rammebetingelser: Juridiske-rammebetingelser.md
     - Målarkitektur samhandling DHO: Malarkitektur-samhandling.md
     - Konsepter realisering: Konsepter-realisering.md
