@@ -12,17 +12,9 @@ Helse- og omsorgssektoren har behov for mer effektiv samhandling for å øke til
 
 Behovene i helsetjenesten ligger til grunn for etablering av samhandlingsløsningene i sektoren og legger premissene for hvilke samhandlingsløsninger som skal etableres og videreutvikles. Behovene knyttet til Digital hjemmeoppfølging (DHO) er i stor grad overlappende med andre tjenesteforløp og vi kan derfor lære mye om nødvendige samhandlingsløsninger i sektoren ved å se spesielt på sammensatte tjenesteforløp innen DHO. Behovene henter vi fra utprøvingsprosjekter og tjenesteeiere i helse- og omsorgssektoren. Erfaring fra utprøvingsprosjektene skal over tid føre til mer spesifikk behovskartlegging knyttet til erfaring med utveksling av informasjon mellom virksomheter og behandlingsnivå (primær- og spesialisthelsetjenesten) knyttet til DHO. Vi skiller i det videre arbeidet mellom informasjonsbehov og funksjonelle krav.
 
-## Hva er Digital hjemmeoppfølging
-
-I 2021 ble det i rapport fra de regionale helseforetakene foreslått følgende definisjon
-
-**Digital hjemmeoppfølging innebærer at hele eller deler av et behandlingstilbud foregår uten fysisk kontakt, der dialog og deling av data mellom pasient/bruker og behandler(e) skjer digitalt.**
-
-Forslaget til definisjon har til hensikt å romme en bredde av ulike former for digital oppfølging og samhandling mellom pasienten og helsetjenesten. Det skal jobbes videre med definisjonsbeskrivelsen gjennom Nasjonalt velferdsteknologiprogram.
-
 **Merk:** Målarkitekturen tar høyde for seg å gi et overordnet behovsbilde for hele DHO-området beskrevet over.  
 
-## Overordnede brukerhistorier (konklusjon)
+## Overordnede brukerhistorier for Digital hjemmeoppfølging
 
 Samhandlingstjenester for DHO skal tilrettelegge for følgende funksjonelle behov:
 

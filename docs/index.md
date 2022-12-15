@@ -15,15 +15,15 @@ Innen digital hjemmeoppfølging er behovet for datadeling spesielt stort. Pasien
 Målarkitektur for datadeling ble publisert..  
 dette arbeidet baserer seg på målarkitektur for datadeling...  
 
-### Digital hjemmeoppfølging
+## Hva er Digital hjemmeoppfølging
 
-*Digital hjemmeoppfølging er nye tjenester under utvikling hvor deler av helse- og omsorgstjenesten kan flyttes hjem til innbygger ved hjelp av teknologi.*
+I 2021 ble det i rapport fra de regionale helseforetakene foreslått følgende definisjon
 
-Begrepet tolkes ulikt, men vil som regel inkludere oppfølging basert på egenmåling og egenrapportering, nettbasert behandling, hjemmesykehus, medisinsk avstandsoppfølging, videokonsultasjon og bruk av visse typer velferdsteknologi, som for eksempel digitalt tilsyn og medisindispensere.
+**Digital hjemmeoppfølging innebærer at hele eller deler av et behandlingstilbud foregår uten fysisk kontakt, der dialog og deling av data mellom pasient/bruker og behandler(e) skjer digitalt.**
 
-Det er vesentlig at oppfølgingen ikke begrenses til der pasienten bor, men at digital hjemmeoppfølging også skal kunne benyttes andre steder, for eksempel på jobb, skole, institusjon, på reise og hos ulike helseaktører.
+Forslaget til definisjon har til hensikt å romme en bredde av ulike former for digital oppfølging og samhandling mellom pasienten og helsetjenesten. Det skal jobbes videre med definisjonsbeskrivelsen gjennom Nasjonalt velferdsteknologiprogram.
 
-Pasienten kan i prinsippet oppholde seg hvor som helst fysisk, men likevel kunne nå et avstandsbasert helsetilbud når det er forsvarlig.
+Det er vesentlig at oppfølgingen ikke begrenses til der pasienten bor, men at digital hjemmeoppfølging også skal kunne benyttes andre steder, for eksempel på jobb, skole, institusjon, på reise og hos ulike helseaktører. Pasienten kan i prinsippet oppholde seg hvor som helst fysisk, men likevel kunne nå et avstandsbasert helsetilbud når det er forsvarlig.
 
 ## Formålet med målarkitekturen
 
