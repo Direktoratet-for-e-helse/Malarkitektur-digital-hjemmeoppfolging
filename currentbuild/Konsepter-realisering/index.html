@@ -1360,7 +1360,7 @@
 <li>Etablering av tillitsanker og felles krav knyttet til dette kan være komplisert</li>
 </ul>
 <h3 id="distribuerte-datadelingslsninger-i-sentral-infrastruktur">Distribuerte datadelingsløsninger (i sentral infrastruktur)</h3>
-<p>Konseptet baserer seg (som ren distribuert modell) på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer, men istedenfor å etablere dette i egen infrastruktur etableres selve grensesnittet og datalager for datadeling i en felles infrastruktur. Det betyr at grensesnittet driftes og vedlikeholdes av en eller noen få leverandør(er). Datadelingen mellom virksomhetene gjennomføres ved at hver virksomhet gjør distribuerte oppslag mot grensesnittene for å avgi data, som er etablert av andre virksomhetene. Det er en forutsetning at informasjonen fra hver virksomhet ikke sammenstilles med informasjon fra andre virksomheter i den sentrale infrastrukturen, men at løsningene for lagring og grensesnittene etableres som logisk adskilte løsninger. Behandlingen av helseopplysninger i sentral infrastruktur må reguleres av en databehandleravtale mellom den enkelte virksomheten og leverandøren av infrastrukturen.</p>
+<p>Konseptet baserer seg (som ren distribuert modell) på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer, men istedenfor å etablere dette i egen infrastruktur etableres selve grensesnittet og datalager for datadeling i en felles infrastruktur. Det betyr at grensesnittet driftes og vedlikeholdes av en eller noen få leverandør(er). Datadelingen mellom virksomhetene gjennomføres ved at hver virksomhet gjør distribuerte oppslag mot grensesnittene for å avgi data, som er etablert av andre virksomhetene. Det er en forutsetning at informasjonen fra hver virksomhet ikke sammenstilles med informasjon fra andre virksomheter i den sentrale infrastrukturen, men at løsningene for lagring og grensesnittene etableres som logisk adskilte løsninger for hver virksomhet. Behandlingen av helseopplysninger i sentral infrastruktur må reguleres av en databehandleravtale mellom den enkelte virksomheten og leverandøren av infrastrukturen.</p>
 <p><img alt="Distribuerte datadelingsløsninger i sentral infrastruktur" src="../img/distribuert-sentral.png" /></p>
 <h4 id="vurdering_1">Vurdering</h4>
 <p>Alle løsninger for å avgi informasjon må ta utgangspunkt i felles semantiske spesifikasjoner tilpasset ulike bruksområder, slik at det blir enkelt å søke i informasjon på tvers av mange ulike virksomheter og løsninger, dette kan bli noe enklere siden løsningene etableres av en leverandør. Med en distribuert modell må man også vite hvor man skal søke etter informasjon om en bestemt pasient gjennom en pasientinformasjonslokalisator (PIL) siden det er lite effektivt å gjøre oppslag mot alle virksomheter uavhengig av om disse har informasjon om pasienten eller ikke. Det må etableres en sentralisert tillitsmodell, ellers må man etablere bilaterale avtaler mellom alle aktørene som ønsker å samhandle med hverandre. Hovedfordelen med distribuerte datadelingsløsninger er stor fleksibilitet knyttet til hvem som etablerer hvilken funksjonalitet der det gir stor opplevd nytte. Når løsningene etableres i felles infrastruktur ved hjelp av en felles leverandør vil denne fordelen forsvinne helt eller delvis. Den største ulempen knyttet til høy kompleksitet ved etableringen og vedlikehold av funksjonaliteten for å avgi og tilgjengeliggjøre informasjon fra en rekke virksomheter blir imidlertid helt eller delvis borte siden utvikling og drift sentraliseres.</p>
@@ -1398,10 +1398,11 @@
 <li>Det er foreløpig uavklart om 3.parts leverandør kan håndtere søkefunksjonalitet (med lagring) for virksomhetene innenfor gjeldende rett</li>
 </ul>
 <h3 id="regionale-felleslsninger">Regionale fellesløsninger</h3>
-<p>Ved etablering av regionale fellesløsninger, for eksempel for DHO, baserer vi oss på at informasjonen som skal deles med andre virksomhetene lagres i den regionale fellesløsningen og at løsningen for å avgi informasjon etableres i den regionale fellesløsningen. Grensesnittet som etableres i fellesløsningen kan benyttes både i samhandlingen med virksomheter som står utenfor samarbeidet og andre systemer (*) hos de samarbeidende virksomhetene som ivaretar andre deler av tjenesten som ikke er en del av fellesløsningen. I tillegg vil bruk av en fellesløsning gi de samarbeidende virksomhetene mulighet til å se den samme informasjonen om pasienten på tvers av virksomhetene som er med på samarbeidet. En viktig forutsetning for å etablere samarbeidsløsning er at funksjonalitet som etableres i fellesløsningen kommer istedenfor funksjoner i andre systemer i virksomheten og at informasjonen bare lagres i fellesløsningen.</p>
+<p>Ved etablering av regionale fellesløsninger, for eksempel for DHO, baserer vi oss på at informasjonen som skal deles med andre virksomhetene lagres i den regionale fellesløsningen og at løsningen for å avgi informasjon etableres i den regionale fellesløsningen. Bruk av en fellesløsning vil gi samarbeidende virksomhetene mulighet til å se informasjonen om pasienten på tvers av virksomhetene som er med på samarbeidet, samarbeid mellom virksomhetene innenfor samarbeidsområdet vil derfor løses direkte i fellesløsningen.</p>
+<p>Grensesnittet for datadeling som etableres i fellesløsningen benyttes hovedsaklig for samhandlingen med virksomheter som står utenfor samarbeidet og eventuelt andre systemer (*) i de samarbeidende virksomhetene (som ivaretar dokumentasjonsbehov som ikke er dekket av fellesløsningen). En viktig forutsetning for å etablere samarbeidsløsning er at funksjonalitet som etableres i fellesløsningen kommer istedenfor funksjoner i andre systemer i virksomheten og at informasjonen bare lagres i fellesløsningen.</p>
 <p><img alt="Regionale fellesløsninger" src="../img/regional-felles.png" /></p>
 <h4 id="vurdering_2">Vurdering</h4>
-<p>Virksomhetene som samarbeider om en fellesløsning vil ha mindre behov for bruk av datadeling, siden klinikerne kan vise relevant informasjon direkte i fellesløsningen.</p>
+<p>Virksomhetene som samarbeider om en fellesløsning vil ha mindre behov for bruk av datadeling innenfor sitt samarbeidsområde, siden klinikerne kan vise relevant informasjon direkte i fellesløsningen. Løsning for å avgi data vil derfor i hovedsak benyttes for å ivareta datadeling med virksomheter som står utenfor samarbeidet regionalt eller være knyttet til nasjonal samhandling om pasienten. I tillegg gir et samarbeid om en fellesløsning mulighet for å gjenbruke løsning for å avgi data på tvers av flere virksomheter samtidig som man oppnår fleksibilitet knyttet til regional innovasjon innenfor fellesløsningen.</p>
 <!--fortsett-->
 
 <h4 id="forutsetninger_2">Forutsetninger</h4>
@@ -1417,41 +1418,53 @@
 </ul>
 </li>
 <li>Alle konsumenter av informasjon, utenfor samarbeidet, må etablere søkefunksjonalitet i egen infrastruktur</li>
-<li>Konseptet forutsetter at det etableres felles semantiske spesifikasjoner for søk og oppslag av informasjonen som skal utveksles<ul>
-<li>De semantiske spesifikasjonene kan være regionale eller bygge på nasjonale spesifikasjoner</li>
+<li>Konseptet forutsetter at det etableres felles semantiske spesifikasjoner for oppslag i informasjonen som skal utveksles <ul>
+<li>Med virksomheter utenfor samarbeidet om fellesløsningen</li>
+<li>Med andre løsninger i virksomhetene som ikke er omfattet av samarbeidet om fellesløsning</li>
 </ul>
 </li>
 </ul>
 <h4 id="fordeler_2">Fordeler</h4>
 <ul>
-<li>Konseptet gir mulighet for å gjenbruke funksjonalitet på tvers av virksomhetene som benytter fellesløsningen<ul>
-<li>Enklere å skalere siden tilgjengeliggjøring gjennomføres regionalt</li>
+<li>Etableringen av en fellesløsningen kan i seg selv løse mange behov for digital samhandling mellom virksomhetene innenfor samarbeidet<ul>
+<li>Stort potensiale for regional innovasjon og tjenesteutvikling</li>
 </ul>
 </li>
-<li>Stort potensiale for regional innovasjon og tjenesteutvikling</li>
-<li>Middels fleksibilitet knyttet til lokal innovasjon og tjenesteutvikling</li>
-<li>Innenfor regionen er det liten risiko for dårlig brukeropplevelse knyttet til søk, siden tilgjengeliggjøringen er sentralisert i regionen</li>
+<li>Konseptet gir mulighet for å gjenbruke funksjonalitet for å avgi data på tvers av virksomhetene som benytter fellesløsningen</li>
+<li>Middels fleksibilitet knyttet til lokal innovasjon og tjenesteutvikling siden fellesløsningen må ta hensyn til behovene til alle virksomhetene i samarbeidet</li>
 <li>Denne bruken av §9 er avklart og fellesløsningen blir å regne som èn aktør knyttet til samhandling med eventuelle eksterne aktører utenfor samarbeidet</li>
 </ul>
 <h4 id="ulemper_2">Ulemper</h4>
 <ul>
 <li>Den sentrale leverandøren av fellesløsningen kan bli en flaskehals</li>
-<li>Virksomheter utenfor regionen vil ha større risiko for lav ytelse ved oppslag mot mange virksomheter/regionale systemer</li>
+<li>Det er komplisert å etablere en fellesløsning som gir stor verdi for alle virksomhetene i samarbeidet<ul>
+<li>Det er komplisert å etablere gode fellesløsninger for mange virksomheter</li>
+<li>Utfordringer knyttet til etablering av avtaler, felles prosesser og felles infrastruktur</li>
 </ul>
+</li>
+</ul>
+<!--fortsett-->
+
 <h3 id="regionale-datadelingslsninger-med-lagring">Regionale datadelingsløsninger med lagring</h3>
 <p>Ved etablering av sentral regional datadelingsløsning baserer vi oss på at informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagres i sentral infrastruktur hos NHN (eller annen leverandør) samtidig som den eksisterer i relevante fagsystem hos den enkelte virksomheten. Virksomhetene som deltar i det regionale samarbeidet kan søke i den felles regionale tjenesten som tilbys og driftes av NHN. Det kan også opprettes søk mot den regionale løsningen for virksomheter som ikke er en del av det regionale samarbeidet.</p>
 <p><img alt="Regionale datadelingsløsninger med lagring" src="../img/regional-datadeling.png" /></p>
 <h4 id="forutsetninger_3">Forutsetninger</h4>
 <ul>
 <li>Funksjonalitet for tilgjengeliggjøring (inkludert lagring) etableres i fellesløsningen (likt som regional fellesløsning)</li>
-<li>Funksjonalitet og datalager i fellesløsningen kommer i tillegg til eksisterende datalager og funksjonalitet i virksomhetenes egne systemer
-    * Fellesløsningen etableres ikke for å oppfylle dokumentasjonsplikten, men for å tilgjengeliggjøre informasjon på tvers
-    * Dette skiller konseptet fra regional fellesløsning</li>
-<li>For at konseptet skal skalere nasjonalt må det etableres Pasientinformasjonslokalisator (PIL) i nasjonal infrastruktur
-    * Den regionale samhandlingen forutsettes løst i regionen</li>
+<li>Funksjonalitet og datalager i fellesløsningen kommer i tillegg til eksisterende datalager og funksjonalitet i virksomhetenes egne systemer<ul>
+<li>Fellesløsningen etableres ikke for å oppfylle dokumentasjonsplikten, men for å tilgjengeliggjøre informasjon på tvers</li>
+<li>Dette skiller konseptet fra regional fellesløsning</li>
+</ul>
+</li>
+<li>For at konseptet skal skalere nasjonalt må det etableres Pasientinformasjonslokalisator (PIL) i nasjonal infrastruktur<ul>
+<li>Den regionale samhandlingen forutsettes løst i regionen</li>
+</ul>
+</li>
 <li>Alle konsumenter av informasjon må etablere søkefunksjonalitet i egen infrastruktur</li>
-<li>Konseptet forutsetter at det etableres felles semantiske spesifikasjoner for søk og oppslag av informasjonen som skal utveksles
-    * De semantiske spesifikasjonene kan være regionale eller bygge på nasjonale spesifikasjoner</li>
+<li>Konseptet forutsetter at det etableres felles semantiske spesifikasjoner for søk og oppslag av informasjonen som skal utveksles<ul>
+<li>De semantiske spesifikasjonene kan være regionale eller bygge på nasjonale spesifikasjoner</li>
+</ul>
+</li>
 </ul>
 <h4 id="fordeler_3">Fordeler</h4>
 <ul>
