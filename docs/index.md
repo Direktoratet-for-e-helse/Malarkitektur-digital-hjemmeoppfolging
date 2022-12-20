@@ -27,39 +27,23 @@ Det er vesentlig at oppfølgingen ikke begrenses til der pasienten bor, men at d
 
 ## Formålet med målarkitekturen
 
-Målarkitekturen skal være et verktøy for å koordinere innsatsen i sektoren slik at alle aktørene arbeider i samme retning for å løse samhandlingsutfordringene.
+Målarkitekturen skal være et verktøy for å koordinere innsatsen i sektoren slik at alle aktørene arbeider i samme retning for å løse utfordringer knyttet til digital samhandling ved hjelp av datadeling innen behovsområdet for digital hjemmeoppfølging.
 
-* Definere felles arkitekturmål for samhandling innen DHO
-  * Målarkitekturen har fokus på pasientrapporterte data og samhandlingsløsninger for å utveksle disse mellom virksomheter og omsorgsnivå
-  * Målarkitekturen skal fungere som et verktøy for å koordinere innsatsen i sektoren for å etablere datadelingsløsninger innen DHO området
+* Muliggjøre arkitekturstyring regionalt, nasjonalt og for andre grupperinger av dataansvarlige gjennom å etablere felles arkitekturmål og beskrive arkitekturmønstre.
+  * Målarkitekturen har fokus på utveksling av pasientrapporterte data og etableringen av samhandlingsløsninger for å utveksle disse mellom virksomheter og omsorgsnivå
   * Dokumentere felles arkitekturvalg og anbefalte samhandlingsmønster for DHO
-  * Beskrive informasjonstjenester og infrastrukturtjenester som må etableres for å realisere samhandlingen
-* Gi oversikt over behovsbildet
-  * Beskrive behov for informasjon og samhandling på tvers av virksomheter og omsorgsnivå
+  * Beskrive informasjonstjenester og infrastrukturtjenester som må etableres for å realisere digital samhandling i form av datadeling
+* Gi oversikt over behovsbildet for samhandling innen DHO
+  * Beskrive behov for informasjon og samhandling på tvers av virksomheter og omsorgsnivå med spesielt fokus på behov knyttet til tjenester der DHO benyttes
 * Skal fungere som kommunikasjonsverktøy mot helse- og omsorgstjenesten, leverandører og NHN
-  * Benyttes i drøfting og forankring av felles retning for utvikling av DHO løsninger
-* Beskrive juridiske problemstillinger knyttet til DHO
-  * Beskrive det juridiske handlingsrommet for etablering av datadelingsløsninger i helsesektoren
-
-## Målarkitektur for samhandling innen digital hjemmeoppfølging inneholder
-
-* Dokumenterer felles arkitekturvalg og samhandlingsmønster som benyttes i DHO
-* Behov for informasjon og samhandling for å understøtte tjenesten
-  * Inkludert bruk av eksisterende eller planlagte informasjonstjenester
-* Dokumentere aktører som skal samhandle og samhandlingsmønstre som fungerer mellom disse
-  * Oppsummere erfaringer
-* Informasjonstjenester og infrastrukturtjenester som kan ivareta behovene
-  * Infrastrukturtjenester (NHN) og tjenester som virksomhetene selv må implementere
-    * Peke på nødvendige fellestjenester, infrastruktur og integrasjonspunkter inn i egen organisasjon
-  * Gap mellom AS-IS og TO-BE, tiltak som utfyller gapet
-* Behov for andre normerende produkter (Semantisk nivå, tillitstjenester, hvordan etablere infrastrukturtjenester i virksomheten)
-* Overordnede juridiske avklaringer
+  * Benyttes i drøfting og forankring av felles retning for utvikling av samhandlingsløsninger
+* Beskrive juridiske problemstillinger knyttet til samhandling ved hjelp av datadeling
 
 ## Målgruppe
 
 ## Omfang og avgrensninger
 
-Målarkitekturen skal være et verktøy for å koordinere innsatsen i sektoren slik at aktørenen arbeider i samme retning for å løses samhandlingsutfordringene. Den skal blant annet inneholde hvilke samhandlingstjenester som skal tilbys nasjonalt. Det er derfor gjort noen avgrensninger i forhold til de behovene som analyseres i arbeidet med målarkitektur for samhandling innen DHO.
+Målarkitekturen skal være et verktøy for å koordinere innsatsen i sektoren slik at aktørenen arbeider i samme retning for å løses samhandlingsutfordringene. Den skal blant annet beskrive hvilke samhandlingstjenester som skal tilbys nasjonalt. Det er derfor gjort noen avgrensninger i forhold til de behovene som analyseres i arbeidet med målarkitektur for samhandling innen DHO.
 
 * Det er fokus på tilrettelegging for samhandling mellom virksomheter og omsorgsnivå og samhandling med innbygger
   * Noen av de samme mekanismene kan også benyttes for samhandling internt i en virksomhet, men det er ikke hovedfokuset i dette arbeidet
