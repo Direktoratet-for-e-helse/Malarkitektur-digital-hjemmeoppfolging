@@ -13,11 +13,11 @@ Ulike arkitekturprodukter for e-helse må henge sammen for å beskrive helheten.
 * [Digital hjemmeoppfølging – tilnærming til helhetlig samhandling](https://www.ehelse.no/publikasjoner/rapport-digital-hjemmeoppfolging)
 * [Digital hjemmeoppfølging - sluttrapport fra nasjonal utprøving 2018-2021](https://www.helsedirektoratet.no/rapporter/digital-hjemmeoppfolging-sluttrapport-fra-nasjonal-utproving-2018-2021)
 * Eksisterende referanse og målarkitekturer
-  * Referansearkitektur for datadeling
-  * Referansearkitektur for dokumentdeling
-  * Referansearkitektur for meldings- og dokumentutveksling
+  * [Referansearkitektur for datadeling](https://www.ehelse.no/standardisering/standarder/referansearkitektur-for-datadeling)
+  * [Referansearkitektur for dokumentdeling](https://www.ehelse.no/standardisering/standarder/referansearkitektur-for-dokumentdeling)
+  * [Referansearkitektur for meldings- og dokumentutveksling](https://www.ehelse.no/standardisering/standarder/referansearkitektur-for-meldings-og-dokumentutveksling)
   * [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren)
-  * Målarkitektur for dokumentdeling
+  * [Målarkitektur for dokumentdeling](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-dokumentdeling)
   * Veileder for helse- og omsorgssektoren: [Veileder for helse- og omsorgssektoren: Bruk av Digitaliseringsdirektoratets "Overordnede arkitekturprinsipper for digitalisering av offentlig sektor" - ehelse](https://www.ehelse.no/standardisering/standarder/veileder-for-helse-og-omsorgssektoren-bruk-av-digitaliseringsdirektoratets-overordnede-arkitekturprinsipper-for-digitalisering-av-offentlig-sektor)
 * Reguleringsplan
 * Grensesnittbeskrivelser/krav/normerende produkter
