@@ -15,6 +15,7 @@ Her er oversikt over de pågående spredningsprosjektene som er del av [Nasjonal
 ### Prosessbeskrivelser og tjenesteforløp
 
 En fellesnevner ved behovsarbeidet vi har fått tilgang til er at alle utprøvings og spredningsprosjektene tar utgangspunkt i detaljerte beskrivelser av tjenesteforløp eller prosessbeskrivelser for å beskrive nå-situasjonen og for å avdekke behov knyttet til tjenesteforløpene som analyseres. Beskrivelsene av tjenesteforløpene er til dels svært detaljerte og beskriver ønsket eller eksisterende tjenesteforløp for en eller noen få pasientgrupper hvor DHO benyttes.  
+![Tjenesteforløp eksempel](img/tjenesteforlop-KOLS.png){widht="600"} 
 
 ## Hvor passer dette produktet inn
 
