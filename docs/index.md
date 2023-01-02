@@ -8,12 +8,10 @@ nav_order: 1
 |:-------------|:------------------|:------|:-------|
 | <span style="background-color:gold">Work in progress</span> | v0.6 | draft  | ikke normert |
 
-## Bakgrunn
-
 Direktoratet for e-helse har et overordnet mål om å øke digital samhandling mellom aktørene i helse- og omsorgssektoren. Det er startet en rekke tiltak innenfor området data- og dokumentdeling. Dette arbeidet er prioritert fordi data- og dokumentdeling er samhandlingsformer som tas i bruk på ulike måter innen stadig nye områder innen helse- og omsorgstjenesten. Hensikten er å sikre en koordinert utvikling av datadeling samt økt bruk i hele sektoren.  
+
 Innen digital hjemmeoppfølging er behovet for datadeling spesielt stort. Pasientene som behandles trenger fortløpende oppfølging av flere virksomheter og omsorgsnivå. Mange tjenestetilbydere ser at eksisterende samhandlingsløsninger ikke understøtter samhandlingsbehovet godt nok.  
-Målarkitektur for datadeling ble publisert..  
-dette arbeidet baserer seg på målarkitektur for datadeling...  
+
 
 ## Hva er Digital hjemmeoppfølging
 
@@ -67,4 +65,5 @@ Omfanget for målarkitekturen for datadeling innen DHO er avgrenset til å under
 Bruk av datadeling for digital samhandling mellom virksomheter, omsorgsnivå og pårørende/pasient er relativt umodent. Til tross for mange utprøvingsprosjekter i velferdsteknologiprogrammet har arbeidet med samhandling i form av datadeling kommet relativt kort og det er få tjenester som er realisert og tatt i bruk av helsetjenesten. Erfaringsunderalget er derfor lite og anbefalinene knyttet til data deling er derfor beheftet med stor usikkerhet. Det vil være behov for revisjon av anbefalingene etterhvert som flere tjenester blir realisert.
 
 Modenheten er også relativt lav når det gjelder å ta i bruk Digital Hjemmeoppfølging i helsetjenesten. Men her er erfaringsunderlaget bedre etter at flere utprøvingsprosjekter er gjennomført i perioden 2018-2021. En erfaringsoppsummering er publisert av Helsedirektoratet.
+
 * [Digital hjemmeoppfølging - sluttrapport fra nasjonal utprøving 2018-2021](https://www.helsedirektoratet.no/rapporter/digital-hjemmeoppfolging-sluttrapport-fra-nasjonal-utproving-2018-2021)
