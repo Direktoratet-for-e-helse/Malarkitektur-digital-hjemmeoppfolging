@@ -72,5 +72,6 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - md_in_html
+  - attr_list
   #icon:
   #  logo: logo
