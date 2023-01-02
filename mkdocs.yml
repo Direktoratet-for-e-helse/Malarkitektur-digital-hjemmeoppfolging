@@ -6,13 +6,14 @@ nav:
     - Innledning: index.md
     - Prinsipper og metode:
       - Begreper: Begreper.md
-      - Metode og forvaltning: metode-og-forvaltning.md
+      - Metode og forvaltning: Metode-og-forvaltning.md
       - Arkitekturprinsipper: Arkitekturprinsipper.md
     - Kontekst for målarkitekturen: 
-      - Sammenheng med annet arbeid: Kontekst.md
+      - Sammenheng med annet arkitekturarbeid: Sammenheng.md
       - Målbilde for DHO: Overordnet-maalbilde.md
     - Behov:
       - Overordnet behovsbilde digital samhandling DHO: Behovsbilde.md
+      - Bakgrunn for behov: Bakgrunn-behov.md
     - Anbefalinger datadeling:
       - Konsepter realisering: Konsepter-realisering.md
       - Juridiske rammebetingelser: Juridiske-rammebetingelser.md
@@ -22,7 +23,7 @@ nav:
       - Tilbakemeldinger og innspill: Tilbakemeldinger-innspill.md
       - Status for dokumentet: https://direktoratet-for-e-helse.github.io/Common-metadata/
     - Vedlegg:
-      - Datadeling, slå opp: organisatorisk-sla-opp.md
+      - Datadeling, slå opp: Organisatorisk-sla-opp.md
 theme:
   name: material
   logo: logo/ehelse-hvit.svg
