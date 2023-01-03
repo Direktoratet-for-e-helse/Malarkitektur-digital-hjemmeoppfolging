@@ -45,7 +45,7 @@ Alle løsninger for å avgi informasjon må ta utgangspunkt i felles semantiske 
 #### Forutsetninger
 
 * Alle produsenter <!--hvem er produsent? virksomhet? utstyr? system?--> av informasjon må etablere funksjonalitet for å avgi informasjon, funksjonaliteten må etableres i egne systemer i virksomhetens infrastruktur
-* Alle konsumenter av informasjon må etablere funksjonalitet for å oppslag, funksjonaliteten må etableres i egne systemer i virksomhetens infrastruktur
+* Alle konsumenter av informasjon må etablere funksjonalitet for å gjøre oppslag, funksjonaliteten må etableres i egne systemer i virksomhetens infrastruktur
 * For at konseptet skal skalere nasjonalt/regionalt må det etableres Pasientinformasjonslokalisator (PIL) i nasjonal eller regional infrastruktur
 * Konseptet forutsetter etablering av tillitsanker funksjonalitet i nasjonal eller regional infrastruktur
 * Konseptet forutsetter at det etableres felles semantiske spesifikasjoner for informasjonen som skal utveksles
