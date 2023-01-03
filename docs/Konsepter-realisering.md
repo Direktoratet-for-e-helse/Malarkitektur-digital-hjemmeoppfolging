@@ -57,7 +57,7 @@ Alle løsninger for å avgi informasjon må ta utgangspunkt i felles semantiske 
 * Det er stor fleksibilitet i forhold til hvilken funksjonalitet virksomhetene realiserer
   * Virksomhetene realiserer funksjonalitet som gir mest nytte lokalt/regionalt
   * Kan gjøre det enklere å få til lokal tjenesteinnovasjon
-* Det etableres felles <!--nasjonale?--semantiske spesifikasjoner som alle virksomheter forholder seg til
+* Det etableres felles <!--nasjonale?--> semantiske spesifikasjoner som alle virksomheter forholder seg til
 
 #### Ulemper
 
