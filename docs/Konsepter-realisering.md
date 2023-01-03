@@ -136,7 +136,7 @@ Virksomhetene som samarbeider om en fellesløsning vil ha mindre behov for bruk 
 
 #### Fordeler
 
-* Etableringen av en fellesløsningen kan i seg selv løse mange behov for digital samhandling mellom virksomhetene innenfor samarbeidet
+* Etableringen av en fellesløsning kan i seg selv løse mange behov for digital samhandling mellom virksomhetene innenfor samarbeidet
   * Stort potensiale for regional innovasjon og tjenesteutvikling
 * Konseptet gir mulighet for å gjenbruke funksjonalitet for å avgi data på tvers av virksomhetene som benytter fellesløsningen
 * Middels fleksibilitet knyttet til lokal innovasjon og tjenesteutvikling siden fellesløsningen må ta hensyn til behovene til alle virksomhetene i samarbeidet
