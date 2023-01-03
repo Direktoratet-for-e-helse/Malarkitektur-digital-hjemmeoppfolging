@@ -179,7 +179,7 @@ Ved etablering av sentral regional datadelingsløsning baserer vi oss på at inf
 
 #### Ulemper
 
-* Foreløpige juridiske vurderinger tyder på at §9 ikke kan benyttes til å etablere felles regionale løsninger hvor hovedformålet er datadeling
+* Foreløpige juridiske vurderinger tyder på at §9 ikke kan benyttes til å etablere felles regionale løsninger hvor hovedformålet er datadeling <!--Kan vi bruke kryssreferanse og vis til andre kapittel som har vurderingene?-->
 * Alle virksomhetene må implementere synkronisering av egne data mot datalager i sentral infrastruktur
 
 ### Nasjonal sentral datadelingsløsning med lagring
