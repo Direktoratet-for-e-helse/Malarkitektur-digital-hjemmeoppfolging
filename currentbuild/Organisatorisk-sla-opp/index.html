@@ -9,13 +9,15 @@
       
       
       
+        <link rel="prev" href="../Tilbakemeldinger-innspill/">
+      
       
       <link rel="icon" href="../logo/ehelse-hvit.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.1">
     
     
       
-        <title>Metode og forvaltning - Målarkitektur datadeling Digitial hjemmeoppfølging</title>
+        <title>Datadeling, slå opp - Målarkitektur datadeling Digitial hjemmeoppfølging</title>
       
     
     
@@ -67,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#metode-for-utvikling-av-malarkitekturen" class="md-skip">
+        <a href="#sla-opp" class="md-skip">
           Skip to content
         </a>
       
@@ -99,7 +101,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Metode og forvaltning
+              Datadeling, slå opp
             
           </span>
         </div>
@@ -314,7 +316,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Metode-og-forvaltning.md" class="md-nav__link">
+      <a href="../Metode-og-forvaltning/" class="md-nav__link">
         Metode og forvaltning
       </a>
     </li>
@@ -660,14 +662,16 @@
 
   
   
+    
+  
   
     
       
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" checked>
       
       
       
@@ -692,11 +696,52 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../Organisatorisk-sla-opp.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Datadeling, slå opp
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Datadeling, slå opp
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#referansearkitektur-og-malarkitektur-for-datadeling" class="md-nav__link">
+    Referansearkitektur og målarkitektur for datadeling
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -727,6 +772,21 @@
   
     
   
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#referansearkitektur-og-malarkitektur-for-datadeling" class="md-nav__link">
+    Referansearkitektur og målarkitektur for datadeling
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -763,8 +823,12 @@
 </tr>
 </tbody>
 </table>
-<h1 id="metode-for-utvikling-av-malarkitekturen">Metode for utvikling av målarkitekturen</h1>
-<h1 id="forvaltning-og-videreutvikling-av-malarkitekturen">Forvaltning og videreutvikling av målarkitekturen</h1>
+<h1 id="sla-opp">Slå opp</h1>
+<p>Samhandlingsformen innebærer at en datatilbyder deler informasjon med en datakonsument på forespørsel. Datatilbyder tilgjengeliggjør informasjonsressurs(er) for deling gjennom en datadelingstjeneste som avgir data på forespørsel fra en datakonsument. Datakonsumenten slår opp mot delte dataressurser gjennom en konsumerende datadelingstjeneste (ofte kalt klient). Før selve oppslaget kan gjøres må datakonsumenten få tilgang til datatilbyders datadelingstjeneste gjennom en prosess vi har kalt "få tilgang til data". Få tilgang til data omfatter å skaffe seg tilgang til tilbudte data fra annen aktør og omfatter å finne tilbyders datadelingstjenester, inngå nødvendige avtaler og få tilganger.</p>
+<p><a href="../img/organisatorisk-sla-opp.png"><img alt="Organisatorisk samhandlingsform: Slå opp (og avgi data)" src="../img/organisatorisk-sla-opp.png" /></a>
+Samhandlingsformen innebærer at en datatilbyder deler informasjon med en datakonsument på forespørsel. Datatilbyder tilgjengeliggjør informasjonsressurs(er) for deling gjennom en datadelingstjeneste som avgir data på forespørsel fra en datakonsument. Datakonsumenten slår opp mot delte dataressurser gjennom en konsumerende datadelingstjeneste (ofte kalt klient). Før selve oppslaget kan gjøres må datakonsumenten få tilgang til datatilbyders datadelingstjeneste gjennom en prosess vi har kalt "få tilgang til data". Få tilgang til data omfatter å skaffe seg tilgang til tilbudte data fra annen aktør og omfatter å finne tilbyders datadelingstjenester, inngå nødvendige avtaler og få tilganger.</p>
+<h2 id="referansearkitektur-og-malarkitektur-for-datadeling">Referansearkitektur og målarkitektur for datadeling</h2>
+<p>I helsesektoren har vi en referansearkitektur og en målarkitektur for datadeling som detaljerer hvordan datadeling i sektoren kan ivaretar deling av helseinformasjon på forespørsel på en sikker måte. Referansearkitekturen beskriver relevante brukertilfeller hvor datadeling kan anvendes og etablerer generelle modeller for tilgangsstyring, API-management og personvern. Målarkitekturen for datadeling beskriver to av brukstilfellene i mer detalj, sektorens samhandling med grunnmur og nasjonale e-helseløsninger og innbyggers samhandling med helse- og omsorgstjenesten.</p>
 
 
 
