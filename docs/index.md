@@ -12,12 +12,13 @@ Direktoratet for e-helse har et overordnet mål om å øke digital samhandling m
 
 Innen digital hjemmeoppfølging er behovet for datadeling spesielt stort. Pasientene som behandles trenger fortløpende oppfølging av flere virksomheter og omsorgsnivå. Mange tjenestetilbydere ser at eksisterende samhandlingsløsninger ikke understøtter samhandlingsbehovet godt nok.  
 
-
 ## Hva er Digital hjemmeoppfølging
 
 I 2021 ble det i rapport fra de regionale helseforetakene foreslått følgende definisjon
 
 **Digital hjemmeoppfølging innebærer at hele eller deler av et behandlingstilbud foregår uten fysisk kontakt, der dialog og deling av data mellom pasient/bruker og behandler(e) skjer digitalt.**
+
+![Hva er DHO?](img/veikart-DHO.png) { width="500" }
 
 Forslaget til definisjon har til hensikt å romme en bredde av ulike former for digital oppfølging og samhandling mellom pasienten og helsetjenesten. Det skal jobbes videre med definisjonsbeskrivelsen gjennom Nasjonalt velferdsteknologiprogram.
 
