@@ -39,6 +39,8 @@ Målarkitekturen skal være et verktøy for å koordinere innsatsen i sektoren s
 * Beskrive juridisk mulighetsrom for realisering av samhandling ved hjelp av datadeling
 
 ## Målgruppe
+Målgruppen for målarkitekturen er primært arkitekter og tekniske prosjektledere, men er også relevant for beslutningstagere, prosjektledere, helsepersonell og utviklere innen helse- og omsorgssektoren.
+Bør vi spesifisere hvem de ulike kapitelene kan ha mest relevans for?
 
 ## Omfang og avgrensninger
 
