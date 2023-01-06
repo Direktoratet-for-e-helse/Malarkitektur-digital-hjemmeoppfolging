@@ -10,15 +10,15 @@ nav_order: 1
 
 Direktoratet for e-helse har et overordnet mål om å øke digital samhandling mellom aktørene i helse- og omsorgssektoren. Det er startet en rekke tiltak innenfor området data- og dokumentdeling. Dette arbeidet er prioritert fordi data- og dokumentdeling er samhandlingsformer som tas i bruk på ulike måter innen stadig nye områder i helse- og omsorgstjenesten for å støtte opp under identifiserte behov. Hensikten <!--med målarkitekturen?--> er å sikre en koordinert utvikling av datadeling samt økt bruk i hele sektoren.  
 
-Innen digital hjemmeoppfølging er behovet for datadeling spesielt stort. Pasientene som behandles trenger fortløpende oppfølging av flere virksomheter og omsorgsnivå. Mange tjenestetilbydere ser at eksisterende samhandlingsløsninger ikke understøtter samhandlingsbehovet godt nok.  
+Innen digital hjemmeoppfølging er behovet for datadeling spesielt stort. Pasientene som behandles trenger ofte fortløpende oppfølging av flere virksomheter og på tvers av omsorgsnivå i et behandlingsforløp. Mange tjenestetilbydere ser at eksisterende samhandlingsløsninger ikke understøtter samhandlingsbehovet godt nok.  
 
 ## Hva er Digital hjemmeoppfølging
 
 I 2021 ble det i rapport fra de regionale helseforetakene foreslått følgende definisjon
 
-**Digital hjemmeoppfølging innebærer at hele eller deler av et behandlingstilbud foregår uten fysisk kontakt, der dialog og deling av data mellom pasient/bruker og behandler(e) skjer digitalt.**
+**Digital hjemmeoppfølging innebærer at hele eller deler av et behandlingstilbud foregår uten fysisk kontakt, der dialog og deling av data mellom pasient/bruker og behandler(e) skjer digitalt.** <!--foreslå å sette inn tegningen som viser de ulike formene for DHO i definisjonen og presisere her hva vi har fokus på som  et første trinn-->
 
-![Hva er DHO?](img/veikart-DHO.png){ width="500" }
+![Hva er DHO?](img/veikart-DHO.png){ width="500" } <!--Foreslår å flytte denne ned etter neste avsnitt. Legge inn en tekst til fikgur: Figuren illustrerer overordnet hvilke akører som kan være involvert i DHO og eksempel på informasjon som er relevant å dele i behandlingsforløp der tjenesten digital hjemmeoppfølging tilbys.  -->
 
 Forslaget til definisjon har til hensikt å romme en bredde av ulike former for digital oppfølging og samhandling mellom pasienten og helsetjenesten. Det skal jobbes videre med definisjonsbeskrivelsen gjennom Nasjonalt velferdsteknologiprogram.
 
