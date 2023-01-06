@@ -24,7 +24,7 @@ Arbeidet med målarkitekturen har fokus på oppfølging av pasienten basert på 
   <figcaption>Hovedfokus for målarkitekturen er den delen av DHO som handler om oppfølging basert på data fra pasienten</figcaption>
 </figure>
 
-Forslaget til definisjon har til hensikt å romme en bredde av ulike former for digital oppfølging og samhandling mellom pasienten og helsetjenesten. Det skal jobbes videre med definisjonsbeskrivelsen gjennom Nasjonalt velferdsteknologiprogram.
+Figurer over visualiserer hva digital hjemmeoppfølging betyr i praksis. Forslaget til definisjon har til hensikt å romme en bredde av ulike former for digital oppfølging og samhandling mellom pasienten og helsetjenesten. Figuren bør oppdateres etter hvert som denne typen tjenester utvikles videre, og det skal jobbes videre med definisjonsbeskrivelsen gjennom Nasjonalt velferdsteknologiprogram.
 
 <figure markdown>
   ![Aktører og samhandlignsbehov DHO?](img/veikart-DHO.png){ width="500" }
