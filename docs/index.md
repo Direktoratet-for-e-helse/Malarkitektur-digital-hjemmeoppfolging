@@ -36,7 +36,7 @@ Målarkitekturen skal være et verktøy for å koordinere innsatsen i sektoren s
   * Beskrive behov for informasjon og samhandling på tvers av virksomheter og omsorgsnivå med spesielt fokus på behov knyttet til tjenester der DHO benyttes
 * Skal fungere som kommunikasjonsverktøy mot helse- og omsorgstjenesten, leverandører og NHN
   * Benyttes i drøfting og forankring av felles retning for utvikling av samhandlingsløsninger
-* Beskrive juridisk mulighetsrom for realisering samhandling ved hjelp av datadeling
+* Beskrive juridisk mulighetsrom for realisering av samhandling ved hjelp av datadeling
 
 ## Målgruppe
 
