@@ -16,11 +16,20 @@ Innen digital hjemmeoppfølging er behovet for datadeling spesielt stort. Pasien
 
 I 2021 ble det i rapport fra de regionale helseforetakene foreslått følgende definisjon
 
-**Digital hjemmeoppfølging innebærer at hele eller deler av et behandlingstilbud foregår uten fysisk kontakt, der dialog og deling av data mellom pasient/bruker og behandler(e) skjer digitalt.** <!--foreslå å sette inn tegningen som viser de ulike formene for DHO i definisjonen og presisere her hva vi har fokus på som  et første trinn-->
+**Digital hjemmeoppfølging innebærer at hele eller deler av et behandlingstilbud foregår uten fysisk kontakt, der dialog og deling av data mellom pasient/bruker og behandler(e) skjer digitalt.**
+Arbeidet med målarkitekturen har fokus på oppfølging av pasienten basert på data fra pasienten.  <!--foreslå å sette inn tegningen som viser de ulike formene for DHO i definisjonen og presisere her hva vi har fokus på som  et første trinn-->
 
-![Hva er DHO?](img/veikart-DHO.png){ width="500" } <!--Foreslår å flytte denne ned etter neste avsnitt. Legge inn en tekst til fikgur: Figuren illustrerer overordnet hvilke akører som kan være involvert i DHO og eksempel på informasjon som er relevant å dele i behandlingsforløp der tjenesten digital hjemmeoppfølging tilbys.  -->
+<figure markdown>
+  ![Hva er DHO?](img/hva-er-DHO.png){ width="600" }
+  <figcaption>Hovedfokus for målarkitekturen er den delen av DHO som handler om oppfølging basert på data fra pasienten</figcaption>
+</figure>
 
 Forslaget til definisjon har til hensikt å romme en bredde av ulike former for digital oppfølging og samhandling mellom pasienten og helsetjenesten. Det skal jobbes videre med definisjonsbeskrivelsen gjennom Nasjonalt velferdsteknologiprogram.
+
+<figure markdown>
+  ![Aktører og samhandlignsbehov DHO?](img/veikart-DHO.png){ width="500" }
+  <figcaption>Figuren illustrerer overordnet hvilke akører som kan være involvert i DHO og eksempel på informasjon som er relevant å dele i behandlingsforløp der tjenesten digital hjemmeoppfølging tilbys.</figcaption>
+</figure>
 
 Det er vesentlig at oppfølgingen ikke begrenses til der pasienten bor, men at digital hjemmeoppfølging også skal kunne benyttes andre steder, for eksempel på jobb, skole, institusjon, på reise og hos ulike helseaktører. Pasienten kan i prinsippet oppholde seg hvor som helst fysisk, men likevel kunne nå et avstandsbasert helsetilbud når det er forsvarlig.
 
