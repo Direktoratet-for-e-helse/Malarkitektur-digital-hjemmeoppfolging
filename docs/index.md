@@ -26,7 +26,7 @@ Det er vesentlig at oppfølgingen ikke begrenses til der pasienten bor, men at d
 
 ## Formålet med målarkitekturen
 
-Målarkitekturen skal være et verktøy for å koordinere innsatsen i sektoren slik at alle aktørene arbeider i samme retning for å løse utfordringer knyttet til digital samhandling ved hjelp av datadeling innen behovsområdet for digital hjemmeoppfølging.
+Målarkitekturen skal være et verktøy for å koordinere innsatsen i sektoren slik at alle aktørene arbeider i samme retning for å løse utfordringer knyttet til digital samhandling ved hjelp av datadeling innen behovsområdet for digital hjemmeoppfølging. Målarkitekturen skal:
 
 * Muliggjøre arkitekturstyring regionalt, nasjonalt og for andre grupperinger av dataansvarlige gjennom å etablere felles arkitekturmål og beskrive arkitekturmønstre.
   * Målarkitekturen har fokus på utveksling av pasientrapporterte data og etableringen av samhandlingsløsninger for å utveksle disse mellom virksomheter og omsorgsnivå
