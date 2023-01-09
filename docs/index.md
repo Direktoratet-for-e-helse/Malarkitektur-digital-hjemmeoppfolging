@@ -40,7 +40,7 @@ Målarkitekturen skal være et verktøy for å koordinere innsatsen i sektoren s
 * Muliggjøre arkitekturstyring regionalt, nasjonalt og for andre grupperinger av dataansvarlige gjennom å etablere felles arkitekturmål og beskrive arkitekturmønstre.
   * Målarkitekturen har fokus på utveksling av pasientrapporterte data og etableringen av samhandlingsløsninger for å utveksle disse mellom virksomheter og omsorgsnivå
   * Dokumentere felles arkitekturvalg og anbefalte samhandlingsmønster for DHO
-  * Beskrive informasjonstjenester og infrastrukturtjenester som må etableres for å realisere digital samhandling i form av datadeling
+  * Beskrive informasjonstjenester og felleskomponenter som må etableres for å realisere digital samhandling i form av datadeling
 * Gi oversikt over behovsbildet for samhandling innen DHO
   * Beskrive behov for informasjon og samhandling på tvers av virksomheter og omsorgsnivå med spesielt fokus på behov knyttet til tjenester der DHO benyttes
 * Skal fungere som kommunikasjonsverktøy mot helse- og omsorgstjenesten, leverandører og NHN
@@ -69,7 +69,7 @@ Omfanget for målarkitekturen for datadeling innen DHO er avgrenset til å under
 * Velferdsteknologi (tradisjonell trygghets og mestringsteknologi) er ikke en del av omfanget for målarkitekturen for DHO.
   * Behovene knyttet til trygghet og mestring er relativt godt analysert i tidligere arbeid og det er bare små overlapp mellom DHO og trygghet og mestringsområdet
   * Noen teknologiske løsninger og utfordringer er imidlertid sammenfallende med trygghet og mestringsområdet og vil også være en naturlig del av behovsbildet og løsningene som benyttes innen DHO området
-* Der viktige infrastrukturtjenester eller semantiske spesifikasjoner ikke eksisterer vil målarkitekturen peke på nødvendige tiltak for å realisere disse
+* Der viktige felleskomponenter eller semantiske spesifikasjoner ikke eksisterer vil målarkitekturen peke på nødvendige tiltak for å realisere disse
   * Plan for realisering av tiltakene ligger utenfor mandatet til målarkitekturen
 
 ### Modenhet
