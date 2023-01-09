@@ -22,8 +22,10 @@ Samhandlingstjenester i behandlingsforlp der tjenesten digital hjemmeoppfølging
  <!--Forslag til sammenslåing av funksjonelle behov skrevet med nummer for å ikke ta bort de tdifligere beskrivelsene-->
 1. Som helsepersonell har jeg behov for tilgang til oppdatert informasjon som er nødvendig for å yte helsehjelp til pasient på en effektiv måte
 2. Som helsepersonell har jeg behov for å søke etter og få tilgjengeliggjort informasjon/ data fra pasient (data fra fra sensorer, medisinsk utstyr og pasientrapporterte data som symptomer, funksjon og målinger) som benyttes for beslutninger om helsehjelp
-3. SOm helsepersonell har jeg behov for å slippe å registrere samme informasjon flere ganger i ulike system for å spare tid og unngå feil ved duplisering av informasjon
-3. Som helsepersonell har jeg behov for å samarbeid med pasient og annet helsepersonell om utarbeidelse og oppfølging av behandlings- og egenbehandlingplaner slik at oppdatert informasjon er tilgjengelig og en unngå forsinkelser i oppfølging av pasient
+3. Som helsepersonell har jeg behov for å slippe å registrere samme informasjon flere ganger i ulike system for å spare tid og unngå feil ved duplisering av informasjon
+3. Som helsepersonell har jeg behov for å samarbeid med pasient og annet helsepersonell om utarbeidelse og oppfølging av behandlings- og egenbehandlingplaner slik at oppdatert informasjon er tilgjengelig og en unngår forsinkelser i oppfølging av pasient
+4. Som pasient har jeg behov for tilgang til oppdatert og relevant informasjon for å mestre og ivareta egen helse.
+5. Som pasient har jeg behov for at helsepersonell med tjenstlig behov har tilgang til data fra meg som pasient slik at jeg slipper å gjenfortelle historien min
 
 * _Jeg som helsepersonell får tilgang til oppdatert informasjon om pasienten som er nødvendig for å yte_ _god helsehjelp på en effektiv måte_
 * _Jeg som helsepersonell kan søke etter og få tilgjengeliggjort relevant informasjon for tjenesteforløp der Digital hjemmeoppfølging benyttes som underlag for beslutninger om helsehjelp_
