@@ -6,7 +6,7 @@ nav_order: 1
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:gold">Work in progress</span> | v0.6 | draft  | ikke normert |
+| <span style="background-color:gold">Work in progress</span> | v0.7 | draft  | ikke normert |
 
 Direktoratet for e-helse har et overordnet mål om å øke digital samhandling mellom aktørene i helse- og omsorgssektoren. Det er startet en rekke tiltak innenfor området data- og dokumentdeling. Dette arbeidet er prioritert fordi data- og dokumentdeling er samhandlingsformer som tas i bruk på ulike måter innen stadig nye områder i helse- og omsorgstjenesten for å støtte opp under identifiserte behov. Hensikten <!--med målarkitekturen?--> er å sikre en koordinert utvikling av datadeling samt økt bruk i hele sektoren.  
 
@@ -57,7 +57,7 @@ Alle delene frem til konsepter for realisering anbefales for alle som er interes
 
 Juridiske avklaringer er en viktig beskrivelse av eksisterende juridiske rammebetingelser for å etablere datadeling i henhold til gjeldende lover og regler og egner seg for jurister og arkitekter som må forholde seg til disse rammene ved utvikling og innføring av konkrete løsninger for datadeling.
 
-Selve målarkitekturen for datadeling beskriver det arkitekturtekniske underlaget for hvilke kapabiliteter og informasjonstjenester som bør realiseres, samt de grunnleggende prosessene og funksjonene virksomhetene må etablere for å realisere og forvalte effektive datadelingstjenester. Innholdet i denne delen bygger direkte på eksisterende rammeverk beskrevet i [[Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) og forutsetter kjennskap til de tekniske delene av dette arbeidet. Kapitelet egner seg hovedsakligMålgruppe er arkitekter og tekniske personer som ønsker å forstå bakgrunnen for arkitekturvalgene som gjøres i målarkitekturen.
+Selve målarkitekturen for datadeling beskriver det arkitekturtekniske underlaget for hvilke kapabiliteter og informasjonstjenester som bør realiseres, samt de grunnleggende prosessene og funksjonene virksomhetene må etablere for å realisere og forvalte effektive datadelingstjenester. Innholdet i denne delen bygger direkte på eksisterende rammeverk beskrevet i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) og forutsetter kjennskap til de tekniske delene av dette arbeidet. Kapitelet egner seg hovedsakligMålgruppe er arkitekter og tekniske personer som ønsker å forstå bakgrunnen for arkitekturvalgene som gjøres i målarkitekturen.
 
 ## Omfang og avgrensninger
 
