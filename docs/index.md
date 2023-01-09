@@ -35,16 +35,18 @@ Det er vesentlig at oppfølgingen ikke begrenses til der pasienten bor, men at d
 
 ## Formålet med målarkitekturen
 
-Målarkitekturen skal være et verktøy for å koordinere innsatsen i sektoren slik at alle aktørene arbeider i samme retning for å løse utfordringer knyttet til digital samhandling ved hjelp av datadeling innen behovsområdet for digital hjemmeoppfølging. Målarkitekturen skal:
+Målarkitekturen skal være et verktøy for å koordinere innsatsen i sektoren slik at alle aktørene arbeider i samme retning for å realisere datadeling innen behovsområdet for digital hjemmeoppfølging.
 
-* Muliggjøre arkitekturstyring regionalt, nasjonalt og for andre grupperinger av dataansvarlige gjennom å etablere felles arkitekturmål og beskrive arkitekturmønstre.
-  * Målarkitekturen har fokus på utveksling av pasientrapporterte data og etableringen av samhandlingsløsninger for å utveksle disse mellom virksomheter og omsorgsnivå
-  * Dokumentere felles arkitekturvalg og anbefalte samhandlingsmønster for DHO
+Målarkitekturen skal bidra til:
+
+* Muliggjøre arkitekturstyring regionalt, nasjonalt og for andre grupperinger av dataansvarlige gjennom å etablere felles prinsipper, arkitekturmål og beskrive arkitekturmønstre.
   * Beskrive informasjonstjenester og felleskomponenter som må etableres for å realisere digital samhandling i form av datadeling
+  * Dokumentere felles arkitekturvalg og anbefalte samhandlingsmønster for datadeling innen DHO
 * Gi oversikt over behovsbildet for samhandling innen DHO
-  * Beskrive behov for informasjon og samhandling på tvers av virksomheter og omsorgsnivå med spesielt fokus på behov knyttet til tjenester der DHO benyttes
+  * Beskrive behov for informasjon og samhandling på tvers av virksomheter og omsorgsnivå med spesielt fokus på behov knyttet til helsetjenester der DHO benyttes
+  * Beskrive behov for normerende produkter som trengs for å understøtte semantisk samhandling
 * Skal fungere som kommunikasjonsverktøy mot helse- og omsorgstjenesten, leverandører og NHN
-  * Benyttes i drøfting og forankring av felles retning for utvikling av samhandlingsløsninger
+  * Benyttes i drøfting og forankring av felles retning for utvikling av datadelingsløsninger
 * Beskrive juridisk mulighetsrom for realisering av samhandling ved hjelp av datadeling
 
 ## Målgruppe
