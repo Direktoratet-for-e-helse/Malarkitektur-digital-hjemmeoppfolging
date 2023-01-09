@@ -14,7 +14,7 @@ Behovene i helsetjenesten ligger til grunn for etablering av samhandlingsløsnin
 
 **Merk:** Målarkitekturen tar høyde for å gi et overordnet behovsbilde for hele DHO-området beskrevet over.  
 
-## Overordnede brukerhistorier for Digital hjemmeoppfølging
+## Overordnede brukerhistorier 
 
 Målbilde for samhandling begrenser seg til å understøtte ytelse av helse- og omsorgshjelp. Dette inkluderer å sikre kontinuitet i direkte helsehjelp, for eksempel når pasienter skrives ut fra sykehus og beveger seg mellom omsorgsnivå og det er behov for oppfølging der tjenesten digital hjemmeoppfølging kan benyttes.
 
