@@ -64,7 +64,7 @@ For å understøtte tjenesteforløp der pasienter følges med digital hjemmeoppf
 
 Hypotesen beskriver en antagelse som er fremkommet gjennom behovskartleggingen knyttet til DHO. Det ligger i hypotesens natur at den bør testes før målarkitekturen ferdigstilles. Det er foreløpig et åpent spørsmål hvordan disse hypotesen testes og om den kan testes som en del av utprøvingsprosjektene innen DHO.
 
-* Samhandlingsbehovet knyttet til DHO er størst regionalt
+* Samhandlingsbehovet knyttet til tjenesteforløp med DHO integrert er størst regionalt
   * Arbeidet med målarkitektur for DHO fokuserer derfor på å tilrettelegge for samhandling på regionalt nivå
 <!-- Hvordan unngår vi å ta arkitekturvalg som hindrer oss fleksibilitet senere -->
 
