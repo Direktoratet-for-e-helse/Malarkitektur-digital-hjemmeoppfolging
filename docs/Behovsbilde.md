@@ -18,7 +18,7 @@ Behovene i helsetjenesten ligger til grunn for etablering av samhandlingsløsnin
 
 Målbilde for samhandling begrenser seg til å understøtte ytelse av helse- og omsorgshjelp. Dette inkluderer å sikre kontinuitet i direkte helsehjelp, for eksempel når pasienter skrives ut fra sykehus og beveger seg mellom omsorgsnivå og det er behov for oppfølging i kommunen der tjenesten digital hjemmeoppfølging kan benyttes. Samhandling bidrar til økt pasientsikkerhet og kvalitet gjennom å legge til rette for deling av korrekt informasjon for heslsepersonell med tjenstlig behov. Formen som er valgt for funksjonalitetsbeskrivelse er brukerhistorie. En kortfattet beskrivelse av hvem som har behov, hva slags funksjonalitet det er behov for og hvorfor funksjonaliteten gir verdi.
 
-Samhandlingstjenester i behandlingsforlp der tjenesten digital hjemmeoppfølging benyttes skal tilrettelegge for følgende funksjonelle behov:
+Samhandlingstjenester i behandlingsforløp der tjenesten digital hjemmeoppfølging benyttes skal tilrettelegge for følgende funksjonelle behov:
  <!--Forslag til ny beskrivelse av funksjonelle behov (nummerert) for å ikke ta bort de tidligere beskrivelsene-->
 1. Som helsepersonell har jeg behov for tilgang til oppdatert informasjon som er nødvendig for å yte helsehjelp til pasient på en effektiv måte
 2. Som helsepersonell har jeg behov for å søke etter og få tilgjengeliggjort informasjon/ data fra pasient (data fra fra sensorer, medisinsk utstyr og pasientrapporterte data som symptomer, funksjon og målinger) som benyttes for beslutninger om helsehjelp
