@@ -16,7 +16,7 @@ Behovene i helsetjenesten ligger til grunn for etablering av samhandlingsløsnin
 
 ## Overordnede brukerhistorier 
 
-Målbilde for samhandling begrenser seg til å understøtte ytelse av helse- og omsorgshjelp. Dette inkluderer å sikre kontinuitet i direkte helsehjelp, for eksempel når pasienter skrives ut fra sykehus og beveger seg mellom omsorgsnivå og det er behov for oppfølging der tjenesten digital hjemmeoppfølging kan benyttes.
+Målbilde for samhandling begrenser seg til å understøtte ytelse av helse- og omsorgshjelp. Dette inkluderer å sikre kontinuitet i direkte helsehjelp, for eksempel når pasienter skrives ut fra sykehus og beveger seg mellom omsorgsnivå og det er behov for oppfølging i kommunen der tjenesten digital hjemmeoppfølging kan benyttes.
 
 Samhandlingstjenester for DHO skal tilrettelegge for følgende funksjonelle behov:
 
