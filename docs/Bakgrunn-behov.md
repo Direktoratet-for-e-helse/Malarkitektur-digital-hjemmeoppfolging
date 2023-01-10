@@ -4,7 +4,7 @@
 
 ## Behovskartlegging basert på pågående utprøvingsprosjekter
 
-Arbeidet med målarikteturen baserer seg i stor grad på innhenting av erfaringer fra pågående intitativer. Behovskartleggingen har tatt utgangspunkt i erfaringer fra utprøvingsprosjekter for VKP og hvor det har blitt identifisert et stort behov for datadeling mellom aktører. Vi har videre studert behov som er viktige for utprøvingsprosjektet mellom Larvik kommune og Sykehuset i Vestfold. Vi har i tillegg fulgt behovskartleggingen i Oslo kommune der de skal etablere datadeling med Lovisenberg sykehus og fastleger.  
+Arbeidet med målarikteturen baserer seg i stor grad på innhenting av erfaringer fra pågående intitativer. Behovskartleggingen har tatt utgangspunkt i i tidligere dokumenterte behov ![https://www.ehelse.no/aktuelt/ny-rapport-om-helhetlig-samhandling-for-digital-hjemmeoppfolging] og erfaringer fra utprøvingsprosjekter som benytter velferdsteknologisk knutepunkt (VKP) og hvor det har blitt identifisert et stort behov for datadeling mellom aktører. Vi har videre studert behov som er viktige for utprøvingsprosjektet mellom Larvik kommune inkludert fastlegetjenesten og Sykehuset i Vestfold. Vi har i tillegg fulgt behovskartleggingen i Oslo kommune der de skal etablere datadeling med Lovisenberg sykehus og fastleger.  
 
 Vi har ikke tatt inn detaljerte beskrivelser fra utprøvings og spredningsprosjektene, siden målarkitektøren skal være et generisk verktøy. For nye prosjekter som er i oppstart kan det være interessant å se til andre intitativer for å blant annet få erfaringer om organisatoriske utfordringer og få ideer til mulige løsninger.  
 
