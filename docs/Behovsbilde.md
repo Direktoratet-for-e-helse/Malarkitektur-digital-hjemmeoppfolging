@@ -224,7 +224,7 @@ I tillegg er det en rekke andre informasjonstjenester som er høyt prioritert av
 
 Det utvikles samhandlingsløsninger knyttet til behov for digitale behandlings- og egenbehandlingsplaner ![https://www.helsedirektoratet.no/om-oss/forsoksordninger-og-prosjekter/digital-behandlings-og-egenbehandlingsplan ] og legemiddelliste ![https://www.ehelse.no/programmer/program pasientens legemiddelliste] gjennom egne initiativ. Det er derfor besluttet at de viktigste tjenestene å utvikle samhandlingsløsninger for i DHO arbeidet nå som et første steg handler om Målinger, vurderinger og Varsel. Dette er informasjonstjenester som etterspørres fra mange virksomheter og alle omsorgsnivå i flere geografiske regioner.
 
-## Detaljer om målinger
+## Detaljer om målinger <!--Hva med vurderinger og varsel siden overskriften er målinger?-->
 
 Målinger består av flere typer måleparametere som beskriver pasientens tilstand. Modellen viser omfanget for steg 1 i VKP på dette området:
 
