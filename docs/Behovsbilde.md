@@ -74,7 +74,7 @@ Tabellen under viser en oversikt over:
 
 * Hvilken rolle sluttbruker av behovet har
 * Hvilken prioritet og tidsperspektiv behovet har
-  * Prioritet scores i kategoriene høy/middels/lav/ekstern
+  * Prioritet scores i kategoriene høy/middels/lav/ekstern ut fra antagelse om forventet nytte/effekt
     * Høy nytteverdi betyr at tilfredstillels av behovet vil gi stor nytte og det er mange brukere
     * Middels nytteverdi betyr at tilfredstillelse av behovet vil kunne føre til spart tid og bedre kvalitet men er ikke kritisk for å ta i bruk tjenesten
     * Lav nytteverdi angir behov hvor nytten for brukeren er liten eller at behovet innehas av få brukere
