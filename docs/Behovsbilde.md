@@ -222,7 +222,7 @@ Her vises i prioritert rekkefølge de informasjonstjenestene som er mest ettersp
 I tillegg er det en rekke andre informasjonstjenester som er høyt prioritert av tjenesten, disse vises i figuren: <!--Skulle vi vurdert å bruke figuren fra målbilde med alle informasjonstjenestene i arbeidet for å vise sammenhengene?-->
 ![226722458](https://user-images.githubusercontent.com/6229665/201674656-d97f3a8a-912a-41ee-b621-a1df9860d730.png)
 
-Det utvikles samhandlingsløsninger knyttet til behov for digitale behandlings- og egenbehandlingsplaner ![https://www.helsedirektoratet.no/om-oss/forsoksordninger-og-prosjekter/digital-behandlings-og-egenbehandlingsplan ] og legemiddelliste ![https://www.ehelse.no/programmer/program pasientens legemiddelliste]gjennom utvikles av andre prosjekter er det besluttet at de viktigste tjenestene å utvikle bedre samhandlingsløsninger for i tilknytning til DHO handler om Målinger, vurderinger og Varsel. Dette er informasjonstjenester som etterspørres fra mange virksomheter og alle omsorgsnivå i flere geografiske regioner.
+Det utvikles samhandlingsløsninger knyttet til behov for digitale behandlings- og egenbehandlingsplaner ![https://www.helsedirektoratet.no/om-oss/forsoksordninger-og-prosjekter/digital-behandlings-og-egenbehandlingsplan ] og legemiddelliste ![https://www.ehelse.no/programmer/program pasientens legemiddelliste] gjennom egne initiativ. Det er derfor besluttet at de viktigste tjenestene å utvikle samhandlingsløsninger for i DHO arbeidet nå som et første steg handler om Målinger, vurderinger og Varsel. Dette er informasjonstjenester som etterspørres fra mange virksomheter og alle omsorgsnivå i flere geografiske regioner.
 
 ## Detaljer om målinger
 
