@@ -201,12 +201,12 @@ Hovedmålet for målarkitekturen DHO er å vise hvordan samhandlingen knyttet ti
 
 Det er identifisert behov for samhandling om ytterligere informasjon og informasjonstjenester for å understøtte et  sammenhengende tjenesteforløp som inkluderer DHO. Dette inkluderer følgende behov:
 
-* Plan
-* Hendelser
-* Tjenester, inkludert hjelpemidler og logistikk
-* Legemiddelliste
-* Journalnotat
-* Klinisk oppsummering
+* (IT08) Plan
+* (IT03 og IT19) Hendelser
+* (IT23) Tjenester, inkludert hjelpemidler og logistikk
+* (IT03) Legemiddelliste
+* (IT09) Journalnotat
+* (IT01) Klinisk oppsummering <!--Denner ikke med i tabell over behov og kobling mot informasjonstjenester i Akson. Vi får vurdere om det faktisk er IOT01 vi skal beskrive eller om det som er kommet frem dekkes av IT09-->
 * Basisinformasjon pasient
 * Dialogtjenester
 
