@@ -193,9 +193,9 @@ Tabellen under viser en oversikt over identifiserte informasjonsbehov og kobling
 
 Hovedmålet for målarkitekturen DHO er å vise hvordan samhandlingen knyttet til data fra pasient skal gjennomføres, samtidig som den må vise hvilke andre informasjonstjenester som må være tilstede for å understøtte <!--tjenesteforløp - kun bruke dette hvis vi blir eninge om begrepsbruk--> en sammenhengende DHO tjeneste. Informasjonstjenestene som omfattes er i denne sammenhengen:
 
-* Undersøkelser, målinger og funn
-* Skjemabesvarelser og NEWS scoringer
-* Vurderinger og varsel basert på målinger
+* (IT17) - Undersøkelser, målinger og funn
+* (IT17) - Skjemabesvarelser og NEWS scoringer
+* (IT17 og IT07) - Vurderinger og varsel basert på målinger
 
 ## Informasjonstjenester i andre kategorier
 
