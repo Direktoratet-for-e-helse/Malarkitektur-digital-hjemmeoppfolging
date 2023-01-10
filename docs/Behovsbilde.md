@@ -206,9 +206,9 @@ Det er identifisert behov for samhandling om ytterligere informasjon og informas
 * (IT23) Tjenester, inkludert hjelpemidler og logistikk
 * (IT03) Legemiddelliste
 * (IT09) Journalnotat
-* (IT01) Klinisk oppsummering <!--Denner ikke med i tabell over behov og kobling mot informasjonstjenester i Akson. Vi får vurdere om det faktisk er IOT01 vi skal beskrive eller om det som er kommet frem dekkes av IT09-->
+* (IT01) Klinisk oppsummering <!--Denner ikke med i tabell over behov og kobling mot informasjonstjenester i Akson. Vi får vurdere om det faktisk er IOT01 vi skal beskrive eller om det som er kommet frem dekkes av IT09 SVAR: Denne er med i tabellen over og sammenhengene er vist i figuren https://user-images.githubusercontent.com/6229665/201674228-84a1171d-0006-4720-a462-aaba5947dca8.png-->
 * (IT12) Basisinformasjon pasient
-* (IT10 og IT24) Dialogtjenester <!--Kunne denne vært koblet mot Kommunikasjon ved saksbehandling og Tekstlig dialog? Børd da beskrives i tabell-->
+* (IT10 og IT24) Dialogtjenester <!--Kunne denne vært koblet mot Kommunikasjon ved saksbehandling og Tekstlig dialog? Børd da beskrives i tabell SVAR vi behandler ikke dialog i detalj, men vi kan nevne IT10/IT11 og IT 24 i tabellen-->
 
 ## Prioritering av informasjonstjenester
 
