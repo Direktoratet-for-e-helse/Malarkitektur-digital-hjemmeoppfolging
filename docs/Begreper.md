@@ -23,3 +23,4 @@ nav_order: 2
 |Samhandling|All form for kontakt, samarbeid og informasjonsutveksling på tvers av virksomheter med mål om å sikre riktig behandling og koordinerte tjenester. Samhandling kan skje på ulike måter, for eksempel gjennom meldinger, telefon, møter, brev, papirutskrifter som sendes med innbyggeren.|
 |Tillitsmodell/ tillitsanker|--|
 |Tjeneste|I målarkitetkuren representerer dette grunnleggende tekniske komponenter som aktørene i sektor kan benytte for å levere løsninger som understøtter ytelse av helsehjelp|
+|Tjenesteforløp|Et tjenesteforløp beskriver organisering og oppgaver knyttet til å yte helsetjenester til pasienter som følges med digital hjemmeoppfølging
