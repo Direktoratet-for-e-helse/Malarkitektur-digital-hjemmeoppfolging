@@ -226,7 +226,7 @@ Det utvikles samhandlingsløsninger knyttet til behov for digitale behandlings- 
 
 ## Detaljer om målinger <!--Hva med vurderinger og varsel siden overskriften er målinger?-->
 
-Målinger består av flere typer måleparametere som beskriver pasientens tilstand. Modellen viser omfanget for steg 1 i VKP på dette området:
+Målinger består av flere typer måleparametere som beskriver pasientens helsetilstand og som kan bidra til å støtte oppfølging av behandling og synliggjøre endring i tilstand. Følgende figur viser omfanget for deling av målinger i steg 1 (internt i en virksomhet) ved bruk av velferdsteknologisk knutepunkt (VKP) på dette området:
 
 ![207618771](https://user-images.githubusercontent.com/6229665/201674756-0db63ed3-6100-42f1-9e4c-daa2a55b855b.png)
 
