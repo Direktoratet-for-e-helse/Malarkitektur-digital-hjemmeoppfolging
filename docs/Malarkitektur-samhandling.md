@@ -10,7 +10,7 @@ nav_order: 7
 
 ## Samhandling mellom helsepersonell på tvers av virksomheter
 
-[Målarkitektur for datadeling](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren/_/attachment/inline/a5a908cd-5054-4d21-8eaf-8b795dcb25ea:761793d5dd6b6a1f2b9dd334a44e3a754d5b88e6/M%C3%A5larkitektur%20for%20datadeling%20i%20helse-%20og%20omsorgssektoren%20(HITR%201231_2021).pdf) tar frem "samhandling mellom helsepersonell på tvers av virksomheter" som et brukstilfelle, men som ble behandlet i første versjon siden modenheten den gang var for lav.
+Direktoratet for e-helse publiserte i mars 2021 [Målarkitektur for datadeling](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren/_/attachment/inline/a5a908cd-5054-4d21-8eaf-8b795dcb25ea:761793d5dd6b6a1f2b9dd334a44e3a754d5b88e6/M%C3%A5larkitektur%20for%20datadeling%20i%20helse-%20og%20omsorgssektoren%20(HITR%201231_2021).pdf) som tar frem "samhandling mellom helsepersonell på tvers av virksomheter" som et brukstilfelle, men som ble behandlet i første versjon <!--Hva viser denne første versjon til. Forstå ikke -->siden modenheten den gang var for lav.
 
 Vårt arbeid med målarkitektur for DHO skal ta dette brukstilfellet videre og vil bli en del av den overordnede målarkitekturen for datadeling for helsesektoren. Slik beskrives brukstilfellet i målarkitektur fra datadeling:
 
