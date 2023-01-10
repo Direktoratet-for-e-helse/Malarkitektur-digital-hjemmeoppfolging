@@ -105,7 +105,7 @@ Tabellen under viser en oversikt over:
 |Pasient / pårørende|middels / kort|Det må være mulig for meg som pasient å se hvem som har tilgang til mine data for å ivareta mitt personvern.|Det må være lett for pasient å se hvem som har tilgang til mine data.|
 |Pasient / pårørende|høy / mellom|Jeg må være sikker på at relevant helsepersonell får tilgang til tilstrekkelig informasjon slik at jeg kan motta best mulig helsetilbud og at helsetjenesten iverksetter de beste tiltakene for å ivareta min helse.|Pasient skal ikke trenge å videreformidle informasjon mellom helsepersonell, det skal skje ved hjelp av datadeling på tvers.|
 
-## Roller i tjenesteforløp med digital hjemmeoppfølging
+## Roller i tjenesteforløp med digital hjemmeoppfølging <!--Kunne beskrivelsene av roller i pasientforløpet flyttes til bakgrunn - behov? Da kan vi fokusere på behov i dette kapittelet-->
 
 Figuren viser en overordnet oversikt over roller som kan være involvert i DHO baserte tjenesteforløp. Denne rolleoversikten er basert på dialog med aktører fra kommune-, fastlege- og spesialisthelsetjenesten i to utprøvingsprosjekt.
 
