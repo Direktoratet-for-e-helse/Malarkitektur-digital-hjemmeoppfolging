@@ -219,7 +219,7 @@ Her vises i prioritert rekkefølge de informasjonstjenestene som er mest ettersp
 3. (IT17 og IT07) Målinger, vurderinger og varsel
 4. (IT10 og IT24) Dialogtjenester
 
-I tillegg er det en rekke andre informasjonstjenester som er høyt prioritert av tjenesten, disse vises i figuren:
+I tillegg er det en rekke andre informasjonstjenester som er høyt prioritert av tjenesten, disse vises i figuren: <!--Skulle vi vurdert å bruke figuren fra målbilde med alle informasjonstjenestene i arbeidet for å vise sammenhengene?-->
 ![226722458](https://user-images.githubusercontent.com/6229665/201674656-d97f3a8a-912a-41ee-b621-a1df9860d730.png)
 
 Siden samhandlingsløsninger knyttet til både Behandlingsplaner/Egenbehandlingsplaner og legemiddelliste utvikles av andre prosjekter er det besluttet at de viktigste tjenestene å utvikle bedre samhandlingsløsninger for i tilknytning til DHO handler om Målinger, vurderinger og Varsel. Dette er informasjonstjenester som etterspørres fra mange virksomheter og alle omsorgsnivå i flere geografiske regioner.
