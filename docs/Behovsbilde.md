@@ -76,7 +76,7 @@ Tabellen under viser en oversikt over:
 * Hvilken prioritet og tidsperspektiv behovet har
   * Prioritet scores i kategoriene høy/middels/lav/ekstern ut fra antagelse om forventet nytte/effekt
     * Høy nytteverdi betyr at tilfredstillels av behovet vil gi stor nytte og det er mange brukere
-    * Middels nytteverdi betyr at tilfredstillelse av behovet vil kunne føre til spart tid og bedre kvalitet men er ikke kritisk for å ta i bruk tjenesten
+    * Middels nytteverdi betyr at tilfredstillelse av behovet vil kunne føre til spart tid og bedre kvalitet men er ikke kritisk for å ta i bruk tjenesten <!--Her mener vi vel tjenesteforløpet? Tilby DHO uten at informasjonsdeling er på plass?-->
     * Lav nytteverdi angir behov hvor nytten for brukeren er liten eller at behovet innehas av få brukere
     * Ekstern betegner behov som må spilles inn til andre prosjekter og behovet må tilfredstilles (i hovedsak) av løsninger som ligger utenfor omfanget av målarkitekturen
   * Tidsperspektiv kategoriene angis med: Kort (0-1 år), mellom(lang) (1-3 år) og lang (3-5 år)
