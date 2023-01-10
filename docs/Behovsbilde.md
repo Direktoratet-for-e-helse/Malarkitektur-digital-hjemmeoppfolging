@@ -207,17 +207,17 @@ Det er identifisert behov for samhandling om ytterligere informasjon og informas
 * (IT03) Legemiddelliste
 * (IT09) Journalnotat
 * (IT01) Klinisk oppsummering <!--Denner ikke med i tabell over behov og kobling mot informasjonstjenester i Akson. Vi får vurdere om det faktisk er IOT01 vi skal beskrive eller om det som er kommet frem dekkes av IT09-->
-* Basisinformasjon pasient
-* Dialogtjenester
+* (IT12) Basisinformasjon pasient
+* (IT10 og IT24) Dialogtjenester <!--Kunne denne vært koblet mot Kommunikasjon ved saksbehandling og Tekstlig dialog? Børd da beskrives i tabell-->
 
 ## Prioritering av informasjonstjenester
 
-De informasjonstjenestene som er mest etterspurt av helsepersonell som tilbyr tjenesteforløp som inkluderer DHO er i prioritert rekkefølge:
+Her vises i prioritert rekkefølge de informasjonstjenestene som er mest etterspurt av helsepersonell:
 
-1. Egenbehandlingsplan og behandlingsplan
-2. Legemiddelliste
-3. Målinger, vurderinger og varsel
-4. Dialogtjenester
+1. (IT08) Egenbehandlingsplan
+2. (IT03) Legemiddelliste
+3. (IT17 og IT07) Målinger, vurderinger og varsel
+4. (IT10 og IT24) Dialogtjenester
 
 I tillegg er det en rekke andre informasjonstjenester som er høyt prioritert av tjenesten, disse vises i figuren:
 ![226722458](https://user-images.githubusercontent.com/6229665/201674656-d97f3a8a-912a-41ee-b621-a1df9860d730.png)
