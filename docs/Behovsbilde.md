@@ -80,6 +80,7 @@ Tabellen under viser en oversikt over:
     * Lav nytteverdi angir behov hvor nytten for brukeren er liten eller at behovet innehas av få brukere
     * Ekstern betegner behov som må spilles inn til andre prosjekter og behovet må tilfredstilles (i hovedsak) av løsninger som ligger utenfor omfanget av målarkitekturen
   * Tidsperspektiv kategoriene angis med: Kort (0-1 år), mellom(lang) (1-3 år) og lang (3-5 år)
+* Kartlagte behov for å understøtte tjenesteforløp
 * Viktige funksjonelle krav som må oppfylles for å tilfredstille behovet på en god måte
 
 |Rolle| Prioritet / tidsperspektiv|Behov|Funksjonelle krav|
