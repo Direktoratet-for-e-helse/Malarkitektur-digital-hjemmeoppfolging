@@ -107,7 +107,7 @@ Tabellen under viser en oversikt over:
 
 ## Roller i tjenesteforløp med digital hjemmeoppfølging <!--Kunne beskrivelsene av roller i pasientforløpet flyttes til bakgrunn - behov? Da kan vi fokusere på behov i dette kapittelet-->
 
-Figuren viser en overordnet oversikt over roller som kan være involvert i DHO baserte tjenesteforløp. Denne rolleoversikten er basert på dialog med aktører fra kommune-, fastlege- og spesialisthelsetjenesten i to utprøvingsprosjekt.
+Figuren viser en overordnet oversikt over roller som kan være involvert i DHO baserte tjenesteforløp. Denne rolleoversikten er basert på dialog med aktører fra kommune-, fastlege- og spesialisthelsetjenesten i to utprøvingsprosjekt, og vil derfor ikke være uttømmende.
 
 [![Roller](img/roller.png)](img/roller.png)
 
