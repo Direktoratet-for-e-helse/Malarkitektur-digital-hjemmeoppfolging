@@ -21,19 +21,12 @@ Målbilde for samhandling begrenser seg til å understøtte ytelse av helse- og 
 Samhandlingstjenester i behandlingsforløp der tjenesten digital hjemmeoppfølging benyttes skal tilrettelegge for følgende funksjonelle behov:
  <!--Forslag til ny beskrivelse av funksjonelle behov (nummerert) for å ikke ta bort de tidligere beskrivelsene-->
 1. Som helsepersonell har jeg behov for tilgang til oppdatert informasjon som er nødvendig for å yte helsehjelp til pasient på en effektiv måte
-2. Som helsepersonell har jeg behov for å søke etter og få tilgjengeliggjort informasjon/ data fra pasient (data fra fra sensorer, medisinsk utstyr og pasientrapporterte data som symptomer, funksjon og målinger) som benyttes for beslutninger om helsehjelp
-3. Som helsepersonell har jeg behov for å slippe å registrere samme informasjon flere ganger i ulike system for å spare tid og unngå feil ved duplisering av informasjon
-3. Som helsepersonell har jeg behov for å samarbeid med pasient og annet helsepersonell om utarbeidelse og oppfølging av behandlings- og egenbehandlingplaner slik at oppdatert informasjon er tilgjengelig og en unngår forsinkelser i oppfølging av pasient
-4. Som pasient har jeg behov for tilgang til oppdatert og relevant informasjon for å mestre og ivareta egen helse.
-5. Som pasient har jeg behov for at helsepersonell med tjenstlig behov har tilgang til data fra meg som pasient slik at jeg slipper å gjenfortelle historien min
+1. Som helsepersonell har jeg behov for å slippe å registrere samme informasjon flere ganger i ulike system, for å spare tid og unngå feil ved duplisering av informasjon
+1. Som helsepersonell har jeg behov for å samarbeid med pasient og annet helsepersonell om utarbeidelse og oppfølging av behandlings- og egenbehandlingsplaner, slik at oppdaterte planer er tilgjengelig for alle aktører og for å unngå forsinkelser i oppfølging av pasient
+1. Som pasient har jeg behov for tilgang til oppdatert og relevant informasjon for å mestre og ivareta egen helse
+1. Som pasient har jeg behov for at helsepersonell med tjenstlig behov har tilgang til relevant informasjon uavhengig av hvem som har registrert informasjonen, slik at jeg slipper å gjenfortelle historien min
 
-* _Jeg som helsepersonell får tilgang til oppdatert informasjon om pasienten som er nødvendig for å yte_ _god helsehjelp på en effektiv måte_
-* _Jeg som helsepersonell kan søke etter og få tilgjengeliggjort relevant informasjon for tjenesteforløp der Digital hjemmeoppfølging benyttes som underlag for beslutninger om helsehjelp_
-* Som helsespersonell slipper jeg å registrere samme informasjon flere ganger i ulike systemer for å spare tid og unngå feil ved duplisering av data
-* _Jeg som helsepersonell kan samarbeide med pasienter og annet helsepersonell om utarbeidelse og oppfølging av_ behandlings- og egenbehandlingsplaner slik at oppdatert informasjon er tilgjengelig eg en unngår forsinkelser i oppfølging av pasienten
-* _Jeg som pasient får tilgang til oppdatert og relevant informasjon for å ivareta egen helse_
-
-![229246071](https://user-images.githubusercontent.com/6229665/201673221-debad9fc-b32f-42fb-b0d4-0c8dbeefc2ab.png)
+![Samhandlingsbehov](https://user-images.githubusercontent.com/6229665/201673221-debad9fc-b32f-42fb-b0d4-0c8dbeefc2ab.png)
 
 ## Tjenesteforløp og samhandling
 
