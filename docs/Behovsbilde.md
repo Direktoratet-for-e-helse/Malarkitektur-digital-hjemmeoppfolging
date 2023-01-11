@@ -100,7 +100,7 @@ Tabellen under viser en oversikt over:
 
 ## Roller i tjenesteforløp med digital hjemmeoppfølging <!--Kunne beskrivelsene av roller i pasientforløpet flyttes til bakgrunn - behov? Da kan vi fokusere på behov i dette kapittelet-->
 
-Figuren viser en overordnet oversikt over roller som kan være involvert i DHO baserte tjenesteforløp. Denne rolleoversikten er basert på dialog med aktører fra kommune-, fastlege- og spesialisthelsetjenesten i to utprøvingsprosjekt.
+Figuren viser en overordnet oversikt over roller som kan være involvert i DHO baserte tjenesteforløp. Denne rolleoversikten er basert på dialog med aktører fra kommune-, fastlege- og spesialisthelsetjenesten i to utprøvingsprosjekt, og vil derfor ikke være uttømmende.
 
 [![Roller](img/roller.png)](img/roller.png)
 
@@ -114,7 +114,7 @@ Figuren viser en overordnet oversikt over roller som kan være involvert i DHO b
 | Helsepersonell fastlege | Samlebetegnelse for helsepersonell tilknyttet fastlegetjenesten. |
 | Fastlege | Lege som inngår avtale med en kommune om deltakelse i fastlegeordningen, uavhengig av om legen er ansatt i kommunen eller er selvstendig næringsdrivende. (kilde: Lovdata) |
 | Primærhelseteam | Ivaretar daglig oppfølging av en pasient med DHO tjeneste på vegne av fastlegen (bare relevant i noen kommuner) |
-| Helsesekretær |  |
+| Helsesekretær |Tar imot henvendelser fra innbygger og helsepersonell, og utfører kontorfaglige oppgaver|
 | Helsestasjon for eldre |  |
 | Helsepersonell kommune | Samlebetegnelse for helsepersonell tilknyttet kommunehelsetjenesten. |
 | Fysioterapeut | En fysioterapeut behandler og forebygger skader og sykdommer som gir smerte eller nedsatt funksjon i muskel- og skjelettsystemet (kilde utdanning.no) |
