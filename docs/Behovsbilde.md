@@ -124,7 +124,7 @@ Figuren viser en overordnet oversikt over roller som kan være involvert i DHO b
 | Ambulant team |Et tverrfaglig team som følger opp multisyke eldre i overgangen mellom sykehus og hjem i et samarbeid mellom sykehus og kommune. Teamet gjennomfører kartleggingsarbeid for å se hvilke tilbud som kan være til hjelp for pasienten |
 | Helsepersonell HF | Samlebetegnelse for helsepersonell tilknyttet spesialisthelsetjenesten. |
 | Lege i spesialisthelsetjenesten|Lege ansatt på sykehus innen ulike fagområder|
-| Helsesekretær |Tar imot henvendelser fra pasint/bruker og helsepersonell og utfører kontorfaglige oppgaver  |
+| Helsesekretær |Tar imot henvendelser fra pasient/bruker og helsepersonell og utfører kontorfaglige oppgaver  |
 | Eldrehelsekoordinator |Stilling som er del av tverrfaglig ambulant team  |
 
 Referanser: [sentrale begreper definert i Program Digital Samhandling](https://sh.ehelse.no/akson/Dokumentbibliotek%20Forprosjekt%20Steg%202/20%20Leveranser/09.%20Sentralt%20styringsdokument/05%20Vedlegg%20SSD/Vedlegg%20A%20Sentrale%20begreper.docx?d=w5a50e9a879ab4c1a800b8a88cca9040c), Digdir, [Helsedirektoratet](https://www.helsedirektoratet.no/rundskriv/pasient-og-brukerrettighetsloven-med-kommentarer/alminnelige-bestemmelser/definisjoner#:~:text=pasient%3A%20en%20person%20som%20henvender,som%20p%C3%A5r%C3%B8rende%20og%20n%C3%A6rmeste%20p%C3%A5r%C3%B8rende.)
