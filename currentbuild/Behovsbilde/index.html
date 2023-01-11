@@ -577,7 +577,7 @@
       
         <li class="md-nav__item">
   <a href="#detaljer-om-malinger" class="md-nav__link">
-    Detaljer om målinger 
+    Detaljer om målinger
   </a>
   
 </li>
@@ -963,7 +963,7 @@
       
         <li class="md-nav__item">
   <a href="#detaljer-om-malinger" class="md-nav__link">
-    Detaljer om målinger 
+    Detaljer om målinger
   </a>
   
 </li>
@@ -1536,13 +1536,9 @@
 </tbody>
 </table>
 <h2 id="informasjonstjenester-som-beskrives-i-dho-arbeidet">Informasjonstjenester som beskrives i DHO arbeidet</h2>
-<p>Målarkitekturen skal beskrive behov for samhandling og informasjonstjenester som kan sikre at samhandlingen understøtter helsetjenesten på en hensiktsmessig måte. I arbeidet med å kartlegge informasjonsbehov skiller vi mellom informasjonsressurser og informasjonstjenester som må etableres for å understøtte informasjonsbehovet. I den grad det er nødvendig vil arbeidet også beskrive andre initiativer som etablerer informasjonstjenester () det er behov for i forbindelse med DHO og hvordan disse tjenestene bør tilgjengeliggjøres for å svare ut behov som er identifisert i forbindelse med DHO. <!--Jeg synes følgende setning kunne utheves i en ramme i stedet for det som nå står som pasientrapporterte data under. Det vil tydeliggjøre fokusområdet for beskrivelsene-->Gjennom dette arbeidet er det hovedfokus på hvordan data fra pasient (pasientregistrerte eller fra sensorer og utstyr) kan brukes på tvers av omsorgsnivå i helsetjenesten på en hensiktsmessig måte, og hvordan samhandlingen om denne informasjonen bør innrettes.</p>
-<blockquote>
-<p>Pasientrapporterte data
-<em>Pasientene er aktive deltakere og bidragsytere i helsehjelpen de mottar og kan</em> <br />
-<em>følges opp i hjemmet ved at pasientens egenmålinger, pasientrapporterte opplysninger om</em> <br />
-<em>egen helsetilstand eller automatiske målinger, sendes digitalt til helsetjenesten,</em></p>
-</blockquote>
+<p>Målarkitekturen skal beskrive behov for samhandling og informasjonstjenester som kan sikre at samhandlingen understøtter helsetjenesten på en hensiktsmessig måte. I arbeidet med å kartlegge informasjonsbehov skiller vi mellom informasjonsressurser og informasjonstjenester som må etableres for å understøtte informasjonsbehovet. I den grad det er nødvendig vil arbeidet også beskrive andre initiativer som etablerer informasjonstjenester () det er behov for i forbindelse med DHO og hvordan disse tjenestene bør tilgjengeliggjøres for å svare ut behov som er identifisert i forbindelse med DHO. <!--Jeg synes følgende setning kunne utheves i en ramme i stedet for det som nå står som pasientrapporterte data under. Det vil tydeliggjøre fokusområdet for beskrivelsene-->
+ ! note "Samhandling på tvers"
+    Gjennom dette arbeidet er det hovedfokus på hvordan data fra pasient (pasientregistrerte eller fra sensorer og utstyr) kan brukes på tvers av omsorgsnivå i helsetjenesten på en hensiktsmessig måte, og hvordan samhandlingen om denne informasjonen bør innrettes.</p>
 <h2 id="data-fra-pasient-og-informasjonstjenester">Data fra pasient og informasjonstjenester</h2>
 <p>Hovedmålet for målarkitekturen DHO er å vise hvordan samhandlingen knyttet til data fra pasient skal gjennomføres, samtidig som den må vise hvilke andre informasjonstjenester som må være tilstede for å understøtte <!--tjenesteforløp - kun bruke dette hvis vi blir eninge om begrepsbruk--> en sammenhengende DHO tjeneste. Informasjonstjenestene som omfattes er i denne sammenhengen:</p>
 <ul>
@@ -1550,6 +1546,8 @@
 <li>(IT17) - Skjemabesvarelser og NEWS scoringer</li>
 <li>(IT17 og IT07) - Vurderinger og varsel basert på målinger</li>
 </ul>
+<p>! note "Pasientrapporterte data"
+  Pasientene er aktive deltakere og bidragsytere i helsehjelpen de mottar og kan følges opp i hjemmet ved at pasientens egenmålinger, pasientrapporterte opplysninger om egen helsetilstand eller automatiske målinger, sendes digitalt til helsetjenesten.</p>
 <h2 id="informasjonstjenester-i-andre-kategorier">Informasjonstjenester i andre kategorier</h2>
 <p>Det er identifisert behov for samhandling om ytterligere informasjon og informasjonstjenester for å understøtte et  sammenhengende tjenesteforløp som inkluderer DHO. Dette inkluderer følgende behov:</p>
 <ul>
@@ -1558,10 +1556,15 @@
 <li>(IT23) Tjenester, inkludert hjelpemidler og logistikk</li>
 <li>(IT03) Legemiddelliste</li>
 <li>(IT09) Journalnotat</li>
-<li>(IT01) Klinisk oppsummering <!--Denner ikke med i tabell over behov og kobling mot informasjonstjenester i Akson. Vi får vurdere om det faktisk er IOT01 vi skal beskrive eller om det som er kommet frem dekkes av IT09 SVAR: Denne er med i tabellen over og sammenhengene er vist i figuren https://user-images.githubusercontent.com/6229665/201674228-84a1171d-0006-4720-a462-aaba5947dca8.png--></li>
-<li>(IT12) Basisinformasjon pasient</li>
-<li>(IT10 og IT24) Dialogtjenester <!--Kunne denne vært koblet mot Kommunikasjon ved saksbehandling og Tekstlig dialog? Børd da beskrives i tabell SVAR vi behandler ikke dialog i detalj, men vi kan nevne IT10/IT11 og IT 24 i tabellen--></li>
+<li>(IT01) Klinisk oppsummering <!--Denner ikke med i tabell over behov og kobling mot informasjonstjenester i Akson. Vi får vurdere om det faktisk er IOT01 vi skal beskrive eller om det som er kommet frem dekkes av IT09 --></li>
 </ul>
+<!-- SVAR: Denne er med i tabellen over og sammenhengene er vist i figuren https://user-images.githubusercontent.com/6229665/201674228-84a1171d-0006-4720-a462-aaba5947dca8.png-->
+<ul>
+<li>(IT12) Basisinformasjon pasient</li>
+<li>(IT10 og IT11) Dialogtjenester <!--Kunne denne vært koblet mot Kommunikasjon ved saksbehandling og Tekstlig dialog? Børd da beskrives i tabell--></li>
+</ul>
+<!--SVAR vi behandler ikke dialog i detalj, men vi kan nevne IT10/IT11 og Tror ikke IT24 er relevant her-->
+
 <h2 id="prioritering-av-informasjonstjenester">Prioritering av informasjonstjenester</h2>
 <p>Her vises i prioritert rekkefølge de informasjonstjenestene som er mest etterspurt av helsepersonell:</p>
 <ol>
@@ -1570,10 +1573,14 @@
 <li>(IT17 og IT07) Målinger, vurderinger og varsel</li>
 <li>(IT10 og IT24) Dialogtjenester</li>
 </ol>
-<p>I tillegg er det en rekke andre informasjonstjenester som er høyt prioritert av tjenesten, disse vises i figuren: <!--Skulle vi vurdert å bruke figuren fra målbilde med alle informasjonstjenestene i arbeidet for å vise sammenhengene?-->
-<img alt="226722458" src="https://user-images.githubusercontent.com/6229665/201674656-d97f3a8a-912a-41ee-b621-a1df9860d730.png" /></p>
-<p>Det utvikles samhandlingsløsninger knyttet til behov for digitale behandlings- og egenbehandlingsplaner ![https://www.helsedirektoratet.no/om-oss/forsoksordninger-og-prosjekter/digital-behandlings-og-egenbehandlingsplan ] og legemiddelliste ![https://www.ehelse.no/programmer/program pasientens legemiddelliste] gjennom egne initiativ. Det er derfor besluttet at de viktigste tjenestene å utvikle samhandlingsløsninger for i DHO arbeidet nå som et første steg handler om Målinger, vurderinger og Varsel. Dette er informasjonstjenester som etterspørres fra mange virksomheter og alle omsorgsnivå i flere geografiske regioner.</p>
-<h2 id="detaljer-om-malinger">Detaljer om målinger <!--Hva med vurderinger og varsel siden overskriften er målinger?--></h2>
+<p>I tillegg er det en rekke andre informasjonstjenester som er høyt prioritert av tjenesten, disse vises i figuren: <!--Skulle vi vurdert å bruke figuren fra målbilde med alle informasjonstjenestene i arbeidet for å vise sammenhengene?--></p>
+<!--SVAR: Nei, denne figuren har vist seg å fungere greit for å vise de høyest prioriterte informasjonsbehovene innen DHO-->
+<p><img alt="226722458" src="https://user-images.githubusercontent.com/6229665/201674656-d97f3a8a-912a-41ee-b621-a1df9860d730.png" /></p>
+<p>Det utvikles samhandlingsløsninger knyttet til behov for <a href="https://www.helsedirektoratet.no/om-oss/forsoksordninger-og-prosjekter/digital-behandlings-og-egenbehandlingsplan">digitale behandlings- og egenbehandlingsplaner</a> og <a href="https://www.ehelse.no/prosjekt/program-pasientens-legemiddelliste">legemiddelliste</a> gjennom egne initiativ. Det er derfor besluttet at de viktigste tjenestene å utvikle samhandlingsløsninger for i DHO arbeidet nå som et første steg handler om Målinger, vurderinger og Varsel. Dette er informasjonstjenester som etterspørres fra mange virksomheter og alle omsorgsnivå i flere geografiske regioner.</p>
+<h2 id="detaljer-om-malinger">Detaljer om målinger</h2>
+<!--Hva med vurderinger og varsel siden overskriften er målinger? -->
+<!-- Hva med vurderinger og varsel? Er det et spørsmål her? -->
+
 <p>Målinger består av flere typer måleparametere som beskriver pasientens helsetilstand og som kan bidra til å støtte oppfølging av behandling og synliggjøre endring i tilstand. Følgende figur viser omfanget for deling av målinger i steg 1 (internt i en virksomhet) ved bruk av velferdsteknologisk knutepunkt (VKP) på dette området:</p>
 <p><img alt="207618771" src="https://user-images.githubusercontent.com/6229665/201674756-0db63ed3-6100-42f1-9e4c-daa2a55b855b.png" /></p>
 <p>Målinger kan lagres og vises direkte eller fungere som grunnlag for andre arbeidsprosesser, for eksempel journalføring:</p>
