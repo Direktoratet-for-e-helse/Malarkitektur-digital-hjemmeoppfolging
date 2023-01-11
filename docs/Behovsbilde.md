@@ -182,12 +182,9 @@ Tabellen under viser en oversikt over identifiserte informasjonsbehov og kobling
 
 ## Informasjonstjenester som beskrives i DHO arbeidet
 
- Målarkitekturen skal beskrive behov for samhandling og informasjonstjenester som kan sikre at samhandlingen understøtter helsetjenesten på en hensiktsmessig måte. I arbeidet med å kartlegge informasjonsbehov skiller vi mellom informasjonsressurser og informasjonstjenester som må etableres for å understøtte informasjonsbehovet. I den grad det er nødvendig vil arbeidet også beskrive andre initiativer som etablerer informasjonstjenester () det er behov for i forbindelse med DHO og hvordan disse tjenestene bør tilgjengeliggjøres for å svare ut behov som er identifisert i forbindelse med DHO. <!--Jeg synes følgende setning kunne utheves i en ramme i stedet for det som nå står som pasientrapporterte data under. Det vil tydeliggjøre fokusområdet for beskrivelsene-->Gjennom dette arbeidet er det hovedfokus på hvordan data fra pasient (pasientregistrerte eller fra sensorer og utstyr) kan brukes på tvers av omsorgsnivå i helsetjenesten på en hensiktsmessig måte, og hvordan samhandlingen om denne informasjonen bør innrettes.
-
-> Pasientrapporterte data
-> _Pasientene er aktive deltakere og bidragsytere i helsehjelpen de mottar og kan_   
-> _følges opp i hjemmet ved at pasientens egenmålinger, pasientrapporterte opplysninger om_   
-> _egen helsetilstand eller automatiske målinger, sendes digitalt til helsetjenesten,_
+ Målarkitekturen skal beskrive behov for samhandling og informasjonstjenester som kan sikre at samhandlingen understøtter helsetjenesten på en hensiktsmessig måte. I arbeidet med å kartlegge informasjonsbehov skiller vi mellom informasjonsressurser og informasjonstjenester som må etableres for å understøtte informasjonsbehovet. I den grad det er nødvendig vil arbeidet også beskrive andre initiativer som etablerer informasjonstjenester () det er behov for i forbindelse med DHO og hvordan disse tjenestene bør tilgjengeliggjøres for å svare ut behov som er identifisert i forbindelse med DHO. <!--Jeg synes følgende setning kunne utheves i en ramme i stedet for det som nå står som pasientrapporterte data under. Det vil tydeliggjøre fokusområdet for beskrivelsene-->
+ ! note "Samhandling på tvers"
+    Gjennom dette arbeidet er det hovedfokus på hvordan data fra pasient (pasientregistrerte eller fra sensorer og utstyr) kan brukes på tvers av omsorgsnivå i helsetjenesten på en hensiktsmessig måte, og hvordan samhandlingen om denne informasjonen bør innrettes.
 
 ## Data fra pasient og informasjonstjenester
 
@@ -196,6 +193,9 @@ Hovedmålet for målarkitekturen DHO er å vise hvordan samhandlingen knyttet ti
 * (IT17) - Undersøkelser, målinger og funn
 * (IT17) - Skjemabesvarelser og NEWS scoringer
 * (IT17 og IT07) - Vurderinger og varsel basert på målinger
+
+! note "Pasientrapporterte data"
+  Pasientene er aktive deltakere og bidragsytere i helsehjelpen de mottar og kan følges opp i hjemmet ved at pasientens egenmålinger, pasientrapporterte opplysninger om egen helsetilstand eller automatiske målinger, sendes digitalt til helsetjenesten.
 
 ## Informasjonstjenester i andre kategorier
 
@@ -209,8 +209,8 @@ Det er identifisert behov for samhandling om ytterligere informasjon og informas
 * (IT01) Klinisk oppsummering <!--Denner ikke med i tabell over behov og kobling mot informasjonstjenester i Akson. Vi får vurdere om det faktisk er IOT01 vi skal beskrive eller om det som er kommet frem dekkes av IT09 -->
 <!-- SVAR: Denne er med i tabellen over og sammenhengene er vist i figuren https://user-images.githubusercontent.com/6229665/201674228-84a1171d-0006-4720-a462-aaba5947dca8.png-->
 * (IT12) Basisinformasjon pasient
-* (IT10 og IT24) Dialogtjenester <!--Kunne denne vært koblet mot Kommunikasjon ved saksbehandling og Tekstlig dialog? Børd da beskrives i tabell-->
-<!--SVAR vi behandler ikke dialog i detalj, men vi kan nevne IT10/IT11 og IT 24 i tabellen-->
+* (IT10 og IT11) Dialogtjenester <!--Kunne denne vært koblet mot Kommunikasjon ved saksbehandling og Tekstlig dialog? Børd da beskrives i tabell-->
+<!--SVAR vi behandler ikke dialog i detalj, men vi kan nevne IT10/IT11 og Tror ikke IT24 er relevant her-->
 
 ## Prioritering av informasjonstjenester
 
