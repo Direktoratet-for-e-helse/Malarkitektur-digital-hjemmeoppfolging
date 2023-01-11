@@ -118,6 +118,7 @@ Figuren viser en overordnet oversikt over roller som kan være involvert i DHO b
 | Helsestasjon for eldre |  |
 | Helsepersonell kommune | Samlebetegnelse for helsepersonell tilknyttet kommunehelsetjenesten. |
 | Fysioterapeut | En fysioterapeut behandler og forebygger skader og sykdommer som gir smerte eller nedsatt funksjon i muskel- og skjelettsystemet (kilde utdanning.no) |
+|Ergoterapeut | |
 | Hjemmetjeneste |  |
 | Farmasøyt |  |
 | Oppfølgingsansvarlig | Den som har ansvar for den daglige oppfølging av pasienten |
