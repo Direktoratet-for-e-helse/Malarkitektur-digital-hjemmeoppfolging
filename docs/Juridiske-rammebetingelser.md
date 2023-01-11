@@ -4,9 +4,9 @@ title: Juridiske rammebetingelser
 nav_order: 6
 ---
 
-| Status                                                      | Version | Maturity | Normative level |
-| :------------------------------------------------------------ | :-------- | :--------- | :---------------- |
-| <span style="background-color:gold">Work in progress</span> | v0.3    | draft    | ikke normert    |
+| Status           | Version | Maturity | Normative level |
+| :--------------- | :------ | :------- | :-------------- |
+| <span style="background-color:gold">Work in progress</span> | v0.3 | draft | ikke normert |
 
 ## Sammendrag
 
