@@ -121,10 +121,10 @@ Figuren viser en overordnet oversikt over roller som kan være involvert i DHO b
 |Ergoterapeut | |
 | Hjemmetjeneste |Helsetjenester som ytes hjemme hos pasient/bruker.  |
 | Farmasøyt |  |
-| Oppfølgingsansvarlig | Den som har ansvar for den daglige oppfølging av pasienten |
+| Oppfølgingsansvarlig | Den som har ansvar for den daglige oppfølging av pasient som mottar digital hjemmeoppfølging. Rollen ivaretas oftes av sykepleier som kan være ansatt henholdsvis i spesialist- eller kommunehelsetjenesten |
 | Ambulante team |  |
 | Helsepersonell HF | Samlebetegnelse for helsepersonell tilknyttet spesialisthelsetjenesten. |
-| Spesialist |  |
+| Lege i spesialisthelsetjenesten|Lege ansatt på sykehus innen ulike fagområder|
 | Helsesekretær |  |
 | Eldrehelsekoordinator |  |
 
