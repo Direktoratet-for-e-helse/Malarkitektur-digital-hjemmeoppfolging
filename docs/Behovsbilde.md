@@ -114,7 +114,7 @@ Figuren viser en overordnet oversikt over roller som kan være involvert i DHO b
 | Helsepersonell fastlege | Samlebetegnelse for helsepersonell tilknyttet fastlegetjenesten. |
 | Fastlege | Lege som inngår avtale med en kommune om deltakelse i fastlegeordningen, uavhengig av om legen er ansatt i kommunen eller er selvstendig næringsdrivende. (kilde: Lovdata) |
 | Primærhelseteam <!--Ikke relevant hvis eksemplenme er LArvik, SIv - slik jeg leser figuren--> | Ivaretar daglig oppfølging av en pasient med DHO tjeneste på vegne av fastlegen (bare relevant i noen kommuner) |
-| Helsestasjon for eldre |Drive forebyggende og helsefremmende arbeid, samt være et lavterskeltilbud med ansatte som har ulik helsefaglig bakgrunn |
+| Helsestasjon for eldre |Drive forebyggende og helsefremmende arbeid, samt være et lavterskeltilbud med ansatte som har ulik helsefaglig bakgrunn og som jobber både i spesialist og primærhelsetjenesten|
 | Helsepersonell kommune | Samlebetegnelse for helsepersonell tilknyttet kommunal helse- og omsorgstjeneste |
 | Fysioterapeut | En fysioterapeut behandler og forebygger skader og sykdommer som gir smerte eller nedsatt funksjon i muskel- og skjelettsystemet (kilde utdanning.no) |
 |Ergoterapeut |Arbeider helsefremmende og forebyggende for å fremme helse og aktivitet. Fokus på hva som hindrer eller muliggjør hverdagsaktiviteter og fokuserer på hva som er viktig i livet til den enkelte som skal hjelpes|
