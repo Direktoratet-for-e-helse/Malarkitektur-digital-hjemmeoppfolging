@@ -162,7 +162,7 @@ Tabellen under viser en oversikt over identifiserte informasjonsbehov og kobling
 
 | Informasjonsbehov | Informasjons-tjeneste | Hva | Hvorfor | Hvor (kilde) | Hvordan | Samhandlingsform | Når og hvor lenge | Sammenheng med andre informasjonstjenester |
 |---|---|---|---|---|---|---|---|---|
-| Målinger | Undersøkelser, målinger og funn (IT17) (Multimedia og MTU-målinger (IT07)) | Inneholder resultater fra målinger og registreringer av informasjon som beskriver pasientens tilstand.blodsukker, Pulsox, temperatur, vekt, blodtrykk og kroppsvekt. | Målinger av pasientens tilstand i øyeblikket, trender | pasienten, måleutstyr (Medisinsk Utstyr/DHO-system)DHO-system vil være hovedprodusent | Automatiske og manuelle registreringer | Slå opp og tilgjengeliggjøreSende og motta (internt i virksomheten) | Ved innleggelse og kontinuerlig oppfølging.Det kan være relevant ved behandlingsbeslutninger å ha tilgang til gamle målinger (flere år gamle) (Tilbakemelding fra lege spesialisthelsetjenesten) | IT08 PlanIT23 Tjeneste, ytelser og hjelpemidlerIT09 JournaldokumenterIT?? Vurderinger |
+| Målinger | Undersøkelser, målinger og funn (IT17) (Multimedia og MTU-målinger (IT07)) | Inneholder resultater fra målinger og registreringer av informasjon som beskriver pasientens tilstand.blodsukker, Pulsox, temperatur, vekt, blodtrykk og kroppsvekt. | Målinger av pasientens tilstand i øyeblikket, trender | pasienten, måleutstyr (Medisinsk Utstyr/DHO-system)DHO-system vil være hovedprodusent | Automatiske og manuelle registreringer | Slå opp og tilgjengeliggjøre </br> Sende og motta (internt i virksomheten) | Ved innleggelse og kontinuerlig oppfølging.Det kan være relevant ved behandlingsbeslutninger å ha tilgang til gamle målinger (flere år gamle) (Tilbakemelding fra lege spesialisthelsetjenesten) | IT08 Plan, IT23 Tjeneste, ytelser og hjelpemidler, IT09 Journaldokumenter og IT?? Vurderinger |
 | Skjemabesvarelser | Undersøkelser, målinger og funn (IT17) | Innrapporterte data, eventuelt med poengsum,&nbsp; som beskriver pasientens tilstand.For eksempel skjemabesvarelser fra KOLS pasienter | Observasjon av pasientens tilstand i øyeblikket, trender | pasienten, Medisinsk Utstyr/DHO-system | Manuelle observasjoner | Slå opp og tilgjengeliggjøre |  |  |
 | Journalnotat | Journaldokumenter (IT09) | Oppfølgingsnotater og sammenstillinger fra oppfølgingsansvarlig basert på innrapporterte data (målinger, varsel, skjemabesvarelser).Tidligere epikriser og sykepleiesammenfatninger, journalnotater, vurderinger, utredninger | Dokumentere hva som har skjedd, sammenstille informasjon for journalføringInnhente tilleggsinformasjon&nbsp; fra kommune/spesialist/fastlege? | Journalsystem/ DHO system som brukes i oppfølgingen/dokumentasjonsarbeidet | Manuelle føringer | Slå opp og tilgjengeliggjøre |  |  |
 | Varsel | Undersøkelser, målinger og funn (IT17) | Basert på analyser/vurderinger av målinger eller skjemabesvarelserGrønne, gule, røde målinger – alvorlighetsgrad med referanseområde for normalverdi, Poengsum fra skjemabesvarelser, Ikke utførte oppgaver, inaktiv pasient | Varsle om målinger/poengsum utenfor referanseverdi eller manglende data, for å beslutte tiltak, eller som en del av journalnotatet.Eksisterer det samhandlingsbehov mellom virksomheter/internt i virksomheten rundt selve varslene til andre aktører?Det uttrykkes som et behov at dette kan deles til andre aktører (røde til spesialist etc). Men det er ikke konkretisert og løst p.t. kanskje et mer sentralt behov på sikt. | DHO-system, Medisinsk utstyr, analyseplattform | Manuelle eller automatiske vurderinger/analyser? | Ikke identifisert samhandlingsbehov utenfor virksomheten |  |  |
@@ -177,12 +177,13 @@ Tabellen under viser en oversikt over identifiserte informasjonsbehov og kobling
 | Egenbehandlingsplan | Plan (IT08) | En plan med beskrivelse av tiltak som pasienten selv har&nbsp;ansvaret for å gjennomføreEgenmestringsplan – ta med rehabiliteringsplan, øvelser, tiltaksplan – alt pasienten skal gjøre selv samlet | Formålet med egenbehandlingsplanen er å oppdage forverringer&nbsp;tidlig, forebygge og å redusere utvikling av en forverring, hindre sykehusinnleggelse og gi økt&nbsp;trygghet og mestringsopplevelse. Egenbehandlingsplanen er en del av behandlingsplanen, og skal&nbsp;lagres i et pasientjournalsystem | Pasientens DHO system, Journalsystem/ DHO system både fastlege, spesialist og kommunehelsetjeneste. | En egnebehandlingsplan kan opprettes som en selvstendig egenbehandlingsplan eller i tilknytning til en&nbsp;eller flere behandlingsplaner. En pasient har kun én egenbehandlingsplan. | Endre og dele |  |  |
 | Oppgaveruting |  | Hvem har ansvar for pasienten | Avklare hvem som tar ansvar for oppgaver |  | Henger sammen med hendelser og planer |  |  |  |
 |  | Klinisk oppsummering (IT01) | Klinisk oppsummering er en informasjonstjeneste som vil tilby oppsummert og utvalgt informasjon som beskriver innbyggers behov for helsehjelp her og nå, og hvilken helsehjelp som mottas |  |  |  | Slå opp og tilgjengeliggjøre |  |  |
-| Dialog |  |  | Raske avklaringer mellom behandlingsnivåene |  |  |  |  |  |
+| Dialog | Tekstlig dialog (IT10) og Video (IT11) |  | Raske avklaringer mellom behandlingsnivåene |  |  | Slå opp og tilgjengeliggjøre </br> Sende og motta </br> I tillegg er det behov for synkrone samhandlingsformer med både tale, tekst og video |  |  |
 | Vurderinger |  | Henger sammen med varsel og målinger, undersøkelser og funn |  |  |  |  |  |  |
 
 ## Informasjonstjenester som beskrives i DHO arbeidet
 
- Målarkitekturen skal beskrive behov for samhandling og informasjonstjenester som kan sikre at samhandlingen understøtter helsetjenesten på en hensiktsmessig måte. I arbeidet med å kartlegge informasjonsbehov skiller vi mellom informasjonsressurser og informasjonstjenester som må etableres for å understøtte informasjonsbehovet. I den grad det er nødvendig vil arbeidet også beskrive andre initiativer som etablerer informasjonstjenester () det er behov for i forbindelse med DHO og hvordan disse tjenestene bør tilgjengeliggjøres for å svare ut behov som er identifisert i forbindelse med DHO. <!--Jeg synes følgende setning kunne utheves i en ramme i stedet for det som nå står som pasientrapporterte data under. Det vil tydeliggjøre fokusområdet for beskrivelsene-->
+ Målarkitekturen skal beskrive behov for samhandling og informasjonstjenester som kan sikre at samhandlingen understøtter helsetjenesten på en hensiktsmessig måte. I arbeidet med å kartlegge informasjonsbehov skiller vi mellom informasjonsressurser og informasjonstjenester som må etableres for å understøtte informasjonsbehovet. I den grad det er nødvendig vil arbeidet også beskrive andre initiativer som etablerer informasjonstjenester () det er behov for i forbindelse med DHO og hvordan disse tjenestene bør tilgjengeliggjøres for å svare ut behov som er identifisert i forbindelse med DHO.  
+
  ! note "Samhandling på tvers"
     Gjennom dette arbeidet er det hovedfokus på hvordan data fra pasient (pasientregistrerte eller fra sensorer og utstyr) kan brukes på tvers av omsorgsnivå i helsetjenesten på en hensiktsmessig måte, og hvordan samhandlingen om denne informasjonen bør innrettes.
 
@@ -190,9 +191,9 @@ Tabellen under viser en oversikt over identifiserte informasjonsbehov og kobling
 
 Hovedmålet for målarkitekturen DHO er å vise hvordan samhandlingen knyttet til data fra pasient skal gjennomføres, samtidig som den må vise hvilke andre informasjonstjenester som må være tilstede for å understøtte <!--tjenesteforløp - kun bruke dette hvis vi blir eninge om begrepsbruk--> en sammenhengende DHO tjeneste. Informasjonstjenestene som omfattes er i denne sammenhengen:
 
-* (IT17) - Undersøkelser, målinger og funn
-* (IT17) - Skjemabesvarelser og NEWS scoringer
-* (IT17 og IT07) - Vurderinger og varsel basert på målinger
+* Undersøkelser, målinger og funn (IT17 og IT07)
+* Skjemabesvarelser og NEWS scoringer (IT17)
+* Vurderinger og varsel basert på målinger (IT17)
 
 ! note "Pasientrapporterte data"
   Pasientene er aktive deltakere og bidragsytere i helsehjelpen de mottar og kan følges opp i hjemmet ved at pasientens egenmålinger, pasientrapporterte opplysninger om egen helsetilstand eller automatiske målinger, sendes digitalt til helsetjenesten.
@@ -201,25 +202,27 @@ Hovedmålet for målarkitekturen DHO er å vise hvordan samhandlingen knyttet ti
 
 Det er identifisert behov for samhandling om ytterligere informasjon og informasjonstjenester for å understøtte et  sammenhengende tjenesteforløp som inkluderer DHO. Dette inkluderer følgende behov:
 
-* (IT08) Plan
-* (IT03 og IT19) Hendelser
-* (IT23) Tjenester, inkludert hjelpemidler og logistikk
-* (IT03) Legemiddelliste
-* (IT09) Journalnotat
-* (IT01) Klinisk oppsummering <!--Denner ikke med i tabell over behov og kobling mot informasjonstjenester i Akson. Vi får vurdere om det faktisk er IOT01 vi skal beskrive eller om det som er kommet frem dekkes av IT09 -->
+* Plan (IT08)
+* Hendelser (IT03 og IT19)
+* Tjenester, inkludert hjelpemidler og logistikk (IT23)
+* Legemiddelliste (IT03)
+* Journalnotat (IT09)
+* Klinisk oppsummering (IT01)
+<!--Denner ikke med i tabell over behov og kobling mot informasjonstjenester i Akson. Vi får vurdere om det faktisk er IOT01 vi skal beskrive eller om det som er kommet frem dekkes av IT09 -->
 <!-- SVAR: Denne er med i tabellen over og sammenhengene er vist i figuren https://user-images.githubusercontent.com/6229665/201674228-84a1171d-0006-4720-a462-aaba5947dca8.png-->
-* (IT12) Basisinformasjon pasient
-* (IT10 og IT11) Dialogtjenester <!--Kunne denne vært koblet mot Kommunikasjon ved saksbehandling og Tekstlig dialog? Børd da beskrives i tabell-->
+* Basisinformasjon pasient (IT12)
+* Dialogtjenester (IT10 og IT11)
+<!--Kunne denne vært koblet mot Kommunikasjon ved saksbehandling og Tekstlig dialog? Børd da beskrives i tabell-->
 <!--SVAR vi behandler ikke dialog i detalj, men vi kan nevne IT10/IT11 og Tror ikke IT24 er relevant her-->
 
 ## Prioritering av informasjonstjenester
 
 Her vises i prioritert rekkefølge de informasjonstjenestene som er mest etterspurt av helsepersonell:
 
-1. (IT08) Egenbehandlingsplan
-2. (IT03) Legemiddelliste
-3. (IT17 og IT07) Målinger, vurderinger og varsel
-4. (IT10 og IT24) Dialogtjenester
+1. Egenbehandlingsplan (IT08)
+2. Legemiddelliste (IT03)
+3. Målinger, vurderinger og varsel (IT17 og IT07)
+4. Dialogtjenester (IT10 og IT11)
 
 I tillegg er det en rekke andre informasjonstjenester som er høyt prioritert av tjenesten, disse vises i figuren: <!--Skulle vi vurdert å bruke figuren fra målbilde med alle informasjonstjenestene i arbeidet for å vise sammenhengene?-->
 <!--SVAR: Nei, denne figuren har vist seg å fungere greit for å vise de høyest prioriterte informasjonsbehovene innen DHO-->
@@ -229,15 +232,15 @@ Det utvikles samhandlingsløsninger knyttet til behov for [digitale behandlings-
 
 ## Detaljer om målinger
 <!--Hva med vurderinger og varsel siden overskriften er målinger? -->
-<!-- Hva med vurderinger og varsel? Er det et spørsmål her? -->
+<!-- thomiz SVAR: Hva med vurderinger og varsel? Er det et spørsmål her? -->
 
-Målinger består av flere typer måleparametere som beskriver pasientens helsetilstand og som kan bidra til å støtte oppfølging av behandling og synliggjøre endring i tilstand. Følgende figur viser omfanget for deling av målinger i steg 1 (internt i en virksomhet) ved bruk av velferdsteknologisk knutepunkt (VKP) på dette området:
+Målinger består av flere typer måleparametere som beskriver pasientens helsetilstand og som kan bidra til å støtte oppfølging av behandling og synliggjøre endring i tilstand. Figuren viser omfanget for deling av målinger i første fase av utprøving av datadeling ved bruk av velferdsteknologisk knutepunkt (VKP):
 
-![207618771](https://user-images.githubusercontent.com/6229665/201674756-0db63ed3-6100-42f1-9e4c-daa2a55b855b.png)
+![Datadeling av målinger med VKP](https://user-images.githubusercontent.com/6229665/201674756-0db63ed3-6100-42f1-9e4c-daa2a55b855b.png)
 
 Målinger kan lagres og vises direkte eller fungere som grunnlag for andre arbeidsprosesser, for eksempel journalføring:
 
-![207618811](https://user-images.githubusercontent.com/6229665/201674806-5f79126a-2505-4629-83af-69888656f6f9.png)
+![Sammenheng med andre informasjonstjenester](https://user-images.githubusercontent.com/6229665/201674806-5f79126a-2505-4629-83af-69888656f6f9.png)
 
 * Målinger kan legges til i journaldokumenter og journalføres (strukturert eller ustrukturert)
 * Hvilke målinger som skal gjennomføres kan styres gjennom egenbehandlingsplanen for pasienten
@@ -250,5 +253,7 @@ Helsepersonell har uttrykt behov for samarbeid om utarbeidelse og oppfølging av
 
 ## Detaljer om Pasientens legemiddelliste
 Helsepersonell som følger opp pasienter i tjenesteforløp der DHO inkluderes etterspør tilgang til en felles legemiddelliste. Tilgang til en felles liste for helsepersonell som følger opp og veileder pasienten kan bidra til å sikre god kvalitet ved behandling med legemidler. Program pasientens legemiddelliste vil etablere en felles digital oversikt over pasientens legemidler, pasientens legemiddelliste (PLL) og PLL vil bli realisert gradvis. 
-<!--Skrive noe om dialogtjenester hvsi tanken er å si noe om de mest prioriterte i informasjonstjenestene-->
+<!-- Skrive noe om dialogtjenester hvsi tanken er å si noe om de mest prioriterte i informasjonstjenestene -->
+<!-- thomiz SVAR: Beskrivelse av utvikling av dialogtjenester må komme på et senere tidspunkt, en annen leveranse -->
+
 <!-- Det er etterspurt beskrivelse over sammenhenger mellom pasientens legemiddelliste og målarkitekturen -->
