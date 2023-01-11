@@ -116,7 +116,7 @@ Figuren viser en overordnet oversikt over roller som kan være involvert i DHO b
 | Primærhelseteam | Ivaretar daglig oppfølging av en pasient med DHO tjeneste på vegne av fastlegen (bare relevant i noen kommuner) |
 | Helsesekretær |Tar imot henvendelser fra innbygger og helsepersonell, og utfører kontorfaglige oppgaver|
 | Helsestasjon for eldre |Drive forebyggende og helsefremmende arbeid, samt være et lavtersketltilbud med ansatte som har ulik helsefaglig bakgrunn |
-| Helsepersonell kommune | Samlebetegnelse for helsepersonell tilknyttet kommunehelsetjenesten. |
+| Helsepersonell kommune | Samlebetegnelse for helsepersonell tilknyttet kommunal helse- og omsorgstjeneste |
 | Fysioterapeut | En fysioterapeut behandler og forebygger skader og sykdommer som gir smerte eller nedsatt funksjon i muskel- og skjelettsystemet (kilde utdanning.no) |
 |Ergoterapeut | |
 | Hjemmetjeneste |Helsetjenester som ytes hjemme hos pasient/bruker.  |
