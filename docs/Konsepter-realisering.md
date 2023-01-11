@@ -20,11 +20,11 @@ Formålet med denne delen av målarkitekturen er å vise ulike mønster/ konsept
 
 Konseptene for etablering av funksjonalitet for datatilbyder (avgi og tilgjengeliggjøre) vurderes etter følgende kriterier:
 
-* Behovsoppnåelse, her skiller vi på identifiserte kortsiktige behov og langsiktige behov for samhandling innen DHO
-* Skalerbarhet, her skiller vi på skalering for utprøvingen og skalering nasjonalt
-  * Muligheter for gjenbruk av eksisterende felleskomponenter eller kode/spesifikasjoner på tvers av virksomheter
+* Behovsoppnåelse, i forhold til identifiserte [behov for samhandling innen digital hjemmeoppfølging](Behovsbilde.md#overordnede-brukerhistorier)
+* Skalerbarhet, her skiller vi på skalering for utprøvingen og skalering nasjonalt/regionalt
+  * Det er spesielt fokus på muligheter for gjenbruk av eksisterende felleskomponenter eller kode/spesifikasjoner på tvers av virksomheter
 * Fleksibilitet og innovasjonskraft, løsninger med stor fleksibilitet i forhold til å dekke lokale behov kan understøtte lokal innovasjon
-* Juridisk risiko, kan hele eller deler av konseptet realiseres innenfor gjeldende rett eller krever det lov/forskriftsarbeid for å realisere eller skalere
+* Juridisk risiko, kan hele eller deler av konseptet realiseres innenfor gjeldende rett eller krever det lov/forskriftsarbeid for å realisere eller skalere løsninger basert på konseptet
 * Kompleksitet i etablering og vedlikehold av løsningen
   * Etableres det løse eller sterke koblinger mellom aktører og løsningskomponenter for å realisere løsningen
   * Etableres det mange kompliserte spesialløsninger for å oppnå samhandling pådrar sektoren seg stor teknisk gjeld
