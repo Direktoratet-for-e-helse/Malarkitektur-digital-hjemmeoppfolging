@@ -15,6 +15,7 @@ Direktoratet for e-helse publiserte i mars 2021 [Målarkitektur for datadeling](
 Arbeid med målarkitektur for DHO skal utarbeide en målarkitektur for brukstilfellet "samhandling mellom helsepersonell på tvers av virksomheter", og dette arbeidet vil bli en del av den overordnede målarkitekturen for datadeling for helsesektoren. Brukstilfellet for deling på tvers av virksomheter uttrykkes slik i målarkitektur fra datadeling:
 
 !!! quote "Samhandling mellom helsepersonell på tvers av virksomheter"
+
     Dette bruksområdet dekker brukstilfeller som i hovedsak dekker behovet for at helsepersonell i ulike virksomheter må samhandle for å yte best mulig helsehjelp.
 
     Virksomheter som yter helsehjelp har en plikt til å samarbeide om behandling og forebygging av sykdom hos innbyggere. Det ligger som en forutsetning for godt samarbeid at aktørene må samarbeide om behandlingsplaner og andre helseopplysninger. Samarbeidet kan inkludere deling av dokumentasjon ved hjelp av datadeling fra den ene virksomheten til den andre, og kan også inkludere digitalisert samarbeid om pasientforløp på tvers av virksomheter. For mer avanserte samarbeidsformer rundt en pasient vil ikke meldings- og dokumentutveksling være tilstrekkelig for å kunne lage fleksible og gode samarbeidsløsninger. Her vil samarbeidsprosesser og arenaer kreve datadeling der aktørene kan samarbeide om både strukturerte dokumenter og mindre informasjonselementer.
@@ -40,27 +41,50 @@ Kjernekapabilitetene må være tett knyttet til og integrert med den kliniske pr
 
 Evnene i denne tabellen er tett knyttet opp mot å understøtte vurdering og gjennomføring av tiltak og dokumentasjon av tiltak som utføres som en del av behandlingen av pasient.
 
-<table class="wrapped confluenceTable"><colgroup><col><col><col></colgroup><tbody><tr><th class="confluenceTh">Kapabilitet</th><th class="confluenceTh">Definisjon</th><th class="confluenceTh">Eksempel</th></tr><tr><td class="confluenceTd"><p>Informasjonsbehandling</p></td><td class="confluenceTd">Sammenstille og tolke informasjon fra interne og eksterne systemer</td><td class="confluenceTd"><br></td></tr><tr><td class="confluenceTd">Visning</td><td class="confluenceTd">Vise informasjonen på en måte som er nyttig for kliniker</td><td class="confluenceTd"><br></td></tr><tr><td class="confluenceTd">Dokumentere</td><td class="confluenceTd">Dokumentere gjennomførte tiltak og begrunnelsen for tiltaket</td><td class="confluenceTd"><br></td></tr><tr><td colspan="1" class="confluenceTd">Produsere metadata</td><td colspan="1" class="confluenceTd">Produsere metadata som beskriver produsert dokumentasjon</td><td colspan="1" class="confluenceTd"><br></td></tr><tr><td colspan="1" class="confluenceTd">Lagring</td><td colspan="1" class="confluenceTd">Lagre informasjon (dokumentasjon og metadata)</td><td colspan="1" class="confluenceTd"><br></td></tr></tbody></table>
+| Kapabilitet | Definisjon |
+|---|---|
+| Informasjonsbehandling | Sammenstille og tolke informasjon fra interne og eksterne systemer |
+| Visning | Vise informasjonen på en måte som er nyttig for kliniker |
+| Dokumentere | Dokumentere gjennomførte tiltak og begrunnelsen for tiltaket |
+| Produsere metadata | Produsere metadata som beskriver produsert dokumentasjon |
+| Lagring | Lagre informasjon (dokumentasjon og metadata) |
 
 ### Tverrgående kapabiliteter
 
 Evnene i denne tabellen er ikke knyttet opp mot noen spesielle deler av prosessen, siden alle deler av prosessen har behov for disse.
 
-<table class="wrapped confluenceTable"><colgroup><col><col><col></colgroup><tbody><tr><th class="confluenceTh">Kapabilitet</th><th class="confluenceTh">Definisjon</th><th class="confluenceTh">Eksempel</th></tr><tr><td class="confluenceTd">Dialog</td><td class="confluenceTd">Understøtte løpende dialog mellom helsepersonell</td><td class="confluenceTd"><br></td></tr><tr><td class="confluenceTd">Sikkerhet</td><td class="confluenceTd">Ivareta sikker informasjonsutveksling, informasjonsbehandling, tilgangsstyring og personvern</td><td class="confluenceTd"><br></td></tr><tr><td class="confluenceTd">Tillit</td><td class="confluenceTd">Stole på at informasjon kan utveksles med andre aktører</td><td class="confluenceTd"><br></td></tr><tr><td colspan="1" class="confluenceTd">Grunndata</td><td colspan="1" class="confluenceTd">Understøtte behov for tilgang til grunndata i forbindelse med samhandling og pasientbehandling. Grunndata omfatter informasjon om Person, Helsepersonell og Virksomhet.</td><td colspan="1" class="confluenceTd"><br></td></tr></tbody></table>
+| Kapabilitet | Definisjon |
+|---|---|
+| Dialog | Understøtte løpende dialog mellom helsepersonell |
+| Sikkerhet | Ivareta sikker informasjonsutveksling, informasjonsbehandling, tilgangsstyring og personvern |
+| Tillit | Stole på at informasjon kan utveksles med andre aktører |
+| Grunndata | Understøtte behov for tilgang til grunndata i forbindelse med samhandling og pasientbehandling. Grunndata omfatter informasjon om Person, Helsepersonell og Virksomhet. |
 
 ### Kapabiliteter knyttet til samhandling
 
 Evnene er knyttet til bruk av organisatoriske samhandlingsformer for å utveksle informasjon mellom aktører.
 
-<table class="wrapped confluenceTable"><colgroup><col><col><col></colgroup><tbody><tr><th class="confluenceTh">Kapabilitet</th><th class="confluenceTh">Definisjon</th><th class="confluenceTh">Eksempel</th></tr><tr><td class="confluenceTd">Konsumere hendelsesstrøm</td><td class="confluenceTd">Konsumere hendelser fra en hendelsesstrøm</td><td class="confluenceTd"><br></td></tr><tr><td class="confluenceTd">Publisere (hendelser)</td><td class="confluenceTd">Publisere hendelser til en hendelsesstrøm</td><td class="confluenceTd"><br></td></tr><tr><td class="confluenceTd">Søk og oppslag (innhente data)</td><td class="confluenceTd">Søke og slå opp informasjon gjennom en <span class="inline-comment-marker" data-ref="9b23afed-5ffd-4399-b2ea-2388ea19eb7c">datadelingstjeneste</span></td><td class="confluenceTd"><br></td></tr><tr><td colspan="1" class="confluenceTd"><span class="inline-comment-marker" data-ref="c4011089-4276-4fba-a61f-85eefff652da">Tilgjengeliggjøring</span></td><td colspan="1" class="confluenceTd">Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet med eller uten krav til innlogget bruker ved hjelp av datadeling. Tilgangsstyring inngår her. Avgjøre h<span class="inline-comment-marker" data-ref="c1287658-7cf4-4576-acaf-2a02016af69e">vilken informasjon som skal deles med andre gjennom en datadelingstjeneste</span>.</td><td colspan="1" class="confluenceTd"><br></td></tr><tr><td colspan="1" class="confluenceTd">Tilgjengeliggjøre data</td><td colspan="1" class="confluenceTd">Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet.</td><td colspan="1" class="confluenceTd"><br></td></tr><tr><td colspan="1" class="confluenceTd">Tilgjengeliggjøre API</td><td colspan="1" class="confluenceTd">Prosessen med å tilby data gjennom et API til aktører utenfor egen virksomhet.</td><td colspan="1" class="confluenceTd"><br></td></tr><tr><td colspan="1" class="confluenceTd">Få tilgang til data</td><td colspan="1" class="confluenceTd">Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør.</td><td colspan="1" class="confluenceTd"><br></td></tr><tr><td colspan="1" class="confluenceTd">Finne relevante data</td><td colspan="1" class="confluenceTd">Evnen til å finne kilder for informasjon om spesifikke kategorier eller personer.</td><td colspan="1" class="confluenceTd"><br></td></tr><tr><td colspan="1" class="confluenceTd">Avgi data</td><td colspan="1" class="confluenceTd">Utlevere data basert på søk og oppslag</td><td colspan="1" class="confluenceTd"><br></td></tr><tr><td colspan="1" class="confluenceTd">Oppdatering av masterdata</td><td colspan="1" class="confluenceTd">Oppdatere delt informasjon i en datadelingstjeneste</td><td colspan="1" class="confluenceTd"><br></td></tr><tr><td colspan="1" class="confluenceTd">Sende</td><td colspan="1" class="confluenceTd">Sende informasjon til en spesifikk mottaker</td><td colspan="1" class="confluenceTd"><br></td></tr><tr><td colspan="1" class="confluenceTd">Motta</td><td colspan="1" class="confluenceTd">Motta informasjon fra en spesifikk mottaker</td><td colspan="1" class="confluenceTd"><br></td></tr></tbody></table>
+| Kapabilitet | Definisjon |
+|---|---|
+| Konsumere hendelsesstrøm | Konsumere hendelser fra en hendelsesstrøm |
+| Publisere (hendelser) | Publisere hendelser til en hendelsesstrøm |
+| Søk og oppslag (innhente data) | Søke og slå opp informasjon gjennom en datadelingstjeneste |
+| Tilgjengeliggjøring | Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet med eller uten krav til innlogget bruker ved hjelp av datadeling. Tilgangsstyring inngår her. Avgjøre hvilken informasjon som skal deles med andre gjennom en datadelingstjeneste. |
+| Tilgjengeliggjøre data | Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet. |
+| Tilgjengeliggjøre API | Prosessen med å tilby data gjennom et API til aktører utenfor egen virksomhet. |
+| Få tilgang til data | Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør. |
+| Finne relevante data | Evnen til å finne kilder for informasjon om spesifikke kategorier eller personer. |
+| Avgi data | Utlevere data basert på søk og oppslag |
+| Oppdatering av masterdata | Oppdatere delt informasjon i en datadelingstjeneste |
+| Sende | Sende informasjon til en spesifikk mottaker |
+| Motta | Motta informasjon fra en spesifikk mottaker |
 
-Nødvendige komponenter
-----------------------
+## Nødvendige komponenter
 
-*   Beskrive komponentene hvilke kapabiliteter de skal realisere
-*   Hvem har ansvar for hvilke komponenter (felles/aktører) og hvordan forvaltes disse
-    *   Grensesnitt mellom komponentene og forvaltning av disse
-*   Lakmustest: Mappe komponentene mot løsningsarkitekturen som er beskrevet for utprøvingene (Oslo, Bodø og Larvik)
+* Beskrive komponentene hvilke kapabiliteter de skal realisere
+* Hvem har ansvar for hvilke komponenter (felles/aktører) og hvordan forvaltes disse
+  * Grensesnitt mellom komponentene og forvaltning av disse
+* Lakmustest: Mappe komponentene mot løsningsarkitekturen som er beskrevet for utprøvingene (Oslo, Bodø og Larvik)
 
 ### Samhandlingstjenester
 
