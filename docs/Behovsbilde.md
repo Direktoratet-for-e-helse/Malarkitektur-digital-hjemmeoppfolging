@@ -206,9 +206,11 @@ Det er identifisert behov for samhandling om ytterligere informasjon og informas
 * (IT23) Tjenester, inkludert hjelpemidler og logistikk
 * (IT03) Legemiddelliste
 * (IT09) Journalnotat
-* (IT01) Klinisk oppsummering <!--Denner ikke med i tabell over behov og kobling mot informasjonstjenester i Akson. Vi får vurdere om det faktisk er IOT01 vi skal beskrive eller om det som er kommet frem dekkes av IT09 SVAR: Denne er med i tabellen over og sammenhengene er vist i figuren https://user-images.githubusercontent.com/6229665/201674228-84a1171d-0006-4720-a462-aaba5947dca8.png-->
+* (IT01) Klinisk oppsummering <!--Denner ikke med i tabell over behov og kobling mot informasjonstjenester i Akson. Vi får vurdere om det faktisk er IOT01 vi skal beskrive eller om det som er kommet frem dekkes av IT09 -->
+<!-- SVAR: Denne er med i tabellen over og sammenhengene er vist i figuren https://user-images.githubusercontent.com/6229665/201674228-84a1171d-0006-4720-a462-aaba5947dca8.png-->
 * (IT12) Basisinformasjon pasient
-* (IT10 og IT24) Dialogtjenester <!--Kunne denne vært koblet mot Kommunikasjon ved saksbehandling og Tekstlig dialog? Børd da beskrives i tabell SVAR vi behandler ikke dialog i detalj, men vi kan nevne IT10/IT11 og IT 24 i tabellen-->
+* (IT10 og IT24) Dialogtjenester <!--Kunne denne vært koblet mot Kommunikasjon ved saksbehandling og Tekstlig dialog? Børd da beskrives i tabell-->
+<!--SVAR vi behandler ikke dialog i detalj, men vi kan nevne IT10/IT11 og IT 24 i tabellen-->
 
 ## Prioritering av informasjonstjenester
 
@@ -220,11 +222,14 @@ Her vises i prioritert rekkefølge de informasjonstjenestene som er mest ettersp
 4. (IT10 og IT24) Dialogtjenester
 
 I tillegg er det en rekke andre informasjonstjenester som er høyt prioritert av tjenesten, disse vises i figuren: <!--Skulle vi vurdert å bruke figuren fra målbilde med alle informasjonstjenestene i arbeidet for å vise sammenhengene?-->
+<!--SVAR: Nei, denne figuren har vist seg å fungere greit for å vise de høyest prioriterte informasjonsbehovene innen DHO-->
 ![226722458](https://user-images.githubusercontent.com/6229665/201674656-d97f3a8a-912a-41ee-b621-a1df9860d730.png)
 
-Det utvikles samhandlingsløsninger knyttet til behov for digitale behandlings- og egenbehandlingsplaner ![https://www.helsedirektoratet.no/om-oss/forsoksordninger-og-prosjekter/digital-behandlings-og-egenbehandlingsplan ] og legemiddelliste ![https://www.ehelse.no/programmer/program pasientens legemiddelliste] gjennom egne initiativ. Det er derfor besluttet at de viktigste tjenestene å utvikle samhandlingsløsninger for i DHO arbeidet nå som et første steg handler om Målinger, vurderinger og Varsel. Dette er informasjonstjenester som etterspørres fra mange virksomheter og alle omsorgsnivå i flere geografiske regioner.
+Det utvikles samhandlingsløsninger knyttet til behov for [digitale behandlings- og egenbehandlingsplaner](https://www.helsedirektoratet.no/om-oss/forsoksordninger-og-prosjekter/digital-behandlings-og-egenbehandlingsplan) og [legemiddelliste](https://www.ehelse.no/prosjekt/program-pasientens-legemiddelliste) gjennom egne initiativ. Det er derfor besluttet at de viktigste tjenestene å utvikle samhandlingsløsninger for i DHO arbeidet nå som et første steg handler om Målinger, vurderinger og Varsel. Dette er informasjonstjenester som etterspørres fra mange virksomheter og alle omsorgsnivå i flere geografiske regioner.
 
-## Detaljer om målinger <!--Hva med vurderinger og varsel siden overskriften er målinger?-->
+## Detaljer om målinger
+<!--Hva med vurderinger og varsel siden overskriften er målinger? -->
+<!-- Hva med vurderinger og varsel? Er det et spørsmål her? -->
 
 Målinger består av flere typer måleparametere som beskriver pasientens helsetilstand og som kan bidra til å støtte oppfølging av behandling og synliggjøre endring i tilstand. Følgende figur viser omfanget for deling av målinger i steg 1 (internt i en virksomhet) ved bruk av velferdsteknologisk knutepunkt (VKP) på dette området:
 
