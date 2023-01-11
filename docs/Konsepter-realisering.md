@@ -40,16 +40,19 @@ Distribuerte datadelingsløsninger i virksomhetenes infrastruktur baserer seg p�
 
 #### Vurdering
 
-Alle løsninger for å avgi informasjon må ta utgangspunkt i felles semantiske spesifikasjoner tilpasset ulike bruksområder, slik at det blir enkelt å søke i informasjon på tvers av mange ulike virksomheter og løsninger som er levert av flere ulike leverandører. Med en distribuert modell må virksomhetene også vite hvor de skal søke etter informasjon om en bestemt pasient gjennom en pasientinformasjonslokalisator (PIL) siden det er lite effektivt å gjøre oppslag mot alle virksomheter uavhengig av om disse har informasjon om pasienten eller ikke. Det må etableres en sentralisert tillitsmodell for å støtte dette konseptet, ellers må man etablere bilaterale avtaler mellom alle aktørene som ønsker å samhandle med hverandre. Hovedfordelen med konseptet distribuerte datadelingsløsninger er stor fleksibilitet knyttet til hvem som etablerer hvilken funksjonalitet der det gir stor opplevd nytte <!-- er det hver enkelt virksomhets valg av funksjonalitet basert på den nytten de anser som størst?-->. Den største ulempen er knyttet til stor kompleksitet ved  etableringen og vedlikehold av funksjonaliteten <!--er dette rettet mot tillitsmodellen?--> for å avgi og tilgjengeliggjøre informasjon fra en rekke virksomheter, dette gjør en slik løsning komplisert å bredde og vedlikeholde.
+Hovedfordelen med konseptet distribuerte datadelingsløsninger er stor fleksibilitet knyttet til hvem som etablerer hvilken funksjonalitet der det gir stor opplevd nytte, hvilken funksjonalitet som utvikles kan prioriteres lokalt. Den største ulempen er knyttet til stor kompleksitet ved etableringen og vedlikehold av funksjonaliteten for å avgi og tilgjengeliggjøre informasjon fra separate løsninger i hver enkelt virksomhet, dette gjør en distribuert modell komplisert å bredde og vedlikeholde.  
+
+En distribuert modell stiller store krav til samhandlingsinfrastrukturen og samarbeid på tvers av leverandører og virksomheter. Konseptet stiller for eksempel krav om at virksomhetene må vite hvor de skal søke etter informasjon om en bestemt pasient gjennom en pasientinformasjonslokalisator (PIL), siden det er lite effektivt å gjøre oppslag mot alle virksomheter uavhengig av om disse har informasjon om pasienten eller ikke. Det må etableres en sentralisert tillitsmodell for å støtte dette konseptet, ellers blir man avhengig av bilaterale avtaler mellom alle aktørene som ønsker å samhandle med hverandre.  Alle løsninger for å avgi informasjon må ta utgangspunkt i felles semantiske spesifikasjoner tilpasset ulike bruksområder, slik at det blir enkelt å søke i informasjon på tvers av mange ulike virksomheter og løsninger som er levert av forskjellige leverandører.  
 
 #### Forutsetninger
 
-* Alle produsenter <!--hvem er produsent? virksomhet? utstyr? system?--> av informasjon må etablere funksjonalitet for å avgi informasjon, funksjonaliteten må etableres i egne systemer i virksomhetens infrastruktur
+* Alle produsenter av informasjon må etablere funksjonalitet for å avgi informasjon, funksjonaliteten må etableres i egne systemer i virksomhetens infrastruktur
 * Alle konsumenter av informasjon må etablere funksjonalitet for å gjøre oppslag, og funksjonaliteten må etableres i egne systemer i virksomhetens infrastruktur
 * For at konseptet skal skalere nasjonalt/regionalt må det etableres Pasientinformasjonslokalisator (PIL) i nasjonal eller regional infrastruktur
 * Konseptet forutsetter etablering av tillitsanker funksjonalitet i nasjonal eller regional infrastruktur
 * Konseptet forutsetter at det etableres felles semantiske spesifikasjoner for informasjonen som skal utveksles
 <!--Kunne vurdering og forutsetninger beskrivelsene slås sammen og bygge på den punktvises tilnærminmgen. Vurderingene kommer vel med beskrivelse av fordeler og ulemper?-->
+<!-- SVAR: Vurderingen er en oppsummering av punktlistene -->
 
 #### Fordeler
 
@@ -57,26 +60,26 @@ Alle løsninger for å avgi informasjon må ta utgangspunkt i felles semantiske 
 * Det er stor fleksibilitet i forhold til hvilken funksjonalitet virksomhetene realiserer
   * Virksomhetene realiserer funksjonalitet som gir mest nytte lokalt/regionalt
   * Kan gjøre det enklere å få til lokal tjenesteinnovasjon
-* Det etableres felles <!--nasjonale?--> semantiske spesifikasjoner som alle virksomheter forholder seg til
+* Det etableres felles semantiske spesifikasjoner som alle virksomheter forholder seg til
 
 #### Ulemper
 
-* Det er komplisert <!--og lite effektivt? --> å etablere og vedlikeholde infrastruktur og løsninger for å avgi data i alle virksomheter i helsesektoren
-  * Konseptet blir derfor utfordrende å skalere fort
+* Det er komplisert å etablere og vedlikeholde infrastruktur og løsninger for å avgi data i alle virksomheter i helsesektoren
+  * Konseptet kan derfor være vanskelig å skalere fort
 * Det etableres mange sterke koblinger mellom virksomhetenes løsninger
-  * Oppslag mot mange kilder kan gi dårlig brukeropplevelse
+  * Oppslag mot mange kilder (produsenter) kan gi dårlig brukeropplevelse
 * Det er ikke hjemmel for å etablere en sentralisert modell for PIL innenfor dagens regelverk
 * Det kan være utfordrende å utarbeide felles semantiske spesifikasjoner som gir nytte for virksomhetene
   * Virksomheter som ikke opplever nytte kan velge å ikke tilgjengeliggjøre informasjon fra egne løsninger
-* Etablering av tillitsanker og felles krav knyttet til dette kan være komplisert
+* Det kan være komplisert å etablere felles tillitsanker og felles krav knyttet til felles tillitsmodell
 
 ### Distribuerte datadelingsløsninger (i sentral infrastruktur)
 
-Konseptet baserer seg (som ren distribuert modell) på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer, men istedenfor å etablere dette i egen infrastruktur etableres selve grensesnittet og datalager for datadeling i en felles infrastruktur. Det betyr at grensesnittet driftes og vedlikeholdes av en eller noen få leverandør(er). Datadelingen mellom virksomhetene gjennomføres ved at hver virksomhet gjør distribuerte oppslag mot grensesnittene for å avgi data, som er etablert av de andre virksomhetene. Det er en forutsetning <!--for konseptet? juridisk?--> at informasjonen fra hver virksomhet ikke sammenstilles med informasjon fra andre virksomheter i den sentrale infrastrukturen, men at løsningene for lagring og grensesnittene etableres som logisk adskilte løsninger for hver virksomhet. Behandlingen av helseopplysninger i sentral infrastruktur må reguleres av en databehandleravtale mellom den enkelte virksomheten og leverandøren av infrastrukturen.
+Konseptet baserer seg (som ren distribuert modell) på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer, men istedenfor å etablere dette i egen infrastruktur etableres selve grensesnittet og datalager for datadeling i en felles infrastruktur. Det betyr at grensesnittet driftes og vedlikeholdes av en eller noen få leverandør(er). Datadelingen mellom virksomhetene gjennomføres ved at hver virksomhet gjør distribuerte oppslag mot grensesnittene for å avgi data, som er etablert av de andre virksomhetene. Det er en juridisk forutsetning at informasjonen fra hver virksomhet ikke sammenstilles med informasjon fra andre virksomheter i den sentrale infrastrukturen, men at løsningene for lagring og grensesnittene etableres som logisk adskilte løsninger for hver virksomhet. Behandlingen av helseopplysninger i sentral infrastruktur må reguleres av en databehandleravtale mellom den enkelte virksomheten og leverandøren av infrastrukturen.
 
 ![Distribuerte datadelingsløsninger i sentral infrastruktur](img/distribuert-sentral.png)
 
-#### Vurdering
+#### Vurdering <!-- Fortsett-->
 
 Alle løsninger for å avgi informasjon må ta utgangspunkt i felles semantiske spesifikasjoner tilpasset ulike bruksområder, slik at det blir enkelt å søke i informasjon på tvers av mange ulike virksomheter og løsninger, dette kan bli noe enklere siden løsningene etableres av en leverandør. Med en distribuert modell må man også vite hvor man skal søke etter informasjon om en bestemt pasient gjennom en pasientinformasjonslokalisator (PIL) siden det er lite effektivt å gjøre oppslag mot alle virksomheter uavhengig av om disse har informasjon om pasienten eller ikke. Det må etableres en sentralisert tillitsmodell, ellers må man etablere bilaterale avtaler mellom alle aktørene som ønsker å samhandle med hverandre. Hovedfordelen med distribuerte datadelingsløsninger er stor fleksibilitet knyttet til hvem som etablerer hvilken funksjonalitet der det gir stor opplevd nytte. Når løsningene etableres i felles infrastruktur ved hjelp av en felles leverandør vil denne fordelen forsvinne helt eller delvis. Den største ulempen knyttet til høy kompleksitet ved etableringen og vedlikehold av funksjonaliteten for å avgi og tilgjengeliggjøre informasjon fra en rekke virksomheter blir imidlertid helt eller delvis borte siden utvikling og drift sentraliseres.
 
