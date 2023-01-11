@@ -117,9 +117,9 @@ Figuren viser en overordnet oversikt over roller som kan være involvert i DHO b
 | Helsestasjon for eldre |Drive forebyggende og helsefremmende arbeid, samt være et lavterskeltilbud med ansatte som har ulik helsefaglig bakgrunn |
 | Helsepersonell kommune | Samlebetegnelse for helsepersonell tilknyttet kommunal helse- og omsorgstjeneste |
 | Fysioterapeut | En fysioterapeut behandler og forebygger skader og sykdommer som gir smerte eller nedsatt funksjon i muskel- og skjelettsystemet (kilde utdanning.no) |
-|Ergoterapeut | |
+|Ergoterapeut |Arbeider helsefremmende og forebyggende for å fremme helse og aktivitet. Fokus på hva som hindrer eller muliggjør hverdagsaktiviteter og fokuserer på hva som er viktig i livet til den enkelte som skal hjelpes|
 | Hjemmetjeneste |Helsetjenester som ytes hjemme hos pasient/bruker  |
-| Farmasøyt |  |
+| Farmasøyt |Arbeider med rådgivning knyttet til kunnskap om legemidler, hvordan de brukes og virker i kroppen |
 | Oppfølgingsansvarlig | Den som har ansvar for den daglige oppfølging av pasient som mottar digital hjemmeoppfølging. Rollen ivaretas oftes av sykepleier som kan være ansatt henholdsvis i spesialist- eller kommunehelsetjenesten |
 | Ambulante team |  |
 | Helsepersonell HF | Samlebetegnelse for helsepersonell tilknyttet spesialisthelsetjenesten. |
