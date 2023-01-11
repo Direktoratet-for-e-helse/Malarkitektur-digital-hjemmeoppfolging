@@ -121,7 +121,7 @@ Figuren viser en overordnet oversikt over roller som kan være involvert i DHO b
 | Hjemmetjeneste |Helsetjenester som ytes hjemme hos pasient/bruker  |
 | Farmasøyt |Arbeider med rådgivning knyttet til kunnskap om legemidler, hvordan de brukes og virker i kroppen |
 | Oppfølgingsansvarlig | Den som har ansvar for den daglige oppfølging av pasient som mottar digital hjemmeoppfølging. Rollen ivaretas oftes av sykepleier som kan være ansatt henholdsvis i spesialist- eller kommunehelsetjenesten |
-| Ambulante team |  |
+| Ambulant team |Jobber med forsterket utskriving - følger opp pasienter etter utskrivning fra sykehus  |
 | Helsepersonell HF | Samlebetegnelse for helsepersonell tilknyttet spesialisthelsetjenesten. |
 | Lege i spesialisthelsetjenesten|Lege ansatt på sykehus innen ulike fagområder|
 | Helsesekretær |Tar imot henvendelser fra pasint/bruker og helsepersonell og utfører kontorfaglige oppgaver  |
