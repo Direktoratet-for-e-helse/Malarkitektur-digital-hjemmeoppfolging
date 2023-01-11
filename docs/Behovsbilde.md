@@ -114,7 +114,6 @@ Figuren viser en overordnet oversikt over roller som kan være involvert i DHO b
 | Helsepersonell fastlege | Samlebetegnelse for helsepersonell tilknyttet fastlegetjenesten. |
 | Fastlege | Lege som inngår avtale med en kommune om deltakelse i fastlegeordningen, uavhengig av om legen er ansatt i kommunen eller er selvstendig næringsdrivende. (kilde: Lovdata) |
 | Primærhelseteam <!--Ikke relevant hvis eksemplenme er LArvik, SIv - slik jeg leser figuren--> | Ivaretar daglig oppfølging av en pasient med DHO tjeneste på vegne av fastlegen (bare relevant i noen kommuner) |
-| Helsesekretær |Tar imot henvendelser fra innbygger og helsepersonell, og utfører kontorfaglige oppgaver|
 | Helsestasjon for eldre |Drive forebyggende og helsefremmende arbeid, samt være et lavterskeltilbud med ansatte som har ulik helsefaglig bakgrunn |
 | Helsepersonell kommune | Samlebetegnelse for helsepersonell tilknyttet kommunal helse- og omsorgstjeneste |
 | Fysioterapeut | En fysioterapeut behandler og forebygger skader og sykdommer som gir smerte eller nedsatt funksjon i muskel- og skjelettsystemet (kilde utdanning.no) |
@@ -125,7 +124,7 @@ Figuren viser en overordnet oversikt over roller som kan være involvert i DHO b
 | Ambulante team |  |
 | Helsepersonell HF | Samlebetegnelse for helsepersonell tilknyttet spesialisthelsetjenesten. |
 | Lege i spesialisthelsetjenesten|Lege ansatt på sykehus innen ulike fagområder|
-| Helsesekretær |  |
+| Helsesekretær |Tar imot henvendelser fra pasint/bruker og helsepersonell og utfører kontorfaglige oppgaver  |
 | Eldrehelsekoordinator |  |
 
 Referanser: [sentrale begreper definert i Program Digital Samhandling](https://sh.ehelse.no/akson/Dokumentbibliotek%20Forprosjekt%20Steg%202/20%20Leveranser/09.%20Sentralt%20styringsdokument/05%20Vedlegg%20SSD/Vedlegg%20A%20Sentrale%20begreper.docx?d=w5a50e9a879ab4c1a800b8a88cca9040c), Digdir, [Helsedirektoratet](https://www.helsedirektoratet.no/rundskriv/pasient-og-brukerrettighetsloven-med-kommentarer/alminnelige-bestemmelser/definisjoner#:~:text=pasient%3A%20en%20person%20som%20henvender,som%20p%C3%A5r%C3%B8rende%20og%20n%C3%A6rmeste%20p%C3%A5r%C3%B8rende.)
