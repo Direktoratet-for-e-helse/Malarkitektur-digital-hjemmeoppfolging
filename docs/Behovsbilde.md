@@ -61,11 +61,11 @@ Hypotesen beskriver en antagelse som er fremkommet gjennom behovskartleggingen k
   * Arbeidet med målarkitektur for DHO fokuserer derfor på å tilrettelegge for samhandling på regionalt nivå
 <!-- Hvordan unngår vi å ta arkitekturvalg som hindrer oss fleksibilitet senere -->
 
-<!--Foreslår å kutte denne overskriften da hovedoverskrift dekker tema-->
+### Identifiserte behov
 
 Tabellen under viser en oversikt over:
 
-* Hvilken rolle sluttbruker av behovet har <!--sette innen parentes her med tekst: roller er beskrevet i kap....-->
+* Hvilken sluttbruker rolle som har behovet <!--sette innen parentes her med tekst: roller er beskrevet i kap....-->
 * Hvilken prioritet og tidsperspektiv behovet har
   * Prioritet scores i kategoriene høy/middels/lav/ekstern ut fra antagelse om forventet nytte/effekt
     * Høy nytteverdi betyr at tilfredstillels av behovet vil gi stor nytte og det er mange brukere
@@ -73,7 +73,7 @@ Tabellen under viser en oversikt over:
     * Lav nytteverdi angir behov hvor nytten for brukeren er liten eller at behovet innehas av få brukere
     * Ekstern betegner behov som må spilles inn til andre prosjekter og behovet må tilfredstilles (i hovedsak) av løsninger som ligger utenfor omfanget av målarkitekturen
   * Tidsperspektiv kategoriene angis med: Kort (0-1 år), mellom(lang) (1-3 år) og lang (3-5 år)
-* Kartlagte behov for å understøtte tjenesteforløp
+* Beskrivelse av behovet
 * Viktige funksjonelle krav som må oppfylles for å tilfredstille behovet på en god måte
 
 |Rolle| Prioritet / tidsperspektiv|Behov|Funksjonelle krav|
