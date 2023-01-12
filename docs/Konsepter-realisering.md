@@ -86,7 +86,7 @@ Anbefalingen av konsepter for datadeling baserer seg på vurderinger knyttet til
 
 ### Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)
 
-Distribuerte datadelingsløsninger i virksomhetenes infrastruktur baserer seg på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer. Grensesnitt og datalager for datadeling etableres i virksomhetens egen infrastruktur. Datadeling mellom virksomhetene gjennomføres ved at hver virksomhet gjør distribuerte oppslag mot grensesnittene for å avgi<!--gjør man oppslag for å avgi eller både for å hente og avgi--> data som er etablert av andre virksomhetene.
+Distribuerte datadelingsløsninger i virksomhetenes infrastruktur baserer seg på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer. Grensesnitt og datalager for datadeling etableres i virksomhetens egen infrastruktur. Datadeling mellom virksomhetene gjennomføres ved at hver virksomhet gjør distribuerte oppslag mot grensesnittene for å avgi data som er etablert av andre virksomhetene.
 
 ![Distribuerte datadelingsløsninger i virksomhetenes infrastruktur](img/distribuert.png)
 
