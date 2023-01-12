@@ -55,7 +55,7 @@ Gitt virksomhetenes ulike størrelser og forutsetninger for å etablere datadeli
 
 * Konseptet gir stor fleksibilitet i forhold til hvilken funksjonalitet virksomhetene realiserer
   * Virksomhetene realiserer funksjonalitet som gir mest nytte lokalt/regionalt
-  * Kan gjøre det enklere å få til lokal tjenesteinnovasjon
+  * Konseptet kan gjøre det enklere å få til lokal tjenesteinnovasjon
 * Det etableres felles semantiske spesifikasjoner som alle virksomheter forholder seg til
 * Datadeling kan etableres innenfor gjeldende rett
 
