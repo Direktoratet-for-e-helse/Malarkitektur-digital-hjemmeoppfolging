@@ -49,6 +49,10 @@ Ved etablering av en nasjonal sentral datadelingsløsning baserer vi oss på at 
 
 En slik løsning kan vurderes på sikt, men siden behovet for samhandling knyttet til DHO i all hovedsak er regionalt og ikke nasjonalt, gjennomfører vi ikke noe tiltak for å etablere en sentral nasjonal datadelingsløsning for DHO på nåværende tidspunkt.
 
+Det er vanskelig å argumentere for regelverksutvikling for en slik løsning siden hoveddelen av samhandlingen antakelig vil foregå regionalt
+
+* Informasjonen som skal lagres i det nasjonale registeret er heller ikke sammenfallende med eksisterende nasjonale løsninger som kjernejournal eller e-resept. Det er derfor ikke mulig å benytte noen av disse forordningene som rettslig grunnlag for et nasjonalt register for datadeling innen DHO. Det er heller ikke snakk om å erstatte lokale løsninger med sentrale, men å etablere nasjonale løsninger som kommer i tillegg til de lokale med hovedfokus på å etablere bedre samhandlingsløsninger mellom virksomhetene.
+
 ### Regionale datadelingsløsninger (Avklart)
 
 Ved etablering av sentral regional datadelingsløsning baserer vi oss på at informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagres i sentral infrastruktur hos NHN samtidig som den eksisterer i relevante fagsystem hos den enkelte virksomheten. Virksomhetene som deltar i det regionale samarbeidet kan søke i den felles regionale tjenesten som tilbys og driftes av NHN.

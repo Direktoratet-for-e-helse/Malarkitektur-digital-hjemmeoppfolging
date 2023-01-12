@@ -16,7 +16,7 @@ Formålet med denne delen av målarkitekturen er å vise ulike mønster/ konsept
 
     Mer om samhandlingsformen [slå opp](Organisatorisk-sla-opp.md)
 
-Denne delen av målarkitekturen skal vurdere mulighetsrommet for datadeling mellom virksomheter 
+Denne delen av målarkitekturen skal vurdere mulighetsrommet for datadeling mellom virksomheter  
 
 ## Vurderingskriterier
 
@@ -31,6 +31,40 @@ Konseptene for etablering av funksjonalitet for datatilbyder (avgi og tilgjengel
   * Etableres det løse eller sterke koblinger mellom aktører og løsningskomponenter for å realisere løsningen
   * Etableres det mange kompliserte spesialløsninger for å oppnå samhandling pådrar sektoren seg stor teknisk gjeld
 * Bruk av standarder og hyllevare, er det mulig å basere seg på standardiserte grensesnitt og tilgjengelig hyllevare i stor eller liten grad
+
+## Anbefalt konsept for datadeling
+
+Basert på vurderingene av de enkelte konseptene anbefaler vi at det er opp til virksomhetene å vurdere hvilke konsepter for datadeling som egner seg best for deres bruk av digital hjemmeoppfølging basert på samhandlingsbehovene som identifiseres regionalt. Vi anbefaler at virksomhetene velger et eller flere av konseptene som er innenfor gjeldende rett for å komme i gang med datadeling mellom virksomhetene i regionen. Det kan vurderes kombinasjoner av alle konseptene som faller innenfor gjeldende rett også innenfor en region avhengig av virksomhetenes størrelse, eksisterende infrastruktur og behov for fleksibilitet. En kombinasjon av flere konsepter for datadeling er vist i figuren:
+
+![Anbefalt konsept for datadeling med kombinasjon av distribuerte datadelingsløsninger og regionale fellesløsninger](img/fleksibel.png)
+
+Konseptet baserer seg på at
+
+### Vurdering
+
+
+
+### Fordeler
+
+* Fleksibel løsning
+* I tråd med målarkitektur for datadeling
+* Kan realiseres innenfor gjeldende rett
+
+### Ulemper
+
+* Mangler retning
+* Tillitsanker finnes ikke
+* PIL finnes ikke
+
+### Muligheter
+
+* Kan gjennomføres med begrensede investeringer (for et lite antall virksomheter)
+
+### Trusler
+
+* Skalering krever utvikling av felleskomponenter
+* Usikkert om PIL kan realiseres innen gjeldende rett
+* Det eksisterer ikke avklart finansieringsmodell for nye felleskomponenter i felles infrastruktur
 
 ## Overordnede løsningskonsepter
 
@@ -126,7 +160,7 @@ Virksomhetene som samarbeider om en fellesløsning vil ha mindre behov for bruk 
 
 #### Forutsetninger
 
-* Funksjonalitet for å avgi informasjon etableres i fellesløsningen, denne delen av løsningen brukes bare mot andre systemer eller virksomheter som ikke er en del av felles løsningen
+* Funksjonalitet for å avgi data etableres i fellesløsningen, denne delen av løsningen brukes bare mot andre systemer eller virksomheter som ikke er en del av felles løsningen
 * Funksjonalitet og datalager i fellesløsningen kommer istedenfor eksisterende datalager og funksjonalitet i virksomhetenes egne systemer
   * Fellesløsningen etableres for å oppfylle dokumentasjonsplikten
 * Fellesløsningen ivaretar samhandlingen mellom virksomhetene som er med på samarbeidet innenfor behovsområdet
@@ -162,9 +196,13 @@ Ved etablering av sentral regional datadelingsløsning baserer vi oss på at inf
 
 ![Regionale datadelingsløsninger med lagring](img/regional-datadeling.png)
 
+#### Vurdering
+
+Konseptet løser behovet virksomhetene i samarbeider har for datadeling gjennom en felles regional løsning for dette, noe som vil gi middels fleksibilitet knyttet til regional tjenesteutvikling og høy effektivitet knyttet til utvikling og forvaltning av en felles datadelingsløsning. Dette løser behovet for regional datadeling (som er identifisert som [det største behovet innen DHO](Behovsbilde.md#hypotese-knyttet-til-behov)). Den største ulempen med konseptet er at det ikke lar ser realisere innenfor gjeldende rett.
+
 #### Forutsetninger
 
-* Funksjonalitet for tilgjengeliggjøring (inkludert lagring) etableres i fellesløsningen (likt som regional fellesløsning)
+* Funksjonalitet for å avgi data etableres i fellesløsningen (likt som regional fellesløsning)
 * Funksjonalitet og datalager i fellesløsningen kommer i tillegg til eksisterende datalager og funksjonalitet i virksomhetenes egne systemer
   * Fellesløsningen etableres ikke for å oppfylle dokumentasjonsplikten, men for å tilgjengeliggjøre informasjon på tvers av virksomheter
   * Dette skiller konseptet fra regional fellesløsning
@@ -177,9 +215,9 @@ Ved etablering av sentral regional datadelingsløsning baserer vi oss på at inf
 #### Fordeler
 
 * Konseptet understøtter behovet for regional datadeling på en god måte
-* Det er stort potensiale for gjenbruk av kode og løsninger på tvers av virksomhetene i regionen
+* Konseptet gir mulighet for å gjenbruke funksjonalitet for å avgi data på tvers av  virksomhetene som deltar i samarbeidet og løser derfor behovet for samhandling innen regionen
 * Stort potensiale for regional innovasjon og tjenesteutvikling
-* Middels fleksibilitet knyttet til lokal innovasjon og tjenesteutvikling
+* Middels fleksibilitet knyttet til lokal innovasjon og tjenesteutvikling siden fellesløsningen må ta hensyn til behovene til alle virksomhetene i samarbeidet
 * Innenfor regionen er det liten risiko for dårlig brukeropplevelse knyttet til søk, siden tilgjengeliggjøringen er sentralisert i regionen
 
 #### Ulemper
@@ -187,57 +225,37 @@ Ved etablering av sentral regional datadelingsløsning baserer vi oss på at inf
 * [Juridiske vurdering av konseptet](Juridiske-rammebetingelser.md#regionale-datadelingsløsninger-avklart) viser at §9 ikke kan benyttes til å etablere felles regionale løsninger hvor hovedformålet er datadeling <!--Kan vi bruke kryssreferanse og vis til andre kapittel som har vurderingene?--> <!-- SVAR: Ja, se ny kodelinje-->
 * Alle virksomhetene må implementere synkronisering av egne data mot datalager i sentral infrastruktur
 
-<!--fortsett-->
-
 ### Nasjonal sentral datadelingsløsning med lagring
 
-Ved etablering av en nasjonal sentral datadelingsløsning baserer vi oss på at informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagres i sentral infrastruktur hos NHN, samtidig som den eksisterer i relevante fagsystemer hos den enkelte virksomheten som samler den inn fra pasienten. Virksomhetene kan da gjennomføre søk mot en felles nasjonal tjeneste som tilbys og driftes av NHN.
+Ved etablering av sentral nasjonal datadelingsløsning baserer vi oss på at informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagres i sentral infrastruktur hos NHN (eller annen leverandør) samtidig som den eksisterer i relevante fagsystem hos den enkelte virksomheten for å ivareta dokumentasjonsplikten. Virksomhetene kan da gjennomføre søk mot en felles nasjonal tjeneste som tilbys og driftes av NHN.
 
-![](img/sentral-original.png)
+![Nasjonal sentral datadelingsløsning med lagring](img/konsept-sentral.png)
+
+#### Vurdering
+
+Hovedfordelen med en nasjonal sentral datadelingsløsning for DHO er at løsningen for datadeling utvikles og forvaltes et sted, dette gir best mulighet for gjenbruk og effektiv drift av datadelingsløsningen av alle de vurderte løsningene. Konseptet elminierer også behovet for PIL. Den største ulempen med løsningen er at det etableres en større løsning enn det egentlig er behov for siden samhandlingsbehovet hovedsaklig er regionalt, løsningen gir også klart mindre fleksibilitet knyttet til lokal og regional tjenesteutvikling av de vurderte løsningene, siden all funksjonalitet knyttet til datadeling er sentralisert hos en leverandør.
+
+! note "Nasjonal kopilagring eller nasjonal original"
+   Vurderingen baserer seg på en variant av nasjonal datadelingsløsning hvor en kopi av helseopplysninger lagres i den nasjonale løsningen. Alternativet er å vurdere nasjonal original men siden behovet for nasjonal original ikke er identifisert for noen av de [mest etterspurte informasjonstjenestene for DHO](Behovsbilde.md#informasjonsbehov-og-informasjonstjenester) vurderes ikke denne varianten her. Unntaket er informasjonstjenesten Plan (IT08) som løses med lagring av felles original i tilknytning til kjernejournal.
 
 #### Forutsetninger
 
-* Funksjonalitet for tilgjengeliggjøring (inkludert lagring) etableres i nasjonal datadelingsløsning
+* Funksjonalitet for å avgi data etableres i nasjonal datadelingsløsning
 * Funksjonalitet og datalager i sentral datadelingsløsning kommer i tillegg til eksisterende datalager og funksjonalitet i virksomhetenes egne systemer
-    * Sentral datadelingsløsning etableres ikke for å oppfylle dokumentasjonsplikten, men for å tilgjengeliggjøre informasjon på tvers
-    * Dette skiller konseptet fra regional fellesløsning og regional datadelingsløsning
+  * Nasjonal datadelingsløsning etableres ikke for å oppfylle dokumentasjonsplikten, men for å utveksle data på tvers av virksomheter
 * Alle konsumenter av informasjon må etablere søkefunksjonalitet i egen infrastruktur
-* felles semantiske spesifikasjoner for søk og oppslag av informasjonen etableres gjennom den nasjonale datadelings løsningen
+* Felles semantiske spesifikasjoner for søk og oppslag av informasjonen etableres og implementeres i den nasjonale datadelingsløsningen
 
 #### Fordeler
 
 * Konseptet understøtter behovet for nasjonal datadeling på en god måte
-* Det er stort potensiale for gjenbruk av kode og løsninger på tvers av virksomhetene
-* Kan gi best ytelse siden det er bare en tjeneste som skal optimalsieres
+* Det er stort potensiale for gjenbruk av kode og løsninger på tvers av virksomhetene i helsesektoren
+* Konseptet kan skaleres raskt nasjonalt og har stort potensiale for effektiv sentral forvaltning
+* Konseptet eliminerer behovet for PIL for informasjonen som lagres i den nasjonale løsningen
 
 #### Ulemper
 
+* Siden behovet for datadeling i hovedsak er regionalt er denne løsningen større og mer kompleks enn nødvendig
 * Det er ikke mulig å hjemle opprettelsen av nasjonal datadelingsløsning i gjeldende lover og regler
-* Det er vanskelig å argumentere for regelverksutvikling for en slik løsning siden hoveddelen av samhandlingen antakelig vil foregå regionalt 
-   * Informasjonen som skal lagres i registeret er ikke sammenfallende med eksisterende nasjonale løsninger som kjernejournal eller e-resept. Det er derfor ikke mulig å benytte noen av disse forordningene som rettslig grunnlag for et nasjonalt register for datadeling innen DHO. Det er heller ikke snakk om å erstatte lokale løsninger med sentrale, men å etablere nasjonale løsninger som kommer i tillegg til de lokale med hovedfokus på å etablere bedre samhandlingsløsninger mellom virksomhetene.
-* Kan gi mindre fleksibilitet og mulighet for tjenesteinnovasjon siden den nasjonale datadelingen håndtere av en løsning og en leverandør
+* Kan gi mindre fleksibilitet og mulighet for lokal og regional jenesteinnovasjon siden den nasjonale datadelingen håndteres av en løsning og en leverandør
 * Alle virksomhetene må implementere synkronisering av egne data mot sentalt datalager
-
-### Alternativ full fleks
-
-Kombinasjon av §9 og distribuert implementasjon av datadeling mellom virksomhetene. Konseptet tilrettelegger for samhandling mellom flere plattformer (regionale) i form av distribuerte søk mellom plattformene. Stor fleksibilitet for virksomhetene som skal etablere løsninger i forhold til hvordan samhandlingen etableres, men konseptet stiller større krav til løsninger i felles infrastruktur som skal understøtte samhandlingen mellom virksomhetene.
-
-![Full fleks](img/fleksibel.png)
-
-#### Fordeler  
-* Fleksibel løsning
-* I tråd med målarkitektur for datadeling
-* Kan realiseres innenfor gjeldende rett
-
-#### Ulemper  
-* Mangler retning
-* Tillitsanker finnes ikke
-* PIL finnes ikke
-
-#### Muligheter  
-* Kan gjennomføres med begrensede investeringer (for et lite antall virksomheter)
-
-#### Trusler  
-* Skalering krever utvikling av felleskomponenter
-* Usikkert om PIL kan realiseres innen gjeldende rett
-* Det eksisterer ikke avklart finansieringsmodell for nye felleskomponenter i felles infrastruktur
