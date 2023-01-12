@@ -48,7 +48,7 @@ Gitt virksomhetenes ulike størrelser og forutsetninger for å etablere datadeli
 ### Forutsetninger
 
 * For at konseptet skal skalere nasjonalt/regionalt må det etableres Pasientinformasjonslokalisator (PIL) i nasjonal eller regional infrastruktur
-* Konseptet forutsetter etablering av tillitsanker funksjonalitet i nasjonal eller regional infrastruktur
+* Konseptet forutsetter etablering av tillitsankerfunksjonalitet i nasjonal eller regional infrastruktur
 * Konseptet forutsetter at det etableres felles semantiske spesifikasjoner for informasjonen som skal utveksles
 
 ### Fordeler
