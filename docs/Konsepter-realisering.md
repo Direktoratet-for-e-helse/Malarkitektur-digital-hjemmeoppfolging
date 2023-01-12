@@ -78,11 +78,11 @@ Gitt virksomhetenes ulike størrelser og forutsetninger for å etablere datadeli
 
 Anbefalingen av konsepter for datadeling baserer seg på vurderinger knyttet til hvert enkelt konsept i forhold til vurderingskriteriene. Vurderingen er oppsummert med fordeler og ulemper knyttet til hvert enkelt konsept. Konseptene som er vurdert for etablering av datadeling er:
 
-* Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)
-* Distribuerte datadelingsløsninger (i sentral infrastruktur)
-* Regionale datadelingsløsninger med lagring
-* Regionale fellesløsninger
-* Nasjonal sentral datadelingsløsning med lagring
+* [Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)](#distribuerte-datadelingsløsninger-i-virksomhetenes-infrastruktur)
+* [Distribuerte datadelingsløsninger (i sentral infrastruktur)](#distribuerte-datadelingsløsninger-i-sentral-infrastruktur)
+* [Regionale fellesløsninger](#regionale-fellesløsninger)
+* [Regionale datadelingsløsninger med lagring](#regionale-datadelingsløsninger-med-lagring)
+* [Nasjonal sentral datadelingsløsning med lagring](#nasjonal-sentral-datadelingsløsning-med-lagring)
 
 ### Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)
 
