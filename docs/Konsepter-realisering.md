@@ -32,15 +32,15 @@ Konseptene for etablering av funksjonalitet for datatilbyder (avgi og tilgjengel
 
 ## Anbefalt konsept for datadeling
 
-Basert på vurderingene av de enkelte konseptene anbefaler vi at det er opp til virksomhetene å vurdere hvilke konsepter for datadeling som egner seg best for deres bruk av digital hjemmeoppfølging basert på samhandlingsbehovene som identifiseres regionalt. Vi anbefaler at virksomhetene velger et eller flere av konseptene som er innenfor gjeldende rett for å komme i gang med datadeling mellom virksomhetene i regionen. Det kan vurderes kombinasjoner av alle konseptene som faller innenfor gjeldende rett også innenfor en region avhengig av virksomhetenes størrelse, eksisterende infrastruktur og behov for fleksibilitet. En kombinasjon av flere konsepter for datadeling er vist i figuren:
-
-![Anbefalt konsept for datadeling med kombinasjon av distribuerte datadelingsløsninger og regionale fellesløsninger](img/fleksibel.png)
+Basert på vurderingene av de enkelte konseptene anbefaler vi at det er opp til virksomhetene å vurdere hvilke konsepter for datadeling som egner seg best for deres bruk av digital hjemmeoppfølging basert på samhandlingsbehovene som identifiseres regionalt. Vi anbefaler at virksomhetene velger et eller flere av konseptene som er innenfor gjeldende rett for å komme i gang med datadeling mellom virksomhetene i regionen. Det kan vurderes kombinasjoner av alle konseptene som faller innenfor gjeldende rett også innenfor en region avhengig av virksomhetenes størrelse, eksisterende infrastruktur og behov for fleksibilitet.  
 
 Konseptet baserer seg på at virksomhetene etablerer grensesnitt for å avgi data til andre virksomheter enten som distribuerte løsninger eller gjennom regionale fellesløsninger, innenfor et §9 samarbeid.
 
+![Anbefalt konsept for datadeling med kombinasjon av distribuerte datadelingsløsninger og regionale fellesløsninger](img/fleksibel.png)
+.
 ### Vurdering
 
-Gitt virksomhetenes ulike størrelse og forutsetning for å etablere datadelings løsninger mener vi det er hensiktsmessig at virksomhetene vurderer løsningskonsepter basert på lokale og regionale behov. På denne måten kan virksomhetene etablere datadelingsløsninger på egen hånd, benytte felles infrastruktur for å etablere datadelingsløsninger eller inngå regionale samarbeid for å understøtte samhandlingen regionalt
+Gitt virksomhetenes ulike størrelse og forutsetning for å etablere datadelings løsninger mener vi det er hensiktsmessig at virksomhetene vurderer løsningskonsepter basert på lokale og regionale behov. På denne måten kan virksomhetene etablere datadelingsløsninger på egen hånd, benytte felles infrastruktur for å etablere datadelingsløsninger eller inngå regionale samarbeid for å understøtte samhandlingen regionalt.
 
 ### Forutsetninger
 
