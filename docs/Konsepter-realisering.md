@@ -8,15 +8,13 @@ nav_order: 8
 |:-------------|:------------------|:------|:-------|
 | <span style="background-color:gold">Work in progress</span> | v0.8 | review  | ikke normert |
 
-Formålet med denne delen av målarkitekturen er å vise ulike mønster/ konsepter for hvordan datadeling mellom virksomheter kan realiseres, og vurdere disse konseptene i forhold til hverandre. Det er hovedfokus på etableringen av funksjonalitet for å avgi og tilgjengeliggjøre informasjon siden denne delen av datadelingsløsningen regnes som mest kompleks å etablere og vedlikeholde. Siden konkseptene vurderes ut fra kjente premisser og erfaringer som eksisterer idag vil dette være et øyeblikksbilde av situasjonen og konseptene må utvikles i takt med at sektoren vinner erfaringer med konkret løsningsutvikling og eventuell utvikling i systemlandskap, organisering av helsetjenesten og juridiske rammebetingelser.
+Formålet med denne delen av målarkitekturen er å vise ulike mønster/ konsepter for hvordan datadeling mellom virksomheter kan realiseres, og vurdere disse konseptene i forhold til hverandre. Det er hovedfokus på etableringen av funksjonalitet for å avgi og tilgjengeliggjøre informasjon siden denne delen av datadelingsløsningen regnes som mest kompleks å etablere og vedlikeholde. Siden konseptene vurderes ut fra kjente premisser og erfaringer som eksisterer idag vil dette være et øyeblikksbilde av situasjonen og konseptene må derfor utvikles i takt med at sektoren vinner erfaringer med konkret løsningsutvikling og eventuell utvikling i systemlandskap, organisering av helsetjenesten og juridiske rammebetingelser.
 
 !!! note
 
     Ved etablering av løsninger for datadeling skilles det mellom funksjonalitet for å avgi data (datatilbyder/produsent) og funksjonalitet for å slå opp i data (datakonsument). Funksjonaliteten for å avgi data regnes som mer komplisert å etablere og vedlikeholde enn oppslagsfunksjonaliteten siden det er høye krav til ytelse og tilgjengelighet knyttet til å avgi data ved datadeling. Datadelingsløsninger omtales som synkrone og det forventes at svaret på ett oppslag skjer umiddelbart (iløpet av noen millsekunder). Etableringen av funksjonalitet for oppslag er ikke like komplisert, selv om integrasjon mot eksisterende tekniske løsninger i egen virksomhet kan være utfordrende.  
 
     Mer om samhandlingsformen [slå opp](Organisatorisk-sla-opp.md)
-
-Denne delen av målarkitekturen skal vurdere mulighetsrommet for datadeling mellom virksomheter  
 
 ## Vurderingskriterier
 
