@@ -30,18 +30,14 @@ Konseptene for etablering av funksjonalitet for datatilbyder (avgi og tilgjengel
   * Etableres det mange kompliserte spesialløsninger for å oppnå samhandling pådrar sektoren seg stor teknisk gjeld
 * Bruk av standarder og hyllevare, er det mulig å basere seg på standardiserte grensesnitt og tilgjengelig hyllevare i stor eller liten grad
 
-## Anbefaling
-
-Ut fra samhandlingsbehovene som identifiseres i tjenesteforløpene er anbefalingen å vurdere hvilket konsept for datadeling som egner seg best. Virksomhetene bør velge ett eller flere kosept som er innenfor gjeldende rett for å komme i gang med datadeling mellom virksomhetene i Helsefellesskapet eller regionen. Det kan vurderes kombinasjoner av alle konseptene som faller innenfor gjeldende rett også innenfor en region avhengig av virksomhetenes størrelse, eksisterende infrastruktur og behov for fleksibilitet.
-
 ## Anbefalt konsept for datadeling
 
-~~Basert på vurderingene av de enkelte konseptene anbefaler vi at det er opp til virksomhetene å vurdere hvilke konsepter for datadeling som egner seg best for deres bruk av digital hjemmeoppfølging basert på samhandlingsbehovene som identifiseres regionalt. Vi anbefaler at virksomhetene velger et eller flere av konseptene som er innenfor gjeldende rett for å komme i gang med datadeling mellom virksomhetene i regionen. Det kan vurderes kombinasjoner av alle konseptene som faller innenfor gjeldende rett også innenfor en region avhengig av virksomhetenes størrelse, eksisterende infrastruktur og behov for fleksibilitet.~~  
+Vi anbefaler at virksomhetene vurderer hvilke konsept for datadeling som egner seg best ut fra samhandlingsbehovene som identifiseres i tjenesteforløpene som skal etableres regionalt eller lokalt. Virksomhetene bør velge ett eller flere konsept som er innenfor gjeldende rett for å komme i gang med datadeling mellom virksomhetene i Helsefellesskapet eller regionen. Det kan vurderes kombinasjoner av alle konseptene som faller innenfor gjeldende rett også innenfor en region. Hvilke konsept som passer best er blant annet avhengig av virksomhetenes størrelse, eksisterende infrastruktur og behov for fleksibilitet.
 
-Konseptet baserer seg på at virksomhetene etablerer grensesnitt for å avgi data til andre virksomheter enten som distribuerte løsninger eller gjennom regionale fellesløsninger, innenfor et §9 samarbeid.
+Anbefalt konsept baserer seg på at virksomhetene etablerer grensesnitt for å avgi data til andre virksomheter enten som distribuerte løsninger eller gjennom regionale fellesløsninger, innenfor et §9 samarbeid.
 
 ![Anbefalt konsept for datadeling med kombinasjon av distribuerte datadelingsløsninger og regionale fellesløsninger](img/fleksibel.png)
-.
+
 ### Vurdering
 
 Gitt virksomhetenes ulike størrelser og forutsetninger for å etablere datadelingsløsninger mener vi det er hensiktsmessig at virksomhetene vurderer løsningskonsepter basert på lokale og regionale behov. Virksomhetene kan basert på behov etablere datadelingsløsninger på egenhånd, benytte felles infrastruktur for å etablere datadelingsløsninger eller inngå regionale samarbeid for å understøtte samhandlingen.
@@ -72,17 +68,21 @@ Gitt virksomhetenes ulike størrelser og forutsetninger for å etablere datadeli
 
 * Kan gjennomføres med begrensede investeringer (for et lite antall virksomheter)
 
-### Trusler<!--Vurdere å bruke risko i stedet?-->
+### Trusler<!--Vurdere å bruke risko i stedet?--> <!-- Dette er SWOT sjargong -->
 
 * Skalering krever utvikling av felleskomponenter
 * Konseptet er avhengig av etablering av felleskomponenter for  PIL og felles tillitsmodell for videre spredning nasjonalt
 * Det eksisterer ikke avklart finansieringsmodell for nye felleskomponenter i felles infrastruktur
 
-## Øvrige vurderte konsept for datadeling
-Det er vurdert konsepter for datadeling innenfor følgende hovedkategorier:
-- Distribuerte
-- Regionale
-- Nasjonalt
+## Vurdering av konsepter for datadeling
+
+Anbefalingen av konsepter for datadeling baserer seg på vurderinger knyttet til hvert enkelt konsept i forhold til vurderingskriteriene. Vurderingen er oppsummert med fordeler og ulemper knyttet til hvert enkelt konsept. Konseptene som er vurdert for etablering av datadeling er:
+
+* Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)
+* Distribuerte datadelingsløsninger (i sentral infrastruktur)
+* Regionale datadelingsløsninger med lagring
+* Regionale fellesløsninger
+* Nasjonal sentral datadelingsløsning med lagring
 
 ### Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)
 
