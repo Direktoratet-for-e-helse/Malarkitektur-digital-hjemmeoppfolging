@@ -43,7 +43,7 @@ Konseptet baserer seg på at virksomhetene etablerer grensesnitt for å avgi dat
 .
 ### Vurdering
 
-Gitt virksomhetenes ulike størrelse og forutsetning for å etablere datadelings løsninger mener vi det er hensiktsmessig at virksomhetene vurderer løsningskonsepter basert på lokale og regionale behov. På denne måten kan virksomhetene etablere datadelingsløsninger på egen hånd, benytte felles infrastruktur for å etablere datadelingsløsninger eller inngå regionale samarbeid for å understøtte samhandlingen regionalt.
+Gitt virksomhetenes ulike størrelser og forutsetninger for å etablere datadelingsløsninger mener vi det er hensiktsmessig at virksomhetene vurderer løsningskonsepter basert på lokale og regionale behov. Virksomhetene kan da etablere datadelingsløsninger på egenhånd, benytte felles infrastruktur for å etablere datadelingsløsninger eller inngå regionale samarbeid for å understøtte samhandlingen.
 
 ### Forutsetninger
 
