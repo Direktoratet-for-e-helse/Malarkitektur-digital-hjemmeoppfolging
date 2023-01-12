@@ -77,7 +77,11 @@ Gitt virksomhetenes ulike størrelser og forutsetninger for å etablere datadeli
 * Konseptet er avhengig av etablering av felleskomponenter for  PIL og felles tillitsmodell for videre spredning nasjonalt
 * Det eksisterer ikke avklart finansieringsmodell for nye felleskomponenter i felles infrastruktur
 
-## Vurdering av løsningskonsepter
+## Øvrige vurderte konsept for datadeling
+Det er vurdert konsepter for datadeling innenfor følgende hovedkategorier:
+- Distribuerte
+- Regionale
+- Nasjonalt
 
 ### Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)
 
