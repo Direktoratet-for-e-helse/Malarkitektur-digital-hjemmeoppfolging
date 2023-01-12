@@ -38,23 +38,33 @@ Basert på vurderingene av de enkelte konseptene anbefaler vi at det er opp til 
 
 ![Anbefalt konsept for datadeling med kombinasjon av distribuerte datadelingsløsninger og regionale fellesløsninger](img/fleksibel.png)
 
-Konseptet baserer seg på at
+Konseptet baserer seg på at virksomhetene etablerer grensesnitt for å avgi data til andre virksomheter enten som distribuerte løsninger eller gjennom regionale fellesløsninger, innenfor et §9 samarbeid.
 
 ### Vurdering
 
+Gitt virksomhetenes ulike størrelse og forutsetning for å etablere datadelings løsninger mener vi det er hensiktsmessig at virksomhetene vurderer løsningskonsepter basert på lokale og regionale behov. På denne måten kan virksomhetene etablere datadelingsløsninger på egen hånd, benytte felles infrastruktur for å etablere datadelingsløsninger eller inngå regionale samarbeid for å understøtte samhandlingen regionalt
 
+### Forutsetninger
+
+* For at konseptet skal skalere nasjonalt/regionalt må det etableres Pasientinformasjonslokalisator (PIL) i nasjonal eller regional infrastruktur
+* Konseptet forutsetter etablering av tillitsanker funksjonalitet i nasjonal eller regional infrastruktur
+* Konseptet forutsetter at det etableres felles semantiske spesifikasjoner for informasjonen som skal utveksles
 
 ### Fordeler
 
-* Fleksibel løsning
-* I tråd med målarkitektur for datadeling
-* Kan realiseres innenfor gjeldende rett
+* Konseptet gir stor fleksibilitet i forhold til hvilken funksjonalitet virksomhetene realiserer
+  * Virksomhetene realiserer funksjonalitet som gir mest nytte lokalt/regionalt
+  * Kan gjøre det enklere å få til lokal tjenesteinnovasjon
+* Det etableres felles semantiske spesifikasjoner som alle virksomheter forholder seg til
+* Datadeling kan etableres innenfor gjeldende rett
 
 ### Ulemper
 
-* Mangler retning
-* Tillitsanker finnes ikke
-* PIL finnes ikke
+* Mangler én tydelig retning for hvordan virksomhetene skal utvikle datadeling
+* Det er ikke hjemmel for å etablere en sentralisert modell for PIL innenfor dagens regelverk
+* Det kan være utfordrende å utarbeide felles semantiske spesifikasjoner som gir nytte for virksomhetene
+  * Virksomheter som ikke opplever nytte kan velge å ikke tilgjengeliggjøre informasjon fra egne løsninger
+* Det kan være komplisert å etablere felles tillitsanker og felles krav knyttet til felles tillitsmodell
 
 ### Muligheter
 
@@ -63,10 +73,10 @@ Konseptet baserer seg på at
 ### Trusler
 
 * Skalering krever utvikling av felleskomponenter
-* Usikkert om PIL kan realiseres innen gjeldende rett
+* Avhengig av etablering av felleskomponenter for  PIL og felles tillitsmodell for videre spredning nasjonalt
 * Det eksisterer ikke avklart finansieringsmodell for nye felleskomponenter i felles infrastruktur
 
-## Overordnede løsningskonsepter
+## Vurdering av løsningskonsepter
 
 ### Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)
 
@@ -182,6 +192,7 @@ Virksomhetene som samarbeider om en fellesløsning vil ha mindre behov for bruk 
 * Konseptet gir mulighet for å gjenbruke funksjonalitet for å avgi data til virksomheter som står utenfor samarbeidet
 * Middels fleksibilitet knyttet til lokal innovasjon og tjenesteutvikling siden fellesløsningen må ta hensyn til behovene til alle virksomhetene i samarbeidet
 * Denne bruken av §9 er avklart og fellesløsningen blir å regne som èn aktør knyttet til samhandling med eventuelle eksterne aktører utenfor samarbeidet
+* Behovet for bruk av PIL er hovedsaklig knyttet til den nasjonale datadelingen (som er mindre)
 
 #### Ulemper
 
@@ -219,6 +230,8 @@ Konseptet løser behovet virksomhetene i samarbeider har for datadeling gjennom 
 * Stort potensiale for regional innovasjon og tjenesteutvikling
 * Middels fleksibilitet knyttet til lokal innovasjon og tjenesteutvikling siden fellesløsningen må ta hensyn til behovene til alle virksomhetene i samarbeidet
 * Innenfor regionen er det liten risiko for dårlig brukeropplevelse knyttet til søk, siden tilgjengeliggjøringen er sentralisert i regionen
+* Behovet for bruk av PIL er hovedsaklig knyttet til den nasjonale datadelingen (som er mindre)
+* Tillitsanker funksjonalitet kan etableres som en del av den regionale datadelingsløsningen
 
 #### Ulemper
 
@@ -252,6 +265,7 @@ Hovedfordelen med en nasjonal sentral datadelingsløsning for DHO er at løsning
 * Det er stort potensiale for gjenbruk av kode og løsninger på tvers av virksomhetene i helsesektoren
 * Konseptet kan skaleres raskt nasjonalt og har stort potensiale for effektiv sentral forvaltning
 * Konseptet eliminerer behovet for PIL for informasjonen som lagres i den nasjonale løsningen
+* Tillitsanker funksjonalitet kan etableres som en del av den nasjonale datadelingsløsningen
 
 #### Ulemper
 
