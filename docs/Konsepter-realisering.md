@@ -35,7 +35,7 @@ Ut fra samhandlingsbehovene som identifiseres i tjenesteforløpene er anbefaling
 
 ## Anbefalt konsept for datadeling
 
-Basert på vurderingene av de enkelte konseptene anbefaler vi at det er opp til virksomhetene å vurdere hvilke konsepter for datadeling som egner seg best for deres bruk av digital hjemmeoppfølging basert på samhandlingsbehovene som identifiseres regionalt. Vi anbefaler at virksomhetene velger et eller flere av konseptene som er innenfor gjeldende rett for å komme i gang med datadeling mellom virksomhetene i regionen. Det kan vurderes kombinasjoner av alle konseptene som faller innenfor gjeldende rett også innenfor en region avhengig av virksomhetenes størrelse, eksisterende infrastruktur og behov for fleksibilitet.  
+~~Basert på vurderingene av de enkelte konseptene anbefaler vi at det er opp til virksomhetene å vurdere hvilke konsepter for datadeling som egner seg best for deres bruk av digital hjemmeoppfølging basert på samhandlingsbehovene som identifiseres regionalt. Vi anbefaler at virksomhetene velger et eller flere av konseptene som er innenfor gjeldende rett for å komme i gang med datadeling mellom virksomhetene i regionen. Det kan vurderes kombinasjoner av alle konseptene som faller innenfor gjeldende rett også innenfor en region avhengig av virksomhetenes størrelse, eksisterende infrastruktur og behov for fleksibilitet.~~  
 
 Konseptet baserer seg på at virksomhetene etablerer grensesnitt for å avgi data til andre virksomheter enten som distribuerte løsninger eller gjennom regionale fellesløsninger, innenfor et §9 samarbeid.
 
