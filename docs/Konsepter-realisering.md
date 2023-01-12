@@ -31,6 +31,7 @@ Konseptene for etablering av funksjonalitet for datatilbyder (avgi og tilgjengel
 * Bruk av standarder og hyllevare, er det mulig å basere seg på standardiserte grensesnitt og tilgjengelig hyllevare i stor eller liten grad
 
 ## Anbefaling
+
 Ut fra samhandlingsbehovene som identifiseres i tjenesteforløpene er anbefalingen å vurdere hvilket konsept for datadeling som egner seg best. Virksomhetene bør velge ett eller flere kosept som er innenfor gjeldende rett for å komme i gang med datadeling mellom virksomhetene i Helsefellesskapet eller regionen. Det kan vurderes kombinasjoner av alle konseptene som faller innenfor gjeldende rett også innenfor en region avhengig av virksomhetenes størrelse, eksisterende infrastruktur og behov for fleksibilitet.
 
 ## Anbefalt konsept for datadeling
