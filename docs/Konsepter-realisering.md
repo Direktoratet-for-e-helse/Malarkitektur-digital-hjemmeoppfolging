@@ -71,10 +71,10 @@ Gitt virksomhetenes ulike størrelser og forutsetninger for å etablere datadeli
 
 * Kan gjennomføres med begrensede investeringer (for et lite antall virksomheter)
 
-### Trusler
+### Trusler<!--Vurdere å bruke risko i stedet?-->
 
 * Skalering krever utvikling av felleskomponenter
-* Avhengig av etablering av felleskomponenter for  PIL og felles tillitsmodell for videre spredning nasjonalt
+* Konseptet er avhengig av etablering av felleskomponenter for  PIL og felles tillitsmodell for videre spredning nasjonalt
 * Det eksisterer ikke avklart finansieringsmodell for nye felleskomponenter i felles infrastruktur
 
 ## Vurdering av løsningskonsepter
