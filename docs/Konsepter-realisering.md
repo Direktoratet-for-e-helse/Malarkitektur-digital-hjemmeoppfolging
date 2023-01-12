@@ -8,13 +8,15 @@ nav_order: 8
 |:-------------|:------------------|:------|:-------|
 | <span style="background-color:gold">Work in progress</span> | v0.8 | review  | ikke normert |
 
-Formålet med denne delen av målarkitekturen er å vise ulike mønster/ konsepter for hvordan datadeling mellom virksomheter kan realiseres, og vurdere disse konseptene opp mot hverandre. Det er hovedfokus på etableringen av funksjonalitet for å avgi og tilgjengeliggjøre informasjon siden denne delen av datadelingsløsningen regnes som mest kompleks å etablere og vedlikeholde.  
+Formålet med denne delen av målarkitekturen er å vise ulike mønster/ konsepter for hvordan datadeling mellom virksomheter kan realiseres, og vurdere disse konseptene i forhold til hverandre. Det er hovedfokus på etableringen av funksjonalitet for å avgi og tilgjengeliggjøre informasjon siden denne delen av datadelingsløsningen regnes som mest kompleks å etablere og vedlikeholde. Siden konkseptene vurderes ut fra kjente premisser og erfaringer som eksisterer idag vil dette være et øyeblikksbilde av situasjonen og konseptene må utvikles i takt med at sektoren vinner erfaringer med konkret løsningsutvikling og eventuell utvikling i systemlandskap, organisering av helsetjenesten og juridiske rammebetingelser.
 
 !!! note
 
     Ved etablering av løsninger for datadeling skilles det mellom funksjonalitet for å avgi data (datatilbyder/produsent) og funksjonalitet for å slå opp i data (datakonsument). Funksjonaliteten for å avgi data regnes som mer komplisert å etablere og vedlikeholde enn oppslagsfunksjonaliteten siden det er høye krav til ytelse og tilgjengelighet knyttet til å avgi data ved datadeling. Datadelingsløsninger omtales som synkrone og det forventes at svaret på ett oppslag skjer umiddelbart (iløpet av noen millsekunder). Etableringen av funksjonalitet for oppslag er ikke like komplisert, selv om integrasjon mot eksisterende tekniske løsninger i egen virksomhet kan være utfordrende.  
 
     Mer om samhandlingsformen [slå opp](Organisatorisk-sla-opp.md)
+
+Denne delen av målarkitekturen skal vurdere mulighetsrommet for datadeling mellom virksomheter 
 
 ## Vurderingskriterier
 
@@ -122,26 +124,28 @@ Grensesnittet for datadeling som etableres i fellesløsningen benyttes hovedsakl
 
 Virksomhetene som samarbeider om en fellesløsning vil ha mindre behov for bruk av datadeling innenfor sitt samarbeidsområde, siden klinikerne kan vise relevant informasjon direkte i fellesløsningen. Løsning for å avgi data vil derfor i hovedsak benyttes for å ivareta datadeling med virksomheter som står utenfor samarbeidet regionalt eller være knyttet til nasjonal samhandling om pasienten. I tillegg gir et samarbeid om en fellesløsning mulighet for å gjenbruke løsning for å avgi data på tvers av flere virksomheter, samtidig som man oppnår fleksibilitet knyttet til regional innovasjon innenfor fellesløsningen.
 
-<!--fortsett-->
-
 #### Forutsetninger
 
-* Funksjonalitet for å avgi informasjon etableres i fellesløsningen
+* Funksjonalitet for å avgi informasjon etableres i fellesløsningen, denne delen av løsningen brukes bare mot andre systemer eller virksomheter som ikke er en del av felles løsningen
 * Funksjonalitet og datalager i fellesløsningen kommer istedenfor eksisterende datalager og funksjonalitet i virksomhetenes egne systemer
   * Fellesløsningen etableres for å oppfylle dokumentasjonsplikten
+* Fellesløsningen ivaretar samhandlingen mellom virksomhetene som er med på samarbeidet innenfor behovsområdet
+
+#### Forutsetninger for kommunikasjon utover fellesløsningen
+
 * For at konseptet skal skalere nasjonalt/regionalt må det etableres Pasientinformasjonslokalisator (PIL) i nasjonal eller regional infrastruktur
 * Konseptet forutsetter etablering av tillitsanker funksjonalitet i felles infrastruktur
   * Gjelder bare ved kommunikasjon mot virksomheter som ikke er en del av samarbeidet
 * Alle konsumenter av informasjon, utenfor samarbeidet, må etablere søkefunksjonalitet i egen infrastruktur
-* Konseptet forutsetter at det etableres felles semantiske spesifikasjoner for oppslag i informasjonen som skal utveksles 
+* Konseptet forutsetter at det etableres felles semantiske spesifikasjoner for oppslag i informasjonen som skal utveksles
   * Med virksomheter utenfor samarbeidet om fellesløsningen
   * Med andre løsninger i virksomhetene som ikke er omfattet av samarbeidet om fellesløsning
 
 #### Fordeler
 
 * Etableringen av en fellesløsning kan i seg selv løse mange behov for digital samhandling mellom virksomhetene innenfor samarbeidet
-  * Stort potensiale for regional innovasjon og tjenesteutvikling
-* Konseptet gir mulighet for å gjenbruke funksjonalitet for å avgi data på tvers av virksomhetene som benytter fellesløsningen
+  * Stort potensiale for regional innovasjon og tjenesteutvikling og tilpasning av løsningen til regionale behov
+* Konseptet gir mulighet for å gjenbruke funksjonalitet for å avgi data til virksomheter som står utenfor samarbeidet
 * Middels fleksibilitet knyttet til lokal innovasjon og tjenesteutvikling siden fellesløsningen må ta hensyn til behovene til alle virksomhetene i samarbeidet
 * Denne bruken av §9 er avklart og fellesløsningen blir å regne som èn aktør knyttet til samhandling med eventuelle eksterne aktører utenfor samarbeidet
 
@@ -152,11 +156,9 @@ Virksomhetene som samarbeider om en fellesløsning vil ha mindre behov for bruk 
   * Det er komplisert å etablere gode fellesløsninger for mange virksomheter
   * Utfordringer knyttet til etablering av avtaler, felles prosesser og felles infrastruktur
 
-<!--fortsett-->
-
 ### Regionale datadelingsløsninger med lagring
 
-Ved etablering av sentral regional datadelingsløsning baserer vi oss på at informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagres i sentral infrastruktur hos NHN (eller annen leverandør) samtidig som den eksisterer i relevante fagsystem hos den enkelte virksomheten. Virksomhetene som deltar i det regionale samarbeidet kan søke i den felles regionale tjenesten som tilbys og driftes av NHN. Det kan også opprettes søk mot den regionale løsningen for virksomheter som ikke er en del av det regionale samarbeidet.
+Ved etablering av sentral regional datadelingsløsning baserer vi oss på at informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagres i sentral infrastruktur hos NHN (eller annen leverandør) samtidig som den eksisterer i relevante fagsystem hos den enkelte virksomheten for å ivareta dokumentasjonsplikten. Virksomhetene som deltar i det regionale samarbeidet kan søke i den felles regionale tjenesten som tilbys og driftes av NHN. Det kan også opprettes søk mot den regionale løsningen for virksomheter som ikke er en del av det regionale samarbeidet.
 
 ![Regionale datadelingsløsninger med lagring](img/regional-datadeling.png)
 
@@ -164,7 +166,7 @@ Ved etablering av sentral regional datadelingsløsning baserer vi oss på at inf
 
 * Funksjonalitet for tilgjengeliggjøring (inkludert lagring) etableres i fellesløsningen (likt som regional fellesløsning)
 * Funksjonalitet og datalager i fellesløsningen kommer i tillegg til eksisterende datalager og funksjonalitet i virksomhetenes egne systemer
-  * Fellesløsningen etableres ikke for å oppfylle dokumentasjonsplikten, men for å tilgjengeliggjøre informasjon på tvers
+  * Fellesløsningen etableres ikke for å oppfylle dokumentasjonsplikten, men for å tilgjengeliggjøre informasjon på tvers av virksomheter
   * Dette skiller konseptet fra regional fellesløsning
 * For at konseptet skal skalere nasjonalt må det etableres Pasientinformasjonslokalisator (PIL) i nasjonal infrastruktur
   * Den regionale samhandlingen forutsettes løst i regionen
@@ -182,8 +184,10 @@ Ved etablering av sentral regional datadelingsløsning baserer vi oss på at inf
 
 #### Ulemper
 
-* Foreløpige juridiske vurderinger tyder på at §9 ikke kan benyttes til å etablere felles regionale løsninger hvor hovedformålet er datadeling <!--Kan vi bruke kryssreferanse og vis til andre kapittel som har vurderingene?-->
+* [Juridiske vurdering av konseptet](Juridiske-rammebetingelser.md#regionale-datadelingsløsninger-avklart) viser at §9 ikke kan benyttes til å etablere felles regionale løsninger hvor hovedformålet er datadeling <!--Kan vi bruke kryssreferanse og vis til andre kapittel som har vurderingene?--> <!-- SVAR: Ja, se ny kodelinje-->
 * Alle virksomhetene må implementere synkronisering av egne data mot datalager i sentral infrastruktur
+
+<!--fortsett-->
 
 ### Nasjonal sentral datadelingsløsning med lagring
 
