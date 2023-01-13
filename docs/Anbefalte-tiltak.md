@@ -41,7 +41,9 @@ Det gjennomføres arbeid knyttet til å etablere felles tillitsmodell i forbinde
 
 #### Anbefalt tiltak
 
-Digital hjemmeoppfølging og deling av målinger er en annen utprøvingskandidat som er identifisert utover dokumentdeling gjennom kjernejournal. Det er viktig at bruk av felles tillitsmodell prøves ut for en datadelingstjeneste som DHO i tillegg til utprøvingen knyttet til dokumentdeling siden det kan gi viktig kunnskap om hvordan tillitsmodellen fungerer for datadelingsløsninger. Vi vet foreløpig for lite om kravene som stilles til tillitsmodellen knyttet til datadeling selv om hypotesen er at datadeling og dokumentdeling skal løses på samme måte er det viktig å få bekreftet den antakelsen.
+I tillegg til dokumentdeling gjennom kjernejournal er digital hjemmeoppfølging og deling av målinger identifisert som utprøvingskandidat for felles tillitsmodell. Sett fra helsetjenesten som prøver ut DHO sitt perspektiv er viktig at bruk av felles tillitsmodell prøves ut for datadelingstjenester som DHO i tillegg til utprøvingen knyttet til dokumentdeling, siden det kan gi viktig kunnskap om hvordan tillitsmodellen fungerer for datadelingsløsninger. Vi vet foreløpig lite om kravene som stilles til tillitsmodellen knyttet til datadeling og selv om hypotesen er at tillitsmodellen for datadeling og dokumentdeling fungere likt er det viktig å få bekreftet den antakelsen.
+
+Det anbefales at enkelte DHO tjenester som etablerer datadeling mellom virksomheter tar i bruk felles tillitsmodell og fellskomponenter som felles tillitsanker. 
 
 ### Vurdere fellesløsninger for MTU
 
@@ -55,9 +57,9 @@ Det er identifisert mange behov knyttet til administrasjon av MTU og bare noen a
 * Tilgang til data fra MTU-utstyr
 * Tilgang til administrasjon av MTU-utstyr
 
-#### Anbefalte tiltak
+#### Anbefalt tiltak
 
-
+Det anbefales at det settes igang arbeid som gjør det mulig for flere virksomheter å høste informasjon fra det samme utstyret, uavhengig av hvem som har tildelt utstyret. Det må først gjøres et mer grundig behovsarbeid og det må sannsynliggjøres at en slik løsning gir tilstrekkelig verdi til at det er formålstjenlig å etablere felles infrastruktur for å ivareta behovet.
 
 ## Tiltak knyttet til semantisk samhandling
 
