@@ -45,6 +45,20 @@ Digital hjemmeoppfølging og deling av målinger er en annen utprøvingskandidat
 
 ### Vurdere fellesløsninger for MTU
 
+Innspill fra aktørene som arbeider med spredning og utprøving av DHO har pekt på to store utfordringer knyttet til etablering av DHO tjenester. Det ene handler om samhandling som behandles i dette dokumentet. Et annet behov som er identifisert er knyttet til tildeling og forvaltning av det tekniske utstyret som skal samle målinger hjemme hos pasienten, ofte omtalt som MTU.
+
+Det er identifisert mange behov knyttet til administrasjon av MTU og bare noen av disse kan dekkes med ren oversikt over hvilket utstyr pasienten har, uavhengig av hvem som har tildelt dette:
+
+* Kjenne til tjenester, ytelser og hjelpemidler og hvilke aktører som har tildelt disse
+* Kjenne til om relevant utstyr er tildelt fra andre aktører
+* Unngå dobbelt sett av utstyr med overlappende funksjonalitet
+* Tilgang til data fra MTU-utstyr
+* Tilgang til administrasjon av MTU-utstyr
+
+#### Anbefalte tiltak
+
+
+
 ## Tiltak knyttet til semantisk samhandling
 
 ## Tiltak i hver enkelt virksomhet
