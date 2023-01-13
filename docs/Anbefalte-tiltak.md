@@ -6,6 +6,29 @@ Denne delen av målarkitekturen skal foreslå tiltak som kan gjennomføres for �
 
 ## Tiltak knyttet til etablering av felleskomponenter
 
+### Etablering av PIL
+
+[Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) peker på nødvendigheten av å etablere pasientinformasjonslokalisator for å understøtte datadeling basert på distribuert lagring og etablering av grensesnitt for å avgi data. Målarkitektur for datadeling slår også fast at det ikke eksisterer 
+
+!!! quote "Pasientinformasjonslokalisator"
+
+    Det er i en rekke situasjoner tilknyttet datadeling behov for å kunne fremskaffe en oversikt over hvem som har en pasientjournal for en gitt pasient. 
+    ...
+    Et slikt register bør etableres som en felleskomponent hvor det fremgår hvem som har helseopplysninger om en gitt pasient. Vi har valgt å kalle denne felleskomponenten for pasientinformasjonslokalisator, forkortet til PIL.
+
+#### Status for etablering av PIL - januar 2023
+
+Det eksisterer idag ikke noen tiltak knyttet til å etablere felleskomponent for PIL i samhandlingsinfrastrukturen for helsesektoren
+
+#### Anbefalt tiltak
+
+Spredning av DHO og understøtte behov for datadeling på tvers av mange virksomheter innenfor en region er avhengig av PIL for å fungere effektivt. Det mangler imidlertid mye arbeid før PIL kan etableres som en felleskomponent i samhandlingsinfrastrukturen:
+
+* Utarbeide et konsept for PIL som innenfor gjeldende rett, basert på desentralisert modell
+* Alternativt utarbeide forskrift som regulerer behandlingsgrunnlaget for PIL informasjon i en sentralisert løsning
+* Planlegge arbeidet med etablering og innføring av PIL
+* Etablere PIL som en felleskomponent i samhandlingsinfrastrukturen for helsesektoren
+
 ### Felles tillitsmodell for datadeling
 
 !!! quote ""
@@ -19,8 +42,6 @@ Det gjennomføres arbeid knyttet til å etablere felles tillitsmodell i forbinde
 #### Anbefalt tiltak
 
 Digital hjemmeoppfølging og deling av målinger er en annen utprøvingskandidat som er identifisert utover dokumentdeling gjennom kjernejournal. Det er viktig at bruk av felles tillitsmodell prøves ut for en datadelingstjeneste som DHO i tillegg til utprøvingen knyttet til dokumentdeling siden det kan gi viktig kunnskap om hvordan tillitsmodellen fungerer for datadelingsløsninger. Vi vet foreløpig for lite om kravene som stilles til tillitsmodellen knyttet til datadeling selv om hypotesen er at datadeling og dokumentdeling skal løses på samme måte er det viktig å få bekreftet den antakelsen.
-
-### Etablering av PIL
 
 ### Vurdere fellesløsninger for MTU
 
