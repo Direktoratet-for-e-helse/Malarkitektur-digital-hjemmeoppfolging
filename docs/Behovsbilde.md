@@ -1,9 +1,3 @@
----
-layout: default
-title: Overordnet behovsbilde for samhandling DHO
-nav_order: 5
----
-
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
 |<span style="background-color:gold">Work in progress</span> | v0.8 | review  | ikke normert |
