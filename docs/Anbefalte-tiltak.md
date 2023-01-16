@@ -61,6 +61,21 @@ Det er identifisert mange behov knyttet til administrasjon av MTU og bare noen a
 
 Det anbefales at det settes igang arbeid som gjør det mulig for flere virksomheter å høste informasjon fra det samme utstyret, uavhengig av hvem som har tildelt utstyret. Det må først gjøres et mer grundig behovsarbeid og det må sannsynliggjøres at en slik løsning gir tilstrekkelig verdi til at det er formålstjenlig å etablere felles infrastruktur for å ivareta behovet.
 
+### Etablere fellesløsninger for lagring og grensesnitt
+
+Konseptet for [distribuert lagring i sentral infrastruktur](Konsepter-realisering.md#distribuerte-datadelingslosninger-i-sentral-infrastruktur) er basert på at grensenitt og lagring av helsedata etableres i sentral infrastruktur, for eksempel hos NHN. Også de sentrale konseptene baserer seg på etablering av lagring og grensesnitt sentralt. I de utprøvingene og spredningsaktivitetene som gjennomføres idag etableres felles løsning for lagring og avgi data til andre virksomheter i NHN og funksjon for dette blir en del av Velferdsteknologis knutepunkt.
+
+Det er flere problemstillinger som er uavklart når det gjelder bruk av VKP for å tilby denne typen løsninger.
+
+* Merkantile forhold knyttet til konkurransehensyn og betaling for tjenester i VKP
+* Avtalerammeverk for å benytte funksjonalitet for datadeling som etableres sentralt 
+* Juridiske problemstillinger knyttet til sammenstilling av informasjon på tvers av virksomheter (gjelder sentralisert modell)
+* Styring, forvaltning og nyttevurderinger knyttet til sentral løsning, hvordan prioriterer man mellom identifiserte behov
+
+### Anbefalte tiltak
+
+Det må utredes hvordan alle punktene over skal løses hvis det etableres sentral infrastruktur for datadeling knyttet til DHO. Det må derfor gjennomføres en utredning som peker på hvordan etablering og forvaltning av fellesløsninger skal fungere i forhold til merkantile, avtalemessige, juridiske og styringsmessige forhold.
+
 ## Tiltak knyttet til semantisk samhandling
 
 Kapitelet som beskriver [konsepter for realisering](Konsepter-realisering.md) av datadeling mellom virksomheter og omsorgsnivå peker på nødvendigheten av felles semantiske spesifikasjoner for å understøtte distribuerte konsepter. Det er behov for semantiske spesifikasjoner ved etablering av sentrale/nasjonale løsninger også, men dette vil realiseres gjennom grensesnittspesifikasjonene i den sentrale løsningen.
