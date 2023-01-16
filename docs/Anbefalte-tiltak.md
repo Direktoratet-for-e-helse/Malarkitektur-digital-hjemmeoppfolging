@@ -1,6 +1,6 @@
 | Status           | Version | Maturity | Normative level |
 | :--------------- | :------ | :------- | :-------------- |
-| <span style="background-color:gold">Work in progress</span> | v0.1 | draft | ikke normert |
+| <span style="background-color:gold">Work in progress</span> | v0.3 | draft | ikke normert |
 
 Denne delen av målarkitekturen skal foreslå tiltak som kan gjennomføres for å understøtte etableringen av datadeling mellom virksomheter innen for behovsområdet DHO. Vi skiller på tiltak knyttet til etablering av felleskomponenter og tiltak knyttet til semantisk samhandling.
 
@@ -86,4 +86,4 @@ Foreløpig er det bare et fåtall profiler som er utviklet, disse har også sett
 
 ### Anbefalte tiltak
 
-Det anbefales tiltak knyttet til alle de tre retningene som beskrives under [utestående arbeid](#utestående-arbeid-knyttet-til-semantisk-samhandling) men Kvantitet for å dekke flere brukertilfeller og kvalitet for å teste eksisterende profiler bedre haster mest.
+Det anbefales tiltak knyttet til alle de tre retningene som beskrives under [utestående arbeid](#utestende-arbeid-knyttet-til-semantisk-samhandling) men Kvantitet for å dekke flere brukertilfeller og kvalitet for å teste eksisterende profiler bedre haster mest.
