@@ -2,7 +2,7 @@
 | :--------------- | :------ | :------- | :-------------- |
 | <span style="background-color:gold">Work in progress</span> | v0.1 | draft | ikke normert |
 
-Denne delen av målarkitekturen skal foreslå tiltak som kan gjennomføres for å understøtte etableringen av datadeling mellom virksomheter innen for behovsområdet DHO. Vi skiller på tiltak knyttet til etablering av felleskomponenter og tiltak som må gjennomføres av hver enkelt virksomhet som ønsker å etablere datadeling for samhandling med andre virksomheter.
+Denne delen av målarkitekturen skal foreslå tiltak som kan gjennomføres for å understøtte etableringen av datadeling mellom virksomheter innen for behovsområdet DHO. Vi skiller på tiltak knyttet til etablering av felleskomponenter og tiltak knyttet til semantisk samhandling.
 
 ## Tiltak knyttet til etablering av felleskomponenter
 
@@ -63,4 +63,27 @@ Det anbefales at det settes igang arbeid som gjør det mulig for flere virksomhe
 
 ## Tiltak knyttet til semantisk samhandling
 
-## Tiltak i hver enkelt virksomhet
+Kapitelet som beskriver [konsepter for realisering](Konsepter-realisering.md) av datadeling mellom virksomheter og omsorgsnivå peker på nødvendigheten av felles semantiske spesifikasjoner for å understøtte distribuerte konsepter. Det er behov for semantiske spesifikasjoner ved etablering av sentrale/nasjonale løsninger også, men dette vil realiseres gjennom grensesnittspesifikasjonene i den sentrale løsningen.
+
+### Felles semantisk rammeverk for datadeling og DHO
+
+Utprøving og spredningsprosjektene som gjennomføres nå baserer seg på et lite sett [HL7 FHIR](https://hl7.org/fhir/) profiler som beskriver det semantiske innholdet i målinger som kan utveksles mellom virksomhetene. Profilene beskriver i hovedsak tre forhold knyttet til utveksling av informasjon mellom virksomhetene:
+
+* Overordnet brukertilfelle profilene understøtter
+* Hvilken informasjon som er minimum for at informasjonen skal vær nyttig
+* Regler for informajsonsinnhold i de spesifikke informasjonselementene
+  * Inkluderer regler om bruk av felles terminologi og kodeverk
+
+Vi tror det er nødvendig at det eksisterer felles beskrivelse av dette på tvers av virksomheter for at datadeling skal fungere på en god måte, dette er uavhengig av om distribusjonen av data baserer seg på en sentral eller distribuert modell. Ved en distribuert modell er det imidlertid et ufravikelig krav at det er felles regler for hvordan informasjonen skal utformes, ellers vil etablering av oppslagstjenester mot mange ulike grensesnitt bli en uoverstigelig oppgave hvor utviklerne må forholde seg til en rekke typer semantiske spesifikasjoner. Integrasjon mot bakenforligende systemer vil også bli svært komplisert.
+
+### Utestående arbeid knyttet til semantisk samhandling
+
+Foreløpig er det bare et fåtall profiler som er utviklet, disse har også sett lite praktisk bruk og er implementert i få løsninger. Det er viktig at profilene videreutvikles i tre retninger:
+
+* Kvantitet - det er få brukertilfeller som er dekket av eksisterende profiler, det må testes og utvikles flere for å dekke flere brukertilfeller og flere typer informasjonstjenester
+* Kvalitet - profilene må implementeres i flere løsninger og testes i praktisk bruk i større grad for å kvalitetsikre at innholdet er tilstrekkelig for praktisk klinisk bruk og teste at integrasjon mot mange bakenforliggende løsninger kan gjennomføres
+* Innhold - dagens profiler beskriver informasjonsinnholdet, men også lovlige søkeparametere bør detaljeres i neste versjon av profilene. På denne måten kan man sikre at datadelingstjenestene tilbyr den samme søkefunksjonaliteten uavhengig av hvem som implementerer grensesnittene
+
+### Anbefalte tiltak
+
+Det anbefales tiltak knyttet til alle de tre retningene som beskrives under [utestående arbeid](#utestående-arbeid-knyttet-til-semantisk-samhandling) men Kvantitet for å dekke flere brukertilfeller og kvalitet for å teste eksisterende profiler bedre haster mest.
