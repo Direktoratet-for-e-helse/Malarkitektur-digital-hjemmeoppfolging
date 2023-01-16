@@ -15,7 +15,7 @@
         <link rel="next" href="../Referanser/">
       
       <link rel="icon" href="../logo/ehelse-hvit.png">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.4">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.5">
     
     
       
@@ -23,7 +23,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.9c788c91.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.558e4712.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
@@ -164,7 +164,7 @@
           <div class="md-search-result__meta">
             Initializing search
           </div>
-          <ol class="md-search-result__list"></ol>
+          <ol class="md-search-result__list" role="presentation"></ol>
         </div>
       </div>
     </div>
@@ -701,12 +701,32 @@
     Tiltak knyttet til semantisk samhandling
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tiltak-i-hver-enkelt-virksomhet" class="md-nav__link">
-    Tiltak i hver enkelt virksomhet
+    <nav class="md-nav" aria-label="Tiltak knyttet til semantisk samhandling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#felles-semantisk-rammeverk-for-datadeling-og-dho" class="md-nav__link">
+    Felles semantisk rammeverk for datadeling og DHO
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#utestaende-arbeid-knyttet-til-semantisk-samhandling" class="md-nav__link">
+    Utestående arbeid knyttet til semantisk samhandling
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anbefalte-tiltak" class="md-nav__link">
+    Anbefalte tiltak
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -983,12 +1003,32 @@
     Tiltak knyttet til semantisk samhandling
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tiltak-i-hver-enkelt-virksomhet" class="md-nav__link">
-    Tiltak i hver enkelt virksomhet
+    <nav class="md-nav" aria-label="Tiltak knyttet til semantisk samhandling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#felles-semantisk-rammeverk-for-datadeling-og-dho" class="md-nav__link">
+    Felles semantisk rammeverk for datadeling og DHO
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#utestaende-arbeid-knyttet-til-semantisk-samhandling" class="md-nav__link">
+    Utestående arbeid knyttet til semantisk samhandling
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anbefalte-tiltak" class="md-nav__link">
+    Anbefalte tiltak
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1031,7 +1071,7 @@
 </tr>
 </tbody>
 </table>
-<p>Denne delen av målarkitekturen skal foreslå tiltak som kan gjennomføres for å understøtte etableringen av datadeling mellom virksomheter innen for behovsområdet DHO. Vi skiller på tiltak knyttet til etablering av felleskomponenter og tiltak som må gjennomføres av hver enkelt virksomhet som ønsker å etablere datadeling for samhandling med andre virksomheter.</p>
+<p>Denne delen av målarkitekturen skal foreslå tiltak som kan gjennomføres for å understøtte etableringen av datadeling mellom virksomheter innen for behovsområdet DHO. Vi skiller på tiltak knyttet til etablering av felleskomponenter og tiltak knyttet til semantisk samhandling.</p>
 <h2 id="tiltak-knyttet-til-etablering-av-felleskomponenter">Tiltak knyttet til etablering av felleskomponenter</h2>
 <h3 id="etablering-av-pil">Etablering av PIL</h3>
 <p><a href="https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren">Målarkitektur for datadeling i helse og omsorgssektoren</a> peker på nødvendigheten av å etablere pasientinformasjonslokalisator for å understøtte datadeling basert på distribuert lagring og etablering av grensesnitt for å avgi data. Målarkitektur for datadeling slår også fast at det ikke eksisterer </p>
@@ -1073,7 +1113,27 @@ Et slikt register bør etableres som en felleskomponent hvor det fremgår hvem s
 <h4 id="anbefalt-tiltak_2">Anbefalt tiltak</h4>
 <p>Det anbefales at det settes igang arbeid som gjør det mulig for flere virksomheter å høste informasjon fra det samme utstyret, uavhengig av hvem som har tildelt utstyret. Det må først gjøres et mer grundig behovsarbeid og det må sannsynliggjøres at en slik løsning gir tilstrekkelig verdi til at det er formålstjenlig å etablere felles infrastruktur for å ivareta behovet.</p>
 <h2 id="tiltak-knyttet-til-semantisk-samhandling">Tiltak knyttet til semantisk samhandling</h2>
-<h2 id="tiltak-i-hver-enkelt-virksomhet">Tiltak i hver enkelt virksomhet</h2>
+<p>Kapitelet som beskriver <a href="../Konsepter-realisering/">konsepter for realisering</a> av datadeling mellom virksomheter og omsorgsnivå peker på nødvendigheten av felles semantiske spesifikasjoner for å understøtte distribuerte konsepter. Det er behov for semantiske spesifikasjoner ved etablering av sentrale/nasjonale løsninger også, men dette vil realiseres gjennom grensesnittspesifikasjonene i den sentrale løsningen.</p>
+<h3 id="felles-semantisk-rammeverk-for-datadeling-og-dho">Felles semantisk rammeverk for datadeling og DHO</h3>
+<p>Utprøving og spredningsprosjektene som gjennomføres nå baserer seg på et lite sett <a href="https://hl7.org/fhir/">HL7 FHIR</a> profiler som beskriver det semantiske innholdet i målinger som kan utveksles mellom virksomhetene. Profilene beskriver i hovedsak tre forhold knyttet til utveksling av informasjon mellom virksomhetene:</p>
+<ul>
+<li>Overordnet brukertilfelle profilene understøtter</li>
+<li>Hvilken informasjon som er minimum for at informasjonen skal vær nyttig</li>
+<li>Regler for informajsonsinnhold i de spesifikke informasjonselementene<ul>
+<li>Inkluderer regler om bruk av felles terminologi og kodeverk</li>
+</ul>
+</li>
+</ul>
+<p>Vi tror det er nødvendig at det eksisterer felles beskrivelse av dette på tvers av virksomheter for at datadeling skal fungere på en god måte, dette er uavhengig av om distribusjonen av data baserer seg på en sentral eller distribuert modell. Ved en distribuert modell er det imidlertid et ufravikelig krav at det er felles regler for hvordan informasjonen skal utformes, ellers vil etablering av oppslagstjenester mot mange ulike grensesnitt bli en uoverstigelig oppgave hvor utviklerne må forholde seg til en rekke typer semantiske spesifikasjoner. Integrasjon mot bakenforligende systemer vil også bli svært komplisert.</p>
+<h3 id="utestaende-arbeid-knyttet-til-semantisk-samhandling">Utestående arbeid knyttet til semantisk samhandling</h3>
+<p>Foreløpig er det bare et fåtall profiler som er utviklet, disse har også sett lite praktisk bruk og er implementert i få løsninger. Det er viktig at profilene videreutvikles i tre retninger:</p>
+<ul>
+<li>Kvantitet - det er få brukertilfeller som er dekket av eksisterende profiler, det må testes og utvikles flere for å dekke flere brukertilfeller og flere typer informasjonstjenester</li>
+<li>Kvalitet - profilene må implementeres i flere løsninger og testes i praktisk bruk i større grad for å kvalitetsikre at innholdet er tilstrekkelig for praktisk klinisk bruk og teste at integrasjon mot mange bakenforliggende løsninger kan gjennomføres</li>
+<li>Innhold - dagens profiler beskriver informasjonsinnholdet, men også lovlige søkeparametere bør detaljeres i neste versjon av profilene. På denne måten kan man sikre at datadelingstjenestene tilbyr den samme søkefunksjonaliteten uavhengig av hvem som implementerer grensesnittene</li>
+</ul>
+<h3 id="anbefalte-tiltak">Anbefalte tiltak</h3>
+<p>Det anbefales tiltak knyttet til alle de tre retningene som beskrives under <a href="#utestående-arbeid-knyttet-til-semantisk-samhandling">utestående arbeid</a> men Kvantitet for å dekke flere brukertilfeller og kvalitet for å teste eksisterende profiler bedre haster mest.</p>
 
 
 
@@ -1119,7 +1179,7 @@ Et slikt register bør etableres som en felleskomponent hvor det fremgår hvem s
     <script id="__config" type="application/json">{"base": "..", "features": ["content.code.annotate", "content.tooltips", "navigation.indexes", "navigation.sections", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.e5c33ebb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.ba449ae6.min.js"></script>
+      <script src="../assets/javascripts/bundle.51d95adb.min.js"></script>
       
     
   </body>

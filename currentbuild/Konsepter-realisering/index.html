@@ -15,7 +15,7 @@
         <link rel="next" href="../Juridiske-rammebetingelser/">
       
       <link rel="icon" href="../logo/ehelse-hvit.png">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.4">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.5">
     
     
       
@@ -23,7 +23,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.9c788c91.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.558e4712.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
@@ -164,7 +164,7 @@
           <div class="md-search-result__meta">
             Initializing search
           </div>
-          <ol class="md-search-result__list"></ol>
+          <ol class="md-search-result__list" role="presentation"></ol>
         </div>
       </div>
     </div>
@@ -639,10 +639,10 @@
         
           <li class="md-nav__item">
   <a href="#distribuerte-datadelingslsninger-i-virksomhetenes-infrastruktur" class="md-nav__link">
-    Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)
+    Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)  
   </a>
   
-    <nav class="md-nav" aria-label="Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)">
+    <nav class="md-nav" aria-label="Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)  ">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1149,10 +1149,10 @@
         
           <li class="md-nav__item">
   <a href="#distribuerte-datadelingslsninger-i-virksomhetenes-infrastruktur" class="md-nav__link">
-    Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)
+    Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)  
   </a>
   
-    <nav class="md-nav" aria-label="Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)">
+    <nav class="md-nav" aria-label="Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)  ">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1396,7 +1396,7 @@
 </thead>
 <tbody>
 <tr>
-<td align="left"><span style="background-color:gold">Work in progress</span></td>
+<td align="left"><span style="background-color:BlueViolet">Prerelease</span></td>
 <td align="left">v0.8</td>
 <td align="left">review</td>
 <td align="left">ikke normert</td>
@@ -1477,11 +1477,11 @@
 <li><a href="#regionale-datadelingslsninger-med-lagring">Regionale datadelingsløsninger med lagring</a></li>
 <li><a href="#nasjonal-sentral-datadelingslsning-med-lagring">Nasjonal sentral datadelingsløsning med lagring</a></li>
 </ul>
-<h3 id="distribuerte-datadelingslsninger-i-virksomhetenes-infrastruktur">Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)</h3>
-<p>Distribuerte datadelingsløsninger i virksomhetenes infrastruktur baserer seg på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer. Grensesnitt og datalager for datadeling etableres i virksomhetens egen infrastruktur. Datadeling mellom virksomhetene gjennomføres ved at hver virksomhet gjør distribuerte oppslag mot grensesnittene for å avgi data som er etablert av andre virksomhetene.</p>
+<h3 id="distribuerte-datadelingslsninger-i-virksomhetenes-infrastruktur">Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur) <!--Litt pirk, men skal ikke alle konsepter og underavsnitt ha overskrifter på samme nivå? Her ## - neste nivå ### og ikke ####? Eller er inndelingne bevisst for å skille mellom det anbefalte og resten?--> <!-- Her tror jeg du har blingsa, det er riktig nivå på overskiftene i dette kapitelet såvidt jeg kan se--></h3>
+<p>Distribuerte datadelingsløsninger i virksomhetenes infrastruktur baserer seg på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer. Grensesnitt og datalager for datadeling etableres i virksomhetens egen infrastruktur. Datadeling mellom virksomhetene gjennomføres ved at hver virksomhet gjør distribuerte oppslag mot grensesnittene for å avgi data som er etablert av de andre virksomhetene.</p>
 <p><img alt="Distribuerte datadelingsløsninger i virksomhetenes infrastruktur" src="../img/distribuert.png" /></p>
 <h4 id="vurdering_1">Vurdering</h4>
-<p>Hovedfordelen med konseptet distribuerte datadelingsløsninger er stor fleksibilitet knyttet til hvem som etablerer hvilken funksjonalitet der det gir stor opplevd nytte, hvilken funksjonalitet som utvikles kan prioriteres lokalt. Den største ulempen er knyttet til stor kompleksitet ved etableringen og vedlikehold av funksjonaliteten for å avgi og tilgjengeliggjøre informasjon fra separate løsninger i hver enkelt virksomhet, dette gjør en distribuert modell komplisert å bredde og vedlikeholde.  </p>
+<p>Hovedfordelen med konseptet distribuerte datadelingsløsninger er stor fleksibilitet. Virksomehtene kan etablere funksjonalitet som gir stor opplevd nytte regionalt eller lokalt. Den største ulempen er knyttet til stor kompleksitet ved etableringen og vedlikehold av funksjonaliteten for å avgi og tilgjengeliggjøre informasjon fra separate løsninger i hver enkelt virksomhet. Dette gjør en distribuert modell komplisert å bredde og vedlikeholde.  </p>
 <p>En distribuert modell stiller store krav til samhandlingsinfrastrukturen og samarbeid på tvers av leverandører og virksomheter. Konseptet stiller for eksempel krav om at virksomhetene må vite hvor de skal søke etter informasjon om en bestemt pasient gjennom en pasientinformasjonslokalisator (PIL), siden det er lite effektivt å gjøre oppslag mot alle virksomheter uavhengig av om disse har informasjon om pasienten eller ikke. Det må etableres en sentralisert tillitsmodell for å støtte dette konseptet, ellers blir man avhengig av bilaterale avtaler mellom alle aktørene som ønsker å samhandle med hverandre.  Alle løsninger for å avgi informasjon må ta utgangspunkt i felles semantiske spesifikasjoner tilpasset ulike bruksområder, slik at det blir enkelt å søke i informasjon på tvers av mange ulike virksomheter og løsninger som er levert av forskjellige leverandører.  </p>
 <h4 id="forutsetninger_1">Forutsetninger</h4>
 <ul>
@@ -1520,6 +1520,7 @@
 </ul>
 </li>
 <li>Det kan være komplisert å etablere felles tillitsanker og felles krav knyttet til felles tillitsmodell</li>
+<li>Siden det er stor fleksibilitet til å prioritere lokale/regionale behov kan konsekvensen være lite enhetlig funksjonalitet på tvers av virksomhetene og derfor dårlig samhandling regionalt, hvis regionen ikke klarer å samordne utviklingen</li>
 </ul>
 <h3 id="distribuerte-datadelingslsninger-i-sentral-infrastruktur">Distribuerte datadelingsløsninger (i sentral infrastruktur)</h3>
 <p>Konseptet baserer seg (som ren distribuert modell) på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer, men istedenfor å etablere dette i egen infrastruktur etableres selve grensesnittet og datalager for datadeling i en felles infrastruktur. Det betyr at grensesnittet driftes og vedlikeholdes av en eller noen få leverandør(er). Datadelingen mellom virksomhetene gjennomføres ved at hver virksomhet gjør distribuerte oppslag mot grensesnittene for å avgi data, som er etablert av de andre virksomhetene. Det er en juridisk forutsetning at informasjonen fra hver virksomhet ikke sammenstilles med informasjon fra andre virksomheter i den sentrale infrastrukturen, men at løsningene for lagring og grensesnittene etableres som logisk adskilte løsninger for hver virksomhet. Behandlingen av helseopplysninger i sentral infrastruktur må reguleres av en databehandleravtale mellom den enkelte virksomheten og leverandøren av infrastrukturen.</p>
@@ -1725,7 +1726,7 @@
     <script id="__config" type="application/json">{"base": "..", "features": ["content.code.annotate", "content.tooltips", "navigation.indexes", "navigation.sections", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.e5c33ebb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.ba449ae6.min.js"></script>
+      <script src="../assets/javascripts/bundle.51d95adb.min.js"></script>
       
     
   </body>
