@@ -27,6 +27,10 @@ Arbeid med målarkitektur for DHO skal utarbeide en målarkitektur for brukstilf
   
     Dette bruksområdet dekker samhandling gjennom datadeling mellom aktører i ulike helseregioner og mellom aktører i helseregioner og den kommunale helse- og omsorgstjenesten inkludert fastleger. Målarkitekturen for dette bruksområdet trenger mer arbeid og vi har valgt å ikke beskrive arkitekturen nærmere i denne versjonen av dokumentet." 
 
+!!! info
+
+    Innholdet i denne delen bygger direkte på eksisterende rammeverk beskrevet i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) og [Referansearkitektur for datadeling](https://www.ehelse.no/standardisering/standarder/referansearkitektur-for-datadeling). Kapitelet forutsetter kjennskap til de tekniske delene av disse arbeidene. Kapitelet egner seg hovedsaklig for arkitekter og tekniske personer som ønsker å forstå bakgrunnen for arkitekturvalgene som gjøres i målarkitekturen.
+
 ## Kapabilitetskart Konsumere (hendelser), Slå opp og Oppdatere
 
 Modellen viser overordnet kapabilitetskart for prosessene Konsumere informasjon, Vurdere og gjennomføre tiltak, Produsere informasjon og Dele informasjon. Dette er prosesser som er knyttet til Konsumenter (og produsenter) som integrerer mot andre aktører sine tjenester for tilgang til informasjon eller som ønsker å oppdatere informasjon de har produsert i informasjonstjenester som tilbys av andre aktører. Vi har identifisert at det mest relevante samhandlingsmønsteret for informasjonsbehovene knyttet til DHO er "Slå opp", men gode alternativer kan være å konsumere hendelsesstrømmer. For å oppdatere felles informasjonstjenester (for eksempel felles behandlingsplan) vil "Oppdatere" best dekke behovet. For prosesser hvor det er behov for bestilling og henvisning til tjenester som tilbys av andre aktører vil imidlertid sende/motta være foretrukket samhandlingsform.

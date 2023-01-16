@@ -53,11 +53,15 @@ Målarkitekturen skal bidra til:
 
 Målgruppen for målarkitekturen er primært arkitekter og tekniske prosjektledere, men er også relevant for beslutningstagere, prosjektledere, helsepersonell og utviklere innen helse- og omsorgssektoren.
 
-Alle delene frem til konsepter for realisering anbefales for alle som er interessert i målarkitektur for datadeling innen DHO. Her beskrives målbilde, prinsipper, behov og overordnede løsningskonsepter som kan benyttes for å etablere datadeling for helsetjenester og tjenesteforløp som benytter DHO. NB! Deler av behovsbeskrivelsen er teknisk anlagt og vil være vanskelig tilgjengelig for lesere som ikke har inngående kjennskap til metoder for informasjonsarkitektur.
+!!! info inline end "NB!"
 
-Juridiske avklaringer er en viktig beskrivelse av eksisterende juridiske rammebetingelser for å etablere datadeling i henhold til gjeldende lover og regler og egner seg for jurister og arkitekter som må forholde seg til disse rammene ved utvikling og innføring av konkrete løsninger for datadeling.
+    NB! Deler av behovsbeskrivelsen er teknisk anlagt og vil være vanskelig tilgjengelig for lesere som ikke har inngående kjennskap til metoder for informasjonsarkitektur.
 
-Selve målarkitekturen for datadeling beskriver det arkitekturtekniske underlaget for hvilke kapabiliteter og informasjonstjenester som bør realiseres, samt de grunnleggende prosessene og funksjonene virksomhetene må etablere for å realisere og forvalte effektive datadelingstjenester. Innholdet i denne delen bygger direkte på eksisterende rammeverk beskrevet i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) og forutsetter kjennskap til de tekniske delene av dette arbeidet. Kapitelet egner seg hovedsaklig for arkitekter og tekniske personer som ønsker å forstå bakgrunnen for arkitekturvalgene som gjøres i målarkitekturen.
+Alle delene frem til [konsepter](Konsepter-realisering.md) for realisering anbefales for alle som er interessert i målarkitektur for datadeling innen DHO. Her beskrives målbilde, prinsipper, behov og overordnede løsningskonsepter som kan benyttes for å etablere datadeling for helsetjenester og tjenesteforløp som benytter DHO.
+
+[Juridiske rammebetingelser](Juridiske-rammebetingelser.md) gir en oversikt over eksisterende juridiske rammebetingelser for å etablere datadeling i henhold til gjeldende lover og regler. Kapitelet egner seg for jurister og arkitekter som må forholde seg til disse rammene ved utvikling og innføring av konkrete løsninger for datadeling.
+
+[Målarkitektur samhandling DHO](Malarkitektur-samhandling.md) beskriver det arkitekturtekniske underlaget for hvilke kapabiliteter og informasjonstjenester som bør realiseres, samt de grunnleggende prosessene og funksjonene virksomhetene må etablere for å realisere og forvalte effektive datadelingstjenester.
 
 ## Omfang og avgrensninger
 
