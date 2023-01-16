@@ -6,7 +6,7 @@ nav_order: 8
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:gold">Work in progress</span> | v0.8 | review  | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span> | v0.8 | review  | ikke normert |
 
 Formålet med denne delen av målarkitekturen er å vise ulike mønster/ <!--foreslår å bare bruke konsepter hvis det ikke er en åpenbar årsak til at mønster skal være med--> konsepter for hvordan datadeling mellom virksomheter kan realiseres, og vurdere disse konseptene i forhold til hverandre. Det er hovedfokus på etablering av funksjonalitet for å avgi og tilgjengeliggjøre informasjon siden denne delen av datadelingsløsningen regnes som mer kompleks å etablere og vedlikeholde enn funksjonalitet for oppslag. Siden konseptene vurderes ut fra kjente premisser og erfaringer som eksisterer i dag vil dette være et øyeblikksbilde av situasjonen og konseptene må derfor utvikles i takt med at sektoren vinner erfaringer med konkret løsningsutvikling og eventuell utvikling i systemlandskap, organisering av helsetjenesten og juridiske rammebetingelser.
 
@@ -84,7 +84,7 @@ Anbefalingen av konsepter for datadeling baserer seg på vurderinger knyttet til
 * [Regionale datadelingsløsninger med lagring](#regionale-datadelingslsninger-med-lagring)
 * [Nasjonal sentral datadelingsløsning med lagring](#nasjonal-sentral-datadelingslsning-med-lagring)
 
-### Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur) <!--Litt pirk, men skal ikke alle konsepter og underavsnitt ha overskrifter på samme nivå? Her ## - neste nivå ### og ikke ####? Eller er inndelingne bevisst for å skille mellom det anbefalte og resten?-->
+### Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur) <!--Litt pirk, men skal ikke alle konsepter og underavsnitt ha overskrifter på samme nivå? Her ## - neste nivå ### og ikke ####? Eller er inndelingne bevisst for å skille mellom det anbefalte og resten?--> <!-- Her tror jeg du har blingsa, det er riktig nivå på overskiftene i dette kapitelet såvidt jeg kan se-->
 
 Distribuerte datadelingsløsninger i virksomhetenes infrastruktur baserer seg på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer. Grensesnitt og datalager for datadeling etableres i virksomhetens egen infrastruktur. Datadeling mellom virksomhetene gjennomføres ved at hver virksomhet gjør distribuerte oppslag mot grensesnittene for å avgi data som er etablert av de andre virksomhetene.
 
@@ -92,7 +92,7 @@ Distribuerte datadelingsløsninger i virksomhetenes infrastruktur baserer seg p�
 
 #### Vurdering
 
-Hovedfordelen med konseptet distribuerte datadelingsløsninger er stor fleksibilitet knyttet til hvem som etablerer hvilken funksjonalitet ut fra der det gir stor opplevd nytte, og hvilken funksjonalitet som utvikles kan prioriteres lokalt. Den største ulempen er knyttet til stor kompleksitet ved etableringen og vedlikehold av funksjonaliteten for å avgi og tilgjengeliggjøre informasjon fra separate løsninger i hver enkelt virksomhet. Dette gjør en distribuert modell komplisert å bredde og vedlikeholde.  
+Hovedfordelen med konseptet distribuerte datadelingsløsninger er stor fleksibilitet. Virksomehtene kan etablere funksjonalitet som gir stor opplevd nytte regionalt eller lokalt. Den største ulempen er knyttet til stor kompleksitet ved etableringen og vedlikehold av funksjonaliteten for å avgi og tilgjengeliggjøre informasjon fra separate løsninger i hver enkelt virksomhet. Dette gjør en distribuert modell komplisert å bredde og vedlikeholde.  
 
 En distribuert modell stiller store krav til samhandlingsinfrastrukturen og samarbeid på tvers av leverandører og virksomheter. Konseptet stiller for eksempel krav om at virksomhetene må vite hvor de skal søke etter informasjon om en bestemt pasient gjennom en pasientinformasjonslokalisator (PIL), siden det er lite effektivt å gjøre oppslag mot alle virksomheter uavhengig av om disse har informasjon om pasienten eller ikke. Det må etableres en sentralisert tillitsmodell for å støtte dette konseptet, ellers blir man avhengig av bilaterale avtaler mellom alle aktørene som ønsker å samhandle med hverandre.  Alle løsninger for å avgi informasjon må ta utgangspunkt i felles semantiske spesifikasjoner tilpasset ulike bruksområder, slik at det blir enkelt å søke i informasjon på tvers av mange ulike virksomheter og løsninger som er levert av forskjellige leverandører.  
 
@@ -124,6 +124,7 @@ En distribuert modell stiller store krav til samhandlingsinfrastrukturen og sama
 * Det kan være utfordrende å utarbeide felles semantiske spesifikasjoner som gir nytte for virksomhetene
   * Virksomheter som ikke opplever nytte kan velge å ikke tilgjengeliggjøre informasjon fra egne løsninger
 * Det kan være komplisert å etablere felles tillitsanker og felles krav knyttet til felles tillitsmodell
+* Siden det er stor fleksibilitet til å prioritere lokale/regionale behov kan konsekvensen være lite enhetlig funksjonalitet på tvers av virksomhetene og derfor dårlig samhandling regionalt, hvis regionen ikke klarer å samordne utviklingen
 
 ### Distribuerte datadelingsløsninger (i sentral infrastruktur)
 
