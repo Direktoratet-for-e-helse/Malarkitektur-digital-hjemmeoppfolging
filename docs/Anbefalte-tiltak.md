@@ -86,4 +86,4 @@ Foreløpig er det bare et fåtall profiler som er utviklet, disse har også sett
 
 ### Anbefalte tiltak
 
-Det anbefales tiltak knyttet til alle de tre retningene som beskrives under [utestående arbeid](#utestende-arbeid-knyttet-til-semantisk-samhandling) men Kvantitet for å dekke flere brukertilfeller og kvalitet for å teste eksisterende profiler bedre haster mest.
+Det anbefales tiltak knyttet til alle de tre retningene som beskrives under [utestående arbeid](#utestaende-arbeid-knyttet-til-semantisk-samhandling) men Kvantitet for å dekke flere brukertilfeller og kvalitet for å teste eksisterende profiler bedre haster mest.
