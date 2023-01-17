@@ -15,6 +15,8 @@ Siden effektiv digital samhandling krever at organisatoriske og tekniske løsnin
 Anbefalingene av konsepter for å etablere datadeling mellom virksomhetene går igjennom fordeler og ulemper med forskjellige konsepter og anbefaler en fleksibel tilnærming som kombinerer elementer fra flere konsepter for den videre utviklingen. Vi anbefaler at virksomhetene tar hensyn til lokale og regionale samhandlingsbehov når de etablerer datadelingsløsninger for DHO, samtidig som aktørene tar hensyn til kompleksiteten i tjenesteforløpene som ofte involverer mange separate virksomheter som må samarbeide. En skisse av anbefalt konsept er gjengitt i figuren.
 
 <figure markdown>
-  ![Anbefalt konsept for datadeling, med kombinasjon av distribuerte datadelingsløsninger og regionale fellesløsninger](img/fleksibel.png){ width="500" }
+  [![Anbefalt konsept for datadeling, med kombinasjon av distribuerte datadelingsløsninger og regionale fellesløsninger](img/fleksibel.png)](img/fleksibel.png){ width="500" }
   <figcaption>Anbefalt konsept for datadeling, med kombinasjon av distribuerte datadelingsløsninger og regionale fellesløsninger</figcaption>
 </figure>
+
+Det juridiske handlingsrommet er delvis beskrevet i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren). Arbeidet med målarkitektur for datadeling mellom virksomheter og spesielt knyttet til datadeling innen DHO området har videre sett på 
