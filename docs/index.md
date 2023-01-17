@@ -1,23 +1,17 @@
----
-layout: default
-title: Innledning
-nav_order: 1
----
-
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
 | <span style="background-color:gold">Work in progress</span> | v0.7 | draft  | ikke normert |
 
-Direktoratet for e-helse har et overordnet mål om å øke digital samhandling mellom aktørene i helse- og omsorgssektoren. Det er startet en rekke tiltak innenfor området data- og dokumentdeling. Dette arbeidet er prioritert fordi data- og dokumentdeling er samhandlingsformer som tas i bruk på ulike måter innen stadig nye områder i helse- og omsorgstjenesten for å støtte opp under identifiserte behov. Hensikten <!--med målarkitekturen?--> er å sikre en koordinert utvikling av datadeling samt økt bruk i hele sektoren.  
+Direktoratet for e-helse har et overordnet mål om å øke digital samhandling mellom aktørene i helse- og omsorgssektoren. Det er startet en rekke tiltak innenfor området data- og dokumentdeling. Dette arbeidet er prioritert fordi data- og dokumentdeling er samhandlingsformer som tas i bruk på ulike måter innen stadig nye områder i helse- og omsorgstjenesten for å støtte opp under identifiserte behov. Hensikten med målarkitekturen er å sikre en koordinert utvikling av og bidra til økt bruk av datadeling i sektoren.  
 
-Innen digital hjemmeoppfølging er behovet for datadeling spesielt stort. Pasientene som behandles trenger ofte fortløpende oppfølging av flere virksomheter og på tvers av omsorgsnivå i et behandlingsforløp. Mange tjenestetilbydere ser at eksisterende samhandlingsløsninger ikke understøtter samhandlingsbehovet godt nok.  
+Innen digital hjemmeoppfølging er behovet for datadeling spesielt stort. Pasientene som behandles trenger ofte fortløpende oppfølging fra flere virksomheter og på tvers av omsorgsnivå i et behandlingsforløp. Mange tjenestetilbydere ser at eksisterende samhandlingsløsninger ikke understøtter samhandlingsbehovet godt nok.  
 
 ## Hva er Digital hjemmeoppfølging
 
 I 2021 ble det i rapport fra de regionale helseforetakene foreslått følgende definisjon
 
 **Digital hjemmeoppfølging innebærer at hele eller deler av et behandlingstilbud foregår uten fysisk kontakt, der dialog og deling av data mellom pasient/bruker og behandler(e) skjer digitalt.**
-Arbeidet med målarkitekturen har fokus på oppfølging av pasienten basert på data fra pasienten.  <!--foreslå å sette inn tegningen som viser de ulike formene for DHO i definisjonen og presisere her hva vi har fokus på som  et første trinn-->
+Arbeidet med målarkitekturen har fokus på oppfølging av pasienten basert på data fra pasienten.  
 
 <figure markdown>
   ![Hva er DHO?](img/hva-er-DHO.png){ width="600" }
@@ -49,7 +43,7 @@ Målarkitekturen skal bidra til:
   * Benyttes i drøfting og forankring av felles retning for utvikling av datadelingsløsninger
 * Beskrive juridisk mulighetsrom for realisering av samhandling ved hjelp av datadeling
 
-## Målgruppe
+## Målgruppe og leserveiledning
 
 Målgruppen for målarkitekturen er primært arkitekter og tekniske prosjektledere, men er også relevant for beslutningstagere, prosjektledere, helsepersonell og utviklere innen helse- og omsorgssektoren.
 
@@ -57,11 +51,25 @@ Målgruppen for målarkitekturen er primært arkitekter og tekniske prosjektlede
 
     NB! Deler av behovsbeskrivelsen er teknisk anlagt og vil være vanskelig tilgjengelig for lesere som ikke har inngående kjennskap til metoder for informasjonsarkitektur.
 
-Alle delene frem til [konsepter](Konsepter-realisering.md) for realisering anbefales for alle som er interessert i målarkitektur for datadeling innen DHO. Her beskrives målbilde, prinsipper, behov og overordnede løsningskonsepter som kan benyttes for å etablere datadeling for helsetjenester og tjenesteforløp som benytter DHO.
+### Leserveiledning
 
-[Juridiske rammebetingelser](Juridiske-rammebetingelser.md) gir en oversikt over eksisterende juridiske rammebetingelser for å etablere datadeling i henhold til gjeldende lover og regler. Kapitelet egner seg for jurister og arkitekter som må forholde seg til disse rammene ved utvikling og innføring av konkrete løsninger for datadeling.
+Kapitlene som sorterer under *Prinsipper og metode* og *Kontekst for målarkitekturen* er å anse som bakgrunn, men er svært viktig for å forstå grunnlaget, innholdet og anbefalingene som beskrives i hoveddelen av målarkitekturen. Hoveddelen sorterer under *Behov* og *Anbefalinger datadeling*, denne delen beskriver fem sider knyttet til bruk av datadeling for samhandling mellom virksomheter og omsorgsnivå innenfor bruksområdet DHO.  
 
-[Målarkitektur samhandling DHO](Malarkitektur-samhandling.md) beskriver det arkitekturtekniske underlaget for hvilke kapabiliteter og informasjonstjenester som bør realiseres, samt de grunnleggende prosessene og funksjonene virksomhetene må etablere for å realisere og forvalte effektive datadelingstjenester.
+* [Overordnet behovsbilde](Behovsbilde.md) beskriver overordnede brukerhistorier, behov og informasjonstjenester som kan understøtte behovene
+* [Konsepter realisering](Konsepter-realisering.md) beskriver konseptene som er vurdert for å etablere datadeling
+* [Juridiske rammebetingelser](Juridiske-rammebetingelser.md) beskriver det juridiske handlingsrommet for å etablere datadeling ved å oppsummere de relevante juridiske rammene som dagens lover og regler oppstiller for de vurderte konseptene for datadeling
+* [Målarkitektur samhandling DHO](Malarkitektur-samhandling.md) beskriver det arkitekturtekniske underlaget for hvilke kapabiliteter og informasjonstjenester som bør realiseres, samt de grunnleggende prosessene og funksjonene virksomhetene må etablere for å realisere og forvalte effektive datadelingstjenester.
+* [Anbefalte tiltak](Anbefalte-tiltak.md) foreslå tiltak som kan gjennomføres for å understøtte etableringen av datadeling mellom virksomheter innen for behovsområdet DHO
+
+### Målgruppe for målarkitekturen
+
+Alle delene frem til og med [konsepter](Konsepter-realisering.md) for realisering anbefales for alle som er interessert i målarkitektur for datadeling innen DHO. Her beskrives målbilde, prinsipper, behov og overordnede løsningskonsepter som kan benyttes for å etablere datadeling for helsetjenester og tjenesteforløp som benytter DHO.
+
+[Juridiske rammebetingelser](Juridiske-rammebetingelser.md) egner seg for jurister og arkitekter som må forholde seg til de juridiske rammene for datadeling ved utvikling og innføring av konkrete løsninger for datadeling.
+
+[Målarkitektur samhandling DHO](Malarkitektur-samhandling.md) egner seg hovedsaklig for virksomhetsarkiteter og løsningsarkitekter som må kjenne til grunnlaget for de arkitekturtekniske vurderingene som ligger til grunn for anbefalingene.
+
+[Anbefalte tiltak](Anbefalte-tiltak.md) egner seg for ledere og arkitekter som trenger å forstå hvilke tiltak som må gjennomføres i sentral infrastruktur for å understøtte bruk av datadeling til samhandling mellom virksomheter og omsorgsnivå.
 
 ## Omfang og avgrensninger
 
@@ -81,6 +89,14 @@ Omfanget for målarkitekturen for datadeling innen DHO er avgrenset til å under
   * Noen teknologiske løsninger og utfordringer er imidlertid sammenfallende med trygghet og mestringsområdet og vil også være en naturlig del av behovsbildet og løsningene som benyttes innen DHO området
 * Der viktige felleskomponenter eller semantiske spesifikasjoner ikke eksisterer vil målarkitekturen peke på nødvendige tiltak for å realisere disse
   * Plan for realisering av tiltakene ligger utenfor mandatet til målarkitekturen
+
+### Problemstillinger som **ikke** behandles
+
+Problemstillinger knyttet til avtalemessige og merkantile forhold er ikke behandlet i målarkitekturen. Dette inkluderer:
+
+* Finansiering av løsninger og fellesløsninger
+* Avtalemessige forhold mellom virksomhetene beskrives ikke i detalj
+* Problemstillinger knyttet til sourcing konseptene som stilles opp setter krav til sourcing strategier for de involverte partene men målarkitekturen behandler ikke hvordan avtalene rundt dette skal utformes
 
 ### Modenhet
 
