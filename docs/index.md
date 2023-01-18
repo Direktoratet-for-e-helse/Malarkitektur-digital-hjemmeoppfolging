@@ -14,7 +14,7 @@ I 2021 ble det i rapport fra de regionale helseforetakene foreslått følgende d
 Arbeidet med målarkitekturen har fokus på oppfølging av pasienten basert på data fra pasienten.  
 
 <figure markdown>
-  ![Hva er DHO?](img/hva-er-DHO.png){ width="600" }
+  [![Hva er DHO?](img/hva-er-DHO.png){ width="700" }](img/hva-er-DHO.png)
   <figcaption>Hovedfokus for målarkitekturen er den delen av DHO som handler om oppfølging basert på data fra pasienten</figcaption>
 </figure>
 
