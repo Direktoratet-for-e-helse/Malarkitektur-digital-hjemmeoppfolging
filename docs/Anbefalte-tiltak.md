@@ -43,7 +43,7 @@ Det gjennomføres arbeid knyttet til å etablere felles tillitsmodell i forbinde
 
 I tillegg til dokumentdeling gjennom kjernejournal er digital hjemmeoppfølging og deling av målinger identifisert som utprøvingskandidat for felles tillitsmodell. Sett fra helsetjenesten som prøver ut DHO sitt perspektiv er viktig at bruk av felles tillitsmodell prøves ut for datadelingstjenester som DHO i tillegg til utprøvingen knyttet til dokumentdeling, siden det kan gi viktig kunnskap om hvordan tillitsmodellen fungerer for datadelingsløsninger. Vi vet foreløpig lite om kravene som stilles til tillitsmodellen knyttet til datadeling og selv om hypotesen er at tillitsmodellen for datadeling og dokumentdeling fungere likt er det viktig å få bekreftet den antakelsen.
 
-Det anbefales at enkelte DHO tjenester som etablerer datadeling mellom virksomheter tar i bruk felles tillitsmodell og fellskomponenter som felles tillitsanker. 
+Det anbefales at enkelte DHO tjenester som etablerer datadeling mellom virksomheter tar i bruk felles tillitsmodell og fellskomponenter som felles tillitsanker.  
 
 ### Vurdere fellesløsninger for MTU
 
@@ -72,7 +72,7 @@ Det er flere problemstillinger som er uavklart når det gjelder bruk av VKP for 
 * Juridiske problemstillinger knyttet til sammenstilling av informasjon på tvers av virksomheter (gjelder sentralisert modell)
 * Styring, forvaltning og nyttevurderinger knyttet til sentral løsning, hvordan prioriterer man mellom identifiserte behov
 
-### Anbefalte tiltak
+#### Anbefalte tiltak
 
 Det må utredes hvordan alle punktene over skal løses hvis det etableres sentral infrastruktur for datadeling knyttet til DHO. Det må derfor gjennomføres en utredning som peker på hvordan etablering og forvaltning av fellesløsninger skal fungere i forhold til merkantile, avtalemessige, juridiske og styringsmessige forhold.
 
@@ -91,7 +91,7 @@ Utprøving og spredningsprosjektene som gjennomføres nå baserer seg på et lit
 
 Vi tror det er nødvendig at det eksisterer felles beskrivelse av dette på tvers av virksomheter for at datadeling skal fungere på en god måte, dette er uavhengig av om distribusjonen av data baserer seg på en sentral eller distribuert modell. Ved en distribuert modell er det imidlertid et ufravikelig krav at det er felles regler for hvordan informasjonen skal utformes, ellers vil etablering av oppslagstjenester mot mange ulike grensesnitt bli en uoverstigelig oppgave hvor utviklerne må forholde seg til en rekke typer semantiske spesifikasjoner. Integrasjon mot bakenforligende systemer vil også bli svært komplisert.
 
-### Utestående arbeid knyttet til semantisk samhandling
+#### Utestående arbeid knyttet til semantisk samhandling
 
 Foreløpig er det bare et fåtall profiler som er utviklet, disse har også sett lite praktisk bruk og er implementert i få løsninger. Det er viktig at profilene videreutvikles i tre retninger:
 
@@ -99,6 +99,6 @@ Foreløpig er det bare et fåtall profiler som er utviklet, disse har også sett
 * Kvalitet - profilene må implementeres i flere løsninger og testes i praktisk bruk i større grad for å kvalitetsikre at innholdet er tilstrekkelig for praktisk klinisk bruk og teste at integrasjon mot mange bakenforliggende løsninger kan gjennomføres
 * Innhold - dagens profiler beskriver informasjonsinnholdet, men også lovlige søkeparametere bør detaljeres i neste versjon av profilene. På denne måten kan man sikre at datadelingstjenestene tilbyr den samme søkefunksjonaliteten uavhengig av hvem som implementerer grensesnittene
 
-### Anbefalte tiltak
+#### Anbefalte tiltak
 
 Det anbefales tiltak knyttet til alle de tre retningene som beskrives under [utestående arbeid](#utestaende-arbeid-knyttet-til-semantisk-samhandling) men Kvantitet for å dekke flere brukertilfeller og kvalitet for å teste eksisterende profiler bedre haster mest.
