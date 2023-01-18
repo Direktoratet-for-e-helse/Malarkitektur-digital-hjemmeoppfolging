@@ -21,6 +21,7 @@ nav_order: 2
 |Informasjonstjeneste|Informasjonstjenester, er en samlebetegnelse for alle typer tjenester som tilbyr eller manipulerer informasjonsressurser i form av en definert tjeneste. I helhetlig samhandling brukes en mer generell definisjon: En informasjonstjeneste er en komponent (IT-tjeneste) som gjør det mulig å dele et utvalg av helseinformasjon som for eksempel legemidler og egenbehandlingsplan. Ulike aktører kan knytte seg til informasjonstjenester for å få tilgang til informasjon fra andre, tilgjengeliggjøre informasjon fra egne løsninger eller oppdatere informasjon i sentrale kilder.|
 |Informasjonsressurs|Alle former for logisk avgrenset elektronisk informasjon som eksisterer i virksomheten|
 |Felleskomponenter|Defineres som komponenter som kan gjenbrukes i flere IT-løsninger for å dekke felles behov. De kan brukes på tvers av e-helseløsninger, virksomheter og forvaltningsnivå, og kan enten være frivillig eller påkrevd å bruke.|
+|PIL|Pasientinformasjonslokalisator (PIL)
 |Samhandling|All form for kontakt, samarbeid og informasjonsutveksling på tvers av virksomheter med mål om å sikre riktig behandling og koordinerte tjenester. Samhandling kan skje på ulike måter, for eksempel gjennom meldinger, telefon, møter, brev, papirutskrifter som sendes med innbyggeren.|
 |Tillitsmodell/ tillitsanker|--|
 |Tjeneste|I målarkitetkuren representerer dette grunnleggende tekniske komponenter som aktørene i sektor kan benytte for å levere løsninger som understøtter ytelse av helsehjelp|
