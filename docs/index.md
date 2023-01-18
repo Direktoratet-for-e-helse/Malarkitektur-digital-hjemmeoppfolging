@@ -22,7 +22,7 @@ Figurer over visualiserer hva digital hjemmeoppfølging betyr i praksis. Forslag
 
 <figure markdown>
   ![Aktører og samhandlignsbehov DHO?](img/veikart-DHO.png){ width="500" }
-  <figcaption>Figuren illustrerer overordnet hvilke akører som kan være involvert i DHO og eksempel på informasjon som er relevant å dele i behandlingsforløp der tjenesten digital hjemmeoppfølging tilbys.</figcaption>
+  <figcaption>Figuren illustrerer overordnet hvilke aktører som kan være involvert i DHO og eksempel på informasjon som er relevant å dele i behandlingsforløp der tjenesten digital hjemmeoppfølging tilbys.</figcaption>
 </figure>
 
 Det er vesentlig at oppfølgingen ikke begrenses til der pasienten bor, men at digital hjemmeoppfølging også skal kunne benyttes andre steder, for eksempel på jobb, skole, institusjon, på reise og hos ulike helseaktører. Pasienten kan i prinsippet oppholde seg hvor som helst fysisk, men likevel kunne nå et avstandsbasert helsetilbud når det er forsvarlig.
