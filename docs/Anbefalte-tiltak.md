@@ -10,9 +10,9 @@ Listen nedenfor viser en prioritert liste over tiltak som er nødvendig for å r
 
 1. [Etablering av PIL for datadeling](#etablering-av-pil)
 2. [Felles tillitsmodell for datadeling](#felles-tillitsmodell-for-datadeling)
-3. [Etablere fellesløsninger for lagring og grensesnitt](#etablere-fellesløsninger-for-lagring-og-grensesnitt)
+3. [Etablere fellesløsninger for lagring og grensesnitt](#etablere-felleslsninger-for-lagring-og-grensesnitt)
 4. [Felles semantisk rammeverk for datadeling og DHO](#felles-semantisk-rammeverk-for-datadeling-og-dho)
-5. [Vurdere fellesløsninger for MTU](#vurdere-fellesløsninger-for-mtu)
+5. [Vurdere fellesløsninger for MTU](#vurdere-felleslsninger-for-mtu)
 6. [Rammeverk for hendelsesbasert samhandling](#rammeverk-for-hendelsesbasert-samhandling)
 
 ## Tiltak knyttet til etablering av felleskomponenter
