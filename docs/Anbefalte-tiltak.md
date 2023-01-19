@@ -76,6 +76,19 @@ Det er flere problemstillinger som er uavklart når det gjelder bruk av VKP for 
 
 Det må utredes hvordan alle punktene over skal løses hvis det etableres sentral infrastruktur for datadeling knyttet til DHO. Det må derfor gjennomføres en utredning som peker på hvordan etablering og forvaltning av fellesløsninger skal fungere i forhold til merkantile, avtalemessige, juridiske og styringsmessige forhold.
 
+### Rammeverk for hendelsesbasert samhandling
+
+Behovsarbeidet i forbindelse med DHO har avdekket flere informasjonstjenester som bør understøttes med hendelsesbasert arkitektur. Dette er dokumentert i oversikten over informasjonstjenester. Noe av behovet knyttet til hendelsesbasert arkitektur er knyttet til sanntidsoppdateringer av informasjon som andre virksomheter samler inn eller dokumenterer om en pasient, dette er spesielt viktig i enkelte tjenesteforløp hvor DHO benyttes. Også informasjon fra utstyr som andre virksomheter plasserer ut hos pasient kan det være avgjørende å få sanntidsoppdateringer fra.  
+
+Hendelsesbasert samhandling er i bruk i mange andre sektorer, spesielt knyttet til oppdateringer av felles datakilder. Det moderniserte folkeregisteret tilbyr for eksempel hendelser til konsumentene slik at eksterne virksomheter kan være oppdatert på endringer i folkeregisteret i sanntid eller nær sanntid. I helsesektoren er bruken av hendelsesbasert kommunikasjon mellom virksomheter å annse som en svært umoden samhandlingsform. Det er behov for generelle rammer og råd knyttet til etablering av hendelsesbasert samhandling. Norsk Helsenett har beskrevet et strategisk målbilde som blant annet inneholder en stor satsing i retning hendelsesbasert kommunikasjon med virksomhetene i sektoren. Det er flere tiltak som må gjennomføres før hendelsesbasert kommunikasjon kan fungere som samhandlingsform mellom virksomhetene i helsesektoren.
+
+#### Anbefalte tiltak
+
+* Kartlegging av eksisterende hendelsesbaserte løsninger og erfaringer fra arbeidet med disse
+* Kartlegging av virksomhetenes planer for å ta i bruk hendeslesbasert kommunikasjon
+* Enighet om felles målbilde knyttet til hvordan hendelsesbasert kommunikasjon kan benyttes og hvilke behov som dekkes best med hendelsesbasert kommunikasjon
+* Beskrive relevante felleskomponenenter i samhandlingsinfrastrukturen som må til for å understøtte hendelsesbasert kommunikasjon, det bør også etableres et veikart for når felleskomponentene kan etableres
+
 ## Tiltak knyttet til semantisk samhandling
 
 Kapitelet som beskriver [konsepter for realisering](Konsepter-realisering.md) av datadeling mellom virksomheter og omsorgsnivå peker på nødvendigheten av felles semantiske spesifikasjoner for å understøtte distribuerte konsepter. Det er behov for semantiske spesifikasjoner ved etablering av sentrale/nasjonale løsninger også, men dette vil realiseres gjennom grensesnittspesifikasjonene i den sentrale løsningen.
