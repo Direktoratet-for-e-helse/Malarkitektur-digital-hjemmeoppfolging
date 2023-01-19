@@ -1,10 +1,23 @@
 | Status           | Version | Maturity | Normative level |
 | :--------------- | :------ | :------- | :-------------- |
-| <span style="background-color:gold">Work in progress</span> | v0.3 | draft | ikke normert |
+| <span style="background-color:gold">Work in progress</span> | v0.5 | draft | ikke normert |
 
 Denne delen av målarkitekturen skal foreslå tiltak som kan gjennomføres for å understøtte etableringen av datadeling mellom virksomheter innen for behovsområdet DHO. Vi skiller på tiltak knyttet til etablering av felleskomponenter og tiltak knyttet til semantisk samhandling.
 
+## Prioritert liste over anbefalte tiltak
+
+Listen nedenfor viser en prioritert liste over tiltak som er nødvendig for å realisere samhandling som skal understøtte DHO.  
+
+1. [Etablering av PIL for datadeling](#etablering-av-pil)
+2. [Felles tillitsmodell for datadeling](#felles-tillitsmodell-for-datadeling)
+3. [Etablere fellesløsninger for lagring og grensesnitt](#etablere-fellesløsninger-for-lagring-og-grensesnitt)
+4. [Felles semantisk rammeverk for datadeling og DHO](#felles-semantisk-rammeverk-for-datadeling-og-dho)
+5. [Vurdere fellesløsninger for MTU](#vurdere-fellesløsninger-for-mtu)
+6. [Rammeverk for hendelsesbasert samhandling](#rammeverk-for-hendelsesbasert-samhandling)
+
 ## Tiltak knyttet til etablering av felleskomponenter
+
+Målarkitketuren for datadeling DHO har behov for en rekke felleskomponenter for å understøtte samhandlingen nasjonalt og regionalt.
 
 ### Etablering av PIL
 
