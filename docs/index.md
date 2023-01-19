@@ -4,9 +4,9 @@
 
 Direktoratet for e-helse har et overordnet mål om å øke digital samhandling mellom aktørene i helse- og omsorgssektoren. Det er startet en rekke tiltak innenfor området data- og dokumentdeling. Dette arbeidet er prioritert fordi data- og dokumentdeling er samhandlingsformer som tas i bruk på ulike måter innen stadig nye områder i helse- og omsorgstjenesten for å støtte opp under identifiserte behov. Hensikten med målarkitekturen er å sikre en koordinert utvikling av og bidra til økt bruk av datadeling i sektoren.  
 
-Innen digital hjemmeoppfølging er behovet for datadeling spesielt stort. Pasientene som behandles trenger ofte fortløpende oppfølging fra flere virksomheter og på tvers av omsorgsnivå i et behandlingsforløp. Mange tjenestetilbydere ser at eksisterende samhandlingsløsninger ikke understøtter samhandlingsbehovet godt nok.  
+Innen digital hjemmeoppfølging er behovet for datadeling spesielt stort. Pasientene som behandles trenger ofte fortløpende oppfølging fra flere virksomheter og på tvers av omsorgsnivå i et behandlingsforløp. Mange tjenestetilbydere ser at eksisterende samhandlingsløsninger ikke understøtter samhandlingsbehovet godt nok.  <!-- GK:Burde dette avsnittet flyttes frem? Og så tilpasse det første avsnittet til å si hvorfor vi lager en målarkitektur datadeling, -->
 
-## Hva er Digital hjemmeoppfølging
+## Hva er Digital hjemmeoppfølging <!-- GK:Finnes denne beskrivelsen noe annet sted? I så fall bør vi heller referere til den, og eventuelt skrive noe om sammenhengen mellom målarkitekturen.  -->
 
 I 2021 ble det i rapport fra de regionale helseforetakene foreslått følgende definisjon
 
@@ -29,11 +29,11 @@ Det er vesentlig at oppfølgingen ikke begrenses til der pasienten bor, men at d
 
 ## Formålet med målarkitekturen
 
-Målarkitekturen skal være et verktøy for å koordinere innsatsen i sektoren slik at alle aktørene arbeider i samme retning for å realisere datadeling innen behovsområdet for digital hjemmeoppfølging.
+Målarkitekturen skal være et verktøy for å koordinere og samle innsatsen i sektoren slik at alle aktørene arbeider i samme retning for å realisere datadeling innen behovsområdet for digital hjemmeoppfølging.
 
 Målarkitekturen skal bidra til:
 
-* Muliggjøre arkitekturstyring regionalt, nasjonalt og for andre grupperinger av dataansvarlige gjennom å etablere felles prinsipper, arkitekturmål og beskrive arkitekturmønstre.
+* Muliggjøre arkitekturstyring regionalt, nasjonalt og for andre grupperinger av dataansvarlige gjennom å etablere felles prinsipper, arkitekturmål og beskrive arkitekturmønstre. <!--GK:Denne målarkitekturen vil sikkert brukes i arkitekturstyringen, men kan vi si at den er er med å gjøre arkitekturstyring mulig? Jeg tenker vi må være tydeligere på hvilke arkitekturbesluttninger vi skal støtte med denne målarkitekturen, eller rettere sagt hvilke besluttninger som vi tar, og gi eksempler på beslutninger som kan/må tas på grunnlag av de valgene som blir beskrevet i dette dokumentet. -->
   * Beskrive informasjonstjenester og felleskomponenter som må etableres for å realisere digital samhandling i form av datadeling
   * Dokumentere felles arkitekturvalg og anbefalte samhandlingsmønster for datadeling innen DHO
 * Gi oversikt over behovsbildet for samhandling innen DHO
@@ -45,7 +45,7 @@ Målarkitekturen skal bidra til:
 
 ## Målgruppe og leserveiledning
 
-Målgruppen for målarkitekturen er primært arkitekter og tekniske prosjektledere, men er også relevant for beslutningstagere, prosjektledere, helsepersonell og utviklere innen helse- og omsorgssektoren.
+Målgruppen for målarkitekturen er primært arkitekter og tekniske prosjektledere, men er også relevant for beslutningstagere, prosjektledere, helsepersonell og utviklere innen helse- og omsorgssektoren. <!--GK: Er det gjort noen vurdering av hvorfor målgruppene skal interesere seg for målarkitekturen, og hva vi trenger å svare ut eller informere de forskjellige om? -->
 
 !!! info inline end "NB!"
 
