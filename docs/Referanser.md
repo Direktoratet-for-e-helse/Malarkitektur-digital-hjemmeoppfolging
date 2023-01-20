@@ -6,6 +6,8 @@ title: Referanser
 |:-------------|:------------------|:------|:-------|
 | <span style="background-color:gold">Work in progress</span> | v0.8 | review  | ikke normert |
 
+Referanser som er brukt i arbeidet med målarkitekturen.  
+
 * [Nasjonal e-helsestrategi for helse- og omsorgssektoren](https://www.ehelse.no/strategi/nasjonal-e-helsestrategi-for-helse-og-omsorgssektoren)
 * [Digital hjemmeoppfølging – tilnærming til helhetlig samhandling](https://www.ehelse.no/publikasjoner/rapport-digital-hjemmeoppfolging)
 * [Digital hjemmeoppfølging - sluttrapport fra nasjonal utprøving 2018-2021](https://www.helsedirektoratet.no/rapporter/digital-hjemmeoppfolging-sluttrapport-fra-nasjonal-utproving-2018-2021)
