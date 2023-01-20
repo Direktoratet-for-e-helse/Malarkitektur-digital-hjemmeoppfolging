@@ -21,6 +21,6 @@ Liste over sentrale begreper som benyttes i målarkitekturen.
 |Felleskomponenter|Defineres som komponenter som kan gjenbrukes i flere IT-løsninger for å dekke felles behov. De kan brukes på tvers av e-helseløsninger, virksomheter og forvaltningsnivå, og kan enten være frivillig eller påkrevd å bruke.|
 |PIL|Pasientinformasjonslokalisator (PIL)
 |Samhandling|All form for kontakt, samarbeid og informasjonsutveksling på tvers av virksomheter med mål om å sikre riktig behandling og koordinerte tjenester. Samhandling kan skje på ulike måter, for eksempel gjennom meldinger, telefon, møter, brev, papirutskrifter som sendes med innbyggeren.|
-|Tillitsmodell/ tillitsanker|--|
+|Tillitsanker|--|
 |Tjeneste|I målarkitetkuren representerer dette grunnleggende tekniske komponenter som aktørene i sektor kan benytte for å levere løsninger som understøtter ytelse av helsehjelp|
 |Tjenesteforløp|Et tjenesteforløp beskriver organisering og oppgaver knyttet til å yte helsetjenester til pasienter| <!-- Tjenesteforløp er helt generelt og trenger ikke være knyttet til DHO, har du kilde her?-->
