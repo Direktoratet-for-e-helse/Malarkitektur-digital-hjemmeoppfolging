@@ -24,12 +24,13 @@ nav:
       - Tilbakemeldinger og innspill: Tilbakemeldinger-innspill.md
       - Status for dokumentet: https://direktoratet-for-e-helse.github.io/Common-metadata/
     - Vedlegg:
-      - Datadeling, slå opp: Organisatorisk-sla-opp.md
+      - Datadeling - slå opp: Organisatorisk-sla-opp.md
 theme:
   name: material
   logo: logo/ehelse-hvit.svg
   #custom_dir: material/.overrides
   features:
+    # - navigation.path #sponsorfeature
     # - announce.dismiss
     - content.code.annotate
     # - content.tabs.link
@@ -57,7 +58,7 @@ theme:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: grey
+      primary: black
       accent: red
       toggle:
         icon: material/brightness-4

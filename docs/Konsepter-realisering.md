@@ -1,7 +1,5 @@
 ---
-layout: default
 title: Konsepter realisering
-nav_order: 8
 ---
 
 | Status | Version | Maturity | Normative level |

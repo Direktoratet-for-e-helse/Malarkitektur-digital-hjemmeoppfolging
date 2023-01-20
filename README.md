@@ -43,21 +43,3 @@ Kanskje må man gjøre dette også før man kan bruke Git i VSCode.
 1. Go to Settings
 1. Type Git: Enabled in the search bar
 1. Make sure that the box is ticked
-
-## Layout
-
-* [just the docs - layout template for Github.io sidene](https://github.com/just-the-docs/just-the-docs)
-* [Oversette](https://metamug.com/util/confluence-to-markdown/) confluence sider til markdown
-
-### Forutsetninger *just-the-docs*
-
-* index.md må ligge i rotkatalog på prosjektet?
-* markdown filene bør ha just-the-docs metadata
-
-~~~
----
-layout: default
-title: Innledning
-nav_order: 1
----
-~~~

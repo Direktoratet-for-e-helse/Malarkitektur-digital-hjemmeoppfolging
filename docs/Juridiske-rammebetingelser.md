@@ -1,7 +1,5 @@
 ---
-layout: default
 title: Juridiske rammebetingelser
-nav_order: 6
 ---
 
 | Status           | Version | Maturity | Normative level |

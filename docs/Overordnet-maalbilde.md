@@ -1,7 +1,5 @@
 ---
-layout: default
 title: Overordnet målbilde DHO
-nav_order: 4
 ---
 
 | Status | Version | Maturity | Normative level |

@@ -1,3 +1,7 @@
+---
+title: Innledning
+---
+
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
 | <span style="background-color:gold">Work in progress</span> | v0.7 | draft  | ikke normert |

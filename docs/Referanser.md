@@ -1,7 +1,5 @@
 ---
-layout: default
 title: Referanser
-nav_order: 9
 ---
 
 | Status | Version | Maturity | Normative level |

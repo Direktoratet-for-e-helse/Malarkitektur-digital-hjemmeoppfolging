@@ -1,8 +1,10 @@
+---
+title: Datadeling - slå opp
+---
+
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
 | <span style="background-color:gold">Work in progress</span> | v0.6 | draft  | ikke normert |
-
-# Slå opp
 
 **Samhandlingsformen innebærer at en datatilbyder deler informasjon med en datakonsument på forespørsel.**  
 

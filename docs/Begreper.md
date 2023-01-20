@@ -1,7 +1,5 @@
 ---
-layout: default
 title: Begreper
-nav_order: 2
 ---
 
 | Status | Version | Maturity | Normative level |

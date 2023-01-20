@@ -1,7 +1,5 @@
 ---
-layout: default
 title: Målarkitektur samhandling DHO
-nav_order: 7
 ---
 
 | Status | Version | Maturity | Normative level |
