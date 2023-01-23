@@ -11,6 +11,7 @@ Direktoratet for e-helse har et overordnet mål om å øke digital samhandling m
 Innen digital hjemmeoppfølging er behovet for datadeling spesielt stort. Pasientene som behandles trenger ofte fortløpende oppfølging fra flere virksomheter og på tvers av omsorgsnivå i et behandlingsforløp. Mange tjenestetilbydere ser at eksisterende samhandlingsløsninger ikke understøtter samhandlingsbehovet godt nok.  <!-- GK:Burde dette avsnittet flyttes frem? Og så tilpasse det første avsnittet til å si hvorfor vi lager en målarkitektur datadeling, -->
 
 ## Hva er Digital hjemmeoppfølging <!-- GK:Finnes denne beskrivelsen noe annet sted? I så fall bør vi heller referere til den, og eventuelt skrive noe om sammenhengen mellom målarkitekturen.  -->
+<!-- Vi gjør litt endringer i rekkefølgen her, brukerperspektivet først -->
 
 I 2021 ble det i rapport fra de regionale helseforetakene foreslått følgende definisjon
 

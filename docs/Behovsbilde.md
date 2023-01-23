@@ -69,7 +69,7 @@ Hypotesen beskriver en antagelse som er fremkommet gjennom behovskartleggingen k
 
 Tabellen under viser en oversikt over:
 
-* Hvilken sluttbruker rolle som har behovet <!--sette innen parentes her med tekst: roller er beskrevet i kap....-->
+* Hvilken sluttbruker rolle som har behovet ([oversikt over relevante roller](#roller-i-tjenesteforløp-med-digital-hjemmeoppfølging))
 * Hvilken prioritet og tidsperspektiv behovet har
   * Prioritet scores i kategoriene høy/middels/lav/ekstern ut fra antagelse om forventet nytte/effekt
     * Høy nytteverdi betyr at tilfredstillels av behovet vil gi stor nytte og det er mange brukere
