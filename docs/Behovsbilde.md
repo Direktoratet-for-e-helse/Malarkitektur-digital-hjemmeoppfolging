@@ -6,6 +6,10 @@ title: Behovsbilde
 |:-------------|:------------------|:------|:-------|
 |<span style="background-color:gold">Work in progress</span> | v0.8 | review  | ikke normert |
 
+Kapittelet gir en oversikt over karlagte behov knyttet til tjenesteforløp der DHO benyttes. Det er ikke gjort et forsøk på å gi et komplett bilde av de funksjonelle behovene som må ivaretas for helsepersonell og pasient, det er istedet fokusert på  behovet for informasjon med formål å avdekke informasjonsbehov som må understøttes med samhandling mellom helsepersonell i ulike virksomheter.
+
+## Overorndet om samhandlingsbehov
+
 Helse- og omsorgssektoren har behov for mer effektiv samhandling for å øke tilgjengeligheten til relevante helseopplysninger. Målbildet for helhetlig samhandling er å tilby informasjonstjenester på en samhandlingsinfrastruktur som representerer et sett av informasjonsbehov som ikke er tilstrekkelig dekket i dagens nasjonale e-helseløsninger for samhandling. Hver informasjonstjeneste gir mulighet for å utveksle eller dele helseinformasjon mellom ulike aktører. Særskilte behov løses nasjonalt når det gir vesentlig gevinst/ nytte. Høy semantisk samhandlingsevne (hva dataene betyr og hvordan de er definert) er nødvendig for å lykkes med dette.Arbeidet med behov for informasjonsdeling i behandlingsforløp der digital hjemmeoppfølging tilbys sees i sammenheng med målbildet for helhetlig samhandling. Kartlegging av behov for deling av informasjon, fra innbygger til helsepersonells løsninger, er utført med ulike perspektiv.  
 
 Behovene i helsetjenesten ligger til grunn for etablering av samhandlingsløsningene i sektoren og legger premissene for hvilke samhandlingsløsninger som skal etableres og videreutvikles. Behovene knyttet til tjenesteforløp der helsehjelp ytes til pasienter som mottar digital hjemmeoppfølging (DHO) er i stor grad overlappende med andre tjenesteforløp. Vi kan derfor lære mye om nødvendige samhandlingsløsninger i sektoren ved å se spesielt på sammensatte tjenesteforløp innen DHO. Behovene henter vi fra utprøvingsprosjekter og tjenesteeiere i helse- og omsorgssektoren. Erfaring fra utprøvingsprosjektene skal over tid føre til mer spesifikk behovskartlegging knyttet til erfaring med utveksling av informasjon mellom virksomheter og behandlingsnivå (primær- og spesialisthelsetjenesten) knyttet til DHO. Vi skiller i det videre arbeidet mellom informasjonsbehov og funksjonelle krav.
@@ -14,15 +18,17 @@ Behovene i helsetjenesten ligger til grunn for etablering av samhandlingsløsnin
 
 ## Overordnede brukerhistorier
 
-Målbilde for samhandling begrenser seg til å understøtte ytelse av helse- og omsorgshjelp. Dette inkluderer å sikre kontinuitet i direkte helsehjelp, for eksempel når pasienter skrives ut fra sykehus og beveger seg mellom omsorgsnivå og det er behov for oppfølging i kommunen der tjenesten digital hjemmeoppfølging kan benyttes. Samhandling bidrar til økt pasientsikkerhet og kvalitet gjennom å legge til rette for deling av korrekt informasjon for heslsepersonell med tjenstlig behov. Formen som er valgt for funksjonalitetsbeskrivelse er brukerhistorie. En kortfattet beskrivelse av hvem som har behov, hva slags funksjonalitet det er behov for og hvorfor funksjonaliteten gir verdi.
+**Med fokus på informasjonsbehov**
+
+Målbilde for samhandling begrenser seg til å understøtte ytelse av helse- og omsorgshjelp. Dette inkluderer å sikre kontinuitet i direkte helsehjelp, for eksempel når pasienter skrives ut fra sykehus og beveger seg mellom omsorgsnivå og det er behov for oppfølging i kommunen der tjenesten digital hjemmeoppfølging kan benyttes. Samhandling bidrar til økt pasientsikkerhet og kvalitet gjennom å legge til rette for deling av korrekt informasjon for helsepersonell med tjenstlig behov. Formen som er valgt for funksjonalitetsbeskrivelse er brukerhistorie. En kortfattet beskrivelse av hvem som har behov, hva slags funksjonalitet det er behov for og hvorfor funksjonaliteten gir verdi.
 
 Samhandlingstjenester i behandlingsforløp der tjenesten digital hjemmeoppfølging benyttes skal tilrettelegge for følgende funksjonelle behov:
- <!--Forslag til ny beskrivelse av funksjonelle behov (nummerert) for å ikke ta bort de tidligere beskrivelsene-->
+
 1. Som helsepersonell har jeg behov for tilgang til oppdatert informasjon som er nødvendig for å yte helsehjelp til pasient på en effektiv måte
-1. Som helsepersonell har jeg behov for å slippe å registrere samme informasjon flere ganger i ulike system, for å spare tid og unngå feil ved duplisering av informasjon
-1. Som helsepersonell har jeg behov for å samarbeid med pasient og annet helsepersonell om utarbeidelse og oppfølging av behandlings- og egenbehandlingsplaner, slik at oppdaterte planer er tilgjengelig for alle aktører og for å unngå forsinkelser i oppfølging av pasient
-1. Som pasient har jeg behov for tilgang til oppdatert og relevant informasjon for å mestre og ivareta egen helse
-1. Som pasient har jeg behov for at helsepersonell med tjenstlig behov har tilgang til relevant informasjon uavhengig av hvem som har registrert informasjonen, slik at jeg slipper å gjenfortelle historien min
+2. Som helsepersonell har jeg behov for å slippe å registrere samme informasjon flere ganger i ulike system, for å spare tid og unngå feil ved duplisering av informasjon
+3. Som helsepersonell har jeg behov for å samarbeid med pasient og annet helsepersonell om utarbeidelse og oppfølging av behandlings- og egenbehandlingsplaner, slik at oppdaterte planer er tilgjengelig for alle aktører og for å unngå forsinkelser i oppfølging av pasient
+4. Som pasient har jeg behov for tilgang til oppdatert og relevant informasjon for å mestre og ivareta egen helse
+5. Som pasient har jeg behov for at helsepersonell med tjenstlig behov har tilgang til relevant informasjon uavhengig av hvem som har registrert informasjonen, slik at jeg slipper å gjenfortelle historien min
 
 ![Samhandlingsbehov](https://user-images.githubusercontent.com/6229665/201673221-debad9fc-b32f-42fb-b0d4-0c8dbeefc2ab.png)
 
