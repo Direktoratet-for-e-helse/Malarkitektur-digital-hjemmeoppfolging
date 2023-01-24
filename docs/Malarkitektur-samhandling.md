@@ -46,9 +46,7 @@ Evnene i denne tabellen er tett knyttet opp mot å understøtte vurdering og gje
 | Kapabilitet | Definisjon |
 |---|---|
 | Informasjonsbehandling | Sammenstille og tolke informasjon fra interne og eksterne systemer |
-| Visning | Vise informasjonen på en måte som er nyttig for kliniker |
 | Dokumentere | Dokumentere gjennomførte tiltak og begrunnelsen for tiltaket |
-| Produsere metadata | Produsere metadata som beskriver produsert dokumentasjon |
 | Lagring | Lagre informasjon (dokumentasjon og metadata) |
 
 ### Tverrgående kapabiliteter
@@ -58,9 +56,8 @@ Evnene i denne tabellen er ikke knyttet opp mot noen spesielle deler av prosesse
 | Kapabilitet | Definisjon |
 |---|---|
 | Dialog | Understøtte løpende dialog mellom helsepersonell |
-| Sikkerhet | Ivareta sikker informasjonsutveksling, informasjonsbehandling, tilgangsstyring og personvern |
-| Tillit | Stole på at informasjon kan utveksles med andre aktører |
-| Grunndata | Understøtte behov for tilgang til grunndata i forbindelse med samhandling og pasientbehandling. Grunndata omfatter informasjon om Person, Helsepersonell og Virksomhet. |
+| Delegere rettigheter | Evnen til å delegere rettigheter til databehandler som utfører oppgaver på vegne av dataansvarlig. |
+| Klargjøre for sende og motta | Klargjøre for utveksling av informasjon ved hjelp av meldinger (sende og motta fra/til spesifikk mottaker) |
 
 ### Kapabiliteter knyttet til samhandling
 
@@ -68,18 +65,21 @@ Evnene er knyttet til bruk av organisatoriske samhandlingsformer for å utveksle
 
 | Kapabilitet | Definisjon |
 |---|---|
+| Visning | Vise informasjonen på en måte som er nyttig for kliniker |
 | Konsumere hendelsesstrøm | Konsumere hendelser fra en hendelsesstrøm |
 | Publisere (hendelser) | Publisere hendelser til en hendelsesstrøm |
-| Søk og oppslag (innhente data) | Søke og slå opp informasjon gjennom en datadelingstjeneste |
-| Tilgjengeliggjøring | Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet med eller uten krav til innlogget bruker ved hjelp av datadeling. Tilgangsstyring inngår her. Avgjøre hvilken informasjon som skal deles med andre gjennom en datadelingstjeneste. |
-| Tilgjengeliggjøre data | Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet. |
-| Tilgjengeliggjøre API | Prosessen med å tilby data gjennom et API til aktører utenfor egen virksomhet. |
+| Innhente data | Søke og slå opp informasjon gjennom en datadelingstjeneste |
+| Tilgjengeliggjøre data | Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet med eller uten krav til innlogget bruker ved hjelp av datadeling. Tilgangsstyring inngår her. Avgjøre hvilken informasjon som skal deles med andre gjennom en datadelingstjeneste. |
 | Få tilgang til data | Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør. |
-| Finne relevante data | Evnen til å finne kilder for informasjon om spesifikke kategorier eller personer. |
+| Lokalisere relevant informasjon | Evnen til å finne kilder for informasjon om spesifikke kategorier eller personer. |
+| Publisere metadata | Publisere metadata slik at konsumenter kan lokalisere relevant informasjon |
 | Avgi data | Utlevere data basert på søk og oppslag |
-| Oppdatering av masterdata | Oppdatere delt informasjon i en datadelingstjeneste |
+| Endre data | Evnen til å gjøre dataendringer hos en annen aktør ved hjelp av datadeling |
+| Håndtere mottatte endringer | Evnen til å behandle endringer (opprettelse, oppdatering, sletting) av helseopplysninger mottatt fra en annen aktør ved hjelp av datadeling |
 | Sende | Sende informasjon til en spesifikk mottaker |
 | Motta | Motta informasjon fra en spesifikk mottaker |
+| Formidle metadata | Mulig fellestjeneste for å formidle hvilken informasjon som er tilgjengelig fra en datakilde |
+| Formidling (meldinger) | Fellestjeneste for å formidle meldinger mellom avsender og mottaker som utveksler meldinger |
 
 ## Nødvendige komponenter
 
