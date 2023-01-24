@@ -41,7 +41,7 @@ Kjernekapabilitetene må være tett knyttet til og integrert med den kliniske pr
 
 ### Kapabiliteter knyttet til tiltak og dokumentasjon
 
-Evnene i denne tabellen er tett knyttet opp mot å understøtte vurdering og gjennomføring av tiltak og dokumentasjon av tiltak som utføres som en del av behandlingen av pasient.
+<!--Kan vi vise til tidligere arbeid med kapabiliteter og sammenheng? eks SSD for akason? samhandling?-->Evnene i denne tabellen er tett knyttet opp mot å understøtte vurdering og gjennomføring av tiltak og dokumentasjon av tiltak som utføres som en del av behandlingen av pasient.
 
 | Kapabilitet | Definisjon |
 |---|---|
