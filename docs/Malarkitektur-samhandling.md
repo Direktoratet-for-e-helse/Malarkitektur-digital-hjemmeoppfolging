@@ -37,7 +37,7 @@ Modellen viser overordnet kapabilitetskart for prosessene Konsumere informasjon,
 
 Det er identifisert noen grunnleggende kapabiliteter som må gå på tvers av de overbyggende, dette er dialog, sikkerhet og tillitsmodell.
 
-Kjernekapabilitetene må være tett knyttet til og integrert med den kliniske prosessen som handler om å identifisere og gjennomføre tiltak som en del av pasientbehandlingen, men omfatter også produksjon av informasjon. Dette innebærer både selve dokumentasjonen av hva som gjennomføres, målinger og resultater. Det er også tatt med nødvendige kapabiliteter som handler om å generere metadata og lagring av dokumentasjonen i en egnet form for viderebehandling og deling.
+Kjernekapabilitetene må være tett knyttet til og integrert med den kliniske prosessen som handler om å identifisere og gjennomføre tiltak som en del av pasientbehandlingen, men omfatter også produksjon av informasjon. <!--Dersom dette viser til prosesser beskrevet i annet kapittel er det fint å legge inn kryssreferanse til figurer og tekst der-->Dette innebærer både selve dokumentasjonen av hva som gjennomføres, målinger og resultater. Det er også tatt med nødvendige kapabiliteter som handler om å generere metadata og lagring av dokumentasjonen i en egnet form for viderebehandling og deling.
 
 ### Kapabiliteter knyttet til tiltak og dokumentasjon
 
