@@ -8,7 +8,7 @@ title: Datadeling - slå opp
 
 **Samhandlingsformen innebærer at en datatilbyder deler informasjon med en datakonsument på forespørsel.**  
 
-Samhandlingsformen baserer seg på at det eksisterer to virksomheter, en som har rollen som datatilbyder og en som har rollen som datakonsument. Datatilbyder tilgjengeliggjør informasjonsressurs(er) for deling gjennom en datadelingstjeneste. Datadelingstjenesten (tilbyder) viktigste funksjon er å avgi data på forespørsel. Når datakonsumenten vil innhente data gjennomføres innhentingen gjennom å slår opp mot delte informasjonsressurser gjennom en konsumerende datadelingstjeneste (ofte kalt klient).  
+Samhandlingsformen baserer seg på at det eksisterer to virksomheter, en som har rollen som datatilbyder og en som har rollen som datakonsument. Datatilbyder tilgjengeliggjør informasjonsressurs(er) for deling gjennom en datadelingstjeneste. Datadelingstjenesten (tilbyder) viktigste funksjon er å avgi data på forespørsel. Når datakonsumenten vil innhente data gjennomføres innhentingen gjennom å slå opp mot delte informasjonsressurser gjennom en konsumerende datadelingstjeneste (ofte kalt klient).  
 
 [![Organisatorisk samhandlingsform: Slå opp (og avgi data)](img/organisatorisk-sla-opp.png)](img/organisatorisk-sla-opp.png)
 
