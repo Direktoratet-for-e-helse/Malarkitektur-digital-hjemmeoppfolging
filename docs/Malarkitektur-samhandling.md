@@ -41,7 +41,7 @@ Kjernekapabilitetene må være tett knyttet til og integrert med den kliniske pr
 
 ### Kapabiliteter knyttet til tiltak og dokumentasjon
 
-<!--Er det noen kobling til e-helsekapabilitetene som i sin tid ble beskrevet i arbeidet med EIEJ som tok utgangpunkt i Helseplattformens krav? eks EH1.1 Dokumentasjon fra helsepersonell. Jeg er usikker på om det er jobbet videre med disse i arkitekturmiljøet  -->Evnene i denne tabellen er tett knyttet opp mot å understøtte vurdering og gjennomføring av tiltak og dokumentasjon av tiltak som utføres som en del av behandlingen av pasient.
+Evnene i denne tabellen er tett knyttet opp mot å understøtte vurdering og gjennomføring av tiltak og dokumentasjon av tiltak som utføres som en del av behandlingen av pasient.
 
 | Kapabilitet | Definisjon |
 |---|---|
