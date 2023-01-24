@@ -14,7 +14,7 @@ Målarkitektur samhandling DHO har fokusert på brukstilfellet (samhandling mell
 
 !!! quote "Samhandling mellom helsepersonell på tvers av virksomheter"
 
-    Dette brukstilfellet dekker brukstilfeller som i hovedsak dekker behovet for at helsepersonell i ulike virksomheter må samhandle for å yte best mulig helsehjelp.
+    Dette brukstilfellet dekker i hovedsak behovet for at helsepersonell i ulike virksomheter må samhandle for å yte best mulig helsehjelp.
 
     Virksomheter som yter helsehjelp har en plikt til å samarbeide om behandling og forebygging av sykdom hos innbyggere. Det ligger som en forutsetning for godt samarbeid at aktørene må samarbeide om behandlingsplaner og andre helseopplysninger. Samarbeidet kan inkludere deling av dokumentasjon ved hjelp av datadeling fra den ene virksomheten til den andre, og kan også inkludere digitalisert samarbeid om pasientforløp på tvers av virksomheter. For mer avanserte samarbeidsformer rundt en pasient vil ikke meldings- og dokumentutveksling være tilstrekkelig for å kunne lage fleksible og gode samarbeidsløsninger. Her vil samarbeidsprosesser og arenaer kreve datadeling der aktørene kan samarbeide om både strukturerte dokumenter og mindre informasjonselementer.
 
