@@ -111,3 +111,5 @@ Bruk av datadeling for digital samhandling mellom virksomheter, omsorgsnivå og 
 Modenheten er også relativt lav når det gjelder å ta i bruk Digital Hjemmeoppfølging i helsetjenesten. Men her er erfaringsunderlaget bedre etter at flere utprøvingsprosjekter er gjennomført i perioden 2018-2021. En erfaringsoppsummering er publisert av Helsedirektoratet.
 
 * [Digital hjemmeoppfølging - sluttrapport fra nasjonal utprøving 2018-2021](https://www.helsedirektoratet.no/rapporter/digital-hjemmeoppfolging-sluttrapport-fra-nasjonal-utproving-2018-2021)
+
+<!--Kunne det være aktuelt å legge til Hdirs temaside "teknologi i vår felles helsetjeneste" der det er samlet informasjon og filmer om ulike DHO aktiviteter i både primær og spesialisthelsetjenesten?-->
