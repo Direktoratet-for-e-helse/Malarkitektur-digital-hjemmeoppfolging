@@ -13,6 +13,7 @@ Arbeidet med målarikteturen baserer seg i stor grad på innhenting av erfaringe
 Vi har ikke tatt inn detaljerte beskrivelser fra utprøvings og spredningsprosjektene, siden målarkitekturen skal være et generisk verktøy. For nye prosjekter som er i oppstart kan det være interessant å se til andre intitativer for å blant annet få erfaringer om organisatoriske utfordringer og få ideer til mulige løsninger.  
 
 Her er oversikt over de pågående spredningsprosjektene som er del av [Nasjonalt Velferdsteknologiprogram](https://www.helsedirektoratet.no/nyheter/oppstart-av-spredning-av-digital-hjemmeoppfolging). 
+Spredningsprosjektet i Helsedirektoratet har publisert en animasjonsfilm om digital hjemmeoppfølging på Helsedirektoratet sin hjemmeside som hjelp til å informere om hva DHO kan innebære [Film - digital hjemmeoppfølging](https://www.helsedirektoratet.no/tema/velferdsteknologi/rapporter-og-andre-publikasjoner)
 
 ## Prosessbeskrivelser og tjenesteforløp
 
