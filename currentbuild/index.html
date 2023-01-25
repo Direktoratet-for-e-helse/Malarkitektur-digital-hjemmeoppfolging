@@ -964,8 +964,8 @@
 </tbody>
 </table>
 <p>Direktoratet for e-helse har et overordnet mål om å øke digital samhandling mellom aktørene i helse- og omsorgssektoren. Det er startet en rekke tiltak innenfor området data- og dokumentdeling. Dette arbeidet er prioritert fordi data- og dokumentdeling er samhandlingsformer som tas i bruk på ulike måter innen stadig nye områder i helse- og omsorgstjenesten for å støtte opp under identifiserte behov. Hensikten med målarkitekturen er å sikre en koordinert utvikling av og bidra til økt bruk av datadeling i sektoren.  </p>
-<p>Innen digital hjemmeoppfølging er behovet for datadeling spesielt stort. Pasientene som behandles trenger ofte fortløpende oppfølging fra flere virksomheter og på tvers av omsorgsnivå i et behandlingsforløp. Mange tjenestetilbydere ser at eksisterende samhandlingsløsninger ikke understøtter samhandlingsbehovet godt nok.  <!-- GK:Burde dette avsnittet flyttes frem? Og så tilpasse det første avsnittet til å si hvorfor vi lager en målarkitektur datadeling, --></p>
-<h2 id="hva-er-digital-hjemmeoppflging">Hva er Digital hjemmeoppfølging <!-- GK:Finnes denne beskrivelsen noe annet sted? I så fall bør vi heller referere til den, og eventuelt skrive noe om sammenhengen mellom målarkitekturen.  --></h2>
+<p>Innen digital hjemmeoppfølging er behovet for datadeling spesielt stort. Pasientene som behandles trenger ofte fortløpende oppfølging fra flere virksomheter og på tvers av primær- og spesialisthelsetjenesten i et behandlingsforløp. Mange tjenestetilbydere ser at eksisterende samhandlingsløsninger ikke understøtter samhandlingsbehovet godt nok.  <!-- GK:Burde dette avsnittet flyttes frem? Og så tilpasse det første avsnittet til å si hvorfor vi lager en målarkitektur datadeling, --></p>
+<h2 id="hva-er-digital-hjemmeoppflging">Hva er Digital hjemmeoppfølging <!-- GK:Finnes denne beskrivelsen noe annet sted? I så fall bør vi heller referere til den, og eventuelt skrive noe om sammenhengen mellom målarkitekturen.  Hvis vi ønsker å beholde en slik beskrivelse, bør den starte med passientens perspektiv.--></h2>
 <!-- Vi gjør litt endringer i rekkefølgen her, brukerperspektivet først -->
 
 <p>I 2021 ble det i rapport fra de regionale helseforetakene foreslått følgende definisjon</p>
@@ -976,28 +976,28 @@ Arbeidet med målarkitekturen har fokus på oppfølging av pasienten basert på 
   </p>
 <figcaption>Hovedfokus for målarkitekturen er den delen av DHO som handler om oppfølging basert på data fra pasienten</figcaption>
 </figure>
-<p>Figurer over visualiserer hva digital hjemmeoppfølging betyr i praksis. Forslaget til definisjon har til hensikt å romme en bredde av ulike former for digital oppfølging og samhandling mellom pasienten og helsetjenesten. Figuren bør oppdateres etter hvert som denne typen tjenester utvikles videre, og det skal jobbes videre med definisjonsbeskrivelsen gjennom Nasjonalt velferdsteknologiprogram.</p>
+<p>Figuren over visualiserer hva digital hjemmeoppfølging betyr i praksis. Forslaget til definisjon har til hensikt å romme en bredde av ulike former for digital oppfølging og samhandling mellom pasienten og helsetjenesten. Figuren bør oppdateres etter hvert som denne typen tjenester utvikles videre, og det skal jobbes videre med definisjonsbeskrivelsen gjennom Nasjonalt velferdsteknologiprogram.</p>
 <figure>
 <p><img alt="Aktører og samhandlignsbehov DHO?" src="img/veikart-DHO.png" width="500" />
   </p>
-<figcaption>Figuren illustrerer overordnet hvilke aktører som kan være involvert i DHO og eksempel på informasjon som er relevant å dele i behandlingsforløp der tjenesten digital hjemmeoppfølging tilbys.</figcaption>
+<figcaption>Figuren illustrerer overordnet hvilke aktører som kan være involvert i tjenesteforløp som inkluderer DHO og eksempel på informasjon som er relevant å dele.</figcaption>
 </figure>
 <p>Det er vesentlig at oppfølgingen ikke begrenses til der pasienten bor, men at digital hjemmeoppfølging også skal kunne benyttes andre steder, for eksempel på jobb, skole, institusjon, på reise og hos ulike helseaktører. Pasienten kan i prinsippet oppholde seg hvor som helst fysisk, men likevel kunne nå et avstandsbasert helsetilbud når det er forsvarlig.</p>
 <h2 id="formalet-med-malarkitekturen">Formålet med målarkitekturen</h2>
 <p>Målarkitekturen skal være et verktøy for å koordinere og samle innsatsen i sektoren slik at alle aktørene arbeider i samme retning for å realisere datadeling innen behovsområdet for digital hjemmeoppfølging.</p>
 <p>Målarkitekturen skal bidra til:</p>
 <ul>
-<li>Muliggjøre arkitekturstyring regionalt, nasjonalt og for andre grupperinger av dataansvarlige gjennom å etablere felles prinsipper, arkitekturmål og beskrive arkitekturmønstre. <!--GK:Denne målarkitekturen vil sikkert brukes i arkitekturstyringen, men kan vi si at den er er med å gjøre arkitekturstyring mulig? Jeg tenker vi må være tydeligere på hvilke arkitekturbesluttninger vi skal støtte med denne målarkitekturen, eller rettere sagt hvilke besluttninger som vi tar, og gi eksempler på beslutninger som kan/må tas på grunnlag av de valgene som blir beskrevet i dette dokumentet. --><ul>
+<li>Muliggjøre arkitekturstyring regionalt, nasjonalt og for andre grupperinger av dataansvarlige gjennom å etablere felles prinsipper, arkitekturmål og beskrive arkitekturmønstre. Dette inkluderer å:  <!--GK:Denne målarkitekturen vil sikkert brukes i arkitekturstyringen, men kan vi si at den er er med å gjøre arkitekturstyring mulig? Jeg tenker vi må være tydeligere på hvilke arkitekturbesluttninger vi skal støtte med denne målarkitekturen, eller rettere sagt hvilke besluttninger som vi tar, og gi eksempler på beslutninger som kan/må tas på grunnlag av de valgene som blir beskrevet i dette dokumentet. --><ul>
 <li>Beskrive informasjonstjenester og felleskomponenter som må etableres for å realisere digital samhandling i form av datadeling</li>
 <li>Dokumentere felles arkitekturvalg og anbefalte samhandlingsmønster for datadeling innen DHO</li>
 </ul>
 </li>
-<li>Gi oversikt over behovsbildet for samhandling innen DHO<ul>
+<li>Gi oversikt over behovsbildet for samhandling innen DHO, ved å:<ul>
 <li>Beskrive behov for informasjon og samhandling på tvers av virksomheter og omsorgsnivå med spesielt fokus på behov knyttet til helsetjenester der DHO benyttes</li>
 <li>Beskrive behov for normerende produkter som trengs for å understøtte semantisk samhandling</li>
 </ul>
 </li>
-<li>Skal fungere som kommunikasjonsverktøy mot helse- og omsorgstjenesten, leverandører og NHN<ul>
+<li>Skal fungere som kommunikasjonsverktøy med <!-- eller for? --> helse- og omsorgstjenesten, leverandører og NHN<ul>
 <li>Benyttes i drøfting og forankring av felles retning for utvikling av datadelingsløsninger</li>
 </ul>
 </li>
@@ -1010,6 +1010,7 @@ Arbeidet med målarkitekturen har fokus på oppfølging av pasienten basert på 
 <p>NB! Deler av behovsbeskrivelsen er teknisk anlagt og vil være vanskelig tilgjengelig for lesere som ikke har inngående kjennskap til metoder for informasjonsarkitektur.</p>
 </div>
 <h3 id="leserveiledning">Leserveiledning</h3>
+<!-- GK: Kan vi gjøre det lettere for leseren, ved å strukturere innholdet i målarkitekturen slik at det er tydelig for leseren hvordan den bør leses, også uten å få med seg dette avsnittet? -->
 <p>Kapitlene som sorterer under <em>Prinsipper og metode</em> og <em>Kontekst for målarkitekturen</em> er å anse som bakgrunn, men er svært viktig for å forstå grunnlaget, innholdet og anbefalingene som beskrives i hoveddelen av målarkitekturen. Hoveddelen sorterer under <em>Behov</em> og <em>Anbefalinger datadeling</em>, denne delen beskriver fem sider knyttet til bruk av datadeling for samhandling mellom virksomheter og omsorgsnivå innenfor bruksområdet DHO.  </p>
 <ul>
 <li><a href="Behovsbilde/">Overordnet behovsbilde</a> beskriver overordnede brukerhistorier, behov og informasjonstjenester som kan understøtte behovene</li>
@@ -1024,13 +1025,11 @@ Arbeidet med målarkitekturen har fokus på oppfølging av pasienten basert på 
 <p><a href="Malarkitektur-samhandling/">Målarkitektur samhandling DHO</a> egner seg hovedsaklig for virksomhetsarkiteter og løsningsarkitekter som må kjenne til grunnlaget for de arkitekturtekniske vurderingene som ligger til grunn for anbefalingene.</p>
 <p><a href="Anbefalte-tiltak/">Anbefalte tiltak</a> egner seg for ledere og arkitekter som trenger å forstå hvilke tiltak som må gjennomføres i sentral infrastruktur for å understøtte bruk av datadeling til samhandling mellom virksomheter og omsorgsnivå.</p>
 <h2 id="omfang-og-avgrensninger">Omfang og avgrensninger</h2>
-<!-- GK: Er målarkitekturen og målarkitekturen for datadeling i sektoren er det samme? Unasett bør det være tydeligere om det er det samme, eller om det ene er en delmengde av den andre.  -->
-<!-- Bug siste setning i teksten er feil-->
 <div class="admonition note">
-<p class="admonition-title">Målarkitektur for datadeling i helsesektoren</p>
-<p>Målarkitekturen er en beskrivelse av en fremtidig ønsket situasjon, hvor helsesektoren kan dele strukturerte helseopplysninger på tvers mellom virksomheter og omsorgsnivå i et nasjonalt perspektiv. Det er tatt utgangspunkt i behovene og de lovmessige rettigheter og plikter til innbyggere og helsepersonell. Ut ifra dette er det beskrevet ulike bruksområder for datadeling. Målarkitekturen har fokus på samhandling mellom helsepersonell på tvers av virksomheter og samhandling med innbygger.</p>
+<p class="admonition-title">Om eksisterende <a href="https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren">målarkitektur for datadeling i helsesektoren</a></p>
+<p>Målarkitekturen er en beskrivelse av en fremtidig ønsket situasjon, hvor helsesektoren kan dele strukturerte helseopplysninger på tvers av virksomheter og omsorgsnivå. Det er tatt utgangspunkt i behovene og de lovmessige rettigheter og plikter til innbyggere og helsepersonell. Ut ifra dette er det beskrevet ulike bruksområder for datadeling. Målarkitekturen har fokus på samhandling mellom helsepersonell på tvers av virksomheter og samhandling med innbygger.</p>
 </div>
-<p>Omfanget for målarkitekturen for datadeling innen DHO er avgrenset til å understøtte helsetjenester hvor DHO benyttes aktivt i behandlingsforløpet. Målarkitekturen skal derfor beskrive juridiske, behovsmessige og tekniske rammer for hvordan datadeling innen DHO bør realiseres. Målarkitekturen vil videre peke på nødvendige tiltak for infrastruktur, semantiske spesifikasjoner og foreslåtte realiseringskonsepter for å realisere samhandling i form av datadeling.</p>
+<p>Målarkitekturen for datadeling innen DHO bygger på eksisterende målarkitektur for datadeling i helsesektoren og utforsker brukertilfeller som ikke er behandlet i den generelle målarkitekturen for datadeling. Omfanget for målarkitekturen for datadeling innen DHO er avgrenset til å understøtte helsetjenester hvor DHO benyttes aktivt i behandlingsforløpet. Målarkitekturen skal derfor beskrive juridiske, behovsmessige og tekniske rammer for hvordan datadeling innen DHO bør realiseres. Målarkitekturen vil videre peke på nødvendige tiltak for infrastruktur, semantiske spesifikasjoner og foreslåtte realiseringskonsepter for å realisere samhandling i form av datadeling.</p>
 <ul>
 <li>Det er fokus på tilrettelegging for samhandling mellom virksomheter og omsorgsnivå og samhandling med innbygger<ul>
 <li>Noen av de samme mekanismene kan også benyttes for samhandling internt i en virksomhet, men det er ikke hovedfokuset i dette arbeidet</li>
@@ -1064,6 +1063,7 @@ Arbeidet med målarkitekturen har fokus på oppfølging av pasienten basert på 
 <ul>
 <li><a href="https://www.helsedirektoratet.no/rapporter/digital-hjemmeoppfolging-sluttrapport-fra-nasjonal-utproving-2018-2021">Digital hjemmeoppfølging - sluttrapport fra nasjonal utprøving 2018-2021</a></li>
 </ul>
+<!--Kunne det være aktuelt å legge til Hdirs temaside "teknologi i vår felles helsetjeneste" der det er samlet informasjon og filmer om ulike DHO aktiviteter i både primær og spesialisthelsetjenesten?-->
 
 
 
