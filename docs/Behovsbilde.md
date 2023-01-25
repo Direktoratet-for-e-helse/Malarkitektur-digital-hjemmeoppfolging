@@ -57,7 +57,7 @@ Prosessen for **Samhandling** er brutt ned til generelle steg som kjennetegner 
 For å understøtte tjenesteforløp der pasienter følges med digital hjemmeoppfølging på en effektiv måte er det identifisert en rekke brukerbehov som kan understøttes med bedre samhandlingsløsninger. Dette kapitelet oppsummerer de mest sentrale behovene og funksjonelle krav som kan utledes fra disse.
 
 ### Hypotese knyttet til behov <!--Foreslår å flytte hypotesen til under tabellen slik at det er sammenheng i første avsnitt-->
-
+<!-- Jeg tenker litt motsatt. Løfte hypotesen opp, og i tillegg vurdere om vi har flere hypoteser som vi må vurdere i lys av innsikten behovene gir  -->
 Hypotesen beskriver en antagelse som er fremkommet gjennom behovskartleggingen knyttet til DHO. Det ligger i hypotesens natur at den bør testes før målarkitekturen ferdigstilles. Det er foreløpig et åpent spørsmål hvordan disse hypotesen testes og om den kan testes som en del av utprøvingsprosjektene innen DHO.
 
 * Samhandlingsbehovet knyttet til tjenesteforløp med DHO integrert er størst regionalt
