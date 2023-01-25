@@ -77,8 +77,7 @@ Alle delene frem til og med [konsepter](Konsepter-realisering.md) for realiserin
 [Anbefalte tiltak](Anbefalte-tiltak.md) egner seg for ledere og arkitekter som trenger å forstå hvilke tiltak som må gjennomføres i sentral infrastruktur for å understøtte bruk av datadeling til samhandling mellom virksomheter og omsorgsnivå.
 
 ## Omfang og avgrensninger
-<!-- GK: Er målarkitekturen og målarkitekturen for datadeling i sektoren er det samme? Unasett bør det være tydeligere om det er det samme, eller om det ene er en delmengde av den andre.  -->
-<!-- Bug siste setning i teksten er feil-->
+
 !!! note "Om eksisterende [målarkitektur for datadeling i helsesektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren)"
 
     Målarkitekturen er en beskrivelse av en fremtidig ønsket situasjon, hvor helsesektoren kan dele strukturerte helseopplysninger på tvers av virksomheter og omsorgsnivå. Det er tatt utgangspunkt i behovene og de lovmessige rettigheter og plikter til innbyggere og helsepersonell. Ut ifra dette er det beskrevet ulike bruksområder for datadeling. Målarkitekturen har fokus på samhandling mellom helsepersonell på tvers av virksomheter og samhandling med innbygger.
