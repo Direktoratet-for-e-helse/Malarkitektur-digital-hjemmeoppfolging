@@ -90,9 +90,9 @@ Evnene er knyttet til bruk av organisatoriske samhandlingsformer for å utveksle
 
 ### Samhandlingstjenester
 
-Tjenester som det er behov for å realisere samhandlingsevnene. Totalbildet vises i figuren under.
+Tjenester og prosesser realiserer samhandlingsevnene. Totalbildet vises i figuren under.
 
-![Samhandlingstjenester](img/213877779.png)
+![Samhandlingstjenester](img/tjenester-kapabiliteter.png)
 
 ### Tillitstjenester og tjenstlig behov
 
