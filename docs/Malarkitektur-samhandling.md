@@ -67,18 +67,20 @@ Evnene er knyttet til bruk av organisatoriske samhandlingsformer for å utveksle
 |---|---|
 | Avgi data | Utlevere data basert på søk og oppslag |
 | Endre data | Evnen til å gjøre dataendringer hos en annen aktør ved hjelp av datadeling |
-| Formidle metadata | Mulig fellestjeneste for å formidle hvilken informasjon som er tilgjengelig fra en datakilde |
-| Formidling (meldinger) | Fellestjeneste for å formidle meldinger mellom avsender og mottaker som utveksler meldinger |
+| Metadataformidling | Evnen til å formidle hvilken informasjon som er tilgjengelig fra en datakilde, det kan være nødvnendig å understøtte denne evnen me den fellestjeneste|
+| Metadatautvinning | Evnen til å produsere og utvinne metadata basert på prosessene som produserer informasjon og innholdet i informasjonsressursene |
+| Meldingsformidling | Fellestjeneste for å formidle meldinger mellom avsender og mottaker som utveksler meldinger. Dagens løsning baserer seg på felles infrastruktur for meldingsformidling som en del av samhandlingsplattformen |
 | Få tilgang til data | Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør. |
 | Håndtere mottatte endringer | Evnen til å behandle endringer (opprettelse, oppdatering, sletting) av helseopplysninger mottatt fra en annen aktør ved hjelp av datadeling |
 | Innhente data | Søke og slå opp informasjon gjennom en datadelingstjeneste |
-| Konsumere hendelsesstrøm | Konsumere hendelser fra en hendelsesstrøm |
+| Konsumering av publiserte data | Evnen til å konsumere hendelser fra en hendelsesstrøm |
 | Lokalisere relevant informasjon | Evnen til å finne kilder for informasjon om spesifikke kategorier eller personer. |
 | Motta | Motta informasjon fra en spesifikk mottaker |
-| Publisere (hendelser) | Publisere hendelser til en hendelsesstrøm |
-| Publisere metadata | Publisere metadata slik at konsumenter kan lokalisere relevant informasjon |
+| Publisering av data | Evnen til å publisere hendelser til en hendelsesstrøm |
+| Metadatapublisering | Evnen til å publisere metadata slik at konsumenter kan lokalisere relevant informasjon |
 | Sende | Sende informasjon til en spesifikk mottaker |
 | Tilgjengeliggjøre data | Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet med eller uten krav til innlogget bruker ved hjelp av datadeling. Tilgangsstyring inngår her. Avgjøre hvilken informasjon som skal deles med andre gjennom en datadelingstjeneste. |
+| Tjenesteformidling | Evnen til å formidle informasjon om hvilke samhandlingstjenester som er tilgjengelig fra en datatilbyder, det kan være nødvendig å understøtte evnen med en fellestjeneste |
 | Visning | Vise informasjonen på en måte som er nyttig for kliniker |
 
 ## Nødvendige komponenter
