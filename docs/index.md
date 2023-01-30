@@ -42,19 +42,19 @@ Målarkitekturen skal være et verktøy for å koordinere og samle innsatsen i s
 
 Målarkitekturen skal bidra til:
 
-* Muliggjøre arkitekturstyring regionalt, nasjonalt og for andre grupperinger av dataansvarlige gjennom å etablere felles prinsipper, arkitekturmål og beskrive arkitekturmønstre. Dette inkluderer å:  <!--GK:Denne målarkitekturen vil sikkert brukes i arkitekturstyringen, men kan vi si at den er er med å gjøre arkitekturstyring mulig? Jeg tenker vi må være tydeligere på hvilke arkitekturbesluttninger vi skal støtte med denne målarkitekturen, eller rettere sagt hvilke besluttninger som vi tar, og gi eksempler på beslutninger som kan/må tas på grunnlag av de valgene som blir beskrevet i dette dokumentet. -->
-  * Beskrive informasjonstjenester og felleskomponenter som må etableres for å realisere digital samhandling i form av datadeling
+* Gjøre det enklere å gjennomføre arkitekturstyring regionalt, nasjonalt og for andre grupperinger av dataansvarlige gjennom å etablere felles prinsipper, arkitekturmål og beskrive arkitekturmønstre. Dette inkluderer å:  
   * Dokumentere felles arkitekturvalg og anbefalte samhandlingsmønster for datadeling innen DHO
+  * Beskrive informasjonstjenester og felleskomponenter som må etableres for å realisere digital samhandling i form av datadeling
 * Gi oversikt over behovsbildet for samhandling innen DHO, ved å:
   * Beskrive behov for informasjon og samhandling på tvers av virksomheter og omsorgsnivå med spesielt fokus på behov knyttet til helsetjenester der DHO benyttes
   * Beskrive behov for normerende produkter som trengs for å understøtte semantisk samhandling
-* Skal fungere som kommunikasjonsverktøy med <!-- eller for? --> helse- og omsorgstjenesten, leverandører og NHN
+* Skal fungere som verktøy for kommunikasjon med helse- og omsorgstjenesten, leverandører og NHN
   * Benyttes i drøfting og forankring av felles retning for utvikling av datadelingsløsninger
 * Beskrive juridisk mulighetsrom for realisering av samhandling ved hjelp av datadeling
 
 ## Målgruppe og leserveiledning
 
-Målgruppen for målarkitekturen er primært arkitekter og tekniske prosjektledere, men er også relevant for beslutningstagere, prosjektledere, helsepersonell og utviklere innen helse- og omsorgssektoren. <!--GK: Er det gjort noen vurdering av hvorfor målgruppene skal interesere seg for målarkitekturen, og hva vi trenger å svare ut eller informere de forskjellige om? -->
+Målgruppen for målarkitekturen er primært arkitekter og tekniske prosjektledere, men er også relevant for beslutningstagere, prosjektledere, helsepersonell og utviklere innen helse- og omsorgssektoren.
 
 ### Leserveiledning
 <!-- GK: Kan vi gjøre det lettere for leseren, ved å strukturere innholdet i målarkitekturen slik at det er tydelig for leseren hvordan den bør leses, også uten å få med seg dette avsnittet? -->
@@ -115,5 +115,3 @@ Bruk av datadeling for digital samhandling mellom virksomheter, omsorgsnivå og 
 Modenheten er også relativt lav når det gjelder å ta i bruk Digital Hjemmeoppfølging i helsetjenesten. Men her er erfaringsunderlaget bedre etter at flere utprøvingsprosjekter er gjennomført i perioden 2018-2021. En erfaringsoppsummering er publisert av Helsedirektoratet.
 
 * [Digital hjemmeoppfølging - sluttrapport fra nasjonal utprøving 2018-2021](https://www.helsedirektoratet.no/rapporter/digital-hjemmeoppfolging-sluttrapport-fra-nasjonal-utproving-2018-2021)
-
-<!--Kunne det være aktuelt å legge til Hdirs temaside "teknologi i vår felles helsetjeneste" der det er samlet informasjon og filmer om ulike DHO aktiviteter i både primær og spesialisthelsetjenesten?-->
