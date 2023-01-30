@@ -25,6 +25,7 @@ nav:
       - Status for dokumentet: https://direktoratet-for-e-helse.github.io/Common-metadata/
     - Vedlegg:
       - Datadeling - slå opp: Organisatorisk-sla-opp.md
+      - Hva er kapabiliteter: Kapabiliteter.md
 theme:
   name: material
   logo: logo/ehelse-hvit.svg
