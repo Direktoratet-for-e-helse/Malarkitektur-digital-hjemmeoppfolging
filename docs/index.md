@@ -47,6 +47,7 @@ Målarkitekturen skal bidra til:
   * Beskrive informasjonstjenester og felleskomponenter som må etableres for å realisere digital samhandling i form av datadeling
 * Gi oversikt over behovsbildet for samhandling innen DHO, ved å:
   * Beskrive behov for informasjon og samhandling på tvers av virksomheter og omsorgsnivå med spesielt fokus på behov knyttet til helsetjenester der DHO benyttes
+  * <!--SKulle vi hatt med en setning om innbygger evt innarbeide i setning over - ta med helsepersonell, innbygger der-->
   * Beskrive behov for normerende produkter som trengs for å understøtte semantisk samhandling
 * Skal fungere som verktøy for kommunikasjon med helse- og omsorgstjenesten, leverandører og NHN
   * Benyttes i drøfting og forankring av felles retning for utvikling av datadelingsløsninger
