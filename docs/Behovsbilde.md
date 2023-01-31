@@ -144,7 +144,7 @@ I tillegg er det identifisert behov for dialogtjenester for kommunikasjon mellom
 
 ## Analyse av informasjonsbehov
 
-Tabellen under viser en oversikt over identifiserte informasjonsbehov og kobling til tidligere identifiserte  informasjonstjenester fra bilag G2 Helhetlig samhandling. Tabellen oppsummerer:
+Tabellen under oppsummerer: <!--Tatt ut setning her da det sier det samme i kulepunkt to-->
 
 * Informasjonsbehov
 * Er informasjonsbehovet beskrevet i en informasjonstjeneste - informasjonsbehovene er mappet til informasjonstjenester definert for Helhetlig samhandling og felles kommunal journalløsning ([Bilag G2 definerer informasjonstjenestene](https://www.ehelse.no/publikasjoner/sentralt-styringsdokument-akson-helhetlig-samhandling-og-felles-kommunal-journallosning/Bilag%20G2%20Helhetlig%20samhandling.pdf))
