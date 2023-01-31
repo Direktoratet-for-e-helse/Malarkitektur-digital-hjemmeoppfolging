@@ -12,7 +12,7 @@ Innen digital hjemmeoppfølging (DHO) er behovet for datadeling spesielt stort. 
 
 ## Hva er Digital hjemmeoppfølging
 
-Digital hjemmeoppfølging handler om å følge opp, behandle og kommunisere med pasienter på nyte måter ved hjelp av ulike former for teknologistøtte.
+<!--Tror ikke vi skal bruke avstandsoppfølging og DHO om hverandre - ser ikke helt at dette avsnittet fungerer-->Digital hjemmeoppfølging handler om å følge opp, behandle og kommunisere med pasienter på nyte måter ved hjelp av ulike former for teknologistøtte.
 
 !!! quote "Nasjonalt velferdsteknologiprogram, er det tatt utgangspunkt i følgende definisjon"
 
