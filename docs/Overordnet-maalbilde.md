@@ -12,8 +12,7 @@ Målbildet på strategisk nivå for DHO er beskrevet i [Veien videre for Nasjona
 ![image](https://user-images.githubusercontent.com/6229665/198982995-9deae3a8-bb01-4acc-abff-12751f471475.png)
 
 ## Resultatmål
-Vi konkretiserer ikke resultatmål i dette arbeidet utover det som er beskrevet i [Veien videre for Nasjonalt   
-velferdsteknologiprogram og Digi-hjem](https://sh.ehelse.no/dihj/_layouts/15/WopiFrame.aspx?sourcedoc={ef7e38d0-ed5d-4983-9c3c-a73ed4a21b23}) hvor dette er behandlet og det er listet opp en rekke resultatmål for arbeidet. Vi gjengir de som er mest sentrale for Tiltak 5 her:
+Vi konkretiserer ikke resultatmål i dette arbeidet utover det som er beskrevet i [Veien videre for Nasjonalt velferdsteknologiprogram og Digi-hjem](https://sh.ehelse.no/dihj/_layouts/15/WopiFrame.aspx?sourcedoc={ef7e38d0-ed5d-4983-9c3c-a73ed4a21b23}) hvor dette er behandlet og det er listet opp en rekke resultatmål for arbeidet. Vi gjengir de som er mest sentrale for Tiltak 5 her:
 
 * Behov for informasjonsdeling knyttet til bruk av velferdsteknologi og digital hjemmeoppfølging er innen utgangen av 2024 ivaretatt i planene og leveransene for normerende produkter og nasjonale samhandlingsløsninger, og det er etablert varige strukturer som ivaretar tjenestens behov for videreutvikling etter programmets slutt.
 * Det er konsensus om definisjoner og terminologi knyttet til velferdsteknologi og digital hjemmeoppfølging innen utgangen av 2022.
