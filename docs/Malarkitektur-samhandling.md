@@ -64,7 +64,7 @@ Evnene i denne tabellen er ikke knyttet opp mot noen spesielle deler av prosesse
 |---|---|
 | Dialog | Understøtte løpende dialog mellom aktører |
 | Delegere rettigheter | Evnen til å delegere rettigheter til databehandler som utfører oppgaver på vegne av dataansvarlig. |
-| Klargjøre for sende og motta | Klargjøre for utveksling av informasjon ved hjelp av meldinger (sende og motta fra/til spesifikk mottaker) |
+| Klargjøre for sending og mottak | Klargjøre for utveksling av informasjon ved hjelp av meldinger (sende og motta fra/til spesifikk mottaker) |
 | Meldingsformidling | Fellestjeneste for å formidle meldinger mellom avsender og mottaker som utveksler meldinger. Dagens løsning baserer seg på felles infrastruktur for meldingsformidling som en del av samhandlingsplattformen |
 | Metadataformidling | Evnen til å formidle hvilken informasjon som er tilgjengelig fra en datakilde, det kan være nødvnendig å understøtte denne evnen me den fellestjeneste|
 | Tjenesteformidling | Evnen til å formidle informasjon om hvilke samhandlingstjenester som er tilgjengelig fra en datatilbyder, det kan være nødvendig å understøtte evnen med en fellestjeneste |
@@ -83,27 +83,26 @@ Evnene er knyttet til bruk av organisatoriske samhandlingsformer for å utveksle
 | Håndtere mottatte endringer | Evnen til å behandle endringer (opprettelse, oppdatering, sletting) av helseopplysninger mottatt fra en annen aktør ved hjelp av datadeling |
 | Innhente data | Søke og slå opp informasjon gjennom en datadelingstjeneste |
 | Konsumering av publiserte data | Evnen til å konsumere hendelser fra en hendelsesstrøm |
-| Lokalisere relevant informasjon | Evnen til å finne kilder for informasjon om spesifikke kategorier eller personer. |
+| Lokalisering av relevant data | Evnen til å finne kilder for informasjon om spesifikke kategorier eller personer. |
 | Metadatautvinning | Evnen til å produsere og utvinne metadata basert på prosessene som produserer informasjon og innholdet i informasjonsressursene |
-| Motta | Motta informasjon fra en spesifikk mottaker |
+| Mottak | Motta informasjon fra en avsender |
 | Publisering av data | Evnen til å publisere hendelser til en hendelsesstrøm |
 | Metadatapublisering | Evnen til å publisere metadata slik at konsumenter kan lokalisere relevant informasjon |
-| Sende | Sende informasjon til en spesifikk mottaker |
+| Sending | Sende informasjon til en spesifikk mottaker |
 | Tilgjengeliggjøre data | Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet med eller uten krav til innlogget bruker ved hjelp av datadeling. Tilgangsstyring inngår her. Avgjøre hvilken informasjon som skal deles med andre gjennom en datadelingstjeneste. |
-| Visning | Evnen til å vise data for bruker |
+| Visning | Evnen til å vise data til bruker |
 
-## Nødvendige komponenter
+## Nødvendige informasjonstjenester
 
-* Beskrive komponentene hvilke kapabiliteter de skal realisere
-* Hvem har ansvar for hvilke komponenter (felles/aktører) og hvordan forvaltes disse
-  * Grensesnitt mellom komponentene og forvaltning av disse
-* Lakmustest: Mappe komponentene mot løsningsarkitekturen som er beskrevet for utprøvingene (Oslo, Bodø og Larvik)
+I arbeidet med målarkitektur analyserer vi hvordan kapabiliteter kan realiseres av prosesser og hvordan disse prosessene bør understøttes av informasjonstjenester. Vi ser også på sammenhenger mellom informasjonstjenestene som realiseres av virksomhetene som skal samhandle og tjenester som realiseres i felles infrastruktur.
 
-### Samhandlingstjenester
+### Informasjonstjenester
 
-Tjenester og prosesser realiserer samhandlingsevnene. Totalbildet vises i figuren under.
+Modellen *Sentrale informasjonstjenester knyttet til samhandling* viser hvordan informasjonstjenester, prosesser og funksjoner realiserer samhandlingsevnene vi pekte på i forrige kapittel. Hovedfokuset i den videre analysen blir de informasjonstjenestene som må realiseres for å understøtte de mest sentrale kapabilitetene knyttet til [datadeling](Organisatorisk-sla-opp.md).  
 
-![Samhandlingstjenester](img/tjenester-kapabiliteter.png)
+![Informasjonstjenester knyttet til samhandling](img/tjenester-kapabiliteter.png)
+*Sentrale informasjonstjenester knyttet til samhandling*
+<!-- hit -->
 
 ### Tillitstjenester og tjenstlig behov
 
