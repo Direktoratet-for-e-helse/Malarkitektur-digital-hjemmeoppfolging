@@ -12,7 +12,6 @@ Liste over sentrale begreper som benyttes i målarkitekturen.
 |------|-----------|
 |Behandlingsforløp|En pasients kontakt med ulike deler av helsevesenet i en behandlingsperiode|
 |Brukerhistorie|Formen som er valgt for funksjonalitetsbeskrivelse. En kortfattet beskrivelse av Hvem som har behov, Hva slags funksjonalitet det er behov for og Hvorfor funksjonaliteten gir verdi|
-|Brukstilfelle| |
 |Digital hjemmeoppfølging|Digital hjemmeoppfølging innebærer at hele eller deler av et behandlingstilbud foregår uten fysisk kontakt, der dialog og deling av data mellom pasient/bruker og behandler(e) skjer digitalt. Forslaget til definisjon har til hensikt å romme en bredde av ulike typer oppfølging og samhandling mellom pasienten og helsetjenesten. I arbeidet med målarkitektur og kosepter er hovedfokus på "Oppfølging basert på data fra pasient; data fra sensorer og medisinsk utstyr og pasientrapporterte data som symptomer, funksjon og målinger"|
 |Data fra pasient|I målarkitekturen inkluderer dette data fra sensorer og medisinsk utstyr og pasientrapporterte data som symptomer, funksjon og målinger|
 |Digital Samhandling|Samhandling mellom aktører som benytter ulike IKT-systemer på digital form (for eksempel meldingsutveksling, data- eller dokument-deling)|
