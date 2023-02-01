@@ -14,7 +14,7 @@ Innen digital hjemmeoppfølging (DHO) er behovet for datadeling spesielt stort. 
 
 <!--Tror ikke vi skal bruke avstandsoppfølging og DHO om hverandre - ser ikke helt at dette avsnittet fungerer-->Digital hjemmeoppfølging handler om å følge opp, behandle og kommunisere med pasienter på nyte måter ved hjelp av ulike former for teknologistøtte.
 
-!!! quote "Nasjonalt velferdsteknologiprogram, er det tatt utgangspunkt i følgende definisjon"
+!!! quote "I utprøvingen av digital hjemmeoppfølging fra 2018 - 2022 i Nasjonalt velferdsteknologiprogram ble det tatt utgangspunkt i følgende definisjon"
 
     Avstandsoppfølging omfatter de aktiviteter/handlinger som muliggjør at pasienten, utenfor de tradisjonelle arenaer hvor pasienter møter helsepersonell, kan tilegne seg, registrere og dele klinisk relevant informasjon om sin helsetilstand elektronisk, med formål om å gi informasjon eller veiledning til pasientens egenmestring, og/eller gi beslutningsstøtte til diagnostisering, behandling eller oppfølging for helsepersonell.
 
