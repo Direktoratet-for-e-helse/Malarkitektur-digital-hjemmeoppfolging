@@ -8,7 +8,7 @@ title: Målarkitektur samhandling DHO
 
 ## Samhandling mellom helsepersonell på tvers av virksomheter
 
-Direktoratet for e-helse publiserte i mars 2021 [Målarkitektur for datadeling](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren/_/attachment/inline/a5a908cd-5054-4d21-8eaf-8b795dcb25ea:761793d5dd6b6a1f2b9dd334a44e3a754d5b88e6/M%C3%A5larkitektur%20for%20datadeling%20i%20helse-%20og%20omsorgssektoren%20(HITR%201231_2021).pdf) som tar frem fire ulike bruksområder for datadeling der "samhandling mellom helsepersonell på tvers av virksomheter" var et brukstilfelle. Dette brukstilfellet ble ikke behandlet i første versjon av målarkitekturen for datadeling, siden modenheten den gang var for lav og erfaringsgrunnlaget med denne bruken av datadelingsløsninger var begrenset.
+Direktoratet for e-helse publiserte i mars 2021 [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) som tar frem fire ulike bruksområder for datadeling der "samhandling mellom helsepersonell på tvers av virksomheter" var et brukstilfelle. Dette brukstilfellet ble ikke behandlet i første versjon av målarkitekturen for datadeling, siden modenheten den gang var for lav og erfaringsgrunnlaget med denne bruken av datadelingsløsninger var begrenset.
 
 Målarkitektur samhandling DHO har fokusert på brukstilfellet (samhandling mellom helsepersonell på tvers av virksomheter), og dette vil bli en del av den overordnede målarkitekturen for datadeling for helse- og omsorgssektoren. Brukstilfellet for deling på tvers av virksomheter uttrykkes slik i målarkitektur for datadeling:
 
@@ -31,24 +31,24 @@ Målarkitektur samhandling DHO har fokusert på brukstilfellet (samhandling mell
 
 ## Kapabilitetskart
 
-Modellen *Kapabilitetskart koblet til prosess* viser overordnet kapabilitetskart for prosessene knyttet til de overordnede prosessene for *Innhente informasjon*, *Produksjon av informasjon* og *Dele informasjon*. Rollene *Datakonsument*, *(Data) Produsent* og *Datatilbyder* er knyttet til prosessene. Hvordan samhandlingsprosessen understøtter helsetjenesten og tjenesteforløpet er beskrevet i kapittelet [Tjenesteforløp og samhandling](Behovsbilde.md#tjenesteforløp-og-samhandling).  
+I denne delen av målarkitekturen viser vi hvilke kapabilteter eller evner som må realiseres for å understøtte samhandling mellom virksomheter og omsorgsnivå. Kapabilitetene som beskrives er en videreutvikling av kapabilitetene som beskrives i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren), men modellene videreutvikles med hovedfokus på samhandling mellom virksomheter.
 
 !!! note "Bruk av kapabiliteter i planleggingen"
 
     I denne delen av målarkitekturen tar vi utgangspunkt i en overordnet oversikt over kapabiliteter for å beskrive behovene for samhandlingstjenester. Motivasjonen bak denne metoden er beskrevet i [vedlegget](Kapabiliteter.md).
 
-Dette er prosesser som er knyttet til Konsumenter (og produsenter) som integrerer mot andre aktører sine tjenester for tilgang til informasjon eller som ønsker å oppdatere informasjon de har produsert i informasjonstjenester som tilbys av andre aktører. Vi har identifisert at det mest relevante samhandlingsmønsteret for informasjonsbehovene knyttet til DHO er "Slå opp", men gode alternativer kan være å konsumere hendelsesstrømmer. For å oppdatere felles informasjonstjenester (for eksempel felles behandlingsplan) vil "Oppdatere" best dekke behovet. For prosesser hvor det er behov for bestilling og henvisning til tjenester som tilbys av andre aktører vil imidlertid sende/motta være foretrukket samhandlingsform.
+### Samhandlingsprosessen
+
+Modellen *Kapabilitetskart koblet til samhandlingsprosess* viser overordnede roller og kapabiliteter rollene innehar. Rollene er igjen tilordnet delprosessene for samhandling: *Innhente informasjon*, *Produksjon av informasjon* og *Dele informasjon*. Rollene *Datakonsument*, *(Data)produsent* og *Datatilbyder* er knyttet til prosessene. Hvordan samhandlingsprosessen understøtter helsetjenesten og tjenesteforløpet er beskrevet i kapittelet [Tjenesteforløp og samhandling](Behovsbilde.md#tjenesteforløp-og-samhandling).
+
+Samhandling mellom virksomheter og omsorgsnivå kan foregå på flere måter, kapabilitetskartet viser kapabiliteter som er relevante for både datadeling, dokumentdeling, hendelsesstrømmer og meldingsutveksling. I forbindelse med tjenesteforløp i DHO er det mest relevante samhandlingsformen datadeling som understøttes av kapabilitetene "innhente data" og "avgi data". I tillegg er det behov for en rekke støttekapabilteter for å sette opp datadeling (få tilgang til data, tilgjengeliggjøre data, lokalisere relevante data og metadatapublisering)og noen kapabiliteter som bør realiseres som fellestjenester (tjenesteformidling, metadataformidling, delegere rettigheter og meldingsformidling).
 
 ![Kapabilitetskart prosess](img/kapabilitetskart-prosess.png)
-*Kapabilitetskart koblet til prosess*
+*Kapabilitetskart koblet til samhandlingsprosess*
 
-Det er identifisert noen grunnleggende kapabiliteter som må gå på tvers av de overbyggende, dette er dialog, sikkerhet og tillitsmodell.
+### Kapabiliteter knyttet produksjon av dokumentasjon
 
-Kjernekapabilitetene må være tett knyttet til og integrert med den [kliniske prosessen](Behovsbilde.md#tjenesteforløp-og-samhandling) som handler om å identifisere og gjennomføre tiltak som en del av pasientbehandlingen, men omfatter også produksjon av informasjon. Dette innebærer både selve dokumentasjonen av hva som gjennomføres, målinger og resultater. Det er også tatt med nødvendige kapabiliteter som handler om å generere metadata og lagring av dokumentasjonen i en egnet form for viderebehandling og deling.
-
-### Kapabiliteter knyttet til tiltak og dokumentasjon
-
-<!--Kan vi vise til tidligere arbeid med kapabiliteter og sammenheng? eks SSD for akason? samhandling?-->Evnene i denne tabellen er tett knyttet opp mot å understøtte vurdering og gjennomføring av tiltak og dokumentasjon av tiltak som utføres som en del av behandlingen av pasient.
+*Samhandling* inneholder også en delprosess for produksjon av informasjon. *Produksjon av informasjon* innebærer både selve dokumentasjonen av hva som gjennomføres og målinger og andre resultater. Det er også tatt med nødvendige kapabiliteter som handler om *informasjonsbehandling* og *lagring* av informasjon. Rollen som (data)produsent er tilordnet denne delprosessen og denne rollen må minst inneholde kapabilitetene i tabellen under:
 
 | Kapabilitet | Definisjon |
 |---|---|
@@ -58,37 +58,39 @@ Kjernekapabilitetene må være tett knyttet til og integrert med den [kliniske p
 
 ### Tverrgående kapabiliteter
 
-Evnene i denne tabellen er ikke knyttet opp mot noen spesielle deler av prosessen, siden alle deler av prosessen har behov for disse.
+Evnene i denne tabellen er ikke knyttet opp mot noen spesielle deler av prosessen, siden flere deler av prosessen eller roller har behov for disse.
 
 | Kapabilitet | Definisjon |
 |---|---|
-| Dialog | Understøtte løpende dialog mellom helsepersonell |
+| Dialog | Understøtte løpende dialog mellom aktører |
 | Delegere rettigheter | Evnen til å delegere rettigheter til databehandler som utfører oppgaver på vegne av dataansvarlig. |
 | Klargjøre for sende og motta | Klargjøre for utveksling av informasjon ved hjelp av meldinger (sende og motta fra/til spesifikk mottaker) |
+| Meldingsformidling | Fellestjeneste for å formidle meldinger mellom avsender og mottaker som utveksler meldinger. Dagens løsning baserer seg på felles infrastruktur for meldingsformidling som en del av samhandlingsplattformen |
+| Metadataformidling | Evnen til å formidle hvilken informasjon som er tilgjengelig fra en datakilde, det kan være nødvnendig å understøtte denne evnen me den fellestjeneste|
+| Tjenesteformidling | Evnen til å formidle informasjon om hvilke samhandlingstjenester som er tilgjengelig fra en datatilbyder, det kan være nødvendig å understøtte evnen med en fellestjeneste |
+
+Vi ser i denne modellen på kapabiliteten dialog som en selvstendig evne til samhandling hvor aktørene alltid inntar rollen som datakonsument og datatilbyder i samhandlingsprosessen og inngår i en jevnbyrdig dialog med en eller flere andre aktører. Dialog kan understøttes av en eller flere av kapabilitetene for samhandling. Dagens dialogmeldinger benytter for eksempel meldingsutveksling (sende, motta og meldingsformidling) for å opprette asynkron dialog mellom partene.
 
 ### Kapabiliteter knyttet til samhandling
 
-Evnene er knyttet til bruk av organisatoriske samhandlingsformer for å utveksle informasjon mellom aktører.
+Evnene er knyttet til bruk av organisatoriske samhandlingsformer for å utveksle informasjon mellom aktører. Aktørene kan innta rolle som *datakonsument* eller *datatilbyder*, i de aller fleste tilfeller vil aktørene inneha flere roller i samhandlignsprosessen og realisere kapabiliter knyttet til både konsument og tilbyder rollen.
 
 | Kapabilitet | Definisjon |
 |---|---|
 | Avgi data | Utlevere data basert på søk og oppslag |
 | Endre data | Evnen til å gjøre dataendringer hos en annen aktør ved hjelp av datadeling |
-| Metadataformidling | Evnen til å formidle hvilken informasjon som er tilgjengelig fra en datakilde, det kan være nødvnendig å understøtte denne evnen me den fellestjeneste|
-| Metadatautvinning | Evnen til å produsere og utvinne metadata basert på prosessene som produserer informasjon og innholdet i informasjonsressursene |
-| Meldingsformidling | Fellestjeneste for å formidle meldinger mellom avsender og mottaker som utveksler meldinger. Dagens løsning baserer seg på felles infrastruktur for meldingsformidling som en del av samhandlingsplattformen |
 | Få tilgang til data | Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør. |
 | Håndtere mottatte endringer | Evnen til å behandle endringer (opprettelse, oppdatering, sletting) av helseopplysninger mottatt fra en annen aktør ved hjelp av datadeling |
 | Innhente data | Søke og slå opp informasjon gjennom en datadelingstjeneste |
 | Konsumering av publiserte data | Evnen til å konsumere hendelser fra en hendelsesstrøm |
 | Lokalisere relevant informasjon | Evnen til å finne kilder for informasjon om spesifikke kategorier eller personer. |
+| Metadatautvinning | Evnen til å produsere og utvinne metadata basert på prosessene som produserer informasjon og innholdet i informasjonsressursene |
 | Motta | Motta informasjon fra en spesifikk mottaker |
 | Publisering av data | Evnen til å publisere hendelser til en hendelsesstrøm |
 | Metadatapublisering | Evnen til å publisere metadata slik at konsumenter kan lokalisere relevant informasjon |
 | Sende | Sende informasjon til en spesifikk mottaker |
 | Tilgjengeliggjøre data | Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet med eller uten krav til innlogget bruker ved hjelp av datadeling. Tilgangsstyring inngår her. Avgjøre hvilken informasjon som skal deles med andre gjennom en datadelingstjeneste. |
-| Tjenesteformidling | Evnen til å formidle informasjon om hvilke samhandlingstjenester som er tilgjengelig fra en datatilbyder, det kan være nødvendig å understøtte evnen med en fellestjeneste |
-| Visning | Vise informasjonen på en måte som er nyttig for kliniker |
+| Visning | Evnen til å vise data for bruker |
 
 ## Nødvendige komponenter
 
