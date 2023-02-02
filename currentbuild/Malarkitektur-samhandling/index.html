@@ -644,16 +644,16 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#ndvendige-komponenter" class="md-nav__link">
-    Nødvendige komponenter
+  <a href="#ndvendige-informasjonstjenester" class="md-nav__link">
+    Nødvendige informasjonstjenester
   </a>
   
-    <nav class="md-nav" aria-label="Nødvendige komponenter">
+    <nav class="md-nav" aria-label="Nødvendige informasjonstjenester">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#samhandlingstjenester" class="md-nav__link">
-    Samhandlingstjenester
+  <a href="#informasjonstjenester" class="md-nav__link">
+    Informasjonstjenester
   </a>
   
 </li>
@@ -985,16 +985,16 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#ndvendige-komponenter" class="md-nav__link">
-    Nødvendige komponenter
+  <a href="#ndvendige-informasjonstjenester" class="md-nav__link">
+    Nødvendige informasjonstjenester
   </a>
   
-    <nav class="md-nav" aria-label="Nødvendige komponenter">
+    <nav class="md-nav" aria-label="Nødvendige informasjonstjenester">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#samhandlingstjenester" class="md-nav__link">
-    Samhandlingstjenester
+  <a href="#informasjonstjenester" class="md-nav__link">
+    Informasjonstjenester
   </a>
   
 </li>
@@ -1175,7 +1175,7 @@ Behovsanalysen til konseptvalgutredningen for nasjonal journalløsning for kommu
 <td>Evnen til å delegere rettigheter til databehandler som utfører oppgaver på vegne av dataansvarlig.</td>
 </tr>
 <tr>
-<td>Klargjøre for sende og motta</td>
+<td>Klargjøre for sending og mottak</td>
 <td>Klargjøre for utveksling av informasjon ved hjelp av meldinger (sende og motta fra/til spesifikk mottaker)</td>
 </tr>
 <tr>
@@ -1228,7 +1228,7 @@ Behovsanalysen til konseptvalgutredningen for nasjonal journalløsning for kommu
 <td>Evnen til å konsumere hendelser fra en hendelsesstrøm</td>
 </tr>
 <tr>
-<td>Lokalisere relevant informasjon</td>
+<td>Lokalisering av relevant data</td>
 <td>Evnen til å finne kilder for informasjon om spesifikke kategorier eller personer.</td>
 </tr>
 <tr>
@@ -1236,8 +1236,8 @@ Behovsanalysen til konseptvalgutredningen for nasjonal journalløsning for kommu
 <td>Evnen til å produsere og utvinne metadata basert på prosessene som produserer informasjon og innholdet i informasjonsressursene</td>
 </tr>
 <tr>
-<td>Motta</td>
-<td>Motta informasjon fra en spesifikk mottaker</td>
+<td>Mottak</td>
+<td>Motta informasjon fra en avsender</td>
 </tr>
 <tr>
 <td>Publisering av data</td>
@@ -1248,7 +1248,7 @@ Behovsanalysen til konseptvalgutredningen for nasjonal journalløsning for kommu
 <td>Evnen til å publisere metadata slik at konsumenter kan lokalisere relevant informasjon</td>
 </tr>
 <tr>
-<td>Sende</td>
+<td>Sending</td>
 <td>Sende informasjon til en spesifikk mottaker</td>
 </tr>
 <tr>
@@ -1257,22 +1257,18 @@ Behovsanalysen til konseptvalgutredningen for nasjonal journalløsning for kommu
 </tr>
 <tr>
 <td>Visning</td>
-<td>Evnen til å vise data for bruker</td>
+<td>Evnen til å vise data til bruker</td>
 </tr>
 </tbody>
 </table>
-<h2 id="ndvendige-komponenter">Nødvendige komponenter</h2>
-<ul>
-<li>Beskrive komponentene hvilke kapabiliteter de skal realisere</li>
-<li>Hvem har ansvar for hvilke komponenter (felles/aktører) og hvordan forvaltes disse<ul>
-<li>Grensesnitt mellom komponentene og forvaltning av disse</li>
-</ul>
-</li>
-<li>Lakmustest: Mappe komponentene mot løsningsarkitekturen som er beskrevet for utprøvingene (Oslo, Bodø og Larvik)</li>
-</ul>
-<h3 id="samhandlingstjenester">Samhandlingstjenester</h3>
-<p>Tjenester og prosesser realiserer samhandlingsevnene. Totalbildet vises i figuren under.</p>
-<p><img alt="Samhandlingstjenester" src="../img/tjenester-kapabiliteter.png" /></p>
+<h2 id="ndvendige-informasjonstjenester">Nødvendige informasjonstjenester</h2>
+<p>I arbeidet med målarkitektur analyserer vi hvordan kapabiliteter kan realiseres av prosesser og hvordan disse prosessene bør understøttes av informasjonstjenester. Vi ser også på sammenhenger mellom informasjonstjenestene som realiseres av virksomhetene som skal samhandle og tjenester som realiseres i felles infrastruktur.</p>
+<h3 id="informasjonstjenester">Informasjonstjenester</h3>
+<p>Modellen <em>Sentrale informasjonstjenester knyttet til samhandling</em> viser hvordan informasjonstjenester, prosesser og funksjoner realiserer samhandlingsevnene vi pekte på i forrige kapittel. Hovedfokuset i den videre analysen blir de informasjonstjenestene som må realiseres for å understøtte de mest sentrale kapabilitetene knyttet til <a href="../Organisatorisk-sla-opp/">datadeling</a>.  </p>
+<p><img alt="Informasjonstjenester knyttet til samhandling" src="../img/tjenester-kapabiliteter.png" />
+<em>Sentrale informasjonstjenester knyttet til samhandling</em></p>
+<!-- hit -->
+
 <h3 id="tillitstjenester-og-tjenstlig-behov">Tillitstjenester og tjenstlig behov</h3>
 <p>Juridiske avklaringer i forbindelse datadeling sier at ved oppslag mot kilde/datatilbyder så må konsumentens (sluttbruker) sitt tjenstlige behov dokumenteres overfor datatilbyder før data utleveres. Det eksisterer ikke mekanismer for å håndtere dette i infrastrukturen i dag, verken i sikkerhetsbilletten (må utvides) eller andre tillitsskapende tjenester.</p>
 <h3 id="samhandlingsformer">Samhandlingsformer</h3>
