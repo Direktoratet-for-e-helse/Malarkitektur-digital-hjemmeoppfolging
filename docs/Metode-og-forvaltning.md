@@ -4,7 +4,7 @@ title: Metode og forvaltning
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:gold">Work in progress</span> | v0.3 | draft  | ikke normert |
+| <span style="background-color:gold">Work in progress</span> | v0.4 | draft  | ikke normert |
 
 ## Metode for utvikling av målarkitekturen
 
