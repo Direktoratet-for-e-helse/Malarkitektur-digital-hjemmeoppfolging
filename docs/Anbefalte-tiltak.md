@@ -52,7 +52,7 @@ Spredning av DHO og understøtte behov for datadeling på tvers av mange virksom
 
     Helsesektorens tillitsrammeverk definerer spilleregler og løsninger som virksomhetene som skal samhandle må akseptere og ta i bruk, slik at virksomheten kan få tilgang til helseopplysninger digitalt på en sikker, lovlig og effektiv måte.
 
-#### Status for etablering av felles tillitsmodell - januar 2022
+#### Status for etablering av felles tillitsmodell - januar 2023
 
 Det gjennomføres arbeid knyttet til å etablere felles tillitsmodell i forbindelse med utbredelse av dokumentdeling i regi av program digital samhandling. Norsk Helsenett etablerer felleskomponenter for felles tillitsmodell og løsningen skal prøves ut og videreutvikles i forbindelse med Dokumentdeling gjennom kjernejournal.
 
