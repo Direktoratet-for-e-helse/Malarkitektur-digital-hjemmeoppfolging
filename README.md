@@ -5,8 +5,17 @@ Testprosjekt for å se hvordan arkitekturdokumentasjon enklest mulig kan publise
 * [Siste arbeidsversjon av målarkitekturen](https://direktoratet-for-e-helse.github.io/Malarkitektur-digital-hjemmeoppfolging/currentbuild)
 * [DEPRECATED: Innspillsversjon v0.5](https://direktoratet-for-e-helse.github.io/Malarkitektur-digital-hjemmeoppfolging/version-0.5) denne versjonen ligger kun ute for å vise historikk
 
+## Innspill til målarkitekturen
+
+Arbeidet med målarkitekturen er en smidig prosess og vi ønsker løpende innspill på innholdet. I utviklingsfasen bygger vi ny arbeidsversjon hver dag, og noen dager flere ganger om dagen. Siste arbeidsversjon ligger på [gihub.io](https://direktoratet-for-e-helse.github.io/Malarkitektur-digital-hjemmeoppfolging/currentbuild). Selve dokumentasjonen ligger i denne [katalogen](https://github.com/Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging/tree/master/docs).
+
+Hvis du ønsker å komme med innspill eller endringsforslag anbefaler vi å opprette saker, kalt [issues](https://github.com/Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging/issues), direkte i GitHub. Det er også mulig å gjøre endringer i dokumentasjonen, når du lagrer endringen opprettes det en [pull request](https://github.com/Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging/pulls) som blir behandlet av redaktøren for målarkitekturen.
+
+Det er også mulig å be om tilgang til å oppdatere dokumentasjonen direkte, hvis du ønsker å bidra i arbeidet direkte. Du kan da be om skrivetiltang til repoet ved å kontakte @thomiz
 
 ## Verktøy
+
+Skal du bidra til innholdet i målarkitekturen kan du benytte enkle verktøy. Målarkitekturen skrives ved hjelp av et enkelt dokumentasjonsspråk som kalles markdown.
 
 ### Markdown
 
