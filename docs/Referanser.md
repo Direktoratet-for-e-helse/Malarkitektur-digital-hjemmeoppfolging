@@ -28,7 +28,7 @@ Referanser som er brukt i arbeidet med målarkitekturen.
   * Anbefaling av tillitsmodell for data- og dokumentdeling
   * Normen for informasjonssikkerhet
 * Forvaltning
-  * Forvaltningsmodell for normerende produkter fra Direktoratet for e-helse
+  * [forvaltningsprosess](https://www.ehelse.no/standardisering/standarder/forvaltningsmodell-for-normerende-produkter-fra-direktoratet-for-e-helse)
 * Løsningsarkitektur - for forskjellige utprøvingsprosjekter (helst forskjellige løsningskonsepter)
 * Sentralt styringsdokument Akson: Helhetlig samhandling og felles kommunal journalløsning
   * [G: Løsningsomfang og -arkitektur (PDF)](https://www.ehelse.no/publikasjoner/sentralt-styringsdokument-akson-helhetlig-samhandling-og-felles-kommunal-journallosning/Vedlegg%20G%20L%C3%B8sningsomfang%20og%20arkitektur.pdf)
