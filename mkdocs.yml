@@ -27,6 +27,7 @@ nav:
       - Datadeling - slå opp: Organisatorisk-sla-opp.md
       - Hva er kapabiliteter: Kapabiliteter.md
       - Detaljert behovsbilde: Detaljert-behovsbilde.md
+      - Informasjonstjeneste - metamodell: Informasjonstjeneste-meta.md
 theme:
   name: material
   logo: logo/ehelse-hvit.svg
