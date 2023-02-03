@@ -12,10 +12,11 @@ Et sentralt begrep i forbindelse med helhetlig samhandling og målarkitekturen f
     
     Informasjonstjenester, er en samlebetegnelse for alle typer tjenester som tilbyr eller manipulerer informasjonsressurser i form av en definert tjeneste.
 
-Dette kan modelleres på denne måten:
+Dette kan modelleres på denne måten:  
+
 ![Informasjonstjeneste i enkel form](img/Informasjonstjeneste-enkel.png){width=300}
 
-En informasjonstjeneste kan skrive og lese informasjon i form av informasjonsressurser. Informasjonstjeneste kan understøtte Forretningsprosesser direkte eller indirekte som en del av en Samhandlingsprosess.
+En informasjonstjeneste kan skrive og lese informasjon i form av informasjonsressurser. Informasjonstjeneste kan understøtte Forretningsprosesser direkte eller indirekte som en del av en Samhandlingsprosess. Informasjonstjenester realiseres typisk som mer spesifikke applikasjonstjenester (tjenester for datadeling, meldingsutveksling eller dokumentdeling).
 
 ## Helhetlig samhandling
 
