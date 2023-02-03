@@ -94,7 +94,7 @@ Evnene er knyttet til bruk av organisatoriske samhandlingsformer for å utveksle
 
 ## Nødvendige informasjonstjenester
 
-I arbeidet med målarkitektur analyserer vi hvordan kapabiliteter kan realiseres av prosesser og hvordan disse prosessene bør understøttes av informasjonstjenester. Vi ser også på sammenhenger mellom informasjonstjenestene som realiseres av virksomhetene som skal samhandle og tjenester som realiseres i felles infrastruktur.
+I arbeidet med målarkitektur analyserer vi hvordan kapabiliteter kan realiseres av prosesser og hvordan disse prosessene bør understøttes av [informasjonstjenester](Informasjonstjeneste-meta.md). Vi ser også på sammenhenger mellom informasjonstjenestene som realiseres av virksomhetene som skal samhandle og tjenester som realiseres i felles infrastruktur.
 
 ### Informasjonstjenester
 
@@ -102,7 +102,7 @@ Modellen *Sentrale informasjonstjenester knyttet til samhandling* viser hvordan 
 
 ![Informasjonstjenester knyttet til samhandling](img/tjenester-kapabiliteter.png)
 *Sentrale informasjonstjenester knyttet til samhandling*
-<!-- hit -->
+<!-- hit Tillitsskapende tjenester som avtalehåndtering og identitetsforvaltning kan legges in i kapabilitetsmodellen slik at det blir synliggjort at avtalehåndtering mangler (samordningsalternativet for tillitstjenester og tillitsanker) -->
 
 ### Tillitstjenester og tjenstlig behov
 
