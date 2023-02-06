@@ -8,6 +8,8 @@ title: Arkitekturprinsipper
 
 Arkitektuprinsippene beskriver hvordan arbeidet med målarkitektur for samhandling innen digital hjemmeoppføling etterfølger de overordnede arkitekturprinsippene for digitalisering av offentlig sektor.  
 
+### Målarkitekturens anvendelse av arkitekturprinsippene
+
 <!-- Arkitekturprinsippene, skulle det være noe om automatisering?
 Datastyrte prosesser, regelstyring og automatisering-->
 
