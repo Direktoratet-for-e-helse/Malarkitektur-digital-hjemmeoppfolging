@@ -114,4 +114,3 @@ I tillegg er det en rekke andre informasjonstjenester som er høyt prioritert av
 ![226722458](https://user-images.githubusercontent.com/6229665/201674656-d97f3a8a-912a-41ee-b621-a1df9860d730.png)
 
 Det utvikles samhandlingsløsninger knyttet til behov for [digitale behandlings- og egenbehandlingsplaner](https://www.helsedirektoratet.no/om-oss/forsoksordninger-og-prosjekter/digital-behandlings-og-egenbehandlingsplan) og [legemiddelliste](https://www.ehelse.no/prosjekt/program-pasientens-legemiddelliste) gjennom egne initiativ. Det er derfor besluttet at de viktigste tjenestene å utvikle samhandlingsløsninger for i DHO arbeidet nå som et første steg handler om Målinger, vurderinger og Varsel. Dette er informasjonstjenester som etterspørres fra mange virksomheter og alle omsorgsnivå i flere geografiske regioner.
-
