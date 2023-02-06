@@ -9,6 +9,7 @@ title: Referanser
 ### Referanser som er brukt i arbeidet med målarkitekturen  
 
 * [Nasjonal e-helsestrategi for helse- og omsorgssektoren](https://www.ehelse.no/strategi/nasjonal-e-helsestrategi-for-helse-og-omsorgssektoren)
+* [Mål og tiltak i nasjonalt velferdsteknologiprogram](https://www.helsedirektoratet.no/tema/velferdsteknologi/velferdsteknologi)
 * [Digital hjemmeoppfølging – tilnærming til helhetlig samhandling](https://www.ehelse.no/publikasjoner/rapport-digital-hjemmeoppfolging)
 * [Digital hjemmeoppfølging - sluttrapport fra nasjonal utprøving 2018-2021](https://www.helsedirektoratet.no/rapporter/digital-hjemmeoppfolging-sluttrapport-fra-nasjonal-utproving-2018-2021)
 * [Digital hjemmeoppfølging - erfaring med samhandling og informasjonsdeling 2021](https://www.helsedirektoratet.no/tema/teknologi-i-v%C3%A5r-felles-helsetjeneste/digital-hjemmeoppfolging/Digital%20hjemmeoppf%C3%B8lging%20%20erfaring%20med%20samhandling%20og%20informasjonsdeling.%20Notat%202021.pdf/_/attachment/inline/3976eaa1-6879-4146-af89-e25cc8021390:99e208e7d1b189b13265579455085be21a18c17b/Digital%20hjemmeoppf%C3%B8lging%20%20erfaring%20med%20samhandling%20og%20informasjonsdeling.%20Notat%202021.pdf)
