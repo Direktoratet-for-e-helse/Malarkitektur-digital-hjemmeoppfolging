@@ -60,7 +60,7 @@ Norm for informasjonssikkerhet ([Normen](https://www.ehelse.no/normen/normen-for
 
 I tillegg til dokumentdeling gjennom kjernejournal er digital hjemmeoppfølging og deling av målinger identifisert som utprøvingskandidat for felles tillitsmodell. Utprøving av felles tillitsmodell for datadelingstjenester i tillegg til dokumentdeling vil kunne gi viktig tilleggskunnskap sett fra helsetjenesten som prøver ut DHO sitt perspektiv. Vi vet foreløpig lite om kravene som stilles til tillitsmodellen knyttet til datadeling og selv om hypotesen er at tillitsmodellen for datadeling og dokumentdeling fungere likt er det viktig å få bekreftet den antakelsen.
 
-Det anbefales at enkelte DHO tjenester som etablerer datadeling mellom virksomheter tar i bruk felles tillitsmodell og fellskomponenter som felles tillitsanker.  
+Det anbefales at enkelte DHO tjenester<!--peker DHO tjenester her til virksomheter som etablerer tjenesteforløp med DHO eller selve it-tjenesten? --> som etablerer datadeling mellom virksomheter tar i bruk felles tillitsmodell og fellskomponenter som felles tillitsanker.  
 
 ### Vurdere fellesløsninger for MTU
 
