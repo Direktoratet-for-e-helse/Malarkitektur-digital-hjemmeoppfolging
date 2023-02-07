@@ -91,7 +91,7 @@ Det er flere problemstillinger som er uavklart når det gjelder bruk av VKP for 
 
 #### Anbefalte tiltak
 
-Det må utredes hvordan alle punktene over skal løses hvis det etableres sentral infrastruktur for datadeling knyttet til DHO. Det må derfor gjennomføres en utredning som peker på hvordan etablering og forvaltning av fellesløsninger skal fungere i forhold til merkantile, avtalemessige, juridiske og styringsmessige forhold.
+Det må utredes hvordan alle punktene over skal løses hvis det etableres sentral infrastruktur for datadeling knyttet til DHO. Utredning må peke på hvordan etablering og forvaltning av fellesløsninger skal fungere i forhold til merkantile, avtalemessige, juridiske og styringsmessige forhold.
 
 ### Rammeverk for hendelsesbasert samhandling
 
