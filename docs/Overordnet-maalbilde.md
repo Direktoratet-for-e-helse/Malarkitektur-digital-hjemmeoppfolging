@@ -12,25 +12,18 @@ Målbildet på strategisk nivå for DHO er beskrevet i [Mål og tiltak i nasjona
 
 ![Samfunnsmål for NVP](img/samfunnsmal.png)
 
-Det er også identifisert to hovedbarrierer for utbredelsen av velferdsteknologi og effektiv utnyttelse av DHO i helse og omsorgssektoren. 
+Det er også identifisert to hovedbarrierer for utbredelsen av velferdsteknologi og effektiv utnyttelse av DHO i helse og omsorgssektoren.  
 
-* Mangelfull tilrettelegging for digital informasjondeling 
-* og mangelfull tilrettelegging for et bærekraftig leverandørmarked. <!-- Egen utskrivning av barrierer og effektmål (kan ikke referer til Digi hjem rapporten), figur over sammfunnsmål hentes fra presentasjon/hdir sine sider-->
+* Det er mangelfull tilrettelegging for digital informasjonsdeling mellom velferdsteknologi/digital hjemmeoppfølgingssystemer og journalsystemer/fagsystemer som helse- og omsorgstjenesten benytter i behandling- og oppfølging av pasienter
+* Det er mangelfull tilrettelegging for et bærekraftig leverandørmarked som bidrar til at innovasjonskraften i helse- og omsorgssektoren og i leverandørmarkedet spiller på lag
 
 ## Tiltak 5: Arkitektur og infrastruktur
 
-Digitaliseringstiltakene innenfor tiltak 5 er definert til å være:
+Tiltak 5 skal i hovedsak adressere effektmålet som handler om **Økt, bedre og sikker digital samhandling på tvers av tjenestenivåer og sektorer.**
+For å nå dette målet er det foreslått 5 konkrete tiltak under tiltak 5.
 
 1. Definere en overordnet arkitektur for datadeling - Målarkitektur for samhandling innen Digital hjemmeoppfølging (dette tiltaket)
 2. Koordinere arbeid med FHIR-profilering innen digital hjemmeoppfølging i sektor
 3. Utvide dagens utprøving av datadeling som også omfatter samhandling mellom primær- og spesialisthelsetjenesten
 4. Råd og veiledning som dekker behov hos både spesialist- og primærhelsetjenesten.
 5. Videreutvikle velferdsteknologisk knutepunkt
-
-## Verdistrøm for samhandling i behandlingsforløpet <!-- Fjernes, erstattes av oversikt over målarkitekturens formål og oppsummering av noen gevinster -->
-
-Formålet med effektmålet "økt, bedre og sikker digital samhandling på tvers av tjenestenivåer og øvrige sektorer" er å gi verdi for sluttbrukere som helsepersonell og innbygger.
-
-Modellen viser en overordnet verdistrøm med fokus på verdi som effektmålet kan gi for helsepersonell og innbygger involvert i et behandlingsforløp.
-
-![Verdistrøm for samhandling](img/verdistrom.png)
