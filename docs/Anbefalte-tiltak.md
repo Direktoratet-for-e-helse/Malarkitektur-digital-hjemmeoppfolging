@@ -54,15 +54,15 @@ Spredning av DHO og understøtte behov for datadeling på tvers av mange virksom
 
 #### Status for etablering av felles tillitsmodell - januar 2023
 
-Det gjennomføres arbeid knyttet til å etablere felles tillitsmodell i forbindelse med utbredelse av dokumentdeling i regi av program digital samhandling. Norsk Helsenett etablerer felleskomponenter for felles tillitsmodell og løsningen skal prøves ut og videreutvikles i forbindelse med Dokumentdeling gjennom kjernejournal.
+Norm for informasjonssikkerhet ([Normen](https://www.ehelse.no/normen/normen-for-informasjonssikkerhet-og-personvern-i-helse-og-omsorgssektoren#5.2.2%20Autentisering)) stiller krav til benyttelse av sikker autentiseringsløsning ved tilgang til helseopplysninger mellom virksomheter. Det gjennomføres arbeid knyttet til å etablere felles tillitsmodell i forbindelse med utbredelse av dokumentdeling i regi av program digital samhandling. Norsk Helsenett etablerer felleskomponenter for felles tillitsmodell og løsningen skal prøves ut og videreutvikles i forbindelse med Dokumentdeling gjennom kjernejournal.
 
 #### Anbefalt tiltak
 
-I tillegg til dokumentdeling gjennom kjernejournal er digital hjemmeoppfølging og deling av målinger identifisert som utprøvingskandidat for felles tillitsmodell. Sett fra helsetjenesten som prøver ut DHO sitt perspektiv er viktig at bruk av felles tillitsmodell prøves ut for datadelingstjenester som DHO i tillegg til utprøvingen knyttet til dokumentdeling, siden det kan gi viktig kunnskap om hvordan tillitsmodellen fungerer for datadelingsløsninger. Vi vet foreløpig lite om kravene som stilles til tillitsmodellen knyttet til datadeling og selv om hypotesen er at tillitsmodellen for datadeling og dokumentdeling fungere likt er det viktig å få bekreftet den antakelsen.
+I tillegg til dokumentdeling gjennom kjernejournal er digital hjemmeoppfølging og deling av målinger identifisert som utprøvingskandidat for felles tillitsmodell. Utprøving av felles tillitsmodell for datadelingstjenester i tillegg til dokumentdeling vil kunne gi viktig tilleggskunnskap sett fra helsetjenesten som prøver ut DHO sitt perspektiv. Vi vet foreløpig lite om kravene som stilles til tillitsmodellen knyttet til datadeling og selv om hypotesen er at tillitsmodellen for datadeling og dokumentdeling fungere likt er det viktig å få bekreftet den antakelsen.
 
-Det anbefales at enkelte DHO tjenester som etablerer datadeling mellom virksomheter tar i bruk felles tillitsmodell og fellskomponenter som felles tillitsanker.  
+Det anbefales at enkelte DHO tjenester<!--peker DHO tjenester her til virksomheter som etablerer tjenesteforløp med DHO eller selve it-tjenesten? --> som etablerer datadeling mellom virksomheter tar i bruk felles tillitsmodell og fellskomponenter som felles tillitsanker.  
 
-### Vurdere fellesløsninger for MTU
+### Vurdere fellesløsninger for MTU <!--Hva er det viktige å få frem i dette avsnittet? Hvordan en kan svare ut kjente utfordringer som krav til utstyrets evne til å dele informasjon og logistikk rundt utstyr? Vurdere en annen overskrift for å vise til dokumenterte barrierer: eks. Vurdere felles anskaffelse og forvaltning av tekniske løsninger/system-->
 
 Innspill fra aktørene som arbeider med spredning og utprøving av DHO har pekt på to store utfordringer knyttet til etablering av DHO tjenester. Det ene handler om samhandling som behandles i dette dokumentet. Et annet behov som er identifisert er knyttet til tildeling og forvaltning av det tekniske utstyret som skal samle målinger hjemme hos pasienten, ofte omtalt som MTU.
 
@@ -80,7 +80,7 @@ Det anbefales at det settes igang arbeid som gjør det mulig for flere virksomhe
 
 ### Etablere fellesløsninger for lagring og grensesnitt
 
-Konseptet for [distribuert lagring i sentral infrastruktur](Konsepter-realisering.md#distribuerte-datadelingslosninger-i-sentral-infrastruktur) er basert på at grensenitt og lagring av helsedata etableres i sentral infrastruktur, for eksempel hos NHN. Også de sentrale konseptene baserer seg på etablering av lagring og grensesnitt sentralt. I de utprøvingene og spredningsaktivitetene som gjennomføres idag etableres felles løsning for lagring og avgi data til andre virksomheter i NHN og funksjon for dette blir en del av Velferdsteknologis knutepunkt.
+Konseptet for [distribuert lagring i sentral infrastruktur](Konsepter-realisering.md#distribuerte-datadelingslosninger-i-sentral-infrastruktur) er basert på at grensenitt og lagring av helsedata etableres i sentral infrastruktur, for eksempel hos NHN. Også de sentrale konseptene baserer seg på etablering av lagring og grensesnitt sentralt. Velferdsteknologisk knutepunkt som er en tjeneste hos NHN tilbyr formidling av journalverdige opplysninger mellom systemer som ellers ikke snakker sammen. Det jobbes med å etablere felles løsning for lagring og avgivelse av data som ny funksjon i VKP som vil kunne benyttes av utprøving- og spredningsprosjekter for DHO som gjennomføres i dag. 
 
 Det er flere problemstillinger som er uavklart når det gjelder bruk av VKP for å tilby denne typen løsninger.
 
@@ -91,11 +91,11 @@ Det er flere problemstillinger som er uavklart når det gjelder bruk av VKP for 
 
 #### Anbefalte tiltak
 
-Det må utredes hvordan alle punktene over skal løses hvis det etableres sentral infrastruktur for datadeling knyttet til DHO. Det må derfor gjennomføres en utredning som peker på hvordan etablering og forvaltning av fellesløsninger skal fungere i forhold til merkantile, avtalemessige, juridiske og styringsmessige forhold.
+Det må utredes hvordan alle punktene over skal løses hvis det etableres sentral infrastruktur for datadeling knyttet til DHO. Utredning må peke på hvordan etablering og forvaltning av fellesløsninger skal fungere i forhold til merkantile, avtalemessige, juridiske og styringsmessige forhold.
 
 ### Rammeverk for hendelsesbasert samhandling
 
-Behovsarbeidet i forbindelse med DHO har avdekket flere informasjonstjenester som bør understøttes med hendelsesbasert arkitektur. Dette er dokumentert i oversikten over informasjonstjenester. Noe av behovet knyttet til hendelsesbasert arkitektur er knyttet til sanntidsoppdateringer av informasjon som andre virksomheter samler inn eller dokumenterer om en pasient, dette er spesielt viktig i enkelte tjenesteforløp hvor DHO benyttes. Også informasjon fra utstyr som andre virksomheter plasserer ut hos pasient kan det være avgjørende å få sanntidsoppdateringer fra.  
+Gjennom behovsarbeidet er det avdekket flere informasjonstjenester som bør understøttes med hendelsesbasert arkitektur. Dette er dokumentert i oversikten over informasjonstjenester. Noe av behovet knyttet til hendelsesbasert arkitektur er knyttet til sanntidsoppdateringer av informasjon som andre virksomheter samler inn eller dokumenterer om en pasient, dette er spesielt viktig i enkelte tjenesteforløp hvor DHO benyttes. Også informasjon fra utstyr som andre virksomheter plasserer ut hos pasient kan det være avgjørende å få sanntidsoppdateringer fra.  
 
 Hendelsesbasert samhandling er i bruk i mange andre sektorer, spesielt knyttet til oppdateringer av felles datakilder. Det moderniserte folkeregisteret tilbyr for eksempel hendelser til konsumentene slik at eksterne virksomheter kan være oppdatert på endringer i folkeregisteret i sanntid eller nær sanntid. I helsesektoren er bruken av hendelsesbasert kommunikasjon mellom virksomheter å annse som en svært umoden samhandlingsform. Det er behov for generelle rammer og råd knyttet til etablering av hendelsesbasert samhandling. Norsk Helsenett har beskrevet et strategisk målbilde som blant annet inneholder en stor satsing i retning hendelsesbasert kommunikasjon med virksomhetene i sektoren. Det er flere tiltak som må gjennomføres før hendelsesbasert kommunikasjon kan fungere som samhandlingsform mellom virksomhetene i helsesektoren.
 
@@ -131,4 +131,4 @@ Foreløpig er det bare et fåtall profiler som er utviklet, disse har også sett
 
 #### Anbefalte tiltak
 
-Det anbefales tiltak knyttet til alle de tre retningene som beskrives under [utestående arbeid](#utestaende-arbeid-knyttet-til-semantisk-samhandling) men Kvantitet for å dekke flere brukertilfeller og kvalitet for å teste eksisterende profiler bedre haster mest.
+Det anbefales tiltak knyttet til alle de tre retningene som beskrives under [utestående arbeid](#utestaende-arbeid-knyttet-til-semantisk-samhandling), men Kvantitet for å dekke flere brukertilfeller og kvalitet for å teste eksisterende profiler bedre haster mest.
