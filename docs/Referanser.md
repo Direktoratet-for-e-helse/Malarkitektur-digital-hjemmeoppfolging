@@ -31,6 +31,7 @@ title: Referanser
 * Forvaltning
   * [forvaltningsprosess](https://www.ehelse.no/standardisering/standarder/forvaltningsmodell-for-normerende-produkter-fra-direktoratet-for-e-helse)
 * Løsningsarkitektur - for forskjellige utprøvingsprosjekter (helst forskjellige løsningskonsepter)
+* [Normen - Norm for informasjonssikkerhet og personvern i helse- og omsorgssektoren](https://www.ehelse.no/normen/normen-for-informasjonssikkerhet-og-personvern-i-helse-og-omsorgssektoren#1.%20Om%20Normen)
 * Sentralt styringsdokument Akson: Helhetlig samhandling og felles kommunal journalløsning
   * [G: Løsningsomfang og -arkitektur (PDF)](https://www.ehelse.no/publikasjoner/sentralt-styringsdokument-akson-helhetlig-samhandling-og-felles-kommunal-journallosning/Vedlegg%20G%20L%C3%B8sningsomfang%20og%20arkitektur.pdf)
   * [Bilag G2: Helhetlig samhandling (PDF)](https://www.ehelse.no/publikasjoner/sentralt-styringsdokument-akson-helhetlig-samhandling-og-felles-kommunal-journallosning/Bilag%20G2%20Helhetlig%20samhandling.pdf)
