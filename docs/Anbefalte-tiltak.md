@@ -54,7 +54,7 @@ Spredning av DHO og understøtte behov for datadeling på tvers av mange virksom
 
 #### Status for etablering av felles tillitsmodell - januar 2023
 
-Det gjennomføres arbeid knyttet til å etablere felles tillitsmodell i forbindelse med utbredelse av dokumentdeling i regi av program digital samhandling. Norsk Helsenett etablerer felleskomponenter for felles tillitsmodell og løsningen skal prøves ut og videreutvikles i forbindelse med Dokumentdeling gjennom kjernejournal.
+Norm for informasjonssikkerhet ([Normen](https://www.ehelse.no/normen/normen-for-informasjonssikkerhet-og-personvern-i-helse-og-omsorgssektoren#5.2.2%20Autentisering)) stiller krav til benyttelse av sikker autentiseringsløsning ved tilgang til helseopplysninger mellom virksomheter. Det gjennomføres arbeid knyttet til å etablere felles tillitsmodell i forbindelse med utbredelse av dokumentdeling i regi av program digital samhandling. Norsk Helsenett etablerer felleskomponenter for felles tillitsmodell og løsningen skal prøves ut og videreutvikles i forbindelse med Dokumentdeling gjennom kjernejournal.
 
 #### Anbefalt tiltak
 
