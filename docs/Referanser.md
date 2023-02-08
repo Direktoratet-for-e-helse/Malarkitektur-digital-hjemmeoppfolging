@@ -26,7 +26,7 @@ title: Referanser
   * Anbefaling om bruk av SMART on FHIR
   * Anbefaling om bruk av HL7 FHIR for datadeling
   * Metode for utvikling av HL7 FHIR områdeprofiler
-  * Anbefaling av tillitsmodell for data- og dokumentdeling
+  * [Anbefaling av tillitsmodell for data- og dokumentdeling](https://www.ehelse.no/standardisering/standarder/anbefaling-av-tillitsmodell-for-data-og-dokumentdeling)
   * Normen for informasjonssikkerhet
 * Forvaltning
   * [forvaltningsprosess](https://www.ehelse.no/standardisering/standarder/forvaltningsmodell-for-normerende-produkter-fra-direktoratet-for-e-helse)

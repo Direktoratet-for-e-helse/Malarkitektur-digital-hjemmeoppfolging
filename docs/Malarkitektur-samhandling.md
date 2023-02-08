@@ -1,5 +1,5 @@
 ---
-title: Målarkitektur samhandling DHO
+title: Målarkitektur datadeling DHO
 ---
 
 | Status | Version | Maturity | Normative level |
@@ -45,6 +45,8 @@ Samhandling mellom virksomheter og omsorgsnivå kan foregå på flere måter, ka
 
 ![Kapabilitetskart prosess](img/kapabilitetskart-prosess.png)
 *Kapabilitetskart koblet til samhandlingsprosess*
+
+<!-- Tillitsskapende tjenester som avtalehåndtering og identitetsforvaltning kan legges in i kapabilitetsmodellen slik at det blir synliggjort at avtalehåndtering mangler (samordningsalternativet for tillitstjenester og tillitsanker) -->
 
 ### Kapabiliteter knyttet produksjon av dokumentasjon
 
@@ -101,24 +103,29 @@ I arbeidet med målarkitektur analyserer vi hvordan kapabiliteter kan realiseres
 Modellen *Sentrale informasjonstjenester knyttet til samhandling* viser hvordan informasjonstjenester, prosesser og funksjoner realiserer samhandlingsevnene vi pekte på i forrige kapittel. Hovedfokuset i den videre analysen blir de informasjonstjenestene som må realiseres for å understøtte de mest sentrale kapabilitetene knyttet til [datadeling](Organisatorisk-sla-opp.md).  
 
 ![Informasjonstjenester knyttet til samhandling](img/tjenester-kapabiliteter.png)
-*Sentrale informasjonstjenester knyttet til samhandling*
-<!-- hit Tillitsskapende tjenester som avtalehåndtering og identitetsforvaltning kan legges in i kapabilitetsmodellen slik at det blir synliggjort at avtalehåndtering mangler (samordningsalternativet for tillitstjenester og tillitsanker) -->
-
-### Tillitstjenester og tjenstlig behov
-
-Juridiske avklaringer i forbindelse datadeling sier at ved oppslag mot kilde/datatilbyder så må konsumentens (sluttbruker) sitt tjenstlige behov dokumenteres overfor datatilbyder før data utleveres. Det eksisterer ikke mekanismer for å håndtere dette i infrastrukturen i dag, verken i sikkerhetsbilletten (må utvides) eller andre tillitsskapende tjenester.
+*Overordnet bilde av prosesser og informasjonstjenester som understøtter samhandling mellom virksomheter*
 
 ### Samhandlingsformer
 
 Behovet for samhandling i DHO løses best ved å benytte flere [samhandlingsformer](https://confluence.ehelse.no/display/DH/Organisatoriske+samhandlingsformer) om hverandre der ulike samhandlingsformer svarer ut ulike informasjonsbehov og har ulike roller i forhold til behandlingsforløpet. Det eksisterer i dag utstrakt bruk samhandlingsformen sende og motta spesielt knyttet til rekvisisjon, henvisning, svar og epikrise. Dette er ikke hovedfokuset i forbindelse med å utvikle samhandlingen knyttet til DHO da dette er samhandlingsformer og prosesser som er veletablert i tjenesten i dag men som ikke i tilstrekkelig grad understøtter behovene knyttet til DHO og sammensatte behandlingsforløp, hvor ulike virksomheter og omsorgsnivå følger opp pasienten.
 
-### Informasjonstjenester og komponenter - knyttet til API management, sikkerhet og tillitstjenester
+### Informasjonstjenester og prosesser
 
-Det er identifisert et antall nødvendige informasjonstjenester som er nødvendige for å støtte behovene og realisere evnene som trengs for å understøtte deling av informasjon mellom virksomheter og behandlingsnivå. I tillegg er det behov for tjenester knyttet til tilgjengeliggjøring, oppdaging av API identifisert i målarkitektur for datadeling som har hovedformål å legge til rette for datadeling ved bruk av  API teknologi. Beskrivelsen av behovene innenfor dette området, frem til faktisk datautveksling er godt behandlet i målarkitektur i datadeling og vil ikke gjentas her. <!--Figuren under viser en oversikt over nødvendige løsninger og komponenter? -->Det er noen problemstillinger knyttet til å faktisk understøtte utvekslingen av, bruken av og produksjonen av informasjon som ikke er behandlet i detalj i den arkitekturen og det er denne delen av prosessen vi ser nærmere på i forbindelse med DHO.
+I denne delen av Målarkitekturen beskrives de mest sentrale prosessene for å klargjøre for datadeling og gjennomføre samhandling i form av datadeling. Dette omfatter nødvendige prosesser og informasjonstjenester for kapabilitetene *Få tilgang til data*, *Tilgjengeliggjøre data*, *Lokalisering av relevante data* og *Metadatapublisering*. For selve samhandlingen (utveksling av informasjon ved hjelp av datadeling) må vi beskrive kapabilitene for *Innhente data* og *avgi data*. Også kapabilitene for *Endre data* og *Håndtere motatte endringer* er viktige knyttet til sentrale metadata.
 
-![](img/211158301.png)
+[Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) (HITR 1231:2021) beskriver prosessene på dette området frem til faktisk datautveksling. Beskrivelsene som er tatt frem i HITR 1231:2021 handler hovedsaklig om sikring av datadelingstjenester, autentisering av brukere og dokumentasjon av tjenstlig behov, disse beskrivelsene blir ikke gjentatt her.  
 
-### Tilgjengeliggjøring
+Det er flere problemstillinger knyttet til å faktisk understøtte utvekslingen av, bruken av og produksjonen av informasjon i forretningsprosessene hos datakonsumenter, dataprodusenter og datatilbydere som ikke er behandlet i detalj i HITR 1231:2021 som er fokus for målarkitekturen for datadeling innen DHO.
+
+![Overordnet bilde av prosesser og informasjonstjenester for samhandling](img/malarkitektur-datadeling.png)
+
+### Tillitstjenester og tjenstlig behov
+
+Juridiske avklaringer i forbindelse datadeling sier at ved oppslag mot datatilbyder så må konsumentens (sluttbruker) sitt tjenstlige behov dokumenteres overfor datatilbyder før data utleveres. Det eksisterer ikke mekanismer for å håndtere dette i infrastrukturen i dag, verken i sikkerhetsbilletten (må utvides) eller andre tillitsskapende tjenester. Direktoratet for e-helse publiserte i 2019 en anbefaling som beskriver [Anbefaling av tillitsmodell for data- og dokumentdeling](https://www.ehelse.no/standardisering/standarder/anbefaling-av-tillitsmodell-for-data-og-dokumentdeling).
+
+<!-- Hit -->
+
+## Prosessen for tilgjengeliggjøring av data
 
 Tilgjengeliggjøring av API og hvilke programvarekomponenter det er behov for i den delen av prosessen som omhandler registrering, avtaler og tildele tilganger er godt behandlet i målarkitektur for datadeling, vi vil ikke diskutere denne delen av prosessen ytterligere her. Prosessen knyttet til å etablere og dokumentere API er nærmere beskrevet gjennom beskrivelsen av prosessene for å etablere API, få tilgang til data og finne relevante data.
 
@@ -136,7 +143,7 @@ Prosessen for å Etablere API knyttet til intern dataflyt og eksterne fagsysteme
 
 ### Få tilgang til data
 
-Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør. Omfatter evnen til å oppdage datakilder og sette opp funksjon (klient) for å ta i bruk datakilden. Videre må virksomheten beskrive hvordan den ønsker å integrere eksterne informasjon i intern dataflyt, inkludert hvordan interne fagsystem og mellomvare skal bruke, vise og lagre data fra eksterne. Det må etableres en klientfunksjon som tar i bruk api'et fra den eksterne datatilbyderen og denne må integreres med interne systemer. 
+Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør. Omfatter evnen til å oppdage datakilder og sette opp funksjon (klient) for å ta i bruk datakilden. Videre må virksomheten beskrive hvordan den ønsker å integrere eksterne informasjon i intern dataflyt, inkludert hvordan interne fagsystem og mellomvare skal bruke, vise og lagre data fra eksterne. Det må etableres en klientfunksjon som tar i bruk api'et fra den eksterne datatilbyderen og denne må integreres med interne systemer.
 
 ![Få tilgang til data](img/213877674.png)
 
