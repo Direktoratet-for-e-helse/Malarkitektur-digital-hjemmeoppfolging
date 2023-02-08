@@ -24,5 +24,5 @@ title: Begreper
 |Tillitsanker|--|
 |Tillitsmodell||
 |Tillitstjeneste||
-|Tjeneste|I målarkitetkuren representerer dette grunnleggende tekniske komponenter som aktørene i sektor kan benytte for å levere løsninger som understøtter ytelse av helsehjelp|
+|Tjeneste|I målarkitekturen representerer dette grunnleggende tekniske komponenter som aktørene i sektor kan benytte for å levere løsninger som understøtter ytelse av helsehjelp|
 |Tjenesteforløp|Et tjenesteforløp beskriver organisering og oppgaver knyttet til å yte helsetjenester til pasienter som følges med digital hjemmeoppfølging (kilde: sluttrapport fra nasjonal utprøving 2018-2021)| <!-- Tjenesteforløp er helt generelt og trenger ikke være knyttet til DHO, har du kilde her?-->
