@@ -6,11 +6,12 @@ title: Overordnet målbilde DHO
 |:-------------|:------------------|:------|:-------|
 |<span style="background-color:gold">Work in progress</span> | v0.8 | review  | ikke normert |
 
-Kapittelet beskriver de overordnede strategiske målene for DHO arbeidet. Utviklingen av målarkitektur for samhandling innen DHO er en hovedleveranse fra Tiltak 5 i DHO arbeidet i Nasjonalt velferdsteknologiprogram.
-
-Målbildet på strategisk nivå for DHO er beskrevet i [Mål og tiltak i nasjonalt velferdsteknologiprogram](https://www.helsedirektoratet.no/tema/velferdsteknologi/velferdsteknologi). Figuren under viser samfunnsmålene for Nasjonalt velferdsteknologiprogram. 
+Dette kapitlet beskriver de overordnede strategiske målene for arbeidet med digital hjemmeoppfølging i Nasjonalt velferdsteknologiprogram (NVP). Målbildet på strategisk nivå for DHO er beskrevet i [Mål og tiltak i nasjonalt velferdsteknologiprogram](https://www.helsedirektoratet.no/tema/velferdsteknologi/velferdsteknologi). Figuren under viser samfunnsmålene for Nasjonalt velferdsteknologiprogram. 
 
 ![Samfunnsmål for NVP](img/samfunnsmal.png)
+
+
+Utviklingen av målarkitektur for samhandling innen DHO er en hovedleveranse fra Tiltak 5 Arkitektur og infrastruktur i NVP. Formålet med dette tiltaket er å sørge for at normerende produkter og nasjonale samhandlingsløsninger videreutvikles slik at de ivaretar behov relatert til velferdsteknologi og digital hjemmeoppfølging.
 
 Det er også identifisert to hovedbarrierer for utbredelsen av velferdsteknologi og effektiv utnyttelse av DHO i helse og omsorgssektoren.  
 
