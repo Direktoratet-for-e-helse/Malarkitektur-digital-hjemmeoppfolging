@@ -64,7 +64,7 @@ I tillegg er det identifisert behov for dialogtjenester for kommunikasjon mellom
 ![207618572](https://user-images.githubusercontent.com/6229665/201674334-dcbe578d-aeb3-40d1-9124-8ef0ce9087a1.png)
 
 
-## Informasjonstjenester som beskrives i DHO arbeidet
+### Informasjonstjenester som beskrives i DHO arbeidet
 
 Målarkitekturen skal beskrive behov for samhandling og informasjonstjenester som kan sikre at samhandlingen understøtter helsetjenesten på en hensiktsmessig måte. I arbeidet med å kartlegge informasjonsbehov skiller vi mellom informasjonsressurser og informasjonstjenester som må etableres for å understøtte informasjonsbehovet. I den grad det er nødvendig vil arbeidet også beskrive andre initiativer som etablerer informasjonstjenester () det er behov for i forbindelse med DHO og hvordan disse tjenestene bør tilgjengeliggjøres for å svare ut behov som er identifisert i forbindelse med DHO.  
 
@@ -72,7 +72,7 @@ Målarkitekturen skal beskrive behov for samhandling og informasjonstjenester so
 
     Gjennom dette arbeidet er det hovedfokus på hvordan data fra pasient (pasientregistrerte eller fra sensorer og utstyr) kan brukes på tvers av omsorgsnivå i helsetjenesten på en hensiktsmessig måte, og hvordan samhandlingen om denne informasjonen bør innrettes.
 
-## Data fra pasient og informasjonstjenester
+### Data fra pasient og informasjonstjenester
 
 Hovedmålet for målarkitekturen DHO er å vise hvordan samhandlingen knyttet til data fra pasient skal gjennomføres, samtidig som den må vise hvilke andre informasjonstjenester som må være tilstede for å understøtte <!--tjenesteforløp - kun bruke dette hvis vi blir eninge om begrepsbruk--> en sammenhengende DHO tjeneste. Informasjonstjenestene som omfattes er i denne sammenhengen:
 
@@ -83,7 +83,7 @@ Hovedmålet for målarkitekturen DHO er å vise hvordan samhandlingen knyttet ti
 !!! note "Pasientrapporterte data"
     Pasientene er aktive deltakere og bidragsytere i helsehjelpen de mottar og kan følges opp i hjemmet ved at pasientens egenmålinger, pasientrapporterte opplysninger om egen helsetilstand eller automatiske målinger, sendes digitalt til helsetjenesten.
 
-## Informasjonstjenester i andre kategorier
+### Informasjonstjenester i andre kategorier
 
 Det er identifisert behov for samhandling om ytterligere informasjon og informasjonstjenester for å understøtte et  sammenhengende tjenesteforløp som inkluderer DHO. Dette inkluderer følgende behov:
 
@@ -100,7 +100,7 @@ Det er identifisert behov for samhandling om ytterligere informasjon og informas
 <!--Kunne denne vært koblet mot Kommunikasjon ved saksbehandling og Tekstlig dialog? Børd da beskrives i tabell-->
 <!--SVAR vi behandler ikke dialog i detalj, men vi kan nevne IT10/IT11 og Tror ikke IT24 er relevant her-->
 
-## Prioritering av informasjonstjenester
+### Prioritering av informasjonstjenester
 
 Her vises i prioritert rekkefølge de informasjonstjenestene som er mest etterspurt av helsepersonell:
 
