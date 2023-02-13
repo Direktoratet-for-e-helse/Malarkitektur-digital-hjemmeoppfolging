@@ -6,7 +6,7 @@ title: Begreper
 |:-------------|:------------------|:------|:-------|
 | <span style="background-color:gold">Work in progress</span> | v0.8 | draft  | ikke normert |
 
-### Liste over sentrale begreper som benyttes i målarkitekturen.  
+## Liste over sentrale begreper som benyttes i målarkitekturen  
 
 |Begrep|Definisjon|
 |------|-----------|
