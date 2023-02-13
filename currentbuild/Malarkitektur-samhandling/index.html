@@ -685,19 +685,46 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#prosessen-for-tilgjengeliggjring-av-data" class="md-nav__link">
-    Prosessen for tilgjengeliggjøring av data
+  <a href="#datadeling-for-datatilbyder" class="md-nav__link">
+    Datadeling for datatilbyder
   </a>
   
-    <nav class="md-nav" aria-label="Prosessen for tilgjengeliggjøring av data">
+    <nav class="md-nav" aria-label="Datadeling for datatilbyder">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#etablere-api" class="md-nav__link">
-    Etablere API
+  <a href="#prosesser-for-tilgjengeliggjre" class="md-nav__link">
+    Prosesser for Tilgjengeliggjøre
   </a>
   
 </li>
+        
+          <li class="md-nav__item">
+  <a href="#prosesser-for-produksjon-av-informasjon" class="md-nav__link">
+    Prosesser for produksjon av informasjon
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prosesser-for-a-avgi-forespurte-data" class="md-nav__link">
+    Prosesser for å avgi forespurte data
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#datadeling-for-datakonsumenter" class="md-nav__link">
+    Datadeling for datakonsumenter
+  </a>
+  
+    <nav class="md-nav" aria-label="Datadeling for datakonsumenter">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#fa-tilgang-til-data" class="md-nav__link">
@@ -1058,19 +1085,46 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#prosessen-for-tilgjengeliggjring-av-data" class="md-nav__link">
-    Prosessen for tilgjengeliggjøring av data
+  <a href="#datadeling-for-datatilbyder" class="md-nav__link">
+    Datadeling for datatilbyder
   </a>
   
-    <nav class="md-nav" aria-label="Prosessen for tilgjengeliggjøring av data">
+    <nav class="md-nav" aria-label="Datadeling for datatilbyder">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#etablere-api" class="md-nav__link">
-    Etablere API
+  <a href="#prosesser-for-tilgjengeliggjre" class="md-nav__link">
+    Prosesser for Tilgjengeliggjøre
   </a>
   
 </li>
+        
+          <li class="md-nav__item">
+  <a href="#prosesser-for-produksjon-av-informasjon" class="md-nav__link">
+    Prosesser for produksjon av informasjon
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prosesser-for-a-avgi-forespurte-data" class="md-nav__link">
+    Prosesser for å avgi forespurte data
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#datadeling-for-datakonsumenter" class="md-nav__link">
+    Datadeling for datakonsumenter
+  </a>
+  
+    <nav class="md-nav" aria-label="Datadeling for datakonsumenter">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#fa-tilgang-til-data" class="md-nav__link">
@@ -1310,16 +1364,26 @@ Behovsanalysen til konseptvalgutredningen for nasjonal journalløsning for kommu
 <p><img alt="Overordnet bilde av prosesser og informasjonstjenester for samhandling" src="../img/malarkitektur-datadeling.png" /></p>
 <h3 id="tillitstjenester-og-tjenstlig-behov">Tillitstjenester og tjenstlig behov</h3>
 <p>Juridiske avklaringer i forbindelse datadeling sier at ved oppslag mot datatilbyder så må konsumentens (sluttbruker) sitt tjenstlige behov dokumenteres overfor datatilbyder før data utleveres. Det eksisterer ikke mekanismer for å håndtere dette i infrastrukturen i dag, verken i sikkerhetsbilletten (må utvides) eller andre tillitsskapende tjenester. Direktoratet for e-helse publiserte i 2019 en anbefaling som beskriver <a href="https://www.ehelse.no/standardisering/standarder/anbefaling-av-tillitsmodell-for-data-og-dokumentdeling">Anbefaling av tillitsmodell for data- og dokumentdeling</a>.</p>
-<!-- Hit -->
-
-<h2 id="prosessen-for-tilgjengeliggjring-av-data">Prosessen for tilgjengeliggjøring av data</h2>
-<p>Tilgjengeliggjøring av API og hvilke programvarekomponenter det er behov for i den delen av prosessen som omhandler registrering, avtaler og tildele tilganger er godt behandlet i målarkitektur for datadeling, vi vil ikke diskutere denne delen av prosessen ytterligere her. Prosessen knyttet til å etablere og dokumentere API er nærmere beskrevet gjennom beskrivelsen av prosessene for å etablere API, få tilgang til data og finne relevante data.</p>
-<p><img alt="Tilgjengeliggjøring" src="../img/213877320.png" /></p>
-<p>Prosessen knyttet til etablere API for ekstern tilgang til informasjon fra virksomheten er ikke belyst i målarkitekturen for datadeling. <em>Etablere API</em> er ment å dekke den delen av prosessen som foregår før informasjon faktisk kan tilgjengeliggjøres fra en virksomhet til en annen og handler om prosessen knyttet til å vurder hvilken informasjon som skal tilgjengeliggjøres, tilrettelegge for at denne informasjonen kan tilgjengeliggjøres for andre virksomheter (unntatt sikkerhet og tilgangstyring) og etableringen av funksjonalitet for å avgi informasjonen på en effektiv måte gjennom eksternt tilgjengelige funksjonskall, samt å dokumentere de tilgjengelige grensesnittene.</p>
-<p>Vanligvis vil reglene for ekstern tilgang etableres som automatiserte uttrekk fra eksisterende datakilder eller prosesser med fastsatte rammer for hvilken informasjon og metadata som skal være tilgjengelig for eksterne virksomheter. Selve tilgangen etableres ofte ved å etablere en egen løsning for persistering av informasjon som skal være tilgengelig for eksterne funksjonskall. Den eksternt tilgjengelige funksjonen utvikles basert på dette og må gi eksterne virksomheter mulighet til effektive og gode søk etter informasjon slik at konsumenten får dekket sitt behov for gjenbruk av informasjon samtidig som krav til personvern og dataminimering ivaretas. De eksternt tilgjengelige funksjonene dokumenteres vanligvis i API dokumentasjon som publiseres for konsumentene.</p>
-<h4 id="etablere-api">Etablere API</h4>
-<p>Prosessen for å Etablere API knyttet til intern dataflyt og eksterne fagsystemer og mellomvare.</p>
-<p><img alt="Etablere API" src="../img/217121447.png" /></p>
+<h2 id="datadeling-for-datatilbyder">Datadeling for datatilbyder</h2>
+<p>Tre sentrale prosesser står sentralt for datatilbydere som skal dele data ved hjelp av datadeling: <em>Tilgjengeliggjøre</em>, <em>produksjon av informasjon</em> og <em>avgi forespurte data</em>. Produksjon av informasjon tas med her siden det mest relevante brukstilfelle for deling av informasjon mellom virksomheter handler om å dele informasjon som virksomheten har produsert i sine andre forretningsprosesser med andre virksomheter som kommer i kontakt med pasienten.</p>
+<p>På et overordnet nivå kan sammenhengen mellom disse prosessene beskrives som i modellen nedenfor:</p>
+<p><img alt="Sammenheng mellom tilgjengeliggjøring, produksjon og avgi forspurte data" src="../img/datadeling-datatilbyder.png" />
+<em>Sammenhengen mellom prosessene for å tilgjengeliggjøre, produsere informasjon og avgi forespurte data</em></p>
+<p>Prosessen for å <strong>Tilgjengeliggjøre</strong> etablerer datadelingstjenesten og beskriver grensesnittet datadelingstjenesten tilbyr (vanligvis i from av API dokumentasjon). 
+Prosesen for <strong>produksjon av data</strong> benytter seg av beskrivelsen av intern dataflyt for å tilgjengeliggjøre relevant informasjon i API'et, i tillegg bør det utvinnes og publiseres metadata om hvilken informasjon datadelingstjenesten inneholder for å gjøre det enklere for konsumenter å slå opp mot de datadelingstjenestene som inneholder relevante data.
+Når en konsumerende virksomhet forespør data fra datadelingstjenesten starter en prosess for å <strong>avgi forespurte data fra datatilbyder</strong>. Forespørselen om data vil bli sendt til datatilbyder sammen med en sikkerhetsbillett som dokumenterer autentiseringen, rolle og tjenstlig behov til den som spør. Hvis konsumenten er autorisert for å bruke datadelingstjenesten vil datatilbyder finne forespurte data. Det kan også forekomme dataminimering av informasjonen som sendes som svar på forespørsel avhengig av rolle og tjenstlig behov som dokumenteres i sikkerhetsbilletten.</p>
+<h3 id="prosesser-for-tilgjengeliggjre">Prosesser for Tilgjengeliggjøre</h3>
+<p>Tilgjengeliggjøring av API og hvilke programvarekomponenter det er behov for i den delen av prosessen som omhandler registrering, avtaler og tildele tilganger er godt behandlet i <a href="https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren">Målarkitektur for datadeling i helse og omsorgssektoren</a>, vi vil ikke diskutere denne delen av prosessen ytterligere her. Derimot er prosessen knyttet til å etablere og dokumentere et API ikke beskrevet som en del av HITR 1231:2021. Dette er en viktig prosess for å forstå hvordan man får forretningsprosessene i virksomheten til å henge sammen med samhandling gjennom datadeling. En overordnet beskrivelse av prosessen for <em>Etablere API</em> er gjengitt nedenfor:</p>
+<p><img alt="Tilgjengeliggjøre data gjennom API (datadelingstjeneste)" src="../img/tilgjengeliggjore.png" /></p>
+<p><em>Etablere API</em> dekker den delen av prosessen som foregår før informasjon faktisk kan tilgjengeliggjøres fra en virksomhet til en annen og handler om prosessen knyttet til å vurder hvilken informasjon som skal tilgjengeliggjøres, tilrettelegge for at denne informasjonen kan tilgjengeliggjøres for andre virksomheter (unntatt sikkerhet og tilgangstyring) og etableringen av funksjonalitet for å avgi informasjonen på en effektiv måte gjennom eksternt tilgjengelige funksjonskall, samt å dokumentere de tilgjengelige grensesnittene.</p>
+<p>Vanligvis vil reglene for ekstern tilgang etableres som automatiserte uttrekk fra eksisterende datakilder eller prosesser med fastsatte rammer for hvilken informasjon og metadata som skal være tilgjengelig for eksterne virksomheter. Selve tilgangen etableres ofte ved å etablere en egen løsning for å lagre <em>Data tilgjengeliggjort i API</em>. <em>Datadelingstjenesten</em> representerer den eksternt tilgjengelige funksjonen for <em>Datadeling med eksterne</em>. Datadelingstjenesten utvikles basert på hvilken informasjon som tilgjengeliggjøres og hvilke søkemuligheter som er hensiktsmessig for å gjøre oppslag i denne informasjonsmengden. Det vil ofte være en balansegang mellom god tilgang til komplett informasjon for konsumentene og samtidig som krav til personvern og dataminimering ivaretas. Mulighetene for søk og hva slags informasjon som er tilgjengleiggjort dokumenteres vanligvis i form av <em>API dokumentasjon</em> som publiseres sammen med datadelingstjenesten.</p>
+<h3 id="prosesser-for-produksjon-av-informasjon">Prosesser for produksjon av informasjon</h3>
+<p><img alt="Produksjon av informasjon" src="../img/produksjon-informasjon.png" />
+<em>Prosesser forbundet med produksjon av informasjon og utvinning av metadata</em></p>
+<h3 id="prosesser-for-a-avgi-forespurte-data">Prosesser for å avgi forespurte data</h3>
+<p><img alt="Avgi forespurte data" src="../img/avgi-data.png" />
+<em>Prosesser forbundet med å avgi forespurte data</em></p>
+<h2 id="datadeling-for-datakonsumenter">Datadeling for datakonsumenter</h2>
 <h3 id="fa-tilgang-til-data">Få tilgang til data</h3>
 <p>Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør. Omfatter evnen til å oppdage datakilder og sette opp funksjon (klient) for å ta i bruk datakilden. Videre må virksomheten beskrive hvordan den ønsker å integrere eksterne informasjon i intern dataflyt, inkludert hvordan interne fagsystem og mellomvare skal bruke, vise og lagre data fra eksterne. Det må etableres en klientfunksjon som tar i bruk api'et fra den eksterne datatilbyderen og denne må integreres med interne systemer.</p>
 <p><img alt="Få tilgang til data" src="../img/213877674.png" /></p>
