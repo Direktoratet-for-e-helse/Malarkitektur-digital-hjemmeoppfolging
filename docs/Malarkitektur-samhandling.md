@@ -123,23 +123,28 @@ Det er flere problemstillinger knyttet til å faktisk understøtte utvekslingen 
 
 Juridiske avklaringer i forbindelse datadeling sier at ved oppslag mot datatilbyder så må konsumentens (sluttbruker) sitt tjenstlige behov dokumenteres overfor datatilbyder før data utleveres. Det eksisterer ikke mekanismer for å håndtere dette i infrastrukturen i dag, verken i sikkerhetsbilletten (må utvides) eller andre tillitsskapende tjenester. Direktoratet for e-helse publiserte i 2019 en anbefaling som beskriver [Anbefaling av tillitsmodell for data- og dokumentdeling](https://www.ehelse.no/standardisering/standarder/anbefaling-av-tillitsmodell-for-data-og-dokumentdeling).
 
+## Datadeling for datatilbyder
+
+Tre sentrale prosesser står sentralt for datatilbydere som skal dele data ved hjelp av datadeling: *Tilgjengeliggjøre*, *produksjon av informasjon* og *avgi forespurte data*. Produksjon av informasjon tas med her siden det mest relevante brukstilfelle for deling av informasjon mellom virksomheter handler om å dele informasjon som virksomheten har produsert i sine andre forretningsprosesser med andre virksomheter som kommer i kontakt med pasienten.
+
+På et overordnet nivå kan sammenhengen mellom disse prosessene beskrives som i modellen nedenfor:
+
+![Sammenheng mellom tilgjengeliggjøring, produksjon og avgi forspurte data](img/datadeling-datatilbyder.png)
+*Sammenhengen mellom prosessene for å tilgjengeliggjøre, produsere informasjon og avgi forespurte data*
+
+Prosessen for å **Tilgjengeliggjøre** etablerer datadelingstjenesten og beskriver grensesnittet datadelingstjenesten tilbyr (vanligvis i from av API dokumentasjon). 
+Prosesen for **produksjon av data** benytter seg av beskrivelsen av intern dataflyt for å tilgjengeliggjøre relevant informasjon i API'et, i tillegg bør det utvinnes og publiseres metadata om hvilken informasjon datadelingstjenesten inneholder for å gjøre det enklere for konsumenter å slå opp mot de datadelingstjenestene som inneholder relevante data.
+Når en konsumerende virksomhet forespør data fra datadelingstjenesten starter en prosess for å **avgi forespurte data fra datatilbyder**. Forespørselen om data vil bli sendt til datatilbyder sammen med en sikkerhetsbillett som dokumenterer autentiseringen, rolle og tjenstlig behov til den som spør. Hvis konsumenten er autorisert for å bruke datadelingstjenesten vil datatilbyder finne forespurte data. Det kan også forekomme dataminimering av informasjonen som sendes som svar på forespørsel avhengig av rolle og tjenstlig behov som dokumenteres i sikkerhetsbilletten.
+
+### Prosessen for Tilgjengeliggjøre
+
+Tilgjengeliggjøring av API og hvilke programvarekomponenter det er behov for i den delen av prosessen som omhandler registrering, avtaler og tildele tilganger er godt behandlet i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren), vi vil ikke diskutere denne delen av prosessen ytterligere her. Derimot er prosessen knyttet til å etablere og dokumentere et API ikke beskrevet som en del av HITR 1231:2021. Dette er en viktig prosess for å forstå hvordan man får forretningsprosessene i virksomheten til å henge sammen med samhandling gjennom datadeling. En overordnet beskrivelse av prosessen for *Etablere API* er gjengitt nedenfor:
+
+![Tilgjengeliggjøre data gjennom API (datadelingstjeneste)](img/tilgjengeliggjore.png)
+
+*Etablere API* dekker den delen av prosessen som foregår før informasjon faktisk kan tilgjengeliggjøres fra en virksomhet til en annen og handler om prosessen knyttet til å vurder hvilken informasjon som skal tilgjengeliggjøres, tilrettelegge for at denne informasjonen kan tilgjengeliggjøres for andre virksomheter (unntatt sikkerhet og tilgangstyring) og etableringen av funksjonalitet for å avgi informasjonen på en effektiv måte gjennom eksternt tilgjengelige funksjonskall, samt å dokumentere de tilgjengelige grensesnittene.
 <!-- Hit -->
-
-## Prosessen for tilgjengeliggjøring av data
-
-Tilgjengeliggjøring av API og hvilke programvarekomponenter det er behov for i den delen av prosessen som omhandler registrering, avtaler og tildele tilganger er godt behandlet i målarkitektur for datadeling, vi vil ikke diskutere denne delen av prosessen ytterligere her. Prosessen knyttet til å etablere og dokumentere API er nærmere beskrevet gjennom beskrivelsen av prosessene for å etablere API, få tilgang til data og finne relevante data.
-
-![Tilgjengeliggjøring](img/213877320.png)
-
-Prosessen knyttet til etablere API for ekstern tilgang til informasjon fra virksomheten er ikke belyst i målarkitekturen for datadeling. _Etablere API_ er ment å dekke den delen av prosessen som foregår før informasjon faktisk kan tilgjengeliggjøres fra en virksomhet til en annen og handler om prosessen knyttet til å vurder hvilken informasjon som skal tilgjengeliggjøres, tilrettelegge for at denne informasjonen kan tilgjengeliggjøres for andre virksomheter (unntatt sikkerhet og tilgangstyring) og etableringen av funksjonalitet for å avgi informasjonen på en effektiv måte gjennom eksternt tilgjengelige funksjonskall, samt å dokumentere de tilgjengelige grensesnittene.
-
 Vanligvis vil reglene for ekstern tilgang etableres som automatiserte uttrekk fra eksisterende datakilder eller prosesser med fastsatte rammer for hvilken informasjon og metadata som skal være tilgjengelig for eksterne virksomheter. Selve tilgangen etableres ofte ved å etablere en egen løsning for persistering av informasjon som skal være tilgengelig for eksterne funksjonskall. Den eksternt tilgjengelige funksjonen utvikles basert på dette og må gi eksterne virksomheter mulighet til effektive og gode søk etter informasjon slik at konsumenten får dekket sitt behov for gjenbruk av informasjon samtidig som krav til personvern og dataminimering ivaretas. De eksternt tilgjengelige funksjonene dokumenteres vanligvis i API dokumentasjon som publiseres for konsumentene.
-
-#### Etablere API
-
-Prosessen for å Etablere API knyttet til intern dataflyt og eksterne fagsystemer og mellomvare.
-
-![Etablere API](img/217121447.png)
 
 ### Få tilgang til data
 
