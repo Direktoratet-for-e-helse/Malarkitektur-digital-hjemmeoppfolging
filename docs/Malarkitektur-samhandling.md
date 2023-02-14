@@ -127,7 +127,7 @@ Juridiske avklaringer i forbindelse datadeling sier at ved oppslag mot datatilby
 
 Tre sentrale prosesser står sentralt for datatilbydere som skal dele data ved hjelp av datadeling: *Tilgjengeliggjøre*, *produksjon av informasjon* og *avgi forespurte data*. Produksjon av informasjon tas med her siden det mest relevante brukstilfelle for deling av informasjon mellom virksomheter handler om å dele informasjon som virksomheten har produsert i sine andre forretningsprosesser med andre virksomheter som kommer i kontakt med pasienten.
 
-På et overordnet nivå kan sammenhengen mellom disse prosessene beskrives som i modellen nedenfor:
+På et overordnet nivå kan sammenhengen mellom disse prosessene beskrives som i modellen nedenfor. (Prosessene i ekstra lysegul farge er behandlet i HITR 1231:2021)
 
 ![Sammenheng mellom tilgjengeliggjøring, produksjon og avgi forspurte data](img/datadeling-datatilbyder.png)
 *Sammenhengen mellom prosessene for å tilgjengeliggjøre, produsere informasjon og avgi forespurte data*
@@ -138,7 +138,7 @@ Når en konsumerende virksomhet forespør data fra datadelingstjenesten starter 
 
 ### Prosesser for Tilgjengeliggjøre
 
-Tilgjengeliggjøring av API og hvilke programvarekomponenter det er behov for i den delen av prosessen som omhandler registrering, avtaler og tildele tilganger er godt behandlet i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren), vi vil ikke diskutere denne delen av prosessen ytterligere her. Derimot er prosessen knyttet til å etablere og dokumentere et API ikke beskrevet som en del av HITR 1231:2021. Dette er en viktig prosess for å forstå hvordan man får forretningsprosessene i virksomheten til å henge sammen med samhandling gjennom datadeling. En overordnet beskrivelse av prosessen for *Etablere API* er gjengitt nedenfor:
+Tilgjengeliggjøring av API og hvilke programvarekomponenter det er behov for i den delen av prosessen som omhandler registrering, avtaler og tildele tilganger er godt behandlet i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren), vi vil ikke diskutere denne delen av prosessen ytterligere her. Derimot er prosessen knyttet til å etablere og dokumentere et API ikke beskrevet som en del av HITR 1231:2021. Dette er en viktig prosess for å forstå hvordan man får forretningsprosessene i virksomheten til å henge sammen med samhandling gjennom datadeling. En overordnet beskrivelse av prosessen for *Etablere API* er gjengitt nedenfor (Prosessene i ekstra lysegul farge er behandlet i HITR 1231:2021):
 
 ![Tilgjengeliggjøre data gjennom API (datadelingstjeneste)](img/tilgjengeliggjore.png)
 
@@ -152,6 +152,9 @@ Vanligvis vil reglene for ekstern tilgang etableres som automatiserte uttrekk fr
 *Prosesser forbundet med produksjon av informasjon og utvinning av metadata*
 
 ### Prosesser for å avgi forespurte data
+
+
+(Prosessene i ekstra lysegul farge er behandlet i HITR 1231:2021)
 
 ![Avgi forespurte data](img/avgi-data.png)
 *Prosesser forbundet med å avgi forespurte data*
