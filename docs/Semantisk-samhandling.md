@@ -6,7 +6,9 @@ title: Semantisk samhandlingsevne
 | <span style="background-color:gold">Work in progress</span> | v0.1 | draft | ikke normert |
 
 ## Hva er det?
-Evnen til samhandling vurderes ut fra juridisk- organisatorisk-, semantisk- og teknologisk evne til å samhandle. <!--har en figur med EIF modell og innhold fra SSD steg 2 som kunne passe her--> God semantikk tilrettelegger for gjenbruk av informasjon. Semantikk må avklares for hvert informasjonsbehov. Semantisk samhandlingsevne har å gjøre med betydningsinnhold i dataelementer, relasjonen mellom dem og formatet informasjonen utveksles på. Det deles i semantisk og syntaktisk aspekt. Semantisk aspekt skal sikre dataenes betydningsinnhold og interne relasjon, som også innebærer begrepsavklaringer som sikrer at alle parter forstår kommunikasjonen. Syntaktisk aspekt refererer til eksakt format og struktur på data som utveksles.
+Evnen til samhandling vurderes ut fra juridisk- organisatorisk-, semantisk- og teknologisk evne til å samhandle. <!--har en figur med EIF modell og innhold fra SSD steg 2 som kunne passe her--> God semantikk tilrettelegger for gjenbruk av informasjon. Semantikk må avklares for hvert informasjonsbehov. Semantisk samhandlingsevne har å gjøre med betydningsinnhold i dataelementer, relasjonen mellom dem og formatet informasjonen utveksles på. Det deles i semantisk og syntaktisk aspekt. 
+* Semantisk aspekt skal sikre dataenes betydningsinnhold og interne relasjon, som også innebærer begrepsavklaringer som sikrer at alle parter forstår kommunikasjonen. 
+* Syntaktisk aspekt refererer til eksakt format og struktur på data som utveksles.
 
 ## Når er dette viktig?
 Det er viktig å jobbe med semantiske forhold så tidlig som mulig i prosessen. I tillegg vil det være nødvendig å gå mer i dybden etter hvert.
