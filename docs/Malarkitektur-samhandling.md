@@ -50,7 +50,7 @@ Samhandling mellom virksomheter og omsorgsnivå kan foregå på flere måter, ka
 
 ### Kapabiliteter knyttet til produksjon av dokumentasjon
 
-*Samhandling* inneholder også en delprosess for produksjon av informasjon. *Produksjon av informasjon* innebærer både selve dokumentasjonen av hva som gjennomføres og målinger og andre resultater. Det er også tatt med nødvendige kapabiliteter som handler om *informasjonsbehandling* og *lagring* av informasjon. Rollen som (data)produsent er tilordnet denne delprosessen og denne rollen må minst inneholde kapabilitetene i tabellen under:
+En av delprosessene for *Samhandling* er produksjon av informasjon. *Produksjon av informasjon* innebærer både selve dokumentasjonen av hva som gjennomføres og målinger og andre resultater. Det er også tatt med nødvendige kapabiliteter som handler om *informasjonsbehandling* og *lagring* av informasjon. Rollen som (data)produsent er tilordnet denne delprosessen og denne rollen må minst inneholde kapabilitetene i tabellen under:
 
 | Kapabilitet | Definisjon |
 |---|---|
