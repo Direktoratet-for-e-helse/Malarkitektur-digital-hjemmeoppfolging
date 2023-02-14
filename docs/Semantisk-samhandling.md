@@ -11,7 +11,7 @@ Evnen til samhandling vurderes ut fra juridisk- organisatorisk-, semantisk- og t
 * Syntaktisk aspekt refererer til eksakt format og struktur på data som utveksles.
 
 ## Når er dette viktig?
-Det er viktig å jobbe med semantiske forhold så tidlig som mulig i prosessen. I tillegg vil det være nødvendig å gå mer i dybden etter hvert.
+Det er viktig å jobbe med semantiske forhold så tidlig som mulig i prosessen fra en identifiserer behov for informasjon i tjenesteforløpet til slutten av prosessen der data er mottatt av helsepersonell med tjenstlig behov. 
 
 ## Hvordan?
 En strategi for informasjonsforvaltning bør utarbeides hos samhandlingsaktørene og koordineres på høyeste nivå. <!--Ha med en setning om at arbeid med semantisk samhandlingevne må løses i nært samarbeid med sektor, men det er kanskje det som er ment i første setning? eller internt ii virksoheten?--> Eksempelvis bør det finnes avtaler om referansedata (taksonomier, vokabularer, kodelister etc). Delte datastrukturer/datamodeller er helt nødvendige for å oppnå samhandlingsevne.
