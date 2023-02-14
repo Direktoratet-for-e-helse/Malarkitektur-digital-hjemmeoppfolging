@@ -1,5 +1,5 @@
 ---
-title: Overordnet målbilde DHO
+title: Målbilde DHO
 ---
 
 | Status | Version | Maturity | Normative level |
