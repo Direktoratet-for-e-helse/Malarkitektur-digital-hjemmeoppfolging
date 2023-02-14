@@ -174,19 +174,19 @@ Tre sentrale prosesser står sentralt for datakonsumenter som skal innhente info
 
 Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør. Omfatter evnen til å oppdage datakilder og sette opp funksjon (klient) for å ta i bruk datakilden. Videre må virksomheten beskrive hvordan den ønsker å integrere eksterne informasjon i intern dataflyt, inkludert hvordan interne fagsystem og mellomvare skal bruke, vise og lagre data fra eksterne. Det må etableres en klientfunksjon som tar i bruk api'et fra den eksterne datatilbyderen og denne må integreres med interne systemer.
 
-![Få tilgang til data](img/213877674.png)
+![Få tilgang til data](img/fa-tilgang-data.png)
 
 ### Finne relevante data
 
 Evnen til å finne kilder til informasjon om en gitt person eller i bestemte informasjonskategorier.
 
-![Finne relevante data](img/213877716.png)
+![Finne relevante data](img/finne-relevante-data.png)
 
 ### Slå opp
 
 Evnen til å slå opp i datadelingstjenester tilbudt av andre virksomheter.
 
-
+![Slå opp og motta svar](img/sla-opp-prosess.png)
 
 ## Eksempel: Realisere slå opp og dele målinger
 

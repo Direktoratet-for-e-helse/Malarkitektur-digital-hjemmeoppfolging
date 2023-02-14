@@ -119,6 +119,7 @@ Tabellen under oppsummerer: <!--Tatt ut setning her da det sier det samme i kule
 |  | Klinisk oppsummering (IT01) | Klinisk oppsummering er en informasjonstjeneste som vil tilby oppsummert og utvalgt informasjon som beskriver innbyggers behov for helsehjelp her og nå, og hvilken helsehjelp som mottas |  |  |  | Slå opp og tilgjengeliggjøre |  |  |
 | Dialog | Tekstlig dialog (IT10) og Video (IT11) |  | Raske avklaringer mellom behandlingsnivåene |  |  | Slå opp og tilgjengeliggjøre </br> Sende og motta </br> I tillegg er det behov for synkrone samhandlingsformer med både tale, tekst og video |  |  |
 | Vurderinger |  | Henger sammen med varsel og målinger, undersøkelser og funn |  |  |  |  |  |  |
+
 ## Detaljer om målinger
 <!--Hva med vurderinger og varsel siden overskriften er målinger? -->
 <!-- thomiz SVAR: Hva med vurderinger og varsel? Er det et spørsmål her? -->
