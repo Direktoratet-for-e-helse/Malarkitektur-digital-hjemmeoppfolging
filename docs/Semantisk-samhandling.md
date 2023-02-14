@@ -1,4 +1,10 @@
-Semantisk samhandlingsevne
+---
+title: Semantisk samhandlingsevne
+---
+| Status | Version | Maturity | Normative level |
+|:-------------|:------------------|:------|:-------|
+| <span style="background-color:gold">Work in progress</span> | v0.1 | draft | ikke normert |
+
 Hva er det?
 Semantisk samhandlingsevne har å gjøre med betydningsinnhold i dataelementer, relasjonen mellom dem og formatet informasjonen utveksles på. Det deles i syntaktisk og semantisk aspekt. Semantisk aspekt skal sikre dataenes betydningsinnhold og interne relasjon, som også innebærer begrepsavklaringer som sikrer at alle parter forstår kommunikasjonen. Syntaktisk aspekt refererer til eksakt format og struktur på data som utveksles.
 
