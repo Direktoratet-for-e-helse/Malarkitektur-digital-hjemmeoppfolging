@@ -12,7 +12,7 @@ Evnen til samhandling vurderes ut fra juridisk- organisatorisk-, semantisk- og t
 Det er viktig å jobbe med semantiske forhold så tidlig som mulig i prosessen. I tillegg vil det være nødvendig å gå mer i dybden etter hvert.
 
 ## Hvordan?
-En strategi for informasjonsforvaltning bør utarbeides hos samhandlingsaktørene og koordineres på høyeste nivå. Eksempelvis bør det finnes avtaler om referansedata (taksonomier, vokabularer, kodelister etc). Delte datastrukturer/datamodeller er helt nødvendige for å oppnå samhandlingsevne.
+En strategi for informasjonsforvaltning bør utarbeides hos samhandlingsaktørene og koordineres på høyeste nivå. <!--Ha med en setning om at arbeid med semantisk samhandlingevne må løses i nært samarbeid med sektor, men det er kanskje det som er ment i første setning? eller internt ii virksoheten?--> Eksempelvis bør det finnes avtaler om referansedata (taksonomier, vokabularer, kodelister etc). Delte datastrukturer/datamodeller er helt nødvendige for å oppnå samhandlingsevne.
 Bruk standarder og referansedatasett der formålstjenlig. Hvordan data er skapt og brukes er viktig for å forstå og bruke data riktig.
 
 ## Hva er fordelene med semantisk samhandling?
@@ -22,7 +22,7 @@ Brukere slipper å oppgi samme opplysninger flere ganger. Tjenesteprodusenter<!-
 «Data lagres én gang og tilgjengeliggjøres fra én kilde». 
  
 ### Økt datakvalitet
-Brukere opplever tjenester med kontekst som er korrekte og oppdaterte. Tjenesteprodusenter og dataprodusenter kan gjenbruke data fra andre kilder direkte, uten å kjenne intern struktur på data i kildesystemene. <!--Bør det stå noe her om felles inforamasjonsmodeller (innhold og kontekst for informasjonen det samhandle som? eller felles kodeverk og terminologi eks Snomed CT  og Loinc? felles format? -->
+Brukere opplever tjenester med kontekst som er korrekte og oppdaterte. Tjenesteprodusenter og dataprodusenter kan gjenbruke data fra andre kilder direkte, uten å kjenne intern struktur på data i kildesystemene. <!--Bør det stå noe her eller under Hvordan om felles inforamasjonsmodeller (innhold og kontekst for informasjonen det samhandle som? eller felles kodeverk og terminologi eks Snomed CT  og Loinc? felles format? -->
  
 ### Økt effektivitet  
 Tilgang til data med høy kvalitet for brukere, tjenesteprodusenter og dataprodusenter gir potensiale for automatisering, redusert ressursbruk og tjenester av høyere kvalitet. 
