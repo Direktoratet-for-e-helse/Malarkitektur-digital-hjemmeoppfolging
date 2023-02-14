@@ -28,7 +28,6 @@ Brukere opplever tjenester med kontekst som er korrekte og oppdaterte. Tjenestep
  
 ### Økt effektivitet  
 Tilgang til data med høy kvalitet for brukere, tjenesteprodusenter og dataprodusenter gir potensiale for automatisering, redusert ressursbruk og tjenester av høyere kvalitet. 
- 
 
 ### Økt samhandlingsevne  
 Brukere, tjenesteprodusenter, dataprodusenter og prosessdeltagere opplever at arbeidsprosessene får tilgang til de riktige dataene der de trengs, når det trengs på tvers av tjenester og organisasjoner. 
