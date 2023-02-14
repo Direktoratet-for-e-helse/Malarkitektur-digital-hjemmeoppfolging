@@ -147,12 +147,19 @@ Tilgjengeliggjøring av API og hvilke programvarekomponenter det er behov for i 
 Vanligvis vil reglene for ekstern tilgang etableres som automatiserte uttrekk fra eksisterende datakilder eller prosesser med fastsatte rammer for hvilken informasjon og metadata som skal være tilgjengelig for eksterne virksomheter. Selve tilgangen etableres ofte ved å etablere en egen løsning for å lagre *Data tilgjengeliggjort i API*. *Datadelingstjenesten* representerer den eksternt tilgjengelige funksjonen for *Datadeling med eksterne*. Datadelingstjenesten utvikles basert på hvilken informasjon som tilgjengeliggjøres og hvilke søkemuligheter som er hensiktsmessig for å gjøre oppslag i denne informasjonsmengden. Det vil ofte være en balansegang mellom god tilgang til komplett informasjon for konsumentene og samtidig som krav til personvern og dataminimering ivaretas. Mulighetene for søk og hva slags informasjon som er tilgjengleiggjort dokumenteres vanligvis i form av *API dokumentasjon* som publiseres sammen med datadelingstjenesten.
 
 ### Prosesser for produksjon av informasjon
-<!-- Hit-->
+
+Knyttet til produksjon av informasjon vil det i virksomheten være et stort antall forretningsprosesser og løsninger som produserer informasjon som er relevant å dele. Denne delen av prosessbeskrivelsen behandler ikke denne delen av prosessen men fokuserer på de delene som må etableres i virksomheten for å gjøre informasjon som produseres i virksomhetens forretningsprosesser tilgjengelig for eksterne brukere i form av datadeling i et API. En overordnet modell av prosessen er gjengitt nedenfor:
+
 ![Produksjon av informasjon](img/produksjon-informasjon.png)
-*Prosesser forbundet med produksjon av informasjon og utvinning av metadata*
+*Prosesser forbundet med å tilgjengeliggjøre produsert informasjon i et API og metadatahåndtering*
+
+Prosessene for å *tilgjengeliggjøre data i API* utløses når en *forretningsprosess* produserer informasjon og de på forhånd er bestemt at informasjonen skal tilgjengeliggjøres for datadeling (se [Tilgjengeliggjøre](Malarkitektur-samhandling.md#prosesser-for-tilgjengeliggjøre)). Vanligvis vil da den interne sørge for at informasjonen som skal tilgjengeliggjøres i datadelingstjenesten kan håndteres av prosessen for å *tilgjengeliggjøre data i API*. Ofte vil det være slik at bare noe av informasjonen er interessant eller relevant å dele med eksterne virksomheter, derfor vil de fleste *tilpasse data mengde* i forhold til hva eksterne brukere har tjenstlig behov for å se. Det vil også i mange tilfeller gjøres endringer i hvordan data struktureres og indekseres for å understøtte søk og utveksling av informasjon i prosesser knyttet til *tilpasse data format og søk*. Når disse delene av prosessen er gjennomført eksisterer det *Data tilgjengeliggjort i API* som eksterne virksomheter kan få tak i gjennom en *datadelingstjeneste*.  
+
+Det er også viktig å *utvinne metadata* om informasjonen som datadelingstjenesten tilbyr, for eksempel hvilke pasienter som informasjonen handler om. *Metadata* kan deretter publiseres i *Pasientinformasjonslokalisator* slik at datakonsumenter kan finne datadelingstjenester som har informasjon om en gitt pasient.
 
 ### Prosesser for å avgi forespurte data
 
+<!-- Hit-->
 
 (Prosessene i ekstra lysegul farge er behandlet i HITR 1231:2021)
 

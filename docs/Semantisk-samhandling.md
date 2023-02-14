@@ -6,7 +6,7 @@ title: Semantisk samhandlingsevne
 | <span style="background-color:gold">Work in progress</span> | v0.1 | draft | ikke normert |
 
 ## Hva er det?
-Evnen til samhandling vurderes ut fra juridisk- organisatorisk-, semantisk- og teknologisk evne til å samhandle. Semantisk samhandlingsevne har å gjøre med betydningsinnhold i dataelementer, relasjonen mellom dem og formatet informasjonen utveksles på. Det deles i syntaktisk og semantisk aspekt. Semantisk aspekt skal sikre dataenes betydningsinnhold og interne relasjon, som også innebærer begrepsavklaringer som sikrer at alle parter forstår kommunikasjonen. Syntaktisk aspekt refererer til eksakt format og struktur på data som utveksles.
+Evnen til samhandling vurderes ut fra juridisk- organisatorisk-, semantisk- og teknologisk evne til å samhandle. <!--har en figur med EIF modell og innhold fra SSD steg 2 som kunne passe her--> God semantikk tilrettelegger for gjenbruk av informasjon. Semantisk samhandlingsevne har å gjøre med betydningsinnhold i dataelementer, relasjonen mellom dem og formatet informasjonen utveksles på. Det deles i syntaktisk og semantisk aspekt. Semantisk aspekt skal sikre dataenes betydningsinnhold og interne relasjon, som også innebærer begrepsavklaringer som sikrer at alle parter forstår kommunikasjonen. Syntaktisk aspekt refererer til eksakt format og struktur på data som utveksles.
 
 ## Når er dette viktig?
 Det er viktig å jobbe med semantiske forhold så tidlig som mulig i prosessen. I tillegg vil det være nødvendig å gå mer i dybden etter hvert.
@@ -16,12 +16,13 @@ En strategi for informasjonsforvaltning bør utarbeides hos samhandlingsaktøren
 Bruk standarder og referansedatasett der formålstjenlig. Hvordan data er skapt og brukes er viktig for å forstå og bruke data riktig.
 
 ## Hva er fordelene med semantisk samhandling?
+### Dele data
 «Kun én gang»-prinsippet styrker informasjonsforvaltningen.
 Brukere slipper å oppgi samme opplysninger flere ganger. Tjenesteprodusenter og dataprodusenter deler data fremfor å vedlikeholde egne kopier av data. 
 «Data lagres én gang og tilgjengeliggjøres fra én kilde». 
  
 ### Økt datakvalitet
-Brukere opplever tjenester med kontekst som er korrekt og oppdatert. Tjenesteprodusenter og dataprodusenter kan gjenbruke data fra andre kilder direkte, uten å kjenne intern struktur på data i kildesystemene. 
+Brukere opplever tjenester med kontekst som er korrekte og oppdaterte. Tjenesteprodusenter og dataprodusenter kan gjenbruke data fra andre kilder direkte, uten å kjenne intern struktur på data i kildesystemene. 
  
 ### Økt effektivitet  
 Tilgang til data med høy kvalitet for brukere, tjenesteprodusenter og dataprodusenter gir potensiale for automatisering, redusert ressursbruk og tjenester av høyere kvalitet. 
