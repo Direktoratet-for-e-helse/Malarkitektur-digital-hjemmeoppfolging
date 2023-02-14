@@ -140,7 +140,7 @@ Når en konsumerende virksomhet forespør data fra datadelingstjenesten starter 
 
 Tilgjengeliggjøring av API og hvilke programvarekomponenter det er behov for i den delen av prosessen som omhandler registrering, avtaler og tildele tilganger er godt behandlet i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren), vi vil ikke diskutere denne delen av prosessen ytterligere her. Derimot er prosessen knyttet til å etablere og dokumentere et API ikke beskrevet som en del av HITR 1231:2021. Dette er en viktig prosess for å forstå hvordan man får forretningsprosessene i virksomheten til å henge sammen med samhandling gjennom datadeling. En overordnet beskrivelse av prosessen for *Etablere API* er gjengitt nedenfor (Prosessene i ekstra lysegul farge er behandlet i HITR 1231:2021):
 
-![Tilgjengeliggjøre data gjennom API (datadelingstjeneste)](img/tilgjengeliggjore.png)
+[![Tilgjengeliggjøre data gjennom API (datadelingstjeneste)](img/tilgjengeliggjore.png)](img/tilgjengeliggjore.png)
 
 *Etablere API* dekker den delen av prosessen som foregår før informasjon faktisk kan tilgjengeliggjøres fra en virksomhet til en annen og handler om prosessen knyttet til å vurder hvilken informasjon som skal tilgjengeliggjøres, tilrettelegge for at denne informasjonen kan tilgjengeliggjøres for andre virksomheter (unntatt sikkerhet og tilgangstyring) og etableringen av funksjonalitet for å avgi informasjonen på en effektiv måte gjennom eksternt tilgjengelige funksjonskall, samt å dokumentere de tilgjengelige grensesnittene.
 
@@ -148,25 +148,27 @@ Vanligvis vil reglene for ekstern tilgang etableres som automatiserte uttrekk fr
 
 ### Prosesser for produksjon av informasjon
 
-Knyttet til produksjon av informasjon vil det i virksomheten være et stort antall forretningsprosesser og løsninger som produserer informasjon som er relevant å dele. Denne delen av prosessbeskrivelsen behandler ikke denne delen av prosessen men fokuserer på de delene som må etableres i virksomheten for å gjøre informasjon som produseres i virksomhetens forretningsprosesser tilgjengelig for eksterne brukere i form av datadeling i et API. En overordnet modell av prosessen er gjengitt nedenfor:
+Det vil vanligvis være et stort antall *forretningsprosesser* og løsninger knyttet til *produksjon av informasjon* i en virksomhet. Denne delen av prosessbeskrivelsen behandler ikke selve produksjonen av informasjon i *forretningsprosessen men fokuserer på de prosessene som må etableres i virksomheten for å gjøre informasjon som produseres i virksomhetens forretningsprosesser tilgjengelig for eksterne brukere i form av datadeling i et API. En overordnet modell av prosessen er gjengitt nedenfor:
 
-![Produksjon av informasjon](img/produksjon-informasjon.png)
+[![Produksjon av informasjon](img/produksjon-informasjon.png)](img/produksjon-informasjon.png)
 *Prosesser forbundet med å tilgjengeliggjøre produsert informasjon i et API og metadatahåndtering*
 
 Prosessene for å *tilgjengeliggjøre data i API* utløses når en *forretningsprosess* produserer informasjon og de på forhånd er bestemt at informasjonen skal tilgjengeliggjøres for datadeling (se [Tilgjengeliggjøre](Malarkitektur-samhandling.md#prosesser-for-tilgjengeliggjøre)). Vanligvis vil da den interne sørge for at informasjonen som skal tilgjengeliggjøres i datadelingstjenesten kan håndteres av prosessen for å *tilgjengeliggjøre data i API*. Ofte vil det være slik at bare noe av informasjonen er interessant eller relevant å dele med eksterne virksomheter, derfor vil de fleste *tilpasse data mengde* i forhold til hva eksterne brukere har tjenstlig behov for å se. Det vil også i mange tilfeller gjøres endringer i hvordan data struktureres og indekseres for å understøtte søk og utveksling av informasjon i prosesser knyttet til *tilpasse data format og søk*. Når disse delene av prosessen er gjennomført eksisterer det *Data tilgjengeliggjort i API* som eksterne virksomheter kan få tak i gjennom en *datadelingstjeneste*.  
 
-Det er også viktig å *utvinne metadata* om informasjonen som datadelingstjenesten tilbyr, for eksempel hvilke pasienter som informasjonen handler om. *Metadata* kan deretter publiseres i *Pasientinformasjonslokalisator* slik at datakonsumenter kan finne datadelingstjenester som har informasjon om en gitt pasient.
+Det er også viktig (men ikke absolutt nødvendig) å *utvinne metadata* om informasjonen som datadelingstjenesten tilbyr. Relevante metadata er nødvendig for å understøtte prosessen [finne relevante data](Malarkitektur-samhandling.md#finne-relevante-data) som realiseres av datakonsumenter. Eksempel på relevante *metadata* kan være hvilke pasienter som informasjonen handler om. *Metadata* publiseres i *Pasientinformasjonslokalisator* slik at datakonsumenter kan finne datadelingstjenester som inneholder informasjon om en gitt pasient.
 
 ### Prosesser for å avgi forespurte data
 
-<!-- Hit-->
+Datatilbydere som ønsker å dele data ved hjelp av datadeling må realisere en prossess for å *avgi forespurte data*. Denne prosessen gjør det mulig å avgi data i form av et *svar på forespørsel* som inneholder data som er forespurt av datakonsumenten. En overordnet modell av prosessen er gjengitt nedenfor (Prosessene i ekstra lysegul farge er behandlet i HITR 1231:2021 og beskrives ikke i detalj her):
 
-(Prosessene i ekstra lysegul farge er behandlet i HITR 1231:2021)
-
-![Avgi forespurte data](img/avgi-data.png)
+[![Avgi forespurte data](img/avgi-data.png)](img/avgi-data.png)
 *Prosesser forbundet med å avgi forespurte data*
 
+Vi antar her at datakonsument har tilgang til API og er autentisert og autorisert for bruk av API'et. En validert *sikkerhetsbillett* og en *forespørsel om data* foreligger for datatilbyder. Datatilbyder må bruke informasjonen i forespørselen for å *Finne forespurte data* i *data tilgjengeliggjort i API*. Resultatet av denne prosessen er at alle *forespurte data* trekkes ut for videre behandling. I noen tilfeller vil scopet i sikkerhetsbilletten ikke gi brukeren tilgang til all informasjonen som tilbys gjennom datadelingstjenesten, da må *forespurte data* "filtreres basert på rolle og tjenstlig behov". *Forespørsel om data* kan også inneholde andre filtre der datakonsumenten har gjort en vurdering av hvilke data konsumenten trenger. Da må datatilbyder gjennomføre dataminimering basert på angitte filtre fra konsument. Data må også struktureres i henhold til datamodellen som er beskrevet for API'et før svaret til slutt kan sikres for transport i form av funksjoner for *kryptering og non repudiation*. *Svaret på forespørsel* foreligger nå og kan avgis til datakonsumenten.  
+
 ## Datadeling for datakonsumenter
+
+Tre sentrale prosesser står sentralt for datakonsumenter som skal innhente informasjon ved hjelp av datadeling: *Få tilgang til data*, *Finne relevante data* og *Slå opp*.
 
 ### Få tilgang til data
 
@@ -176,9 +178,15 @@ Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør. Omfatter evn
 
 ### Finne relevante data
 
-Evnen til å finne kilder for informasjon om en gitt pasient ~personer~ ~eller informasjonskategorier~.
+Evnen til å finne kilder til informasjon om en gitt person eller i bestemte informasjonskategorier.
 
-![Få tilgang til data](img/213877716.png)
+![Finne relevante data](img/213877716.png)
+
+### Slå opp
+
+Evnen til å slå opp i datadelingstjenester tilbudt av andre virksomheter.
+
+
 
 ## Eksempel: Realisere slå opp og dele målinger
 
