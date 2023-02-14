@@ -69,7 +69,7 @@ Kapitlene som sorterer under *Prinsipper og metode* og *Kontekst for målarkitek
 * [Overordnet behovsbilde](Behovsbilde.md) beskriver overordnede brukerhistorier, behov og informasjonstjenester som kan understøtte behovene
 * [Konsepter realisering](Konsepter-realisering.md) beskriver konseptene som er vurdert for å etablere datadeling
 * [Juridiske rammebetingelser](Juridiske-rammebetingelser.md) beskriver det juridiske handlingsrommet for å etablere datadeling ved å oppsummere de relevante juridiske rammene som dagens lover og regler oppstiller for de vurderte konseptene for datadeling
-* [Målarkitektur samhandling DHO](Malarkitektur-samhandling.md) beskriver det arkitekturtekniske underlaget for hvilke kapabiliteter og informasjonstjenester som bør realiseres, samt de grunnleggende prosessene og funksjonene virksomhetene må etablere for å realisere og forvalte effektive datadelingstjenester.
+* [Målarkitektur datadeling DHO](Malarkitektur-datadeling.md) beskriver det arkitekturtekniske underlaget for hvilke kapabiliteter og informasjonstjenester som bør realiseres, samt de grunnleggende prosessene og funksjonene virksomhetene må etablere for å realisere og forvalte effektive datadelingstjenester.
 * [Anbefalte tiltak](Anbefalte-tiltak.md) foreslå tiltak som kan gjennomføres for å understøtte etableringen av datadeling mellom virksomheter innen for behovsområdet DHO
 
 ### Målgruppe for målarkitekturen
@@ -78,7 +78,7 @@ Alle delene frem til og med [konsepter](Konsepter-realisering.md) for realiserin
 
 [Juridiske rammebetingelser](Juridiske-rammebetingelser.md) egner seg for jurister og arkitekter som må forholde seg til de juridiske rammene for datadeling ved utvikling og innføring av konkrete løsninger for datadeling.
 
-[Målarkitektur samhandling DHO](Malarkitektur-samhandling.md) egner seg hovedsaklig for virksomhetsarkiteter og løsningsarkitekter som må kjenne til grunnlaget for de arkitekturtekniske vurderingene som ligger til grunn for anbefalingene.
+[Målarkitektur datadeling DHO](Malarkitektur-datadeling.md) egner seg hovedsaklig for virksomhetsarkiteter og løsningsarkitekter som må kjenne til grunnlaget for de arkitekturtekniske vurderingene som ligger til grunn for anbefalingene.
 
 [Anbefalte tiltak](Anbefalte-tiltak.md) egner seg for ledere og arkitekter som trenger å forstå hvilke tiltak som må gjennomføres i sentral infrastruktur for å understøtte bruk av datadeling til samhandling mellom virksomheter og omsorgsnivå.
 
