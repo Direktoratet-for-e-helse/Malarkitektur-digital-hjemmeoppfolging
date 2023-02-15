@@ -199,9 +199,3 @@ Evnen til å finne kilder til informasjon om en gitt person eller i bestemte inf
 Evnen til å slå opp i datadelingstjenester tilbudt av andre virksomheter.
 
 [![Slå opp og motta svar](img/sla-opp-prosess.png)](img/sla-opp-prosess.png)
-
-## Eksempel: Realisere slå opp og dele målinger
-
-Behov knyttet til dele egne målinger og slå opp andres målinger kan realiseres med å implementere prosesser for å avgi egne data gjennom en Datadelingstjeneste og en prosess for å fastsette hvilke målinger og på hvilken måte disse skal struktureres, samt hvilke målinger som skal tilgjengeliggjøres gjennom datadelingstjenesten. Datadelingstjenesten må dokumenteres i form av API-dokumentasjon som kan benyttes av konsumenter som ønsker å få tilgang til data som er tilgjengelig for oppslag gjennom datadelingstjenesten.
-
-![Realisere slå opp](img/217121564.png)
