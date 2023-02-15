@@ -182,6 +182,11 @@ Tre prosesser står sentralt for datakonsumenter som skal innhente informasjon v
 Å *få tilgang til data* gjennom et API innebærer både å *Etablere API klient* og *få tilgang til API* som innebærer avtalehåndtering og registrering av klienten for tilgang. Prosessen for *få tilgang til API* er nærmere beskrevet i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) og beskrives ikke her.
 
 [![Få tilgang til data](img/fa-tilgang-data.png)](img/fa-tilgang-data.png)
+*Prosesser forbundet med å få tilgang til data for en datakonsument*
+
+Når en virksomhet skal *få tilgang til data* må virksomheten *etablere API klient* først med mindre det er etablert en klient for denne integrasjonen tidligere. Resultatet av prosessen er at det etableres klientfunksjonalitet i form av *datadelingstjeneste (konsument)* som håndterer forespørsel og svar fra server (Datadelingstjeneste (tilbyder)) og *Dataflyt (intern)* som sørger for at informasjonen som hentes fra datatilbyder kan integreres i relevante fagsystemer hos datakonsumenten.
+
+
 
 ### Finne relevante data
 
