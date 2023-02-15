@@ -170,30 +170,30 @@ Vi antar her at datakonsument har tilgang til API og er autentisert og autoriser
 
 Tre prosesser står sentralt for datakonsumenter som skal innhente informasjon ved hjelp av datadeling: *Få tilgang til data*, *Finne relevante data* og *Slå opp*. På overordnet nivå kan sammenhengen og mellom disse prosessene og informasjonen som flyter mellom disse beskrives som beskrevet i modellen under. (Prosessene i lys-lys-gul farge er behandlet i HITR 1231:2021 og underprosesser er beskrevet der).
 
-![Prosesser for datakonsumenter](img/datadeling-datakonsument.png)
+[![Prosesser for datakonsumenter](img/datadeling-datakonsument.png)](img/datadeling-datakonsument.png)
 *Prosesser forbundet med rollen som datakonsument, inkludert de viktigste tjenestene som må etableres og integreres mot*
 
-**Få tilgang til data** finner relevante API'er som virksomheten har behov for å integrere med, etablerer *Datadelingstjeneste (konsument)* (klientfunksjonalitet) som skal kommunisere med datatilbyderens datadelingstjeneste. Intern dataflyt etableres i også her, noe som gjør det mulig å benytte data i interne fagsystemer.  
+**Få tilgang til data** finner relevante API'er som virksomheten har behov for å integrere med, etablerer *Datadelingstjeneste (konsument)* (klientfunksjonalitet) som skal kommunisere med datatilbyderens datadelingstjeneste. Intern dataflyt etableres også her, noe som gjør det mulig å benytte data i interne fagsystemer.  
 **Finne relevante data** utløses av *behov for informasjon* i eksisterende *forretningsprosesser* i virksomheten. Prosessen beskriver hvordan det er mulig å *finne tjenester som tilbyr spesifikk type informasjon* og *finne tjenester som har informasjon om pasient*. I det siste tilfellet trengs det tilgang til en fellestjeneste for *pasieninformasjonslokalisator* for å identifisere hvilke datadelingstjenster som inneholder informasjon om pasienten.  
 **Slå opp** handler om å gjennomføre oppslag mot en eller flere datadelingstjenester som inneholder relevante data og *motta svar på forespørsel*. *Datadelingstjeneste (konsument)* som ble etablert i *få tilgang til data* og *intern dataflyte og databehandling* understøtter disse prosessene som skal gjøre data tilgjengelig i fagsystemene.
 
 ### Få tilgang til data
 
-Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør. Omfatter evnen til å oppdage datakilder og sette opp funksjon (klient) for å ta i bruk datakilden. Videre må virksomheten beskrive hvordan den ønsker å integrere eksterne informasjon i intern dataflyt, inkludert hvordan interne fagsystem og mellomvare skal bruke, vise og lagre data fra eksterne. Det må etableres en klientfunksjon som tar i bruk api'et fra den eksterne datatilbyderen og denne må integreres med interne systemer.
+Å *få tilgang til data* gjennom et API innebærer både å *Etablere API klient* og *få tilgang til API* som innebærer avtalehåndtering og registrering av klienten for tilgang. Prosessen for *få tilgang til API* er nærmere beskrevet i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) og beskrives ikke her.
 
-![Få tilgang til data](img/fa-tilgang-data.png)
+[![Få tilgang til data](img/fa-tilgang-data.png)](img/fa-tilgang-data.png)
 
 ### Finne relevante data
 
 Evnen til å finne kilder til informasjon om en gitt person eller i bestemte informasjonskategorier.
 
-![Finne relevante data](img/finne-relevante-data.png)
+[![Finne relevante data](img/finne-relevante-data.png)](img/finne-relevante-data.png)
 
 ### Slå opp
 
 Evnen til å slå opp i datadelingstjenester tilbudt av andre virksomheter.
 
-![Slå opp og motta svar](img/sla-opp-prosess.png)
+[![Slå opp og motta svar](img/sla-opp-prosess.png)](img/sla-opp-prosess.png)
 
 ## Eksempel: Realisere slå opp og dele målinger
 
