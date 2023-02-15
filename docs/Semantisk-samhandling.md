@@ -24,7 +24,7 @@ Brukere slipper å oppgi samme opplysninger flere ganger. Tjenesteprodusenter<!-
 «Data lagres én gang og tilgjengeliggjøres fra én kilde». 
  
 ### Økt datakvalitet
-Brukere opplever tjenester med kontekst som er korrekte og oppdaterte. Tjenesteprodusenter og dataprodusenter kan gjenbruke data fra andre kilder direkte, uten å kjenne intern struktur på data i kildesystemene. <!--Bør det stå noe her eller under Hvordan om felles inforamasjonsmodeller (innhold og kontekst for informasjonen det samhandle som? eller felles kodeverk og terminologi eks Snomed CT  og Loinc? felles format? -->
+Brukere opplever tjenester med kontekst som er korrekte og oppdaterte. Tjenesteprodusenter og dataprodusenter kan gjenbruke data fra andre kilder direkte, uten å kjenne intern struktur på data i kildesystemene. <!--Bør det stå noe her eller under Hvordan om felles inforamasjonsmodeller (innhold og kontekst for informasjonen det samhandle som? eller felles kodeverk og terminologi eks Snomed CT  og Loinc? felles format? Passe på at det ikke overlapper med det som er skrevet i andre kapittel-->
  
 ### Økt effektivitet  
 Tilgang til data med høy kvalitet for brukere, tjenesteprodusenter og dataprodusenter gir potensiale for automatisering, redusert ressursbruk og tjenester av høyere kvalitet. 
