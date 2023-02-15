@@ -18,7 +18,7 @@ En strategi for informasjonsforvaltning bør utarbeides hos samhandlingsaktøren
 Bruk standarder og referansedatasett der formålstjenlig. Hvordan data er skapt og brukes er viktig for å forstå og bruke data riktig.
 
 ## Hva er fordelene med semantisk samhandling?
-### Dele data
+### Gjenbruk
 «Kun én gang»-prinsippet styrker informasjonsforvaltningen.
 Brukere slipper å oppgi samme opplysninger flere ganger. Tjenesteprodusenter<!--Jeg blir usikker på hva som ligger i begrpet tjenesteprodusent vs dataprodusent. Produsent av data?--> og dataprodusenter deler data fremfor å vedlikeholde egne kopier av data. 
 «Data lagres én gang og tilgjengeliggjøres fra én kilde». 
