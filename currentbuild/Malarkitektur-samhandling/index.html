@@ -741,21 +741,14 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#sla-opp" class="md-nav__link">
-    Slå opp
+  <a href="#sla-opp-og-motta-svar" class="md-nav__link">
+    Slå opp (og motta svar)
   </a>
   
 </li>
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#eksempel-realisere-sla-opp-og-dele-malinger" class="md-nav__link">
-    Eksempel: Realisere slå opp og dele målinger
-  </a>
   
 </li>
       
@@ -1148,21 +1141,14 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#sla-opp" class="md-nav__link">
-    Slå opp
+  <a href="#sla-opp-og-motta-svar" class="md-nav__link">
+    Slå opp (og motta svar)
   </a>
   
 </li>
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#eksempel-realisere-sla-opp-og-dele-malinger" class="md-nav__link">
-    Eksempel: Realisere slå opp og dele målinger
-  </a>
   
 </li>
       
@@ -1379,8 +1365,8 @@ Behovsanalysen til konseptvalgutredningen for nasjonal journalløsning for kommu
 <h3 id="tillitstjenester-og-tjenstlig-behov">Tillitstjenester og tjenstlig behov</h3>
 <p>Juridiske avklaringer i forbindelse datadeling sier at ved oppslag mot datatilbyder så må konsumentens (sluttbruker) sitt tjenstlige behov dokumenteres overfor datatilbyder før data utleveres. Det eksisterer ikke mekanismer for å håndtere dette i infrastrukturen i dag, verken i sikkerhetsbilletten (må utvides) eller andre tillitsskapende tjenester. Direktoratet for e-helse publiserte i 2019 en anbefaling som beskriver <a href="https://www.ehelse.no/standardisering/standarder/anbefaling-av-tillitsmodell-for-data-og-dokumentdeling">Anbefaling av tillitsmodell for data- og dokumentdeling</a>.</p>
 <h2 id="datadeling-for-datatilbyder">Datadeling for datatilbyder</h2>
-<p>Tre sentrale prosesser står sentralt for datatilbydere som skal dele data ved hjelp av datadeling: <em>Tilgjengeliggjøre</em>, <em>produksjon av informasjon</em> og <em>avgi forespurte data</em>. Produksjon av informasjon tas med her siden det mest relevante brukstilfelle for deling av informasjon mellom virksomheter handler om å dele informasjon som virksomheten har produsert i sine andre forretningsprosesser med andre virksomheter som kommer i kontakt med pasienten.</p>
-<p>På et overordnet nivå kan sammenhengen mellom disse prosessene beskrives som i modellen nedenfor. (Prosessene i ekstra lysegul farge er behandlet i HITR 1231:2021)</p>
+<p>Tre prosesser står sentralt for datatilbydere som skal dele data ved hjelp av datadeling: <em>Tilgjengeliggjøre</em>, <em>produksjon av informasjon</em> og <em>avgi forespurte data</em>. Produksjon av informasjon tas med her siden det mest relevante brukstilfelle for deling av informasjon mellom virksomheter handler om å dele informasjon som virksomheten har produsert i sine andre forretningsprosesser med andre virksomheter som kommer i kontakt med pasienten.</p>
+<p>På et overordnet nivå kan sammenhengen mellom disse prosessene beskrives som i modellen nedenfor. (Prosessene i lys-lys-gul farge er behandlet i HITR 1231:2021 og underprosesser er beskrevet der)</p>
 <p><img alt="Sammenheng mellom tilgjengeliggjøring, produksjon og avgi forspurte data" src="../img/datadeling-datatilbyder.png" />
 <em>Sammenhengen mellom prosessene for å tilgjengeliggjøre, produsere informasjon og avgi forespurte data</em></p>
 <p>Prosessen for å <strong>Tilgjengeliggjøre</strong> etablerer datadelingstjenesten og beskriver grensesnittet datadelingstjenesten tilbyr (vanligvis i from av API dokumentasjon).<br />
@@ -1403,21 +1389,28 @@ Når en konsumerende virksomhet forespør data fra datadelingstjenesten starter 
 <em>Prosesser forbundet med å avgi forespurte data</em></p>
 <p>Vi antar her at datakonsument har tilgang til API og er autentisert og autorisert for bruk av API'et. En validert <em>sikkerhetsbillett</em> og en <em>forespørsel om data</em> foreligger for datatilbyder. Datatilbyder må bruke informasjonen i forespørselen for å <em>Finne forespurte data</em> i <em>data tilgjengeliggjort i API</em>. Resultatet av denne prosessen er at alle <em>forespurte data</em> trekkes ut for videre behandling. I noen tilfeller vil scopet i sikkerhetsbilletten ikke gi brukeren tilgang til all informasjonen som tilbys gjennom datadelingstjenesten, da må <em>forespurte data</em> "filtreres basert på rolle og tjenstlig behov". <em>Forespørsel om data</em> kan også inneholde andre filtre der datakonsumenten har gjort en vurdering av hvilke data konsumenten trenger. Da må datatilbyder gjennomføre dataminimering basert på angitte filtre fra konsument. Data må også struktureres i henhold til datamodellen som er beskrevet for API'et før svaret til slutt kan sikres for transport i form av funksjoner for <em>kryptering og non repudiation</em>. <em>Svaret på forespørsel</em> foreligger nå og kan avgis til datakonsumenten.  </p>
 <h2 id="datadeling-for-datakonsumenter">Datadeling for datakonsumenter</h2>
-<p>Tre sentrale prosesser står sentralt for datakonsumenter som skal innhente informasjon ved hjelp av datadeling: <em>Få tilgang til data</em>, <em>Finne relevante data</em> og <em>Slå opp</em>.</p>
-<p><img alt="Prosesser for datakonsumenter" src="../img/datadeling-datakonsument.png" />
+<p>Tre prosesser står sentralt for datakonsumenter som skal innhente informasjon ved hjelp av datadeling: <em>Få tilgang til data</em>, <em>Finne relevante data</em> og <em>Slå opp</em>. På overordnet nivå kan sammenhengen og mellom disse prosessene og informasjonen som flyter mellom disse beskrives som beskrevet i modellen under. (Prosessene i lys-lys-gul farge er behandlet i HITR 1231:2021 og underprosesser er beskrevet der).</p>
+<p><a href="../img/datadeling-datakonsument.png"><img alt="Prosesser for datakonsumenter" src="../img/datadeling-datakonsument.png" /></a>
 <em>Prosesser forbundet med rollen som datakonsument, inkludert de viktigste tjenestene som må etableres og integreres mot</em></p>
+<p><strong>Få tilgang til data</strong> finner relevante API'er som virksomheten har behov for å integrere med, etablerer <em>Datadelingstjeneste (konsument)</em> (klientfunksjonalitet) som skal kommunisere med datatilbyderens datadelingstjeneste. Intern dataflyt etableres også her, noe som gjør det mulig å benytte data i interne fagsystemer.<br />
+<strong>Finne relevante data</strong> utløses av <em>behov for informasjon</em> i eksisterende <em>forretningsprosesser</em> i virksomheten. Prosessen beskriver hvordan det er mulig å <em>finne tjenester som tilbyr spesifikk type informasjon</em> og <em>finne tjenester som har informasjon om pasient</em>. I det siste tilfellet trengs det tilgang til en fellestjeneste for <em>pasieninformasjonslokalisator</em> for å identifisere hvilke datadelingstjenster som inneholder informasjon om pasienten.<br />
+<strong>Slå opp</strong> handler om å gjennomføre oppslag mot en eller flere datadelingstjenester som inneholder relevante data og <em>motta svar på forespørsel</em>. <em>Datadelingstjeneste (konsument)</em> som ble etablert i <em>få tilgang til data</em> og <em>intern dataflyte og databehandling</em> understøtter disse prosessene som skal gjøre data tilgjengelig i fagsystemene.</p>
 <h3 id="fa-tilgang-til-data">Få tilgang til data</h3>
-<p>Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør. Omfatter evnen til å oppdage datakilder og sette opp funksjon (klient) for å ta i bruk datakilden. Videre må virksomheten beskrive hvordan den ønsker å integrere eksterne informasjon i intern dataflyt, inkludert hvordan interne fagsystem og mellomvare skal bruke, vise og lagre data fra eksterne. Det må etableres en klientfunksjon som tar i bruk api'et fra den eksterne datatilbyderen og denne må integreres med interne systemer.</p>
-<p><img alt="Få tilgang til data" src="../img/fa-tilgang-data.png" /></p>
+<p>Å <em>få tilgang til data</em> gjennom et API innebærer både å <em>Etablere API klient</em> og <em>få tilgang til API</em> som innebærer avtalehåndtering og registrering av klienten for tilgang. Prosessen for <em>få tilgang til API</em> er nærmere beskrevet i <a href="https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren">Målarkitektur for datadeling i helse og omsorgssektoren</a> og beskrives ikke her.</p>
+<p><a href="../img/fa-tilgang-data.png"><img alt="Få tilgang til data" src="../img/fa-tilgang-data.png" /></a>
+<em>Prosesser forbundet med å få tilgang til data for en datakonsument</em></p>
+<p>Når en virksomhet skal <em>få tilgang til data</em> må virksomheten <em>etablere API klient</em> først med mindre det er etablert en klient for denne integrasjonen tidligere. Resultatet av prosessen er at det etableres klientfunksjonalitet i form av <em>datadelingstjeneste (konsument)</em> som håndterer forespørsel og svar fra server (Datadelingstjeneste (tilbyder)) og <em>Dataflyt (intern)</em> som sørger for at informasjonen som hentes fra datatilbyder kan integreres i relevante fagsystemer hos datakonsumenten.</p>
+<p>Den viktigste informasjonen som produseres er <em>behov for informasjon</em> som dokumenterer virksomhetens behov for informasjon fra eksterne kilder. De viktigste inndata for prosessene for å etablere API klient er <em>API dokumentasjonen</em> for <em>Datadelingstjenesten (tilbyder)</em> som gjør det mulig å etablere <em>Datadelingstjeneste (konsument)</em> og etablere integrasjoner for å understøtte <em>Dataflyt (intern)</em>.</p>
 <h3 id="finne-relevante-data">Finne relevante data</h3>
-<p>Evnen til å finne kilder til informasjon om en gitt person eller i bestemte informasjonskategorier.</p>
-<p><img alt="Finne relevante data" src="../img/finne-relevante-data.png" /></p>
-<h3 id="sla-opp">Slå opp</h3>
-<p>Evnen til å slå opp i datadelingstjenester tilbudt av andre virksomheter.</p>
-<p><img alt="Slå opp og motta svar" src="../img/sla-opp-prosess.png" /></p>
-<h2 id="eksempel-realisere-sla-opp-og-dele-malinger">Eksempel: Realisere slå opp og dele målinger</h2>
-<p>Behov knyttet til dele egne målinger og slå opp andres målinger kan realiseres med å implementere prosesser for å avgi egne data gjennom en Datadelingstjeneste og en prosess for å fastsette hvilke målinger og på hvilken måte disse skal struktureres, samt hvilke målinger som skal tilgjengeliggjøres gjennom datadelingstjenesten. Datadelingstjenesten må dokumenteres i form av API-dokumentasjon som kan benyttes av konsumenter som ønsker å få tilgang til data som er tilgjengelig for oppslag gjennom datadelingstjenesten.</p>
-<p><img alt="Realisere slå opp" src="../img/217121564.png" /></p>
+<p>Ofte vil aktørenes <em>behov for informasjon</em> være begrenset til informasjon av en spesiell type og om en bestemt pasient. Prosessen for å <em>finne relevante data</em> handler derfor om å <em>finne tjenester som tilbyr spesifikk type informasjon</em> og å <em>finne tjenester som har informasjon om (en bestemt) pasient</em>. Prosessene kan løses med større eller mindre grad av støtte fra applikasjoner, men det anbefales at prosessen er mest mulig automatisert basert på inndata som allerede foreligger knyttet til forretningsprosessen.</p>
+<p><a href="../img/finne-relevante-data.png"><img alt="Finne relevante data" src="../img/finne-relevante-data.png" /></a>
+<em>Prosessene knyttet til å finne informasjon om spesifikk pasient</em></p>
+<p>Prosessen for å <em>finne tjenester som har informasjon om pasient</em> skal identifisere de datadelingstjenestene som inneholder informasjon om en bestemt pasient. Prosessen understøttes av en fellestjeneste kalt <em>Pasientinformasjonslokalisator</em> (PIL) og forutsetter at datatilbydere har <em>publisert metadata</em> som en del av <a href="./#prosesser-for-produksjon-av-informasjon">informasjonsproduksjonen</a>. Ved hjelp av oppslag mot PIL med en <em>PIL klient</em> får man tilgang til <em>metadata</em> som beskriver <em>Data som er tilgjengeliggjort i API</em> og hvilke pasienter de ulike tjenesten har informasjon om. Basert på denne informasjonen kan man lage en oversikt over <em>Datadelingstjenester med informasjon om pasient</em> som bestemmer hvor man skal <em>slå opp</em> for å finne relevant informasjon.</p>
+<h3 id="sla-opp-og-motta-svar">Slå opp (og motta svar)</h3>
+<p>Å <em>slå opp</em> mot datatilbyderes datadelingstjenester omfatter både å utføre tjenestekall med dokumentert autentisering og autorisering i en sikkerhetsbillett og å <em>motta svar på forespørsel</em> slik at informasjonen fra datatilbyder sin datadelingstjeneste kan understøtte forretningsprosesser i virksomheten som slår opp. Prosessene knyttet til <em>Slå opp eller endre data gjennom et API</em> er beskrevet i <a href="https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren">Målarkitektur for datadeling i helse og omsorgssektoren</a> og beskrives ikke her.</p>
+<p><a href="../img/sla-opp-prosess.png"><img alt="Slå opp og motta svar" src="../img/sla-opp-prosess.png" /></a>
+<em>Prosessene knyttet til å slå opp i API og motta svar på forespørsel</em></p>
+<p>Etter at <em>forespørsel om data</em> er formidlet av klienten (Datadelingstjeneste konsument) vil det etter kort tid foreligge et <em>svar på forespørsel</em> som må behandles av datakonsumenten. Datadelingstjenesten håndterer at informasjon som er sikret for transport fra datatilbyder kan leses av de interne prosessene hos datakonsumenten. <em>Svaret på forespørsel</em> kan deretter <em>integreres med fagsystemer</em> i virksomheten, slik at informasjonen foreligger som <em>data i fagsystem</em> og på den måten kan lagres og vises i forbindelse med relevante forretningsprosesser i virksomheten. Et fagsystem vil vanligvis ha oppgaven me då <em>sammenstille og behandle</em> data fra interne og eksterne kilder, slik at <em>forretningsprosessene</em> understøttes på best mulig måte.</p>
 
 
 
