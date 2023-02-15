@@ -24,9 +24,10 @@ nav:
       - Tilbakemeldinger og innspill: Tilbakemeldinger-innspill.md
       - Status for dokumentet: https://direktoratet-for-e-helse.github.io/Common-metadata/
     - Vedlegg:
+      - Detaljert behovsbilde: Detaljert-behovsbilde.md
+      - Semantisk samhandlingsevne: Semantisk-samhandling.md
       - Datadeling - slå opp: Organisatorisk-sla-opp.md
       - Hva er kapabiliteter: Kapabiliteter.md
-      - Detaljert behovsbilde: Detaljert-behovsbilde.md
       - Informasjonstjeneste - metamodell: Informasjonstjeneste-meta.md
 theme:
   name: material

@@ -108,11 +108,11 @@ Hendelsesbasert samhandling er i bruk i mange andre sektorer, spesielt knyttet t
 
 ## Tiltak knyttet til semantisk samhandling
 
-Kapitelet som beskriver [konsepter for realisering](Konsepter-realisering.md) av datadeling mellom virksomheter og omsorgsnivå peker på nødvendigheten av felles semantiske spesifikasjoner for å understøtte distribuerte konsepter. Det er behov for semantiske spesifikasjoner ved etablering av sentrale/nasjonale løsninger også, men dette vil realiseres gjennom grensesnittspesifikasjonene i den sentrale løsningen.
+Kapitelet som beskriver [konsepter for realisering](Konsepter-realisering.md) av datadeling mellom virksomheter og omsorgsnivå peker på nødvendigheten av felles semantiske spesifikasjoner for å understøtte distribuerte konsepter og [semantisk samhandling](Semantisk-samhandling.md). Det er behov for semantiske spesifikasjoner ved etablering av sentrale/nasjonale løsninger også, men dette vil realiseres gjennom grensesnittspesifikasjonene i den sentrale løsningen.
 
 ### Felles semantisk rammeverk for datadeling og DHO
 
-Utprøving og spredningsprosjektene som gjennomføres nå baserer seg på et lite sett [HL7 FHIR](https://hl7.org/fhir/) profiler som beskriver det semantiske innholdet i målinger som kan utveksles mellom virksomhetene. Profilene beskriver i hovedsak tre forhold knyttet til utveksling av informasjon mellom virksomhetene:
+Utprøving og spredningsprosjektene som gjennomføres nå baserer seg på et lite sett [HL7 FHIR](https://hl7.org/fhir/) profiler som beskriver det semantiske innholdet i [målinger](https://simplifier.net/guide/VelferdsteknologiskknutepunktDHOR4/Observation?version=current) som kan utveksles mellom virksomhetene. Profilene beskriver i hovedsak tre forhold knyttet til utveksling av informasjon mellom virksomhetene:
 
 * Overordnet brukertilfelle profilene understøtter
 * Hvilken informasjon som er minimum for at informasjonen skal vær nyttig

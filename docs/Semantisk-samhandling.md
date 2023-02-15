@@ -12,7 +12,7 @@ Semantisk samhandlingsevne har å gjøre med meningen med innholdet i dataelemen
 * Semantikk handler om dataenes betydningsinnhold og interne relasjon mellom data, dette innebærer også begrepsavklaringer og definisjoner som sikrer at alle parter oppfatter betydningen av data likt
 * Syntaks handler om format og struktur på data som utveksles
 
-Samhandling må vanligvis etableres på mange nivåer for å understøtte semantisk samhandling mellom personer i ulike virksomheter. I European Interoperability framework (EIF) skilles det på juridisk, organisatorisk, semantisk og teknisk samhandling. I praksis peker denne modellen på at man må oppnå samhandling på alle fire nivå for å oppnå reell semantisk samhandling mellom personer i ulik kontekst, for eksempel i ulike organisasjoner.
+Samhandling må vanligvis etableres på mange nivåer for å understøtte samhandling mellom personer i ulike virksomheter. I European Interoperability framework (EIF) skilles det på juridisk, organisatorisk, semantisk og teknisk samhandling. I praksis peker denne modellen på at man må oppnå samhandling på alle fire nivå for å oppnå reell semantisk samhandling mellom personer i ulik kontekst, for eksempel i ulike organisasjoner.
 
 ![European Interoperability Framework](img/no-domain-EIF.png)
 *European Interoperability Framework, juridisk, organisatorisk, semantisk og teknisk samhandlingsevne*
