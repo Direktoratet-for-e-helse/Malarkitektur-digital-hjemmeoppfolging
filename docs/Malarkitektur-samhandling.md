@@ -186,16 +186,22 @@ Tre prosesser står sentralt for datakonsumenter som skal innhente informasjon v
 
 Når en virksomhet skal *få tilgang til data* må virksomheten *etablere API klient* først med mindre det er etablert en klient for denne integrasjonen tidligere. Resultatet av prosessen er at det etableres klientfunksjonalitet i form av *datadelingstjeneste (konsument)* som håndterer forespørsel og svar fra server (Datadelingstjeneste (tilbyder)) og *Dataflyt (intern)* som sørger for at informasjonen som hentes fra datatilbyder kan integreres i relevante fagsystemer hos datakonsumenten.
 
-
+Den viktigste informasjonen som produseres er *behov for informasjon* som dokumenterer virksomhetens behov for informasjon fra eksterne kilder. De viktigste inndata for prosessene for å etablere API klient er *API dokumentasjonen* for *Datadelingstjenesten (tilbyder)* som gjør det mulig å etablere *Datadelingstjeneste (konsument)* og etablere integrasjoner for å understøtte *Dataflyt (intern)*.
 
 ### Finne relevante data
 
-Evnen til å finne kilder til informasjon om en gitt person eller i bestemte informasjonskategorier.
+Ofte vil aktørenes *behov for informasjon* være begrenset til informasjon av en spesiell type og om en bestemt pasient. Prosessen for å *finne relevante data* handler derfor om å *finne tjenester som tilbyr spesifikk type informasjon* og å *finne tjenester som har informasjon om (en bestemt) pasient*. Prosessene kan løses med større eller mindre grad av støtte fra applikasjoner, men det anbefales at prosessen er mest mulig automatisert basert på inndata som allerede foreligger knyttet til forretningsprosessen.
 
 [![Finne relevante data](img/finne-relevante-data.png)](img/finne-relevante-data.png)
+*Prosessene knyttet til å finne informasjon om spesifikk pasient*
 
-### Slå opp
+Prosessen for å *finne tjenester som har informasjon om pasient* skal identifisere de datadelingstjenestene som inneholder informasjon om en bestemt pasient. Prosessen understøttes av en fellestjeneste kalt *Pasientinformasjonslokalisator* (PIL) og forutsetter at datatilbydere har *publisert metadata* som en del av [informasjonsproduksjonen](Malarkitektur-samhandling.md#prosesser-for-produksjon-av-informasjon). Ved hjelp av oppslag mot PIL med en *PIL klient* får man tilgang til *metadata* som beskriver *Data som er tilgjengeliggjort i API* og hvilke pasienter de ulike tjenesten har informasjon om. Basert på denne informasjonen kan man lage en oversikt over *Datadelingstjenester med informasjon om pasient* som bestemmer hvor man skal *slå opp* for å finne relevant informasjon.
 
-Evnen til å slå opp i datadelingstjenester tilbudt av andre virksomheter.
+### Slå opp (og motta svar)
+
+Å *slå opp* mot datatilbyderes datadelingstjenester omfatter både å utføre tjenestekall med dokumentert autentisering og autorisering i en sikkerhetsbillett og å *motta svar på forespørsel* slik at informasjonen fra datatilbyder sin datadelingstjeneste kan understøtte forretningsprosesser i virksomheten som slår opp. Prosessene knyttet til *Slå opp eller endre data gjennom et API* er beskrevet i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) og beskrives ikke her.
 
 [![Slå opp og motta svar](img/sla-opp-prosess.png)](img/sla-opp-prosess.png)
+*Prosessene knyttet til å slå opp i og motta svar på forespørsel*
+
+
