@@ -912,6 +912,8 @@
         
           
         
+          
+        
       
       
         <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
@@ -925,6 +927,34 @@
           Vedlegg
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Detaljert-behovsbilde/" class="md-nav__link">
+        Detaljert behovsbilde
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Semantisk-samhandling/" class="md-nav__link">
+        Semantisk samhandlingsevne
+      </a>
+    </li>
+  
+
+            
           
             
               
@@ -948,20 +978,6 @@
     <li class="md-nav__item">
       <a href="../Kapabiliteter/" class="md-nav__link">
         Hva er kapabiliteter
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Detaljert-behovsbilde/" class="md-nav__link">
-        Detaljert behovsbilde
       </a>
     </li>
   
@@ -1266,7 +1282,7 @@ Et slikt register bør etableres som en felleskomponent hvor det fremgår hvem s
 <p>I tillegg til dokumentdeling gjennom kjernejournal er digital hjemmeoppfølging og deling av målinger identifisert som utprøvingskandidat for felles tillitsmodell. Utprøving av felles tillitsmodell for datadelingstjenester i tillegg til dokumentdeling vil kunne gi viktig tilleggskunnskap sett fra helsetjenesten som prøver ut DHO sitt perspektiv. Vi vet foreløpig lite om kravene som stilles til tillitsmodellen knyttet til datadeling og selv om hypotesen er at tillitsmodellen for datadeling og dokumentdeling fungere likt er det viktig å få bekreftet den antakelsen.</p>
 <p>Det anbefales at enkelte DHO tjenester<!--peker DHO tjenester her til virksomheter som etablerer tjenesteforløp med DHO eller selve it-tjenesten? --> som etablerer datadeling mellom virksomheter tar i bruk felles tillitsmodell og fellskomponenter som felles tillitsanker.  </p>
 <h3 id="vurdere-felleslsninger-for-mtu">Vurdere fellesløsninger for MTU <!--Hva er det viktige å få frem i dette avsnittet? Hvordan en kan svare ut kjente utfordringer som krav til utstyrets evne til å dele informasjon og logistikk rundt utstyr? Vurdere en annen overskrift for å vise til dokumenterte barrierer: eks. Vurdere felles anskaffelse og forvaltning av tekniske løsninger/system--></h3>
-<p>Innspill fra aktørene som arbeider med spredning og utprøving av DHO har pekt på to store utfordringer knyttet til etablering av DHO tjenester. Det ene handler om samhandling som behandles i dette dokumentet. Et annet behov som er identifisert er knyttet til tildeling og forvaltning av det tekniske utstyret som skal samle målinger hjemme hos pasienten, ofte omtalt som MTU.</p>
+<p>Innspill fra aktørene som arbeider med spredning og utprøving av DHO har pekt på to store utfordringer knyttet til etablering av DHO tjenester. Det ene handler om samhandling som behandles i dette dokumentet. Et annet behov som er identifisert er knyttet til tildeling og forvaltning av det tekniske utstyret som skal samle målinger hjemme hos pasienten, ofte omtalt som DHO-system.</p>
 <p>Det er identifisert mange behov knyttet til administrasjon av MTU og bare noen av disse kan dekkes med ren oversikt over hvilket utstyr pasienten har, uavhengig av hvem som har tildelt dette:</p>
 <ul>
 <li>Kjenne til tjenester, ytelser og hjelpemidler og hvilke aktører som har tildelt disse</li>
@@ -1299,9 +1315,9 @@ Et slikt register bør etableres som en felleskomponent hvor det fremgår hvem s
 <li>Beskrive relevante felleskomponenenter i samhandlingsinfrastrukturen som må til for å understøtte hendelsesbasert kommunikasjon, det bør også etableres et veikart for når felleskomponentene kan etableres</li>
 </ul>
 <h2 id="tiltak-knyttet-til-semantisk-samhandling">Tiltak knyttet til semantisk samhandling</h2>
-<p>Kapitelet som beskriver <a href="../Konsepter-realisering/">konsepter for realisering</a> av datadeling mellom virksomheter og omsorgsnivå peker på nødvendigheten av felles semantiske spesifikasjoner for å understøtte distribuerte konsepter. Det er behov for semantiske spesifikasjoner ved etablering av sentrale/nasjonale løsninger også, men dette vil realiseres gjennom grensesnittspesifikasjonene i den sentrale løsningen.</p>
+<p>Kapitelet som beskriver <a href="../Konsepter-realisering/">konsepter for realisering</a> av datadeling mellom virksomheter og omsorgsnivå peker på nødvendigheten av felles semantiske spesifikasjoner for å understøtte distribuerte konsepter og <a href="../Semantisk-samhandling/">semantisk samhandling</a>. Det er behov for semantiske spesifikasjoner ved etablering av sentrale/nasjonale løsninger også, men dette vil realiseres gjennom grensesnittspesifikasjonene i den sentrale løsningen.</p>
 <h3 id="felles-semantisk-rammeverk-for-datadeling-og-dho">Felles semantisk rammeverk for datadeling og DHO</h3>
-<p>Utprøving og spredningsprosjektene som gjennomføres nå baserer seg på et lite sett <a href="https://hl7.org/fhir/">HL7 FHIR</a> profiler som beskriver det semantiske innholdet i målinger som kan utveksles mellom virksomhetene. Profilene beskriver i hovedsak tre forhold knyttet til utveksling av informasjon mellom virksomhetene:</p>
+<p>Utprøving og spredningsprosjektene som gjennomføres nå baserer seg på et lite sett <a href="https://hl7.org/fhir/">HL7 FHIR</a> profiler som beskriver det semantiske innholdet i <a href="https://simplifier.net/guide/VelferdsteknologiskknutepunktDHOR4/Observation?version=current">målinger</a> som kan utveksles mellom virksomhetene. Profilene beskriver i hovedsak tre forhold knyttet til utveksling av informasjon mellom virksomhetene:</p>
 <ul>
 <li>Overordnet brukertilfelle profilene understøtter</li>
 <li>Hvilken informasjon som er minimum for at informasjonen skal vær nyttig</li>
