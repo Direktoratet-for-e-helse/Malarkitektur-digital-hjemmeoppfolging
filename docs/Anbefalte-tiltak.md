@@ -21,11 +21,11 @@ Listen nedenfor viser en prioritert liste over tiltak som er nødvendig for å r
 
 ## Tiltak knyttet til etablering av felleskomponenter
 
-Målarkitketuren for datadeling DHO har behov for en rekke felleskomponenter for å understøtte samhandlingen nasjonalt og regionalt.
+Målarkitekturen for datadeling DHO har behov for en rekke felleskomponenter for å understøtte samhandlingen nasjonalt og regionalt.
 
 ### Etablering av PIL
 
-[Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) peker på nødvendigheten av å etablere pasientinformasjonslokalisator for å understøtte datadeling basert på distribuert lagring og etablering av grensesnitt for å avgi data. Målarkitektur for datadeling slår også fast at det ikke eksisterer 
+[Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) peker på nødvendigheten av å etablere pasientinformasjonslokalisator for å understøtte datadeling basert på distribuert lagring og etablering av grensesnitt for å avgi data. [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) slår videre fast at det ikke eksisterer noen rettslig hjemmel for å etablere en nasjonal tjeneste som sammenstiller informasjon om hvilke API-tjenester som har informasjon en bestem pasient på nasjonalt nivå.
 
 !!! quote "Pasientinformasjonslokalisator"
 
