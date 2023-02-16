@@ -16,7 +16,7 @@ Listen nedenfor viser en prioritert liste over tiltak som er nødvendig for å r
 2. [Felles tillitsmodell for datadeling](#felles-tillitsmodell-for-datadeling)
 3. [Etablere fellesløsninger for lagring og grensesnitt](#etablere-felleslsninger-for-lagring-og-grensesnitt)
 4. [Felles semantisk rammeverk for datadeling og DHO](#felles-semantisk-rammeverk-for-datadeling-og-dho)
-5. [Vurdere fellesløsninger for MTU](#vurdere-felleslsninger-for-mtu)
+5. [Vurdere fellesløsninger for utstyrslogistikk](#vurdere-felleslsninger-for-utstyr)
 6. [Rammeverk for hendelsesbasert samhandling](#rammeverk-for-hendelsesbasert-samhandling)
 
 ## Tiltak knyttet til etablering av felleskomponenter
@@ -62,17 +62,17 @@ I tillegg til dokumentdeling gjennom kjernejournal er digital hjemmeoppfølging 
 
 Det anbefales at enkelte DHO tjenester<!--peker DHO tjenester her til virksomheter som etablerer tjenesteforløp med DHO eller selve it-tjenesten? --> som etablerer datadeling mellom virksomheter tar i bruk felles tillitsmodell og fellskomponenter som felles tillitsanker.  
 
-### Vurdere fellesløsninger for MTU <!--Hva er det viktige å få frem i dette avsnittet? Hvordan en kan svare ut kjente utfordringer som krav til utstyrets evne til å dele informasjon og logistikk rundt utstyr? Vurdere en annen overskrift for å vise til dokumenterte barrierer: eks. Vurdere felles anskaffelse og forvaltning av tekniske løsninger/system-->
+### Vurdere fellesløsninger for utstyrslogistikk <!--Hva er det viktige å få frem i dette avsnittet? Hvordan en kan svare ut kjente utfordringer som krav til utstyrets evne til å dele informasjon og logistikk rundt utstyr? Vurdere en annen overskrift for å vise til dokumenterte barrierer: eks. Vurdere felles anskaffelse og forvaltning av tekniske løsninger/system-->
 
 Innspill fra aktørene som arbeider med spredning og utprøving av DHO har pekt på to store utfordringer knyttet til etablering av DHO tjenester. Det ene handler om samhandling som behandles i dette dokumentet. Et annet behov som er identifisert er knyttet til tildeling og forvaltning av det tekniske utstyret som skal samle målinger hjemme hos pasienten, ofte omtalt som DHO-system.
 
-Det er identifisert mange behov knyttet til administrasjon av MTU og bare noen av disse kan dekkes med ren oversikt over hvilket utstyr pasienten har, uavhengig av hvem som har tildelt dette:
+Det er identifisert mange behov knyttet til administrasjon av utstyr og bare noen av disse kan dekkes med ren oversikt over hvilket utstyr pasienten har, uavhengig av hvem som har tildelt dette:
 
 * Kjenne til tjenester, ytelser og hjelpemidler og hvilke aktører som har tildelt disse
 * Kjenne til om relevant utstyr er tildelt fra andre aktører
 * Unngå dobbelt sett av utstyr med overlappende funksjonalitet
-* Tilgang til data fra MTU-utstyr
-* Tilgang til administrasjon av MTU-utstyr
+* Tilgang til data fra utstyr
+* Tilgang til administrasjon av utstyr
 
 #### Anbefalt tiltak
 
