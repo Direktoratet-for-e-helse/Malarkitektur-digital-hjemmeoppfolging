@@ -6,11 +6,11 @@ title: Detaljert behovsbilde
 |:-------------|:------------------|:------|:-------|
 | <span style="background-color:gold">Work in progress</span> | v0.1 | draft  | ikke normert |
 
-## Kartlagte behov og funksjonelle krav
+## Kartlagte brukerbehov og funksjonelle krav
 
 For å understøtte tjenesteforløp der pasienter følges med digital hjemmeoppfølging på en effektiv måte er det identifisert en rekke brukerbehov som kan understøttes med bedre samhandlingsløsninger. Dette kapitelet oppsummerer de mest sentrale behovene og funksjonelle krav som kan utledes fra disse.
 
-### Hypotese knyttet til behov <!--Foreslår å flytte hypotesen til under tabellen slik at det er sammenheng i første avsnitt-->
+### Hypotese knyttet til brukerbehov <!--Foreslår å flytte hypotesen til under tabellen slik at det er sammenheng i første avsnitt-->
 <!-- Jeg tenker litt motsatt. Løfte hypotesen opp, og i tillegg vurdere om vi har flere hypoteser som vi må vurdere i lys av innsikten behovene gir  -->
 Hypotesen beskriver en antagelse som er fremkommet gjennom behovskartleggingen knyttet til DHO. Det ligger i hypotesens natur at den bør testes før målarkitekturen ferdigstilles. Det er foreløpig et åpent spørsmål hvordan disse hypotesen testes og om den kan testes som en del av utprøvingsprosjektene innen DHO.
 
@@ -18,7 +18,7 @@ Hypotesen beskriver en antagelse som er fremkommet gjennom behovskartleggingen k
   * Arbeidet med målarkitektur for DHO fokuserer derfor på å tilrettelegge for samhandling på regionalt nivå
 <!-- Hvordan unngår vi å ta arkitekturvalg som hindrer oss fleksibilitet senere -->
 
-### Identifiserte behov
+### Identifiserte brukerbehov
 
 Tabellen under viser en oversikt over:
 
@@ -27,13 +27,13 @@ Tabellen under viser en oversikt over:
   * Prioritet scores i kategoriene høy/middels/lav/ekstern ut fra antagelse om forventet nytte/effekt
     * Høy nytteverdi betyr at tilfredstillels av behovet vil gi stor nytte og det er mange brukere
     * Middels nytteverdi betyr at tilfredstillelse av behovet vil kunne føre til spart tid og bedre kvalitet men er ikke kritisk for å ta i bruk tjenesten <!--Her mener vi vel tjenesteforløpet? Tilby DHO uten at informasjonsdeling er på plass?-->
-    * Lav nytteverdi angir behov hvor nytten for brukeren er liten eller at behovet innehas av få brukere
-    * Ekstern betegner behov som må spilles inn til andre prosjekter og behovet må tilfredstilles (i hovedsak) av løsninger som ligger utenfor omfanget av målarkitekturen
+    * Lav nytteverdi angir brukerbehov hvor nytten for brukeren er liten eller at behovet innehas av få brukere
+    * Ekstern betegner brukerbehov som må spilles inn til andre prosjekter og behovet må tilfredstilles (i hovedsak) av løsninger som ligger utenfor omfanget av målarkitekturen
   * Tidsperspektiv kategoriene angis med: Kort (0-1 år), mellom(lang) (1-3 år) og lang (3-5 år)
 * Beskrivelse av behovet
 * Viktige funksjonelle krav som må oppfylles for å tilfredstille behovet på en god måte
 
-|Rolle| Prioritet / tidsperspektiv|Behov|Funksjonelle krav|
+|Rolle| Prioritet / tidsperspektiv|brukerbehov|Funksjonelle krav|
 |-----|-----------|-----------------|--------------------|
 |Helsepersonell (kommune, spesialist og fastlege)|høy / lang|Bedre støtte for eksplisitte ansvarsoverganger mellom virksomheter||
 |Helsepersonell (kommune, spesialist og fastlege)|høy / mellom|Finne hvilken informasjon andre virksomheter og behandlingsnivåer har om pasienten|Søkefunksjonalitet for å finne hvilke virksomhetene som har informasjon om pasienten|<!--Kan vi her sette inn eks PIL så det ikke forveksles med Goodle søk?-->
@@ -86,7 +86,17 @@ Figuren viser en overordnet oversikt over roller som kan være involvert i DHO b
 
 Referanser: [sentrale begreper definert i Program Digital Samhandling](https://sh.ehelse.no/akson/Dokumentbibliotek%20Forprosjekt%20Steg%202/20%20Leveranser/09.%20Sentralt%20styringsdokument/05%20Vedlegg%20SSD/Vedlegg%20A%20Sentrale%20begreper.docx?d=w5a50e9a879ab4c1a800b8a88cca9040c), Digdir, [Helsedirektoratet](https://www.helsedirektoratet.no/rundskriv/pasient-og-brukerrettighetsloven-med-kommentarer/alminnelige-bestemmelser/definisjoner#:~:text=pasient%3A%20en%20person%20som%20henvender,som%20p%C3%A5r%C3%B8rende%20og%20n%C3%A6rmeste%20p%C3%A5r%C3%B8rende.)
 
-## Analyse av informasjonsbehov
+## Informasjonsbehov og informasjonstjenester
+
+Ulike tjenesteforløp vil ha forskjellige behov for informasjon. Disse behovene beskriver vi i form av ulike typer informasjonsressurser og informasjonstjenester. Modellen viser hvilke overordnede informasjonsressurser og informasjonstjenester (gruppering av informasjonsbehov) det er avdekket behov for i forbindelse med DHO. Det er gjennomført en mapping av informasjonsressursene og hvordan informasjonsressursen henger sammen med informasjonstjenester definert i [Sentralt styringsdokument Akson - Helhetlig samhandling (bilag G2)](https://www.ehelse.no/publikasjoner/sentralt-styringsdokument-akson-helhetlig-samhandling-og-felles-kommunal-journallosning).
+
+[![Detaljert oversikt over informasjonsbehov](img/informasjonsbehov-total.png)](img/informasjonsbehov-total.png)
+
+I tillegg er det identifisert behov for dialogtjenester for kommunikasjon mellom helsepersonell og mellom helsepersonell og innbygger:
+
+![Dialogtjenester](img/dialog.png)
+
+### Analyse av informasjonsbehovene
 
 Tabellen under oppsummerer: <!--Tatt ut setning her da det sier det samme i kulepunkt to-->
 

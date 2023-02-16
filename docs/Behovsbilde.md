@@ -6,7 +6,7 @@ title: Behovsbilde
 |:-------------|:------------------|:------|:-------|
 |<span style="background-color:gold">Work in progress</span> | v0.8 | review  | ikke normert |
 
-Dette kapittelet gir en oversikt over de prioriterte behovene knyttet til tjenesteforløp der DHO benyttes. Det er ikke gjort et forsøk på å gi et komplett bilde av de funksjonelle behovene som må ivaretas for helsepersonell og pasient, det er istedet fokusert på behovet for informasjon, med formål å avdekke informasjonsbehov som må understøttes med samhandling mellom helsepersonell i ulike virksomheter. For en bredere og mer detaljert oversikt over behovene, se vedlegget [Detaljert behovsbilde](..\docs\Detaljert-behovsbilde.md)
+Dette kapittelet gir en oversikt over de prioriterte behovene knyttet til tjenesteforløp der DHO benyttes. Det er ikke gjort et forsøk på å gi et komplett bilde av de funksjonelle behovene som må ivaretas for helsepersonell og pasient, det er istedet fokusert på behovet for informasjon, med formål å avdekke informasjonsbehov som må understøttes med samhandling mellom helsepersonell i ulike virksomheter. For en bredere og mer detaljert oversikt over sluttbruker behov, roller som er involvert og beskrivelse av de ulike informasjonstjenestene se vedlegget [Detaljert behovsbilde](..\docs\Detaljert-behovsbilde.md)
 
 ## Overordnet om samhandlingsbehov
 
@@ -53,29 +53,23 @@ Prosessen for **Samhandling** er brutt ned til generelle steg som kjennetegner 
 * **Produsere informasjon** er enhver prosess knyttet til å dokumentere tiltakene som er gjennomført og vurderingene som ligger til grunn for tiltakene.
 * **Dele informasjon** er enhver prosess knyttet til å dele eller tilgjengeliggjøre produsert informasjon, slik at andre aktører kan konsumere og nyttiggjøre seg av informasjonen.
 
-
-## Informasjonsbehov og informasjonstjenester
-
-Ulike tjenesteforløp vil ha forskjellige behov for informasjon. Disse behovene beskriver vi i form av ulike typer informasjonsressurser og informasjonstjenester. Modellen viser hvilke overordnede informasjonsressurser og informasjonstjenester (gruppering av informasjonsbehov) det er avdekket behov for i forbindelse med DHO. Det er gjennomført en mapping av informasjonsressursene og hvordan informasjonsressursen henger sammen med informasjonstjenester definert i [Sentralt styringsdokument Akson - Helhetlig samhandling (bilag G2)](https://www.ehelse.no/publikasjoner/sentralt-styringsdokument-akson-helhetlig-samhandling-og-felles-kommunal-journallosning).
-
-[![217121482](https://user-images.githubusercontent.com/6229665/201674228-84a1171d-0006-4720-a462-aaba5947dca8.png)](https://user-images.githubusercontent.com/6229665/201674228-84a1171d-0006-4720-a462-aaba5947dca8.png)
-
-I tillegg er det identifisert behov for dialogtjenester for kommunikasjon mellom helsepersonell og mellom helsepersonell og innbygger:
-
-![207618572](https://user-images.githubusercontent.com/6229665/201674334-dcbe578d-aeb3-40d1-9124-8ef0ce9087a1.png)
-
+## Identifiserte informasjonsbehov
 
 ### Informasjonstjenester som beskrives i DHO arbeidet
 
-Målarkitekturen skal beskrive behov for samhandling og informasjonstjenester som kan sikre at samhandlingen understøtter helsetjenesten på en hensiktsmessig måte. I arbeidet med å kartlegge informasjonsbehov skiller vi mellom informasjonsressurser og informasjonstjenester som må etableres for å understøtte informasjonsbehovet. I den grad det er nødvendig vil arbeidet også beskrive andre initiativer som etablerer informasjonstjenester () det er behov for i forbindelse med DHO og hvordan disse tjenestene bør tilgjengeliggjøres for å svare ut behov som er identifisert i forbindelse med DHO.  
+Målarkitekturen skal beskrive behov for samhandling og informasjonstjenester som kan sikre at samhandlingen understøtter helsetjenesten på en hensiktsmessig måte. I arbeidet med å kartlegge informasjonsbehov skiller vi mellom informasjonsressurser og informasjonstjenester som må etableres for å understøtte informasjonsbehovet. I den grad det er nødvendig vil arbeidet også beskrive andre initiativer som etablerer informasjonstjenester det er behov for i forbindelse med DHO og hvordan disse tjenestene bør tilgjengeliggjøres for å svare ut behov som er identifisert i forbindelse med DHO.  
 
 !!! note "Samhandling på tvers"
 
     Gjennom dette arbeidet er det hovedfokus på hvordan data fra pasient (pasientregistrerte eller fra sensorer og utstyr) kan brukes på tvers av omsorgsnivå i helsetjenesten på en hensiktsmessig måte, og hvordan samhandlingen om denne informasjonen bør innrettes.
 
+Figuren viser en oversikt over identifiserte informasjonsbehov i forbindelse med DHO:
+
+[![Identifiserte informasjonsbehov](img/informasjonsbehov-enkel.png)](img/informasjonsbehov-enkel.png)
+
 ### Data fra pasient og informasjonstjenester
 
-Hovedmålet for målarkitekturen DHO er å vise hvordan samhandlingen knyttet til data fra pasient skal gjennomføres, samtidig som den må vise hvilke andre informasjonstjenester som må være tilstede for å understøtte <!--tjenesteforløp - kun bruke dette hvis vi blir eninge om begrepsbruk--> en sammenhengende DHO tjeneste. Informasjonstjenestene som omfattes er i denne sammenhengen:
+Hovedmålet for målarkitekturen DHO er å vise hvordan samhandlingen knyttet til data fra pasient skal gjennomføres, samtidig som den må vise hvilke andre informasjonstjenester som må være tilstede for å understøtte tjenesteforløp. Informasjonstjenestene som omfattes er i denne sammenhengen:
 
 * Undersøkelser, målinger og funn (IT17 og IT07)
 * Skjemabesvarelser og NEWS scoringer (IT17)
@@ -94,14 +88,10 @@ Det er identifisert behov for samhandling om ytterligere informasjon og informas
 * Legemiddelliste (IT03)
 * Journalnotat (IT09)
 * Klinisk oppsummering (IT01)
-<!--Denner ikke med i tabell over behov og kobling mot informasjonstjenester i Akson. Vi får vurdere om det faktisk er IOT01 vi skal beskrive eller om det som er kommet frem dekkes av IT09 -->
-<!-- SVAR: Denne er med i tabellen over og sammenhengene er vist i figuren https://user-images.githubusercontent.com/6229665/201674228-84a1171d-0006-4720-a462-aaba5947dca8.png-->
 * Basisinformasjon pasient (IT12)
 * Dialogtjenester (IT10 og IT11)
-<!--Kunne denne vært koblet mot Kommunikasjon ved saksbehandling og Tekstlig dialog? Børd da beskrives i tabell-->
-<!--SVAR vi behandler ikke dialog i detalj, men vi kan nevne IT10/IT11 og Tror ikke IT24 er relevant her-->
 
-### Prioritering av informasjonstjenester
+## Prioritering av informasjonstjenester
 
 Her vises i prioritert rekkefølge de informasjonstjenestene som er mest etterspurt av helsepersonell:
 
@@ -109,9 +99,14 @@ Her vises i prioritert rekkefølge de informasjonstjenestene som er mest ettersp
 2. Legemiddelliste (IT03)
 3. Målinger, vurderinger og varsel (IT17 og IT07)
 4. Dialogtjenester (IT10 og IT11)
+5. Hjelpemidler og utstyrslogistikk (IT23)
 
-I tillegg er det en rekke andre informasjonstjenester som er høyt prioritert av tjenesten, disse vises i figuren: <!--Skulle vi vurdert å bruke figuren fra målbilde med alle informasjonstjenestene i arbeidet for å vise sammenhengene?-->
-<!--SVAR: Nei, denne figuren har vist seg å fungere greit for å vise de høyest prioriterte informasjonsbehovene innen DHO-->
-![226722458](https://user-images.githubusercontent.com/6229665/201674656-d97f3a8a-912a-41ee-b621-a1df9860d730.png)
+I tillegg er det en rekke andre informasjonstjenester som er høyt prioritert av tjenesten, det er noen viktige sammenhenger mellom informasjonstjenestene som vises i figuren:
+
+[![Sammenhenger informasjonsbehov](img/informasjonsbehov-sammenhenger.png)](img/informasjonsbehov-sammenhenger.png)
 
 Det utvikles samhandlingsløsninger knyttet til behov for [digitale behandlings- og egenbehandlingsplaner](https://www.helsedirektoratet.no/om-oss/forsoksordninger-og-prosjekter/digital-behandlings-og-egenbehandlingsplan) og [legemiddelliste](https://www.ehelse.no/prosjekt/program-pasientens-legemiddelliste) gjennom egne initiativ. <!--Kan vi ha den sistet setningen uthevet i en boks slik det er gjort i avsnittet over for å tydeliggjøre hva vi jobber med nå som et første steg-->Det er derfor besluttet at de viktigste tjenestene å utvikle samhandlingsløsninger for i DHO arbeidet nå som et første steg handler om Målinger, vurderinger og Varsel. Dette er informasjonstjenester som etterspørres fra mange virksomheter og alle omsorgsnivå i flere geografiske regioner.
+
+### Detaljert behovsbeskrivelse
+
+For en bredere og mer detaljert oversikt over sluttbruker behov, roller som er involvert og beskrivelse av de ulike informasjonstjenestene se vedlegget [Detaljert behovsbilde](..\docs\Detaljert-behovsbilde.md)
