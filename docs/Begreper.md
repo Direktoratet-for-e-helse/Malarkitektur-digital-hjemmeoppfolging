@@ -21,8 +21,8 @@ title: Begreper
 |Felleskomponenter|Defineres som komponenter som kan gjenbrukes i flere IT-løsninger for å dekke felles behov. De kan brukes på tvers av e-helseløsninger, virksomheter og forvaltningsnivå, og kan enten være frivillig eller påkrevd å bruke.|
 |PIL|Pasientinformasjonslokalisator (PIL)
 |Samhandling|All form for kontakt, samarbeid og informasjonsutveksling på tvers av virksomheter med mål om å sikre riktig behandling og koordinerte tjenester. Samhandling kan skje på ulike måter, for eksempel gjennom meldinger, telefon, møter, brev, papirutskrifter som sendes med innbyggeren.|
-|Tillitsanker|--|
-|Tillitsmodell||
-|Tillitstjeneste||
+|Tillitsanker|Er en tillitsskapende tjeneste som fungerer som felles avtalepunkt i infrastrukturen for å etablere felles tillitsmodell|
+|Tillitsmodell|Modell for etablering og bruk av tillitskapende tjenester som gjør det mulig for ulike aktører å samhandle elektronisk samtidig som aktørene kan ha tillit til at krav om personvern og sikkerhet ivaretas av alle samhandlende parter|
+|Tillitsskapende tjeneste|Tjenester som inngår i tillitsmodell, eksempel HelseId og tillitsanker|
 |Tjeneste|I målarkitekturen representerer dette grunnleggende tekniske komponenter som aktørene i sektor kan benytte for å levere løsninger som understøtter ytelse av helsehjelp|
 |Tjenesteforløp|Et tjenesteforløp beskriver organisering og oppgaver knyttet til å yte helsetjenester til pasienter som følges med digital hjemmeoppfølging (kilde: sluttrapport fra nasjonal utprøving 2018-2021)| <!-- Tjenesteforløp er helt generelt og trenger ikke være knyttet til DHO, har du kilde her?-->
