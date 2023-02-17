@@ -59,9 +59,9 @@ Målgruppen for målarkitekturen er primært arkitekter og tekniske prosjektlede
 ### Leserveiledning
 <!-- GK: Kan vi gjøre det lettere for leseren, ved å strukturere innholdet i målarkitekturen slik at det er tydelig for leseren hvordan den bør leses, også uten å få med seg dette avsnittet? -->
 
-!!! info inline end "NB!"
+!!! info inline end "Merk"
 
-    NB! Deler av behovsbeskrivelsen er teknisk anlagt og vil være vanskelig tilgjengelig for lesere som ikke har inngående kjennskap til metoder for informasjonsarkitektur.
+    Deler av behovsbeskrivelsen er teknisk anlagt og vil være vanskelig tilgjengelig for lesere som ikke har inngående kjennskap til metoder for informasjonsarkitektur.
 
 Kapitlene som sorterer under *Prinsipper og metode* og *Kontekst for målarkitekturen* er å anse som bakgrunn, men er svært viktig for å forstå grunnlaget, innholdet og anbefalingene som beskrives i hoveddelen av målarkitekturen. Hoveddelen sorterer under *Behov* og *Anbefalinger datadeling*, denne delen beskriver fem sider knyttet til bruk av datadeling for samhandling mellom virksomheter og omsorgsnivå innenfor bruksområdet DHO.  
 
