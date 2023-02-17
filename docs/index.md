@@ -12,13 +12,20 @@ Direktoratet for e-helse har sammen med helse- og omsorgssektoren et [strategisk
 
     Økt, bedre og sikker digital samhandling på tvers av tjenestenivåer og øvrige sektorer
 
+## Hvorfor målarkitektur?
+
+Effektiv digital samhandling krever endrede prosesser og etablering av tekniske løsninger i mange virksomheter, derfor er det [målarkitekturens overordnede mål](Innledning.md#formalet-med-malarkitekturen) å koordinere innsatsen i helsesektoren slik at etableringen av datadeling blir så effektiv som mulig. Målarkitekturen skal bidra til koordineringen ved å dokumentere felles arkitekturvalg, felles behov og beskrive konsepter som kan benyttes til datadeling. Det er også viktig å beskrive det juridiske handlingsrommet som løsningene må fungere innenfor på kort sikt og peke på behov knyttet til regelverksutvikling hvis samhandlingsbehovene ikke kan dekkes innenfor gjeldende lover å regler.
+
 ## Kartlagte behov
 
 Som et ledd i arbeidet med målarkitekturen for datadeling innen DHO er [behovene for samhandling analysert](Behovsbilde.md). Virksomhetene som er involvert i å etablere tjenesteforløp som inneholder DHO tjenester peker spesielt på behovet for samhandling om felles planer, legemiddellister og målinger. Alle disse informasjonstjenestene vil dra nytte av økt digital samhandling i form av datadeling av strukturert informasjon mellom virksomheter og omsorgsnivå. Den foreløpige analysen peker også på at en rekke andre informasjonsbehov som er etterspurt i forbindelse med DHO understøttes best i form av samhandling i form av datadeling.
 
-## Hvorfor målarkitektur?
+Figuren under viser de viktigste aktørene og identifiserte informasjonsbehov.
 
-Siden effektiv digital samhandling krever at organisatoriske og tekniske løsninger etableres i mange virksomheter er det [målarkitekturens overordnede mål](Innledning.md#formalet-med-malarkitekturen) å koordinere innsatsen i helsesektoren slik at etableringen av datadeling blir så effektiv som mulig. Målarkitekturen skal bidra til koordineringen ved å dokumentere felles arkitekturvalg, felles behov og beskrive konsepter som kan benyttes til datadeling. Det er også viktig å beskrive det juridiske handlingsrommet som løsningene må fungere innenfor på kort sikt og peke på behov knyttet til regelverksutvikling hvis samhandlingsbehovene ikke kan dekkes innenfor gjeldende lover å regler.
+<figure markdown>
+  ![Aktører og samhandlignsbehov innen DHO](img/veikart-DHO.png){ width="500" }
+  <figcaption>Figuren illustrerer overordnet hvilke aktører som kan være involvert i tjenesteforløp som inkluderer DHO og eksempel på informasjon som er relevant å dele mellom aktørene.</figcaption>
+</figure>
 
 ## Bruk av datadeling
 

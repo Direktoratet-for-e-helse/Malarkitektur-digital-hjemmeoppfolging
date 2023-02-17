@@ -12,22 +12,13 @@ Innen digital hjemmeoppfølging (DHO) er behovet for datadeling spesielt stort. 
 
 ## Hva er Digital hjemmeoppfølging
 
-<!--Tror ikke vi skal bruke avstandsoppfølging og DHO om hverandre - ser ikke helt at dette avsnittet fungerer-->Digital hjemmeoppfølging handler om å følge opp, behandle og kommunisere med pasienter på nyte måter ved hjelp av ulike former for teknologistøtte.
+Digital hjemmeoppfølging handler om å følge opp, behandle og kommunisere med pasienter på nye måter ved hjelp av ulike former for teknologistøtte.
 
-!!! quote "I utprøvingen av digital hjemmeoppfølging fra 2018 - 2022 i Nasjonalt velferdsteknologiprogram ble det tatt utgangspunkt i følgende definisjon"
+!!! quote "Definisjon av Digital hjemmeoppfølging"
 
-    Avstandsoppfølging omfatter de aktiviteter/handlinger som muliggjør at pasienten, utenfor de tradisjonelle arenaer hvor pasienter møter helsepersonell, kan tilegne seg, registrere og dele klinisk relevant informasjon om sin helsetilstand elektronisk, med formål om å gi informasjon eller veiledning til pasientens egenmestring, og/eller gi beslutningsstøtte til diagnostisering, behandling eller oppfølging for helsepersonell.
+    Digital hjemmeoppfølging innebærer at hele eller deler av et behandlingstilbud foregår uten fysisk kontakt, der dialog og deling av data mellom pasient/bruker og behandler(e) skjer digitalt.
 
-Det er vesentlig at oppfølgingen ikke begrenses til der pasienten bor, men at digital hjemmeoppfølging også skal kunne benyttes andre steder, for eksempel på jobb, skole, institusjon, på reise og hos ulike helseaktører. Pasienten kan i prinsippet oppholde seg hvor som helst fysisk, men likevel kunne nå et avstandsbasert helsetilbud når det er forsvarlig. Figuren under viser de viktigste aktørene og noen av de relevant informasjon som kan benyttes i forbindelse med DHO. 
-
-<figure markdown>
-  ![Aktører og samhandlignsbehov DHO?](img/veikart-DHO.png){ width="500" }
-  <figcaption>Figuren illustrerer overordnet hvilke aktører som kan være involvert i tjenesteforløp som inkluderer DHO og eksempel på informasjon som er relevant å dele.</figcaption>
-</figure>
-
-I 2021 ble det i rapport fra de regionale helseforetakene foreslått følgende definisjon
-
-**Digital hjemmeoppfølging innebærer at hele eller deler av et behandlingstilbud foregår uten fysisk kontakt, der dialog og deling av data mellom pasient/bruker og behandler(e) skjer digitalt.** Arbeidet med målarkitekturen har fokus på oppfølging av pasienten basert på data fra pasienten, som vist i figuren under.  
+Det er vesentlig at oppfølgingen ikke begrenses til der pasienten bor, men at digital hjemmeoppfølging også kan benyttes andre steder, for eksempel på jobb, skole, institusjon, på reise og hos ulike helseaktører. Pasienten kan i prinsippet oppholde seg hvor som helst fysisk, men likevel kunne motta oppfølging fra helsetjenesten når det er forsvarlig. Arbeidet med målarkitekturen har fokus på oppfølging av pasienten basert på data fra pasienten, som vist i figuren under.  
 
 <figure markdown>
   [![Hva er DHO?](img/hva-er-DHO.png){ width="700" }](img/hva-er-DHO.png)
