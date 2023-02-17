@@ -39,9 +39,9 @@ I denne delen av målarkitekturen viser vi hvilke kapabilteter eller evner som m
 
 ### Samhandlingsprosessen
 
-Modellen *Kapabilitetskart koblet til samhandlingsprosess* viser overordnede roller og kapabiliteter rollene innehar. Rollene er igjen tilordnet delprosessene for samhandling: *Innhente informasjon*, *Produksjon av informasjon* og *Dele informasjon*. Rollene *Datakonsument*, *(Data)produsent* og *Datatilbyder* er knyttet til prosessene. Hvordan samhandlingsprosessen understøtter helsetjenesten og tjenesteforløpet er beskrevet i kapittelet [Tjenesteforløp og samhandling](Behovsbilde.md#tjenesteforløp-og-samhandling).
+Modellen *Kapabilitetskart koblet til samhandlingsprosess* viser overordnede roller og kapabiliteter rollene innehar. Rollene er igjen tilordnet delprosessene for samhandling: *Innhente informasjon*, *Produksjon av informasjon* og *Dele informasjon*. Rollene *Datakonsument*, *(Data)produsent* og *Datatilbyder* er knyttet til prosessene. Hvordan samhandlingsprosessen understøtter helsetjenesten og tjenesteforløpet er beskrevet i kapittelet [Tjenesteforløp og samhandling](Behovsbilde.md#tjenesteforlop-og-samhandling).
 
-Samhandling mellom virksomheter og omsorgsnivå kan foregå på flere måter, kapabilitetskartet viser kapabiliteter som er relevante for både datadeling, dokumentdeling, hendelsesstrømmer og meldingsutveksling. I forbindelse med tjenesteforløp i DHO er det mest relevante samhandlingsformen datadeling som understøttes av kapabilitetene "innhente data" og "avgi data". I tillegg er det behov for en rekke støttekapabilteter for å sette opp datadeling (få tilgang til data, tilgjengeliggjøre data, lokalisere relevante data og metadatapublisering)og noen kapabiliteter som bør realiseres som fellestjenester (tjenesteformidling, metadataformidling, delegere rettigheter og meldingsformidling).
+Samhandling mellom virksomheter og omsorgsnivå kan foregå på flere måter, kapabilitetskartet viser kapabiliteter som er relevante for både datadeling, dokumentdeling, hendelsesstrømmer og meldingsutveksling. I forbindelse med tjenesteforløp i DHO er det mest relevante samhandlingsformen datadeling som understøttes av kapabilitetene "innhente data" og "avgi data". I tillegg er det behov for en rekke forberedende kapabiliteter for å sette opp datadeling (få tilgang til data, tilgjengeliggjøre data, lokalisere relevante data og metadatapublisering)og noen kapabiliteter som bør realiseres som fellestjenester (tjenesteformidling, metadataformidling, delegere rettigheter og meldingsformidling).
 
 ![Kapabilitetskart prosess](img/kapabilitetskart-prosess.png)
 *Kapabilitetskart koblet til samhandlingsprosess*
@@ -54,13 +54,13 @@ En av delprosessene for *Samhandling* er produksjon av informasjon. *Produksjon 
 
 | Kapabilitet | Definisjon |
 |---|---|
-| Dokumentere | Dokumentere gjennomførte tiltak og begrunnelsen for tiltaket |
+| Dokumentere | Dokumentere gjennomførte tiltak og begrunnelsen for tiltak |
 | Informasjonsbehandling | Sammenstille og tolke informasjon fra interne og eksterne systemer |
 | Lagring | Lagre informasjon (dokumentasjon og metadata) |
 
 ### Tverrgående kapabiliteter
 
-Evnene i denne tabellen er ikke knyttet opp mot noen spesielle deler av prosessen, siden flere deler av prosessen eller roller har behov for disse.
+Evnene i denne tabellen er ikke knyttet opp mot noen spesielle roller i samhandlingsprosessen, siden flere deler av prosesser eller roller har behov for disse.
 
 | Kapabilitet | Definisjon |
 |---|---|
@@ -71,7 +71,7 @@ Evnene i denne tabellen er ikke knyttet opp mot noen spesielle deler av prosesse
 | Metadataformidling | Evnen til å formidle hvilken informasjon som er tilgjengelig fra en datakilde, det kan være nødvnendig å understøtte denne evnen me den fellestjeneste|
 | Tjenesteformidling | Evnen til å formidle informasjon om hvilke samhandlingstjenester som er tilgjengelig fra en datatilbyder, det kan være nødvendig å understøtte evnen med en fellestjeneste |
 
-Vi ser i denne modellen på kapabiliteten dialog som en selvstendig evne til samhandling hvor aktørene alltid inntar rollen som datakonsument og datatilbyder i samhandlingsprosessen og inngår i en jevnbyrdig dialog med en eller flere andre aktører. Dialog kan understøttes av en eller flere av kapabilitetene for samhandling. Dagens dialogmeldinger benytter for eksempel meldingsutveksling (sende, motta og meldingsformidling) for å opprette asynkron dialog mellom partene.
+Vi ser i denne modellen på kapabiliteten *dialog* som en selvstendig evne til samhandling hvor aktørene vanligvis inntar rollen som datakonsument og datatilbyder i samhandlingsprosessen og gjennomfører en tidsbegrenset dialog med en eller flere andre aktører. Dialog kan understøttes av en eller flere av kapabilitetene for samhandling. Dagens dialogmeldinger benytter for eksempel meldingsutveksling (sende, motta og meldingsformidling) for å gjennomføre asynkron dialog mellom aktørene.
 
 ### Kapabiliteter knyttet til samhandling
 
@@ -94,16 +94,16 @@ Evnene er knyttet til bruk av organisatoriske samhandlingsformer for å utveksle
 | Tilgjengeliggjøre data | Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet med eller uten krav til innlogget bruker ved hjelp av datadeling. Tilgangsstyring inngår her. Avgjøre hvilken informasjon som skal deles med andre gjennom en datadelingstjeneste. |
 | Visning | Evnen til å vise data til bruker |
 
-## Nødvendige informasjonstjenester
+## Realising av kapabilitetene
 
-I arbeidet med målarkitektur analyserer vi hvordan kapabiliteter kan realiseres av prosesser og hvordan disse prosessene bør understøttes av [informasjonstjenester](Informasjonstjeneste-meta.md). Vi ser også på sammenhenger mellom informasjonstjenestene som realiseres av virksomhetene som skal samhandle og tjenester som realiseres i felles infrastruktur.
+I behovsbildet har vi beskrevet og prioritert hvilke [informasjonstjenester](Informasjonstjeneste-meta.md) vi trenger for å understøtte relevante tjenesteforløp knyttet til DHO. I arbeidet med målarkitektur for samhandling DHO analyserer vi hvordan kapabiliteter kan realiseres av prosesser og ser hvilke applikasjonstjenester som må understøtte realiseringen. Vi ser også på sammenhengen mellom applikasjonstjenestene som realiseres av virksomhetene som skal samhandle og tjenester som realiseres i felles infrastruktur (fellestjenester).
 
 ### Informasjonstjenester
 
-Modellen *Sentrale informasjonstjenester knyttet til samhandling* viser hvordan informasjonstjenester, prosesser og funksjoner realiserer samhandlingsevnene vi pekte på i forrige kapittel. Hovedfokuset i den videre analysen blir de informasjonstjenestene som må realiseres for å understøtte de mest sentrale kapabilitetene knyttet til [datadeling](Organisatorisk-sla-opp.md).  
+Modellen *Sentrale prosesser knyttet til samhandling* viser hvordan prosesser, funksjoner og applikasjonstjenester sammen realiserer samhandlingsevnene vi pekte på i forrige kapittel. Hovedfokuset i den videre analysen er å beskrive prosessene som må realiseres for å understøtte de mest sentrale kapabilitetene knyttet til [datadeling](Organisatorisk-sla-opp.md).  
 
-![Informasjonstjenester knyttet til samhandling](img/tjenester-kapabiliteter.png)
-*Overordnet bilde av prosesser og informasjonstjenester som understøtter samhandling mellom virksomheter*
+![Prosesser knyttet til samhandling](img/tjenester-kapabiliteter.png)
+*Overordnet bilde av prosesser og applikasjonstjenester som understøtter samhandling mellom virksomheter*
 
 ### Samhandlingsformer
 
@@ -115,9 +115,9 @@ I denne delen av Målarkitekturen beskrives de mest sentrale prosessene for å k
 
 [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) (HITR 1231:2021) beskriver prosessene på dette området frem til faktisk datautveksling. Beskrivelsene som er tatt frem i HITR 1231:2021 handler hovedsaklig om sikring av datadelingstjenester, autentisering av brukere og dokumentasjon av tjenstlig behov, disse beskrivelsene blir ikke gjentatt her.  
 
-Det er flere problemstillinger knyttet til å faktisk understøtte utvekslingen av, bruken av og produksjonen av informasjon i forretningsprosessene hos datakonsumenter, dataprodusenter og datatilbydere som ikke er behandlet i detalj i HITR 1231:2021 som er fokus for målarkitekturen for datadeling innen DHO.
+Det er flere problemstillinger knyttet til å faktisk understøtte utvekslingen av, bruken av og produksjonen av informasjon i forretningsprosessene hos datakonsumenter, dataprodusenter og datatilbydere som ikke er behandlet i detalj i HITR 1231:2021. Beskrivelsen av hvordan samhandlingen henger sammen med faktiske forretningsprosesser og automatiserte tjenester i virksomheten er hovedfokus for målarkitekturen for datadeling innen DHO.
 
-![Overordnet bilde av prosesser og informasjonstjenester for samhandling](img/malarkitektur-datadeling.png)
+![Overordnet bilde av fellestjenester beskrevet i målarkitektur for datadeling](img/malarkitektur-datadeling.png)
 
 ### Tillitstjenester og tjenstlig behov
 
