@@ -4,14 +4,14 @@ title: Detaljert behovsbilde
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:gold">Work in progress</span> | v0.1 | draft  | ikke normert |
+| <span style="background-color:gold">Work in progress</span> | v0.7 | draft  | ikke normert |
 
 ## Kartlagte brukerbehov og funksjonelle krav
 
 For å understøtte tjenesteforløp der pasienter følges med digital hjemmeoppfølging på en effektiv måte er det identifisert en rekke brukerbehov som kan understøttes med bedre samhandlingsløsninger. Dette kapitelet oppsummerer de mest sentrale behovene og funksjonelle krav som kan utledes fra disse.
 
-### Hypotese knyttet til brukerbehov <!--Foreslår å flytte hypotesen til under tabellen slik at det er sammenheng i første avsnitt-->
-<!-- Jeg tenker litt motsatt. Løfte hypotesen opp, og i tillegg vurdere om vi har flere hypoteser som vi må vurdere i lys av innsikten behovene gir  -->
+### Hypotese knyttet til brukerbehov
+
 Hypotesen beskriver en antagelse som er fremkommet gjennom behovskartleggingen knyttet til DHO. Det ligger i hypotesens natur at den bør testes før målarkitekturen ferdigstilles. Det er foreløpig et åpent spørsmål hvordan disse hypotesen testes og om den kan testes som en del av utprøvingsprosjektene innen DHO.
 
 * Samhandlingsbehovet knyttet til tjenesteforløp med DHO integrert er størst regionalt
@@ -55,7 +55,7 @@ Tabellen under viser en oversikt over:
 |Pasient / pårørende|middels / kort|Det må være mulig for meg som pasient å se hvem som har tilgang til mine data for å ivareta mitt personvern.|Det må være lett for pasient å se hvem som har tilgang til mine data.|
 |Pasient / pårørende|høy / mellom|Jeg må være sikker på at relevant helsepersonell får tilgang til tilstrekkelig informasjon slik at jeg kan motta best mulig helsetilbud og at helsetjenesten iverksetter de beste tiltakene for å ivareta min helse.|Pasient skal ikke trenge å videreformidle informasjon mellom helsepersonell, det skal skje ved hjelp av datadeling på tvers.|
 
-## Roller i tjenesteforløp med digital hjemmeoppfølging <!--Kunne beskrivelsene av roller i pasientforløpet flyttes til bakgrunn - behov? Da kan vi fokusere på behov i dette kapittelet-->
+## Roller i tjenesteforløp med digital hjemmeoppfølging 
 
 Figuren viser en overordnet oversikt over roller som kan være involvert i DHO baserte tjenesteforløp. Denne rolleoversikten er basert på dialog med aktører fra kommune-, fastlege- og spesialisthelsetjenesten i to utprøvingsprosjekt, og vil derfor ikke være uttømmende.
 
@@ -70,7 +70,7 @@ Figuren viser en overordnet oversikt over roller som kan være involvert i DHO b
 | Helsepersonell | En person som er nevnt i helsepersonelloven § 3 defineres som helsepersonell. For det første omfattes de som har autorisasjon eller lisens etter&nbsp;helsepersonelloven §§ 48&nbsp;og&nbsp;49.&nbsp;Dernest omfattes personell i helse- og omsorgstjenesten eller i apotek som yter helsehjelp, og studenter og elever som yter helsehjelp i forbindelse med helsefaglig opplæring. Medhjelpere til helsepersonell er helsepersonell når de får tildelt oppgaver fra helsepersonell. (kilde Hdir) |
 | Helsepersonell fastlege | Samlebetegnelse for helsepersonell tilknyttet fastlegetjenesten. |
 | Fastlege | Lege som inngår avtale med en kommune om deltakelse i fastlegeordningen, uavhengig av om legen er ansatt i kommunen eller er selvstendig næringsdrivende. (kilde: Lovdata) |
-| Primærhelseteam <!--Ikke relevant hvis eksemplenme er LArvik, SIv - slik jeg leser figuren--> | Ivaretar daglig oppfølging av en pasient med DHO tjeneste på vegne av fastlegen (bare relevant i noen kommuner) |
+| Primærhelseteam | Ivaretar daglig oppfølging av en pasient med DHO tjeneste på vegne av fastlegen (bare relevant i noen kommuner) |
 | Helsestasjon for eldre |Drive forebyggende og helsefremmende arbeid, samt være et lavterskeltilbud med ansatte som har ulik helsefaglig bakgrunn og som jobber både i spesialist og primærhelsetjenesten|
 | Helsepersonell kommune | Samlebetegnelse for helsepersonell tilknyttet kommunal helse- og omsorgstjeneste |
 | Fysioterapeut | En fysioterapeut behandler og forebygger skader og sykdommer som gir smerte eller nedsatt funksjon i muskel- og skjelettsystemet (kilde utdanning.no) |
@@ -130,9 +130,7 @@ Tabellen under oppsummerer: <!--Tatt ut setning her da det sier det samme i kule
 | Dialog | Tekstlig dialog (IT10) og Video (IT11) |  | Raske avklaringer mellom behandlingsnivåene |  |  | Slå opp og tilgjengeliggjøre </br> Sende og motta </br> I tillegg er det behov for synkrone samhandlingsformer med både tale, tekst og video |  |  |
 | Vurderinger |  | Henger sammen med varsel og målinger, undersøkelser og funn |  |  |  |  |  |  |
 
-## Detaljer om målinger
-<!--Hva med vurderinger og varsel siden overskriften er målinger? -->
-<!-- thomiz SVAR: Hva med vurderinger og varsel? Er det et spørsmål her? -->
+## Målinger, vurderinger og varsel
 
 Målinger består av flere typer måleparametere som beskriver pasientens helsetilstand og som kan bidra til å støtte oppfølging av behandling og synliggjøre endring i tilstand. Figuren viser omfanget for deling av målinger i første fase av utprøving av datadeling ved bruk av velferdsteknologisk knutepunkt (VKP):
 
@@ -142,18 +140,15 @@ Målinger kan lagres og vises direkte eller fungere som grunnlag for andre arbei
 
 ![Sammenheng med andre informasjonstjenester](https://user-images.githubusercontent.com/6229665/201674806-5f79126a-2505-4629-83af-69888656f6f9.png)
 
-* Målinger kan legges til i journaldokumenter og journalføres (strukturert eller ustrukturert)
-* Hvilke målinger som skal gjennomføres kan styres gjennom egenbehandlingsplanen for pasienten
-* Målinger kan inneholde varsel om at målingen ligger utenfor referanseverdien
+* Målinger kan legges til i journaldokumenter og journalføres (strukturert eller ustrukturert).
+* Hvilke målinger som skal gjennomføres kan styres gjennom egenbehandlingsplanen for pasienten.
+* Målingen kan inneholde vurdering av målingen, for eksempel i forhold til om en gitt måling er innenfor referanseverdiene for denne målingen for denne pasienten.
+* Målinger kan inneholde eller være knyttet til varsel om at målingen ligger utenfor referanseverdien.
 
 ## Detaljer om egenbehandlingsplan og behandlingsplan
 
-Helsepersonell har uttrykt behov for samarbeid om utarbeidelse og oppfølging av behandlingsplaner og egenbehandlingsplaner. Et slikt samarbeid må fungere med pasient og mellom virksomheter og omsorgsnivå og forutsetter en felles kilde til planen. I tjenesteforløp som inkluderer digital hjemmeoppfølging er det stort behov for koordinering. Dette handler om at pasientene ofte er i kontakt med ulike deler av helsetjenesten og trenger tett oppfølging knyttet til egen sykdom, diagnoser, funksjon og oppfølging av symptomer.
-<!-- Det er etterspurt beskrivelse over sammenhenger mellom behandling/egenbehandlingsplan og målarkitekturen -->
+Helsepersonell har uttrykt behov for samarbeid om utarbeidelse og oppfølging av behandlingsplaner og egenbehandlingsplaner. Et slikt samarbeid må fungere med pasient og mellom virksomheter og omsorgsnivå og forutsetter en felles kilde til planen. I tjenesteforløp som inkluderer digital hjemmeoppfølging er det stort behov for koordinering. Dette handler om at pasientene ofte er i kontakt med ulike deler av helsetjenesten og trenger tett oppfølging knyttet til egen sykdom, diagnoser, funksjon og oppfølging av symptomer.  
 
 ## Detaljer om Pasientens legemiddelliste
-Helsepersonell som følger opp pasienter i tjenesteforløp der DHO inkluderes etterspør tilgang til en felles legemiddelliste. Tilgang til en felles liste for helsepersonell som følger opp og veileder pasienten kan bidra til å sikre god kvalitet ved behandling med legemidler. Program pasientens legemiddelliste vil etablere en felles digital oversikt over pasientens legemidler, pasientens legemiddelliste (PLL) og PLL vil bli realisert gradvis. 
-<!-- Skrive noe om dialogtjenester hvsi tanken er å si noe om de mest prioriterte i informasjonstjenestene -->
-<!-- thomiz SVAR: Beskrivelse av utvikling av dialogtjenester må komme på et senere tidspunkt, en annen leveranse -->
 
-<!-- Det er etterspurt beskrivelse over sammenhenger mellom pasientens legemiddelliste og målarkitekturen -->
+Helsepersonell som følger opp pasienter i tjenesteforløp der DHO inkluderes etterspør tilgang til en felles legemiddelliste. Tilgang til en felles liste for helsepersonell som følger opp og veileder pasienten kan bidra til å sikre god kvalitet ved behandling med legemidler. Program pasientens legemiddelliste vil etablere en felles digital oversikt over pasientens legemidler, pasientens legemiddelliste (PLL) og PLL vil bli realisert gradvis.  
