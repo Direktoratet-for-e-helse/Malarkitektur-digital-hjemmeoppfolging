@@ -66,6 +66,7 @@ Målarkitekturen skal beskrive behov for samhandling og informasjonstjenester so
 Figuren viser en oversikt over identifiserte informasjonsbehov i forbindelse med DHO:
 
 [![Identifiserte informasjonsbehov](img/informasjonsbehov-enkel.png)](img/informasjonsbehov-enkel.png)
+*Identifiserte informasjonsbehov*
 
 ### Data fra pasient og informasjonstjenester
 
@@ -104,8 +105,13 @@ Her vises i prioritert rekkefølge de informasjonstjenestene som er mest ettersp
 I tillegg er det en rekke andre informasjonstjenester som er høyt prioritert av tjenesten, det er noen viktige sammenhenger mellom informasjonstjenestene som vises i figuren:
 
 [![Sammenhenger informasjonsbehov](img/informasjonsbehov-sammenhenger.png)](img/informasjonsbehov-sammenhenger.png)
+*Viktige sammenhenger mellom informasjonsbehov og informasjonskategorier*
 
-Det utvikles samhandlingsløsninger knyttet til behov for [digitale behandlings- og egenbehandlingsplaner](https://www.helsedirektoratet.no/om-oss/forsoksordninger-og-prosjekter/digital-behandlings-og-egenbehandlingsplan) og [legemiddelliste](https://www.ehelse.no/prosjekt/program-pasientens-legemiddelliste) gjennom egne initiativ. <!--Kan vi ha den sistet setningen uthevet i en boks slik det er gjort i avsnittet over for å tydeliggjøre hva vi jobber med nå som et første steg-->Det er derfor besluttet at de viktigste tjenestene å utvikle samhandlingsløsninger for i DHO arbeidet nå som et første steg handler om Målinger, vurderinger og Varsel. Dette er informasjonstjenester som etterspørres fra mange virksomheter og alle omsorgsnivå i flere geografiske regioner.
+Det utvikles samhandlingsløsninger knyttet til behov for [digitale behandlings- og egenbehandlingsplaner](https://www.helsedirektoratet.no/om-oss/forsoksordninger-og-prosjekter/digital-behandlings-og-egenbehandlingsplan) og [legemiddelliste](https://www.ehelse.no/prosjekt/program-pasientens-legemiddelliste) gjennom egne initiativ.  
+
+!!! note "Prioritering av målinger, vurderinger og varsel"
+
+    Basert på behovsarbeidet er det besluttet at første steg i å videreutvikle samhandlingstjenestene knyttet til DHO prioriterer utveksling av Målinger, vurderinger og Varsel. Dette er informasjonstjenester som etterspørres fra mange virksomheter og alle omsorgsnivå i flere geografiske regioner.
 
 ### Detaljert behovsbeskrivelse
 
