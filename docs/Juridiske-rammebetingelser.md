@@ -31,21 +31,22 @@ Vi har særlig vurdert følgende spørsmål som påvirker hvilke konsepter og l�
    * Avklarer hvorvidt datadelingsløsninger kan etableres for en dataansvarlig av en tredjepart, der behandling av helseopplysninger er regulert av en databehandleravtale, eller om virksomheten er bundet til å håndtere alle funksjoner knyttet til datadeling innenfor egen infrastruktur og med en teknisk komponent for å lagre helseopplysningene.
 3. Målarkitekturen for datadeling forutsetter at det opprettes en sentral komponent for å lokalisere data om en pasient kalt Pasientinformasjonslokalisator (PIL) for at datadeling mellom mange datadelingsløsninger skal fungere. Det er i dag ikke rettslig grunnlag for å etablere en PIL-komponent med sentral sammenstilling av informasjon, dette krever forskriftsendring. Regional PIL-komponenent kan etableres innenfor gjeldende rett (?).
 
+### Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)
 
-### Nasjonal sentral datadelingsløsning med lagring
-
-![Nasjonal sentral datadelingsløsning](img/sentral-kopi.png)
-
-### Juridisk
-Med dagens regelverk kan det ikke opprettes et eget nasjonalt behandlingsrettet helseregister uten at det gis egen forskrift for dette hjemlet i pasientjournalloven §10, eller at det etableres selvstendig hjemmelsbestemmelse for et nytt register i pasientjournalloven.
-Informasjonen som eventuelt skulle lagres i det nasjonale registeret er heller ikke sammenfallende med innholdet i eksisterende nasjonale løsninger, som f.eks kjernejournal eller e-resept. Det er derfor ikke mulig å benytte noen av disse reglene for disse løsningene som grunnlag for et nasjonalt register for datadeling innen DHO. 
-
-### Regionale datadelingsløsninger med lagring
-
-![Regionale datadelingsløsninger](img/regional-datadeling.png)
+![Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)](img/distribuert.png)
 
 ### Juridisk
-Ettersom dette konseptet forutsetter at også de lokale registrene videreføres, kan ikke et §9-samarbeid benyttes for å hjemle et felles sentralisert register  med hovedformål å tilgjengeliggjøre informasjon mellom virksomhetene i det regionale samarbeidet.
+Virksomhetene kan selv etablere datadelingsløsninger for tilgjengeliggjøring av pasientinformasjon fra egne interne systemer til klinikere  i andre virksomheter som har tjenstlig behov for informasjonen. Forutsetningen er at dette kan skje innenfor rammen av pasientjournalloven § 19, slik at hensynet til taushetsplikt, personvern og informasjonssikkerhet ivaretas. 
+Det er usikkert hvordan PIL kan/skal etableres. Pasientjournalloven § 10 åpner for å gi forskrift om sentraliserte  infrastrukturkomponenter for å støtte samhandlingen. Bestemmelsen i seg selv er ikke tilstrekkelig.
+
+### Distribuerte datadelingsløsninger (i sentral infrastruktur) (uavklart)
+
+![Distribuerte datadelingsløsninger (i sentral infrastruktur)](img/distribuert-sentral.png)
+
+### Juridisk
+Virksomhetene kan velge å benytte en tredjepart  (databehandler) som tilbyr datadelingsløsning i stedet for å etablere dette selv. Forutsetningen er som over at dette kan skje innenfor rammen av pasientjournalloven § 19, slik at hensynet til taushetsplikt, personvern og informasjonssikkerhet ivaretas. 
+Videre er det er en juridisk forutsetning at informasjonen fra hver virksomhet ikke sammenstilles med informasjon fra andre virksomheter i den sentrale infrastrukturen (hos databehandler), men at løsningene for lagring og grensesnittene etableres som logisk adskilte løsninger for hver virksomhet. Behandlingen av helseopplysninger i sentral infrastruktur må reguleres av en databehandleravtale mellom den enkelte virksomheten og leverandøren av infrastrukturen.
+Som for en ren distribuert modell er det tilsvarende usikkerhet knytte til hvordan PIL kan/skal etableres.
 
 
 ### Regionale fellesløsninger
@@ -59,22 +60,19 @@ o	Hvordan blir det mht kommunikasjon utover fellesløsningen?
 o	Hva med PIL?
 
 
-### Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)
+### Regionale datadelingsløsninger med lagring
 
-![Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)](img/distribuert.png)
-
-### Juridisk
-Virksomhetene kan selv etablere datadelingsløsninger for tilgjengeliggjøring av pasientinformasjon fra egne interne systemer til klinikere  i andre virksomheter som har tjenstlig behov for informasjonen. Forutsetningen er at dette kan skje innenfor rammen av pasientjournalloven § 19, slik at hensynet til taushetsplikt, personvern og informasjonssikkerhet ivaretas. 
-Det er usikkert hvordan PIL kan/skal etableres. Pasientjournalloven § 10 åpner for å gi forskrift om sentraliserte  infrastrukturkomponenter for å støtte samhandlingen. Bestemmelsen i seg selv er ikke tilstrekkelig.
-
-
-### Distribuerte datadelingsløsninger (i sentral infrastruktur) (uavklart)
-
-![Distribuerte datadelingsløsninger (i sentral infrastruktur)](img/distribuert-sentral.png)
+![Regionale datadelingsløsninger](img/regional-datadeling.png)
 
 ### Juridisk
-Virksomhetene kan velge å benytte en tredjepart  (databehandler) som tilbyr datadelingsløsning i stedet for å etablere dette selv. Forutsetningen er som over at dette kan skje innenfor rammen av pasientjournalloven § 19, slik at hensynet til taushetsplikt, personvern og informasjonssikkerhet ivaretas. 
-Videre er det er en juridisk forutsetning at informasjonen fra hver virksomhet ikke sammenstilles med informasjon fra andre virksomheter i den sentrale infrastrukturen (hos databehandler), men at løsningene for lagring og grensesnittene etableres som logisk adskilte løsninger for hver virksomhet. Behandlingen av helseopplysninger i sentral infrastruktur må reguleres av en databehandleravtale mellom den enkelte virksomheten og leverandøren av infrastrukturen.
-Som for en ren distribuert modell er det tilsvarende usikkerhet knytte til hvordan PIL kan/skal etableres.
+Ettersom dette konseptet forutsetter at også de lokale registrene videreføres, kan ikke et §9-samarbeid benyttes for å hjemle et felles sentralisert register  med hovedformål å tilgjengeliggjøre informasjon mellom virksomhetene i det regionale samarbeidet.
 
+
+### Nasjonal sentral datadelingsløsning med lagring
+
+![Nasjonal sentral datadelingsløsning](img/sentral-kopi.png)
+
+### Juridisk
+Med dagens regelverk kan det ikke opprettes et eget nasjonalt behandlingsrettet helseregister uten at det gis egen forskrift for dette hjemlet i pasientjournalloven §10, eller at det etableres selvstendig hjemmelsbestemmelse for et nytt register i pasientjournalloven.
+Informasjonen som eventuelt skulle lagres i det nasjonale registeret er heller ikke sammenfallende med innholdet i eksisterende nasjonale løsninger, som f.eks kjernejournal eller e-resept. Det er derfor ikke mulig å benytte noen av disse reglene for disse løsningene som grunnlag for et nasjonalt register for datadeling innen DHO. 
 
