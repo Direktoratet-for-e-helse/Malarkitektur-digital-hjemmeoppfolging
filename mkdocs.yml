@@ -4,7 +4,7 @@ repo_name: Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging
 nav:
     - Sammendrag: index.md
     - Innledning: 
-      - Innledning.md
+      - innledning/index.md
       - Metode og forvaltning: Metode-og-forvaltning.md
       - Sammenheng med annet arkitekturarbeid: Sammenheng.md
       - Målbilde for DHO og velferdsteknologiprogrammet: Overordnet-maalbilde.md
