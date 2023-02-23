@@ -37,7 +37,7 @@ Samhandlingstjenester i behandlingsforløp der digital hjemmeoppfølging benytte
 
 Som en ramme for behovskartlegging beskrives generelle prosesstrinn som de fleste tjenesteforløp gjennomgår. Et tjenesteforløp beskriver organisering og oppgaver knyttet til å yte helsetjenester til pasienter som følges med digital hjemmeoppfølging. Prosesstrinnene er angitt på overordnet nivå og har som formål å knytte samhandlingsbehovene til et <!--Er det her ment å knytte til et behandlingsforløp eller tjenesteforløp? Hele denne innledende teksten må endres når vi er enige om begrepsbruk og innholdet-->generelt tjenesteforløp/pasientforløp. De overordnede prosesstrinnene kan spesifiseres ved behov for å synliggjøre hvordan samhandlingen understøtter mer spesifikke tjenesteforløp. Ved analyse av samhandlingsbehovene konsentrerer vi oss om hvordan tjenesteforløpet kan understøttes med nye eller endrede samhandlingsløsninger og det meste av arbeidet vil derfor handle om prosessene for **samhandling**. Vi tar utgangspunkt i en generell prosess for tjenesteforløpet i helsetjenesten (for eksempel knyttet til DHO) i figuren under.
 
-![Prosess for tjenesteforløp og samhandling](img/tjenesteforlop-og-samhandling.png)
+![Prosess for tjenesteforløp og samhandling](../img/tjenesteforlop-og-samhandling.png)
 
 I tillegg til behovskartlegging knyttet til [utprøvings- og sprednings-prosjekter](Bakgrunn-behov.md) er den generelle beskrivelsen av  tjenesteforløpet basert på Helsedirektoratets anbefalinger knyttet til [Utvikling av helhetlige tjenesteforløp](https://www.helsedirektoratet.no/rapporter/digital-hjemmeoppfolging-sluttrapport-fra-nasjonal-utproving-2018-2021/utvikling-av-helhetlige-tjenesteforlop).
 
@@ -65,7 +65,7 @@ Målarkitekturen skal beskrive behov for samhandling og informasjonstjenester so
 
 Figuren viser en oversikt over identifiserte informasjonsbehov i forbindelse med DHO:
 
-[![Identifiserte informasjonsbehov](img/informasjonsbehov-enkel.png)](img/informasjonsbehov-enkel.png)
+[![Identifiserte informasjonsbehov](../img/informasjonsbehov-enkel.png)](../img/informasjonsbehov-enkel.png)
 *Identifiserte informasjonsbehov*
 
 ### Data fra pasient og informasjonstjenester
@@ -104,7 +104,7 @@ Her vises i prioritert rekkefølge de informasjonstjenestene som er mest ettersp
 
 I tillegg er det en rekke andre informasjonstjenester som er høyt prioritert av tjenesten, det er noen viktige sammenhenger mellom informasjonstjenestene som vises i figuren:
 
-[![Sammenhenger informasjonsbehov](img/informasjonsbehov-sammenhenger.png)](img/informasjonsbehov-sammenhenger.png)
+[![Sammenhenger informasjonsbehov](../img/informasjonsbehov-sammenhenger.png)](../img/informasjonsbehov-sammenhenger.png)
 *Viktige sammenhenger mellom informasjonsbehov og informasjonskategorier*
 
 Det utvikles samhandlingsløsninger knyttet til behov for [digitale behandlings- og egenbehandlingsplaner](https://www.helsedirektoratet.no/om-oss/forsoksordninger-og-prosjekter/digital-behandlings-og-egenbehandlingsplan) og [legemiddelliste](https://www.ehelse.no/prosjekt/program-pasientens-legemiddelliste) gjennom egne initiativ.  
