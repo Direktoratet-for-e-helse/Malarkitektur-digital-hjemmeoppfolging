@@ -27,7 +27,7 @@ nav:
       - Hva er kapabiliteter: Kapabiliteter.md
       - Informasjonstjeneste - metamodell: Informasjonstjeneste-meta.md
     - Innspill til målarkitekturen:
-      - Tilbakemeldinger og innspill: Tilbakemeldinger-innspill.md
+      - innspill/index.html
       - Status for dokumentet: https://direktoratet-for-e-helse.github.io/Common-metadata/
 theme:
   name: material
