@@ -9,12 +9,12 @@ nav:
       - Sammenheng med annet arkitekturarbeid: Sammenheng.md
       - Målbilde for DHO og velferdsteknologiprogrammet: Overordnet-maalbilde.md
     - Behov: 
-      - behov/index.html
+      - behov/index.md
       - Bakgrunn for behov: Bakgrunn-behov.md
     - Krav og anbefalinger: 
-      - kravoganbefalinger/index.html
+      - kravoganbefalinger/index.md
     - Referanser: 
-      - referanser/index.html
+      - referanser/index.md
     - Vedlegg:
       - Begreper: Begreper.md
       - Arkitekturprinsipper: Arkitekturprinsipper.md
@@ -27,7 +27,7 @@ nav:
       - Hva er kapabiliteter: Kapabiliteter.md
       - Informasjonstjeneste - metamodell: Informasjonstjeneste-meta.md
     - Innspill til målarkitekturen:
-      - innspill/index.html
+      - innspill/index.md
       - Status for dokumentet: https://direktoratet-for-e-helse.github.io/Common-metadata/
 theme:
   name: material

@@ -10,7 +10,7 @@ En målarkitektur er en fremtidig, ønsket tilstand. Det er naturlig å ha en st
 
 ## Hvor passer dette produktet inn
 
-Utover behovskarbeidet som er gjennomført i forbindelse med spredning og utprøving av DHO prosjekter baserer målarkitekturen seg spesielt på eksisterende arkitekturarbeid fra Direktoratet for e-helse samt behovsarbeidet som er gjennomført i forbindelse med helhetlig samhandling. Referanser til dette arbeidet finnes i [referansekapitelet](referanser/index.html)
+Utover behovskarbeidet som er gjennomført i forbindelse med spredning og utprøving av DHO prosjekter baserer målarkitekturen seg spesielt på eksisterende arkitekturarbeid fra Direktoratet for e-helse samt behovsarbeidet som er gjennomført i forbindelse med helhetlig samhandling. Referanser til dette arbeidet finnes i [referansekapitelet](referanser/index.md)
 
 * Målarkitekturen for datadeling DHO bygger på relevante referansearkitektur og målarkitektur, spesielt relevant er:
   * [Referansearkitektur for datadeling](https://www.ehelse.no/standardisering/standarder/referansearkitektur-for-datadeling)
