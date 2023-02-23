@@ -9,7 +9,7 @@ nav:
       - Sammenheng med annet arkitekturarbeid: Sammenheng.md
       - Målbilde for DHO og velferdsteknologiprogrammet: Overordnet-maalbilde.md
     - Behov: 
-      - Behovsbilde.md
+      - behov/index.html
       - Bakgrunn for behov: Bakgrunn-behov.md
     - Krav og anbefalinger: 
       - Malarkitektur-samhandling.md

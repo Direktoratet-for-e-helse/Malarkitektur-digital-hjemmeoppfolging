@@ -56,7 +56,7 @@ Målgruppen for målarkitekturen er primært arkitekter og tekniske prosjektlede
 
 Kapitlene som sorterer under *Prinsipper og metode* og *Kontekst for målarkitekturen* er å anse som bakgrunn, men er svært viktig for å forstå grunnlaget, innholdet og anbefalingene som beskrives i hoveddelen av målarkitekturen. Hoveddelen sorterer under *Behov* og *Anbefalinger datadeling*, denne delen beskriver fem sider knyttet til bruk av datadeling for samhandling mellom virksomheter og omsorgsnivå innenfor bruksområdet DHO.  
 
-* [Overordnet behovsbilde](Behovsbilde.md) beskriver overordnede brukerhistorier, behov og informasjonstjenester som kan understøtte behovene
+* [Overordnet behovsbilde](behov/index.html) beskriver overordnede brukerhistorier, behov og informasjonstjenester som kan understøtte behovene
 * [Konsepter realisering](Konsepter-realisering.md) beskriver konseptene som er vurdert for å etablere datadeling
 * [Juridiske rammebetingelser](Juridiske-rammebetingelser.md) beskriver det juridiske handlingsrommet for å etablere datadeling ved å oppsummere de relevante juridiske rammene som dagens lover og regler oppstiller for de vurderte konseptene for datadeling
 * [Målarkitektur samhandling DHO](Malarkitektur-samhandling.md) beskriver det arkitekturtekniske underlaget for hvilke kapabiliteter og informasjonstjenester som bør realiseres, samt de grunnleggende prosessene og funksjonene virksomhetene må etablere for å realisere og forvalte effektive datadelingstjenester.
