@@ -35,7 +35,7 @@ I denne delen av målarkitekturen viser vi hvilke kapabilteter eller evner som m
 
 !!! note "Bruk av kapabiliteter i planleggingen"
 
-    I denne delen av målarkitekturen tar vi utgangspunkt i en overordnet oversikt over kapabiliteter for å beskrive behovene for samhandlingstjenester. Motivasjonen bak denne metoden er beskrevet i [vedlegget](Kapabiliteter.md).
+    I denne delen av målarkitekturen tar vi utgangspunkt i en overordnet oversikt over kapabiliteter for å beskrive behovene for samhandlingstjenester. Motivasjonen bak denne metoden er beskrevet i [vedlegget](../Kapabiliteter.md).
 
 ### Samhandlingsprosessen
 
@@ -100,7 +100,7 @@ I behovsbildet har vi beskrevet og prioritert hvilke [informasjonstjenester](Inf
 
 ### Informasjonstjenester
 
-Modellen *Sentrale prosesser knyttet til samhandling* viser hvordan prosesser, funksjoner og applikasjonstjenester sammen realiserer samhandlingsevnene vi pekte på i forrige kapittel. Hovedfokuset i den videre analysen er å beskrive prosessene som må realiseres for å understøtte de mest sentrale kapabilitetene knyttet til [datadeling](Organisatorisk-sla-opp.md).  
+Modellen *Sentrale prosesser knyttet til samhandling* viser hvordan prosesser, funksjoner og applikasjonstjenester sammen realiserer samhandlingsevnene vi pekte på i forrige kapittel. Hovedfokuset i den videre analysen er å beskrive prosessene som må realiseres for å understøtte de mest sentrale kapabilitetene knyttet til [datadeling](../Organisatorisk-sla-opp.md).  
 
 ![Prosesser knyttet til samhandling](../img/tjenester-kapabiliteter.png)
 *Overordnet bilde av prosesser og applikasjonstjenester som understøtter samhandling mellom virksomheter*
