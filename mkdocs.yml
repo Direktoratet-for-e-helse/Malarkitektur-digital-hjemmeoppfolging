@@ -16,6 +16,7 @@ nav:
     - Referanser: 
       - referanser/index.md
     - Vedlegg:
+      - vedlegg/index.md
       - Begreper: Begreper.md
       - Arkitekturprinsipper: Arkitekturprinsipper.md
       - Juridiske vurderinger: Juridiske-rammebetingelser.md
