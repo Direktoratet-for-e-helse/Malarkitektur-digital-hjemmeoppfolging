@@ -48,7 +48,6 @@ Målarkitekturen skal bidra til:
 Målgruppen for målarkitekturen er primært arkitekter og tekniske prosjektledere, men er også relevant for beslutningstagere, prosjektledere, helsepersonell og utviklere innen helse- og omsorgssektoren.
 
 ### Leserveiledning
-<!-- GK: Kan vi gjøre det lettere for leseren, ved å strukturere innholdet i målarkitekturen slik at det er tydelig for leseren hvordan den bør leses, også uten å få med seg dette avsnittet? -->
 
 !!! info inline end "Merk"
 
@@ -137,4 +136,15 @@ I utprøving og spredningsaktivitetene prøver virksomhetene å etablere faktisk
 
 Målarkitektur datadeling DHO er fokusert på brukstilfellet "samhandling mellom helsepersonell på tvers av virksomheter" og dette er en utvidelse av den eksisterende målarkitetkuren for datadeling i helse- og omsorgssektoren som beskriver brukstilfellene for helsepersonell og innbygger sin bruk av fellestjenester.
 
-Målarkitekturen vil følge [forvaltningsmodellen for normerende produkter](https://www.ehelse.no/standardisering/standarder/forvaltningsmodell-for-normerende-produkter-fra-direktoratet-for-e-helse) fra Direktoratet for e-helse, for å sikre at målarkitekturen oppdateres jevnlig. Ved å høste erfaringer fra utprøvingsprosjekter og aktiviteter i helse- og omsorgssektoren vil Direktoratet for e-helse jobbe videre med å utvikle felles rammer for datadeling i helsesektoren.
+Målarkitekturen vil følge [forvaltningsmodellen for normerende produkter](https://www.ehelse.no/standardisering/standarder/forvaltningsmodell-for-normerende-produkter-fra-direktoratet-for-e-helse) fra Direktoratet for e-helse, for å sikre at målarkitekturen oppdateres jevnlig. Ved å høste erfaringer fra utprøvingsprosjekter og aktiviteter i helse- og omsorgssektoren vil Direktoratet for e-helse jobbe videre med å utvikle felles rammer for datadeling i helsesektoren.  
+
+## Sammenheng med annet arkitekturarbeid
+
+Utover behovsarbeidet som er gjennomført i forbindelse med spredning og utprøving av DHO prosjekter baserer målarkitekturen seg spesielt på eksisterende arkitekturarbeid fra Direktoratet for e-helse samt behovsarbeidet som er gjennomført i forbindelse med helhetlig samhandling. Referanser til dette arbeidet finnes i [referansekapitelet](referanser/index.md)
+
+* Målarkitekturen for datadeling DHO bygger på relevante referansearkitektur og målarkitektur, spesielt relevant er:
+  * [Referansearkitektur for datadeling](https://www.ehelse.no/standardisering/standarder/referansearkitektur-for-datadeling)
+  * [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) 
+    * Målarkitektur for datadeling innen DHO videreutvikler og konkretiserer målarkitekturen for datadeling kan anvendes innen for DHO området
+
+Når det gjelder løsningsarkitektur så beskriver målarkitekturen rammebetingelser for hvordan løsninger innen DHO, som benytter datadeling som samhandlingsform, kan utvikles for å løse samhandlingsutfordringer innenfor gjeldende rett. Dette begrenser seg til beskrivelse av evner som må etableres og prosesser som kan realiere disse evnene. Målarkitekturen beskriver ikke hvordan løsningene skal realiseres i form av konkrete applikasjons- eller tekniske-komponenter.
