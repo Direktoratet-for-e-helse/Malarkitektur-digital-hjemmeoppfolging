@@ -253,7 +253,7 @@ Konseptet løser behovet virksomhetene i samarbeider har for datadeling gjennom 
 
 Ved etablering av sentral nasjonal datadelingsløsning baserer vi oss på at informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagres i sentral infrastruktur hos NHN (eller annen leverandør) samtidig som den eksisterer i relevante fagsystem hos den enkelte virksomheten for å ivareta dokumentasjonsplikten. Virksomhetene kan da gjennomføre søk mot en felles nasjonal tjeneste som tilbys og driftes av NHN.
 
-![Nasjonal sentral datadelingsløsning med lagring](img/konsept-sentral.png)
+![Nasjonal sentral datadelingsløsning med lagring](img/sentral-kopi.png)
 *Nasjonal sentral kopilagring og datadelingsløsning*
 
 #### Vurdering
