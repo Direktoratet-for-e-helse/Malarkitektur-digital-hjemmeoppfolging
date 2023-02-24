@@ -4,7 +4,7 @@ title: Målarkitektur samhandling DHO
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:gold">Work in progress</span> | v0.8 | review  | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span> | v0.8 | review  | ikke normert |
 
 ## Samhandling mellom helsepersonell på tvers av virksomheter
 

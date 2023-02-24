@@ -4,7 +4,7 @@ title: Juridiske vurderinger
 
 | Status           | Version | Maturity | Normative level |
 | :--------------- | :------ | :------- | :-------------- |
-| <span style="background-color:gold">Work in progress</span> | v0.5 | draft | ikke normert |
+| <span style="background-color:gold">Prerelease</span> | v0.8 | draft | ikke normert |
 
 ## Innledning
 

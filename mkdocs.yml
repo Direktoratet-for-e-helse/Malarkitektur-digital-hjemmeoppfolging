@@ -2,7 +2,8 @@ site_name: Målarkitektur datadeling Digitial hjemmeoppfølging
 repo_url: https://github.com/Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging
 repo_name: Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging
 nav:
-    - Sammendrag: index.md
+    - Sammendrag: 
+      - index.md
     - Innledning: 
       - innledning/index.md
       - Metode og forvaltning: Metode-og-forvaltning.md
