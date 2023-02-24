@@ -4,7 +4,7 @@ title: Begreper
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:BlueViolet">Prerelease</span> | v0.8 | draft  | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span> | v0.8 | review  | ikke normert |
 
 ## Liste over sentrale begreper som benyttes i målarkitekturen  
 
