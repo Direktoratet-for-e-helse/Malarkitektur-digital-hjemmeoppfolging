@@ -797,6 +797,26 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#malarkitektur-for-datadeling" class="md-nav__link">
+    Målarkitektur for datadeling
+  </a>
+  
+    <nav class="md-nav" aria-label="Målarkitektur for datadeling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vurdering-av-konsept" class="md-nav__link">
+    Vurdering av konsept
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#kapabilitetskart" class="md-nav__link">
     Kapabilitetskart
   </a>
@@ -876,26 +896,6 @@
           <li class="md-nav__item">
   <a href="#tillitstjenester-og-tjenstlig-behov" class="md-nav__link">
     Tillitstjenester og tjenstlig behov
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#anbefalt-konsept-for-realisering-av-datadeling" class="md-nav__link">
-    Anbefalt konsept for realisering av datadeling
-  </a>
-  
-    <nav class="md-nav" aria-label="Anbefalt konsept for realisering av datadeling">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#anbefaling" class="md-nav__link">
-    Anbefaling
   </a>
   
 </li>
@@ -1027,6 +1027,17 @@ Behovsanalysen til konseptvalgutredningen for nasjonal journalløsning for kommu
 <p class="admonition-title">Info</p>
 <p>Innholdet i denne delen bygger direkte på eksisterende rammeverk beskrevet i <a href="https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren">Målarkitektur for datadeling i helse og omsorgssektoren</a> og <a href="https://www.ehelse.no/standardisering/standarder/referansearkitektur-for-datadeling">Referansearkitektur for datadeling</a>. Kapitelet forutsetter kjennskap til de tekniske delene av disse arbeidene. Kapitelet egner seg hovedsaklig for arkitekter og tekniske personer som ønsker å forstå bakgrunnen for arkitekturvalgene som gjøres i målarkitekturen.</p>
 </div>
+<h2 id="malarkitektur-for-datadeling">Målarkitektur for datadeling</h2>
+<p>Basert på  arkitekturvurderingene i dette kapittelet kombinert med identifiserte <a href="../behov/">behov</a>, <a href="../Juridiske-rammebetingelser/">juridiske vurderinger</a> og <a href="../Konsepter-realisering/">vurderte konsepter for realisering</a> anbefaler vi en fleksibel modell for å realisere datadeling mellom virksomhetene i helsesektoren.</p>
+<p><strong>Behovene</strong> peker tydelig på at datadeling er nødvendig for å realisere effektiv samhandling på DHO-området, samtidig er det tydelig at hoveddelen av samhandlingen foregår regionalt. Behovene understøtter derfor ikke behov for sentrale nasjonale løsninger for å løse samhandlingsbehovet innen DHO. De <strong>juridiske vurderingene</strong> peker på datadeling kan realiseres i form av distribuerte modeller og modeller basert på regionalt samarbeid innen for gjeldende rett.</p>
+<p>Datadeling mellom virksomhetene realiseres ved at virksomhetene etablerer grensesnitt for å avgi data til andre virksomheter enten som distribuerte løsninger (i egen eller sentral infrastruktur) eller gjennom regionale fellesløsninger innenfor et §9 samarbeid.</p>
+<p><img alt="Anbefalt konsept for datadeling med kombinasjon av distribuerte datadelingsløsninger og regionale fellesløsninger" src="../img/malarkitektur.png" />
+<em>Målarkitektur for datadeling basert på distribuerte eller regionale løsninger og nødvendige fellestjenester</em></p>
+<p>Målarkitekturen forutsetter at det foreligger felles semantiske spesifikasjoner for informasjonen som skal utveksles. Det er viktig at spesifikasjonene beskriver minimumskrav til struktur, innhold og bruk av terminologi og kodeverk, i tillegg til felles krav knyttet til selve datadelingsgrensesnittet.</p>
+<p>En rekke fellestjenester må etableres for å gjennomføre innføring og spredning av datadeling på en effektiv måte. Det anbefales tiltak knyttet til å etablere felles API-katalog, Pasientinformasjonslokalisator og Tillitsanker. Fellestjenester for Personvern, Grunndata og HelseID er allerede i utstrakt bruk.</p>
+<p>Dataansvaret vil i forslaget til målarkitektur være distribuert hos den enkelte virksomheten. Unntaket er ved samarbeid om fellesløsning hvor datansvaret reguleres i avtalen mellom de samarbeidende virksomhetene.</p>
+<h3 id="vurdering-av-konsept">Vurdering av konsept</h3>
+<p>Vi anbefaler at virksomhetene vurderer hvilke konsept for datadeling som egner seg best ut fra samhandlingsbehovene som identifiseres i tjenesteforløpene som skal etableres eller understøttes. Videre anbefales at det konkrete samhandlingsbehovet gjennomføres i samarbeid med andre virksomheter innen for regionen eller Helsefellesskapet. Virksomhetene bør velge ett eller flere konsept som er innenfor gjeldende rett for å komme i gang med datadeling mellom virksomhetene i Helsefellesskapet eller regionen. Det kan vurderes kombinasjoner av alle konseptene som faller innenfor gjeldende rett innenfor en region. Hvilke konsept som passer best er blant annet avhengig av virksomhetenes størrelse, tilgang til eksisterende infrastruktur og behov for fleksibilitet, skalerbarhet og kompleksiteten i løsningen. Det anbefales å gjenbruke semantiske spesifikasjoner der disse eksisterer eller samarbeide med andre virksomheter om å etablere felles spesifikasjoner basert på <a href="https://www.ehelse.no/standardisering/standarder/anbefaling-om-bruk-av-hl7-fhir-for-datadeling">HL7 FHIR</a>.</p>
 <h2 id="kapabilitetskart">Kapabilitetskart</h2>
 <p>I denne delen av målarkitekturen viser vi hvilke kapabilteter eller evner som må realiseres for å understøtte samhandling mellom virksomheter og omsorgsnivå. Kapabilitetene som beskrives er en videreutvikling av kapabilitetene som beskrives i <a href="https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren">Målarkitektur for datadeling i helse og omsorgssektoren</a>, men modellene videreutvikles med hovedfokus på samhandling mellom virksomheter.</p>
 <div class="admonition note">
@@ -1188,13 +1199,6 @@ Behovsanalysen til konseptvalgutredningen for nasjonal journalløsning for kommu
 <p><img alt="Overordnet bilde av fellestjenester beskrevet i målarkitektur for datadeling" src="../img/malarkitektur-datadeling.png" /></p>
 <h3 id="tillitstjenester-og-tjenstlig-behov">Tillitstjenester og tjenstlig behov</h3>
 <p>Ved datadeling mellom virksomheter når konsumenten (sluttbruker) gjør oppslag mot datatilbyder, må konsumentens tjenstlige behov dokumenteres overfor datatilbyder før data utleveres. Det eksisterer ikke mekanismer for å håndtere dette i infrastrukturen i dag, verken i sikkerhetsbilletten (må utvides) eller andre tillitsskapende tjenester. Direktoratet for e-helse publiserte i 2019 en anbefaling som beskriver <a href="https://www.ehelse.no/standardisering/standarder/anbefaling-av-tillitsmodell-for-data-og-dokumentdeling">Anbefaling av tillitsmodell for data- og dokumentdeling</a>.</p>
-<h2 id="anbefalt-konsept-for-realisering-av-datadeling">Anbefalt konsept for realisering av datadeling</h2>
-<p>Basert på  arkitekturvurderingene i dette kapittelet kombinert med identifiserte <a href="../behov/">behov</a>, <a href="../Juridiske-rammebetingelser/">juridiske vurderinger</a> og <a href="../Konsepter-realisering/">vurderte konsepter for realisering</a> anbefaler vi en fleksibel modell for å realisere datadeling mellom virksomhetene i helsesektoren.</p>
-<h3 id="anbefaling">Anbefaling</h3>
-<p>Vi anbefaler at virksomhetene vurderer hvilke konsept for datadeling som egner seg best ut fra samhandlingsbehovene som identifiseres i tjenesteforløpene som skal etableres regionalt eller lokalt. Virksomhetene bør velge ett eller flere konsept som er innenfor gjeldende rett for å komme i gang med datadeling mellom virksomhetene i Helsefellesskapet eller regionen. Det kan vurderes kombinasjoner av alle konseptene som faller innenfor gjeldende rett også innenfor en region. Hvilke konsept som passer best er blant annet avhengig av virksomhetenes størrelse, tilgang til eksisterende infrastruktur og behov for fleksibilitet.</p>
-<p>Anbefalt konsept baserer seg på at virksomhetene etablerer grensesnitt for å avgi data til andre virksomheter enten som distribuerte løsninger (i egen eller sentral infrastruktur) eller gjennom regionale fellesløsninger innenfor et §9 samarbeid.</p>
-<p><img alt="Anbefalt konsept for datadeling med kombinasjon av distribuerte datadelingsløsninger og regionale fellesløsninger" src="../img/malarkitektur.png" />
-<em>Målarkitektur for datadeling basert på distribuerte eller regionale løsninger og nødvendige fellestjenester</em></p>
 <h2 id="datadeling-for-datatilbyder">Datadeling for datatilbyder</h2>
 <p>Tre prosesser står sentralt for datatilbydere som skal dele data ved hjelp av datadeling: <em>Tilgjengeliggjøre</em>, <em>produksjon av informasjon</em> og <em>avgi forespurte data</em>. Produksjon av informasjon tas med her siden det mest relevante brukstilfelle for deling av informasjon mellom virksomheter handler om å dele informasjon som virksomheten har produsert i sine andre forretningsprosesser med andre virksomheter som kommer i kontakt med pasienten.</p>
 <p>På et overordnet nivå kan sammenhengen mellom disse prosessene beskrives som i modellen nedenfor. (Prosessene i lys-lys-gul farge er behandlet i HITR 1231:2021 og underprosesser er beskrevet der)</p>
