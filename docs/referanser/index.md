@@ -26,12 +26,13 @@ title: Referanser
 * Grensesnittbeskrivelser/krav/normerende produkter
   * [Implementasjonsguide for Velferdsteknologisk knutepunkt DHO](https://simplifier.net/guide/velferdsteknologiskknutepunktdhor4?version=current)
   * Anbefaling om bruk av SMART on FHIR
-  * Anbefaling om bruk av HL7 FHIR for datadeling
+  * [Anbefaling om bruk av HL7 FHIR for datadeling](https://www.ehelse.no/standardisering/standarder/anbefaling-om-bruk-av-hl7-fhir-for-datadeling)
   * Metode for utvikling av HL7 FHIR områdeprofiler
   * [Anbefaling av tillitsmodell for data- og dokumentdeling](https://www.ehelse.no/standardisering/standarder/anbefaling-av-tillitsmodell-for-data-og-dokumentdeling)
   * Normen for informasjonssikkerhet
 * Forvaltning
   * [forvaltningsprosess](https://www.ehelse.no/standardisering/standarder/forvaltningsmodell-for-normerende-produkter-fra-direktoratet-for-e-helse)
+  * [Samarbeidsmodell for internasjonale standarder](https://www.ehelse.no/publikasjoner/samarbeidsmodell-for-internasjonale-standarder)
 * Løsningsarkitektur - for forskjellige utprøvingsprosjekter (helst forskjellige løsningskonsepter)
 * [Normen - Norm for informasjonssikkerhet og personvern i helse- og omsorgssektoren](https://www.ehelse.no/normen/normen-for-informasjonssikkerhet-og-personvern-i-helse-og-omsorgssektoren#1.%20Om%20Normen)
 * Sentralt styringsdokument Akson: Helhetlig samhandling og felles kommunal journalløsning

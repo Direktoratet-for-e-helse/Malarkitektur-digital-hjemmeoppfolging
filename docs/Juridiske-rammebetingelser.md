@@ -1,10 +1,10 @@
 ---
-title: Juridiske rammebetingelser
+title: Juridiske vurderinger
 ---
 
 | Status           | Version | Maturity | Normative level |
 | :--------------- | :------ | :------- | :-------------- |
-| <span style="background-color:gold">Work in progress</span> | v0.4 | draft | ikke normert |
+| <span style="background-color:gold">Work in progress</span> | v0.5 | draft | ikke normert |
 
 ## Innledning
 
@@ -72,10 +72,7 @@ Ved etablering av regionale fellesløsninger, for eksempel for DHO, blir informa
 
 ### Juridisk
 
-Et § 9-samarbeid kan benyttes for å etablere et felles behandlingsrettet helseregister for virksomhetene i samarbeidet . Registeret må komme til erstatning for de lokale §8-registrene. Intern tilgang/tilgjengeliggjøring etter pasientjournalloven § 19 må vurderes på vanlig måte. Her innebærer det ordinær tilgangsstyring til «egen» journal, ikke datadeling på tvers av nivåer/aktører.
-* Hvordan blir det mht kommunikasjon utover fellesløsningen?
-  * Blir det som Distribuerte datadelingsløsninger (i virksomhetens infrastruktur), men slik at fellesløsningen her er 1 aktør?
-* Hva med PIL?
+Et § 9-samarbeid kan benyttes for å etablere et felles behandlingsrettet helseregister for virksomhetene i samarbeidet. Registeret må komme til erstatning for de lokale §8-registrene. Intern tilgang/tilgjengeliggjøring etter pasientjournalloven § 19 må vurderes på vanlig måte. Her innebærer det ordinær tilgangsstyring til «egen» journal, ikke datadeling på tvers av nivåer/aktører.
 
 ## Regionale datadelingsløsninger med lagring
 
