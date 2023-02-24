@@ -4,13 +4,19 @@ title: Sammendrag
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:gold">Work in progress</span> | v0.7 | draft | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span> | v0.8 | draft | ikke normert |
 
 Direktoratet for e-helse har sammen med helse- og omsorgssektoren et [strategisk mål](https://www.ehelse.no/strategi/nasjonal-e-helsestrategi-for-helse-og-omsorgssektoren/mal-4-tilgjengelig-informasjon-og-styrket-samhandling) om å styrke digital samhandling mellom aktørene i helse- og omsorgssektoren. Dette målet sammenfaller med de strategiske føringen for Digital hjemmeoppfølging som har identifisert et effektmål knyttet til samhandling:  
 
 !!! quote "Effektmål samhandling"
 
     Økt, bedre og sikker digital samhandling på tvers av tjenestenivåer og øvrige sektorer
+
+Digital hjemmeoppfølging har følgende definisjon:
+
+!!! note "Digital Hjemmeoppfølging"
+
+    Digital hjemmeoppfølging innebærer at hele eller deler av et behandlingstilbud foregår uten fysisk kontakt, der dialog og deling av data mellom pasient/bruker og behandler(e) skjer digitalt. Forslaget til definisjon har til hensikt å romme en bredde av ulike typer oppfølging og samhandling mellom pasienten og helsetjenesten. I arbeidet med målarkitektur og konsepter er hovedfokus på "Oppfølging basert på data fra pasient; data fra sensorer og medisinsk utstyr og pasientrapporterte data som symptomer, funksjon og målinger"
 
 ## Hvorfor målarkitektur?
 
