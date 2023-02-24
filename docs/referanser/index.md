@@ -22,7 +22,7 @@ title: Referanser
   * [Målarkitektur for dokumentdeling](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-dokumentdeling)
   * Veileder for helse- og omsorgssektoren: [Veileder for helse- og omsorgssektoren: Bruk av Digitaliseringsdirektoratets "Overordnede arkitekturprinsipper for digitalisering av offentlig sektor" - ehelse](https://www.ehelse.no/standardisering/standarder/veileder-for-helse-og-omsorgssektoren-bruk-av-digitaliseringsdirektoratets-overordnede-arkitekturprinsipper-for-digitalisering-av-offentlig-sektor)
 * Reguleringsplan
-* Gevinstrealiseringsrapport oktober 2021 (https://www.helsedirektoratet.no/rapporter/gevinstrealiseringsrapporter-nasjonalt-velferdsteknologiprogram/Gevinstrealiseringsrapport)
+* [Gevinstrealiseringsrapport oktober 2021](https://www.helsedirektoratet.no/rapporter/gevinstrealiseringsrapporter-nasjonalt-velferdsteknologiprogram/Gevinstrealiseringsrapport)
 * Grensesnittbeskrivelser/krav/normerende produkter
   * [Implementasjonsguide for Velferdsteknologisk knutepunkt DHO](https://simplifier.net/guide/velferdsteknologiskknutepunktdhor4?version=current)
   * Anbefaling om bruk av SMART on FHIR
