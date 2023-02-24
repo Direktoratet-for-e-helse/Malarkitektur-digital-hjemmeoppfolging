@@ -37,7 +37,7 @@ Basert på  arkitekturvurderingene i dette kapittelet kombinert med identifisert
 
 Datadeling mellom virksomhetene realiseres ved at virksomhetene etablerer grensesnitt for å avgi data til andre virksomheter enten som distribuerte løsninger (i egen eller sentral infrastruktur) eller gjennom regionale fellesløsninger innenfor et §9 samarbeid.
 
-![Anbefalt konsept for datadeling med kombinasjon av distribuerte datadelingsløsninger og regionale fellesløsninger](../img/malarkitektur.png)
+[![Anbefalt konsept for datadeling med kombinasjon av distribuerte datadelingsløsninger og regionale fellesløsninger](../img/malarkitektur.png)](../img/malarkitektur.png)  
 *Målarkitektur for datadeling basert på distribuerte eller regionale løsninger og nødvendige fellestjenester*
 
 Målarkitekturen forutsetter at det foreligger felles semantiske spesifikasjoner for informasjonen som skal utveksles. Det er viktig at spesifikasjonene beskriver minimumskrav til struktur, innhold og bruk av terminologi og kodeverk, i tillegg til felles krav knyttet til selve datadelingsgrensesnittet.
@@ -62,7 +62,7 @@ I denne delen av målarkitekturen viser vi hvilke kapabilteter eller evner som m
 
 De viktigste kapabilitetene for å realisere datadling mellom virksomheter og omsorgsnivå vises i figuren under. Figurene er knyttet til rollene som Produsent, Datakonsument og Datatilbyder i tillegg til kapabiliteter som er fornuftig tilbys som fellestjenester.
 
-[![Oversikt over nødvendige evner for datadeling](../img/kapabiliteter-enkel.png){ width="500" }](../img/kapabiliteter-enkel.png)
+[![Oversikt over nødvendige evner for datadeling](../img/kapabiliteter-enkel.png){ width="500" }](../img/kapabiliteter-enkel.png)  
 *Oversikt over nødvendige evner for å realisere datadeling*
 
 ### Samhandlingsprosessen
