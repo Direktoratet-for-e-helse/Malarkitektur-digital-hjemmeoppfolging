@@ -95,6 +95,7 @@ Målarkitekturen for datadeling innen DHO bygger på eksisterende målarkitektur
 
 Problemstillinger knyttet til avtalemessige og merkantile forhold er ikke behandlet i målarkitekturen. Dette inkluderer:
 
+* Løsningsarkitektur som beskriver hvordan konseptene realiseres behandles ikke, for eksempel bruk av og utvidelse av funksjonaliteten i Velferstekonlogisk knutepunkt (VKP)
 * Finansiering av løsninger og fellesløsninger
 * Avtalemessige forhold mellom virksomhetene beskrives ikke i detalj
 * Problemstillinger knyttet til sourcing konseptene som stilles opp setter krav til sourcing strategier for de involverte partene men målarkitekturen behandler ikke hvordan avtalene rundt dette skal utformes
