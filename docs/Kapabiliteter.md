@@ -4,7 +4,7 @@ title: Hva er kapabiliteter
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:gold">Work in progress</span> | v0.5 | draft  | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span>  | v0.8 | review  | ikke normert |
 
 **En kapabilitet er en evne som en organisasjon, person, rolle, tjeneste eller et system kan inneha. En rolle, organisasjon eller person kan også være tilordnet en prosess som realiserer evnen.**
 

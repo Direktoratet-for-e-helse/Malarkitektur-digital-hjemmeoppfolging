@@ -3,7 +3,7 @@ title: Semantisk samhandlingsevne
 ---
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:gold">Work in progress</span> | v0.2 | draft | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span>  | v0.5 | review | ikke normert |
 
 ## Hva er semantisk samhandlingsevne
 

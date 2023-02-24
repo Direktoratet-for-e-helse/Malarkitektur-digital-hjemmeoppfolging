@@ -4,7 +4,7 @@ title: Informasjonstjeneste metamodell
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:gold">Work in progress</span> | v0.1 | draft  | ikke normert |
+| <span style="background-color:gold">Work in progress</span> | v0.5 | draft  | ikke normert |
 
 Et sentralt begrep i forbindelse med helhetlig samhandling og målarkitekturen for datadeling innen DHO er informasjonstjeneste. I sin grunnleggende form er en informasjonstjeneste definert:
 
