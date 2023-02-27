@@ -20,9 +20,9 @@ Hypotesen beskriver en antagelse som er fremkommet gjennom behovskartleggingen k
 
 ### Identifiserte brukerbehov
 
-Tabellen under viser en oversikt over:
+Tabellen under viser en oversikt over:  
 
-* Hvilken sluttbruker rolle som har behovet ([oversikt over relevante roller](#roller-i-tjenesteforløp-med-digital-hjemmeoppfølging))
+* Hvilken sluttbruker rolle som har behovet ([oversikt over relevante roller](#roller-i-tjenesteforlp-med-digital-hjemmeoppflging))
 * Hvilken prioritet og tidsperspektiv behovet har
   * Prioritet scores i kategoriene høy/middels/lav/ekstern ut fra antagelse om forventet nytte/effekt
     * Høy nytteverdi betyr at tilfredstillels av behovet vil gi stor nytte og det er mange brukere
@@ -59,7 +59,7 @@ Tabellen under viser en oversikt over:
 
 Figuren viser en overordnet oversikt over roller som kan være involvert i DHO baserte tjenesteforløp. Denne rolleoversikten er basert på dialog med aktører fra kommune-, fastlege- og spesialisthelsetjenesten i to utprøvingsprosjekt, og vil derfor ikke være uttømmende.
 
-[![Roller](img/roller.png)](img/roller.png)
+[![Roller](../img/roller.png)](../img/roller.png)
 
 | **Rolle** | **Definisjon** |
 |---|---|
