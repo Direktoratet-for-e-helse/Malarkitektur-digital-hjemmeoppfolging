@@ -4,7 +4,7 @@ title: Juridiske vurderinger
 
 | Status           | Version | Maturity | Normative level |
 | :--------------- | :------ | :------- | :-------------- |
-| <span style="background-color:gold">Prerelease</span> | v0.8 | review | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span> | v0.8 | review | ikke normert |
 
 ## Innledning
 
