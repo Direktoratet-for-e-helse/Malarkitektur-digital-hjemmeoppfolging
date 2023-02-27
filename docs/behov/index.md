@@ -22,7 +22,9 @@ Spredningsprosjektet i Helsedirektoratet har publisert en animasjonsfilm om digi
 ### Prosessbeskrivelser og tjenesteforløp
 
 En fellesnevner ved behovsarbeidet vi har fått tilgang til er at alle utprøvings og spredningsprosjektene tar utgangspunkt i detaljerte beskrivelser av tjenesteforløp eller prosessbeskrivelser for å beskrive nå-situasjonen og for å avdekke behov knyttet til tjenesteforløpene som analyseres. Beskrivelsene av tjenesteforløpene er til dels svært detaljerte og beskriver ønsket eller eksisterende tjenesteforløp for en eller noen få pasientgrupper hvor DHO benyttes. Figuren under er et eksempel på hvordan Sykehuset i Vestfold illustrerer ønsket tjenesteforløp med utgangspunkt i oppfølging av pasient med KOLS og samarbeid mellom helsepersonell på Sykehuset Vestfold, Larvik kommune og Fastlege.
-![Tjenesteforløp eksempel](../img/tjenesteforlop-KOLS.png){ width="500" }
+
+[![Tjenesteforløp eksempel](../img/tjenesteforlop-KOLS.png){ width="500" }](../img/tjenesteforlop-KOLS.png)  
+*Eksempel på tjenesteforløp for KOLS pasienter*
 
 ### Overordnet om samhandlingsbehov
 
@@ -47,13 +49,15 @@ Samhandlingstjenester i behandlingsforløp der digital hjemmeoppfølging benytte
 3. Som pasient har jeg behov for tilgang til oppdatert og relevant informasjon for å mestre og ivareta egen helse
 4. Som pasient har jeg behov for at helsepersonell med tjenstlig behov har tilgang til relevant informasjon uavhengig av hvem som har registrert informasjonen, slik at jeg slipper å gjenfortelle historien min
 
-![Samhandlingsbehov](https://user-images.githubusercontent.com/6229665/201673221-debad9fc-b32f-42fb-b0d4-0c8dbeefc2ab.png)
+![Samhandlingsbehov](../img/datadeling-dho.png)  
+*Samhandlingsbehov knyttet til DHO*
 
 ## Tjenesteforløp og samhandling
 
 Som en ramme for behovskartlegging beskrives generelle prosesstrinn som de fleste tjenesteforløp gjennomgår. Et tjenesteforløp beskriver organisering og oppgaver knyttet til å yte helsetjenester til pasienter som følges med digital hjemmeoppfølging. Prosesstrinnene er angitt på overordnet nivå og har som formål å knytte samhandlingsbehovene til et <!--Er det her ment å knytte til et behandlingsforløp eller tjenesteforløp? Hele denne innledende teksten må endres når vi er enige om begrepsbruk og innholdet-->generelt tjenesteforløp/pasientforløp. De overordnede prosesstrinnene kan spesifiseres ved behov for å synliggjøre hvordan samhandlingen understøtter mer spesifikke tjenesteforløp. Ved analyse av samhandlingsbehovene konsentrerer vi oss om hvordan tjenesteforløpet kan understøttes med nye eller endrede samhandlingsløsninger og det meste av arbeidet vil derfor handle om prosessene for **samhandling**. Vi tar utgangspunkt i en generell prosess for tjenesteforløpet i helsetjenesten (for eksempel knyttet til DHO) i figuren under.
 
-![Prosess for tjenesteforløp og samhandling](../img/tjenesteforlop-og-samhandling.png)
+[![Prosess for tjenesteforløp og samhandling](../img/tjenesteforlop-og-samhandling.png)](../img/tjenesteforlop-og-samhandling.png)  
+*Prosess for tjenesteforløp og samhandling*  
 
 I tillegg til behovskartlegging knyttet til [utprøvings- og sprednings-prosjekter](#behovskartlegging-basert-på-pågående-utprøvingsprosjekter) er den generelle beskrivelsen av  tjenesteforløpet basert på Helsedirektoratets anbefalinger knyttet til [Utvikling av helhetlige tjenesteforløp](https://www.helsedirektoratet.no/rapporter/digital-hjemmeoppfolging-sluttrapport-fra-nasjonal-utproving-2018-2021/utvikling-av-helhetlige-tjenesteforlop).
 
