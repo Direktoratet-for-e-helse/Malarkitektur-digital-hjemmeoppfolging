@@ -18,7 +18,7 @@ Formålet med denne delen av målarkitekturen er å vise ulike konsepter for hvo
 
 Konseptene for etablering av funksjonalitet for datatilbyder (avgi og tilgjengeliggjøre) vurderes etter følgende kriterier:
 
-* Behovsoppnåelse, i forhold til identifiserte [behov for samhandling innen digital hjemmeoppfølging](../behov/index.md#overordnede-brukerhistorier)
+* Behovsoppnåelse, i forhold til identifiserte [behov for samhandling innen digital hjemmeoppfølging](../behov/index.md#overordnede-roller-og-brukerhistorier)
 * Skalerbarhet, her skiller vi på skalering for utprøvingen og skalering nasjonalt/regionalt
   * Det er spesielt fokus på muligheter for gjenbruk av eksisterende felleskomponenter eller kode/spesifikasjoner på tvers av virksomheter
 * Fleksibilitet og innovasjonskraft, løsninger med stor fleksibilitet i forhold til å dekke lokale behov kan understøtte lokal innovasjon
@@ -220,7 +220,7 @@ Ved etablering av sentral regional datadelingsløsning blir informasjonen som sk
 
 #### Vurdering
 
-Konseptet løser behovet virksomhetene i samarbeider har for datadeling gjennom en felles regional løsning for dette, noe som vil gi middels fleksibilitet knyttet til regional tjenesteutvikling og høy effektivitet knyttet til utvikling og forvaltning av en felles datadelingsløsning. Dette løser behovet for regional datadeling (som er identifisert som [det største behovet innen DHO](../behov/index.md#hypotese-knyttet-til-behov)). Den største ulempen med konseptet er at det ikke lar ser realisere innenfor gjeldende rett.
+Konseptet løser behovet virksomhetene i samarbeider har for datadeling gjennom en felles regional løsning for dette, noe som vil gi middels fleksibilitet knyttet til regional tjenesteutvikling og høy effektivitet knyttet til utvikling og forvaltning av en felles datadelingsløsning. Dette løser behovet for regional datadeling (som er identifisert som [det største behovet innen DHO](../vedlegg/Detaljert-behovsbilde/#hypotese-knyttet-til-brukerbehov)). Den største ulempen med konseptet er at det ikke lar ser realisere innenfor gjeldende rett.
 
 #### Forutsetninger
 
@@ -246,7 +246,7 @@ Konseptet løser behovet virksomhetene i samarbeider har for datadeling gjennom 
 
 #### Ulemper
 
-* [Juridiske vurdering av konseptet](Juridiske-rammebetingelser.md#regionale-datadelingsløsninger-avklart) viser at §9 ikke kan benyttes til å etablere felles regionale løsninger hvor hovedformålet er datadeling
+* [Juridiske vurdering av konseptet](Juridiske-rammebetingelser.md#regionale-datadelingslsninger-med-lagring) viser at §9 ikke kan benyttes til å etablere felles regionale løsninger hvor hovedformålet er datadeling
 * Alle virksomhetene må implementere synkronisering av egne data mot datalager i sentral infrastruktur
 
 ### Nasjonal sentral datadelingsløsning med lagring
@@ -262,7 +262,7 @@ Hovedfordelen med en nasjonal sentral datadelingsløsning for DHO er at løsning
 
 !!! note "Nasjonal kopilagring eller nasjonal original"
 
-    Vurderingen baserer seg på en variant av nasjonal datadelingsløsning hvor en kopi av helseopplysninger lagres i den nasjonale løsningen. Alternativet er å vurdere nasjonal original men siden behovet for nasjonal original ikke er identifisert for noen av de [mest etterspurte informasjonstjenestene for DHO](behov/index.md#informasjonsbehov-og-informasjonstjenester) vurderes ikke denne varianten her. Unntaket er informasjonstjenesten Plan (IT08) som løses med lagring av felles original i tilknytning til kjernejournal.
+    Vurderingen baserer seg på en variant av nasjonal datadelingsløsning hvor en kopi av helseopplysninger lagres i den nasjonale løsningen. Alternativet er å vurdere nasjonal original men siden behovet for nasjonal original ikke er identifisert for noen av de [mest etterspurte informasjonstjenestene for DHO](../behov/index.md#prioritering-av-informasjonstjenester) vurderes ikke denne varianten her. Unntaket er informasjonstjenesten Plan (IT08) som løses med lagring av felles original i tilknytning til kjernejournal.
 
 #### Forutsetninger
 
