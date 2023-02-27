@@ -14,17 +14,17 @@ nav:
       - referanser/index.md
     - Vedlegg:
       - vedlegg/index.md
-      - Begreper: Begreper.md
-      - Arkitekturprinsipper: Arkitekturprinsipper.md
-      - Detaljert behovsbilde: Detaljert-behovsbilde.md
-      - Konsepter realisering: Konsepter-realisering.md
-      - Juridiske vurderinger: Juridiske-rammebetingelser.md
-      - Anbefalte tiltak: Anbefalte-tiltak.md
-      - Målbilde for DHO og velferdsteknologiprogrammet: Overordnet-maalbilde.md
-      - Semantisk samhandlingsevne: Semantisk-samhandling.md
-      - Datadeling - slå opp: Organisatorisk-sla-opp.md
-      - Hva er kapabiliteter: Kapabiliteter.md
-      - Informasjonstjeneste - metamodell: Informasjonstjeneste-meta.md
+      - Begreper: vedlegg/Begreper.md
+      - Arkitekturprinsipper: vedlegg/Arkitekturprinsipper.md
+      - Detaljert behovsbilde: vedlegg/Detaljert-behovsbilde.md
+      - Konsepter realisering: vedlegg/Konsepter-realisering.md
+      - Juridiske vurderinger: vedlegg/Juridiske-rammebetingelser.md
+      - Anbefalte tiltak: vedlegg/Anbefalte-tiltak.md
+      - Målbilde for DHO og velferdsteknologiprogrammet: vedlegg/Overordnet-maalbilde.md
+      - Semantisk samhandlingsevne: vedlegg/Semantisk-samhandling.md
+      - Datadeling - slå opp: vedlegg/Organisatorisk-sla-opp.md
+      - Hva er kapabiliteter: vedlegg/Kapabiliteter.md
+      - Informasjonstjeneste - metamodell: vedlegg/Informasjonstjeneste-meta.md
     - Innspill til målarkitekturen:
       - innspill/index.md
       - Status for dokumentet: https://direktoratet-for-e-helse.github.io/Common-metadata/
