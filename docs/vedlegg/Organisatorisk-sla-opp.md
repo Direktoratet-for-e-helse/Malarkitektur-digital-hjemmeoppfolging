@@ -10,7 +10,7 @@ title: Datadeling - slå opp
 
 Samhandlingsformen baserer seg på at det eksisterer to virksomheter, en som har rollen som datatilbyder og en som har rollen som datakonsument. Datatilbyder tilgjengeliggjør informasjonsressurs(er) for deling gjennom en datadelingstjeneste. Datadelingstjenesten (tilbyder) viktigste funksjon er å avgi data på forespørsel. Når datakonsumenten vil innhente data gjennomføres innhentingen gjennom å slå opp mot delte informasjonsressurser gjennom en konsumerende datadelingstjeneste (ofte kalt klient).  
 
-[![Organisatorisk samhandlingsform: Slå opp (og avgi data)](img/organisatorisk-sla-opp.png)](img/organisatorisk-sla-opp.png)
+[![Organisatorisk samhandlingsform: Slå opp (og avgi data)](../img/organisatorisk-sla-opp.png)](img/organisatorisk-sla-opp.png)
 
 Før datakonsumenten kan slå opp må datakonsumenten få tilgang til datatilbyders datadelingstjeneste gjennom en prosess vi har kalt "få tilgang til data"<!--Må datakonsument gå gjennom egen datadelingstjeneste til datatilbyders datadelingstjeneste for å slå opp? Det er derfor det ikke er pil direkte fra boksen "få tilgang til data! til datadelingstjeneste(tilbyder)?-->. Få tilgang til data omfatter å finne datatilbyders datadelingstjenester, inngå nødvendige avtaler og få tilganger for å slå opp.
 

@@ -14,7 +14,7 @@ Et sentralt begrep i forbindelse med helhetlig samhandling og målarkitekturen f
 
 Dette kan modelleres på denne måten:  
 
-![Informasjonstjeneste i enkel form](img/Informasjonstjeneste-enkel.png){width=500}
+![Informasjonstjeneste i enkel form](../img/Informasjonstjeneste-enkel.png){width=500}
 
 En informasjonstjeneste kan skrive og lese informasjon i form av informasjonsressurser. Informasjonstjeneste kan understøtte Forretningsprosesser direkte eller indirekte som en del av en Samhandlingsprosess. Informasjonstjenester realiseres vanligvis som mer spesifikke applikasjonstjenester (tjenester for datadeling, meldingsutveksling eller dokumentdeling).
 
@@ -37,6 +37,6 @@ I sin beskrivelse av de ulike informasjonstjenestene blir fler egenskaper listet
 
 Dette fører til en mer kompleks metamodell for informasjonstjenester i forbindelse med helhetlig samhandling.
 
-![Metamodell for informasjonstjenester i helhetlig samhandling](img/informasjonstjeneste-metamodell.png){widt=500}
+![Metamodell for informasjonstjenester i helhetlig samhandling](../img/informasjonstjeneste-metamodell.png){widt=500}
 
 I arbeidet med målarkitektur for datadeling innen DHO er det den komplekse modellen vi forholder oss til. Det vil si at vi legger beskrivelsene av de ulike informasjonstjenesten til grunn når vi analyserer informasjonsbehovet i tilknytning til DHO.

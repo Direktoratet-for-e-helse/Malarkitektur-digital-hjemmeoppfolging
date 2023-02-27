@@ -18,7 +18,7 @@ Formålet med denne delen av målarkitekturen er å vise ulike konsepter for hvo
 
 Konseptene for etablering av funksjonalitet for datatilbyder (avgi og tilgjengeliggjøre) vurderes etter følgende kriterier:
 
-* Behovsoppnåelse, i forhold til identifiserte [behov for samhandling innen digital hjemmeoppfølging](behov/index.md#overordnede-brukerhistorier)
+* Behovsoppnåelse, i forhold til identifiserte [behov for samhandling innen digital hjemmeoppfølging](../behov/index.md#overordnede-brukerhistorier)
 * Skalerbarhet, her skiller vi på skalering for utprøvingen og skalering nasjonalt/regionalt
   * Det er spesielt fokus på muligheter for gjenbruk av eksisterende felleskomponenter eller kode/spesifikasjoner på tvers av virksomheter
 * Fleksibilitet og innovasjonskraft, løsninger med stor fleksibilitet i forhold til å dekke lokale behov kan understøtte lokal innovasjon
@@ -34,7 +34,7 @@ Vi anbefaler at virksomhetene vurderer hvilke konsept for datadeling som egner s
 
 Anbefalt konsept baserer seg på at virksomhetene etablerer grensesnitt for å avgi data til andre virksomheter enten som distribuerte løsninger eller gjennom regionale fellesløsninger, innenfor et §9 samarbeid.
 
-![Anbefalt konsept for datadeling med kombinasjon av distribuerte datadelingsløsninger og regionale fellesløsninger](img/fleksibel.png)
+![Anbefalt konsept for datadeling med kombinasjon av distribuerte datadelingsløsninger og regionale fellesløsninger](../img/fleksibel.png)
 
 <!-- Legge til figurtekst som forklarer at virksomhetene som er nevnt i figuren er eksempler på virksomhetstyper som kan etablere grensesenitt på den måten som er vist -->
 
@@ -68,7 +68,7 @@ Gitt virksomhetenes ulike størrelser og forutsetninger for å etablere datadeli
 
 * Kan gjennomføres med begrensede investeringer (for et lite antall virksomheter)
 
-### Trusler<!--Vurdere å bruke risko i stedet?--> <!-- Dette er SWOT sjargong -->
+### Trusler
 
 * Skalering krever utvikling av felleskomponenter
 * Konseptet er avhengig av etablering av felleskomponenter for  PIL og felles tillitsmodell for videre spredning nasjonalt
@@ -88,7 +88,7 @@ Anbefalingen av konsepter for datadeling baserer seg på vurderinger knyttet til
 
 Distribuerte datadelingsløsninger i virksomhetenes infrastruktur baserer seg på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer. Grensesnitt og datalager for datadeling etableres i virksomhetens egen infrastruktur. Datadeling mellom virksomhetene gjennomføres ved at hver virksomhet gjør distribuerte oppslag mot grensesnittene for å avgi data som er etablert av de andre virksomhetene.
 
-![Distribuerte datadelingsløsninger i virksomhetenes infrastruktur](img/distribuert.png)
+![Distribuerte datadelingsløsninger i virksomhetenes infrastruktur](../img/distribuert.png)
 *Distribuerte datadelingsløsninger etablert i virksomhetenes infrastruktur*
 
 #### Vurdering
@@ -131,7 +131,7 @@ En distribuert modell stiller store krav til samhandlingsinfrastrukturen og sama
 
 Konseptet baserer seg (som ren distribuert modell) på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer, men istedenfor å etablere dette i egen infrastruktur etableres selve grensesnittet og datalager for datadeling i en felles infrastruktur. Det betyr at grensesnittet driftes og vedlikeholdes av en eller noen få leverandør(er). Datadelingen mellom virksomhetene gjennomføres ved at hver virksomhet gjør distribuerte oppslag mot grensesnittene for å avgi data, som er etablert av de andre virksomhetene. Det er en juridisk forutsetning at informasjonen fra hver virksomhet ikke sammenstilles med informasjon fra andre virksomheter i den sentrale infrastrukturen, men at løsningene for lagring og grensesnittene etableres som logisk adskilte løsninger for hver virksomhet. Behandlingen av helseopplysninger i sentral infrastruktur må reguleres av en databehandleravtale mellom den enkelte virksomheten og leverandøren av infrastrukturen.
 
-![Distribuerte datadelingsløsninger i sentral infrastruktur](img/distribuert-sentral.png)
+![Distribuerte datadelingsløsninger i sentral infrastruktur](../img/distribuert-sentral.png)
 *Distribuerte datadelingsløsninger etablert i sentral infrastruktur*
 
 #### Vurdering
@@ -171,7 +171,7 @@ Ved etablering av regionale fellesløsninger, for eksempel for DHO, blir informa
 
 Grensesnittet for datadeling som etableres i fellesløsningen benyttes hovedsaklig for samhandlingen med virksomheter som står utenfor samarbeidet og eventuelt andre systemer (*) i de samarbeidende virksomhetene (som ivaretar dokumentasjonsbehov som ikke er dekket av fellesløsningen). En viktig forutsetning for å etablere samarbeidsløsning er at funksjonalitet som etableres i fellesløsningen kommer istedenfor funksjoner i andre systemer i virksomheten og at informasjonen bare lagres i fellesløsningen.
 
-![Regionale fellesløsninger](img/regional-felles.png)
+![Regionale fellesløsninger](../img/regional-felles.png)
 *Datadeling etableres som en del av en regional fellesløsning*
 
 #### Vurdering
@@ -215,12 +215,12 @@ Virksomhetene som samarbeider om en fellesløsning vil ha mindre behov for bruk 
 
 Ved etablering av sentral regional datadelingsløsning blir informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagret i sentral infrastruktur hos NHN (eller annen leverandør) samtidig som den eksisterer i relevante fagsystem hos den enkelte virksomheten for å ivareta dokumentasjonsplikten. Grensesnitt for å avgi data fra felles datadelingsløsning etableres også i sentral infrastruktur. Virksomhetene som deltar i det regionale samarbeidet kan søke i den felles regionale tjenesten som tilbys og driftes av NHN. Det kan også opprettes søk mot den regionale løsningen for virksomheter som ikke er en del av det regionale samarbeidet.
 
-![Regionale datadelingsløsninger med lagring](img/regional-datadeling.png)
+![Regionale datadelingsløsninger med lagring](../img/regional-datadeling.png)
 *Regional datadelingsløsning etablert med kopilagring i sentral infrastruktur*
 
 #### Vurdering
 
-Konseptet løser behovet virksomhetene i samarbeider har for datadeling gjennom en felles regional løsning for dette, noe som vil gi middels fleksibilitet knyttet til regional tjenesteutvikling og høy effektivitet knyttet til utvikling og forvaltning av en felles datadelingsløsning. Dette løser behovet for regional datadeling (som er identifisert som [det største behovet innen DHO](behov/index.md#hypotese-knyttet-til-behov)). Den største ulempen med konseptet er at det ikke lar ser realisere innenfor gjeldende rett.
+Konseptet løser behovet virksomhetene i samarbeider har for datadeling gjennom en felles regional løsning for dette, noe som vil gi middels fleksibilitet knyttet til regional tjenesteutvikling og høy effektivitet knyttet til utvikling og forvaltning av en felles datadelingsløsning. Dette løser behovet for regional datadeling (som er identifisert som [det største behovet innen DHO](../behov/index.md#hypotese-knyttet-til-behov)). Den største ulempen med konseptet er at det ikke lar ser realisere innenfor gjeldende rett.
 
 #### Forutsetninger
 
@@ -246,14 +246,14 @@ Konseptet løser behovet virksomhetene i samarbeider har for datadeling gjennom 
 
 #### Ulemper
 
-* [Juridiske vurdering av konseptet](Juridiske-rammebetingelser.md#regionale-datadelingsløsninger-avklart) viser at §9 ikke kan benyttes til å etablere felles regionale løsninger hvor hovedformålet er datadeling <!--Kan vi bruke kryssreferanse og vis til andre kapittel som har vurderingene?--> <!-- SVAR: Ja, se ny kodelinje-->
+* [Juridiske vurdering av konseptet](Juridiske-rammebetingelser.md#regionale-datadelingsløsninger-avklart) viser at §9 ikke kan benyttes til å etablere felles regionale løsninger hvor hovedformålet er datadeling
 * Alle virksomhetene må implementere synkronisering av egne data mot datalager i sentral infrastruktur
 
 ### Nasjonal sentral datadelingsløsning med lagring
 
 Ved etablering av sentral nasjonal datadelingsløsning baserer vi oss på at informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagres i sentral infrastruktur hos NHN (eller annen leverandør) samtidig som den eksisterer i relevante fagsystem hos den enkelte virksomheten for å ivareta dokumentasjonsplikten. Virksomhetene kan da gjennomføre søk mot en felles nasjonal tjeneste som tilbys og driftes av NHN.
 
-![Nasjonal sentral datadelingsløsning med lagring](img/sentral-kopi.png)
+![Nasjonal sentral datadelingsløsning med lagring](../img/sentral-kopi.png)
 *Nasjonal sentral kopilagring og datadelingsløsning*
 
 #### Vurdering
