@@ -220,7 +220,7 @@ Ved etablering av sentral regional datadelingsløsning blir informasjonen som sk
 
 #### Vurdering
 
-Konseptet løser behovet virksomhetene i samarbeider har for datadeling gjennom en felles regional løsning for dette, noe som vil gi middels fleksibilitet knyttet til regional tjenesteutvikling og høy effektivitet knyttet til utvikling og forvaltning av en felles datadelingsløsning. Dette løser behovet for regional datadeling (som er identifisert som [det største behovet innen DHO](Detaljert-behovsbilde#hypotese-knyttet-til-brukerbehov)). Den største ulempen med konseptet er at det ikke lar ser realisere innenfor gjeldende rett.
+Konseptet løser behovet virksomhetene i samarbeider har for datadeling gjennom en felles regional løsning for dette, noe som vil gi middels fleksibilitet knyttet til regional tjenesteutvikling og høy effektivitet knyttet til utvikling og forvaltning av en felles datadelingsløsning. Dette løser behovet for regional datadeling (som er identifisert som [det største behovet innen DHO](Detaljert-behovsbilde.md#hypotese-knyttet-til-brukerbehov)). Den største ulempen med konseptet er at det ikke lar ser realisere innenfor gjeldende rett.
 
 #### Forutsetninger
 
