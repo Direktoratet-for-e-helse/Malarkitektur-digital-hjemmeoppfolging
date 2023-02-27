@@ -1,5 +1,5 @@
 ---
-title: Målarkitektur samhandling DHO
+title: Krav og anbefalinger
 ---
 
 | Status | Version | Maturity | Normative level |
