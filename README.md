@@ -1,7 +1,11 @@
 # Testdokumentasjon Målarkitektur datadeling innen digital hjemmeoppfølging
 
-Testprosjekt for å se hvordan arkitekturdokumentasjon enklest mulig kan publiseres og vedlikeholdes på Github i regi Direktoratet for e-helse.
+Testprosjekt for å se hvordan arkitekturdokumentasjon kan publiseres og vedlikeholdes på Github i regi Direktoratet for e-helse.
 
+### Oversikt over versjoner
+
+* [Innspillsversjon 0.8 av målarkitekturen](https://direktoratet-for-e-helse.github.io/Malarkitektur-digital-hjemmeoppfolging/version-0.8)
+  * Frist for innspill til denne versjonen er 8. mars 2023
 * [Siste arbeidsversjon av målarkitekturen](https://direktoratet-for-e-helse.github.io/Malarkitektur-digital-hjemmeoppfolging/currentbuild)
 * [DEPRECATED: Innspillsversjon v0.5](https://direktoratet-for-e-helse.github.io/Malarkitektur-digital-hjemmeoppfolging/version-0.5) denne versjonen ligger kun ute for å vise historikk
 
