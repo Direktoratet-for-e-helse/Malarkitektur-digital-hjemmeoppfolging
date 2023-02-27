@@ -6,7 +6,6 @@ nav:
       - index.md
     - Innledning: 
       - innledning/index.md
-      - Målbilde for DHO og velferdsteknologiprogrammet: Overordnet-maalbilde.md
     - Behov: 
       - behov/index.md
     - Krav og anbefalinger: 
@@ -21,6 +20,7 @@ nav:
       - Konsepter realisering: Konsepter-realisering.md
       - Juridiske vurderinger: Juridiske-rammebetingelser.md
       - Anbefalte tiltak: Anbefalte-tiltak.md
+      - Målbilde for DHO og velferdsteknologiprogrammet: Overordnet-maalbilde.md
       - Semantisk samhandlingsevne: Semantisk-samhandling.md
       - Datadeling - slå opp: Organisatorisk-sla-opp.md
       - Hva er kapabiliteter: Kapabiliteter.md
@@ -39,7 +39,7 @@ theme:
     # - content.tabs.link
     - content.tooltips
     # - header.autohide
-    # - navigation.expand
+    - navigation.expand
     - navigation.indexes
     # - navigation.instant
     # - navigation.prune

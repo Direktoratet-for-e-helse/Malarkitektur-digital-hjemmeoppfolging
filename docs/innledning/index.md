@@ -6,7 +6,7 @@ title: Innledning
 |:-------------|:------------------|:------|:-------|
 | <span style="background-color:BlueViolet">Prerelease</span> | v0.8 | review  | ikke normert |
 
-Helsesektoren har som overordnet mål om å [øke digital samhandling](https://www.ehelse.no/strategi/nasjonal-e-helsestrategi-for-helse-og-omsorgssektoren/mal-4-tilgjengelig-informasjon-og-styrket-samhandling) mellom aktørene i helse- og omsorgssektoren. Det er startet en rekke tiltak innenfor området data- og dokumentdeling. Dette arbeidet er prioritert fordi data- og dokumentdeling er samhandlingsformer som tas i bruk på ulike måter innen stadig nye områder i helse- og omsorgstjenesten for å støtte opp under identifiserte behov.  
+Helsesektoren har som overordnet mål om å [styrke digital samhandling](https://www.ehelse.no/strategi/nasjonal-e-helsestrategi-for-helse-og-omsorgssektoren/mal-4-tilgjengelig-informasjon-og-styrket-samhandling) mellom aktørene i helse- og omsorgssektoren. Det er startet en rekke tiltak innenfor området data- og dokumentdeling. Dette arbeidet er prioritert fordi data- og dokumentdeling er samhandlingsformer som tas i bruk på ulike måter innen stadig nye områder i helse- og omsorgstjenesten for å støtte opp under identifiserte behov.  
 
 Innen digital hjemmeoppfølging (DHO) er behovet for datadeling spesielt stort. Pasientene som behandles trenger ofte fortløpende oppfølging fra flere virksomheter og på tvers av primær- og spesialisthelsetjenesten i et behandlingsforløp. Mange tjenestetilbydere ser at eksisterende samhandlingsløsninger ikke understøtter samhandlingsbehovet der hyppige oppdateringer, dialog og ansvarsoverganger forekommer, slik som for pasienter som benytter DHO.  Hensikten med målarkitekturen er å sikre en koordinert utvikling av og bidra til økt bruk av datadeling i sektoren.  
 
@@ -18,7 +18,7 @@ Digital hjemmeoppfølging handler om å følge opp, behandle og kommunisere med 
 
     Digital hjemmeoppfølging innebærer at hele eller deler av et behandlingstilbud foregår uten fysisk kontakt, der dialog og deling av data mellom pasient/bruker og behandler(e) skjer digitalt.
 
-Det er vesentlig at oppfølgingen ikke begrenses til der pasienten bor, men at digital hjemmeoppfølging også kan benyttes andre steder, for eksempel på jobb, skole, institusjon, på reise og hos ulike helseaktører. Pasienten kan i prinsippet oppholde seg hvor som helst fysisk, men likevel kunne motta oppfølging fra helsetjenesten når det er forsvarlig. Arbeidet med målarkitekturen har fokus på oppfølging av pasienten basert på data fra pasienten, som vist i figuren under.  
+Det er vesentlig at oppfølgingen ikke begrenses til der pasienten bor, men at digital hjemmeoppfølging også kan benyttes andre steder, for eksempel på jobb, skole, institusjon, på reise og hos ulike helseaktører. Pasienten kan i prinsippet oppholde seg hvor som helst fysisk, men likevel kunne motta oppfølging fra helsetjenesten når det er forsvarlig. Arbeidet med målarkitekturen har fokus på oppfølging av pasienten basert på data fra pasienten, som vist i figuren under. Se forøvrig oppsummering av målbildet for DHO   
 
 <figure markdown>
   [![Hva er DHO?](../img/hva-er-DHO.png){ width="700" }](../img/hva-er-DHO.png)
@@ -100,9 +100,9 @@ Modenheten er også relativt lav når det gjelder å ta i bruk Digital Hjemmeopp
 
 ## Metode for utvikling av målarkitekturen
 
-Det er lagt til grunn smidig metodikk i utviklingen av målarkitekturen der utprøving av datadeling i konkrete utprøvings- og sprednings-aktiviteter knyttet til Nasjonalt velferdsteknologiprogramm (Utprøving DHO) og utforming av målarkitektur datadeling DHO gjennomføres i parallell. Se figur under.
+Det er lagt til grunn smidig metodikk i utviklingen av målarkitekturen der utprøving av datadeling i konkrete utprøvings- og sprednings-aktiviteter knyttet til Nasjonalt velferdsteknologiprogramm (Utprøving DHO) og utforming av målarkitektur datadeling DHO gjennomføres i parallell. Se figur under.  
 
-![Metode](../img/metode.png){ width="500" }
+![Metode](../img/metode.png){ width="500" }  
 *Metode for utvikling av målarkitektur koblet til utprøving og spredningsaktiviteter*
 
 Metoden baserer seg på at behov dokumenteres i tilknytning til utrprøving og spredsningsaktivitetene og ligger til grunn for utviklingen av nye integrasjoner og informasjonstjenester i tjenesteforløpene. Både behovsarbeidet og erfaringene fra utprøvingen benyttes i arbeidet med å begrunne arkitekturvalg, bruk av fellestjenester og hvilke standardiserings og normeringsaktiviteter det er behov for. Dette dokumenteres som en del av målarkitekturen og skal danne grunnlag for nye utprøving og spredningsaktiviteter.
