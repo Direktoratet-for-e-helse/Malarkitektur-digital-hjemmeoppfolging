@@ -16,7 +16,7 @@ Listen nedenfor viser en prioritert liste over tiltak som er nødvendig for å r
 2. [Felles tillitsmodell for datadeling](#felles-tillitsmodell-for-datadeling)
 3. [Etablere fellesløsninger for lagring og grensesnitt](#etablere-felleslsninger-for-lagring-og-grensesnitt)
 4. [Felles semantisk rammeverk for datadeling og DHO](#felles-semantisk-rammeverk-for-datadeling-og-dho)
-5. [Vurdere fellesløsninger for utstyrslogistikk](#vurdere-felleslsninger-for-utstyr)
+5. [Vurdere fellesløsninger for utstyrslogistikk](#vurdere-felleslsninger-for-utstyrslogistikk)
 6. [Rammeverk for hendelsesbasert samhandling](#rammeverk-for-hendelsesbasert-samhandling)
 
 ## Tiltak knyttet til etablering av felleskomponenter
@@ -80,7 +80,7 @@ Det anbefales at det settes igang arbeid som gjør det mulig for flere virksomhe
 
 ### Etablere fellesløsninger for lagring og grensesnitt
 
-Konseptet for [distribuert lagring i sentral infrastruktur](Konsepter-realisering.md#distribuerte-datadelingslosninger-i-sentral-infrastruktur) er basert på at grensenitt og lagring av helsedata etableres i sentral infrastruktur, for eksempel hos NHN. Også de sentrale konseptene baserer seg på etablering av lagring og grensesnitt sentralt. Velferdsteknologisk knutepunkt som er en tjeneste hos NHN tilbyr formidling av journalverdige opplysninger mellom systemer som ellers ikke snakker sammen. Det jobbes med å etablere felles løsning for lagring og avgivelse av data som ny funksjon i VKP som vil kunne benyttes av utprøving- og spredningsprosjekter for DHO som gjennomføres i dag. 
+Konseptet for [distribuerte datadelingsløsninger i sentral infrastruktur](Konsepter-realisering.md#distribuerte-datadelingslsninger-i-sentral-infrastruktur) er er basert på at grensenitt og lagring av helsedata etableres i sentral infrastruktur, for eksempel hos NHN. Også de sentrale konseptene baserer seg på etablering av lagring og grensesnitt sentralt. Velferdsteknologisk knutepunkt som er en tjeneste hos NHN tilbyr formidling av journalverdige opplysninger mellom systemer som ellers ikke snakker sammen. Det jobbes med å etablere felles løsning for lagring og avgivelse av data som ny funksjon i VKP som vil kunne benyttes av utprøving- og spredningsprosjekter for DHO som gjennomføres i dag.  
 
 Det er flere problemstillinger som er uavklart når det gjelder bruk av VKP for å tilby denne typen løsninger.
 
