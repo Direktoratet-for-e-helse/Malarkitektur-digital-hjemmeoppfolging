@@ -5,8 +5,10 @@ Testprosjekt for å se hvordan arkitekturdokumentasjon kan publiseres og vedlike
 ### Oversikt over versjoner
 
 * [Innspillsversjon 0.8 av målarkitekturen](https://direktoratet-for-e-helse.github.io/Malarkitektur-digital-hjemmeoppfolging/version-0.8)
+  * Produsert 27. februar 2023
   * Frist for innspill til denne versjonen er 8. mars 2023
 * [Siste arbeidsversjon av målarkitekturen](https://direktoratet-for-e-helse.github.io/Malarkitektur-digital-hjemmeoppfolging/currentbuild)
+  * Bygges kontinuerlig
 * [DEPRECATED: Innspillsversjon v0.5](https://direktoratet-for-e-helse.github.io/Malarkitektur-digital-hjemmeoppfolging/version-0.5) denne versjonen ligger kun ute for å vise historikk
 
 ## Bidrag og innspill til målarkitekturen
