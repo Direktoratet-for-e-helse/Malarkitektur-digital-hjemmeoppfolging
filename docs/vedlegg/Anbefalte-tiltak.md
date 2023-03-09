@@ -131,4 +131,4 @@ Foreløpig er det bare et fåtall profiler som er utviklet, disse har også sett
 
 #### Anbefalte tiltak
 
-Det anbefales tiltak knyttet til alle de tre retningene som beskrives i forrige avsnitt, men Kvantitet for å dekke flere brukertilfeller og kvalitet for å teste eksisterende profiler bedre haster mest.
+Det anbefales tiltak knyttet til alle de tre retningene som beskrives i forrige avsnitt, med Kvantitet for å dekke flere brukertilfeller og kvalitet for å teste eksisterende profiler der det haster mest.
