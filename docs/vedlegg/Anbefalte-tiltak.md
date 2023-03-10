@@ -4,7 +4,7 @@ title: Anbefalte tiltak
 
 | Status           | Version | Maturity | Normative level |
 | :--------------- | :------ | :------- | :-------------- |
-| <span style="background-color:BlueViolet">Prerelease</span> | v0.8 | review | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span> | v0.8.1 | review | ikke normert |
 
 Denne delen av målarkitekturen skal foreslå tiltak som kan gjennomføres for å understøtte etableringen av datadeling mellom virksomheter innen for behovsområdet DHO. Vi skiller på tiltak knyttet til etablering av felleskomponenter og tiltak knyttet til semantisk samhandling.
 
@@ -131,4 +131,4 @@ Foreløpig er det bare et fåtall profiler som er utviklet, disse har også sett
 
 #### Anbefalte tiltak
 
-Det anbefales tiltak knyttet til alle de tre retningene som beskrives i forrige avsnitt, med Kvantitet for å dekke flere brukertilfeller og kvalitet for å teste eksisterende profiler der det haster mest.
+Det anbefales tiltak knyttet til alle de tre retningene som beskrives i forrige avsnitt, tiltak for å øke kvantiteten av profiler for å dekke flere brukertilfeller og tiltak for å øke kvaliteten ved å teste eksisterende profiler bedre, er de tiltakene som haster mest.
