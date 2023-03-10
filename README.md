@@ -25,13 +25,22 @@ Det er også mulig å be om tilgang til å oppdatere dokumentasjonen direkte, hv
 
 ## Verktøy
 
-Skal du bidra til innholdet i målarkitekturen kan du benytte enkle verktøy. Målarkitekturen skrives ved hjelp av et enkelt dokumentasjonsspråk som kalles markdown.
+Skal du bidra til innholdet i målarkitekturen kan du benytte enkle verktøy for å håndtere redigreingsprosessen. Målarkitekturen skrives ved hjelp av et enkelt dokumentasjonsspråk som kalles markdown.
 
 ### Markdown
 
-Ukjent med [Github markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)? Da anbefaler vi [Markdown Editor til Visual Studio](https://marketplace.visualstudio.com/items?itemName=zaaack.markdown-editor)
+Ukjent med [Github markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)? Da anbefaler vi [Markdown Editor til Visual Studio](https://marketplace.visualstudio.com/items?itemName=zaaack.markdown-editor).
 
-### VSCode
+### Editere direkte i webleseren
+
+Det er mulig å dokumentasjonen ved å ta opp en fil i repoet og gjøre endringer direkte i webleseren ved å trykke på "redigere" øverst til høyre i vinduet:
+![redigere web](docs/img/redigere-web.png)
+
+### Git klient og lokal editor (for eksempel VSCode
+
+Alternativt kan man klone repository og gjøre endringer i koden lokalt med verktøy for dette som er installert på PC'en og deretter laste endringene opp til repoet. Det er vanligvis slik man ønsker å arbeidet hvis man deltar aktivt i prosjektet. Dette krever at Git er installert på PC'en din (kan installeres som en del av VSCode editor).
+
+### Komme igang med lokal VSCode
 
 Kom igang med VSCode og repo fra Github:
 
@@ -54,7 +63,7 @@ https://github.com/Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolgi
 Du skal nå få opp katalogstrukturen til repositoriet i fil explorer på venstre side i VSCode.
 Husk at endringer du gjør i VSCode skrives til kopien av repoet på lokal disk. Du må commite og pushes endrede filer til repoet (remote) for at dine endringer skal bli synlige for andre.
 
-### OPTIONAL: Enable Git in VSCode
+#### OPTIONAL: Enable Git in VSCode
 
 Kanskje må man gjøre dette også før man kan bruke Git i VSCode.
 
