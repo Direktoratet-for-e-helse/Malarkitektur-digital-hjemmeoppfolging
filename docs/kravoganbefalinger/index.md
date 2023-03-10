@@ -4,7 +4,7 @@ title: Krav og anbefalinger
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:BlueViolet">Prerelease</span> | v0.8 | review  | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span> | v0.8.1 | review  | ikke normert |
 
 ## Samhandling mellom helsepersonell på tvers av virksomheter
 
