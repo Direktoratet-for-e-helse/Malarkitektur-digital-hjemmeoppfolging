@@ -33,7 +33,7 @@ Ukjent med [Github markdown syntax](https://docs.github.com/en/get-started/writi
 
 ### Editere direkte i webleseren
 
-Det er mulig å dokumentasjonen ved å ta opp en fil i repoet og gjøre endringer direkte i webleseren ved å trykke på "redigere" øverst til høyre i vinduet:
+Det er mulig å dokumentasjonen ved å ta opp en fil i repoet og gjøre endringer direkte i webleseren ved å trykke på "redigere" øverst til høyre i vinduet:  
 ![redigere web](docs/img/redigere-web.png)
 
 ### Git klient og lokal editor (for eksempel VSCode
