@@ -90,7 +90,7 @@ Figuren viser en oversikt over identifiserte informasjonsbehov i forbindelse med
 
 ### Data fra pasient og informasjonstjenester
 
-Hovedmålet for målarkitekturen DHO er å vise hvordan samhandlingen knyttet til data fra pasient skal gjennomføres, samtidig som den må vise hvilke andre informasjonstjenester som må være tilstede for å understøtte tjenesteforløp. Informasjonstjenestene som omfattes er i denne sammenhengen (en komplett oversikt over analyserte informasjonstjenster ligger i [vedlegget](../vedlegg/Detaljert-behovsbilde.md/#analyse-av-informasjonsbehovene)):
+Hovedmålet for målarkitekturen DHO er å vise hvordan samhandlingen knyttet til data fra pasient skal gjennomføres, samtidig som den må vise hvilke andre informasjonstjenester som må være tilstede for å understøtte tjenesteforløp. Informasjonstjenestene som omfattes er i denne sammenhengen (en komplett oversikt over analyserte informasjonstjenster ligger i [vedlegget](../vedlegg/Detaljert-behovsbilde#analyse-av-informasjonsbehovene)):
 
 * Undersøkelser, målinger og funn (IT17 og IT07)
 * Skjemabesvarelser og NEWS scoringer (IT17)
