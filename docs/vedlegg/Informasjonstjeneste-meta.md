@@ -4,7 +4,7 @@ title: Informasjonstjeneste metamodell
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:gold">Work in progress</span> | v0.5 | draft  | ikke normert |
+| <span style="background-color:gold">Work in progress</span> | v0.6 | draft  | ikke normert |
 
 Et sentralt begrep i forbindelse med helhetlig samhandling og målarkitekturen for datadeling innen DHO er informasjonstjeneste. I sin grunnleggende form er en informasjonstjeneste definert:
 
@@ -26,7 +26,7 @@ I forbindelse med arbeidet for å tilrettelegge for helhetlig samhandling er det
     
     En informasjonstjeneste er en gruppering av informasjon som kan deles mellom helsepersonell.
 
-I sin beskrivelse av de ulike informasjonstjenestene blir fler egenskaper listet opp: 
+En definisjon av alle de ulike informasjonstjenestene som ble beskrevet i forbindelsem ed helhetlig samhandling ligger i kapittel 4 i [Bilag G2: Helhetlig samhandling (PDF)](https://www.ehelse.no/publikasjoner/sentralt-styringsdokument-akson-helhetlig-samhandling-og-felles-kommunal-journallosning/Bilag%20G2%20Helhetlig%20samhandling.pdf). I sin beskrivelse av de ulike informasjonstjenestene blir fler egenskaper beskrevet: 
 
 * Aktører som har behov
 * Informasjonsbehov som understøttes
