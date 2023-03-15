@@ -20,6 +20,8 @@ title: Begreper
 |Informasjonsressurs|Alle former for logisk avgrenset elektronisk informasjon som eksisterer i virksomheten|
 |Felleskomponenter|Defineres som avgrensede deler av en IT-løsning som kan gjenbrukes i flere IT-løsninger for å dekke felles behov. De kan brukes på tvers av e-helseløsninger, virksomheter og forvaltningsnivå, og kan enten være frivillig eller påkrevd å bruke.|
 | Fellestjeneste | Organisering av en tjeneste, slik at en virksomhet utfører aktiviteter på vegne av flere, for å gi en volumfordel. En fellestjeneste kan velge å bruke felleskomponenter som del av løsningen de bruker for å levere tjenesten.
+|Kapabilitet||En kapabilitet er en evne som en organisasjon, person, rolle, tjeneste eller et system kan inneha. En rolle, organisasjon eller person kan også være tilordnet en prosess som realiserer evnen|
+|Felleskomponenter|Defineres som komponenter som kan gjenbrukes i flere IT-løsninger for å dekke felles behov. De kan brukes på tvers av e-helseløsninger, virksomheter og forvaltningsnivå, og kan enten være frivillig eller påkrevd å bruke.|
 |PIL|Pasientinformasjonslokalisator (PIL)
 |Samhandling|All form for kontakt, samarbeid og informasjonsutveksling på tvers av virksomheter med mål om å sikre riktig behandling og koordinerte tjenester. Samhandling kan skje på ulike måter, for eksempel gjennom meldinger, telefon, møter, brev, papirutskrifter som sendes med innbyggeren.|
 |Tillitsanker|Er en tillitsskapende tjeneste som fungerer som felles avtalepunkt i infrastrukturen for å etablere felles tillitsmodell|
