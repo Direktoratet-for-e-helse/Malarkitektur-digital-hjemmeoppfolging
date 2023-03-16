@@ -4,3 +4,4 @@ mkdocs-bootswatch
 mkdocs-minify-plugin
 mkdocs-material
 mkdocs-git-revision-date-localized-plugin
+mkdocs-with-pdf

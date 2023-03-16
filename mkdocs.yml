@@ -85,3 +85,4 @@ plugins:
   - search
   - git-revision-date-localized:
       type: datetime
+  - with-pdf
