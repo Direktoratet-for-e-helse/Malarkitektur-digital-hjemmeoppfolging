@@ -27,7 +27,7 @@ nav:
       - Hva er kapabiliteter: vedlegg/Kapabiliteter.md
       - Informasjonstjeneste - metamodell: vedlegg/Informasjonstjeneste-meta.md
     - Innspill til målarkitekturen:
-      - innspill/innspill.md
+      - innspill/index.md
       - Status for dokumentet: https://direktoratet-for-e-helse.github.io/Common-metadata/
 theme:
   name: material
@@ -90,4 +90,4 @@ plugins:
       cover_subtitle: "Innspillsversjon 0.8"
       copyright: ""
       # two_columns_level: 3
-      # output_path: ./Malarkitektur-v08.pdf
+      output_path: ./pdf/malarkitektur.pdf

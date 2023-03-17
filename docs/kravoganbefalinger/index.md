@@ -52,7 +52,7 @@ Vi anbefaler at virksomhetene vurderer hvilke konsept for datadeling som egner s
 
 ## Kapabilitetskart
 
-I denne delen av målarkitekturen viser vi hvilke kapabilteter eller evner som må realiseres for å understøtte samhandling mellom virksomheter og omsorgsnivå. Kapabilitetene som beskrives er en videreutvikling av kapabilitetene som beskrives i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren), men modellene videreutvikles med hovedfokus på samhandling mellom virksomheter.
+I denne delen av målarkitekturen viser vi hvilke kapabiliteter eller evner som må realiseres for å understøtte samhandling mellom virksomheter og omsorgsnivå. Kapabilitetene som beskrives er en videreutvikling av kapabilitetene som beskrives i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren), men modellene videreutvikles med hovedfokus på samhandling mellom virksomheter.
 
 !!! note "Bruk av kapabiliteter i planleggingen"
 
@@ -60,7 +60,7 @@ I denne delen av målarkitekturen viser vi hvilke kapabilteter eller evner som m
 
 ### Nødvendige kapabiliteter for datadeling
 
-De viktigste kapabilitetene for å realisere datadling mellom virksomheter og omsorgsnivå vises i figuren under. Figurene er knyttet til rollene som Produsent, Datakonsument og Datatilbyder i tillegg til kapabiliteter som er fornuftig tilbys som fellestjenester.
+De viktigste kapabilitetene for å realisere datadeling mellom virksomheter og omsorgsnivå vises i figuren under. Figurene er knyttet til rollene som Produsent, Datakonsument og Datatilbyder i tillegg til kapabiliteter som er fornuftig tilbys som fellestjenester.
 
 [![Oversikt over nødvendige evner for datadeling](../img/kapabiliteter-enkel.png){ width="500" }](../img/kapabiliteter-enkel.png)  
 *Oversikt over nødvendige evner for å realisere datadeling*
