@@ -7,6 +7,8 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
       
+        <meta name="author" content="Direktoratet for e-helse">
+      
       
       
         <link rel="prev" href="../Begreper/">
@@ -15,15 +17,15 @@
         <link rel="next" href="../Detaljert-behovsbilde/">
       
       <link rel="icon" href="../../logo/ehelse-hvit.png">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.15">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.3">
     
     
       
-        <title>Arkitekturprinsipper - Målarkitektur datadeling Digitial hjemmeoppfølging</title>
+        <title>Arkitekturprinsipper - Målarkitektur datadeling digitial hjemmeoppfølging</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.113286f1.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.c4a75a56.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.a0c5b2b5.min.css">
@@ -83,9 +85,11 @@
     
       
 
-<header class="md-header" data-md-component="header">
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Målarkitektur datadeling Digitial hjemmeoppfølging" class="md-header__button md-logo" aria-label="Målarkitektur datadeling Digitial hjemmeoppfølging" data-md-component="logo">
+    <a href="../.." title="Målarkitektur datadeling digitial hjemmeoppfølging" class="md-header__button md-logo" aria-label="Målarkitektur datadeling digitial hjemmeoppfølging" data-md-component="logo">
       
   <img src="../../logo/ehelse-hvit.svg" alt="logo">
 
@@ -97,7 +101,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Målarkitektur datadeling Digitial hjemmeoppfølging
+            Målarkitektur datadeling digitial hjemmeoppfølging
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -208,12 +212,12 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Målarkitektur datadeling Digitial hjemmeoppfølging" class="md-nav__button md-logo" aria-label="Målarkitektur datadeling Digitial hjemmeoppfølging" data-md-component="logo">
+    <a href="../.." title="Målarkitektur datadeling digitial hjemmeoppfølging" class="md-nav__button md-logo" aria-label="Målarkitektur datadeling digitial hjemmeoppfølging" data-md-component="logo">
       
   <img src="../../logo/ehelse-hvit.svg" alt="logo">
 
     </a>
-    Målarkitektur datadeling Digitial hjemmeoppfølging
+    Målarkitektur datadeling digitial hjemmeoppfølging
   </label>
   
     <div class="md-nav__source">
@@ -847,7 +851,7 @@
 <tbody>
 <tr>
 <td align="left"><span style="background-color:BlueViolet">Prerelease</span></td>
-<td align="left">v0.8</td>
+<td align="left">v0.8.1</td>
 <td align="left">review</td>
 <td align="left">ikke normert</td>
 </tr>
@@ -859,13 +863,24 @@
 Datastyrte prosesser, regelstyring og automatisering-->
 <!--ha med noe om internasjonale standarder som skal legges til grunn? HL7 FHIR? Felles språk, norm for informasjonssikkerhet og personvern -->
 
-<p><a href="https://www.ehelse.no/standardisering/standarder/veileder-for-helse-og-omsorgssektoren-bruk-av-digitaliseringsdirektoratets-overordnede-arkitekturprinsipper-for-digitalisering-av-offentlig-sektor#Prinsipp%201%3A%20Ta%20utgangspunkt%20i%20brukernes%20behov">Arkitekturprinsipp 1: Ta utgangspunkt i brukernes behov</a>. Etterleves både ved å definere nytteverdien av en målarkitektur innen området DHO og gjennom en behovs og interessentanalyse hvor ulike behov for samhandling vektes basert på prioriterte behov fra klinikere og representanter for de ulike tjenesteutførerne.</p>
+<p><a href="https://www.ehelse.no/standardisering/standarder/veileder-for-helse-og-omsorgssektoren-bruk-av-digitaliseringsdirektoratets-overordnede-arkitekturprinsipper-for-digitalisering-av-offentlig-sektor#Prinsipp%201%3A%20Ta%20utgangspunkt%20i%20brukernes%20behov">Arkitekturprinsipp 1: Ta utgangspunkt i brukernes behov</a>. Etterleves både ved å definere nytteverdien av en målarkitektur innen området DHO og gjennom en behovs og interessentanalyse hvor ulike behov for samhandling vektes basert på prioriterte behov fra klinikere og representanter for de ulike tjenesteutførerne. En nærmere beskrivelse av overordnede brukerbehov som er kartlagt i <a href="../Detaljert-behovsbilde#identifiserte-brukerbehov">Detaljert behovsbilde</a></p>
 <p><a href="https://www.ehelse.no/standardisering/standarder/veileder-for-helse-og-omsorgssektoren-bruk-av-digitaliseringsdirektoratets-overordnede-arkitekturprinsipper-for-digitalisering-av-offentlig-sektor#Prinsipp%202%3A%20Ta%20arkitekturbeslutninger%20p%C3%A5%20rett%20niv%C3%A5">Arkitekturprinsipp 2: Ta arkitekturbeslutninger på rett nivå</a>. Sees i sammenheng med utgangspunkt i brukernes behov men også i forhold til å gi arkitekturanbefalinger basert på juridiske rammebetingelser og se overordnede sammenhenger i sektoren, spesielt knyttet til samhandlingsbehov som må løses med tiltak som skal utføres i samarbeid mellom leverandørmarkedet, virksomhetene i sektoren og NHN som er leverandør av sentrale felleskomponenter til sektoren.</p>
 <p><a href="https://www.ehelse.no/standardisering/standarder/veileder-for-helse-og-omsorgssektoren-bruk-av-digitaliseringsdirektoratets-overordnede-arkitekturprinsipper-for-digitalisering-av-offentlig-sektor#Prinsipp%203%3A%20Bidra%20til%20digitaliseringsvennlige%20regelverk">Arkitekturprinsipp 3: Bidra til digitaliseringsvennlige regelverk</a>. Det er stort fokus på hvordan løsninger som implementerer målarkitekturen kan hjemles i lovverket. En viktig del av arbeidet med målarkitekturen består derfor i å beskrive det juridiske handlingsrommet og prøve ut i utprøvinger hvordan løsningene kan hjemles. Eventuelle behov for endring i regelverk spilles inn til Helse og omsorgsdepartementet.</p>
 <p><a href="https://www.ehelse.no/standardisering/standarder/veileder-for-helse-og-omsorgssektoren-bruk-av-digitaliseringsdirektoratets-overordnede-arkitekturprinsipper-for-digitalisering-av-offentlig-sektor#Prinsipp%204%3A%20Del%20og%20gjenbruk%20data">Arkitekturprinsipp 4: Del og gjenbruk data</a>. Formålet med målarkitektur for samhandling er å beskrive felles metoder for å bedre informasjonsflyten mellom virksomheter og omsorgsnivå innen DHO området. Dette innebærer både bruk av felles grunndata og informasjonstjenester, bruk av harmoniserte informasjonsmodeller for å gi god prosess og beslutningsstøtte til sluttbrukerne. <!--Få med noe om kodeverk og terminologi her i tillegg?--></p>
 <p><a href="https://www.ehelse.no/standardisering/standarder/veileder-for-helse-og-omsorgssektoren-bruk-av-digitaliseringsdirektoratets-overordnede-arkitekturprinsipper-for-digitalisering-av-offentlig-sektor#Prinsipp%205%3A%20Del%20og%20gjenbruk%20l%C3%B8sninger">Arkitekturprinsipp 5: Del og gjenbruk løsninger</a>. Det eksisterer fellesløsninger som understøtter deler av behovet innen området DHO. I tillegg gjenbruker vi rammeverk for samhandlingstjenester og informasjonskomponenter som er utviklet i Akson. De mest aktuelle fellesløsningene for DHO er Velferdsteknologisk knutepunkt, HelseID, kjernejournal, pasientens legemiddelliste og utviklingen av digital behandlingsplan og egenbehandlingsplan som vi ønsker å benytte også i DHO sammenheng. Gjenbruk av fellesløsningene er noe som vil omtales i målarkitekturen, prosjektet vil også gi innspill på hvordan de eksisterende fellesløsningene understøtter behovene innen DHO.</p>
 <p><a href="https://www.ehelse.no/standardisering/standarder/veileder-for-helse-og-omsorgssektoren-bruk-av-digitaliseringsdirektoratets-overordnede-arkitekturprinsipper-for-digitalisering-av-offentlig-sektor#Prinsipp%206%3A%20Lag%20digitale%20l%C3%B8sninger%20som%20st%C3%B8tter%20samhandling">Arkitekturprinsipp 6: Lag digitale løsninger som støtter samhandling</a>. Bedre samhandling for pasienter med DHO tjenester er hovedmålet for målarkitekturen. Bruk av eksisterende rammeverk og standarder er derfor en sentral del av arbeidet, dette punktet er derfor midt i kjernen av hva vi forsøker å få til innen DHO og understøtte med å utvikle en målarkitektur.</p>
 <p><a href="https://www.ehelse.no/standardisering/standarder/veileder-for-helse-og-omsorgssektoren-bruk-av-digitaliseringsdirektoratets-overordnede-arkitekturprinsipper-for-digitalisering-av-offentlig-sektor#Prinsipp%207%3A%20S%C3%B8rg%20for%20tillit%20til%20oppgavel%C3%B8sningen">Arkitekturprinsipp 7: Sørg for tillit til oppgaveløsningen</a>. Ivaretakelse av pasientene og de ansatte sin rettsikkerhet og deres personvern er en sentral problemstilling knyttet til systemstøtte og samhandling for morgendagens tjenesteforløp. Det er derfor en sentral oppgave å sørge for at nye samhandlingsløsninger og nye måter å samarbeide på både bedrer pasientsikkerheten og fører til mer effektiv og robust pasientbehandling samtidig som krav til personvern ivaretas. Dette er derfor en sentral del av vurderingen av anbefalte løsninger og samhandlingsformer som beskrives i målarkitekturen.</p>
+
+  <hr>
+<div class="md-source-file">
+  <small>
+    
+      Last update:
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">March 14, 2023 19:54:22</span>
+      
+    
+  </small>
+</div>
 
 
 
@@ -878,10 +893,10 @@ Datastyrte prosesser, regelstyring og automatisering-->
           
         </div>
         
-          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
             Back to top
-          </a>
+          </button>
         
       </main>
       
@@ -911,7 +926,7 @@ Datastyrte prosesser, regelstyring og automatisering-->
     <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.annotate", "content.tooltips", "navigation.indexes", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.2a6f1dda.min.js"></script>
+      <script src="../../assets/javascripts/bundle.efa0ade1.min.js"></script>
       
     
   </body>

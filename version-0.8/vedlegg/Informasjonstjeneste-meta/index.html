@@ -7,6 +7,8 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
       
+        <meta name="author" content="Direktoratet for e-helse">
+      
       
       
         <link rel="prev" href="../Kapabiliteter/">
@@ -15,15 +17,15 @@
         <link rel="next" href="../../innspill/">
       
       <link rel="icon" href="../../logo/ehelse-hvit.png">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.15">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.3">
     
     
       
-        <title>Informasjonstjeneste metamodell - Målarkitektur datadeling Digitial hjemmeoppfølging</title>
+        <title>Informasjonstjeneste metamodell - Målarkitektur datadeling digitial hjemmeoppfølging</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.113286f1.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.c4a75a56.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.a0c5b2b5.min.css">
@@ -83,9 +85,11 @@
     
       
 
-<header class="md-header" data-md-component="header">
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Målarkitektur datadeling Digitial hjemmeoppfølging" class="md-header__button md-logo" aria-label="Målarkitektur datadeling Digitial hjemmeoppfølging" data-md-component="logo">
+    <a href="../.." title="Målarkitektur datadeling digitial hjemmeoppfølging" class="md-header__button md-logo" aria-label="Målarkitektur datadeling digitial hjemmeoppfølging" data-md-component="logo">
       
   <img src="../../logo/ehelse-hvit.svg" alt="logo">
 
@@ -97,7 +101,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Målarkitektur datadeling Digitial hjemmeoppfølging
+            Målarkitektur datadeling digitial hjemmeoppfølging
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -208,12 +212,12 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Målarkitektur datadeling Digitial hjemmeoppfølging" class="md-nav__button md-logo" aria-label="Målarkitektur datadeling Digitial hjemmeoppfølging" data-md-component="logo">
+    <a href="../.." title="Målarkitektur datadeling digitial hjemmeoppfølging" class="md-nav__button md-logo" aria-label="Målarkitektur datadeling digitial hjemmeoppfølging" data-md-component="logo">
       
   <img src="../../logo/ehelse-hvit.svg" alt="logo">
 
     </a>
-    Målarkitektur datadeling Digitial hjemmeoppfølging
+    Målarkitektur datadeling digitial hjemmeoppfølging
   </label>
   
     <div class="md-nav__source">
@@ -847,7 +851,7 @@
 <tbody>
 <tr>
 <td align="left"><span style="background-color:gold">Work in progress</span></td>
-<td align="left">v0.5</td>
+<td align="left">v0.6</td>
 <td align="left">draft</td>
 <td align="left">ikke normert</td>
 </tr>
@@ -867,7 +871,7 @@
 <p class="admonition-title">Informasjonstjeneste i helhetlig samhandling</p>
 <p>En informasjonstjeneste er en gruppering av informasjon som kan deles mellom helsepersonell.</p>
 </div>
-<p>I sin beskrivelse av de ulike informasjonstjenestene blir fler egenskaper listet opp: </p>
+<p>En definisjon av alle de ulike informasjonstjenestene som ble beskrevet i forbindelsem ed helhetlig samhandling ligger i kapittel 4 i <a href="https://www.ehelse.no/publikasjoner/sentralt-styringsdokument-akson-helhetlig-samhandling-og-felles-kommunal-journallosning/Bilag%20G2%20Helhetlig%20samhandling.pdf">Bilag G2: Helhetlig samhandling (PDF)</a>. I sin beskrivelse av de ulike informasjonstjenestene blir fler egenskaper beskrevet: </p>
 <ul>
 <li>Aktører som har behov</li>
 <li>Informasjonsbehov som understøttes</li>
@@ -880,6 +884,17 @@
 <p><img alt="Metamodell for informasjonstjenester i helhetlig samhandling" src="../../img/informasjonstjeneste-metamodell.png" widt="500" /></p>
 <p>I arbeidet med målarkitektur for datadeling innen DHO er det den komplekse modellen vi forholder oss til. Det vil si at vi legger beskrivelsene av de ulike informasjonstjenesten til grunn når vi analyserer informasjonsbehovet i tilknytning til DHO.</p>
 
+  <hr>
+<div class="md-source-file">
+  <small>
+    
+      Last update:
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">March 14, 2023 19:25:14</span>
+      
+    
+  </small>
+</div>
+
 
 
 
@@ -891,10 +906,10 @@
           
         </div>
         
-          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
             Back to top
-          </a>
+          </button>
         
       </main>
       
@@ -924,7 +939,7 @@
     <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.annotate", "content.tooltips", "navigation.indexes", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.2a6f1dda.min.js"></script>
+      <script src="../../assets/javascripts/bundle.efa0ade1.min.js"></script>
       
     
   </body>
