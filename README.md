@@ -5,16 +5,22 @@ Testprosjekt for å se hvordan arkitekturdokumentasjon kan publiseres og vedlike
 ### Oversikt over versjoner
 
 * [Siste arbeidsversjon av målarkitekturen](https://direktoratet-for-e-helse.github.io/Malarkitektur-digital-hjemmeoppfolging/currentbuild)
-  * Bygges kontinuerlig, bygges akkurat nå fra [bugfix-08 branchen](https://github.com/Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging/tree/bugfix-08)
-* [Innspillsversjon 0.8 av målarkitekturen](https://direktoratet-for-e-helse.github.io/Malarkitektur-digital-hjemmeoppfolging/version-0.8)
+  * Bygges kontinuerlig, bygges akkurat nå fra [master branchen](https://github.com/Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging/tree/master)
+  * [PDF versjon av currentbuild](https://direktoratet-for-e-helse.github.io/Malarkitektur-digital-hjemmeoppfolging/currentbuild/pdf/malarkitektur.pdf)
+* [DEPRECATED: Innspillsversjon 0.8 av målarkitekturen](https://direktoratet-for-e-helse.github.io/Malarkitektur-digital-hjemmeoppfolging/version-0.8)
   * Publisert 27. februar 2023
-  * Frist for innspill til denne versjonen er 8. mars 2023
-  * Vi kommer til å oppdatere med en bugfix versjon som retter endel skrivefeil basert på [bugfix-08 branchen](https://github.com/Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging/tree/bugfix-08)
+    * Bugfix (skrivefeil) publisert 17.mars 2023
+  * Frist for innspill til denne versjonen var 8. mars 2023
+  * [PDF versjon av 0.8.1](https://direktoratet-for-e-helse.github.io/Malarkitektur-digital-hjemmeoppfolging/version-0.8/pdf/malarkitektur.pdf)
 * [DEPRECATED: Innspillsversjon v0.5](https://direktoratet-for-e-helse.github.io/Malarkitektur-digital-hjemmeoppfolging/version-0.5) denne versjonen ligger kun ute for å vise historikk
 
 ## Bidrag og innspill til målarkitekturen
 
 Arbeidet med målarkitekturen er en smidig prosess og vi ønsker løpende innspill på innholdet. I utviklingsfasen bygger vi ny arbeidsversjon hver dag, og noen dager flere ganger om dagen. Siste arbeidsversjon ligger på [gihub.io](https://direktoratet-for-e-helse.github.io/Malarkitektur-digital-hjemmeoppfolging/currentbuild). "Kildekoden" for dokumentasjonen ligger i [katalogen docs](https://github.com/Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging/tree/master/docs). Forskjellige releaser av målarkitekturen finnes under [relases](https://github.com/Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging/releases). Innspillsversjoner til arbeidsgruppen blir en egen release med navn "innspillsversjon".
+
+### Målarkitekturen som PDF
+
+Målarkitekturen kan også leses som et [PDF dokument](https://direktoratet-for-e-helse.github.io/Malarkitektur-digital-hjemmeoppfolging/currentbuild/pdf/malarkitektur.pdf). Innspill og kommentarer kan legges inn i pdf'en og sendes til oss på mail.
 
 ### Innspill til målarkitekturen
 
