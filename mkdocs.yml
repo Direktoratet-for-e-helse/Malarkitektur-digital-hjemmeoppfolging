@@ -87,7 +87,7 @@ plugins:
   - git-revision-date-localized:
       type: datetime
   - with-pdf:
-      cover_subtitle: "Innspillsversjon 0.8"
+      cover_subtitle: "Innspillsversjon 0.8.1"
       copyright: ""
       # two_columns_level: 3
       output_path: ./pdf/malarkitektur.pdf
