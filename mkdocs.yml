@@ -1,6 +1,7 @@
 site_name: Målarkitektur datadeling Digitial hjemmeoppfølging
 repo_url: https://github.com/Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging
 repo_name: Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging
+site_author: Direktoratet for e-helse
 nav:
     - Sammendrag: 
       - index.md
@@ -87,5 +88,6 @@ plugins:
       type: datetime
   - with-pdf:
       cover_subtitle: "Innspillsversjon 0.8"
+      copyright: ""
       # two_columns_level: 3
       # output_path: ./Malarkitektur-v08.pdf
