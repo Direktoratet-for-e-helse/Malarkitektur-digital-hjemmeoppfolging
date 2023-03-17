@@ -4,7 +4,7 @@ title: Arkitekturprinsipper
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:BlueViolet">Prerelease</span>  | v0.8 | review  | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span>  | v0.8.1 | review  | ikke normert |
 
 Arkitektuprinsippene beskriver hvordan arbeidet med målarkitektur for samhandling innen digital hjemmeoppføling etterfølger de overordnede arkitekturprinsippene for digitalisering av offentlig sektor.  
 
@@ -14,7 +14,7 @@ Arkitektuprinsippene beskriver hvordan arbeidet med målarkitektur for samhandli
 Datastyrte prosesser, regelstyring og automatisering-->
 <!--ha med noe om internasjonale standarder som skal legges til grunn? HL7 FHIR? Felles språk, norm for informasjonssikkerhet og personvern -->
 
-[Arkitekturprinsipp 1: Ta utgangspunkt i brukernes behov](https://www.ehelse.no/standardisering/standarder/veileder-for-helse-og-omsorgssektoren-bruk-av-digitaliseringsdirektoratets-overordnede-arkitekturprinsipper-for-digitalisering-av-offentlig-sektor#Prinsipp%201%3A%20Ta%20utgangspunkt%20i%20brukernes%20behov). Etterleves både ved å definere nytteverdien av en målarkitektur innen området DHO og gjennom en behovs og interessentanalyse hvor ulike behov for samhandling vektes basert på prioriterte behov fra klinikere og representanter for de ulike tjenesteutførerne.
+[Arkitekturprinsipp 1: Ta utgangspunkt i brukernes behov](https://www.ehelse.no/standardisering/standarder/veileder-for-helse-og-omsorgssektoren-bruk-av-digitaliseringsdirektoratets-overordnede-arkitekturprinsipper-for-digitalisering-av-offentlig-sektor#Prinsipp%201%3A%20Ta%20utgangspunkt%20i%20brukernes%20behov). Etterleves både ved å definere nytteverdien av en målarkitektur innen området DHO og gjennom en behovs og interessentanalyse hvor ulike behov for samhandling vektes basert på prioriterte behov fra klinikere og representanter for de ulike tjenesteutførerne. En nærmere beskrivelse av overordnede brukerbehov som er kartlagt i [Detaljert behovsbilde](../Detaljert-behovsbilde#identifiserte-brukerbehov)
 
 [Arkitekturprinsipp 2: Ta arkitekturbeslutninger på rett nivå](https://www.ehelse.no/standardisering/standarder/veileder-for-helse-og-omsorgssektoren-bruk-av-digitaliseringsdirektoratets-overordnede-arkitekturprinsipper-for-digitalisering-av-offentlig-sektor#Prinsipp%202%3A%20Ta%20arkitekturbeslutninger%20p%C3%A5%20rett%20niv%C3%A5). Sees i sammenheng med utgangspunkt i brukernes behov men også i forhold til å gi arkitekturanbefalinger basert på juridiske rammebetingelser og se overordnede sammenhenger i sektoren, spesielt knyttet til samhandlingsbehov som må løses med tiltak som skal utføres i samarbeid mellom leverandørmarkedet, virksomhetene i sektoren og NHN som er leverandør av sentrale felleskomponenter til sektoren.
 

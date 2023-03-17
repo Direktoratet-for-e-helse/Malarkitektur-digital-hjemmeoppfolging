@@ -4,7 +4,7 @@ title: Begreper
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:BlueViolet">Prerelease</span> | v0.8 | review  | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span> | v0.8.1 | review  | ikke normert |
 
 ## Liste over sentrale begreper som benyttes i målarkitekturen  
 
@@ -18,11 +18,14 @@ title: Begreper
 |Digital Samhandling|Samhandling mellom aktører som benytter ulike IKT-systemer på digital form (for eksempel meldingsutveksling, data- eller dokument-deling)|
 |Informasjonstjeneste|Informasjonstjenester, er en samlebetegnelse for alle typer tjenester som tilbyr eller manipulerer informasjonsressurser i form av en definert tjeneste. I helhetlig samhandling brukes en mer generell definisjon: En informasjonstjeneste er en gruppering av informasjon som kan deles mellom helsepersonell.</br>En informasjonstjeneste kan også en realiseres i form av en applikasjons komponent (IT-tjeneste) som gjør det mulig å dele et utvalg av helseinformasjon som for eksempel legemidler og egenbehandlingsplan. Ulike aktører kan knytte seg til informasjonstjenester for å få tilgang til informasjon fra andre, tilgjengeliggjøre informasjon fra egne løsninger eller oppdatere informasjon i sentrale kilder.|
 |Informasjonsressurs|Alle former for logisk avgrenset elektronisk informasjon som eksisterer i virksomheten|
+|Felleskomponenter|Defineres som avgrensede deler av en IT-løsning som kan gjenbrukes i flere IT-løsninger for å dekke felles behov. De kan brukes på tvers av e-helseløsninger, virksomheter og forvaltningsnivå, og kan enten være frivillig eller påkrevd å bruke.|
+| Fellestjeneste | Organisering av en tjeneste, slik at en virksomhet utfører aktiviteter på vegne av flere, for å gi en volumfordel. En fellestjeneste kan velge å bruke felleskomponenter som del av løsningen de bruker for å levere tjenesten.
+|Kapabilitet||En kapabilitet er en evne som en organisasjon, person, rolle, tjeneste eller et system kan inneha. En rolle, organisasjon eller person kan også være tilordnet en prosess som realiserer evnen|
 |Felleskomponenter|Defineres som komponenter som kan gjenbrukes i flere IT-løsninger for å dekke felles behov. De kan brukes på tvers av e-helseløsninger, virksomheter og forvaltningsnivå, og kan enten være frivillig eller påkrevd å bruke.|
 |PIL|Pasientinformasjonslokalisator (PIL)
 |Samhandling|All form for kontakt, samarbeid og informasjonsutveksling på tvers av virksomheter med mål om å sikre riktig behandling og koordinerte tjenester. Samhandling kan skje på ulike måter, for eksempel gjennom meldinger, telefon, møter, brev, papirutskrifter som sendes med innbyggeren.|
 |Tillitsanker|Er en tillitsskapende tjeneste som fungerer som felles avtalepunkt i infrastrukturen for å etablere felles tillitsmodell|
 |Tillitsmodell|Modell for etablering og bruk av tillitskapende tjenester som gjør det mulig for ulike aktører å samhandle elektronisk samtidig som aktørene kan ha tillit til at krav om personvern og sikkerhet ivaretas av alle samhandlende parter|
-|Tillitsskapende tjeneste|Tjenester som inngår i tillitsmodell, eksempel HelseId og tillitsanker|
-|Tjeneste|I målarkitekturen representerer dette grunnleggende tekniske komponenter som aktørene i sektor kan benytte for å levere løsninger som understøtter ytelse av helsehjelp|
+|Tillitsskapende tjeneste (tillitstjeneste)|Tjenester som inngår i tillitsmodell, eksempel HelseId og tillitsanker|
+|Tjeneste|Digdir: avgrenset sett av aktiviteter som utføres av eller på vegne av en virksomhet for en aktør. I målarkitekturen representerer dette grunnleggende tekniske komponenter som aktørene i sektor kan benytte for å levere løsninger som understøtter ytelse av helsehjelp|
 |Tjenesteforløp|Et tjenesteforløp beskriver organisering og oppgaver knyttet til å yte helsetjenester til pasienter som følges med digital hjemmeoppfølging (kilde: sluttrapport fra nasjonal utprøving 2018-2021)| <!-- Tjenesteforløp er helt generelt og trenger ikke være knyttet til DHO, har du kilde her?-->

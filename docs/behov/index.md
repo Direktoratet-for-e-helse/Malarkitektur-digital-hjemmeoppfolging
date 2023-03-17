@@ -1,30 +1,30 @@
 ---
-title: Behovsbilde
+title: Behov
 ---
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-|<span style="background-color:BlueViolet">Prerelease</span> | v0.8 | review  | ikke normert |
+|<span style="background-color:BlueViolet">Prerelease</span> | v0.8.1 | review  | ikke normert |
 
-Dette kapittelet gir en oversikt over de prioriterte behovene knyttet til tjenesteforløp der DHO benyttes. Det er ikke gjort et forsøk på å gi et komplett bilde av de funksjonelle behovene som må ivaretas for helsepersonell og pasient, det er istedet fokusert på behovet for informasjon, med formål å avdekke informasjonsbehov som må understøttes med samhandling mellom helsepersonell i ulike virksomheter. For en bredere og mer detaljert oversikt over sluttbruker behov, roller som er involvert og beskrivelse av de ulike informasjonstjenestene se vedlegget [Detaljert behovsbilde](../vedlegg/Detaljert-behovsbilde.md)
+Dette kapittelet gir en oversikt over de prioriterte behovene knyttet til tjenesteforløp der DHO benyttes. Det er ikke gjort et forsøk på å gi et komplett bilde av de funksjonelle behovene som må ivaretas for helsepersonell og pasient, det er isteden fokusert på behovet for informasjon, med formål å avdekke informasjonsbehov som må understøttes med samhandling mellom helsepersonell i ulike virksomheter. For en bredere og mer detaljert oversikt over brukerbehov, roller som er involvert og beskrivelse av de ulike informasjonstjenestene se vedlegget [Detaljert behovsbilde](../vedlegg/Detaljert-behovsbilde.md)
 
 ## Bakgrunn for behovsbildet
 
 ### Behovskartlegging basert på pågående utprøvingsprosjekter
 
-Arbeidet med målarikteturen baserer seg i stor grad på innhenting av erfaringer fra pågående intitativer. Behovskartleggingen har tatt utgangspunkt i i tidligere [dokumenterte samhandlingbehov](https://www.ehelse.no/aktuelt/ny-rapport-om-helhetlig-samhandling-for-digital-hjemmeoppfolging)<!--kunne vi her også få med lenke til rapporten fra 2021-2022 [erfaring med samhandling og informasjonsdeling](https://www.helsedirektoratet.no/tema/teknologi-i-v%C3%A5r-felles-helsetjeneste/digital-hjemmeoppfolging/Digital%20hjemmeoppf%C3%B8lging%20%20erfaring%20med%20samhandling%20og%20informasjonsdeling.%20Notat%202021.pdf/_/attachment/inline/3976eaa1-6879-4146-af89-e25cc8021390:99e208e7d1b189b13265579455085be21a18c17b/Digital%20hjemmeoppf%C3%B8lging%20%20erfaring%20med%20samhandling%20og%20informasjonsdeling.%20Notat%202021.pdf)--> og erfaringer fra utprøvingsprosjekter som benytter velferdsteknologisk knutepunkt (VKP) hvor det er identifisert et stort behov for datadeling mellom virksomheter og omsorgsnivå. Vi har videre studert behov som er viktige for utprøvingsprosjektet mellom Larvik kommune, inkludert fastlegetjenesten, og Sykehuset i Vestfold. I tillegg har prosjektet fulgt behovskartleggingen i Oslo kommune der datadeling skal etableres mellom Lovisenberg sykehus, kommunen og fastleger.  
+Arbeidet med målarikteturen baserer seg i stor grad på innhenting av erfaringer fra pågående intitativer. Behovskartleggingen har tatt utgangspunkt i tidligere [dokumenterte samhandlingbehov](https://www.ehelse.no/aktuelt/ny-rapport-om-helhetlig-samhandling-for-digital-hjemmeoppfolging)<!--kunne vi her også få med lenke til rapporten fra 2021-2022 [erfaring med samhandling og informasjonsdeling](https://www.helsedirektoratet.no/tema/teknologi-i-v%C3%A5r-felles-helsetjeneste/digital-hjemmeoppfolging/Digital%20hjemmeoppf%C3%B8lging%20%20erfaring%20med%20samhandling%20og%20informasjonsdeling.%20Notat%202021.pdf/_/attachment/inline/3976eaa1-6879-4146-af89-e25cc8021390:99e208e7d1b189b13265579455085be21a18c17b/Digital%20hjemmeoppf%C3%B8lging%20%20erfaring%20med%20samhandling%20og%20informasjonsdeling.%20Notat%202021.pdf)--> og erfaringer fra utprøvingsprosjekter som benytter velferdsteknologisk knutepunkt (VKP) hvor det er identifisert et stort behov for datadeling mellom virksomheter og omsorgsnivå. Vi har videre studert behov som er viktige for utprøvingsprosjektet mellom Larvik kommune, inkludert fastlegetjenesten, og Sykehuset i Vestfold. I tillegg har prosjektet fulgt behovskartleggingen i Oslo kommune der datadeling skal etableres mellom Lovisenberg sykehus, kommunen og fastleger.  
 
 Vi har ikke tatt inn detaljerte beskrivelser fra utprøvings og spredningsprosjektene, siden målarkitekturen skal være et generisk verktøy. For nye prosjekter som er i oppstart kan det være interessant å se til andre intitativer for å blant annet få erfaringer om organisatoriske utfordringer og få ideer til mulige løsninger.  
 
-Her er oversikt over de pågående spredningsprosjektene som er del av [Nasjonalt Velferdsteknologiprogram](https://www.helsedirektoratet.no/nyheter/oppstart-av-spredning-av-digital-hjemmeoppfolging). 
+Her er oversikt over de pågående spredningsprosjektene som er del av [Nasjonalt velferdsteknologiprogram](https://www.helsedirektoratet.no/nyheter/oppstart-av-spredning-av-digital-hjemmeoppfolging). 
 Spredningsprosjektet i Helsedirektoratet har publisert en animasjonsfilm om digital hjemmeoppfølging på Helsedirektoratet sin hjemmeside som hjelp til å informere om hva DHO kan innebære. [Film - digital hjemmeoppfølging](https://www.helsedirektoratet.no/tema/velferdsteknologi/rapporter-og-andre-publikasjoner)
 
 ### Prosessbeskrivelser og tjenesteforløp
 
-En fellesnevner ved behovsarbeidet vi har fått tilgang til er at alle utprøvings og spredningsprosjektene tar utgangspunkt i detaljerte beskrivelser av tjenesteforløp eller prosessbeskrivelser for å beskrive nå-situasjonen og for å avdekke behov knyttet til tjenesteforløpene som analyseres. Beskrivelsene av tjenesteforløpene er til dels svært detaljerte og beskriver ønsket eller eksisterende tjenesteforløp for en eller noen få pasientgrupper hvor DHO benyttes. Figuren under er et eksempel på hvordan Sykehuset i Vestfold illustrerer ønsket tjenesteforløp med utgangspunkt i oppfølging av pasient med KOLS og samarbeid mellom helsepersonell på Sykehuset Vestfold, Larvik kommune og Fastlege.
+En fellesnevner ved behovsarbeidet vi har fått tilgang til er at alle utprøvings- og spredningsprosjektene tar utgangspunkt i detaljerte beskrivelser av tjenesteforløp eller prosessbeskrivelser for å beskrive nå-situasjonen og for å avdekke behov knyttet til tjenesteforløpene som analyseres. Beskrivelsene av tjenesteforløpene er til dels svært detaljerte og beskriver ønsket eller eksisterende tjenesteforløp for en eller noen få pasientgrupper hvor DHO benyttes. Figuren under er et eksempel på hvordan Sykehuset i Vestfold illustrerer ønsket tjenesteforløp med utgangspunkt i oppfølging av pasient med KOLS og samarbeid mellom helsepersonell på Sykehuset Vestfold, Larvik kommune og fastlege.
 
 [![Tjenesteforløp eksempel](../img/tjenesteforlop-KOLS.png){ width="500" }](../img/tjenesteforlop-KOLS.png)  
-*Eksempel på tjenesteforløp for KOLS pasienter*
+*Eksempel på tjenesteforløp for pasienter med KOLS*
 
 ### Overordnet om samhandlingsbehov
 
@@ -40,12 +40,12 @@ I dagens helse- og omsorgstjeneste mangler helsepersonell ofte helhetsbilde. Ras
 
 **Med fokus på informasjonsbehov**
 
-Målbilde for samhandling begrenser seg til å understøtte ytelse av helse- og omsorgshjelp. Dette inkluderer å sikre kontinuitet i direkte helsehjelp, for eksempel når pasienter skrives ut fra sykehus og beveger seg mellom omsorgsnivå og det er behov for oppfølging i kommunen der tjenesten digital hjemmeoppfølging kan benyttes. Samhandling bidrar til økt pasientsikkerhet og kvalitet gjennom å legge til rette for deling av korrekt informasjon for helsepersonell med tjenstlig behov. Det er beskrevet noen overordnede brukerhistorier for funksjonelle behov. En kortfattet beskrivelse av hvem som har behov, hva slags funksjonalitet det er behov for og hvorfor funksjonaliteten gir verdi.
+Målbilde for samhandling begrenser seg til å understøtte ytelse av helse- og omsorgshjelp. Dette inkluderer å sikre kontinuitet i direkte helsehjelp, for eksempel når pasienter skrives ut fra sykehus og beveger seg mellom omsorgsnivå og det er behov for oppfølging i kommunen der tjenesten digital hjemmeoppfølging kan benyttes. Samhandling bidrar til økt pasientsikkerhet og kvalitet gjennom å legge til rette for deling av korrekt informasjon for helsepersonell med tjenstlig behov. Det er beskrevet noen overordnede brukerhistorier for funksjonelle behov. Disse gir en kortfattet beskrivelse av hvem som har behov, hva slags funksjonalitet det er behov for og hvorfor funksjonaliteten gir verdi.
 
 Samhandlingstjenester i behandlingsforløp der digital hjemmeoppfølging benyttes skal tilrettelegge for følgende funksjonelle behov:
 
 1. Som helsepersonell har jeg behov for tilgang til oppdatert informasjon som er nødvendig for å yte helsehjelp til pasient på en effektiv måte
-2. Som helsepersonell har jeg behov for å samarbeide med pasient og annet helsepersonell om dokumentasjon av felles sannhet for informasjon som behandlings- og egenbehandlingsplaner, målinger og legemiddellister, der mange bidrar med en delmengde av informasjonen og kompetanse slik at beslutninger tas med utgangspunkt i oppdater tinfromasjon.
+2. Som helsepersonell har jeg behov for å samarbeide med pasient og annet helsepersonell om dokumentasjon av felles sannhet for informasjon som behandlings- og egenbehandlingsplaner, målinger og legemiddellister, der mange bidrar med en delmengde av informasjonen og kompetanse slik at beslutninger tas med utgangspunkt i oppdatert informasjon.
 3. Som pasient har jeg behov for tilgang til oppdatert og relevant informasjon for å mestre og ivareta egen helse
 4. Som pasient har jeg behov for at helsepersonell med tjenstlig behov har tilgang til relevant informasjon uavhengig av hvem som har registrert informasjonen, slik at jeg slipper å gjenfortelle historien min
 
@@ -59,15 +59,15 @@ Som en ramme for behovskartlegging beskrives generelle prosesstrinn som de flest
 [![Prosess for tjenesteforløp og samhandling](../img/tjenesteforlop-og-samhandling.png)](../img/tjenesteforlop-og-samhandling.png)  
 *Prosess for tjenesteforløp og samhandling*  
 
-I tillegg til behovskartlegging knyttet til [utprøvings- og sprednings-prosjekter](#behovskartlegging-basert-pa-pagaende-utprvingsprosjekter) er den generelle beskrivelsen av  tjenesteforløpet basert på Helsedirektoratets anbefalinger knyttet til [Utvikling av helhetlige tjenesteforløp](https://www.helsedirektoratet.no/rapporter/digital-hjemmeoppfolging-sluttrapport-fra-nasjonal-utproving-2018-2021/utvikling-av-helhetlige-tjenesteforlop).
+I tillegg til behovskartlegging knyttet til [utprøvings- og spredningsprosjekter](#behovskartlegging-basert-pa-pagaende-utprvingsprosjekter) er den generelle beskrivelsen av  tjenesteforløpet basert på Helsedirektoratets anbefalinger knyttet til [Utvikling av helhetlige tjenesteforløp](https://www.helsedirektoratet.no/rapporter/digital-hjemmeoppfolging-sluttrapport-fra-nasjonal-utproving-2018-2021/utvikling-av-helhetlige-tjenesteforlop).
 
-* **Søknad/Henvisning** er prosesser knyttet til å motta søknad eller henvisning fra andre deler av helsetjenesten  eller innbygger/pårørende. Eksempler kan være at en pasient er tildelt en tjeneste basert på søknad som omfatter hjemmetjenester kombinert med utplassering av DHO-utstyr/ medisinsk utstyr i pasientens hjem
-* **Oppstart** er oppstart av ny helsehjelp basert på søknad/henvisning med bakgrunn i behov og/eller diagnose, pasientens symptomer med utredning av pasientens tilstand. Oppstart inkluderer planlegging av behandling/oppfølging og tiltak som skal gjennomføres, og opplæring av involvert helsepersonell og pasienter/pårørende, for eksempel knyttet til bruk av medisindispenser eller annet DHO utstyr/ medisinsk utstyr og utarbeidelse av plan.
-* **Behandling og oppfølging** av pasient er det mest sentrale prosessteget i tjenesteforløpet og vil omfatte alle former for vurdering, rapportering, oppfølging og behandling som gjennomføres. Det kan være oppfølging ved hjelp av teknologi, hjemmebesøk, konsultasjon eller behandling som krever besøk/innleggelse på helseinstitusjon
+* **Søknad/Henvisning** er prosesser knyttet til å motta søknad eller henvisning fra andre deler av helsetjenesten eller innbygger/pårørende. Eksempler kan være at en pasient er tildelt en tjeneste basert på søknad som omfatter hjemmetjenester kombinert med utplassering av DHO-utstyr/ medisinsk utstyr i pasientens hjem.
+* **Oppstart** er oppstart av ny helsehjelp basert på søknad/henvisning med bakgrunn i behov og/eller diagnose, pasientens symptomer med utredning av pasientens tilstand. Oppstart inkluderer planlegging av behandling/oppfølging og tiltak som skal gjennomføres, og opplæring av involvert helsepersonell og pasienter/pårørende, for eksempel knyttet til bruk av medisindispenser eller annet DHO-utstyr/ medisinsk utstyr og utarbeidelse av plan.
+* **Behandling og oppfølging** av pasient er det mest sentrale prosessteget i tjenesteforløpet og vil omfatte alle former for vurdering, rapportering, oppfølging og behandling som gjennomføres. Det kan være oppfølging ved hjelp av teknologi, hjemmebesøk, konsultasjon eller behandling som krever besøk/innleggelse på helseinstitusjon.
 * **Evaluering** innebærer å gjennomgå hvordan oppfølgingen fungerer, vurdere nye tiltak og eventuelt justere eksisterende tiltak.
 * **Avslutte** tjeneste innebærer at tjenesteforløpet avsluttes etter evaluering.
 
-Prosessen for **Samhandling** er brutt ned til generelle steg som kjennetegner en samhandlingsprosess. Prosessen for samhandling kan som figuren viser understøtte alle deler av et tjenesteforløp der informasjon innhentes, produseres eller deles. Delprosessene for samhandling kan også detaljeres videre og vil vanligvis understøttes på på ulike måter av automatiserte eller manuelle prosesser og funksjoner.
+Prosessen for **Samhandling** er brutt ned til generelle steg som kjennetegner en samhandlingsprosess. Prosessen for samhandling kan som figuren viser understøtte alle deler av et tjenesteforløp der informasjon innhentes, produseres eller deles. Delprosessene for samhandling kan også detaljeres videre og vil vanligvis understøttes på ulike måter av automatiserte eller manuelle prosesser og funksjoner.
 
 * **Innhente informasjon** er enhver prossess hvor en aktør leser, finner eller henter informasjon fra andre interne eller eksterne kilder.
 * **Produsere informasjon** er enhver prosess knyttet til å dokumentere tiltakene som er gjennomført og vurderingene som ligger til grunn for tiltakene.
@@ -90,7 +90,7 @@ Figuren viser en oversikt over identifiserte informasjonsbehov i forbindelse med
 
 ### Data fra pasient og informasjonstjenester
 
-Hovedmålet for målarkitekturen DHO er å vise hvordan samhandlingen knyttet til data fra pasient skal gjennomføres, samtidig som den må vise hvilke andre informasjonstjenester som må være tilstede for å understøtte tjenesteforløp. Informasjonstjenestene som omfattes er i denne sammenhengen:
+Hovedmålet for målarkitekturen DHO er å vise hvordan samhandlingen knyttet til data fra pasient skal gjennomføres, samtidig som den må vise hvilke andre informasjonstjenester som må være tilstede for å understøtte tjenesteforløp. Informasjonstjenestene som omfattes er i denne sammenhengen (en komplett oversikt over analyserte informasjonstjenster ligger i [vedlegget](../vedlegg/Detaljert-behovsbilde#analyse-av-informasjonsbehovene)):
 
 * Undersøkelser, målinger og funn (IT17 og IT07)
 * Skjemabesvarelser og NEWS scoringer (IT17)
@@ -122,12 +122,12 @@ Her vises i prioritert rekkefølge de informasjonstjenestene som er mest ettersp
 4. Dialogtjenester (IT10 og IT11)
 5. Hjelpemidler og utstyrslogistikk (IT23)
 
-I tillegg er det en rekke andre informasjonstjenester som er høyt prioritert av tjenesten, det er noen viktige sammenhenger mellom informasjonstjenestene som vises i figuren:
+I tillegg er det en rekke andre informasjonstjenester som er høyt prioritert av tjenesten. Det er noen viktige sammenhenger mellom informasjonstjenestene som vises i figuren:
 
 [![Sammenhenger informasjonsbehov](../img/informasjonsbehov-sammenhenger.png)](../img/informasjonsbehov-sammenhenger.png)
 *Viktige sammenhenger mellom informasjonsbehov og informasjonskategorier*
 
-Det utvikles samhandlingsløsninger knyttet til behov for [digitale behandlings- og egenbehandlingsplaner](https://www.helsedirektoratet.no/om-oss/forsoksordninger-og-prosjekter/digital-behandlings-og-egenbehandlingsplan) og [legemiddelliste](https://www.ehelse.no/prosjekt/program-pasientens-legemiddelliste) gjennom egne initiativ.  
+Det utvikles samhandlingsløsninger knyttet til behov for [digitale behandlings- og egenbehandlingsplaner](https://www.helsedirektoratet.no/om-oss/forsoksordninger-og-prosjekter/digital-behandlings-og-egenbehandlingsplan) og [legemiddelliste](https://www.ehelse.no/prosjekt/program-pasientens-legemiddelliste) gjennom egne initiativ. Disse behovene behandles derfor ikke videre i målarkitekturen, men intitaivene bør ses i sammenheng siden samhandlingsløsningene vil innvirke på den totale brukeropplevelsen for innbygger og helsepersonell.  
 
 !!! note "Prioritering av målinger, vurderinger og varsel"
 
@@ -135,4 +135,4 @@ Det utvikles samhandlingsløsninger knyttet til behov for [digitale behandlings-
 
 ### Detaljert behovsbeskrivelse
 
-For en bredere og mer detaljert oversikt over sluttbruker behov, roller som er involvert og beskrivelse av de ulike informasjonstjenestene se vedlegget [detaljert behovsbilde](../vedlegg/Detaljert-behovsbilde.md)
+For en bredere og mer detaljert oversikt over sluttbrukerbehov, roller som er involvert og beskrivelse av de ulike informasjonstjenestene se vedlegget [detaljert behovsbilde](../vedlegg/Detaljert-behovsbilde.md)
