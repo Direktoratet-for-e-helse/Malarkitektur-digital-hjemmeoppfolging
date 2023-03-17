@@ -87,5 +87,5 @@ plugins:
       type: datetime
   - with-pdf:
       cover_subtitle: "Innspillsversjon 0.8"
-      two_columns_level: 3
+      # two_columns_level: 3
       # output_path: ./Malarkitektur-v08.pdf
