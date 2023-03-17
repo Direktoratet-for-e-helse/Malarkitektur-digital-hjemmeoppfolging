@@ -1,4 +1,4 @@
-name: peaceiris-mkdocks-currentbuild
+name: peaceiris-mkdocks
 
 on:
   workflow_dispatch:
