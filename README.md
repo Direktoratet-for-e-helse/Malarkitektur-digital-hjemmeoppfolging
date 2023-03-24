@@ -1,6 +1,6 @@
-# Testdokumentasjon Målarkitektur datadeling innen digital hjemmeoppfølging
+# Testprosjekt Målarkitektur for datadeling innen digital hjemmeoppfølging
 
-Testprosjekt for å se hvordan arkitekturdokumentasjon kan publiseres og vedlikeholdes på Github i regi Direktoratet for e-helse.
+Testprosjekt for å se hvordan arkitekturdokumentasjon kan publiseres og vedlikeholdes på Github i regi Direktoratet for e-helse. Dokumentasjonen som produseres her er planlagt som et normerende produkt fra Direktoratet for e-helse, men måten å produsere det på ved hjelp av Github er et testprosjekt.
 
 ### Oversikt over versjoner
 
