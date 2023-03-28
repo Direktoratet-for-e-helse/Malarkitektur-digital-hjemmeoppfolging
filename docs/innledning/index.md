@@ -59,7 +59,7 @@ Målgruppen for målarkitekturen er primært arkitekter og tekniske prosjektlede
 #### Vedlegg
 
 * [Konsepter realisering](../vedlegg/Konsepter-realisering.md) beskriver konseptene som er vurdert for å etablere datadeling og understøtter krav og anbefalinger.
-* [Juridiske vurderinger](../vedlegg/Juridiske-rammebetingelser.md) beskriver det juridiske handlingsrommet som eksisterer for å etablere datadeling ved å vurdere konsepter for realisering i forhold til relevante lover og regler.
+* [Juridiske vurderinger](../juridisk/index.md) beskriver det juridiske handlingsrommet som eksisterer for å etablere datadeling ved å vurdere konsepter for realisering i forhold til relevante lover og regler.
 * [Anbefalte tiltak](../vedlegg/Anbefalte-tiltak.md) foreslår tiltak som kan gjennomføres for å understøtte etableringen av datadeling mellom virksomheter innen behovsområdet DHO
 
 ## Omfang og avgrensninger
