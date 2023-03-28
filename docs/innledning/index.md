@@ -54,12 +54,12 @@ Målgruppen for målarkitekturen er primært arkitekter og tekniske prosjektlede
     Deler av behovsbeskrivelsen er teknisk anlagt og vil være vanskelig tilgjengelig for lesere som ikke har inngående kjennskap til metoder for informasjonsarkitektur.
 
 * [Behov](../behov/index.md) beskriver overordnede brukerhistorier, informasjonsbehov og prioriteringer av informasjonsbehovene. Denne delen understøttes av en mer [detaljert behovsbeskrivelse](../vedlegg/Detaljert-behovsbilde.md) som ligger i vedlegg.
+* [Juridiske vurderinger](../juridisk/index.md) beskriver det juridiske handlingsrommet som eksisterer for å etablere datadeling ved å vurdere [konsepter for realisering](../vedlegg/Konsepter-realisering.md) i forhold til relevante lover og regler.
 * [Krav og anbefalinger](../kravoganbefalinger/index.md) beskriver det arkitekturmålbildet og det arkitekturtekniske underlaget for hvilke kapabiliteter og informasjonstjenester som bør realiseres for å nå målbildet. Kapittelet beskriver også de grunnleggende prosessene og funksjonene virksomhetene må etablere for å realisere og forvalte effektive datadelingstjenester.  
 
 #### Vedlegg
 
 * [Konsepter realisering](../vedlegg/Konsepter-realisering.md) beskriver konseptene som er vurdert for å etablere datadeling og understøtter krav og anbefalinger.
-* [Juridiske vurderinger](../juridisk/index.md) beskriver det juridiske handlingsrommet som eksisterer for å etablere datadeling ved å vurdere konsepter for realisering i forhold til relevante lover og regler.
 * [Anbefalte tiltak](../vedlegg/Anbefalte-tiltak.md) foreslår tiltak som kan gjennomføres for å understøtte etableringen av datadeling mellom virksomheter innen behovsområdet DHO
 
 ## Omfang og avgrensninger
