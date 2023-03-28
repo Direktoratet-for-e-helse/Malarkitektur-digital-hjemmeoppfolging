@@ -9,6 +9,8 @@ nav:
       - innledning/index.md
     - Behov: 
       - behov/index.md
+    - Juridiske vurderinger:
+      - juridisk/index.md
     - Krav og anbefalinger: 
       - kravoganbefalinger/index.md
     - Referanser: 
@@ -19,7 +21,6 @@ nav:
       - Arkitekturprinsipper: vedlegg/Arkitekturprinsipper.md
       - Detaljert behovsbilde: vedlegg/Detaljert-behovsbilde.md
       - Konsepter realisering: vedlegg/Konsepter-realisering.md
-      - Juridiske vurderinger: vedlegg/Juridiske-rammebetingelser.md
       - Anbefalte tiltak: vedlegg/Anbefalte-tiltak.md
       - Målbilde for DHO og velferdsteknologiprogrammet: vedlegg/Overordnet-maalbilde.md
       - Semantisk samhandlingsevne: vedlegg/Semantisk-samhandling.md

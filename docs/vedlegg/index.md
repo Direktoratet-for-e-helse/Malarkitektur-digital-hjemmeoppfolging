@@ -10,7 +10,6 @@ title: Oversikt over vedlegg
 [Arkitekturprinsipper](Arkitekturprinsipper.md)  
 [Detaljert behovsbilde](Detaljert-behovsbilde.md)  
 [Konsepter realisering](Konsepter-realisering.md)  
-[Juridiske vurderinger](Juridiske-rammebetingelser.md)  
 [Anbefalte tiltak](Anbefalte-tiltak.md)  
 [Målbilde DHO og velferdsteknologiprogrammet](Overordnet-maalbilde.md)  
 [Semantisk samhandlingsevne](Semantisk-samhandling.md)  

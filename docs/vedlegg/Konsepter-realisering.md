@@ -246,7 +246,7 @@ Konseptet løser behovet virksomhetene i samarbeider har for datadeling gjennom 
 
 #### Ulemper
 
-* [Juridiske vurdering av konseptet](Juridiske-rammebetingelser.md#regionale-datadelingslsninger-med-lagring) viser at §9 ikke kan benyttes til å etablere felles regionale løsninger hvor hovedformålet er datadeling
+* [Juridiske vurdering av konseptet](../juridisk/index.md#regionale-datadelingslsninger-med-lagring) viser at §9 ikke kan benyttes til å etablere felles regionale løsninger hvor hovedformålet er datadeling
 * Alle virksomhetene må implementere synkronisering av egne data mot datalager i sentral infrastruktur
 
 ### Nasjonal sentral datadelingsløsning med lagring
