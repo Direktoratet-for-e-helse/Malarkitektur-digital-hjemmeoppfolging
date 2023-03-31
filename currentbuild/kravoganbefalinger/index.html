@@ -820,6 +820,47 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#arkitekturvalg" class="md-nav__link">
+    Arkitekturvalg
+  </a>
+  
+    <nav class="md-nav" aria-label="Arkitekturvalg">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fleksibilitet" class="md-nav__link">
+    Fleksibilitet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#juridiske-rammer" class="md-nav__link">
+    Juridiske rammer
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#felles-semantiske-spesifikasjoner" class="md-nav__link">
+    Felles semantiske spesifikasjoner
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#felleskomponenter-og-fellestjenester" class="md-nav__link">
+    Felleskomponenter og fellestjenester
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#vurdering-av-konsept" class="md-nav__link">
     Vurdering av konsept
   </a>
@@ -1013,7 +1054,7 @@
 <tbody>
 <tr>
 <td align="left"><span style="background-color:BlueViolet">Prerelease</span></td>
-<td align="left">v0.8.1</td>
+<td align="left">v0.8.2</td>
 <td align="left">review</td>
 <td align="left">ikke normert</td>
 </tr>
@@ -1031,10 +1072,6 @@
 Behovsanalysen til konseptvalgutredningen for nasjonal journalløsning for kommunal helse og omsorgstjeneste beskriver <a href="https://ehelse.no/strategi/akson/_/attachment/download/991f83c3-be61-4556-9df6-44e8430ecf8c:c10adb76b95e679fb5857fec60e5c57650ead80b/Vedlegg%20A%20Behovsanalyse%20Nasjonal%20l%C3%B8sning%20for%20kommunal%20helse-%20og%20omsorgstjeneste.pdf">behovene for samhandling i detalj [7]</a>.</p>
 <p>Dette bruksområdet dekker samhandling gjennom datadeling mellom aktører i ulike helseregioner og mellom aktører i helseregioner og den kommunale helse- og omsorgstjenesten inkludert fastleger. Målarkitekturen for dette bruksområdet trenger mer arbeid og vi har valgt å ikke beskrive arkitekturen nærmere i denne versjonen av dokumentet." </p>
 </div>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>Innholdet i denne delen bygger direkte på eksisterende rammeverk beskrevet i <a href="https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren">Målarkitektur for datadeling i helse og omsorgssektoren</a> og <a href="https://www.ehelse.no/standardisering/standarder/referansearkitektur-for-datadeling">Referansearkitektur for datadeling</a>. Kapitelet forutsetter kjennskap til de tekniske delene av disse arbeidene. Kapitelet egner seg hovedsaklig for arkitekter og tekniske personer som ønsker å forstå bakgrunnen for arkitekturvalgene som gjøres i målarkitekturen.</p>
-</div>
 <h2 id="malarkitektur-for-datadeling">Målarkitektur for datadeling</h2>
 <p>Basert på  arkitekturvurderingene i dette kapittelet kombinert med identifiserte <a href="../behov/">behov</a>, <a href="../juridisk/">juridiske vurderinger</a> og <a href="../vedlegg/Konsepter-realisering/">vurderte konsepter for realisering</a> anbefaler vi en fleksibel modell for å realisere datadeling mellom virksomhetene i helsesektoren.</p>
 <p><strong>Behovene</strong> peker tydelig på at datadeling er nødvendig for å realisere effektiv samhandling på DHO-området, samtidig er det tydelig at hoveddelen av samhandlingen foregår regionalt. Behovene understøtter derfor ikke behov for sentrale nasjonale løsninger for å løse samhandlingsbehovet innen DHO. De <strong>juridiske vurderingene</strong> peker på datadeling kan realiseres i form av distribuerte modeller og modeller basert på regionalt samarbeid innen for gjeldende rett.</p>
@@ -1044,9 +1081,35 @@ Behovsanalysen til konseptvalgutredningen for nasjonal journalløsning for kommu
 <p>Målarkitekturen forutsetter at det foreligger felles semantiske spesifikasjoner for informasjonen som skal utveksles. Det er viktig at spesifikasjonene beskriver minimumskrav til struktur, innhold og bruk av terminologi og kodeverk, i tillegg til felles krav knyttet til selve datadelingsgrensesnittet.</p>
 <p>Tre fellestjenester bør etableres for å gjennomføre innføring og spredning av datadeling på en effektiv måte. Det anbefales tiltak knyttet til å etablere felles API-katalog, Pasientinformasjonslokalisator og Tillitsanker. Fellestjenester for Personvern, Grunndata og HelseID er allerede i utstrakt bruk.</p>
 <p>Dataansvaret vil i forslaget til målarkitektur ligge hos den enkelte virksomheten. Unntaket er ved samarbeid om fellesløsning hvor datansvaret reguleres i avtalen mellom de samarbeidende virksomhetene.</p>
+<h3 id="arkitekturvalg">Arkitekturvalg</h3>
+<p>Vi gjør 4 grunnleggende arkitekturvalg for etablering av datadeling mellom virksomheter og omsorgsnivå som oppsummeres her. I tillegg har vi valgt å bruke datadeling som samhandlingsform basert på behovene som er identifisert i <a href="../behov/#samhandlingsform-datadeling">behovskapittelet</a>.</p>
+<h4 id="fleksibilitet">Fleksibilitet</h4>
+<div class="admonition note">
+<p class="admonition-title">Arkitekturvalg 2: Fleksibilitet</p>
+<p>Fleksibilitet for etableringen av datadelingstjenester i forhold til virksomhetenes behov/evner</p>
+</div>
+<h4 id="juridiske-rammer">Juridiske rammer</h4>
+<div class="admonition note">
+<p class="admonition-title">Arkitekturvalg 3: Løsningsalternativer innenfor gjeldende rett</p>
+<p>Fokuserer på løsningsalternativer som kan realiseres innenfor gjeldende rett</p>
+</div>
+<h4 id="felles-semantiske-spesifikasjoner">Felles semantiske spesifikasjoner</h4>
+<div class="admonition note">
+<p class="admonition-title">Arkitekturvalg 4: Felles semantiske spesifikasjoner</p>
+<p>Distribuert samhandling basert på felles semantiske spesifikasjoner</p>
+</div>
+<h4 id="felleskomponenter-og-fellestjenester">Felleskomponenter og fellestjenester</h4>
+<div class="admonition note">
+<p class="admonition-title">Arkitekturvalg 5: Felleskomponenter</p>
+<p>Baserer oss på eksisterende og planlagte felleskomponenter som er beskrevet i målarkitektur for datadeling</p>
+</div>
 <h3 id="vurdering-av-konsept">Vurdering av konsept</h3>
 <p>Vi anbefaler at virksomhetene vurderer hvilke konsept for datadeling som egner seg best ut fra samhandlingsbehovene som identifiseres i tjenesteforløpene som skal etableres eller understøttes. Videre anbefales at det konkrete samhandlingsbehovet gjennomføres i samarbeid med andre virksomheter innen for regionen eller Helsefellesskapet. Virksomhetene bør velge ett eller flere konsept som er innenfor gjeldende rett for å komme i gang med datadeling mellom virksomhetene i Helsefellesskapet eller regionen. Det kan vurderes kombinasjoner av alle konseptene som faller innenfor gjeldende rett innenfor en region. Hvilke konsept som passer best er blant annet avhengig av virksomhetenes størrelse, tilgang til eksisterende infrastruktur og behov for fleksibilitet, skalerbarhet og kompleksiteten i løsningen. Det anbefales å gjenbruke semantiske spesifikasjoner der disse eksisterer eller samarbeide med andre virksomheter om å etablere felles spesifikasjoner basert på <a href="https://www.ehelse.no/standardisering/standarder/anbefaling-om-bruk-av-hl7-fhir-for-datadeling">HL7 FHIR</a>.</p>
 <h2 id="kapabilitetskart">Kapabilitetskart</h2>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Innholdet i denne delen bygger direkte på eksisterende rammeverk beskrevet i <a href="https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren">Målarkitektur for datadeling i helse og omsorgssektoren</a> og <a href="https://www.ehelse.no/standardisering/standarder/referansearkitektur-for-datadeling">Referansearkitektur for datadeling</a>. Kapitelet forutsetter kjennskap til de tekniske delene av disse arbeidene. Kapitelet egner seg hovedsaklig for arkitekter og tekniske personer som ønsker å forstå bakgrunnen for arkitekturvalgene som gjøres i målarkitekturen.</p>
+</div>
 <p>I denne delen av målarkitekturen viser vi hvilke kapabiliteter eller evner som må realiseres for å understøtte samhandling mellom virksomheter og omsorgsnivå. Kapabilitetene som beskrives er en videreutvikling av kapabilitetene som beskrives i <a href="https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren">Målarkitektur for datadeling i helse og omsorgssektoren</a>, men modellene videreutvikles med hovedfokus på samhandling mellom virksomheter.</p>
 <div class="admonition note">
 <p class="admonition-title">Bruk av kapabiliteter i planleggingen</p>
@@ -1260,7 +1323,7 @@ Når en konsumerende virksomhet forespør data fra datadelingstjenesten starter 
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">March 31, 2023 08:41:55</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">March 31, 2023 10:27:46</span>
       
     
   </small>
