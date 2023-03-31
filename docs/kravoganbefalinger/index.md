@@ -44,31 +44,33 @@ Dataansvaret vil i forslaget til målarkitektur ligge hos den enkelte virksomhet
 
 ### Arkitekturvalg
 
-Vi gjør 4 grunnleggende arkitekturvalg for etablering av datadeling mellom virksomheter og omsorgsnivå som oppsummeres her. I tillegg har vi valgt å bruke datadeling som samhandlingsform basert på behovene som er identifisert i [behovskapittelet](../behov/index.md#samhandlingsform-datadeling).
+Vi gjør fire grunnleggende arkitekturvalg for etablering av datadeling mellom virksomheter og omsorgsnivå som oppsummeres her. I tillegg har vi valgt å bruke datadeling som samhandlingsform basert på behovene som er identifisert i [behovskapittelet](../behov/index.md#samhandlingsform-datadeling).
 
 #### Fleksibilitet
 
+Det er viktig å integrere fleksibilitet i målarkitekturen for å ivareta lokale og regionale behov og ikke binde seg til et bestemt løsningsmønster før vi har tilstrekkelig erfaring med datadeling mellom virksomhetene. Fleksibilitet er også viktig for å ikke stoppe eller forsinke pågående aktiviteter for å etablere datadeling i helsefellesskapene, utprøvings- og spredningsaktiviteter.
+
 !!! note "Arkitekturvalg 2: Fleksibilitet"
 
-    Fleksibilitet for etableringen av datadelingstjenester i forhold til virksomhetenes behov/evner
+    Vi anbefaler en fleksibel modell for etablering av datadeling mellom virksomheter og omsorgsnivå.
 
 #### Juridiske rammer
 
 !!! note "Arkitekturvalg 3: Løsningsalternativer innenfor gjeldende rett"
 
-    Fokuserer på løsningsalternativer som kan realiseres innenfor gjeldende rett
+    Vi anbefaler løsningsalternativer som kan realiseres innenfor gjeldende rett.
 
 #### Felles semantiske spesifikasjoner
 
 !!! note "Arkitekturvalg 4: Felles semantiske spesifikasjoner"
 
-    Distribuert samhandling basert på felles semantiske spesifikasjoner
+    Etableringen av datadelingsløsninger må basere seg på felles semantiske spesifikasjoner basert på internasjonale standarder.
 
 #### Felleskomponenter og fellestjenester
 
 !!! note "Arkitekturvalg 5: Felleskomponenter"
 
-    Baserer oss på eksisterende og planlagte felleskomponenter som er beskrevet i målarkitektur for datadeling
+    Målarkitekturen forutsetter bruk av eksisterende og planlagte felleskomponenter, som er beskrevet i [målarkitektur for datadeling](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren).
 
 ### Vurdering av konsept
 
@@ -78,7 +80,7 @@ Vi anbefaler at virksomhetene vurderer hvilke konsept for datadeling som egner s
 
 !!! info
 
-    Innholdet i denne delen bygger direkte på eksisterende rammeverk beskrevet i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) og [Referansearkitektur for datadeling](https://www.ehelse.no/standardisering/standarder/referansearkitektur-for-datadeling). Kapitelet forutsetter kjennskap til de tekniske delene av disse arbeidene. Kapitelet egner seg hovedsaklig for arkitekter og tekniske personer som ønsker å forstå bakgrunnen for arkitekturvalgene som gjøres i målarkitekturen.
+    Innholdet i denne delen bygger på eksisterende retningslinjer beskrevet i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) og [Referansearkitektur for datadeling](https://www.ehelse.no/standardisering/standarder/referansearkitektur-for-datadeling). Kapittelet forutsetter kjennskap til de tekniske delene av disse arbeidene. Kapittelet egner seg hovedsaklig for arkitekter og tekniske personer som ønsker å forstå bakgrunnen for arkitekturvalgene som gjøres i målarkitekturen.
 
 I denne delen av målarkitekturen viser vi hvilke kapabiliteter eller evner som må realiseres for å understøtte samhandling mellom virksomheter og omsorgsnivå. Kapabilitetene som beskrives er en videreutvikling av kapabilitetene som beskrives i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren), men modellene videreutvikles med hovedfokus på samhandling mellom virksomheter.
 
