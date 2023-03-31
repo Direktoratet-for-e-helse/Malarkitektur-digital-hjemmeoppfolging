@@ -122,7 +122,7 @@ Evnene er knyttet til bruk av organisatoriske samhandlingsformer for å utveksle
 | Tilgjengeliggjøre data | Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet med eller uten krav til innlogget bruker ved hjelp av datadeling. Tilgangsstyring inngår her. Avgjøre hvilken informasjon som skal deles med andre gjennom en datadelingstjeneste. |
 | Visning | Evnen til å vise data til bruker |
 
-## Realising av kapabilitetene
+## Realisering av kapabilitetene
 
 I behovsbildet har vi beskrevet og prioritert hvilke [informasjonstjenester](../vedlegg/Informasjonstjeneste-meta.md) vi trenger for å understøtte relevante tjenesteforløp knyttet til DHO. I arbeidet med målarkitektur for samhandling DHO analyserer vi hvordan kapabiliteter kan realiseres av prosesser og ser hvilke applikasjonstjenester som må understøtte realiseringen. Vi ser også på sammenhengen mellom applikasjonstjenestene som realiseres av virksomhetene som skal samhandle og tjenester som realiseres i felles infrastruktur (fellestjenester).
 
@@ -132,10 +132,6 @@ Modellen *Sentrale prosesser knyttet til samhandling* viser hvordan prosesser, f
 
 [![Prosesser knyttet til samhandling](../img/tjenester-kapabiliteter.png)](../img/tjenester-kapabiliteter.png)
 *Overordnet bilde av prosesser og applikasjonstjenester som understøtter samhandling mellom virksomheter*
-
-### Samhandlingsformer
-
-Behovet for samhandling i DHO løses best ved å benytte flere samhandlingsformer om hverandre der ulike samhandlingsformer svarer ut ulike informasjonsbehov og har ulike roller i forhold til behandlingsforløpet. Det eksisterer i dag utstrakt bruk av samhandlingsformen sende og motta spesielt knyttet til rekvisisjon, henvisning, svar og epikrise. Dette er ikke hovedfokuset i forbindelse med å utvikle samhandlingen knyttet til DHO da dette er samhandlingsformer og prosesser som er veletablert i tjenesten i dag men som ikke i tilstrekkelig grad understøtter behovene knyttet til DHO og sammensatte behandlingsforløp, hvor ulike virksomheter og omsorgsnivå følger opp pasienten.
 
 ### Informasjonstjenester og prosesser
 
