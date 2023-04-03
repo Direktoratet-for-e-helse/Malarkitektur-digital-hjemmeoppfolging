@@ -87,14 +87,20 @@ Prosessen for **Samhandling** er brutt ned til generelle steg som kjennetegner 
 
 Målarkitekturen skal beskrive behov for samhandling og informasjonstjenester som kan sikre at samhandlingen understøtter helsetjenesten på en hensiktsmessig måte. I arbeidet med å kartlegge informasjonsbehov skiller vi mellom informasjonsressurser og informasjonstjenester som må etableres for å understøtte informasjonsbehovet. I den grad det er nødvendig vil arbeidet også beskrive andre initiativer som etablerer informasjonstjenester det er behov for i forbindelse med DHO og hvordan disse tjenestene bør tilgjengeliggjøres for å svare ut behov som er identifisert i forbindelse med DHO.  
 
-!!! note "Prioritering 1: Regional samhandling mellom virksomheter"
-
-    Hovedmålet med arbeidet er å vise hvordan regional og lokal samhandlingen bør etableres mellom virksomhetene. Hypotesen om at det meste av samhandlingen foregår regionalt er bekreftet av alle aktører som har deltatt i arbeidet med målarkitekturen.
-
 Figuren viser en oversikt over identifiserte informasjonsbehov i forbindelse med DHO:
 
 [![Identifiserte informasjonsbehov](../img/informasjonsbehov-enkel.png)](../img/informasjonsbehov-enkel.png)
 *Identifiserte informasjonsbehov*
+
+### Samhandling innenfor geografiske regioner
+
+Ved inngangen til behovsarbeidet formulerte vi en hypotese om at [samhandlingsbehovet var størst regionalt](../vedlegg/Detaljert-behovsbilde#hypotese-knyttet-til-brukerbehov). Hypotesen foreslår at det er innen den regionen de aktuelle pasientene bor at det er størst behov for samhandling mellom ulike virksomheter som er involvert i tjenesteforløpene som omfatter DHO. Det vil si at de fastlegene, sykehusene og kommunene som er involvert i liten grad har behov for å samhandle med virksomheter som ligger geografisk langt borte. Dette gjelder spesielt den daglige oppfølgingen av pasienten. Det vil alltid eksistere unntak, hvor pasienten trenger oppfølging fra nasjonal ekspertise eller i tilfeller der pasienten flytter, men det ligger i hypotesen at dette ikke er hovedmønsteret for samhandling. Gjennom arbeidet med behovskartleggingen er denne hypotesen bekreftet av alle virksomhetene vi har hatt kontakt med.
+
+!!! note "Prioritering 1: Understøtte samhandling mellom virksomheter regionalt og lokalt"
+
+    Hovedmålet med arbeidet er å vise hvordan regional og lokal samhandlingen bør etableres mellom virksomhetene. Hypotesen om at det meste av samhandlingen foregår regionalt og lokalt er bekreftet av alle aktører som har deltatt i arbeidet med målarkitekturen.
+
+Vi har derfor valgt å la hypotesen ligge til grunn for å prioritere tilrettelegging for samhandling innenfor regioner og lokal, foran eventuelle behov for samhandling mellom alle helsevirksomheter nasjonalt. Det blir derfor riktig å starte etablering av samhandling regionalt og eventuelt skalere og tilpasse løsninger for sømløs nasjonal samhandling på et senere tidspunkt, hvis det viser seg å være stort behov for dette. En nasjonal skalering kan få konsekvenser for behovet for nasjonale felleskomponenter, nasjonal sammenstilling av informasjon og behov for systemstøtte som vi ikke har identifisert i forhold til den regionale samhandlingen.
 
 ### Data fra pasient og informasjonstjenester
 

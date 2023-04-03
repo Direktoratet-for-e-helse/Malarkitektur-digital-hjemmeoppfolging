@@ -48,13 +48,15 @@ Vi gjør fire grunnleggende arkitekturvalg for etablering av datadeling mellom v
 
 #### Fleksibilitet
 
-Det er viktig å integrere fleksibilitet i målarkitekturen for å ivareta lokale og regionale behov og ikke binde seg til et bestemt løsningsmønster før vi har tilstrekkelig erfaring med datadeling mellom virksomhetene. Fleksibilitet er også viktig for å ikke stoppe eller forsinke pågående aktiviteter for å etablere datadeling i helsefellesskapene, utprøvings- og spredningsaktiviteter.
+Det er viktig å integrere fleksibilitet i målarkitekturen for å ivareta lokale og regionale behov og ikke binde seg til et bestemt løsningsmønster før vi har tilstrekkelig erfaring med datadeling mellom virksomhetene. Fleksibilitet er også viktig for å ikke stoppe eller forsinke pågående aktiviteter for å etablere datadeling i helsefellesskapene i forbindelse med utprøvings- og spredningsaktiviteter som er igang.
 
 !!! note "Arkitekturvalg 2: Fleksibilitet"
 
     Vi anbefaler en fleksibel modell for etablering av datadeling mellom virksomheter og omsorgsnivå.
 
 #### Juridiske rammer
+
+
 
 !!! note "Arkitekturvalg 3: Løsningsalternativer innenfor gjeldende rett"
 
