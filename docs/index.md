@@ -1,12 +1,11 @@
 ---
 title: Sammendrag
 ---
+| Status                                                   | Version | Maturity | Normative level |
+| :------------------------------------------------------- | :------ | :------- | :-------------- |
+| `<span style="background-color:BlueViolet">`Prerelease | v0.8.1  | review   | ikke normert    |
 
-| Status | Version | Maturity | Normative level |
-|:-------------|:------------------|:------|:-------|
-| <span style="background-color:BlueViolet">Prerelease</span> | v0.8.1 | review | ikke normert |
-
-Direktoratet for e-helse har sammen med helse- og omsorgssektoren et [strategisk mål](https://www.ehelse.no/strategi/nasjonal-e-helsestrategi-for-helse-og-omsorgssektoren/mal-4-tilgjengelig-informasjon-og-styrket-samhandling) om å styrke digital samhandling mellom aktørene i helse- og omsorgssektoren. Dette målet sammenfaller med de strategiske føringen for Digital hjemmeoppfølging som har identifisert et effektmål knyttet til samhandling:  
+Direktoratet for e-helse har sammen med helse- og omsorgssektoren et [strategisk mål](https://www.ehelse.no/strategi/nasjonal-e-helsestrategi-for-helse-og-omsorgssektoren/mal-4-tilgjengelig-informasjon-og-styrket-samhandling) om å styrke digital samhandling mellom aktørene i helse- og omsorgssektoren. Dette målet sammenfaller med de strategiske føringen for Digital hjemmeoppfølging som har identifisert et effektmål knyttet til samhandling:
 
 !!! quote "Effektmål samhandling"
 
@@ -33,7 +32,7 @@ Som et ledd i arbeidet med målarkitekturen for datadeling innen DHO er [behoven
 
 ## Krav til etablering av datadeling
 
-Utveksling av informasjon ved hjelp av datadeling mellom virksomheter forutsetter at virksomhetene realiserer nødvendige evner ([kapabiliteter](vedlegg/Kapabiliteter.md)) for å understøtte datadeling. Det er hensikstmessig at noen av evnene realiseres som fellestjenester i nasjonal infrastruktur. Den [arkitekturtekniske delen](kravoganbefalinger/index.md) av målarkitekturen beskriver nødvendige evner for å realisere datadeling, samt overordnede prosesser og funksjoner som kan realisere disse evnene. Denne delen av målarkitekturen legger grunnlaget for betraktningene som er knyttet til løsningskonseptene for etableringen av datadelingsløsningene. Behovet for felleskomponenter i samhandlingsinfrastrukturen som beskrives i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) bekreftes gjennom arbeidet med DHO. Endel viktige felleskomponenter mangler i infrastrukturen for digital samhandling og vedlegget beskriver forslag til nødvendige [tiltak](vedlegg/Anbefalte-tiltak.md) knyttet til å etablere felleskomponenter og felles semantiske spesifikasjoner.
+Utveksling av informasjon ved hjelp av datadeling mellom virksomheter forutsetter at virksomhetene realiserer nødvendige evner ([kapabiliteter](vedlegg/Kapabiliteter.md)) for å understøtte datadeling. Det er hensikstmessig at noen av evnene realiseres som fellestjenester i nasjonal infrastruktur. Den [arkitekturtekniske delen](kravoganbefalinger/index.md) av målarkitekturen beskriver nødvendige evner for å realisere datadeling, samt overordnede prosesser og funksjoner som kan realisere disse evnene. Denne delen av målarkitekturen legger grunnlaget for betraktningene som er knyttet til løsningskonseptene for etableringen av datadelingsløsningene. Behovet for felleskomponenter som i tur brukes for å leverer fellestjenester i samhandlingsinfrastrukturen, som beskrives i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren), bekreftes gjennom arbeidet med DHO. Endel viktige fellestjenester mangler i infrastrukturen for digital samhandling og vedlegget beskriver forslag til nødvendige [tiltak](vedlegg/Anbefalte-tiltak.md) knyttet til å etablere fellestjenester og felles semantiske spesifikasjoner.
 
 <figure markdown>
   [![Oversikter over nødvendige evner for datadeling](img/kapabiliteter-enkel.png){ width="500" }](img/kapabiliteter-enkel.png)
@@ -42,7 +41,7 @@ Utveksling av informasjon ved hjelp av datadeling mellom virksomheter forutsette
 
 ## Målarkitektur for datadeling
 
-Datadeling mellom virksomheter kan etableres på mange måter og målarkitekturen går igjennom flere mulige [konsepter for å realisere samhandling](vedlegg/Konsepter-realisering.md) i form av datadeling. Etter å ha vurdert fordeler og ulemper ved konseptene anbefales en fleksibel tilnærming som kombinerer elementer fra flere konsepter for den videre utviklingen. Virksomhetene bør tar hensyn til lokale og regionale samhandlingsbehov når datadelingsløsninger for DHO skal etableres. Aktørene må også ta hensyn til kompleksiteten i tjenesteforløpene som skal understøttes, noe som ofte krever samarbeid mellom klinikere fra flere virksomheter innenfor en region eller et helsefellesskap.  
+Datadeling mellom virksomheter kan etableres på mange måter og målarkitekturen går igjennom flere mulige [konsepter for å realisere samhandling](vedlegg/Konsepter-realisering.md) i form av datadeling. Etter å ha vurdert fordeler og ulemper ved konseptene anbefales en fleksibel tilnærming som kombinerer elementer fra flere konsepter for den videre utviklingen. Virksomhetene bør tar hensyn til lokale og regionale samhandlingsbehov når datadelingsløsninger for DHO skal etableres. Aktørene må også ta hensyn til kompleksiteten i tjenesteforløpene som skal understøttes, noe som ofte krever samarbeid mellom klinikere fra flere virksomheter innenfor en region eller et helsefellesskap.
 
 <figure markdown>
   [![Målarkitektur for datadeling, med kombinasjon av distribuerte datadelingsløsninger og samarbeid om fellesløsninger](img/malarkitektur.png){ width="600" }](img/malarkitektur.png)
@@ -51,4 +50,4 @@ Datadeling mellom virksomheter kan etableres på mange måter og målarkitekture
 
 ## Juridiske vurderinger
 
-Det juridiske handlingsrommet er delvis beskrevet i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) fra 2021. I arbeidet med målarkitektur for datadeling mellom virksomheter, og spesielt knyttet til datadeling innen DHO-området, er noen flere [juridiske problemstillinger](juridisk/index.md) vurdert. Spesielt gjelder dette den dataansvarlige virksomhet sitt handlingsrom knyttet til å etablere datadelingsløsninger i egen eller ekstern infrastruktur, for samhandling med andre virksomheter. Dette er et sentralt spørsmål når dataansvarlig virksomhet skal vurdere hvordan datadeling skal etableres og hvordan eksterne leverandører kan bidra i dette arbeidet. Foreløpig vurdering er at dataansvarlig virksomhet kan etablere datadelingsløsning og lagringsløsning for den informasjonen som skal deles ved hjelp av en ekstern databehandler.  
+Det juridiske handlingsrommet er delvis beskrevet i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) fra 2021. I arbeidet med målarkitektur for datadeling mellom virksomheter, og spesielt knyttet til datadeling innen DHO-området, er noen flere [juridiske problemstillinger](juridisk/index.md) vurdert. Spesielt gjelder dette den dataansvarlige virksomhet sitt handlingsrom knyttet til å etablere datadelingsløsninger i egen eller ekstern infrastruktur, for samhandling med andre virksomheter. Dette er et sentralt spørsmål når dataansvarlig virksomhet skal vurdere hvordan datadeling skal etableres og hvordan eksterne leverandører kan bidra i dette arbeidet. Foreløpig vurdering er at dataansvarlig virksomhet kan etablere datadelingsløsning og lagringsløsning for den informasjonen som skal deles ved hjelp av en ekstern databehandler.
