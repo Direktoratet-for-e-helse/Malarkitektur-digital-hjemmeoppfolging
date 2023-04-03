@@ -1,18 +1,17 @@
 ---
 title: Konsepter realisering
 ---
-
-| Status | Version | Maturity | Normative level |
-|:-------------|:------------------|:------|:-------|
-| <span style="background-color:BlueViolet">Prerelease</span> | v0.8 | review  | ikke normert |
+| Status                                                   | Version | Maturity | Normative level |
+| :------------------------------------------------------- | :------ | :------- | :-------------- |
+| `<span style="background-color:BlueViolet">`Prerelease | v0.8    | review   | ikke normert    |
 
 Formålet med denne delen av målarkitekturen er å vise ulike konsepter for hvordan datadeling mellom virksomheter kan realiseres, og vurdere disse konseptene i forhold til hverandre. Det er hovedfokus på etablering av funksjonalitet for å avgi og tilgjengeliggjøre informasjon siden denne delen av datadelingsløsningen regnes som mer kompleks å etablere og vedlikeholde enn funksjonalitet for oppslag. Siden konseptene vurderes ut fra kjente premisser og erfaringer som eksisterer i dag vil dette være et øyeblikksbilde av situasjonen og konseptene må derfor utvikles i takt med at sektoren vinner erfaringer med konkret løsningsutvikling og eventuell utvikling i systemlandskap, organisering av helsetjenesten og juridiske rammebetingelser.
 
 !!! note
 
-    Ved etablering av løsninger for datadeling skilles det mellom funksjonalitet for å avgi data (datatilbyder/produsent) og funksjonalitet for å slå opp i data (datakonsument). Funksjonaliteten for å avgi data regnes som mer komplisert å etablere og vedlikeholde enn oppslagsfunksjonaliteten siden det er høye krav til ytelse og tilgjengelighet knyttet til å avgi data ved datadeling. Datadelingsløsninger omtales som synkrone og det forventes at svaret på ett oppslag skjer umiddelbart (iløpet av noen millsekunder). Etableringen av funksjonalitet for oppslag er ikke like komplisert, selv om integrasjon mot eksisterende tekniske løsninger i egen virksomhet kan være utfordrende.  
+    Ved etablering av løsninger for datadeling skilles det mellom funksjonalitet for å avgi data (datatilbyder/produsent) og funksjonalitet for å slå opp i data (datakonsument). Funksjonaliteten for å avgi data regnes som mer komplisert å etablere og vedlikeholde enn oppslagsfunksjonaliteten siden det er høye krav til ytelse og tilgjengelighet knyttet til å avgi data ved datadeling. Datadelingsløsninger omtales som synkrone og det forventes at svaret på ett oppslag skjer umiddelbart (iløpet av noen millsekunder). Etableringen av funksjonalitet for oppslag er ikke like komplisert, selv om integrasjon mot eksisterende tekniske løsninger i egen virksomhet kan være utfordrende.
 
-    Mer om samhandlingsformen [slå opp](Organisatorisk-sla-opp.md)
+    Mer om samhandlingsformen[slå opp](Organisatorisk-sla-opp.md)
 
 ## Vurderingskriterier
 
@@ -20,7 +19,7 @@ Konseptene for etablering av funksjonalitet for datatilbyder (avgi og tilgjengel
 
 * Behovsoppnåelse, i forhold til identifiserte [behov for samhandling innen digital hjemmeoppfølging](../behov/index.md#overordnede-roller-og-brukerhistorier)
 * Skalerbarhet, her skiller vi på skalering for utprøvingen og skalering nasjonalt/regionalt
-  * Det er spesielt fokus på muligheter for gjenbruk av eksisterende felleskomponenter eller kode/spesifikasjoner på tvers av virksomheter
+  * Det er spesielt fokus på muligheter for gjenbruk av eksisterende fellestjenester eller kode/spesifikasjoner på tvers av virksomheter
 * Fleksibilitet og innovasjonskraft, løsninger med stor fleksibilitet i forhold til å dekke lokale behov kan understøtte lokal innovasjon
 * Juridisk risiko, kan hele eller deler av konseptet realiseres innenfor gjeldende rett eller krever det lov/forskriftsarbeid for å realisere eller skalere løsninger basert på konseptet
 * Kompleksitet i etablering og vedlikehold av løsningen
@@ -70,9 +69,9 @@ Gitt virksomhetenes ulike størrelser og forutsetninger for å etablere datadeli
 
 ### Trusler
 
-* Skalering krever utvikling av felleskomponenter
-* Konseptet er avhengig av etablering av felleskomponenter for  PIL og felles tillitsmodell for videre spredning nasjonalt
-* Det eksisterer ikke avklart finansieringsmodell for nye felleskomponenter i felles infrastruktur
+* Skalering krever utvikling av fellestjenester
+* Konseptet er avhengig av etablering av fellestjenester for  PIL og felles tillitsmodell for videre spredning nasjonalt
+* Det eksisterer ikke avklart finansieringsmodell for nye fellestjenester i felles infrastruktur
 
 ## Vurdering av konsepter for datadeling
 
@@ -84,7 +83,7 @@ Anbefalingen av konsepter for datadeling baserer seg på vurderinger knyttet til
 * [Regionale datadelingsløsninger med lagring](#regionale-datadelingslsninger-med-lagring)
 * [Nasjonal sentral datadelingsløsning med lagring](#nasjonal-sentral-datadelingslsning-med-lagring)
 
-### Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur) <!--Litt pirk, men skal ikke alle konsepter og underavsnitt ha overskrifter på samme nivå? Her ## - neste nivå ### og ikke ####? Eller er inndelingne bevisst for å skille mellom det anbefalte og resten?--> <!-- Her tror jeg du har blingsa, det er riktig nivå på overskiftene i dette kapitelet såvidt jeg kan se-->
+### Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur) `<!--Litt pirk, men skal ikke alle konsepter og underavsnitt ha overskrifter på samme nivå? Her ## - neste nivå ### og ikke ####? Eller er inndelingne bevisst for å skille mellom det anbefalte og resten?-->` `<!-- Her tror jeg du har blingsa, det er riktig nivå på overskiftene i dette kapitelet såvidt jeg kan se-->`
 
 Distribuerte datadelingsløsninger i virksomhetenes infrastruktur baserer seg på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer. Grensesnitt og datalager for datadeling etableres i virksomhetens egen infrastruktur. Datadeling mellom virksomhetene gjennomføres ved at hver virksomhet gjør distribuerte oppslag mot grensesnittene for å avgi data som er etablert av de andre virksomhetene.
 
@@ -93,9 +92,9 @@ Distribuerte datadelingsløsninger i virksomhetenes infrastruktur baserer seg p�
 
 #### Vurdering
 
-Hovedfordelen med konseptet distribuerte datadelingsløsninger er stor fleksibilitet. Virksomehtene kan etablere funksjonalitet som gir stor opplevd nytte regionalt eller lokalt. Den største ulempen er knyttet til stor kompleksitet ved etableringen og vedlikehold av funksjonaliteten for å avgi og tilgjengeliggjøre informasjon fra separate løsninger i hver enkelt virksomhet. Dette gjør en distribuert modell komplisert å bredde og vedlikeholde.  
+Hovedfordelen med konseptet distribuerte datadelingsløsninger er stor fleksibilitet. Virksomehtene kan etablere funksjonalitet som gir stor opplevd nytte regionalt eller lokalt. Den største ulempen er knyttet til stor kompleksitet ved etableringen og vedlikehold av funksjonaliteten for å avgi og tilgjengeliggjøre informasjon fra separate løsninger i hver enkelt virksomhet. Dette gjør en distribuert modell komplisert å bredde og vedlikeholde.
 
-En distribuert modell stiller store krav til samhandlingsinfrastrukturen og samarbeid på tvers av leverandører og virksomheter. Konseptet stiller for eksempel krav om at virksomhetene må vite hvor de skal søke etter informasjon om en bestemt pasient gjennom en pasientinformasjonslokalisator (PIL), siden det er lite effektivt å gjøre oppslag mot alle virksomheter uavhengig av om disse har informasjon om pasienten eller ikke. Det må etableres en sentralisert tillitsmodell for å støtte dette konseptet, ellers blir man avhengig av bilaterale avtaler mellom alle aktørene som ønsker å samhandle med hverandre.  Alle løsninger for å avgi informasjon må ta utgangspunkt i felles semantiske spesifikasjoner tilpasset ulike bruksområder, slik at det blir enkelt å søke i informasjon på tvers av mange ulike virksomheter og løsninger som er levert av forskjellige leverandører.  
+En distribuert modell stiller store krav til samhandlingsinfrastrukturen og samarbeid på tvers av leverandører og virksomheter. Konseptet stiller for eksempel krav om at virksomhetene må vite hvor de skal søke etter informasjon om en bestemt pasient gjennom en pasientinformasjonslokalisator (PIL), siden det er lite effektivt å gjøre oppslag mot alle virksomheter uavhengig av om disse har informasjon om pasienten eller ikke. Det må etableres en sentralisert tillitsmodell for å støtte dette konseptet, ellers blir man avhengig av bilaterale avtaler mellom alle aktørene som ønsker å samhandle med hverandre.  Alle løsninger for å avgi informasjon må ta utgangspunkt i felles semantiske spesifikasjoner tilpasset ulike bruksområder, slik at det blir enkelt å søke i informasjon på tvers av mange ulike virksomheter og løsninger som er levert av forskjellige leverandører.
 
 #### Forutsetninger
 
@@ -104,7 +103,9 @@ En distribuert modell stiller store krav til samhandlingsinfrastrukturen og sama
 * For at konseptet skal skalere nasjonalt/regionalt må det etableres Pasientinformasjonslokalisator (PIL) i nasjonal eller regional infrastruktur
 * Konseptet forutsetter etablering av tillitsanker funksjonalitet i nasjonal eller regional infrastruktur
 * Konseptet forutsetter at det etableres felles semantiske spesifikasjoner for informasjonen som skal utveksles
+
 <!--Kunne vurdering og forutsetninger beskrivelsene slås sammen og bygge på den punktvises tilnærminmgen. Vurderingene kommer vel med beskrivelse av fordeler og ulemper?-->
+
 <!-- SVAR: Vurderingen er en oppsummering av punktlistene -->
 
 #### Fordeler
@@ -262,7 +263,7 @@ Hovedfordelen med en nasjonal sentral datadelingsløsning for DHO er at løsning
 
 !!! note "Nasjonal kopilagring eller nasjonal original"
 
-    Vurderingen baserer seg på en variant av nasjonal datadelingsløsning hvor en kopi av helseopplysninger lagres i den nasjonale løsningen. Alternativet er å vurdere nasjonal original men siden behovet for nasjonal original ikke er identifisert for noen av de [mest etterspurte informasjonstjenestene for DHO](../behov/index.md#prioritering-av-informasjonstjenester) vurderes ikke denne varianten her. Unntaket er informasjonstjenesten Plan (IT08) som løses med lagring av felles original i tilknytning til kjernejournal.
+    Vurderingen baserer seg på en variant av nasjonal datadelingsløsning hvor en kopi av helseopplysninger lagres i den nasjonale løsningen. Alternativet er å vurdere nasjonal original men siden behovet for nasjonal original ikke er identifisert for noen av de[mest etterspurte informasjonstjenestene for DHO](../behov/index.md#prioritering-av-informasjonstjenester) vurderes ikke denne varianten her. Unntaket er informasjonstjenesten Plan (IT08) som løses med lagring av felles original i tilknytning til kjernejournal.
 
 #### Forutsetninger
 
