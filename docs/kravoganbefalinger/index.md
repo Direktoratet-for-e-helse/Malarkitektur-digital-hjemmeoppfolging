@@ -56,7 +56,7 @@ Det er viktig å integrere fleksibilitet i målarkitekturen for å ivareta lokal
 
 #### Juridiske rammer
 
-
+Det er stor forskjell på de juridiske rammene for de ulike løsningskonseptene som er [vurdert](../vedlegg/Konsepter-realisering.md). Kombinasjonen av at behovene ikke peker spesielt på at det trengs nasjonal sammenstilling av informasjon og det faktum at endringer i lov og forskrift er ressurskrevende og tar lang tid, anbefales det på nåværende tidspunkt å realisere datadeling mellom virksomheter innenfor gjeldende rett. Det betyr at blant annet at det ikke er behov for å vente på lov- og forskriftsendringer før gevinster av økt digital samhandling mellom virksomheter kan høstes.
 
 !!! note "Arkitekturvalg 3: Løsningsalternativer innenfor gjeldende rett"
 
@@ -64,9 +64,11 @@ Det er viktig å integrere fleksibilitet i målarkitekturen for å ivareta lokal
 
 #### Felles semantiske spesifikasjoner
 
-!!! note "Arkitekturvalg 4: Felles semantiske spesifikasjoner"
+En utfordring med elektronisk samhandling er at ulike aktører kan tolke informasjonen som utveksles forskjellig. Det er derfor behov for felles definisjoner som beskriver innholdet i den elektroniske informasjonen, hvordan informasjonen utveksles og de viktigste funksjonene som datadelingsgrensesnittene må støtte for å være nyttige for andre systemer. Aktørene som skal samhandle ved hjelp av datadeling trenger derfor felles semantiske spesifikasjoner som de ulike datadelingsløsningene må forholde seg til. Spesifikasjonene bør utvikles basert på internasjonale standarder i tråd med [anbefaling om bruk av HL7 FHIR for datadeling](https://www.ehelse.no/standardisering/standarder/anbefaling-om-bruk-av-hl7-fhir-for-datadeling) og i [samarbeid med andre virksomheter i helsesektoren](https://www.ehelse.no/publikasjoner/samarbeidsmodell-for-internasjonale-standarder).
 
-    Etableringen av datadelingsløsninger må basere seg på felles semantiske spesifikasjoner basert på internasjonale standarder.
+!!! note "Arkitekturvalg 4: Felles semantiske spesifikasjoner for samhandlingen"
+
+    Etableringen av datadelingsløsninger må bruke felles semantiske spesifikasjoner basert på internasjonale standarder. 
 
 #### Felleskomponenter og fellestjenester
 
