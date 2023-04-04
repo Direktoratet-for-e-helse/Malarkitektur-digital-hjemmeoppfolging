@@ -72,7 +72,9 @@ En utfordring med elektronisk samhandling er at ulike aktører kan tolke informa
 
 #### Felleskomponenter og fellestjenester
 
-!!! note "Arkitekturvalg 5: Felleskomponenter"
+Målarkitekturen for datadeling innen DHO baserer seg på felleskomponenter som er beskrevet i [målarkitektur for datadeling](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren). Det er ikke mulig å realisere effektiv og robust datadeling i helsesektoren uten at sentrale felleskomponenter realiseres og at de ulike datadelingsløsningene bruker disse.
+
+!!! note "Arkitekturvalg 5: Bruk av felleskomponenter og fellestjenester"
 
     Målarkitekturen forutsetter bruk av eksisterende og planlagte felleskomponenter, som er beskrevet i [målarkitektur for datadeling](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren).
 
