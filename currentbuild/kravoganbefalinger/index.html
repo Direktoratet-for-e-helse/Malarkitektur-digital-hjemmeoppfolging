@@ -1090,18 +1090,21 @@ Behovsanalysen til konseptvalgutredningen for nasjonal journalløsning for kommu
 <p>Vi anbefaler en fleksibel modell for etablering av datadeling mellom virksomheter og omsorgsnivå.</p>
 </div>
 <h4 id="juridiske-rammer">Juridiske rammer</h4>
+<p>Det er stor forskjell på de juridiske rammene for de ulike løsningskonseptene som er <a href="../vedlegg/Konsepter-realisering/">vurdert</a>. Kombinasjonen av at behovene ikke peker spesielt på at det trengs nasjonal sammenstilling av informasjon og det faktum at endringer i lov og forskrift er ressurskrevende og tar lang tid, anbefales det på nåværende tidspunkt å realisere datadeling mellom virksomheter innenfor gjeldende rett. Det betyr at blant annet at det ikke er behov for å vente på lov- og forskriftsendringer før gevinster av økt digital samhandling mellom virksomheter kan høstes.</p>
 <div class="admonition note">
 <p class="admonition-title">Arkitekturvalg 3: Løsningsalternativer innenfor gjeldende rett</p>
 <p>Vi anbefaler løsningsalternativer som kan realiseres innenfor gjeldende rett.</p>
 </div>
 <h4 id="felles-semantiske-spesifikasjoner">Felles semantiske spesifikasjoner</h4>
+<p>En utfordring med elektronisk samhandling er at ulike aktører kan tolke informasjonen som utveksles forskjellig. Det er derfor behov for felles definisjoner som beskriver innholdet i den elektroniske informasjonen, hvordan informasjonen utveksles og de viktigste funksjonene som datadelingsgrensesnittene må støtte for å være nyttige for andre systemer. Aktørene som skal samhandle ved hjelp av datadeling trenger derfor felles semantiske spesifikasjoner som de ulike datadelingsløsningene må forholde seg til. Spesifikasjonene bør utvikles basert på internasjonale standarder i tråd med <a href="https://www.ehelse.no/standardisering/standarder/anbefaling-om-bruk-av-hl7-fhir-for-datadeling">anbefaling om bruk av HL7 FHIR for datadeling</a> og i <a href="https://www.ehelse.no/publikasjoner/samarbeidsmodell-for-internasjonale-standarder">samarbeid med andre virksomheter i helsesektoren</a>.</p>
 <div class="admonition note">
-<p class="admonition-title">Arkitekturvalg 4: Felles semantiske spesifikasjoner</p>
-<p>Etableringen av datadelingsløsninger må basere seg på felles semantiske spesifikasjoner basert på internasjonale standarder.</p>
+<p class="admonition-title">Arkitekturvalg 4: Felles semantiske spesifikasjoner for samhandlingen</p>
+<p>Etableringen av datadelingsløsninger må bruke felles semantiske spesifikasjoner basert på internasjonale standarder. </p>
 </div>
 <h4 id="felleskomponenter-og-fellestjenester">Felleskomponenter og fellestjenester</h4>
+<p>Målarkitekturen for datadeling innen DHO baserer seg på felleskomponenter som er beskrevet i <a href="https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren">målarkitektur for datadeling</a>. Det er ikke mulig å realisere effektiv og robust datadeling i helsesektoren uten at sentrale felleskomponenter realiseres og at de ulike datadelingsløsningene bruker disse.</p>
 <div class="admonition note">
-<p class="admonition-title">Arkitekturvalg 5: Felleskomponenter</p>
+<p class="admonition-title">Arkitekturvalg 5: Bruk av felleskomponenter og fellestjenester</p>
 <p>Målarkitekturen forutsetter bruk av eksisterende og planlagte felleskomponenter, som er beskrevet i <a href="https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren">målarkitektur for datadeling</a>.</p>
 </div>
 <h3 id="vurdering-av-konsept">Vurdering av konsept</h3>
@@ -1324,7 +1327,7 @@ Når en konsumerende virksomhet forespør data fra datadelingstjenesten starter 
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">April 3, 2023 11:05:19</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">April 4, 2023 08:45:06</span>
       
     
   </small>
