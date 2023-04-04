@@ -56,7 +56,7 @@ Det er viktig å integrere fleksibilitet i målarkitekturen for å ivareta lokal
 
 #### Juridiske rammer
 
-Det er stor forskjell på de juridiske rammene for de ulike løsningskonseptene som er [vurdert](../vedlegg/Konsepter-realisering.md). Kombinasjonen av at behovene ikke peker spesielt på at det trengs nasjonal sammenstilling av informasjon og det faktum at endringer i lov og forskrift er ressurskrevende og tar lang tid, anbefales det på nåværende tidspunkt å realisere datadeling mellom virksomheter innenfor gjeldende rett. Det betyr at blant annet at det ikke er behov for å vente på lov- og forskriftsendringer før gevinster av økt digital samhandling mellom virksomheter kan høstes.
+Det er stor forskjell på de juridiske rammene for de ulike løsningskonseptene som er [vurdert](../vedlegg/Konsepter-realisering.md). Basert på at behovene ikke peker at nasjonal sammenstilling av informasjon er nødvendig og det faktum at endringer i lov og forskrift er ressurskrevende og tar lang tid, anbefales det på nåværende tidspunkt å realisere datadeling mellom virksomheter innenfor gjeldende rett. Det betyr at blant annet at det ikke er behov for å vente på lov- og forskriftsendringer før erfaringer med datadeling mellom virksomheter kan høstes.
 
 !!! note "Arkitekturvalg 3: Løsningsalternativer innenfor gjeldende rett"
 
