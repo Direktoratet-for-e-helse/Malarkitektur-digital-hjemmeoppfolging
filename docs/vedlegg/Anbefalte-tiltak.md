@@ -4,7 +4,7 @@ title: Anbefalte tiltak
 
 | Status           | Version | Maturity | Normative level |
 | :--------------- | :------ | :------- | :-------------- |
-| <span style="background-color:BlueViolet">Prerelease</span> | v0.8.1 | review | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span> | v0.8.2 | review | ikke normert |
 
 Denne delen av målarkitekturen skal foreslå tiltak som kan gjennomføres for å understøtte etableringen av datadeling mellom virksomheter innen for behovsområdet DHO. Vi skiller på tiltak knyttet til etablering av felleskomponenter og tiltak knyttet til semantisk samhandling.
 
@@ -68,11 +68,11 @@ Innspill fra aktørene som arbeider med spredning og utprøving av DHO har pekt 
 
 Det er identifisert mange behov knyttet til administrasjon av utstyr og bare noen av disse kan dekkes med ren oversikt over hvilket utstyr pasienten har, uavhengig av hvem som har tildelt dette:
 
-* Kjenne til tjenester, ytelser og hjelpemidler og hvilke aktører som har tildelt disse
-* Kjenne til om relevant utstyr er tildelt fra andre aktører
-* Unngå dobbelt sett av utstyr med overlappende funksjonalitet
-* Tilgang til data fra utstyr
-* Tilgang til administrasjon av utstyr
+* Kjenne til tjenester, ytelser og hjelpemidler og hvilke aktører som har tildelt disse.
+* Kjenne til om relevant utstyr er tildelt fra andre aktører.
+* Unngå dobbelt sett av utstyr med overlappende funksjonalitet.
+* Tilgang til data fra utstyr.
+* Tilgang til administrasjon av utstyr.
 
 #### Anbefalt tiltak
 
@@ -84,10 +84,10 @@ Konseptet for [distribuerte datadelingsløsninger i sentral infrastruktur](Konse
 
 Det er flere problemstillinger som er uavklart når det gjelder bruk av VKP for å tilby denne typen løsninger.
 
-* Merkantile forhold knyttet til konkurransehensyn og betaling for tjenester i VKP
-* Avtalerammeverk for å benytte funksjonalitet for datadeling som etableres sentralt 
-* Juridiske problemstillinger knyttet til sammenstilling av informasjon på tvers av virksomheter (gjelder sentralisert modell)
-* Styring, forvaltning og nyttevurderinger knyttet til sentral løsning, hvordan prioriterer man mellom identifiserte behov
+* Merkantile forhold knyttet til konkurransehensyn og betaling for tjenester i VKP.
+* Avtalerammeverk for å benytte funksjonalitet for datadeling som etableres sentralt.
+* Juridiske problemstillinger knyttet til sammenstilling av informasjon på tvers av virksomheter (gjelder sentralisert modell).
+* Styring, forvaltning og nyttevurderinger knyttet til sentral løsning, hvordan prioriterer man mellom identifiserte behov.
 
 #### Anbefalte tiltak
 
@@ -116,18 +116,25 @@ Utprøving og spredningsprosjektene som gjennomføres nå baserer seg på et lit
 
 * Overordnet brukertilfelle profilene understøtter
 * Hvilken informasjon som er minimum for at informasjonen skal vær nyttig
-* Regler for informajsonsinnhold i de spesifikke informasjonselementene
+* Regler for informasjonsinnhold i de spesifikke informasjonselementene
   * Inkluderer regler om bruk av felles terminologi og kodeverk
 
-Vi tror det er nødvendig at det eksisterer felles beskrivelse av dette på tvers av virksomheter for at datadeling skal fungere på en god måte, dette er uavhengig av om distribusjonen av data baserer seg på en sentral eller distribuert modell. Ved en distribuert modell er det imidlertid et ufravikelig krav at det er felles regler for hvordan informasjonen skal utformes, ellers vil etablering av oppslagstjenester mot mange ulike grensesnitt bli en uoverstigelig oppgave hvor utviklerne må forholde seg til en rekke typer semantiske spesifikasjoner. Integrasjon mot bakenforligende systemer vil også bli svært komplisert.
+Vi tror det er nødvendig at det eksisterer felles beskrivelse av dette på tvers av virksomheter for at datadeling skal fungere på en god måte, dette er uavhengig av om distribusjonen av data baserer seg på en sentral eller distribuert modell. Ved en distribuert modell er det imidlertid et ufravikelig krav at det er felles regler for hvordan informasjonen skal utformes, ellers vil etablering av oppslagstjenester mot mange ulike grensesnitt bli en uoverstigelig oppgave hvor utviklerne må forholde seg til en rekke typer semantiske spesifikasjoner. Integrasjon mot bakenforliggende systemer vil også bli svært komplisert.
 
-#### Utestående arbeid knyttet til semantisk samhandling
+#### Utestående arbeid knyttet til utveksling av målinger
 
-Foreløpig er det bare et fåtall profiler som er utviklet, disse har også sett lite praktisk bruk og er implementert i få løsninger. Det er viktig at profilene videreutvikles i tre retninger:
+På nåværende tidspunkt er det bare et fåtall profiler som er utviklet, disse har også sett lite praktisk bruk og er implementert i få løsninger. Det er viktig at profilene videreutvikles i tre retninger:
 
-* Kvantitet - det er få brukertilfeller som er dekket av eksisterende profiler, det må testes og utvikles flere for å dekke flere brukertilfeller og flere typer informasjonstjenester
-* Kvalitet - profilene må implementeres i flere løsninger og testes i praktisk bruk i større grad for å kvalitetsikre at innholdet er tilstrekkelig for praktisk klinisk bruk og teste at integrasjon mot mange bakenforliggende løsninger kan gjennomføres
-* Innhold - dagens profiler beskriver informasjonsinnholdet, men også lovlige søkeparametere bør detaljeres i neste versjon av profilene. På denne måten kan man sikre at datadelingstjenestene tilbyr den samme søkefunksjonaliteten uavhengig av hvem som implementerer grensesnittene
+* Kvantitet - det er få brukertilfeller som er dekket av eksisterende profiler, det må testes og utvikles flere for å dekke flere brukertilfeller og flere typer informasjonstjenester.
+* Kvalitet - profilene må implementeres i flere løsninger og testes i praktisk bruk for å kvalitetsikre at innholdet er tilstrekkelig for praktisk klinisk bruk og bekrefte at integrasjon mot flere ulike løsninger kan gjennomføres.
+* Innhold - dagens profiler beskriver informasjonsinnholdet, men også lovlige søkeparametere bør detaljeres i neste versjon av profilene. På denne måten kan man sikre at datadelingstjenestene tilbyr lik søkefunksjonaliteten uavhengig av hvem som implementerer grensesnittene.
+
+#### Andre informasjonsbehov
+
+På nåværende tidspunkt eksisterer det bare profiler for å utveksle målinger mellom virksomheter. Det er også behov for å understøtte utveksling av annen informasjon på en standardisert måte ved hjelp av datadeling og API. Forløpig er spesielt to typer informasjon prioritert:
+
+* Behandlings- og egenbehandlingsplan - Prosjektet som utvikler den sentrale løsningen for behandling og egenbehandlingsplan har også utviklet en spesifikasjon for utveksling av planer og FHIR profiler for dette. Disse profilene bør samordnes med behovene som eksisterer i andre planverktøy som er tatt i bruk i helsesektoren.
+* Tjenester inkludert hjelpemidler og logistikk - hvis det igangsettes arbeid knyttet til fellesløsninger eller utviklingen av en distribuert modell for å håndtere dette området som er beskrevet i [tiltaket](#vurdere-felleslsninger-for-utstyrslogistikk)
 
 #### Anbefalte tiltak
 
