@@ -20,7 +20,7 @@ Konseptene for etablering av funksjonalitet for datatilbyder (avgi og tilgjengel
 
 * Behovsoppnåelse, i forhold til identifiserte [behov for samhandling innen digital hjemmeoppfølging](../behov/index.md#overordnede-roller-og-brukerhistorier)
 * Skalerbarhet, her skiller vi på skalering for utprøvingen og skalering nasjonalt/regionalt
-  * Det er spesielt fokus på muligheter for gjenbruk av eksisterende felleskomponenter eller kode/spesifikasjoner på tvers av virksomheter
+  * Det er spesielt fokus på muligheter for gjenbruk av eksisterende fellestjenester, felleskomponenter eller kode/spesifikasjoner på tvers av virksomheter
 * Fleksibilitet og innovasjonskraft, løsninger med stor fleksibilitet i forhold til å dekke lokale behov kan understøtte lokal innovasjon
 * Juridisk risiko, kan hele eller deler av konseptet realiseres innenfor gjeldende rett eller krever det lov/forskriftsarbeid for å realisere eller skalere løsninger basert på konseptet
 * Kompleksitet i etablering og vedlikehold av løsningen
@@ -70,9 +70,9 @@ Gitt virksomhetenes ulike størrelser og forutsetninger for å etablere datadeli
 
 ### Trusler
 
-* Skalering krever utvikling av felleskomponenter
-* Konseptet er avhengig av etablering av felleskomponenter for  PIL og felles tillitsmodell for videre spredning nasjonalt
-* Det eksisterer ikke avklart finansieringsmodell for nye felleskomponenter i felles infrastruktur
+* Skalering krever utvikling av felleskomponenter og fellestjenester
+* Konseptet er avhengig av etablering av fellestjenester for  PIL og felles tillitsmodell for videre spredning nasjonalt
+* Det eksisterer ikke avklart finansieringsmodell for nye fellestjenester i felles infrastruktur
 
 ## Vurdering av konsepter for datadeling
 
