@@ -6,7 +6,7 @@ title: Anbefalte tiltak
 | :--------------- | :------ | :------- | :-------------- |
 | <span style="background-color:BlueViolet">Prerelease</span> | v0.8.1 | review | ikke normert |
 
-Denne delen av målarkitekturen skal foreslå tiltak som kan gjennomføres for å understøtte etableringen av datadeling mellom virksomheter innen for behovsområdet DHO. Vi skiller på tiltak knyttet til etablering av felleskomponenter og tiltak knyttet til semantisk samhandling.
+Denne delen av målarkitekturen skal foreslå tiltak som kan gjennomføres for å understøtte etableringen av datadeling mellom virksomheter innen for behovsområdet DHO. Vi skiller på tiltak knyttet til etablering av fellestjenester og tiltak knyttet til semantisk samhandling.
 
 ## Prioritert liste over anbefalte tiltak
 
@@ -19,15 +19,15 @@ Listen nedenfor viser en prioritert liste over tiltak som er nødvendig for å r
 5. [Vurdere fellesløsninger for utstyrslogistikk](#vurdere-felleslsninger-for-utstyrslogistikk)
 6. [Rammeverk for hendelsesbasert samhandling](#rammeverk-for-hendelsesbasert-samhandling)
 
-## Tiltak knyttet til etablering av felleskomponenter
+## Tiltak knyttet til etablering av fellestjenester
 
-Målarkitekturen for datadeling DHO har behov for en rekke felleskomponenter for å understøtte samhandlingen nasjonalt og regionalt.
+Målarkitekturen for datadeling DHO har behov for en rekke fellestjenester for å understøtte samhandlingen nasjonalt og regionalt.
 
 ### Etablering av PIL
 
 [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) peker på nødvendigheten av å etablere pasientinformasjonslokalisator for å understøtte datadeling basert på distribuert lagring og etablering av grensesnitt for å avgi data. [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) slår videre fast at det ikke eksisterer noen rettslig hjemmel for å etablere en nasjonal tjeneste som sammenstiller informasjon om hvilke API-tjenester som har informasjon en bestem pasient på nasjonalt nivå.
 
-!!! quote "Pasientinformasjonslokalisator"
+!!! quote "Pasientinformasjonslokalisator"<!-- I dette sitattet brukes felleskomponent. Er vi sikre på at det er den termen som ble brukt, og om de i så fall var samme definisjon som vår, som ble lagt til grunn? -->
 
     Det er i en rekke situasjoner tilknyttet datadeling behov for å kunne fremskaffe en oversikt over hvem som har en pasientjournal for en gitt pasient. 
     ...
@@ -35,16 +35,16 @@ Målarkitekturen for datadeling DHO har behov for en rekke felleskomponenter for
 
 #### Status for etablering av PIL - januar 2023
 
-Det eksisterer idag ikke noen tiltak knyttet til å etablere felleskomponent for PIL i samhandlingsinfrastrukturen for helsesektoren
+Det eksisterer idag ikke noen tiltak knyttet til å etablere felleskomponent eller fellestjeneste for PIL i samhandlingsinfrastrukturen for helsesektoren
 
 #### Anbefalt tiltak
 
-Spredning av DHO og understøtte behov for datadeling på tvers av mange virksomheter innenfor en region er avhengig av PIL for å fungere effektivt. Det mangler imidlertid mye arbeid før PIL kan etableres som en felleskomponent i samhandlingsinfrastrukturen:
+Spredning av DHO og understøtte behov for datadeling på tvers av mange virksomheter innenfor en region er avhengig av PIL for å fungere effektivt. Det mangler imidlertid mye arbeid før PIL kan etableres som en fellestjeneste i samhandlingsinfrastrukturen:
 
 * Utarbeide et konsept for PIL som innenfor gjeldende rett, basert på desentralisert modell
 * Alternativt utarbeide forskrift som regulerer behandlingsgrunnlaget for PIL informasjon i en sentralisert løsning
 * Planlegge arbeidet med etablering og innføring av PIL
-* Etablere PIL som en felleskomponent i samhandlingsinfrastrukturen for helsesektoren
+* Etablere PIL som en fellestjeneste i samhandlingsinfrastrukturen for helsesektoren
 
 ### Felles tillitsmodell for datadeling
 
@@ -54,7 +54,7 @@ Spredning av DHO og understøtte behov for datadeling på tvers av mange virksom
 
 #### Status for etablering av felles tillitsmodell - januar 2023
 
-Norm for informasjonssikkerhet ([Normen](https://www.ehelse.no/normen/normen-for-informasjonssikkerhet-og-personvern-i-helse-og-omsorgssektoren#5.2.2%20Autentisering)) stiller krav til benyttelse av sikker autentiseringsløsning ved tilgang til helseopplysninger mellom virksomheter. Det gjennomføres arbeid knyttet til å etablere felles tillitsmodell i forbindelse med utbredelse av dokumentdeling i regi av program digital samhandling. Norsk Helsenett etablerer felleskomponenter for felles tillitsmodell og løsningen skal prøves ut og videreutvikles i forbindelse med Dokumentdeling gjennom kjernejournal.
+Norm for informasjonssikkerhet ([Normen](https://www.ehelse.no/normen/normen-for-informasjonssikkerhet-og-personvern-i-helse-og-omsorgssektoren#5.2.2%20Autentisering)) stiller krav til benyttelse av sikker autentiseringsløsning ved tilgang til helseopplysninger mellom virksomheter. Det gjennomføres arbeid knyttet til å etablere felles tillitsmodell i forbindelse med utbredelse av dokumentdeling i regi av program digital samhandling. Norsk Helsenett etablerer fellestjenester for felles tillitsmodell og løsningen skal prøves ut og videreutvikles i forbindelse med Dokumentdeling gjennom kjernejournal.
 
 #### Anbefalt tiltak
 
@@ -104,7 +104,7 @@ Hendelsesbasert samhandling er i bruk i mange andre sektorer, spesielt knyttet t
 * Kartlegging av eksisterende hendelsesbaserte løsninger og erfaringer fra arbeidet med disse
 * Kartlegging av virksomhetenes planer for å ta i bruk hendeslesbasert kommunikasjon
 * Enighet om felles målbilde knyttet til hvordan hendelsesbasert kommunikasjon kan benyttes og hvilke behov som dekkes best med hendelsesbasert kommunikasjon
-* Beskrive relevante felleskomponenenter i samhandlingsinfrastrukturen som må til for å understøtte hendelsesbasert kommunikasjon, det bør også etableres et veikart for når felleskomponentene kan etableres
+* Beskrive relevante fellestjenester i samhandlingsinfrastrukturen som må til for å understøtte hendelsesbasert kommunikasjon, det bør også etableres et veikart for når fellestjenestene kan etableres
 
 ## Tiltak knyttet til semantisk samhandling
 
