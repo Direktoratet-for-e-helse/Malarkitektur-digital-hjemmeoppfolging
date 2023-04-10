@@ -35,7 +35,7 @@ Målarkitekturen skal bidra til å:
 
 * Gjøre det enklere å gjennomføre arkitekturstyring regionalt, nasjonalt og for andre grupperinger av dataansvarlige gjennom å etablere felles prinsipper, arkitekturmål og beskrive arkitekturmønstre. Dette inkluderer å:  
   * Dokumentere felles arkitekturvalg og anbefalte samhandlingsmønster for datadeling innen DHO
-  * Beskrive informasjonstjenester og felleskomponenter som må etableres for å realisere digital samhandling i form av datadeling
+  * Beskrive informasjonstjenester og fellestjenester som må etableres for å realisere digital samhandling i form av datadeling
 * Gi oversikt over behovsbildet for samhandling innen DHO, ved å:
   * Beskrive behov for informasjon og samhandling på tvers av virksomheter og omsorgsnivå med spesielt fokus på behov knyttet til helsetjenester der DHO benyttes
   * Beskrive behov for normerende produkter som trengs for å understøtte semantisk samhandling
@@ -78,7 +78,7 @@ Målarkitekturen for datadeling innen DHO bygger på eksisterende målarkitektur
 * Velferdsteknologi (tradisjonell trygghets- og mestringsteknologi) er ikke en del av omfanget for målarkitekturen for DHO
   * Behovene knyttet til trygghet og mestring er relativt godt analysert i tidligere arbeid og det er bare små overlapp mellom DHO og trygghet og mestringsområdet
   * Noen teknologiske løsninger og utfordringer er imidlertid sammenfallende med trygghet og mestringsområdet og vil også være en naturlig del av behovsbildet og løsningene som benyttes innen DHO-området
-* Der viktige felleskomponenter eller semantiske spesifikasjoner ikke eksisterer vil målarkitekturen peke på nødvendige tiltak for å realisere disse
+* Der viktige fellestjenester eller semantiske spesifikasjoner ikke eksisterer vil målarkitekturen peke på nødvendige tiltak for å realisere disse
   * Plan for realisering av tiltakene ligger utenfor mandatet til målarkitekturen
 
 ### Problemstillinger som **ikke** behandles
