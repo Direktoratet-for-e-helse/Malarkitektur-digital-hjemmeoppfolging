@@ -4,7 +4,7 @@ title: Behov
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-|<span style="background-color:BlueViolet">Prerelease</span> | v0.8.1 | review  | ikke normert |
+|<span style="background-color:BlueViolet">Prerelease</span> | v0.8.2 | review  | ikke normert |
 
 Dette kapittelet gir en oversikt over de prioriterte behovene knyttet til tjenesteforløp der DHO benyttes. Det er ikke gjort et forsøk på å gi et komplett bilde av de funksjonelle behovene som må ivaretas for helsepersonell og pasient, det er isteden fokusert på behovet for informasjon, med formål å avdekke informasjonsbehov som må understøttes med samhandling mellom helsepersonell i ulike virksomheter. For en bredere og mer detaljert oversikt over brukerbehov, roller som er involvert og beskrivelse av de ulike informasjonstjenestene se vedlegget [Detaljert behovsbilde](../vedlegg/Detaljert-behovsbilde.md)
 
@@ -87,14 +87,20 @@ Prosessen for **Samhandling** er brutt ned til generelle steg som kjennetegner 
 
 Målarkitekturen skal beskrive behov for samhandling og informasjonstjenester som kan sikre at samhandlingen understøtter helsetjenesten på en hensiktsmessig måte. I arbeidet med å kartlegge informasjonsbehov skiller vi mellom informasjonsressurser og informasjonstjenester som må etableres for å understøtte informasjonsbehovet. I den grad det er nødvendig vil arbeidet også beskrive andre initiativer som etablerer informasjonstjenester det er behov for i forbindelse med DHO og hvordan disse tjenestene bør tilgjengeliggjøres for å svare ut behov som er identifisert i forbindelse med DHO.  
 
-!!! note "Samhandling på tvers"
-
-    Gjennom dette arbeidet er det hovedfokus på hvordan data fra pasient (pasientregistrerte eller fra sensorer og utstyr) kan brukes på tvers av omsorgsnivå i helsetjenesten på en hensiktsmessig måte, og hvordan samhandlingen om denne informasjonen bør innrettes.
-
 Figuren viser en oversikt over identifiserte informasjonsbehov i forbindelse med DHO:
 
 [![Identifiserte informasjonsbehov](../img/informasjonsbehov-enkel.png)](../img/informasjonsbehov-enkel.png)
 *Identifiserte informasjonsbehov*
+
+### Samhandling innenfor geografiske regioner
+
+Ved inngangen til behovsarbeidet formulerte vi en hypotese om at [samhandlingsbehovet var størst regionalt](../vedlegg/Detaljert-behovsbilde#hypotese-knyttet-til-brukerbehov). Hypotesen foreslår at det er innen den regionen de aktuelle pasientene bor at det er størst behov for samhandling mellom ulike virksomheter som er involvert i tjenesteforløpene som omfatter DHO. Det vil si at de fastlegene, sykehusene og kommunene som er involvert i liten grad har behov for å samhandle med virksomheter som ligger geografisk langt borte. Dette gjelder spesielt den daglige oppfølgingen av pasienten. Det vil alltid eksistere unntak, hvor pasienten trenger oppfølging fra nasjonal ekspertise eller i tilfeller der pasienten flytter, men det ligger i hypotesen at dette ikke er hovedmønsteret for samhandling. Gjennom arbeidet med behovskartleggingen er denne hypotesen bekreftet av alle virksomhetene vi har hatt kontakt med.
+
+!!! note "Prioritering 1: Understøtte samhandling mellom virksomheter regionalt og lokalt"
+
+    Hovedmålet med arbeidet er å vise hvordan regional og lokal samhandlingen bør etableres mellom virksomhetene. Hypotesen om at det meste av samhandlingen foregår regionalt og lokalt er bekreftet av alle aktører som har deltatt i arbeidet med målarkitekturen.
+
+Vi har derfor valgt å la hypotesen ligge til grunn for å prioritere tilrettelegging for samhandling innenfor regioner og lokal, foran eventuelle behov for samhandling mellom alle helsevirksomheter nasjonalt. Det blir derfor riktig å starte etablering av samhandling regionalt og eventuelt skalere og tilpasse løsninger for sømløs nasjonal samhandling på et senere tidspunkt, hvis det viser seg å være stort behov for dette. En nasjonal skalering kan få konsekvenser for behovet for nasjonale felleskomponenter, nasjonal sammenstilling av informasjon og behov for systemstøtte som vi ikke har identifisert i forhold til den regionale samhandlingen.
 
 ### Data fra pasient og informasjonstjenester
 
@@ -104,8 +110,8 @@ Hovedmålet for målarkitekturen DHO er å vise hvordan samhandlingen knyttet ti
 * Skjemabesvarelser og NEWS scoringer (IT17)
 * Vurderinger og varsel basert på målinger (IT17)
 
-!!! note "Pasientrapporterte data"
-    Pasientene er aktive deltakere og bidragsytere i helsehjelpen de mottar og kan følges opp i hjemmet ved at pasientens egenmålinger, pasientrapporterte opplysninger om egen helsetilstand eller automatiske målinger, sendes digitalt til helsetjenesten.
+!!! note "Prioritering 2: Pasientrapporterte data"
+    Arbeidet har spesielt fokus på hvordan data fra pasient (pasientregistrerte eller fra sensorer og utstyr) kan brukes på tvers av virksomheter og omsorgsnivå i helsetjenesten. Pasientene er aktive deltakere og bidragsytere i helsehjelpen de mottar og kan følges opp i hjemmet ved at pasientens egenmålinger, pasientrapporterte opplysninger om egen helsetilstand eller automatiske målinger, sendes digitalt til helsetjenesten og kan utveksles sømløst mellom virksomhetene.
 
 ### Informasjonstjenester i andre kategorier
 
@@ -137,9 +143,21 @@ I tillegg er det en rekke andre informasjonstjenester som er høyt prioritert av
 
 Det utvikles samhandlingsløsninger knyttet til behov for [digitale behandlings- og egenbehandlingsplaner](https://www.helsedirektoratet.no/om-oss/forsoksordninger-og-prosjekter/digital-behandlings-og-egenbehandlingsplan) og [legemiddelliste](https://www.ehelse.no/prosjekt/program-pasientens-legemiddelliste) gjennom egne initiativ. Disse behovene behandles derfor ikke videre i målarkitekturen, men intitaivene bør ses i sammenheng siden samhandlingsløsningene vil innvirke på den totale brukeropplevelsen for innbygger og helsepersonell.  
 
-!!! note "Prioritering av målinger, vurderinger og varsel"
+!!! note "Prioritering 3: Målinger, vurderinger og varsel"
 
     Basert på behovsarbeidet er det besluttet at første steg i å videreutvikle samhandlingstjenestene knyttet til DHO prioriterer utveksling av Målinger, vurderinger og Varsel. Dette er informasjonstjenester som etterspørres fra mange virksomheter og alle omsorgsnivå i flere geografiske regioner.
+
+### Samhandlingsform datadeling
+
+Behovet for samhandling i DHO løses best ved å benytte flere samhandlingsformer om hverandre der ulike samhandlingsformer svarer ut ulike informasjonsbehov og har ulike roller i forhold til behandlingsforløpet. Det eksisterer i dag utstrakt bruk av samhandlingsformen sende og motta spesielt knyttet til rekvisisjon, henvisning, svar og epikrise. Dette er ikke hovedfokuset i forbindelse med å utvikle samhandlingen knyttet til DHO da dette er samhandlingsformer og prosesser som er veletablert i tjenesten i dag men som ikke i tilstrekkelig grad understøtter behovene knyttet til DHO og sammensatte behandlingsforløp, hvor ulike virksomheter og omsorgsnivå følger opp pasienten. Det er flere funksjonelle krav som gjennomgås i kapittelet om [detaljert behovsbilde](../vedlegg/Detaljert-behovsbilde.md#kartlagte-brukerbehov-og-funksjonelle-krav) som understøttes bedre med datadeling enn med dokumentdeling, meldingsutveksling eller dokumentutveksling.
+
+* Meldingsutveksling og dokumentutveksling forutsetter at avsender vet hvem som har behov for informasjon før behovet inntreffer, noe som ikke er tilfellet ved uplanlagt forverring i et sammensatt behandlingsforløp.
+* Dokumentdeling kan understøtte mange av de samme kravene som datadeling i form av nær sanntids tilgang til informasjon og søk etter spesifikke informasjonskategorier. For å oppnå en hensiktsmessig avgrensning av informasjonsmengden som skal utveksles må det imidlertid bygges infrastruktur for utveksling av documents on demand, noe som ikke er iverksatt i den norske helsetjenesten ennå. Fastleger og kommuner mangler også infrastruktur for dokumentdeling så det er ikke en løsning man fort kan ta i bruk.
+* Det er en fordel for dataminimering om konsumenten kan tilpasse hvilken informasjon den skal hente basert på behovet i behandlingsøyeblikket og ikke være knyttet til oppbygning av dokumenter som vanligvis vil måtte inneholde både relevant og ikke relevante data og metadata.
+
+!!! note "Arkitekturvalg 1: Datadeling som samhandlingsform"
+
+    Basert på behovene som er kartlagt i forbindelse med DHO og målinger er det datadeling som understøtter flest brukerbehov mest effektivt.
 
 ### Detaljert behovsbeskrivelse
 

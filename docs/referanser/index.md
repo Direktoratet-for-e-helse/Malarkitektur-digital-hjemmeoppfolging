@@ -4,7 +4,7 @@ title: Referanser
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:BlueViolet">Prerelease</span> | v0.8 | review  | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span> | v0.8.2 | review  | ikke normert |
 
 ### Referanser som er brukt i arbeidet med målarkitekturen  
 
@@ -21,15 +21,16 @@ title: Referanser
   * [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren)
   * [Målarkitektur for dokumentdeling](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-dokumentdeling)
   * Veileder for helse- og omsorgssektoren: [Veileder for helse- og omsorgssektoren: Bruk av Digitaliseringsdirektoratets "Overordnede arkitekturprinsipper for digitalisering av offentlig sektor" - ehelse](https://www.ehelse.no/standardisering/standarder/veileder-for-helse-og-omsorgssektoren-bruk-av-digitaliseringsdirektoratets-overordnede-arkitekturprinsipper-for-digitalisering-av-offentlig-sektor)
+  * [Veiledning for åpne API i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/veiledning-for-%C3%A5pne-api-i-helse-og-omsorgssektoren)
+* [Samhandlingsarkitekturer i helse- og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/samhandlingsarkitekturer-i-helse-og-omsorgssektoren)
 * Reguleringsplan
 * [Gevinstrealiseringsrapport oktober 2021](https://www.helsedirektoratet.no/rapporter/gevinstrealiseringsrapporter-nasjonalt-velferdsteknologiprogram/Gevinstrealiseringsrapport)
 * Grensesnittbeskrivelser/krav/normerende produkter
   * [Implementasjonsguide for Velferdsteknologisk knutepunkt DHO](https://simplifier.net/guide/velferdsteknologiskknutepunktdhor4?version=current)
-  * Anbefaling om bruk av SMART on FHIR
+  * [Anbefaling om bruk av SMART on FHIR](https://www.ehelse.no/standardisering/standarder/anbefaling-om-bruk-av-smart-on-fhir)
   * [Anbefaling om bruk av HL7 FHIR for datadeling](https://www.ehelse.no/standardisering/standarder/anbefaling-om-bruk-av-hl7-fhir-for-datadeling)
   * Metode for utvikling av HL7 FHIR områdeprofiler
   * [Anbefaling av tillitsmodell for data- og dokumentdeling](https://www.ehelse.no/standardisering/standarder/anbefaling-av-tillitsmodell-for-data-og-dokumentdeling)
-  * Normen for informasjonssikkerhet
 * Forvaltning
   * [forvaltningsprosess](https://www.ehelse.no/standardisering/standarder/forvaltningsmodell-for-normerende-produkter-fra-direktoratet-for-e-helse)
   * [Samarbeidsmodell for internasjonale standarder](https://www.ehelse.no/publikasjoner/samarbeidsmodell-for-internasjonale-standarder)

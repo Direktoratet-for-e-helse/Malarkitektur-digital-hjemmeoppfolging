@@ -4,7 +4,7 @@ title: Krav og anbefalinger
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:BlueViolet">Prerelease</span> | v0.8.1 | review  | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span> | v0.8.2 | review  | ikke normert |
 
 ## Samhandling mellom helsepersonell på tvers av virksomheter
 
@@ -25,10 +25,6 @@ Målarkitektur samhandling DHO har fokusert på brukstilfellet (samhandling mell
   
     Dette bruksområdet dekker samhandling gjennom datadeling mellom aktører i ulike helseregioner og mellom aktører i helseregioner og den kommunale helse- og omsorgstjenesten inkludert fastleger. Målarkitekturen for dette bruksområdet trenger mer arbeid og vi har valgt å ikke beskrive arkitekturen nærmere i denne versjonen av dokumentet." 
 
-!!! info
-
-    Innholdet i denne delen bygger direkte på eksisterende rammeverk beskrevet i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) og [Referansearkitektur for datadeling](https://www.ehelse.no/standardisering/standarder/referansearkitektur-for-datadeling). Kapitelet forutsetter kjennskap til de tekniske delene av disse arbeidene. Kapitelet egner seg hovedsaklig for arkitekter og tekniske personer som ønsker å forstå bakgrunnen for arkitekturvalgene som gjøres i målarkitekturen.
-
 ## Målarkitektur for datadeling
 
 Basert på  arkitekturvurderingene i dette kapittelet kombinert med identifiserte [behov](../behov/index.md), [juridiske vurderinger](../juridisk/index.md) og [vurderte konsepter for realisering](../vedlegg/Konsepter-realisering.md) anbefaler vi en fleksibel modell for å realisere datadeling mellom virksomhetene i helsesektoren.
@@ -46,11 +42,51 @@ Tre fellestjenester bør etableres for å gjennomføre innføring og spredning a
 
 Dataansvaret vil i forslaget til målarkitektur ligge hos den enkelte virksomheten. Unntaket er ved samarbeid om fellesløsning hvor datansvaret reguleres i avtalen mellom de samarbeidende virksomhetene.
 
+### Arkitekturvalg
+
+Vi gjør fire grunnleggende arkitekturvalg for etablering av datadeling mellom virksomheter og omsorgsnivå som oppsummeres her. I tillegg har vi valgt å bruke datadeling som samhandlingsform basert på behovene som er identifisert i [behovskapittelet](../behov/index.md#samhandlingsform-datadeling).
+
+#### Fleksibilitet
+
+Det er viktig å integrere fleksibilitet i målarkitekturen for å ivareta lokale og regionale behov og ikke binde seg til et bestemt løsningsmønster før vi har tilstrekkelig erfaring med datadeling mellom virksomhetene. Fleksibilitet er også viktig for å ikke stoppe eller forsinke pågående aktiviteter for å etablere datadeling i helsefellesskapene i forbindelse med utprøvings- og spredningsaktiviteter som er igang.
+
+!!! note "Arkitekturvalg 2: Fleksibilitet"
+
+    Vi anbefaler en fleksibel modell for etablering av datadeling mellom virksomheter og omsorgsnivå.
+
+#### Juridiske rammer
+
+Det er stor forskjell på de juridiske rammene for de ulike løsningskonseptene som er [vurdert](../vedlegg/Konsepter-realisering.md). Basert på at behovene ikke peker at nasjonal sammenstilling av informasjon er nødvendig og det faktum at endringer i lov og forskrift er ressurskrevende og tar lang tid, anbefales det på nåværende tidspunkt å realisere datadeling mellom virksomheter innenfor gjeldende rett. Det betyr at blant annet at det ikke er behov for å vente på lov- og forskriftsendringer før erfaringer med datadeling mellom virksomheter kan høstes.
+
+!!! note "Arkitekturvalg 3: Løsningsalternativer innenfor gjeldende rett"
+
+    Vi anbefaler løsningsalternativer som kan realiseres innenfor gjeldende rett.
+
+#### Felles semantiske spesifikasjoner
+
+En utfordring med elektronisk samhandling er at ulike aktører kan tolke informasjonen som utveksles forskjellig. Det er derfor behov for felles definisjoner som beskriver innholdet i den elektroniske informasjonen, hvordan informasjonen utveksles og de viktigste funksjonene som datadelingsgrensesnittene må støtte for å være nyttige for andre systemer. Aktørene som skal samhandle ved hjelp av datadeling trenger derfor felles semantiske spesifikasjoner som de ulike datadelingsløsningene må forholde seg til. Spesifikasjonene bør utvikles basert på internasjonale standarder i tråd med [anbefaling om bruk av HL7 FHIR for datadeling](https://www.ehelse.no/standardisering/standarder/anbefaling-om-bruk-av-hl7-fhir-for-datadeling) og i [samarbeid med andre virksomheter i helsesektoren](https://www.ehelse.no/publikasjoner/samarbeidsmodell-for-internasjonale-standarder).
+
+!!! note "Arkitekturvalg 4: Felles semantiske spesifikasjoner for samhandlingen"
+
+    Etableringen av datadelingsløsninger må bruke felles semantiske spesifikasjoner basert på internasjonale standarder. 
+
+#### Felleskomponenter og fellestjenester
+
+Målarkitekturen for datadeling innen DHO baserer seg på felleskomponenter som er beskrevet i [målarkitektur for datadeling](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren). Det er ikke mulig å realisere effektiv og robust datadeling i helsesektoren uten at sentrale felleskomponenter realiseres og at de ulike datadelingsløsningene bruker disse.
+
+!!! note "Arkitekturvalg 5: Bruk av felleskomponenter og fellestjenester"
+
+    Målarkitekturen forutsetter bruk av eksisterende og planlagte felleskomponenter, som er beskrevet i [målarkitektur for datadeling](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren).
+
 ### Vurdering av konsept
 
 Vi anbefaler at virksomhetene vurderer hvilke konsept for datadeling som egner seg best ut fra samhandlingsbehovene som identifiseres i tjenesteforløpene som skal etableres eller understøttes. Videre anbefales at det konkrete samhandlingsbehovet gjennomføres i samarbeid med andre virksomheter innen for regionen eller Helsefellesskapet. Virksomhetene bør velge ett eller flere konsept som er innenfor gjeldende rett for å komme i gang med datadeling mellom virksomhetene i Helsefellesskapet eller regionen. Det kan vurderes kombinasjoner av alle konseptene som faller innenfor gjeldende rett innenfor en region. Hvilke konsept som passer best er blant annet avhengig av virksomhetenes størrelse, tilgang til eksisterende infrastruktur og behov for fleksibilitet, skalerbarhet og kompleksiteten i løsningen. Det anbefales å gjenbruke semantiske spesifikasjoner der disse eksisterer eller samarbeide med andre virksomheter om å etablere felles spesifikasjoner basert på [HL7 FHIR](https://www.ehelse.no/standardisering/standarder/anbefaling-om-bruk-av-hl7-fhir-for-datadeling).
 
 ## Kapabilitetskart
+
+!!! info
+
+    Innholdet i denne delen bygger på eksisterende retningslinjer beskrevet i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) og [Referansearkitektur for datadeling](https://www.ehelse.no/standardisering/standarder/referansearkitektur-for-datadeling). Kapittelet forutsetter kjennskap til de tekniske delene av disse arbeidene. Kapittelet egner seg hovedsaklig for arkitekter og tekniske personer som ønsker å forstå bakgrunnen for arkitekturvalgene som gjøres i målarkitekturen.
 
 I denne delen av målarkitekturen viser vi hvilke kapabiliteter eller evner som må realiseres for å understøtte samhandling mellom virksomheter og omsorgsnivå. Kapabilitetene som beskrives er en videreutvikling av kapabilitetene som beskrives i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren), men modellene videreutvikles med hovedfokus på samhandling mellom virksomheter.
 
@@ -122,7 +158,7 @@ Evnene er knyttet til bruk av organisatoriske samhandlingsformer for å utveksle
 | Tilgjengeliggjøre data | Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet med eller uten krav til innlogget bruker ved hjelp av datadeling. Tilgangsstyring inngår her. Avgjøre hvilken informasjon som skal deles med andre gjennom en datadelingstjeneste. |
 | Visning | Evnen til å vise data til bruker |
 
-## Realising av kapabilitetene
+## Realisering av kapabilitetene
 
 I behovsbildet har vi beskrevet og prioritert hvilke [informasjonstjenester](../vedlegg/Informasjonstjeneste-meta.md) vi trenger for å understøtte relevante tjenesteforløp knyttet til DHO. I arbeidet med målarkitektur for samhandling DHO analyserer vi hvordan kapabiliteter kan realiseres av prosesser og ser hvilke applikasjonstjenester som må understøtte realiseringen. Vi ser også på sammenhengen mellom applikasjonstjenestene som realiseres av virksomhetene som skal samhandle og tjenester som realiseres i felles infrastruktur (fellestjenester).
 
@@ -132,10 +168,6 @@ Modellen *Sentrale prosesser knyttet til samhandling* viser hvordan prosesser, f
 
 [![Prosesser knyttet til samhandling](../img/tjenester-kapabiliteter.png)](../img/tjenester-kapabiliteter.png)
 *Overordnet bilde av prosesser og applikasjonstjenester som understøtter samhandling mellom virksomheter*
-
-### Samhandlingsformer
-
-Behovet for samhandling i DHO løses best ved å benytte flere samhandlingsformer om hverandre der ulike samhandlingsformer svarer ut ulike informasjonsbehov og har ulike roller i forhold til behandlingsforløpet. Det eksisterer i dag utstrakt bruk av samhandlingsformen sende og motta spesielt knyttet til rekvisisjon, henvisning, svar og epikrise. Dette er ikke hovedfokuset i forbindelse med å utvikle samhandlingen knyttet til DHO da dette er samhandlingsformer og prosesser som er veletablert i tjenesten i dag men som ikke i tilstrekkelig grad understøtter behovene knyttet til DHO og sammensatte behandlingsforløp, hvor ulike virksomheter og omsorgsnivå følger opp pasienten.
 
 ### Informasjonstjenester og prosesser
 
