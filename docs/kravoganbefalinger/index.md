@@ -44,11 +44,11 @@ Dataansvaret vil i forslaget til målarkitektur ligge hos den enkelte virksomhet
 
 ### Arkitekturvalg
 
-Vi gjør fire grunnleggende arkitekturvalg for etablering av datadeling mellom virksomheter og omsorgsnivå som oppsummeres her. I tillegg har vi valgt å bruke datadeling som samhandlingsform basert på behovene som er identifisert i [behovskapittelet](../behov/index.md#samhandlingsform-datadeling).
+Vi gjør fire grunnleggende arkitekturvalg for etablering av datadeling mellom virksomheter og omsorgsnivå som oppsummeres her. I tillegg har vi valgt å bruke datadeling som samhandlingsform basert på behovene som er identifisert i [behovskapittelet](../behov/index.md#samhandlingsform-datadeling). <!-- Det bør vurderes å samle alle arkitekturvalgene et sted. Kanskje i tillegg? -->
 
 #### Fleksibilitet
-
-Det er viktig sørge for fleksibilite i målarkitekturen for å ivareta lokale og regionale behov og ikke binde seg til et bestemt løsningsmønster før vi har tilstrekkelig erfaring med datadeling mellom virksomheter. Fleksibilitet er også viktig for å ikke stoppe eller forsinke pågående aktiviteter for etablering av datadeling i helsefellesskapene i forbindelse med utprøvings- og spredningsaktiviteter som er igang.
+<!-- Her kan vi være mer konkrete på hva lokale og regionale behov beytr. Hva med noe i retning av: "Det er ulike behov knyttet til forvaltning og "sourcing" av datadelings komponentene"  -->
+Det er viktig sørge for fleksibilite i målarkitekturen for å ivareta lokale og regionale behov og ikke binde seg til et bestemt løsningsmønster før vi har tilstrekkelig erfaring med datadeling mellom virksomheter. Fleksibilitet er også viktig for å ikke stoppe eller forsinke pågående aktiviteter for etablering av datadeling i helsefellesskapene i forbindelse med utprøvings- og spredningsaktiviteter som er igang.<!-- FØrste og siste setning i dette avsnittet, er kanskje to sider av samme sak? -->
 
 !!! note "Arkitekturvalg 2: Fleksibilitet"
 
@@ -58,7 +58,7 @@ Fleksibiliteten som ivaretas i målarkitekturen handler i hovedsak om at målark
 
 #### Juridiske rammer
 
-Det er stor forskjell på de juridiske rammene for de ulike løsningskonseptene som er [vurdert](../vedlegg/Konsepter-realisering.md). Siden behovene ikke peker på at sammenstilling av informasjon i en felles nasjonal løsning er nødvendig og at endringer i lov og forskrift er ressurskrevende og tar lang tid, anbefales det på nåværende tidspunkt å realisere datadeling mellom virksomheter innenfor gjeldende rett. Det betyr blant annet at det ikke er behov for å vente på lov- og forskriftsendringer før erfaringer med datadeling mellom virksomheter kan høstes.
+Det er stor forskjell på de juridiske rammene for de ulike løsningskonseptene som er [vurdert](../vedlegg/Konsepter-realisering.md).<!-- Rammene er de samme, men konsekvensene er forskjellig. --> Siden behovene ikke peker på at sammenstilling av informasjon i en felles nasjonal løsning er nødvendig og at endringer i lov og forskrift er ressurskrevende og tar lang tid, anbefales det på nåværende tidspunkt å realisere datadeling mellom virksomheter innenfor gjeldende rett. <!-- Er det ikke litt rart å vurdere en løsning som det ikke er noe behov for? Vi burde kanskje si noe om hvorfor vi alikevell har vurdert denne løsningen? --> Det betyr blant annet at det ikke er behov for å vente på lov- og forskriftsendringer før erfaringer med datadeling mellom virksomheter kan høstes.
 
 !!! note "Arkitekturvalg 3: Løsningsalternativer innenfor gjeldende rett"
 
@@ -71,10 +71,10 @@ En utfordring med elektronisk samhandling er at ulike aktører kan tolke informa
 !!! note "Arkitekturvalg 4: Felles semantiske spesifikasjoner for datadeling"
 
     Etableringen av datadelingsløsninger må bruke felles semantiske spesifikasjoner basert på internasjonale standarder. 
-
+<!-- Er litt usikker på om dette er et godt arkitektur valg. Er det et reelt alternativ å ikke bruke felles semantiske spesifikasjoner? Kanskje dette heller er en kritisk suksessfaktur. Hvis det finnes et reelt alternativ, bør vi i så fall  si hva det alternativet er, og hvorfor det ikke er aktuelt i denne sammenhengen. -->
 #### Felleskomponenter og fellestjenester
 
-Målarkitekturen for datadeling innen DHO baserer seg på felleskomponenter og fellestjenester som er beskrevet i [målarkitektur for datadeling](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren). Det er ikke mulig å realisere effektiv og robust datadeling i helsesektoren uten at sentrale fellestjenester realiseres og at de ulike datadelingsløsningene bruker disse. Fellestjenestene vil være helt avgjørende når mange virksomheter skal etablere datadelingsløsninger og ta disse i bruk siden manuelle rutiner for å oppdage grensesnitt og etablere bilaterale avtaler mellom virksomhetene som skal samhandle vil være svært ressurskrevende.  
+Målarkitekturen for datadeling innen DHO baserer seg på felleskomponenter og fellestjenester som er beskrevet i [målarkitektur for datadeling](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren). Det er ikke mulig å realisere effektiv og robust datadeling i helsesektoren uten at sentrale fellestjenester realiseres og at de ulike datadelingsløsningene bruker disse. Fellestjenestene vil være helt avgjørende når mange virksomheter skal etablere datadelingsløsninger og ta disse i bruk siden manuelle rutiner for å oppdage grensesnitt og etablere bilaterale avtaler mellom virksomhetene som skal samhandle vil være svært ressurskrevende.  <!-- Vi bør vurdere om dette er en kritisk suksessfaktor, eller om arkitekturvalget bør spisses. -->
 
 !!! note "Arkitekturvalg 5: Bruk av felleskomponenter og fellestjenester"
 
