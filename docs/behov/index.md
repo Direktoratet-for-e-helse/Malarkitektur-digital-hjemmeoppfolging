@@ -157,7 +157,7 @@ Behovet for samhandling i DHO løses best ved å benytte flere samhandlingsforme
 
 !!! note "Arkitekturvalg 1: Datadeling som samhandlingsform"
 
-    Basert på behovene som er kartlagt i forbindelse med DHO og målinger er det datadeling som understøtter flest brukerbehov mest effektivt.
+    Basert på samhandlingsbehovene som er kartlagt i forbindelse med DHO og målinger er det datadeling som understøtter flest brukerbehov mest effektivt.
 
 ### Detaljert behovsbeskrivelse
 

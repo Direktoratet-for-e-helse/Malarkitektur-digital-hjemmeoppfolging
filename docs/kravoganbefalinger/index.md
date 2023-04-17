@@ -44,11 +44,19 @@ Dataansvaret vil i forslaget til målarkitektur ligge hos den enkelte virksomhet
 
 ### Arkitekturvalg
 
-Vi gjør fire grunnleggende arkitekturvalg for etablering av datadeling mellom virksomheter og omsorgsnivå som oppsummeres her. I tillegg har vi valgt å bruke datadeling som samhandlingsform basert på behovene som er identifisert i [behovskapittelet](../behov/index.md#samhandlingsform-datadeling). <!-- Det bør vurderes å samle alle arkitekturvalgene et sted. Kanskje i tillegg? -->
+Vi gjør fire grunnleggende arkitekturvalg for etablering av datadeling mellom virksomheter og omsorgsnivå som oppsummeres her.  
+
+#### Datadeling
+
+I [behovskapittelet](../behov/index.md) valgte vi å bruke datadeling som samhandlingsform for å dekke samhandlingsbehovene som er identifisert innen DHO. Dette valget er gjengitt her og begrunnelsen ligger delkapittelet om [datadeling](../behov/index.md#samhandlingsform-datadeling).
+
+!!! note "Arkitekturvalg 1: Datadeling som samhandlingsform"
+
+    Basert på samhandlingsbehovene som er kartlagt i forbindelse med DHO og målinger er det datadeling som understøtter flest brukerbehov mest effektivt.
 
 #### Fleksibilitet
-<!-- Her kan vi være mer konkrete på hva lokale og regionale behov beytr. Hva med noe i retning av: "Det er ulike behov knyttet til forvaltning og "sourcing" av datadelings komponentene"  -->
-Det er viktig sørge for fleksibilitet i målarkitekturen for å ivareta lokale og regionale behov og ikke binde seg til et bestemt løsningsmønster før vi har tilstrekkelig erfaring med datadeling mellom virksomheter. Fleksibilitet er også viktig for å ikke stoppe eller forsinke pågående aktiviteter for etablering av datadeling i helsefellesskapene i forbindelse med utprøvings- og spredningsaktiviteter som er igang.<!-- FØrste og siste setning i dette avsnittet, er kanskje to sider av samme sak? -->
+
+Det er viktig sørge for fleksibilitet i målarkitekturen for å ivareta lokale og regionale behov og ikke binde seg til et bestemt løsningsmønster før vi har tilstrekkelig erfaring med datadeling mellom virksomheter. Ulike regionale behov kan være knyttet til anskaffelse, forvaltning og drift av løsningene men det kan også handle om ulike prioriteringer i forhold til tjenestene som skal understøttes og informasjonsbehovet knyttet til disse. Fleksibilitet er derfor viktig for å ikke stoppe eller forsinke pågående aktiviteter for etablering av datadeling i helsefellesskapene i forbindelse med utprøvings- og spredningsaktiviteter som er igang.
 
 !!! note "Arkitekturvalg 2: Fleksibilitet"
 
@@ -71,10 +79,10 @@ En utfordring med elektronisk samhandling er at ulike aktører kan tolke informa
 !!! note "Arkitekturvalg 4: Felles semantiske spesifikasjoner for datadeling"
 
     Etableringen av datadelingsløsninger må bruke felles semantiske spesifikasjoner basert på internasjonale standarder. 
-<!-- Er litt usikker på om dette er et godt arkitektur valg. Er det et reelt alternativ å ikke bruke felles semantiske spesifikasjoner? Kanskje dette heller er en kritisk suksessfaktur. Hvis det finnes et reelt alternativ, bør vi i så fall  si hva det alternativet er, og hvorfor det ikke er aktuelt i denne sammenhengen. -->
+
 #### Felleskomponenter og fellestjenester
 
-Målarkitekturen for datadeling innen DHO baserer seg på felleskomponenter og fellestjenester som er beskrevet i [målarkitektur for datadeling](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren). Det er ikke mulig å realisere effektiv og robust datadeling i helsesektoren uten at sentrale fellestjenester realiseres og at de ulike datadelingsløsningene bruker disse. Fellestjenestene vil være helt avgjørende når mange virksomheter skal etablere datadelingsløsninger og ta disse i bruk siden manuelle rutiner for å oppdage grensesnitt og etablere bilaterale avtaler mellom virksomhetene som skal samhandle vil være svært ressurskrevende.  <!-- Vi bør vurdere om dette er en kritisk suksessfaktor, eller om arkitekturvalget bør spisses. -->
+Målarkitekturen for datadeling innen DHO baserer seg på felleskomponenter og fellestjenester som er beskrevet i [målarkitektur for datadeling](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren). Det er ikke mulig å realisere effektiv og robust datadeling i helsesektoren uten at sentrale fellestjenester realiseres og at de ulike datadelingsløsningene bruker disse. Fellestjenestene vil være helt avgjørende når mange virksomheter skal etablere datadelingsløsninger og ta disse i bruk siden manuelle rutiner for å oppdage grensesnitt og etablere bilaterale avtaler mellom virksomhetene som skal samhandle vil være svært ressurskrevende.  
 
 !!! note "Arkitekturvalg 5: Bruk av felleskomponenter og fellestjenester"
 
