@@ -1054,7 +1054,7 @@
 <tbody>
 <tr>
 <td align="left"><span style="background-color:BlueViolet">Prerelease</span></td>
-<td align="left">v0.8.2</td>
+<td align="left">v0.8.3</td>
 <td align="left">review</td>
 <td align="left">ikke normert</td>
 </tr>
@@ -1084,28 +1084,29 @@ Behovsanalysen til konseptvalgutredningen for nasjonal journalløsning for kommu
 <h3 id="arkitekturvalg">Arkitekturvalg</h3>
 <p>Vi gjør fire grunnleggende arkitekturvalg for etablering av datadeling mellom virksomheter og omsorgsnivå som oppsummeres her. I tillegg har vi valgt å bruke datadeling som samhandlingsform basert på behovene som er identifisert i <a href="../behov/#samhandlingsform-datadeling">behovskapittelet</a>.</p>
 <h4 id="fleksibilitet">Fleksibilitet</h4>
-<p>Det er viktig å integrere fleksibilitet i målarkitekturen for å ivareta lokale og regionale behov og ikke binde seg til et bestemt løsningsmønster før vi har tilstrekkelig erfaring med datadeling mellom virksomhetene. Fleksibilitet er også viktig for å ikke stoppe eller forsinke pågående aktiviteter for å etablere datadeling i helsefellesskapene i forbindelse med utprøvings- og spredningsaktiviteter som er igang.</p>
+<p>Det er viktig sørge for fleksibilite i målarkitekturen for å ivareta lokale og regionale behov og ikke binde seg til et bestemt løsningsmønster før vi har tilstrekkelig erfaring med datadeling mellom virksomheter. Fleksibilitet er også viktig for å ikke stoppe eller forsinke pågående aktiviteter for etablering av datadeling i helsefellesskapene i forbindelse med utprøvings- og spredningsaktiviteter som er igang.</p>
 <div class="admonition note">
 <p class="admonition-title">Arkitekturvalg 2: Fleksibilitet</p>
-<p>Vi anbefaler en fleksibel modell for etablering av datadeling mellom virksomheter og omsorgsnivå.</p>
+<p>Målarkitekturen anbefaler en fleksibel modell for etablering av datadeling mellom virksomheter og omsorgsnivå.</p>
 </div>
+<p>Fleksibiliteten som ivaretas i målarkitekturen handler i hovedsak om at målarkitekturen beskriver tre ulike løsningsmønster for hvordan virksomhetene kan etablere kapabiliteter for datadeling og at det pekes på bruk av fellestjenester for å understøtte ulike løsningsmønster. Innen et geografisk område kan alle virksomhetene velge samme løsningsmønster eller det kan kombineres med at andre virksomheter velger andre løsningsmønster. Det legges heller ingen føringer på hvordan virksomhetene skal utvikle de konkrete løsningene for datadeling, utover at løsningene må realisere overordnede kapabiliteter for datadeling som er beskrevet i målarkitekturen.</p>
 <h4 id="juridiske-rammer">Juridiske rammer</h4>
-<p>Det er stor forskjell på de juridiske rammene for de ulike løsningskonseptene som er <a href="../vedlegg/Konsepter-realisering/">vurdert</a>. Basert på at behovene ikke peker at nasjonal sammenstilling av informasjon er nødvendig og det faktum at endringer i lov og forskrift er ressurskrevende og tar lang tid, anbefales det på nåværende tidspunkt å realisere datadeling mellom virksomheter innenfor gjeldende rett. Det betyr at blant annet at det ikke er behov for å vente på lov- og forskriftsendringer før erfaringer med datadeling mellom virksomheter kan høstes.</p>
+<p>Det er stor forskjell på de juridiske rammene for de ulike løsningskonseptene som er <a href="../vedlegg/Konsepter-realisering/">vurdert</a>. Siden behovene ikke peker på at sammenstilling av informasjon i en felles nasjonal løsning er nødvendig og at endringer i lov og forskrift er ressurskrevende og tar lang tid, anbefales det på nåværende tidspunkt å realisere datadeling mellom virksomheter innenfor gjeldende rett. Det betyr blant annet at det ikke er behov for å vente på lov- og forskriftsendringer før erfaringer med datadeling mellom virksomheter kan høstes.</p>
 <div class="admonition note">
 <p class="admonition-title">Arkitekturvalg 3: Løsningsalternativer innenfor gjeldende rett</p>
-<p>Vi anbefaler løsningsalternativer som kan realiseres innenfor gjeldende rett.</p>
+<p>Målarkitekturen anbefaler løsningsalternativer som kan realiseres innenfor gjeldende rett.</p>
 </div>
 <h4 id="felles-semantiske-spesifikasjoner">Felles semantiske spesifikasjoner</h4>
-<p>En utfordring med elektronisk samhandling er at ulike aktører kan tolke informasjonen som utveksles forskjellig. Det er derfor behov for felles definisjoner som beskriver innholdet i den elektroniske informasjonen, hvordan informasjonen utveksles og de viktigste funksjonene som datadelingsgrensesnittene må støtte for å være nyttige for andre systemer. Aktørene som skal samhandle ved hjelp av datadeling trenger derfor felles semantiske spesifikasjoner som de ulike datadelingsløsningene må forholde seg til. Spesifikasjonene bør utvikles basert på internasjonale standarder i tråd med <a href="https://www.ehelse.no/standardisering/standarder/anbefaling-om-bruk-av-hl7-fhir-for-datadeling">anbefaling om bruk av HL7 FHIR for datadeling</a> og i <a href="https://www.ehelse.no/publikasjoner/samarbeidsmodell-for-internasjonale-standarder">samarbeid med andre virksomheter i helsesektoren</a>.</p>
+<p>En utfordring med elektronisk samhandling er at ulike aktører kan tolke informasjonen som utveksles forskjellig. Det er derfor behov for felles definisjoner som beskriver innhold, struktur og semantikk i data som uveksles, hvordan data utveksles og de viktigste funksjonene som datadelingsgrensesnittene må støtte for å være nyttige for andre systemer. Aktørene som skal samhandle ved hjelp av datadeling trenger derfor felles semantiske spesifikasjoner som de ulike datadelingsløsningene må forholde seg til. Spesifikasjonene bør utvikles basert på internasjonale standarder i tråd med <a href="https://www.ehelse.no/standardisering/standarder/anbefaling-om-bruk-av-hl7-fhir-for-datadeling">anbefaling om bruk av HL7 FHIR for datadeling</a> og i <a href="https://www.ehelse.no/publikasjoner/samarbeidsmodell-for-internasjonale-standarder">samarbeid med andre virksomheter i helsesektoren</a>.</p>
 <div class="admonition note">
-<p class="admonition-title">Arkitekturvalg 4: Felles semantiske spesifikasjoner for samhandlingen</p>
+<p class="admonition-title">Arkitekturvalg 4: Felles semantiske spesifikasjoner for datadeling</p>
 <p>Etableringen av datadelingsløsninger må bruke felles semantiske spesifikasjoner basert på internasjonale standarder. </p>
 </div>
 <h4 id="felleskomponenter-og-fellestjenester">Felleskomponenter og fellestjenester</h4>
-<p>Målarkitekturen for datadeling innen DHO baserer seg på felleskomponenter som er beskrevet i <a href="https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren">målarkitektur for datadeling</a>. Det er ikke mulig å realisere effektiv og robust datadeling i helsesektoren uten at sentrale felleskomponenter realiseres og at de ulike datadelingsløsningene bruker disse.</p>
+<p>Målarkitekturen for datadeling innen DHO baserer seg på felleskomponenter og fellestjenester som er beskrevet i <a href="https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren">målarkitektur for datadeling</a>. Det er ikke mulig å realisere effektiv og robust datadeling i helsesektoren uten at sentrale fellestjenester realiseres og at de ulike datadelingsløsningene bruker disse. Fellestjenestene vil være helt avgjørende når mange virksomheter skal etablere datadelingsløsninger og ta disse i bruk siden manuelle rutiner for å oppdage grensesnitt og etablere bilaterale avtaler mellom virksomhetene som skal samhandle vil være svært ressurskrevende.  </p>
 <div class="admonition note">
 <p class="admonition-title">Arkitekturvalg 5: Bruk av felleskomponenter og fellestjenester</p>
-<p>Målarkitekturen forutsetter bruk av eksisterende og planlagte felleskomponenter, som er beskrevet i <a href="https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren">målarkitektur for datadeling</a>.</p>
+<p>Målarkitekturen forutsetter bruk av eksisterende og planlagte felleskomponenter og fellestjenester, som er beskrevet i <a href="https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren">målarkitektur for datadeling</a>.</p>
 </div>
 <h3 id="vurdering-av-konsept">Vurdering av konsept</h3>
 <p>Vi anbefaler at virksomhetene vurderer hvilke konsept for datadeling som egner seg best ut fra samhandlingsbehovene som identifiseres i tjenesteforløpene som skal etableres eller understøttes. Videre anbefales at det konkrete samhandlingsbehovet gjennomføres i samarbeid med andre virksomheter innen for regionen eller Helsefellesskapet. Virksomhetene bør velge ett eller flere konsept som er innenfor gjeldende rett for å komme i gang med datadeling mellom virksomhetene i Helsefellesskapet eller regionen. Det kan vurderes kombinasjoner av alle konseptene som faller innenfor gjeldende rett innenfor en region. Hvilke konsept som passer best er blant annet avhengig av virksomhetenes størrelse, tilgang til eksisterende infrastruktur og behov for fleksibilitet, skalerbarhet og kompleksiteten i løsningen. Det anbefales å gjenbruke semantiske spesifikasjoner der disse eksisterer eller samarbeide med andre virksomheter om å etablere felles spesifikasjoner basert på <a href="https://www.ehelse.no/standardisering/standarder/anbefaling-om-bruk-av-hl7-fhir-for-datadeling">HL7 FHIR</a>.</p>
@@ -1327,7 +1328,7 @@ Når en konsumerende virksomhet forespør data fra datadelingstjenesten starter 
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">April 4, 2023 08:51:28</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">April 17, 2023 06:38:04</span>
       
     
   </small>
