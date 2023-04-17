@@ -4,7 +4,7 @@ title: Krav og anbefalinger
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:BlueViolet">Prerelease</span> | v0.8.2 | review  | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span> | v0.8.3 | review  | ikke normert |
 
 ## Samhandling mellom helsepersonell på tvers av virksomheter
 
@@ -48,31 +48,33 @@ Vi gjør fire grunnleggende arkitekturvalg for etablering av datadeling mellom v
 
 #### Fleksibilitet
 
-Det er viktig å integrere fleksibilitet i målarkitekturen for å ivareta lokale og regionale behov og ikke binde seg til et bestemt løsningsmønster før vi har tilstrekkelig erfaring med datadeling mellom virksomhetene. Fleksibilitet er også viktig for å ikke stoppe eller forsinke pågående aktiviteter for å etablere datadeling i helsefellesskapene i forbindelse med utprøvings- og spredningsaktiviteter som er igang.
+Det er viktig sørge for fleksibilite i målarkitekturen for å ivareta lokale og regionale behov og ikke binde seg til et bestemt løsningsmønster før vi har tilstrekkelig erfaring med datadeling mellom virksomheter. Fleksibilitet er også viktig for å ikke stoppe eller forsinke pågående aktiviteter for etablering av datadeling i helsefellesskapene i forbindelse med utprøvings- og spredningsaktiviteter som er igang.
 
 !!! note "Arkitekturvalg 2: Fleksibilitet"
 
-    Vi anbefaler en fleksibel modell for etablering av datadeling mellom virksomheter og omsorgsnivå.
+    Målarkitekturen anbefaler en fleksibel modell for etablering av datadeling mellom virksomheter og omsorgsnivå.
+
+Fleksibiliteten som ivaretas i målarkitekturen handler i hovedsak om at målarkitekturen beskriver tre ulike løsningsmønster for hvordan virksomhetene kan etablere kapabiliteter for datadeling og at det pekes på bruk av fellestjenester for å understøtte ulike løsningsmønster. Innen et geografisk område kan alle virksomhetene velge samme løsningsmønster eller det kan kombineres med at andre virksomheter velger andre løsningsmønster. Det legges heller ingen føringer på hvordan virksomhetene skal utvikle de konkrete løsningene for datadeling, utover at løsningene må realisere overordnede kapabiliteter for datadeling som er beskrevet i målarkitekturen.
 
 #### Juridiske rammer
 
-Det er stor forskjell på de juridiske rammene for de ulike løsningskonseptene som er [vurdert](../vedlegg/Konsepter-realisering.md). Basert på at behovene ikke peker at nasjonal sammenstilling av informasjon er nødvendig og det faktum at endringer i lov og forskrift er ressurskrevende og tar lang tid, anbefales det på nåværende tidspunkt å realisere datadeling mellom virksomheter innenfor gjeldende rett. Det betyr at blant annet at det ikke er behov for å vente på lov- og forskriftsendringer før erfaringer med datadeling mellom virksomheter kan høstes.
+Det er stor forskjell på de juridiske rammene for de ulike løsningskonseptene som er [vurdert](../vedlegg/Konsepter-realisering.md). Siden behovene ikke peker på at sammenstilling av informasjon i en felles nasjonal løsning er nødvendig og at endringer i lov og forskrift er ressurskrevende og tar lang tid, anbefales det på nåværende tidspunkt å realisere datadeling mellom virksomheter innenfor gjeldende rett. Det betyr blant annet at det ikke er behov for å vente på lov- og forskriftsendringer før erfaringer med datadeling mellom virksomheter kan høstes.
 
 !!! note "Arkitekturvalg 3: Løsningsalternativer innenfor gjeldende rett"
 
-    Vi anbefaler løsningsalternativer som kan realiseres innenfor gjeldende rett.
+    Målarkitekturen anbefaler løsningsalternativer som kan realiseres innenfor gjeldende rett.
 
 #### Felles semantiske spesifikasjoner
 
-En utfordring med elektronisk samhandling er at ulike aktører kan tolke informasjonen som utveksles forskjellig. Det er derfor behov for felles definisjoner som beskriver innholdet i den elektroniske informasjonen, hvordan informasjonen utveksles og de viktigste funksjonene som datadelingsgrensesnittene må støtte for å være nyttige for andre systemer. Aktørene som skal samhandle ved hjelp av datadeling trenger derfor felles semantiske spesifikasjoner som de ulike datadelingsløsningene må forholde seg til. Spesifikasjonene bør utvikles basert på internasjonale standarder i tråd med [anbefaling om bruk av HL7 FHIR for datadeling](https://www.ehelse.no/standardisering/standarder/anbefaling-om-bruk-av-hl7-fhir-for-datadeling) og i [samarbeid med andre virksomheter i helsesektoren](https://www.ehelse.no/publikasjoner/samarbeidsmodell-for-internasjonale-standarder).
+En utfordring med elektronisk samhandling er at ulike aktører kan tolke informasjonen som utveksles forskjellig. Det er derfor behov for felles definisjoner som beskriver innhold, struktur og semantikk i data som uveksles, hvordan data utveksles og de viktigste funksjonene som datadelingsgrensesnittene må støtte for å være nyttige for andre systemer. Aktørene som skal samhandle ved hjelp av datadeling trenger derfor felles semantiske spesifikasjoner som de ulike datadelingsløsningene må forholde seg til. Spesifikasjonene bør utvikles basert på internasjonale standarder i tråd med [anbefaling om bruk av HL7 FHIR for datadeling](https://www.ehelse.no/standardisering/standarder/anbefaling-om-bruk-av-hl7-fhir-for-datadeling) og i [samarbeid med andre virksomheter i helsesektoren](https://www.ehelse.no/publikasjoner/samarbeidsmodell-for-internasjonale-standarder).
 
-!!! note "Arkitekturvalg 4: Felles semantiske spesifikasjoner for samhandlingen"
+!!! note "Arkitekturvalg 4: Felles semantiske spesifikasjoner for datadeling"
 
     Etableringen av datadelingsløsninger må bruke felles semantiske spesifikasjoner basert på internasjonale standarder. 
 
 #### Felleskomponenter og fellestjenester
 
-Målarkitekturen for datadeling innen DHO baserer seg på felleskomponenter og fellestjenester som er beskrevet i [målarkitektur for datadeling](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren). Det er ikke mulig å realisere effektiv og robust datadeling i helsesektoren uten at sentrale fellestjenester realiseres og at de ulike datadelingsløsningene bruker disse.
+Målarkitekturen for datadeling innen DHO baserer seg på felleskomponenter og fellestjenester som er beskrevet i [målarkitektur for datadeling](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren). Det er ikke mulig å realisere effektiv og robust datadeling i helsesektoren uten at sentrale fellestjenester realiseres og at de ulike datadelingsløsningene bruker disse. Fellestjenestene vil være helt avgjørende når mange virksomheter skal etablere datadelingsløsninger og ta disse i bruk siden manuelle rutiner for å oppdage grensesnitt og etablere bilaterale avtaler mellom virksomhetene som skal samhandle vil være svært ressurskrevende.  
 
 !!! note "Arkitekturvalg 5: Bruk av felleskomponenter og fellestjenester"
 
