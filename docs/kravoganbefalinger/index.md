@@ -48,13 +48,13 @@ Vi gjør fire grunnleggende arkitekturvalg for etablering av datadeling mellom v
 
 #### Fleksibilitet
 
-Det er viktig sørge for fleksibilite i målarkitekturen for å ivareta lokale og regionale behov og ikke binde seg til et bestemt løsningsmønster før vi har tilstrekkelig erfaring med datadeling mellom virksomheter. Fleksibilitet er også viktig for å ikke stoppe eller forsinke pågående aktiviteter for etablering av datadeling i helsefellesskapene i forbindelse med utprøvings- og spredningsaktiviteter som er igang.
+Det er viktig sørge for fleksibilitet i målarkitekturen for å ivareta lokale og regionale behov og ikke binde seg til et bestemt løsningsmønster før vi har tilstrekkelig erfaring med datadeling mellom virksomheter. Fleksibilitet er også viktig for å ikke stoppe eller forsinke pågående aktiviteter for etablering av datadeling i helsefellesskapene i forbindelse med utprøvings- og spredningsaktiviteter som er igang.
 
 !!! note "Arkitekturvalg 2: Fleksibilitet"
 
     Målarkitekturen anbefaler en fleksibel modell for etablering av datadeling mellom virksomheter og omsorgsnivå.
 
-Fleksibiliteten som ivaretas i målarkitekturen handler i hovedsak om at målarkitekturen beskriver tre ulike løsningsmønster for hvordan virksomhetene kan etablere kapabiliteter for datadeling og at det pekes på bruk av fellestjenester for å understøtte ulike løsningsmønster. Innen et geografisk område kan alle virksomhetene velge samme løsningsmønster eller det kan kombineres med at andre virksomheter velger andre løsningsmønster. Det legges heller ingen føringer på hvordan virksomhetene skal utvikle de konkrete løsningene for datadeling, utover at løsningene må realisere overordnede kapabiliteter for datadeling som er beskrevet i målarkitekturen.
+Fleksibiliteten som ivaretas i målarkitekturen handler i hovedsak om at målarkitekturen beskriver tre ulike løsningsmønster for hvordan virksomhetene kan etablere kapabiliteter for datadeling og at det pekes på bruk av fellestjenester for å understøtte de ulike løsningsmønstrene. Vi peker på fleksibilitet i forhold til om vikrsomhetene etablerer datadelingsløsning innenfor egen infrastruktur, i samarbeid med andre virksomheter som en del av en fellesløsning eller benytter en databehandler som etablerer datadelingsløsningen for virksomheten. Innen et geografisk område kan alle virksomhetene velge samme løsningsmønster eller det kan eksistere kombinasjoner av flere løsningsmønster. Målarkitekturen legger ingen føringer for teknisk applikasjonsarkitektur for datadelingsløsningene, utover at løsningene må realisere de overordnede kapabilitetene som er nødvendig for å realiserere datadelingen.  
 
 #### Juridiske rammer
 
