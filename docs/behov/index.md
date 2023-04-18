@@ -87,6 +87,10 @@ Prosessen for **Samhandling** er brutt ned til generelle steg som kjennetegner 
 
 Målarkitekturen skal beskrive behov for samhandling og informasjonstjenester som kan sikre at samhandlingen understøtter helsetjenesten på en hensiktsmessig måte. I arbeidet med å kartlegge informasjonsbehov skiller vi mellom informasjonsressurser og informasjonstjenester som må etableres for å understøtte informasjonsbehovet. I den grad det er nødvendig vil arbeidet også beskrive andre initiativer som etablerer informasjonstjenester det er behov for i forbindelse med DHO og hvordan disse tjenestene bør tilgjengeliggjøres for å svare ut behov som er identifisert i forbindelse med DHO.  
 
+!!! quote "Behov for tilgang til målinger, MILA2 ([Indremedisineren fagartikkel 2022](https://indremedisineren.no/indremedisineren/pdf/2022-03-indremedisineren.pdf))"
+
+    Det gir en rik tilgang på longitudinelle data om symptomer og målinger ved kronisk sykdom, som kan styrke spesialistens grunnlag for beslutninger om diagnostikk og behandling, eller komme til nytte i forskning. Regelmessighet for målinger og digitale løsninger for egenbehandlingsplaner kan forsterke pasientenes sykdomsforståelse og mestring ved kronisk sykdom, med bedre behandlingseffekt og færre innleggelser. Kommunikasjonsløsninger mellom pasient, fastlege, oppfølgingstjenesten i kommunen og spesialist kan bidra til å skreddersy behov og tidspunkt for kontroller og oppfølgning ved sykehuset, for eksempel utsette planlagte konsultasjoner når tilstanden er stabil.
+
 Figuren viser en oversikt over identifiserte informasjonsbehov i forbindelse med DHO:
 
 [![Identifiserte informasjonsbehov](../img/informasjonsbehov-enkel.png)](../img/informasjonsbehov-enkel.png)
