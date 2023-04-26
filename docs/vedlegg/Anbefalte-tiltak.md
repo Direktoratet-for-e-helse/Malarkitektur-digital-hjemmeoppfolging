@@ -27,7 +27,7 @@ Målarkitekturen for datadeling DHO har behov for en rekke fellestjenester for �
 
 [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) peker på nødvendigheten av å etablere pasientinformasjonslokalisator for å understøtte datadeling basert på distribuert lagring og etablering av grensesnitt for å avgi data. [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) slår videre fast at det ikke eksisterer noen rettslig hjemmel for å etablere en nasjonal tjeneste som sammenstiller informasjon om hvilke API-tjenester som har informasjon en bestem pasient på nasjonalt nivå.
 
-!!! quote "Pasientinformasjonslokalisator"<!-- I dette sitattet brukes felleskomponent. Er vi sikre på at det er den termen som ble brukt, og om de i så fall var samme definisjon som vår, som ble lagt til grunn? -->
+!!! quote "Pasientinformasjonslokalisator"
 
     Det er i en rekke situasjoner tilknyttet datadeling behov for å kunne fremskaffe en oversikt over hvem som har en pasientjournal for en gitt pasient. 
     ...
