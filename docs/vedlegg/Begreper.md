@@ -26,5 +26,4 @@ title: Begreper
 |Tillitsanker|Er en tillitsskapende tjeneste som fungerer som felles avtalepunkt i infrastrukturen for å etablere felles tillitsmodell|
 |Tillitsmodell|Modell for etablering og bruk av tillitskapende tjenester som gjør det mulig for ulike aktører å samhandle elektronisk samtidig som aktørene kan ha tillit til at krav om personvern og sikkerhet ivaretas av alle samhandlende parter|
 |Tillitsskapende tjeneste (tillitstjeneste)|Tjenester som inngår i tillitsmodell, eksempel HelseId og tillitsanker|
-|Tjeneste|Digdir: avgrenset sett av aktiviteter som utføres av eller på vegne av en virksomhet for en aktør. Også brukt om tekniske komponenter som aktørene i sektor kan benytte for å levere IT-løsninger som understøtter ytelse av helsehjelp|
 |Tjenesteforløp|Et tjenesteforløp beskriver organisering og oppgaver knyttet til å yte helsetjenester til pasienter som følges med digital hjemmeoppfølging (kilde: sluttrapport fra nasjonal utprøving 2018-2021)| <!-- Tjenesteforløp er helt generelt og trenger ikke være knyttet til DHO, har du kilde her?-->
