@@ -53,7 +53,7 @@ Målbilde for samhandling begrenser seg til å understøtte ytelse av helse- og 
 Samhandlingstjenester i behandlingsforløp der digital hjemmeoppfølging benyttes skal tilrettelegge for følgende funksjonelle behov:
 
 1. Som helsepersonell har jeg behov for tilgang til oppdatert informasjon som er nødvendig for å yte helsehjelp til pasient på en effektiv måte
-2. Som helsepersonell har jeg behov for å samarbeide med pasient og annet helsepersonell om dokumentasjon av felles sannhet for informasjon som behandlings- og egenbehandlingsplaner, målinger og legemiddellister, der mange bidrar med en delmengde av informasjonen og kompetanse slik at beslutninger tas med utgangspunkt i oppdatert informasjon.
+2. Som helsepersonell har jeg behov for å endre og dele utvalgt informasjon, slik at jeg kan samarbeide med pasient og helsepersonell om oppdatering av felles autoritativ kilde. Eksempel på slik informasjon er behandlings- og egenbehandlingsplan, legemiddelliste og kritisk informasjon. 
 3. Som pasient har jeg behov for tilgang til oppdatert og relevant informasjon for å mestre og ivareta egen helse
 4. Som pasient har jeg behov for at helsepersonell med tjenstlig behov har tilgang til relevant informasjon uavhengig av hvem som har registrert informasjonen, slik at jeg slipper å gjenfortelle historien min
 
