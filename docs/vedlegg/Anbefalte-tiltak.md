@@ -12,11 +12,11 @@ Denne delen av målarkitekturen skal foreslå tiltak som kan gjennomføres for �
 
 Listen nedenfor viser en prioritert liste over tiltak som er nødvendig for å realisere samhandling som skal understøtte DHO.  
 
-1. [Etablering av PIL for datadeling](#etablering-av-pil)
-2. [Felles tillitsmodell for datadeling](#felles-tillitsmodell-for-datadeling)
-3. [Etablere fellesløsninger for lagring og grensesnitt](#etablere-felleslsninger-for-lagring-og-grensesnitt)
-4. [Felles semantisk rammeverk for datadeling og DHO](#felles-semantisk-rammeverk-for-datadeling-og-dho)
-5. [Vurdere fellesløsninger for utstyrslogistikk](#vurdere-felleslsninger-for-utstyrslogistikk)
+1. [Felles tillitsmodell for datadeling](#felles-tillitsmodell-for-datadeling)
+2. [Etablere fellesløsninger for lagring og grensesnitt](#etablere-felleslsninger-for-lagring-og-grensesnitt)
+3. [Felles semantisk rammeverk for datadeling og DHO](#felles-semantisk-rammeverk-for-datadeling-og-dho)
+4. [Vurdere fellesløsninger for utstyrslogistikk](#vurdere-felleslsninger-for-utstyrslogistikk)
+5. [Etablering av PIL for datadeling](#etablering-av-pil)
 6. [Rammeverk for hendelsesbasert samhandling](#rammeverk-for-hendelsesbasert-samhandling)
 
 ## Tiltak knyttet til etablering av fellestjenester
