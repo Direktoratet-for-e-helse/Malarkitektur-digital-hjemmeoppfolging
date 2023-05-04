@@ -85,10 +85,6 @@ Hendelsesbasert samhandling er i bruk i mange andre sektorer, spesielt knyttet t
 * Enighet om felles målbilde knyttet til hvordan hendelsesbasert kommunikasjon kan benyttes og hvilke behov som dekkes best med hendelsesbasert kommunikasjon
 * Beskrive relevante fellestjenester i samhandlingsinfrastrukturen som må til for å understøtte hendelsesbasert kommunikasjon, det bør også etableres et veikart for når fellestjenestene kan etableres
 
-## Tiltak knyttet til semantisk samhandling
-
-Kapitelet som beskriver [konsepter for realisering](Konsepter-realisering.md) av datadeling mellom virksomheter og omsorgsnivå peker på nødvendigheten av felles semantiske spesifikasjoner for å understøtte distribuerte konsepter og [semantisk samhandling](Semantisk-samhandling.md). Det er behov for semantiske spesifikasjoner ved etablering av sentrale/nasjonale løsninger også, men dette vil realiseres gjennom grensesnittspesifikasjonene i den sentrale løsningen.
-
 ### Etablering av PIL
 
 [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) peker på nødvendigheten av å etablere pasientinformasjonslokalisator for å understøtte datadeling basert på distribuert lagring og etablering av grensesnitt for å avgi data. [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) slår videre fast at det ikke eksisterer noen rettslig hjemmel for å etablere en nasjonal tjeneste som sammenstiller informasjon om hvilke API-tjenester som har informasjon en bestem pasient på nasjonalt nivå.
@@ -111,6 +107,12 @@ Spredning av DHO og understøtte behov for datadeling på tvers av mange virksom
 * Alternativt utarbeide forskrift som regulerer behandlingsgrunnlaget for PIL informasjon i en sentralisert løsning
 * Planlegge arbeidet med etablering og innføring av PIL
 * Etablere PIL som en fellestjeneste i samhandlingsinfrastrukturen for helsesektoren
+
+## Tiltak knyttet til semantisk samhandling
+
+Kapitelet som beskriver [konsepter for realisering](Konsepter-realisering.md) av datadeling mellom virksomheter og omsorgsnivå peker på nødvendigheten av felles semantiske spesifikasjoner for å understøtte distribuerte konsepter og [semantisk samhandling](Semantisk-samhandling.md). Det er behov for semantiske spesifikasjoner ved etablering av sentrale/nasjonale løsninger også, men dette vil realiseres gjennom grensesnittspesifikasjonene i den sentrale løsningen.
+
+
 
 ### Felles semantisk rammeverk for datadeling og DHO
 
