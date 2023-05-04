@@ -23,28 +23,7 @@ Listen nedenfor viser en prioritert liste over tiltak som er nødvendig for å r
 
 Målarkitekturen for datadeling DHO har behov for en rekke fellestjenester for å understøtte samhandlingen nasjonalt og regionalt.
 
-### Etablering av PIL
 
-[Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) peker på nødvendigheten av å etablere pasientinformasjonslokalisator for å understøtte datadeling basert på distribuert lagring og etablering av grensesnitt for å avgi data. [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) slår videre fast at det ikke eksisterer noen rettslig hjemmel for å etablere en nasjonal tjeneste som sammenstiller informasjon om hvilke API-tjenester som har informasjon en bestem pasient på nasjonalt nivå.
-
-!!! quote "Pasientinformasjonslokalisator"
-
-    Det er i en rekke situasjoner tilknyttet datadeling behov for å kunne fremskaffe en oversikt over hvem som har en pasientjournal for en gitt pasient. 
-    ...
-    Et slikt register bør etableres som en felleskomponent hvor det fremgår hvem som har helseopplysninger om en gitt pasient. Vi har valgt å kalle denne felleskomponenten for pasientinformasjonslokalisator, forkortet til PIL.
-
-#### Status for etablering av PIL - januar 2023
-
-Det eksisterer idag ikke noen tiltak knyttet til å etablere felleskomponent eller fellestjeneste for PIL i samhandlingsinfrastrukturen for helsesektoren
-
-#### Anbefalt tiltak
-
-Spredning av DHO og understøtte behov for datadeling på tvers av mange virksomheter innenfor en region er avhengig av PIL for å fungere effektivt. Det mangler imidlertid mye arbeid før PIL kan etableres som en fellestjeneste i samhandlingsinfrastrukturen:
-
-* Utarbeide et konsept for PIL som innenfor gjeldende rett, basert på desentralisert modell
-* Alternativt utarbeide forskrift som regulerer behandlingsgrunnlaget for PIL informasjon i en sentralisert løsning
-* Planlegge arbeidet med etablering og innføring av PIL
-* Etablere PIL som en fellestjeneste i samhandlingsinfrastrukturen for helsesektoren
 
 ### Felles tillitsmodell for datadeling
 
@@ -109,6 +88,29 @@ Hendelsesbasert samhandling er i bruk i mange andre sektorer, spesielt knyttet t
 ## Tiltak knyttet til semantisk samhandling
 
 Kapitelet som beskriver [konsepter for realisering](Konsepter-realisering.md) av datadeling mellom virksomheter og omsorgsnivå peker på nødvendigheten av felles semantiske spesifikasjoner for å understøtte distribuerte konsepter og [semantisk samhandling](Semantisk-samhandling.md). Det er behov for semantiske spesifikasjoner ved etablering av sentrale/nasjonale løsninger også, men dette vil realiseres gjennom grensesnittspesifikasjonene i den sentrale løsningen.
+
+### Etablering av PIL
+
+[Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) peker på nødvendigheten av å etablere pasientinformasjonslokalisator for å understøtte datadeling basert på distribuert lagring og etablering av grensesnitt for å avgi data. [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) slår videre fast at det ikke eksisterer noen rettslig hjemmel for å etablere en nasjonal tjeneste som sammenstiller informasjon om hvilke API-tjenester som har informasjon en bestem pasient på nasjonalt nivå.
+
+!!! quote "Pasientinformasjonslokalisator"
+
+    Det er i en rekke situasjoner tilknyttet datadeling behov for å kunne fremskaffe en oversikt over hvem som har en pasientjournal for en gitt pasient. 
+    ...
+    Et slikt register bør etableres som en felleskomponent hvor det fremgår hvem som har helseopplysninger om en gitt pasient. Vi har valgt å kalle denne felleskomponenten for pasientinformasjonslokalisator, forkortet til PIL.
+
+#### Status for etablering av PIL - januar 2023
+
+Det eksisterer idag ikke noen tiltak knyttet til å etablere felleskomponent eller fellestjeneste for PIL i samhandlingsinfrastrukturen for helsesektoren
+
+#### Anbefalt tiltak
+
+Spredning av DHO og understøtte behov for datadeling på tvers av mange virksomheter innenfor en region er avhengig av PIL for å fungere effektivt. Det mangler imidlertid mye arbeid før PIL kan etableres som en fellestjeneste i samhandlingsinfrastrukturen:
+
+* Utarbeide et konsept for PIL som innenfor gjeldende rett, basert på desentralisert modell
+* Alternativt utarbeide forskrift som regulerer behandlingsgrunnlaget for PIL informasjon i en sentralisert løsning
+* Planlegge arbeidet med etablering og innføring av PIL
+* Etablere PIL som en fellestjeneste i samhandlingsinfrastrukturen for helsesektoren
 
 ### Felles semantisk rammeverk for datadeling og DHO
 
