@@ -16,7 +16,7 @@ Listen nedenfor viser en prioritert liste over tiltak som er nødvendig for å r
 2. [Etablere fellesløsninger for lagring og grensesnitt](#etablere-felleslsninger-for-lagring-og-grensesnitt)
 3. [Rammeverk for hendelsesbasert samhandling](#rammeverk-for-hendelsesbasert-samhandling)
 4. [Vurdere fellesløsninger for utstyrslogistikk](#vurdere-felleslsninger-for-utstyrslogistikk)
-5. [Etablering av PIL for datadeling](#etablering-av-pil)
+5. [Etablering av PIL for datadeling](#etablering-av-pil-for-datadeling)
 6. [Felles semantisk rammeverk for datadeling og DHO](#felles-semantisk-rammeverk-for-datadeling-og-dho)
 
 ## Tiltak knyttet til etablering av fellestjenester
