@@ -74,7 +74,7 @@ Det er stor forskjell på de juridiske rammene for de ulike løsningskonseptene 
     Målarkitekturen anbefaler løsningsalternativer som kan realiseres innenfor gjeldende rett.
 
 #### Felles semantiske spesifikasjoner
-
+<!-- Jeg holder fast på at dette ikke er et arkitekturvalg, men heller en kritisk suksess faktor. Klarer ikke å komme på noe annet vi kunne ha valgt isteden.   -->
 En utfordring med elektronisk samhandling er at ulike aktører kan tolke informasjonen som utveksles forskjellig. Det er derfor behov for felles definisjoner som beskriver innhold, struktur og semantikk i data som uveksles, hvordan data utveksles og de viktigste funksjonene som datadelingsgrensesnittene må støtte for å være nyttige for andre systemer. Aktørene som skal samhandle ved hjelp av datadeling trenger derfor felles semantiske spesifikasjoner som de ulike datadelingsløsningene må forholde seg til. Spesifikasjonene bør utvikles basert på internasjonale standarder i tråd med [anbefaling om bruk av HL7 FHIR for datadeling](https://www.ehelse.no/standardisering/standarder/anbefaling-om-bruk-av-hl7-fhir-for-datadeling) og i [samarbeid med andre virksomheter i helsesektoren](https://www.ehelse.no/publikasjoner/samarbeidsmodell-for-internasjonale-standarder).
 
 !!! note "Arkitekturvalg 4: Felles semantiske spesifikasjoner for datadeling"
