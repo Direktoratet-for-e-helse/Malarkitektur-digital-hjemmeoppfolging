@@ -13,7 +13,7 @@ Denne delen inneholder eksempler på hvordan notasjonen som brukes for å vise m
 Oslo prøver ut datadeling til eksterne virksomheter kommunen samarbeider med i forbindelse med DHO. I første fase er det aktuelt å dele data både med spesialisthelsetjenesten og fastleger. Arbeidet er foreløpig kommet lengst knyttet til arbeidet med å prøve ut datadeling mellom Oslo kommune og Lovisenberg sykehus. Oslo kommune bruker støttetjenester i NHN for å etablere datadelingsgrensesnitt hvor klinikere på Lovisenberg sykehus kan slå opp data om pasienter de får inn på sykehuset.  
 
 [![Datadeling utprøving i Oslo](../img/eksempel-oslo.png)](../img/eksempel-oslo.png)
-*Eksempel på utprøving av datadeling i Oslo med bruk av VKP og pasientens måledata, utviklet av Norsk Helsenett*
+*Eksempel på utprøving av datadeling mellom Oslo og Lovisenberg sykehus, med bruk av VKP og pasientens måledata utviklet av Norsk Helsenett*
 
 Oslo kommune samler måledata som benyttes i oppfølging av pasienter som har DHO. Den daglige oppfølgingen gjennomføres i et dedikert DHO-system. Oslo har sammen med VKP (Velferdsteknologisk knutepunkt) utviklet en integrasjon mellom DHO-systemet og EPJ systemet via Velferdsteknologisk knutepunkt. Denne integrasjonen brukes blant annet til journalføring av hendelser som må dokumenteres i pasientens løpende journal i EPJ.  
 
