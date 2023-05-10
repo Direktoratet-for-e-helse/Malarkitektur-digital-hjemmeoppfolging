@@ -17,7 +17,7 @@
         <link rel="next" href="../referanser/">
       
       <link rel="icon" href="../logo/ehelse-hvit.png">
-      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.9">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.11">
     
     
       
@@ -1097,20 +1097,20 @@ Behovsanalysen til konseptvalgutredningen for nasjonal journalløsning for kommu
 <h3 id="arkitekturvalg">Arkitekturvalg</h3>
 <p>Vi gjør fire grunnleggende arkitekturvalg for etablering av datadeling mellom virksomheter og omsorgsnivå som oppsummeres her.  </p>
 <h4 id="datadeling">Datadeling</h4>
-<p>I <a href="../behov/">behovskapittelet</a> valgte vi å bruke datadeling som samhandlingsform for å dekke samhandlingsbehovene som er identifisert innen DHO. Dette valget er gjengitt her og begrunnelsen ligger delkapittelet om <a href="../behov/#samhandlingsform-datadeling">datadeling</a>.</p>
+<p>I <a href="../behov/">behovskapittelet</a> dokumenterer vi valget å bruke datadeling som samhandlingsform for å dekke samhandlingsbehovene som er identifisert innen DHO. Dette valget er gjengitt her og begrunnelsen ligger delkapittelet om <a href="../behov/#samhandlingsform-datadeling">datadeling</a>.</p>
 <div class="admonition note">
 <p class="admonition-title">Arkitekturvalg 1: Datadeling som samhandlingsform</p>
 <p>Basert på samhandlingsbehovene som er kartlagt i forbindelse med DHO og målinger er det datadeling som understøtter flest brukerbehov mest effektivt.</p>
 </div>
 <h4 id="fleksibilitet">Fleksibilitet</h4>
-<p>Det er viktig sørge for fleksibilitet i målarkitekturen for å ivareta lokale og regionale behov og ikke binde seg til et bestemt løsningsmønster før vi har tilstrekkelig erfaring med datadeling mellom virksomheter. Ulike regionale behov kan være knyttet til anskaffelse, forvaltning og drift av løsningene men det kan også handle om ulike prioriteringer i forhold til tjenestene som skal understøttes og informasjonsbehovet knyttet til disse. Fleksibilitet er derfor viktig for å ikke stoppe eller forsinke pågående aktiviteter for etablering av datadeling i helsefellesskapene i forbindelse med utprøvings- og spredningsaktiviteter som er igang.</p>
+<p>Samhandling i DHO vil skje mellom en rekke virksomheter som er forskjellig organsiert og med ulike smhandlingsbehov. Et samhandlingsmønster som kan virke godt i en sammenheng kan være helt dårlig egnet i en annen. Det er derfor viktig sørge for fleksibilitet i målarkitekturen for å ivareta lokale og regionale behov og ikke binde seg til et bestemt løsningsmønster før vi har tilstrekkelig erfaring med datadeling mellom virksomheter. Ulike regionale behov kan være knyttet til anskaffelse, forvaltning og drift av løsningene men det kan også handle om ulike prioriteringer i forhold til tjenestene som skal understøttes og informasjonsbehovet knyttet til disse. Fleksibilitet er derfor viktig for å ikke stoppe eller forsinke pågående aktiviteter for etablering av datadeling i helsefellesskapene i forbindelse med utprøvings- og spredningsaktiviteter som er igang.</p>
 <div class="admonition note">
 <p class="admonition-title">Arkitekturvalg 2: Fleksibilitet</p>
 <p>Målarkitekturen anbefaler en fleksibel modell for etablering av datadeling mellom virksomheter og omsorgsnivå.</p>
 </div>
-<p>Fleksibiliteten som ivaretas i målarkitekturen handler i hovedsak om at målarkitekturen beskriver tre ulike løsningsmønster for hvordan virksomhetene kan etablere kapabiliteter for datadeling og at det pekes på bruk av fellestjenester for å understøtte de ulike løsningsmønstrene. Vi peker på fleksibilitet i forhold til om vikrsomhetene etablerer datadelingsløsning innenfor egen infrastruktur, i samarbeid med andre virksomheter som en del av en fellesløsning eller benytter en databehandler som etablerer datadelingsløsningen for virksomheten. Innen et geografisk område kan alle virksomhetene velge samme løsningsmønster eller det kan eksistere kombinasjoner av flere løsningsmønster. Målarkitekturen legger ingen føringer for teknisk applikasjonsarkitektur for datadelingsløsningene, utover at løsningene må realisere de overordnede kapabilitetene som er nødvendig for å realiserere datadelingen.  </p>
+<p>Fleksibiliteten som ivaretas i målarkitekturen handler i hovedsak om at ulike måter å realisere kapabiliteter for datadeling og at de anbefalte  fellestjenestene for å understøtte de ulike løsningsmønster. Vi ser behovet for fleksibilitet i sammenheng med at virksomhetene etablerer datadelingsløsning innenfor egen infrastruktur, i samarbeid med andre virksomheter som en del av en fellesløsning, eller benytter en databehandler som etablerer datadelingsløsningen for virksomheten. Innen et geografisk område kan alle virksomhetene velge samme løsningsmønster eller det kan eksistere kombinasjoner av flere løsningsmønster. Målarkitekturen legger ingen føringer for teknisk applikasjonsarkitektur for datadelingsløsningene, utover at løsningene må realisere de overordnede kapabilitetene som er nødvendig for å realiserere datadelingen.  </p>
 <h4 id="juridiske-rammer">Juridiske rammer</h4>
-<p>Det er stor forskjell på de juridiske rammene for de ulike løsningskonseptene som er <a href="../vedlegg/Konsepter-realisering/">vurdert</a>.<!-- Rammene er de samme, men konsekvensene er forskjellig. --> Siden behovene ikke peker på at sammenstilling av informasjon i en felles nasjonal løsning er nødvendig og at endringer i lov og forskrift er ressurskrevende og tar lang tid, anbefales det på nåværende tidspunkt å realisere datadeling mellom virksomheter innenfor gjeldende rett. <!-- Er det ikke litt rart å vurdere en løsning som det ikke er noe behov for? Vi burde kanskje si noe om hvorfor vi alikevell har vurdert denne løsningen? --> Det betyr blant annet at det ikke er behov for å vente på lov- og forskriftsendringer før erfaringer med datadeling mellom virksomheter kan høstes.</p>
+<p>Det er stor forskjell på de hvordan de ulike løsningskonseptene som er <a href="../vedlegg/Konsepter-realisering/">vurdert</a> vurderes i forhold til gjeldende lover og regler. De fleste av de vurderte konseptene faller innenfor gjeldene rett. De konseptene som faller utenfor, er konseptet som krever sammenstilling av informasjon i felles nasjonal løsning. Siden behovene ikke peker på at sammenstilling av informasjon i en felles nasjonal løsning er nødvendig og at endringer i lov og forskrift er ressurskrevende og tar lang tid, anbefales det på nåværende tidspunkt å realisere datadeling mellom virksomheter innenfor gjeldende rett. Det betyr at det ikke er behov for å vente på lov- og forskriftsendringer før erfaringer med datadeling mellom virksomheter kan høstes.</p>
 <div class="admonition note">
 <p class="admonition-title">Arkitekturvalg 3: Løsningsalternativer innenfor gjeldende rett</p>
 <p>Målarkitekturen anbefaler løsningsalternativer som kan realiseres innenfor gjeldende rett.</p>
@@ -1347,7 +1347,7 @@ Når en konsumerende virksomhet forespør data fra datadelingstjenesten starter 
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">April 17, 2023 12:02:59</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">May 10, 2023 08:03:08</span>
       
     
   </small>
