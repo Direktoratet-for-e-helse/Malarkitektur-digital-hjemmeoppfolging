@@ -13,5 +13,5 @@ Denne delen inneholder eksempler på hvordan notasjonen som brukes for å vise m
 Oslo prøver ut datadeling til eksterne virksomheter kommunen samarbeider med i forbindelse med DHO. I første fase er det aktuelt å dele data både med spesialisthelsetjenesten og fastleger. Arbeidet er foreløpig kommet lengst knyttet til arbeidet med å prøve ut datadeling mellom Oslo kommune og Lovisenberg sykehus. Oslo kommune bruker støttetjenester i NHN for å etablere datadelingsgrensesnitt hvor klinikere på Lovisenberg sykehus kan slå opp data om pasienter de får inn på sykehuset.  
 
 [![Datadeling utprøving i Oslo](../img/eksempel-oslo.png)](../img/eksempel-oslo.png)
-*Eksempel på utprøving av datadeling i Oslo med bruk av VKP og pasientens målinger utviklet av Norsk Helsenett*
+*Eksempel på utprøving av datadeling i Oslo med bruk av VKP og pasientens måledata utviklet av Norsk Helsenett*
 
