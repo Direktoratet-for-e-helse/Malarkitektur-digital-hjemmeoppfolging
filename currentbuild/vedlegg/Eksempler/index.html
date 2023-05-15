@@ -17,7 +17,7 @@
         <link rel="next" href="../Anbefalte-tiltak/">
       
       <link rel="icon" href="../../logo/ehelse-hvit.png">
-      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.11">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.12">
     
     
       
@@ -902,7 +902,7 @@
 <tbody>
 <tr>
 <td align="left"><span style="background-color:gold">Work in progress</span></td>
-<td align="left">v0.1.0</td>
+<td align="left">v0.2.0</td>
 <td align="left">draft</td>
 <td align="left">ikke normert</td>
 </tr>
@@ -914,14 +914,15 @@
 <p><a href="../../img/eksempel-oslo.png"><img alt="Datadeling utprøving i Oslo" src="../../img/eksempel-oslo.png" /></a>
 <em>Eksempel på utprøving av datadeling mellom Oslo og Lovisenberg sykehus, med bruk av VKP og pasientens måledata utviklet av Norsk Helsenett</em></p>
 <p>Oslo kommune samler måledata som benyttes i oppfølging av pasienter som har DHO. Den daglige oppfølgingen gjennomføres i et dedikert DHO-system. Oslo har sammen med VKP (Velferdsteknologisk knutepunkt) utviklet en integrasjon mellom DHO-systemet og EPJ systemet via Velferdsteknologisk knutepunkt. Denne integrasjonen brukes blant annet til journalføring av hendelser som må dokumenteres i pasientens løpende journal i EPJ.  </p>
-<p>Målinger som ligger til grunn for oppfølging skal også dokumenteres i kommunens EPJ og disse journalføres på samme måte som journalnotater via integrasjon med VKP. NHN har i tillegg utviklet en løsning som kalles <em>Pasientens måledata</em> som kan høste alle måledata som sendes via VKP til EPJ og tilby oppslag mot disse fra eksterne virksomheter der klinikere har tjenstlig behov for informasjonen. Foreløpig er etablert avtale mellom Oslo kommune og Lovisenberg sykehus om oppslag mot dette grensesnittet. Innhold og struktur både for avlevering av måledata til VKP og ut fra Pasientens måledata gjennomføres ved hjelp av HL7 FHIR Observation ressurser. Det er utviklet FHIR profiler som beskriver struktur og innhold i detalj, disse profilene kalles VkpObservation i figuren.  </p>
+<p>Målinger som ligger til grunn for oppfølging skal også dokumenteres i kommunens EPJ og disse journalføres på samme måte som journalnotater via integrasjon med VKP. NHN har i tillegg utviklet en løsning som kalles <em>Pasientens måledata</em> som kan høste alle måledata som sendes via VKP til EPJ og tilby oppslag mot disse fra eksterne virksomheter (hvis klinikere har tjenstlig behov for informasjonen). Det må etableres avtale mellom Oslo kommune og de virksomhetene som er interessert i å slå opp i informasjon lagret i <em>pasientens måledata</em> om bruk av løsningen og tilgang til informasjonen. I eksempelet i figuren er dette illustrert med en avtale mellom Lovisenberg sykehus og Oslo kommune. Avtalen mellom Oslo og Lovisenberg er i skrivende stund ikke ferdigstilt.  </p>
+<p>Avlevering av måledata til VKP og ut fra <em>Pasientens måledata</em> følger en bestemt struktur og har definert innhold. Det er utviklet FHIR profiler som beskriver det detaljerte innholdet i detalj, disse profilene kalles VkpObservation i figuren og tar utgangspunkt i HL7 FHIR Observation.  </p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">May 10, 2023 11:51:19</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">May 15, 2023 12:12:54</span>
       
     
   </small>
@@ -971,7 +972,7 @@
     <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.annotate", "content.tooltips", "navigation.indexes", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.fac441b0.min.js"></script>
+      <script src="../../assets/javascripts/bundle.c2be25ad.min.js"></script>
       
     
   </body>
