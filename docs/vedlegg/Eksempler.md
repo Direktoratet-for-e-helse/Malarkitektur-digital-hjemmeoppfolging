@@ -4,7 +4,7 @@ title: Eksempler fra utprøving
 
 | Status           | Version | Maturity | Normative level |
 | :--------------- | :------ | :------- | :-------------- |
-| <span style="background-color:gold">Work in progress</span> | v0.1.0 | draft | ikke normert |
+| <span style="background-color:gold">Work in progress</span> | v0.2.0 | draft | ikke normert |
 
 Denne delen inneholder eksempler på hvordan notasjonen som brukes for å vise målarkitekturen kan illustrere konseptene som realiseres for datadeling i forbindelse med utprøving og spredningsprosjekter i [nasjonalt velferdsteknologiprogram](https://www.helsedirektoratet.no/tema/velferdsteknologi/velferdsteknologi).
 
