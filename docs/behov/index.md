@@ -18,14 +18,14 @@ Arbeidet med målarikteturen baserer seg i stor grad på innhenting av erfaringe
 
     Jeg synes faktisk at mye av helsedataene som dokumenteres, med fordel også kan brukes ved polikliniske kontroller eller innleggelser... Å få denne dokumentasjonen inn i våre journaler høres veldig nyttig ut. 
 
-Vi har ikke tatt inn detaljerte beskrivelser fra utprøvings og spredningsprosjektene, siden målarkitekturen skal være et generisk verktøy. For nye prosjekter som er i oppstart kan det være interessant å se til andre intitativer for å blant annet få erfaringer om organisatoriske utfordringer og få ideer til mulige løsninger.  
+Vi har ikke tatt inn detaljerte beskrivelser fra utprøving- og spredningsprosjektene, siden målarkitekturen skal være et generisk verktøy. For nye prosjekter som er i oppstart kan det være interessant å se til andre intitativer for å blant annet få erfaringer om organisatoriske utfordringer og få ideer til mulige løsninger.  
 
 Her er oversikt over de pågående spredningsprosjektene som er del av [Nasjonalt velferdsteknologiprogram](https://www.helsedirektoratet.no/nyheter/oppstart-av-spredning-av-digital-hjemmeoppfolging). 
 Spredningsprosjektet i Helsedirektoratet har publisert en animasjonsfilm om digital hjemmeoppfølging på Helsedirektoratet sin hjemmeside som hjelp til å informere om hva DHO kan innebære. [Film - digital hjemmeoppfølging](https://www.helsedirektoratet.no/tema/velferdsteknologi/rapporter-og-andre-publikasjoner)
 
 ### Prosessbeskrivelser og tjenesteforløp
 
-En fellesnevner ved behovsarbeidet vi har fått tilgang til er at alle utprøvings- og spredningsprosjektene tar utgangspunkt i detaljerte beskrivelser av tjenesteforløp eller prosessbeskrivelser for å beskrive nå-situasjonen og for å avdekke behov knyttet til tjenesteforløpene som analyseres. Beskrivelsene av tjenesteforløpene er til dels svært detaljerte og beskriver ønsket eller eksisterende tjenesteforløp for en eller noen få pasientgrupper hvor DHO benyttes. Figuren under er et eksempel på hvordan Sykehuset i Vestfold illustrerer ønsket tjenesteforløp med utgangspunkt i oppfølging av pasient med KOLS og samarbeid mellom helsepersonell på Sykehuset Vestfold, Larvik kommune og fastlege.
+En fellesnevner ved behovsarbeidet vi har fått tilgang til er at alle utprøving- og spredningsprosjektene tar utgangspunkt i detaljerte beskrivelser av tjenesteforløp eller prosessbeskrivelser for å beskrive nå-situasjonen og for å avdekke behov knyttet til tjenesteforløpene som analyseres. Beskrivelsene av tjenesteforløpene er til dels svært detaljerte og beskriver ønsket eller eksisterende tjenesteforløp for en eller noen få pasientgrupper hvor DHO benyttes. Figuren under er et eksempel på hvordan Sykehuset i Vestfold illustrerer ønsket tjenesteforløp med utgangspunkt i oppfølging av pasient med KOLS og samarbeid mellom helsepersonell på Sykehuset Vestfold, Larvik kommune og fastlege.
 
 [![Tjenesteforløp eksempel](../img/tjenesteforlop-KOLS.png){ width="500" }](../img/tjenesteforlop-KOLS.png)  
 *Eksempel på tjenesteforløp for pasienter med KOLS*
@@ -67,7 +67,7 @@ Som en ramme for behovskartlegging beskrives generelle prosesstrinn som de flest
 [![Prosess for tjenesteforløp og samhandling](../img/tjenesteforlop-og-samhandling.png)](../img/tjenesteforlop-og-samhandling.png)  
 *Prosess for tjenesteforløp og samhandling*  
 
-I tillegg til behovskartlegging knyttet til [utprøvings- og spredningsprosjekter](#behovskartlegging-basert-pa-pagaende-utprvingsprosjekter) er den generelle beskrivelsen av  tjenesteforløpet basert på Helsedirektoratets anbefalinger knyttet til [Utvikling av helhetlige tjenesteforløp](https://www.helsedirektoratet.no/rapporter/digital-hjemmeoppfolging-sluttrapport-fra-nasjonal-utproving-2018-2021/utvikling-av-helhetlige-tjenesteforlop).
+I tillegg til behovskartlegging knyttet til [utprøving- og spredningsprosjekter](#behovskartlegging-basert-pa-pagaende-utprvingsprosjekter) er den generelle beskrivelsen av  tjenesteforløpet basert på Helsedirektoratets anbefalinger knyttet til [Utvikling av helhetlige tjenesteforløp](https://www.helsedirektoratet.no/rapporter/digital-hjemmeoppfolging-sluttrapport-fra-nasjonal-utproving-2018-2021/utvikling-av-helhetlige-tjenesteforlop).
 
 * **Søknad/Henvisning** er prosesser knyttet til å motta søknad eller henvisning fra andre deler av helsetjenesten eller innbygger/pårørende. Eksempler kan være at en pasient er tildelt en tjeneste basert på søknad som omfatter hjemmetjenester kombinert med utplassering av DHO-utstyr/ medisinsk utstyr i pasientens hjem.
 * **Oppstart** er oppstart av ny helsehjelp basert på søknad/henvisning med bakgrunn i behov og/eller diagnose, pasientens symptomer med utredning av pasientens tilstand. Oppstart inkluderer planlegging av behandling/oppfølging og tiltak som skal gjennomføres, og opplæring av involvert helsepersonell og pasienter/pårørende, for eksempel knyttet til bruk av medisindispenser eller annet DHO-utstyr/ medisinsk utstyr og utarbeidelse av plan.

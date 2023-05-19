@@ -100,12 +100,12 @@ Modenheten er også relativt lav når det gjelder å ta i bruk DHO i helsetjenes
 
 ## Metode for utvikling av målarkitekturen
 
-Det er lagt til grunn smidig metodikk i utviklingen av målarkitekturen der utprøving av datadeling i konkrete utprøvings- og spredningsaktiviteter knyttet til Nasjonalt velferdsteknologiprogram (Utprøving DHO) og utforming av målarkitektur datadeling DHO gjennomføres i parallell. Se figur under.  
+Det er lagt til grunn smidig metodikk i utviklingen av målarkitekturen der utprøving av datadeling i konkrete - og spredningsaktiviteter knyttet til Nasjonalt velferdsteknologiprogram (Utprøving DHO) og utforming av målarkitektur datadeling DHO gjennomføres i parallell. Se figur under.  
 
 ![Metode](../img/metode.png){ width="500" }  
 *Metode for utvikling av målarkitektur koblet til utprøving og spredningsaktiviteter*
 
-Metoden baserer seg på at behov dokumenteres i tilknytning til utprøvings- og spredningsaktivitetene og ligger til grunn for utviklingen av nye integrasjoner og informasjonstjenester i tjenesteforløpene. Både behovsarbeidet og erfaringene fra utprøvingen benyttes i arbeidet med å begrunne arkitekturvalg, bruk av fellestjenester og hvilke standardiserings- og normeringsaktiviteter det er behov for. Dette dokumenteres som en del av målarkitekturen og skal danne grunnlag for nye utprøvings- og spredningsaktiviteter.
+Metoden baserer seg på at behov dokumenteres i tilknytning til utprøving- og spredningsaktivitetene og ligger til grunn for utviklingen av nye integrasjoner og informasjonstjenester i tjenesteforløpene. Både behovsarbeidet og erfaringene fra utprøvingen benyttes i arbeidet med å begrunne arkitekturvalg, bruk av fellestjenester og hvilke standardiserings- og normeringsaktiviteter det er behov for. Dette dokumenteres som en del av målarkitekturen og skal danne grunnlag for nye utprøving- og spredningsaktiviteter.
 
 ### Samarbeid og forankring
 
@@ -117,11 +117,11 @@ I arbeidet med Nasjonalt velferdsteknologiprogram (NVP) er det identifisert utpr
 
 ### Koblingen mellom utprøving og målarkitektur
 
-Gjennom dialogen med helsepersonell i helsetjenesten, som har etablert tjenesteforløp, har vi identifisert og verifisert behov for samhandling og informasjonsdeling. Behovsforståelsen bygger på allerede gjennomførte kartlegginger og oppdateres løpende basert på praktiske erfaringer med å realisere nye tjenester som understøttes av nye informasjonstjenester som tas i bruk i helsetjenesten. Behovsarbeidet som gjennomføres i utprøvings- og spredningsaktivitetene har vært viktige innspill til behovsarbeidet knyttet til målarkitekturen for datadeling DHO.  
+Gjennom dialogen med helsepersonell i helsetjenesten, som har etablert tjenesteforløp, har vi identifisert og verifisert behov for samhandling og informasjonsdeling. Behovsforståelsen bygger på allerede gjennomførte kartlegginger og oppdateres løpende basert på praktiske erfaringer med å realisere nye tjenester som understøttes av nye informasjonstjenester som tas i bruk i helsetjenesten. Behovsarbeidet som gjennomføres i utprøving- og spredningsaktivitetene har vært viktige innspill til behovsarbeidet knyttet til målarkitekturen for datadeling DHO.  
 
 Informasjonsbehovene er analysert og vurdert i forhold til hensiktsmessig bruk av samhandlingsform og behov for informasjonstjenester for å understøtte informasjonsbehovet. Det er også vurdert hvilke informasjonstjenester som bør realiseres som fellestjenester og hvilke som må realiseres i virksomhetenes infrastruktur. Resultatene er beskrevet som konkrete konsepter som er vurdert i forhold til gjeldende rett og hvor hensiktsmessig de ulike konseptene er for spredning, risiko og kompleksitet. Til slutt, peker målarkitekturen på nødvendige normerende produkter for å understøtte enhetlig semantisk samhandling.  
 
-I utprøvings- og spredningsaktivitetene prøver virksomhetene å etablere faktisk samhandling mellom virksomhetene basert på konseptene som er tatt frem i målarkitekturen. Erfaringer med realisering og bruk av informasjonstjenestene benyttes i arbeidet med revisjon av målarkitekturen. Målarkitekturen vil også hjelpe utprøvings- og spredningsprosjekter til å velge løsningskonsepter som kan realiseres innenfor gjeldende rett, eller føre til at prosjektene spiller inn nødvendige endringer i lovverket for å understøtte mer effektive samhandlingsløsninger på sikt.
+I utprøving- og spredningsaktivitetene prøver virksomhetene å etablere faktisk samhandling mellom virksomhetene basert på konseptene som er tatt frem i målarkitekturen. Erfaringer med realisering og bruk av informasjonstjenestene benyttes i arbeidet med revisjon av målarkitekturen. Målarkitekturen vil også hjelpe utprøving- og spredningsprosjekter til å velge løsningskonsepter som kan realiseres innenfor gjeldende rett, eller føre til at prosjektene spiller inn nødvendige endringer i lovverket for å understøtte mer effektive samhandlingsløsninger på sikt.
 
 ## Forvaltning og videreutvikling av målarkitekturen
 
