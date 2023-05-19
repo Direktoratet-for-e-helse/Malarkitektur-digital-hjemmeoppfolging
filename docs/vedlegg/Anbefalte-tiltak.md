@@ -37,7 +37,7 @@ Det anbefales at enkelte DHO tjenester<!--peker DHO tjenester her til virksomhet
 
 ### Etablere fellesløsninger for lagring og grensesnitt
 
-Konseptet for [distribuerte datadelingsløsninger i sentral infrastruktur](Konsepter-realisering.md#distribuerte-datadelingslsninger-i-sentral-infrastruktur) er basert på at grensenitt og lagring av helsedata etableres i sentral infrastruktur, for eksempel hos NHN. De sentrale konseptene baserer seg også på etablering av lagring og grensesnitt sentralt. Velferdsteknologisk knutepunkt som er en tjeneste hos NHN tilbyr formidling av journalverdige opplysninger mellom systemer som ellers ikke snakker sammen. Det jobbes med å etablere felles løsning for lagring og avgivelse av data som ny funksjon i VKP som vil kunne benyttes av utprøving- og spredningsprosjekter for DHO som gjennomføres i dag.  
+Konseptet for [distribuerte datadelingsløsninger i sentral infrastruktur](Konsepter-realisering.md#distribuerte-datadelingslsninger-i-sentral-infrastruktur) er basert på at grensenitt og lagring av helsedata etableres i sentral infrastruktur, for eksempel hos NHN. De sentrale konseptene baserer seg også på etablering av lagring og grensesnitt sentralt. Velferdsteknologisk knutepunkt (VKP) som er en tjeneste hos NHN tilbyr formidling av journalverdige opplysninger mellom systemer som ellers ikke snakker sammen. Det jobbes med å etablere felles løsning for lagring og avgivelse av data som ny funksjon i VKP som vil kunne benyttes av utprøving- og spredningsprosjekter for DHO som gjennomføres i dag.  
 
 Det er flere problemstillinger som er uavklart når det gjelder bruk av VKP for å tilby denne typen løsninger.
 
