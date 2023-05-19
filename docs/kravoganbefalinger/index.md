@@ -134,14 +134,14 @@ En av delprosessene for *Samhandling* er produksjon av informasjon. *Produksjon 
 
 ### Tverrgående kapabiliteter
 
-Evnene i denne tabellen er ikke knyttet opp mot noen spesielle roller i samhandlingsprosessen, siden flere deler av prosesser eller roller har behov for disse.
+Kapabilitetene (evnene) i denne tabellen er ikke knyttet opp mot noen spesielle roller i samhandlingsprosessen, siden flere deler av prosesser eller roller har behov for disse.
 
 | Kapabilitet | Definisjon |
 |---|---|
-| Dialog | Understøtte løpende dialog mellom aktører |
+| Dialog | Evnen til å understøtte løpende dialog mellom aktører |
 | Delegere rettigheter | Evnen til å delegere rettigheter til databehandler som utfører oppgaver på vegne av dataansvarlig. |
-| Klargjøre for sending og mottak | Klargjøre for utveksling av informasjon ved hjelp av meldinger (sende og motta fra/til spesifikk mottaker) |
-| Meldingsformidling | Fellestjeneste for å formidle meldinger mellom avsender og mottaker som utveksler meldinger. Dagens løsning baserer seg på felles infrastruktur for meldingsformidling som en del av samhandlingsplattformen |
+| Klargjøre for sending og mottak | Enne til å klargjøre for utveksling av informasjon ved hjelp av meldinger (sende og motta fra/til spesifikk mottaker) |
+| Meldingsformidling | Evnen til en fellestjeneste for å formidle meldinger mellom avsender og mottaker som utveksler meldinger. Dagens løsning baserer seg på felles infrastruktur for meldingsformidling som en del av samhandlingsplattformen |
 | Metadataformidling | Evnen til å formidle hvilken informasjon som er tilgjengelig fra en datakilde, det kan være nødvnendig å understøtte denne evnen med en fellestjeneste|
 | Tjenesteformidling | Evnen til å formidle informasjon om hvilke samhandlingstjenester som er tilgjengelig fra en datatilbyder, det kan være nødvendig å understøtte evnen med en fellestjeneste |
 
@@ -149,22 +149,22 @@ Vi ser i denne modellen på kapabiliteten *dialog* som en selvstendig evne til s
 
 ### Kapabiliteter knyttet til samhandling
 
-Evnene er knyttet til bruk av organisatoriske samhandlingsformer for å utveksle informasjon mellom aktører. Aktørene kan innta rolle som *datakonsument* eller *datatilbyder*, i de aller fleste tilfeller vil aktørene inneha flere roller i samhandlignsprosessen og realisere kapabiliter knyttet til både konsument og tilbyder rollen.
+Disse kapabilitetene er knyttet til bruk av organisatoriske samhandlingsformer for å utveksle informasjon mellom aktører. Aktørene kan innta rolle som *datakonsument* eller *datatilbyder*, i de aller fleste tilfeller vil aktørene inneha flere roller i samhandlignsprosessen og realisere kapabiliter knyttet til både konsument og tilbyder rollen.
 
 | Kapabilitet | Definisjon |
 |---|---|
-| Avgi data | Utlevere data basert på søk og oppslag |
+| Avgi data | Evnen til å utlevere data basert på søk og oppslag |
 | Endre data | Evnen til å gjøre dataendringer hos en annen aktør ved hjelp av datadeling |
 | Få tilgang til data | Evnen til å skaffe seg tilgang til tilbudte data fra annen aktør. |
 | Håndtere mottatte endringer | Evnen til å behandle endringer (opprettelse, oppdatering, sletting) av helseopplysninger mottatt fra en annen aktør ved hjelp av datadeling |
-| Innhente data | Søke og slå opp informasjon gjennom en datadelingstjeneste |
+| Innhente data | Evnen til å søke og slå opp informasjon gjennom en datadelingstjeneste |
 | Konsumering av publiserte data | Evnen til å konsumere hendelser fra en hendelsesstrøm |
 | Lokalisering av relevant data | Evnen til å finne kilder for informasjon om spesifikke kategorier eller personer. |
 | Metadatautvinning | Evnen til å produsere og utvinne metadata basert på prosessene som produserer informasjon og innholdet i informasjonsressursene |
 | Mottak | Motta informasjon fra en avsender |
 | Publisering av data | Evnen til å publisere hendelser til en hendelsesstrøm |
 | Metadatapublisering | Evnen til å publisere metadata slik at konsumenter kan lokalisere relevant informasjon |
-| Sending | Sende informasjon til en spesifikk mottaker |
+| Sending | Evnen til å sende informasjon til en spesifikk mottaker |
 | Tilgjengeliggjøre data | Evnen til å gjøre data tilgjengelig for aktører utenfor egen virksomhet med eller uten krav til innlogget bruker ved hjelp av datadeling. Tilgangsstyring inngår her. Avgjøre hvilken informasjon som skal deles med andre gjennom en datadelingstjeneste. |
 | Visning | Evnen til å vise data til bruker |
 
