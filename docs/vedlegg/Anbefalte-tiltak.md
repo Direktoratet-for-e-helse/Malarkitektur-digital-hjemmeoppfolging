@@ -9,8 +9,8 @@ title: Anbefalte tiltak
 Denne delen av målarkitekturen skal foreslå tiltak som kan gjennomføres for å understøtte etableringen av datadeling mellom virksomheter innen for behovsområdet DHO.
 
 ## Prioritert liste over anbefalte tiltak
-
-Listen nedenfor viser en prioritert liste over tiltak som er nødvendig for å realisere datadeling som skal understøtte DHO-tjenester. For å oppnå effektiv spredning av datadeling innen DHO området mener vi tiltak 1-3 er absolutt nødvendige. Tiltak 4-6 må realiseres for å understøtte nye behov innen DHO og datadeling, tiltakene er nødvendige for å oppnå helhetlige datadelingsløsninger som understøtter sammenhengende DHO forløp på en effektiv måte.  
+<!-- Foreslår noen endringer under, for å moderere tiltakene noe.  -->
+Listen nedenfor viser en prioritert liste over tiltak vi mener er nødvendig for å realisere datadeling som skal understøtte DHO-tjenester. For å oppnå effektiv spredning av datadeling innen DHO området mener vi tiltak 1-3 er absolutt nødvendige. Tiltakene 4-6 bør realiseres for å understøtte forventede behov innen DHO og datadeling. Tiltakene er nødvendige for å oppnå helhetlige datadelingsløsninger som understøtter sammenhengende DHO forløp på en effektiv måte.  
 
 1. [Felles tillitsmodell for datadeling](#felles-tillitsmodell-for-datadeling)
 2. [Etablere fellesløsninger for lagring og grensesnitt](#etablere-felleslsninger-for-lagring-og-grensesnitt)
@@ -31,7 +31,7 @@ Norm for informasjonssikkerhet ([Normen](https://www.ehelse.no/normen/normen-for
 
 #### Anbefalt tiltak
 
-I tillegg til dokumentdeling gjennom kjernejournal er digital hjemmeoppfølging og deling av målinger identifisert som utprøvingskandidat for felles tillitsmodell. Utprøving av felles tillitsmodell for datadelingstjenester i tillegg til dokumentdeling vil kunne gi viktig tilleggskunnskap sett fra helsetjenesten som prøver ut DHO sitt perspektiv. Vi vet foreløpig lite om kravene som stilles til tillitsmodellen knyttet til datadeling og selv om hypotesen er at tillitsmodellen for datadeling og dokumentdeling fungere likt er det viktig å få bekreftet den antakelsen.
+I tillegg til dokumentdeling gjennom kjernejournal er digital hjemmeoppfølging og deling av målinger identifisert som utprøvingskandidat for felles tillitsmodell. Utprøving av felles tillitsmodell for datadelingstjenester i tillegg til dokumentdeling vil kunne gi viktig tilleggskunnskap sett fra helsetjenesten som prøver ut DHO sitt perspektiv. Vi vet foreløpig lite om kravene som stilles til tillitsmodellen knyttet til datadeling. Selv om hypotesen er at tillitsmodellen for datadeling og dokumentdeling fungere likt, er det viktig å få bekreftet den antakelsen.<!-- Peker dette tilbake på utprøving, eller bør denne hypotesen testes på en annen måte?  -->
 
 Det anbefales at enkelte DHO tjenester<!--peker DHO tjenester her til virksomheter som etablerer tjenesteforløp med DHO eller selve it-tjenesten? --> som etablerer datadeling mellom virksomheter tar i bruk felles tillitsmodell og fellskomponenter som felles tillitsanker.  
 
@@ -43,12 +43,12 @@ Det er flere problemstillinger som er uavklart når det gjelder bruk av VKP for 
 
 * Merkantile forhold knyttet til konkurransehensyn og betaling for tjenester i VKP.
 * Avtalerammeverk for å benytte funksjonalitet for datadeling som etableres sentralt.
-* Juridiske problemstillinger knyttet til sammenstilling av informasjon på tvers av virksomheter (gjelder sentralisert modell).
+* Juridiske problemstillinger knyttet til sammenstilling av informasjon på tvers av virksomheter (gjelder sentralisert modell).<!-- Trodde dette var landet, og funnet ulovlig? -->
 * Styring, forvaltning og nyttevurderinger knyttet til sentral løsning, hvordan prioriterer man mellom identifiserte behov.
 
 #### Anbefalte tiltak
 
-Det må utredes hvordan alle punktene over skal løses hvis det etableres sentral infrastruktur for datadeling knyttet til DHO. Utredning må peke på hvordan etablering og forvaltning av fellesløsninger skal fungere i forhold til merkantile, avtalemessige, juridiske og styringsmessige forhold.
+Det må utredes hvordan alle punktene over skal løses hvis det etableres sentral infrastruktur for datadeling knyttet til DHO. Utredning må peke på hvordan etablering og forvaltning av fellesløsninger skal fungere i relasjon til merkantile, avtalemessige<!-- vurder å stryke avtalemessige, siden det er en del av merkantile og juridiske forhold -->, juridiske og styringsmessige forhold.
 
 ### Felles semantisk rammeverk for datadeling og DHO
 
@@ -61,7 +61,7 @@ Utprøving og spredningsprosjektene som gjennomføres nå baserer seg på et lit
 * Regler for informasjonsinnhold i de spesifikke informasjonselementene.
   * Inkluderer regler om bruk av felles terminologi og kodeverk.
 
-Vi tror det er nødvendig at det eksisterer felles beskrivelse av dette på tvers av virksomheter for at datadeling skal fungere på en god måte, dette er uavhengig av om distribusjonen av data baserer seg på en sentral eller distribuert modell. Ved en distribuert modell er det imidlertid et ufravikelig krav at det er felles regler for hvordan informasjonen skal utformes, ellers vil etablering av oppslagstjenester mot mange ulike grensesnitt bli en uoverstigelig oppgave hvor utviklerne må forholde seg til en rekke typer semantiske spesifikasjoner. Integrasjon mot bakenforliggende systemer vil også bli svært komplisert.
+Vi tror det er nødvendig at det eksisterer felles beskrivelse av dette på tvers av virksomheter for at datadeling skal fungere på en god måte, dette er uavhengig av om distribusjonen av data baserer seg på en sentral eller distribuert modell. Ved en distribuert modell er det imidlertid et ufravikelig krav at det er felles regler for hvordan informasjonen skal utformes, ellers vil etablering av oppslagstjenester mot mange ulike grensesnitt bli en uoverkommelig oppgave hvor utviklerne må forholde seg til en rekke typer semantiske spesifikasjoner. Integrasjon mot bakenforliggende systemer vil også bli svært komplisert.
 
 #### Utestående arbeid knyttet til utveksling av målinger
 
