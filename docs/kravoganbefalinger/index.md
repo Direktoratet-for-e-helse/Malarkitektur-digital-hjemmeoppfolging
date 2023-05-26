@@ -140,7 +140,7 @@ Kapabilitetene (evnene) i denne tabellen er ikke knyttet opp mot noen spesielle 
 |---|---|
 | Dialog | Evnen til å understøtte løpende dialog mellom aktører |
 | Delegere rettigheter | Evnen til å delegere rettigheter til databehandler som utfører oppgaver på vegne av dataansvarlig. |
-| Klargjøre for sending og mottak | Enne til å klargjøre for utveksling av informasjon ved hjelp av meldinger (sende og motta fra/til spesifikk mottaker) |
+| Klargjøre for sending og mottak | Evnen til å klargjøre for utveksling av informasjon ved hjelp av meldinger (sende og motta fra/til spesifikk mottaker) |
 | Meldingsformidling | Evnen til en fellestjeneste for å formidle meldinger mellom avsender og mottaker som utveksler meldinger. Dagens løsning baserer seg på felles infrastruktur for meldingsformidling som en del av samhandlingsplattformen |
 | Metadataformidling | Evnen til å formidle hvilken informasjon som er tilgjengelig fra en datakilde, det kan være nødvnendig å understøtte denne evnen med en fellestjeneste|
 | Tjenesteformidling | Evnen til å formidle informasjon om hvilke samhandlingstjenester som er tilgjengelig fra en datatilbyder, det kan være nødvendig å understøtte evnen med en fellestjeneste |
