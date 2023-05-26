@@ -4,12 +4,12 @@ title: Anbefalte tiltak
 
 | Status           | Version | Maturity | Normative level |
 | :--------------- | :------ | :------- | :-------------- |
-| <span style="background-color:BlueViolet">Prerelease</span> | v0.8.4 | review | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span> | v0.9.0 | review | ikke normert |
 
 Denne delen av målarkitekturen skal foreslå tiltak som kan gjennomføres for å understøtte etableringen av datadeling mellom virksomheter innen for behovsområdet DHO.
 
 ## Prioritert liste over anbefalte tiltak
-<!-- Foreslår noen endringer under, for å moderere tiltakene noe.  -->
+
 Listen nedenfor viser en prioritert liste over tiltak vi mener er nødvendig for å realisere datadeling som skal understøtte DHO-tjenester. For å oppnå effektiv spredning av datadeling innen DHO området mener vi tiltak 1-3 er absolutt nødvendige. Tiltakene 4-6 bør realiseres for å understøtte forventede behov innen DHO og datadeling. Tiltakene er nødvendige for å oppnå helhetlige datadelingsløsninger som understøtter sammenhengende DHO forløp på en effektiv måte.  
 
 1. [Felles tillitsmodell for datadeling](#felles-tillitsmodell-for-datadeling)
