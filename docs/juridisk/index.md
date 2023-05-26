@@ -29,7 +29,7 @@ Slik DHO benyttes internt i en virksomhet i dag er det ikke nødvendig med regel
 
 ### Oppsummering
 
-De innsamlede data ligger i ulike DHO-systemer og i lokal journalløsning. Det kan i utprøvingen og videre bli aktuelt å delvis lagre data fra digital hjemmeoppfølging<!--skulle det her stått...: fra DHO-system?--> hos dataansvarlig som en datadelingstjeneste eller sammenstilt på tvers av aktører. Det er nå avklart at en separat lagringsløsning for å understøtte en datadelingstjeneste hos dataansvarlig er innenfor dagens regelverk.  
+De innsamlede data ligger i ulike DHO-systemer og i lokal journalløsning. Det kan i utprøvingen og videre bli aktuelt å delvis lagre data fra digital hjemmeoppfølging<!--skulle det her stått...: fra DHO-system?--> hos dataansvarlig som en datadelingstjeneste eller sammenstilt på tvers av aktører<!--setningen er uklar-->. Det er nå avklart at en separat lagringsløsning for å understøtte en datadelingstjeneste hos dataansvarlig er innenfor dagens regelverk.  
 
 Nasjonal lagring av sammenstilte data (hvor en nasjonal aktør har dataansvar) vil etter vår vurdering kreve et annet juridisk grunnlag enn det som finnes i dag, og forutsetter derfor regelverksutvikling/forskriftsendring.  
 
@@ -75,7 +75,7 @@ Videre er det er en juridisk forutsetning at informasjonen fra hver virksomhet i
 
 ## Regionale fellesløsninger
 
-Ved etablering av regionale fellesløsninger, for eksempel for DHO, blir informasjonen som skal deles med andre virksomheter kun lagret i den regionale fellesløsningen (felles behandlingsrettet helseregister/journal), opplysningene lagres ikke lokalt. Grensesnitt for å avgi informasjon ved hjelp av datadeling etableres også som en del av den regionale fellesløsningen.
+Ved etablering av regionale fellesløsninger vil informasjonen som skal deles med andre virksomheter kun bli lagret i den regionale fellesløsningen (felles behandlingsrettet helseregister/journal), opplysningene skal ikke lagres lokalt. Grensesnitt for å avgi informasjon ved hjelp av datadeling etableres også som en del av den regionale fellesløsningen.
 
 ![Regionale fellesløsninger](../img/regional-felles-fokus.png)
 *Datadeling etableres som en del av en regional fellesløsning*
@@ -88,7 +88,7 @@ For deling av opplysninger med aktører som ikke er med i §9-samarbeidet, blir 
 
 ## Regionale datadelingsløsninger med lagring
 
-Ved etablering av sentral regional datadelingsløsning blir informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagret i sentral infrastruktur hos NHN (eller annen leverandør) samtidig som den eksisterer i relevante fagsystem hos den enkelte virksomheten for å ivareta dokumentasjonsplikten. Grensesnitt for å avgi data fra felles datadelingsløsning etableres også i sentral infrastruktur.
+Ved etablering av sentral regional <!--sentral regional? Uklart--> datadelingsløsning blir informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagret i sentral infrastruktur hos NHN (eller annen leverandør) samtidig som den eksisterer i relevante fagsystem hos den enkelte virksomheten for å ivareta dokumentasjonsplikten. Grensesnitt for å avgi data fra felles datadelingsløsning etableres også i sentral infrastruktur.
 
 ![Regionale datadelingsløsninger](../img/regional-datadeling.png)
 *Regional datadelingsløsning etablert med kopilagring i sentral infrastruktur*
@@ -99,7 +99,7 @@ Et §9-register må komme til erstatning for de lokale §8-registrene. Ettersom 
 
 ## Nasjonal sentral datadelingsløsning med lagring
 
-Ved etablering av sentral nasjonal datadelingsløsning baserer vi oss på at informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagres i sentral infrastruktur hos NHN (eller annen leverandør) samtidig som den eksisterer i relevante fagsystem hos den enkelte virksomheten for å ivareta dokumentasjonsplikten. Grensesnitt for å avgi data i form av datadeling etableres også som en nasjonal løsning.
+Ved etablering av sentral nasjonal datadelingsløsning baserer vi oss på at informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagres i sentral infrastruktur hos NHN (eller annen leverandør) <!-- Hvorfor er resten av setningen med som forutsetning? Et nytt register skal vel ivareta dokumentasjonsplikten på samme måte som et lokalt §8-register eller et regionalt §9-register--> samtidig som den eksisterer i relevante fagsystem hos den enkelte virksomheten for å ivareta dokumentasjonsplikten. Grensesnitt for å avgi data i form av datadeling etableres også som en nasjonal løsning.
 
 ![Nasjonal sentral datadelingsløsning](../img/sentral-kopi.png)
 *Nasjonal sentral kopilagring og datadelingsløsning*
