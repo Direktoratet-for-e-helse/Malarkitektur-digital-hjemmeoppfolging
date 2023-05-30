@@ -59,7 +59,7 @@ Målgruppen for målarkitekturen er primært arkitekter og tekniske prosjektlede
 
 #### Vedlegg
 
-* [Konsepter realisering](../vedlegg/Konsepter-realisering.md) beskriver konseptene som er vurdert for å etablere datadeling og understøtter krav og anbefalinger.
+* [Vurdering av konsepter for realisering](../vedlegg/Konsepter-realisering.md) beskriver konseptene som er vurdert for å etablere datadeling og understøtter krav og anbefalinger.
 * [Anbefalte tiltak](../vedlegg/Anbefalte-tiltak.md) foreslår tiltak som kan gjennomføres for å understøtte etableringen av datadeling mellom virksomheter innen behovsområdet DHO
 
 ## Omfang og avgrensninger
