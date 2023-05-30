@@ -86,7 +86,7 @@ Et § 9-samarbeid kan benyttes for å etablere et felles behandlingsrettet helse
 
 For deling av opplysninger med aktører som ikke er med i §9-samarbeidet, blir vurderingen som for distribuerte datadelingsløsninger over.  
 
-## Sentral regional datadelingsløsning med lagring
+## Regional sentral datadelingsløsning med lagring
 
 Ved etablering av sentral <!--Kunne det stått: sentral regional også i overskriften? Det er vel også bare en ikke flertall?-->regional <!--sentral regional? Uklart--> datadelingsløsning blir informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagret i sentral infrastruktur hos NHN (eller annen leverandør) samtidig som den eksisterer i relevante fagsystem hos den enkelte virksomheten for å ivareta dokumentasjonsplikten. Grensesnitt for å avgi data fra felles<!-- eller sentral i stedet for felles?> datadelingsløsning etableres også i sentral infrastruktur.
 
@@ -95,7 +95,7 @@ Ved etablering av sentral <!--Kunne det stått: sentral regional også i overskr
 
 ### Juridisk
 
-Et §9-register må komme til erstatning for de lokale §8-registrene. Ettersom dette konseptet forutsetter at også de lokale registrene videreføres, kan ikke et §9-samarbeid benyttes for å hjemle et felles sentralisert register  med hovedformål å tilgjengeliggjøre informasjon mellom virksomhetene i det regionale samarbeidet.
+Et §9-register må komme til erstatning for de lokale §8-registrene. Ettersom dette konseptet forutsetter at også de lokale registrene videreføres, kan ikke et §9-samarbeid benyttes for å hjemle et felles sentralisert register med hovedformål å tilgjengeliggjøre informasjon mellom virksomhetene i det regionale samarbeidet.
 
 ## Nasjonal sentral datadelingsløsning med lagring
 
