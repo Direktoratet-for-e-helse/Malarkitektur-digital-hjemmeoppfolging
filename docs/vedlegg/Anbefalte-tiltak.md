@@ -57,7 +57,7 @@ Kapitelet som beskriver [konsepter for realisering](Konsepter-realisering.md) av
 Utprøving og spredningsprosjektene som gjennomføres nå baserer seg på et lite sett [HL7 FHIR](https://hl7.org/fhir/) profiler som beskriver det semantiske innholdet i [målinger](https://simplifier.net/guide/VelferdsteknologiskknutepunktDHOR4/Observation?version=current) som kan utveksles mellom virksomhetene. Profilene beskriver i hovedsak tre forhold knyttet til utveksling av informasjon mellom virksomhetene:
 
 * Overordnet brukertilfelle profilene understøtter.
-* Hvilken informasjon som er minimum for at informasjonen skal vær nyttig.
+* Hvilken informasjon som er minimum for at informasjonen skal være nyttig.
 * Regler for informasjonsinnhold i de spesifikke informasjonselementene.
   * Inkluderer regler om bruk av felles terminologi og kodeverk.
 
