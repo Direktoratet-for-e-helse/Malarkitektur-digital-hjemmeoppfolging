@@ -47,7 +47,7 @@ Vi har særlig vurdert følgende spørsmål som påvirker hvilke konsepter og l�
 
 ### Beskrivelse av konseptene
 
-Konseptene som blir vurdert juridisk i dette kapittelet er nærmere beskrevet i [konsepter for realisering](Konsepter-realisering.md). I den delen er også vurderingen av fordeler og ulemper med hvert konsept gjennomgått.
+Konseptene som blir vurdert juridisk i dette kapittelet er nærmere beskrevet i [konsepter for realisering](../vedlegg/Konsepter-realisering.md). I den delen er også vurderingen av fordeler og ulemper med hvert konsept gjennomgått.
 
 ## Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)
 
