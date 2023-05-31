@@ -163,7 +163,6 @@ Hovedfordelen med distribuerte datadelingsløsninger i sentral infrastruktur er 
   * **Unntatt** Det blir ikke like komplisert å etablere og vedlikeholde grensesnittene for å avgi data siden disse etableres i felles infrastruktur av en leverandør
 * Alle datatilbydere må implementere synkronisering av egne data mot datalager i sentral infrastruktur
 * Med en sentral leverandør av søkefunksjonalitet er det en risiko for at den sentrale leverandøren kan bli en flaskehals og dermed gi dårligere rammer for lokal innovasjon
-* Det er foreløpig uavklart om 3.parts leverandør kan håndtere søkefunksjonalitet (med lagring) for virksomhetene innenfor gjeldende rett
 
 ### Regionale fellesløsninger
 
