@@ -6,6 +6,10 @@ title: Behandlingsrettede helseregistre – Intern kopi av opplysninger
 | :--------------- | :------ | :------- | :-------------- |
 | <span style="background-color:gold">Work in progress</span> | v0.1.0 | draft | ikke normert |
 
+!!! note
+
+    Dette kapittelet er en kopi av en juridisk vurdering som er avklart mellom direktorat og Helse og omsorgsdepartementet.
+
 ## Innledning
 
 Direktoratet for e-helse og Helsedirektoratet ber om Helse- og omsorgsdepartementets vurdering av om samme helseopplysninger kan behandles flere steder i virksomhetens behandlingsrettede helseregister med den hensikt å tilgjengeliggjøre disse til helsepersonell ansatt i andre virksomheter ved ytelse av helsehjelp. Vi mener at saken er av prinsipiell betydning og at det er behov for at departementet avklarer rettstilstanden.  

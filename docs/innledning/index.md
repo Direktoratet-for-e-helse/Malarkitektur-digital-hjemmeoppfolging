@@ -59,7 +59,7 @@ Målgruppen for målarkitekturen er primært arkitekter og tekniske prosjektlede
 
 #### Vedlegg
 
-* [Konsepter realisering](../vedlegg/Konsepter-realisering.md) beskriver konseptene som er vurdert for å etablere datadeling og understøtter krav og anbefalinger.
+* [Vurdering av konsepter for realisering](../vedlegg/Konsepter-realisering.md) beskriver konseptene som er vurdert for å etablere datadeling og understøtter krav og anbefalinger.
 * [Anbefalte tiltak](../vedlegg/Anbefalte-tiltak.md) foreslår tiltak som kan gjennomføres for å understøtte etableringen av datadeling mellom virksomheter innen behovsområdet DHO
 
 ## Omfang og avgrensninger
@@ -100,7 +100,7 @@ Modenheten er også relativt lav når det gjelder å ta i bruk DHO i helsetjenes
 
 ## Metode for utvikling av målarkitekturen
 
-Det er lagt til grunn smidig metodikk i utviklingen av målarkitekturen der utprøving av datadeling i konkrete - og spredningsaktiviteter knyttet til Nasjonalt velferdsteknologiprogram (Utprøving DHO) og utforming av målarkitektur datadeling DHO gjennomføres i parallell. Se figur under.  
+Det er lagt til grunn smidig metodikk i utviklingen av målarkitekturen der utprøving av datadeling i konkrete utprøving- og spredningsaktiviteter knyttet til Nasjonalt velferdsteknologiprogram (Utprøving DHO) og utforming av målarkitektur datadeling DHO gjennomføres i parallell. Se figur under.  
 
 ![Metode](../img/metode.png){ width="500" }  
 *Metode for utvikling av målarkitektur koblet til utprøving og spredningsaktiviteter*
