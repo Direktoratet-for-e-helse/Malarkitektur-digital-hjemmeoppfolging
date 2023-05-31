@@ -8,7 +8,7 @@ title: Behandlingsrettede helseregistre – Intern kopi av opplysninger
 
 !!! note
 
-    Dette kapittelet er en kopi av en juridisk vurdering som er avklart mellom direktorat og Helse og omsorgsdepartementet.
+    Dette kapittelet er en kopi av en juridisk vurdering som er gjort av Direktoratet for e-helse med innspill fra Helsedirektoratet. Vurderingen er forelagt Helse- og omsorgsdepartementet som støtter vurderingen.
 
 ## Innledning
 
