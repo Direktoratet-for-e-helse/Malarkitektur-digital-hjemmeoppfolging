@@ -33,12 +33,12 @@ Basert på  arkitekturvurderingene i dette kapittelet kombinert med identifisert
 
 Datadeling mellom virksomhetene realiseres ved at virksomhetene etablerer grensesnitt for å avgi data til andre virksomheter, enten som distribuerte løsninger (i egen infrastruktur eller levert av leverandør) eller gjennom regionale fellesløsninger innenfor et §9-samarbeid.
 
-[![Anbefalt konsept for datadeling med kombinasjon av distribuerte datadelingsløsninger og regionale fellesløsninger](../img/malarkitektur.png)](../img/malarkitektur.png)  
-*Målarkitektur for datadeling basert på distribuerte eller regionale løsninger og nødvendige fellestjenester*
+[![Anbefalt konsept for datadeling med kombinasjon av distribuerte datadelingsløsninger og regionale fellesløsninger](../img/malarkitektur.png)](../img/malarkitektur.png)
+*Målarkitektur for datadeling, med kombinasjon av distribuerte datadelingstjenester, bruk av leverandør som databehandler og samarbeid mellom virksomheter*  
 
 Målarkitekturen forutsetter at det foreligger felles semantiske spesifikasjoner for informasjonen som skal utveksles. Det er viktig at spesifikasjonene beskriver minimumskrav til struktur, innhold og bruk av terminologi og kodeverk, i tillegg til felles krav knyttet til selve datadelingsgrensesnittet.
 
-Tre fellestjenester bør etableres for å gjennomføre innføring og spredning av datadeling på en effektiv måte. Det anbefales tiltak knyttet til å etablere felles API-katalog, Pasientinformasjonslokalisator og Tillitsanker. Fellestjenester for Personvern, Grunndata og HelseID er allerede i utstrakt bruk.
+Tre fellestjenester bør etableres for å gjennomføre innføring og spredning av datadeling på en effektiv måte. Det anbefales tiltak knyttet til å etablere felles API-katalog og Tillitsanker. Fellestjenesten pasientinformasjonslokalisator må utredes ytterligere, både i forhold til behov og løsningskonsept før realisering kan anbefales.  
 
 Dataansvaret vil i forslaget til målarkitektur ligge hos den enkelte virksomheten. Unntaket er ved samarbeid om fellesløsning hvor dataansvaret reguleres i avtalen mellom de samarbeidende virksomhetene.
 
