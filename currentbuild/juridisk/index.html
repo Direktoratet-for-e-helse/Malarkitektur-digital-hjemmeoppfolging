@@ -950,11 +950,11 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#regional-sentral-datadelingslsning-med-lagring" class="md-nav__link">
-    Regional sentral datadelingsløsning med lagring
+  <a href="#regional-datadelingslsning-med-lagring" class="md-nav__link">
+    Regional datadelingsløsning med lagring
   </a>
   
-    <nav class="md-nav" aria-label="Regional sentral datadelingsløsning med lagring">
+    <nav class="md-nav" aria-label="Regional datadelingsløsning med lagring">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1021,7 +1021,7 @@
 <tbody>
 <tr>
 <td align="left"><span style="background-color:BlueViolet">Prerelease</span></td>
-<td align="left">v0.8.1</td>
+<td align="left">v0.8.3</td>
 <td align="left">review</td>
 <td align="left">ikke normert</td>
 </tr>
@@ -1039,16 +1039,16 @@
 <p><img alt="Datadeling i DHO" src="../img/datadeling-dho.png" />
 <em>Behov for datadeling knyttet til DHO tjenesteforløp</em></p>
 <h3 id="oppsummering">Oppsummering</h3>
-<p>De innsamlede data ligger i ulike DHO-systemer og i lokal journalløsning. Det kan i utprøvingen og videre bli aktuelt å delvis lagre data fra digital hjemmeoppfølging<!--skulle det her stått...: fra DHO-system?--> hos dataansvarlig som en datadelingstjeneste eller sammenstilt på tvers av aktører<!--setningen er uklar-->. Det er nå avklart at en separat lagringsløsning for å understøtte en datadelingstjeneste hos dataansvarlig er innenfor dagens regelverk.  </p>
+<p>De innsamlede data lagres i ulike DHO-systemer og i lokal journalløsning. Det kan i utprøving og videre bli aktuelt å lagre data fra digital hjemmeoppfølging hos databehandler som etablerer datadelingstjeneste på vegne av den dataansvarlige virksomheten. Datalageret kan enten lagre data for en virksomhet eller sammenstille data på tvers av flere dataansvarlige virksomheter. Det er nå avklart at en separat lagringsløsning hos databehandler for å understøtte en datadelingstjeneste for dataansvarlig virksomhet er innenfor dagens regelverk.  </p>
 <p>Nasjonal lagring av sammenstilte data (hvor en nasjonal aktør har dataansvar) vil etter vår vurdering kreve et annet juridisk grunnlag enn det som finnes i dag, og forutsetter derfor regelverksutvikling/forskriftsendring.  </p>
 <h2 id="problemstillinger-som-er-vurdert">Problemstillinger som er vurdert</h2>
 <p>Ettersom datadeling mellom virksomheter er lite brukt i helse- og omsorgssektoren, er også det juridiske handlingsrommet i noen grad uavklart for denne typen samhandling og samhandlingstjenestene som skal understøtte dette. I mars 2021 publiserte Direktoratet for e-helse en målarkitektur for datadeling i helse- og omsorgssektoren. Målarkitekturen for datadeling omhandler i hovedsak hvordan datadelingstjenester kan etableres med tilstrekkelig grad av sikkerhet og personvern som er pålagt de dataansvarlige. Vi har derfor ikke sett det som nødvendig å vurdere dette igjen i forbindelse med DHO. Målarkitekturen for datadeling beskriver hvordan dataansvaret er fordelt mellom virksomheter som benytter datadeling for samhandling. Ved overføring av informasjon ved hjelp av datadeling fungerer dataansvaret som ved andre samhandlingsformer, det vil si at mottakeren har dataansvar for sin behandling av mottatt informasjon.</p>
 <p>Målarkitekturen for datadeling forutsetter at det opprettes en fellesløsning for å lokalisere data om en pasient (kalt Pasientinformasjonslokalisator (PIL)) for at datadeling mellom mange datadelingsløsninger skal fungere. Det er i dag ikke rettslig grunnlag for å etablere en slik fellesløsning med sentral sammenstilling av informasjon, dette krever forskriftsendring. Det er usikkert hvordan PIL kan/skal etableres. Pasientjournalloven § 10 åpner for å gi forskrift om sentraliserte  infrastrukturkomponenter for å støtte samhandlingen. Lovbestemmelsen gir i seg selv ikke tilstrekkelig grunnlag for å etablere en sentralisert PIL-komponent. Derimot kan en regional PIL-komponenent etableres innenfor gjeldende rett, jf. pasientjournalloven § 9.</p>
 <p>Vi har særlig vurdert følgende spørsmål som påvirker hvilke konsepter og løsningsvalg som kan vurderes:</p>
 <ol>
-<li>Hvilke rammer setter regelverket for å etablere datadelingsløsninger sentralisert (i sentral infrastruktur), regionalt eller distribuert (i virksomhetenes egen infrastruktur)?</li>
-<li>Hvilket handlingsrom har dataansvarlig til å etablere teknisk infrastruktur for datadeling.<ul>
-<li>Avklarer hvorvidt datadelingsløsninger kan etableres for en dataansvarlig av en tredjepart, der behandling av helseopplysninger er regulert av en databehandleravtale, eller om virksomheten er bundet til å håndtere alle funksjoner knyttet til datadeling innenfor egen infrastruktur og med en teknisk komponent for å lagre helseopplysningene.</li>
+<li>Hvilke rammer setter regelverket for å etablere datadelingsløsninger sentralisert (i sentral infrastruktur), regionalt eller distribuert (i virksomhetenes egen infrastruktur)?  </li>
+<li>Hvilket handlingsrom har dataansvarlig til å etablere teknisk infrastruktur for datadeling.  <ul>
+<li>Avklarer hvorvidt datadelingsløsninger kan etableres for en dataansvarlig av en tredjepart, der behandling av helseopplysninger er regulert av en databehandleravtale, eller om virksomheten er bundet til å håndtere alle funksjoner knyttet til datadeling innenfor egen infrastruktur og med en teknisk komponent for å lagre helseopplysningene.  </li>
 </ul>
 </li>
 </ol>
@@ -1066,7 +1066,7 @@
 <em>Distribuerte datadelingsløsninger etablert i sentral infrastruktur</em></p>
 <h3 id="juridisk_1">Juridisk</h3>
 <p>Virksomhetene kan velge å benytte en tredjepart (databehandler) som tilbyr datadelingsløsning i stedet for å etablere dette selv. Forutsetningen er som over at tilgjengeliggjøringen kan skje innenfor rammen av pasientjournalloven § 19, slik at hensynet til taushetsplikt, personvern og informasjonssikkerhet ivaretas.  </p>
-<p>Videre er det en juridisk forutsetning at informasjonen fra hver virksomhet ikke sammenstilles med informasjon fra andre virksomheter i den sentrale infrastrukturen (hos databehandler), men at løsningene for lagring og grensesnittene etableres som logisk adskilte løsninger for hver virksomhet. Behandlingen av helseopplysninger i sentral infrastruktur må reguleres av en databehandleravtale mellom den enkelte virksomheten og leverandøren av infrastrukturen. Mer informasjon om de juridiske vurderingene knyttet til bruk av ekstern databehandler for å etablere datadelingstløsninger er lagt i <a href="../vedlegg/Juridisk-intern-kopi/">vedlegg</a>.  </p>
+<p>Videre er det en juridisk forutsetning at informasjonen fra hver virksomhet ikke sammenstilles med informasjon fra andre virksomheter i den sentrale infrastrukturen (hos databehandler), men at løsningene for lagring og grensesnittene etableres som logisk adskilte løsninger for hver virksomhet. Behandlingen av helseopplysninger i sentral infrastruktur må reguleres av en databehandleravtale mellom den enkelte virksomheten og leverandøren av infrastrukturen. Mer informasjon om de juridiske vurderingene knyttet til bruk av ekstern databehandler for å etablere datadelingsløsninger er lagt i <a href="../vedlegg/Juridisk-intern-kopi/">vedlegg</a>.  </p>
 <h2 id="regionale-felleslsninger">Regionale fellesløsninger</h2>
 <p>Ved etablering av regionale fellesløsninger vil informasjonen som skal deles med andre virksomheter kun bli lagret i den regionale fellesløsningen (felles behandlingsrettet helseregister/journal), opplysningene skal ikke lagres lokalt. Grensesnitt for å avgi informasjon ved hjelp av datadeling etableres også som en del av den regionale fellesløsningen.</p>
 <p><img alt="Regionale fellesløsninger" src="../img/regional-felles-fokus.png" />
@@ -1074,14 +1074,14 @@
 <h3 id="juridisk_2">Juridisk</h3>
 <p>Et § 9-samarbeid kan benyttes for å etablere et felles behandlingsrettet helseregister for virksomhetene i samarbeidet. Registeret må komme til erstatning for de lokale §8-registrene. Intern tilgang/tilgjengeliggjøring etter pasientjournalloven § 19 må vurderes på vanlig måte. Her innebærer det ordinær tilgangsstyring til «egen» journal, ikke datadeling på tvers av nivåer/aktører.</p>
 <p>For deling av opplysninger med aktører som ikke er med i §9-samarbeidet, blir vurderingen som for distribuerte datadelingsløsninger over.  </p>
-<h2 id="regional-sentral-datadelingslsning-med-lagring">Regional sentral datadelingsløsning med lagring</h2>
-<p>Ved etablering av sentral <!--Kunne det stått: sentral regional også i overskriften? Det er vel også bare en ikke flertall?-->regional <!--sentral regional? Uklart--> datadelingsløsning blir informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagret i sentral infrastruktur hos NHN (eller annen leverandør) samtidig som den eksisterer i relevante fagsystem hos den enkelte virksomheten for å ivareta dokumentasjonsplikten. Grensesnitt for å avgi data fra felles&lt;!-- eller sentral i stedet for felles?&gt; datadelingsløsning etableres også i sentral infrastruktur.</p>
+<h2 id="regional-datadelingslsning-med-lagring">Regional datadelingsløsning med lagring</h2>
+<p>Ved etablering av regional datadelingsløsning blir informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagret i regional infrastruktur hos NHN (eller annen leverandør) samtidig som den eksisterer i relevante fagsystem hos den enkelte virksomheten for å ivareta dokumentasjonsplikten. Grensesnitt for å avgi data fra regional datadelingsløsning etableres også i sentral infrastruktur.</p>
 <p><img alt="Regionale datadelingsløsninger" src="../img/regional-datadeling.png" />
 <em>Regional datadelingsløsning etablert med kopilagring i sentral infrastruktur</em></p>
 <h3 id="juridisk_3">Juridisk</h3>
 <p>Et §9-register må komme til erstatning for de lokale §8-registrene. Ettersom dette konseptet forutsetter at også de lokale registrene videreføres, kan ikke et §9-samarbeid benyttes for å hjemle et felles sentralisert register med hovedformål å tilgjengeliggjøre informasjon mellom virksomhetene i det regionale samarbeidet.</p>
 <h2 id="nasjonal-sentral-datadelingslsning-med-lagring">Nasjonal sentral datadelingsløsning med lagring</h2>
-<p>Ved etablering av sentral nasjonal datadelingsløsning baserer vi oss på at informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagres i sentral infrastruktur hos NHN (eller annen leverandør) <!-- Hvorfor er resten av setningen med som forutsetning? Et nytt register skal vel ivareta dokumentasjonsplikten på samme måte som et lokalt §8-register eller et regionalt §9-register--> samtidig som den eksisterer i relevante fagsystem hos den enkelte virksomheten for å ivareta dokumentasjonsplikten. Grensesnitt for å avgi data i form av datadeling etableres også som en nasjonal løsning.</p>
+<p>Ved etablering av sentral nasjonal datadelingsløsning baserer vi oss på at informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagres i sentral infrastruktur hos NHN (eller annen leverandør) samtidig som den eksisterer i relevante fagsystem hos den enkelte virksomheten for å ivareta dokumentasjonsplikten. Grensesnitt for å avgi data i form av datadeling etableres også som en nasjonal løsning.</p>
 <p><img alt="Nasjonal sentral datadelingsløsning" src="../img/sentral-kopi.png" />
 <em>Nasjonal sentral kopilagring og datadelingsløsning</em></p>
 <h3 id="juridisk_4">Juridisk</h3>
@@ -1093,7 +1093,7 @@ Informasjonen som eventuelt skulle lagres i det nasjonale registeret er heller i
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">May 31, 2023 11:56:34</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">May 31, 2023 12:50:00</span>
       
     
   </small>
