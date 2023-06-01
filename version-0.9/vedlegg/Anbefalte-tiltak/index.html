@@ -1,0 +1,1396 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Direktoratet for e-helse">
+      
+      
+      
+        <link rel="prev" href="../Eksempler/">
+      
+      
+        <link rel="next" href="../Overordnet-maalbilde/">
+      
+      <link rel="icon" href="../../logo/ehelse-hvit.png">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.15">
+    
+    
+      
+        <title>Anbefalte tiltak - Målarkitektur datadeling digitial hjemmeoppfølging</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.26e3688c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ecc896b0.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="red">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#prioritert-liste-over-anbefalte-tiltak" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Målarkitektur datadeling digitial hjemmeoppfølging" class="md-header__button md-logo" aria-label="Målarkitektur datadeling digitial hjemmeoppfølging" data-md-component="logo">
+      
+  <img src="../../logo/ehelse-hvit.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Målarkitektur datadeling digitial hjemmeoppfølging
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Anbefalte tiltak
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+          
+            
+            
+            
+            <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+            
+              <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+              </label>
+            
+          
+            
+            
+            
+            <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+            
+              <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+              </label>
+            
+          
+        </form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Målarkitektur datadeling digitial hjemmeoppfølging" class="md-nav__button md-logo" aria-label="Målarkitektur datadeling digitial hjemmeoppfølging" data-md-component="logo">
+      
+  <img src="../../logo/ehelse-hvit.svg" alt="logo">
+
+    </a>
+    Målarkitektur datadeling digitial hjemmeoppfølging
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../..">Sammendrag</a>
+          
+        </div>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Sammendrag
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../innledning/">Innledning</a>
+          
+        </div>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Innledning
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../behov/">Behov</a>
+          
+        </div>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Behov
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../juridisk/">Juridiske vurderinger</a>
+          
+        </div>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Juridiske vurderinger
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../kravoganbefalinger/">Krav og anbefalinger</a>
+          
+        </div>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Krav og anbefalinger
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../referanser/">Referanser</a>
+          
+        </div>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Referanser
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../">Vedlegg</a>
+          
+            <label for="__nav_7">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Vedlegg
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Begreper/" class="md-nav__link">
+        Begreper
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Arkitekturprinsipper/" class="md-nav__link">
+        Arkitekturprinsipper
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Detaljert-behovsbilde/" class="md-nav__link">
+        Detaljert behovsbilde
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Konsepter-realisering/" class="md-nav__link">
+        Vurdering av konsepter for realisering
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Eksempler/" class="md-nav__link">
+        Eksempler fra utprøving
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Anbefalte tiltak
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Anbefalte tiltak
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prioritert-liste-over-anbefalte-tiltak" class="md-nav__link">
+    Prioritert liste over anbefalte tiltak
+  </a>
+  
+    <nav class="md-nav" aria-label="Prioritert liste over anbefalte tiltak">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#felles-tillitsmodell-for-datadeling" class="md-nav__link">
+    Felles tillitsmodell for datadeling
+  </a>
+  
+    <nav class="md-nav" aria-label="Felles tillitsmodell for datadeling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#status-for-etablering-av-felles-tillitsmodell-januar-2023" class="md-nav__link">
+    Status for etablering av felles tillitsmodell - januar 2023
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anbefalt-tiltak" class="md-nav__link">
+    Anbefalt tiltak
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etablere-felleslsninger-for-lagring-og-grensesnitt" class="md-nav__link">
+    Etablere fellesløsninger for lagring og grensesnitt
+  </a>
+  
+    <nav class="md-nav" aria-label="Etablere fellesløsninger for lagring og grensesnitt">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#anbefalte-tiltak" class="md-nav__link">
+    Anbefalte tiltak
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#felles-semantisk-rammeverk-for-datadeling-og-dho" class="md-nav__link">
+    Felles semantisk rammeverk for datadeling og DHO
+  </a>
+  
+    <nav class="md-nav" aria-label="Felles semantisk rammeverk for datadeling og DHO">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#utestaende-arbeid-knyttet-til-utveksling-av-malinger" class="md-nav__link">
+    Utestående arbeid knyttet til utveksling av målinger
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#andre-informasjonsbehov" class="md-nav__link">
+    Andre informasjonsbehov
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anbefalte-tiltak_1" class="md-nav__link">
+    Anbefalte tiltak
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vurdere-felleslsninger-for-utstyrslogistikk" class="md-nav__link">
+    Vurdere fellesløsninger for utstyrslogistikk 
+  </a>
+  
+    <nav class="md-nav" aria-label="Vurdere fellesløsninger for utstyrslogistikk">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#anbefalt-tiltak_1" class="md-nav__link">
+    Anbefalt tiltak
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etablering-av-pil-for-datadeling" class="md-nav__link">
+    Etablering av PIL for datadeling
+  </a>
+  
+    <nav class="md-nav" aria-label="Etablering av PIL for datadeling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#status-for-etablering-av-pil-juni-2023" class="md-nav__link">
+    Status for etablering av PIL - juni 2023
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anbefalt-tiltak_2" class="md-nav__link">
+    Anbefalt tiltak
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rammeverk-for-hendelsesbasert-samhandling" class="md-nav__link">
+    Rammeverk for hendelsesbasert samhandling
+  </a>
+  
+    <nav class="md-nav" aria-label="Rammeverk for hendelsesbasert samhandling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#anbefalte-tiltak_2" class="md-nav__link">
+    Anbefalte tiltak
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Overordnet-maalbilde/" class="md-nav__link">
+        Målbilde for DHO og velferdsteknologiprogrammet
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Semantisk-samhandling/" class="md-nav__link">
+        Semantisk samhandlingsevne
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Juridisk-intern-kopi/" class="md-nav__link">
+        Juridisk vurdering av intern kopi
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Organisatorisk-sla-opp/" class="md-nav__link">
+        Datadeling - slå opp
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Kapabiliteter/" class="md-nav__link">
+        Hva er kapabiliteter
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Informasjonstjeneste-meta/" class="md-nav__link">
+        Informasjonstjeneste - metamodell
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+      
+      
+        
+          
+            
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../innspill/">Innspill til målarkitekturen</a>
+          
+            <label for="__nav_8">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Innspill til målarkitekturen
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://direktoratet-for-e-helse.github.io/Common-metadata/" class="md-nav__link">
+        Status for dokumentet
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prioritert-liste-over-anbefalte-tiltak" class="md-nav__link">
+    Prioritert liste over anbefalte tiltak
+  </a>
+  
+    <nav class="md-nav" aria-label="Prioritert liste over anbefalte tiltak">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#felles-tillitsmodell-for-datadeling" class="md-nav__link">
+    Felles tillitsmodell for datadeling
+  </a>
+  
+    <nav class="md-nav" aria-label="Felles tillitsmodell for datadeling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#status-for-etablering-av-felles-tillitsmodell-januar-2023" class="md-nav__link">
+    Status for etablering av felles tillitsmodell - januar 2023
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anbefalt-tiltak" class="md-nav__link">
+    Anbefalt tiltak
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etablere-felleslsninger-for-lagring-og-grensesnitt" class="md-nav__link">
+    Etablere fellesløsninger for lagring og grensesnitt
+  </a>
+  
+    <nav class="md-nav" aria-label="Etablere fellesløsninger for lagring og grensesnitt">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#anbefalte-tiltak" class="md-nav__link">
+    Anbefalte tiltak
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#felles-semantisk-rammeverk-for-datadeling-og-dho" class="md-nav__link">
+    Felles semantisk rammeverk for datadeling og DHO
+  </a>
+  
+    <nav class="md-nav" aria-label="Felles semantisk rammeverk for datadeling og DHO">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#utestaende-arbeid-knyttet-til-utveksling-av-malinger" class="md-nav__link">
+    Utestående arbeid knyttet til utveksling av målinger
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#andre-informasjonsbehov" class="md-nav__link">
+    Andre informasjonsbehov
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anbefalte-tiltak_1" class="md-nav__link">
+    Anbefalte tiltak
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vurdere-felleslsninger-for-utstyrslogistikk" class="md-nav__link">
+    Vurdere fellesløsninger for utstyrslogistikk 
+  </a>
+  
+    <nav class="md-nav" aria-label="Vurdere fellesløsninger for utstyrslogistikk">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#anbefalt-tiltak_1" class="md-nav__link">
+    Anbefalt tiltak
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etablering-av-pil-for-datadeling" class="md-nav__link">
+    Etablering av PIL for datadeling
+  </a>
+  
+    <nav class="md-nav" aria-label="Etablering av PIL for datadeling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#status-for-etablering-av-pil-juni-2023" class="md-nav__link">
+    Status for etablering av PIL - juni 2023
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anbefalt-tiltak_2" class="md-nav__link">
+    Anbefalt tiltak
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rammeverk-for-hendelsesbasert-samhandling" class="md-nav__link">
+    Rammeverk for hendelsesbasert samhandling
+  </a>
+  
+    <nav class="md-nav" aria-label="Rammeverk for hendelsesbasert samhandling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#anbefalte-tiltak_2" class="md-nav__link">
+    Anbefalte tiltak
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+  <h1>Anbefalte tiltak</h1>
+
+<table>
+<thead>
+<tr>
+<th align="left">Status</th>
+<th align="left">Version</th>
+<th align="left">Maturity</th>
+<th align="left">Normative level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><span style="background-color:BlueViolet">Prerelease</span></td>
+<td align="left">v0.9.0</td>
+<td align="left">review</td>
+<td align="left">ikke normert</td>
+</tr>
+</tbody>
+</table>
+<p>Denne delen av målarkitekturen skal foreslå tiltak som kan gjennomføres for å understøtte etableringen av datadeling mellom virksomheter innen for behovsområdet DHO.</p>
+<h2 id="prioritert-liste-over-anbefalte-tiltak">Prioritert liste over anbefalte tiltak</h2>
+<p>Listen nedenfor viser en prioritert liste over tiltak vi mener er nødvendig for å realisere datadeling som skal understøtte DHO-tjenester. For å oppnå effektiv spredning av datadeling innen DHO området mener vi tiltak 1-3 er absolutt nødvendige. Tiltakene 4-6 bør realiseres for å understøtte forventede behov innen DHO og datadeling. Tiltakene er nødvendige for å oppnå helhetlige datadelingsløsninger som understøtter sammenhengende DHO forløp på en effektiv måte.  </p>
+<ol>
+<li><a href="#felles-tillitsmodell-for-datadeling">Felles tillitsmodell for datadeling</a></li>
+<li><a href="#etablere-felleslsninger-for-lagring-og-grensesnitt">Etablere fellesløsninger for lagring og grensesnitt</a></li>
+<li><a href="#felles-semantisk-rammeverk-for-datadeling-og-dho">Felles semantisk rammeverk for datadeling og DHO</a></li>
+<li><a href="#vurdere-felleslsninger-for-utstyrslogistikk">Vurdere fellesløsninger for utstyrslogistikk</a></li>
+<li><a href="#etablering-av-pil-for-datadeling">Etablering av PIL for datadeling</a></li>
+<li><a href="#rammeverk-for-hendelsesbasert-samhandling">Rammeverk for hendelsesbasert samhandling</a></li>
+</ol>
+<h3 id="felles-tillitsmodell-for-datadeling">Felles tillitsmodell for datadeling</h3>
+<div class="admonition quote">
+<p>Helsesektorens tillitsrammeverk definerer spilleregler og løsninger som virksomhetene som skal samhandle må akseptere og ta i bruk, slik at virksomheten kan få tilgang til helseopplysninger digitalt på en sikker, lovlig og effektiv måte.</p>
+</div>
+<h4 id="status-for-etablering-av-felles-tillitsmodell-januar-2023">Status for etablering av felles tillitsmodell - januar 2023</h4>
+<p>Norm for informasjonssikkerhet (<a href="https://www.ehelse.no/normen/normen-for-informasjonssikkerhet-og-personvern-i-helse-og-omsorgssektoren#5.2.2%20Autentisering">Normen</a>) stiller krav til benyttelse av sikker autentiseringsløsning ved tilgang til helseopplysninger mellom virksomheter. Det gjennomføres arbeid knyttet til å etablere felles tillitsmodell i forbindelse med utbredelse av dokumentdeling i regi av program digital samhandling. Norsk Helsenett etablerer fellestjenester for felles tillitsmodell og løsningen skal prøves ut og videreutvikles i forbindelse med Dokumentdeling gjennom kjernejournal.</p>
+<h4 id="anbefalt-tiltak">Anbefalt tiltak</h4>
+<p>I tillegg til dokumentdeling gjennom kjernejournal er digital hjemmeoppfølging og deling av målinger identifisert som utprøvingskandidat for felles tillitsmodell. Utprøving av felles tillitsmodell for datadelingstjenester i tillegg til dokumentdeling vil kunne gi viktig tilleggskunnskap sett fra helsetjenesten som prøver ut DHO sitt perspektiv. Vi vet foreløpig lite om kravene som stilles til tillitsmodellen knyttet til datadeling. Hypotesen er at tillitsmodellen for datadeling og dokumentdeling fungere likt, er det viktig å få bekreftet den antakelsen ved å prøve ut tillitsmodellen også for datadelingsløsninger.</p>
+<p>Det anbefales at virksomheter som etablerer datadeling mellom virksomheter tar i bruk felles tillitsmodell og fellskomponenter som felles tillitsanker.  </p>
+<h3 id="etablere-felleslsninger-for-lagring-og-grensesnitt">Etablere fellesløsninger for lagring og grensesnitt</h3>
+<p>Konseptet for <a href="../Konsepter-realisering/#distribuerte-datadelingslsninger-i-sentral-infrastruktur">distribuerte datadelingsløsninger i sentral infrastruktur</a> er basert på at grensenitt og lagring av helsedata etableres i sentral infrastruktur, for eksempel hos NHN. De sentrale konseptene baserer seg også på etablering av lagring og grensesnitt sentralt. Velferdsteknologisk knutepunkt (VKP) som er en tjeneste hos NHN tilbyr formidling av journalverdige opplysninger mellom systemer som ellers ikke snakker sammen. Det jobbes med å etablere felles løsning for lagring og avgivelse av data som ny funksjon i VKP som vil kunne benyttes av utprøving- og spredningsprosjekter for DHO som gjennomføres i dag.  </p>
+<p>Det er flere problemstillinger må håndteres når det gjelder bruk av VKP for å tilby denne typen løsninger.</p>
+<ul>
+<li>Merkantile forhold knyttet til konkurransehensyn og betaling for tjenester i VKP.</li>
+<li>Avtalerammeverk for å benytte funksjonalitet for datadeling som etableres sentralt.</li>
+<li>Det eksisterer juridiske problemstillinger knyttet til sammenstilling av DHO målinger på tvers av virksomheter i et sentralt datalager, siden dette ikke kan gjøres innenfor gjeldende rett.</li>
+<li>Styring, forvaltning og nyttevurderinger knyttet til sentral løsning, hvordan prioriterer man mellom identifiserte behov.</li>
+</ul>
+<h4 id="anbefalte-tiltak">Anbefalte tiltak</h4>
+<p>Det må utredes hvordan alle punktene over skal løses hvis det etableres sentral infrastruktur for datadeling knyttet til DHO. Utredning må peke på hvordan etablering og forvaltning av fellesløsninger skal fungere i relasjon til merkantile, juridiske og styringsmessige forhold.</p>
+<h3 id="felles-semantisk-rammeverk-for-datadeling-og-dho">Felles semantisk rammeverk for datadeling og DHO</h3>
+<p>Kapitelet som beskriver <a href="../Konsepter-realisering/">konsepter for realisering</a> av datadeling mellom virksomheter og omsorgsnivå peker på nødvendigheten av felles semantiske spesifikasjoner for å understøtte distribuerte konsepter og <a href="../Semantisk-samhandling/">semantisk samhandling</a>. Det er behov for semantiske spesifikasjoner ved etablering av sentrale/nasjonale løsninger også, men dette vil realiseres gjennom grensesnittspesifikasjonene i den sentrale løsningen.  </p>
+<p>Utprøving og spredningsprosjektene som gjennomføres nå baserer seg på et lite sett <a href="https://hl7.org/fhir/">HL7 FHIR</a> profiler som beskriver det semantiske innholdet i <a href="https://simplifier.net/guide/VelferdsteknologiskknutepunktDHOR4/Observation?version=current">målinger</a> som kan utveksles mellom virksomhetene. Profilene beskriver i hovedsak tre forhold knyttet til utveksling av informasjon mellom virksomhetene:</p>
+<ul>
+<li>Overordnet brukertilfelle profilene understøtter.</li>
+<li>Hvilken informasjon som er minimum for at informasjonen skal være nyttig.</li>
+<li>Regler for informasjonsinnhold i de spesifikke informasjonselementene.<ul>
+<li>Inkluderer regler om bruk av felles terminologi og kodeverk.</li>
+</ul>
+</li>
+</ul>
+<p>Vi tror det er nødvendig at det eksisterer felles beskrivelse av dette på tvers av virksomheter for at datadeling skal fungere på en god måte, dette er uavhengig av om distribusjonen av data baserer seg på en sentral eller distribuert modell. Ved en distribuert modell er det imidlertid et ufravikelig krav at det er felles regler for hvordan informasjonen struktureres ved digital samhandling, ellers vil etablering av oppslagstjenester mot mange ulike grensesnitt bli en uoverkommelig oppgave hvor utviklerne må forholde seg til en rekke typer semantiske spesifikasjoner. Integrasjon mot bakenforliggende systemer vil også bli svært komplisert.</p>
+<h4 id="utestaende-arbeid-knyttet-til-utveksling-av-malinger">Utestående arbeid knyttet til utveksling av målinger</h4>
+<p>På nåværende tidspunkt er det bare et fåtall profiler som er utviklet, disse har også sett lite praktisk bruk og er implementert i få løsninger. Det er viktig at profilene videreutvikles i tre retninger:</p>
+<ul>
+<li>Kvantitet - det er få brukertilfeller som er dekket av eksisterende profiler, det må testes og utvikles flere for å dekke flere brukertilfeller og flere typer informasjonstjenester.</li>
+<li>Kvalitet - profilene må implementeres i flere løsninger og testes i praktisk bruk for å kvalitetsikre at innholdet er tilstrekkelig for praktisk klinisk bruk og bekrefte at integrasjon mot flere ulike løsninger kan gjennomføres.</li>
+<li>Innhold - dagens profiler beskriver informasjonsinnholdet, men også lovlige søkeparametere bør detaljeres i neste versjon av profilene. På denne måten kan man sikre at datadelingstjenestene tilbyr lik søkefunksjonaliteten uavhengig av hvem som implementerer grensesnittene.</li>
+</ul>
+<h4 id="andre-informasjonsbehov">Andre informasjonsbehov</h4>
+<p>På nåværende tidspunkt eksisterer det bare profiler for å utveksle målinger mellom virksomheter. Det er også behov for å understøtte utveksling av annen informasjon på en standardisert måte ved hjelp av datadeling og API. Forløpig er spesielt to typer informasjon prioritert:</p>
+<ul>
+<li>Behandlings- og egenbehandlingsplan - Prosjektet som utvikler den sentrale løsningen for behandling og egenbehandlingsplan har også utviklet en spesifikasjon for utveksling av planer og FHIR profiler for dette. Disse profilene bør samordnes med behovene som eksisterer i andre planverktøy som er tatt i bruk i helsesektoren.</li>
+<li>Tjenester inkludert hjelpemidler og logistikk - hvis det igangsettes arbeid knyttet til fellesløsninger eller utviklingen av en distribuert modell for å håndtere dette området som er beskrevet i <a href="#vurdere-felleslsninger-for-utstyrslogistikk">tiltaket</a></li>
+</ul>
+<h4 id="anbefalte-tiltak_1">Anbefalte tiltak</h4>
+<p>Det anbefales tiltak knyttet til alle de tre retningene som beskrives i forrige avsnitt, tiltak for å øke kvantiteten av profiler for å dekke flere brukertilfeller og tiltak for å øke kvaliteten ved å teste eksisterende profiler bedre, er de tiltakene som haster mest.</p>
+<h3 id="vurdere-felleslsninger-for-utstyrslogistikk">Vurdere fellesløsninger for utstyrslogistikk <!--Hva er det viktige å få frem i dette avsnittet? Hvordan en kan svare ut kjente utfordringer som krav til utstyrets evne til å dele informasjon og logistikk rundt utstyr? Vurdere en annen overskrift for å vise til dokumenterte barrierer: eks. Vurdere felles anskaffelse og forvaltning av tekniske løsninger/system--></h3>
+<p>Innspill fra aktørene som arbeider med spredning og utprøving av DHO har pekt på to store utfordringer knyttet til etablering av DHO tjenester. Det ene handler om samhandling som behandles i dette dokumentet. Et annet behov som er identifisert er knyttet til tildeling og forvaltning av det tekniske utstyret som skal samle målinger hjemme hos pasienten, ofte omtalt som DHO-system.</p>
+<p>Det er identifisert mange behov knyttet til administrasjon av utstyr og bare noen av disse kan dekkes med ren oversikt over hvilket utstyr pasienten har, uavhengig av hvem som har tildelt dette:</p>
+<ul>
+<li>Kjenne til tjenester, ytelser og hjelpemidler og hvilke aktører som har tildelt disse.</li>
+<li>Kjenne til om relevant utstyr er tildelt fra andre aktører.</li>
+<li>Unngå dobbelt sett av utstyr med overlappende funksjonalitet.</li>
+<li>Tilgang til data fra utstyr.</li>
+<li>Tilgang til administrasjon av utstyr.</li>
+</ul>
+<h4 id="anbefalt-tiltak_1">Anbefalt tiltak</h4>
+<p>Det anbefales at det settes igang arbeid som gjør det mulig for flere virksomheter å høste informasjon fra det samme utstyret, uavhengig av hvem som har tildelt utstyret. Det må først gjøres et mer grundig behovsarbeid og det må sannsynliggjøres at en slik løsning gir tilstrekkelig verdi til at det er formålstjenlig å etablere felles infrastruktur for å ivareta behovet.</p>
+<h3 id="etablering-av-pil-for-datadeling">Etablering av PIL for datadeling</h3>
+<p><a href="https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren">Målarkitektur for datadeling i helse og omsorgssektoren</a> peker på nødvendigheten av å etablere pasientinformasjonslokalisator for å understøtte datadeling basert på distribuert lagring og etablering av grensesnitt for å avgi data. <a href="https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren">Målarkitektur for datadeling i helse og omsorgssektoren</a> slår videre fast at det ikke eksisterer noen rettslig hjemmel for å etablere en nasjonal tjeneste som sammenstiller informasjon om hvilke API-tjenester som har informasjon en bestem pasient på nasjonalt nivå.</p>
+<div class="admonition quote">
+<p class="admonition-title">Pasientinformasjonslokalisator</p>
+<p>Det er i en rekke situasjoner tilknyttet datadeling behov for å kunne fremskaffe en oversikt over hvem som har en pasientjournal for en gitt pasient. 
+...
+Et slikt register bør etableres som en felleskomponent hvor det fremgår hvem som har helseopplysninger om en gitt pasient. Vi har valgt å kalle denne felleskomponenten for pasientinformasjonslokalisator, forkortet til PIL.</p>
+</div>
+<h4 id="status-for-etablering-av-pil-juni-2023">Status for etablering av PIL - juni 2023</h4>
+<p>Det eksisterer i dag ikke noen tiltak knyttet til å etablere felleskomponent eller fellestjeneste for PIL i samhandlingsinfrastrukturen for helsesektoren</p>
+<h4 id="anbefalt-tiltak_2">Anbefalt tiltak</h4>
+<p>Spredning av DHO og understøtte behov for datadeling på tvers av mange virksomheter innenfor en region er avhengig av en regional eller nasjonal tjenste for metadataformidling. Spesifikt gjelder dette informasjon om hvilke datadelingstjenester som har informasjon om en bestemt pasient. Det er uavklart hvor stort behovet er, siden det på nåværende tidspunkt ikke finnes noen oversikt over hvor mange datadelingsløsninger virksomhetene vil etablerer. Det mangler også utredning knyttet til konsept og juridiske avklaringer knyttet til etablering av PIL som en fellestjeneste i samhandlingsinfrastrukturen. Det er derfor behov for å:</p>
+<ul>
+<li>beskrive behovet basert på etableringen av datadelingsløsninger for deling av data mellom virksomheter</li>
+<li>utarbeide et konsept for PIL som innenfor gjeldende rett, basert på desentralisert modell<ul>
+<li>Alternativt utarbeide forskrift som regulerer behandlingsgrunnlaget for PIL informasjon i en sentralisert løsning.</li>
+</ul>
+</li>
+<li>planlegge arbeidet med etablering og innføring av PIL</li>
+<li>etablere PIL som en fellestjeneste i samhandlingsinfrastrukturen for helsesektoren</li>
+</ul>
+<h3 id="rammeverk-for-hendelsesbasert-samhandling">Rammeverk for hendelsesbasert samhandling</h3>
+<p>Gjennom behovsarbeidet er det avdekket flere informasjonstjenester som bør understøttes med hendelsesbasert arkitektur. Dette er dokumentert i oversikten over informasjonstjenester. Noe av behovet knyttet til hendelsesbasert arkitektur er knyttet til sanntidsoppdateringer av informasjon som andre virksomheter samler inn eller dokumenterer om en pasient, dette er spesielt viktig i enkelte tjenesteforløp hvor DHO benyttes. Også informasjon fra utstyr som andre virksomheter plasserer ut hos pasient kan det være avgjørende å få sanntidsoppdateringer fra.  </p>
+<p>Hendelsesbasert samhandling er i bruk i mange andre sektorer, spesielt knyttet til oppdateringer av felles datakilder. Det moderniserte folkeregisteret tilbyr for eksempel hendelser til konsumentene slik at eksterne virksomheter kan være oppdatert på endringer i folkeregisteret i sanntid eller nær sanntid. I helsesektoren er bruken av hendelsesbasert kommunikasjon mellom virksomheter å annse som en svært umoden samhandlingsform. Det er behov for generelle rammer og råd knyttet til etablering av hendelsesbasert samhandling. Norsk Helsenett har beskrevet et strategisk målbilde som blant annet inneholder en stor satsing i retning hendelsesbasert kommunikasjon med virksomhetene i sektoren. Det er flere tiltak som må gjennomføres før hendelsesbasert kommunikasjon kan fungere som samhandlingsform mellom virksomhetene i helsesektoren.</p>
+<h4 id="anbefalte-tiltak_2">Anbefalte tiltak</h4>
+<ul>
+<li>Kartlegging av eksisterende hendelsesbaserte løsninger og erfaringer fra arbeidet med disse.</li>
+<li>Kartlegging av virksomhetenes planer for å ta i bruk hendeslesbasert kommunikasjon.</li>
+<li>Enighet om felles målbilde knyttet til hvordan hendelsesbasert kommunikasjon kan benyttes og hvilke behov som dekkes best med hendelsesbasert kommunikasjon.</li>
+<li>Beskrive relevante fellestjenester i samhandlingsinfrastrukturen som må til for å understøtte hendelsesbasert kommunikasjon, det bør også etableres et veikart for når fellestjenestene kan etableres.</li>
+</ul>
+
+  <hr>
+<div class="md-source-file">
+  <small>
+    
+      Last update:
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">June 1, 2023 11:39:19</span>
+      
+    
+  </small>
+</div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.annotate", "content.tooltips", "navigation.indexes", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.b4d07000.min.js"></script>
+      
+    
+  </body>
+</html>
