@@ -114,14 +114,13 @@ Det eksisterer i dag ikke noen tiltak knyttet til å etablere felleskomponent el
 
 #### Anbefalt tiltak
 
-Spredning av DHO og understøtte behov for datadeling på tvers av mange virksomheter innenfor en region er avhengig av en regional, eller nasjonal tjenste for metadataformidling. Spesifikt gjelder dette informasjon om hvilke datadelingstjenester som har informasjon om en bestemt pasient. Det er uavklart hvor stort behovet er, siden det på nåværende tidspunkt ikke finnes noen oversikt over hvor mange datadelingsløsninger virksomhetene vil etablerer. Det mangler også utredning knyttet til konsept og juridiske avklaringer knyttet til etablering av PIL som en fellestjeneste i samhandlingsinfrastrukturen. Det er derfor behov for å:
+Spredning av DHO og understøtte behov for datadeling på tvers av mange virksomheter innenfor en region er avhengig av en regional eller nasjonal tjenste for metadataformidling. Spesifikt gjelder dette informasjon om hvilke datadelingstjenester som har informasjon om en bestemt pasient. Det er uavklart hvor stort behovet er, siden det på nåværende tidspunkt ikke finnes noen oversikt over hvor mange datadelingsløsninger virksomhetene vil etablerer. Det mangler også utredning knyttet til konsept og juridiske avklaringer knyttet til etablering av PIL som en fellestjeneste i samhandlingsinfrastrukturen. Det er derfor behov for å:
 
-* beskrive behovet basert på etableringen av datadelingsløsninger for deling av data mellom virksomheter.
-* utarbeide et konsept for PIL som innenfor gjeldende rett, basert på desentralisert modell.
-* alternativt utarbeide forskrift som regulerer behandlingsgrunnlaget for PIL informasjon i en sentralisert løsning.
-* planlegge arbeidet med etablering og innføring av PIL.
-* etablere PIL som en fellestjeneste i samhandlingsinfrastrukturen for helsesektoren.
-<!-- Litt usikker på om det skal være stor eller liten forbokstav i denne punktlisten. -->
+* beskrive behovet basert på etableringen av datadelingsløsninger for deling av data mellom virksomheter
+* utarbeide et konsept for PIL som innenfor gjeldende rett, basert på desentralisert modell
+  * Alternativt utarbeide forskrift som regulerer behandlingsgrunnlaget for PIL informasjon i en sentralisert løsning.
+* planlegge arbeidet med etablering og innføring av PIL
+* etablere PIL som en fellestjeneste i samhandlingsinfrastrukturen for helsesektoren
 
 ### Rammeverk for hendelsesbasert samhandling
 
