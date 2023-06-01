@@ -108,14 +108,15 @@ Det anbefales at det settes igang arbeid som gjør det mulig for flere virksomhe
     ...
     Et slikt register bør etableres som en felleskomponent hvor det fremgår hvem som har helseopplysninger om en gitt pasient. Vi har valgt å kalle denne felleskomponenten for pasientinformasjonslokalisator, forkortet til PIL.
 
-#### Status for etablering av PIL - januar 2023
+#### Status for etablering av PIL - juni 2023
 
 Det eksisterer i dag ikke noen tiltak knyttet til å etablere felleskomponent eller fellestjeneste for PIL i samhandlingsinfrastrukturen for helsesektoren
 
 #### Anbefalt tiltak
 
-Spredning av DHO og understøtte behov for datadeling på tvers av mange virksomheter innenfor en region er avhengig av PIL for å fungere effektivt. Det mangler imidlertid mye arbeid før PIL kan etableres som en fellestjeneste i samhandlingsinfrastrukturen:
+Spredning av DHO og understøtte behov for datadeling på tvers av mange virksomheter innenfor en region er avhengig av en regional eller nasjonal tjenste for metadataformidling, spesifikt informasjon om hvilke datadelingstjenester som har informasjon om en bestemt pasient. Det er uavklart hvor stort behovet er, siden det på nåværende tidspunkt ikke finnes noen oversikt over hvor mange datadelingsløsninger virksomhetene vil etablerer. Det mangler også utredning knyttet til konsept og juridiske avklaringer knyttet til etablering av PIL som en fellestjeneste i samhandlingsinfrastrukturen:
 
+* Beskrive behovet basert på etableringen av datadelingsløsninger for deling av data mellom virksomheter.
 * Utarbeide et konsept for PIL som innenfor gjeldende rett, basert på desentralisert modell.
 * Alternativt utarbeide forskrift som regulerer behandlingsgrunnlaget for PIL informasjon i en sentralisert løsning.
 * Planlegge arbeidet med etablering og innføring av PIL.
