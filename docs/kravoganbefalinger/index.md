@@ -44,11 +44,11 @@ Dataansvaret vil i forslaget til målarkitektur ligge hos den enkelte virksomhet
 
 ### Arkitekturvalg
 
-Vi gjør fire grunnleggende arkitekturvalg for etablering av datadeling mellom virksomheter og omsorgsnivå som oppsummeres her.  
+Vi gjør fem arkitekturvalg for etablering av datadeling mellom virksomheter og omsorgsnivå som oppsummeres her.  
 
 #### Datadeling
 
-I [behovskapittelet](../behov/index.md) dokumenterer vi valget om å bruke datadeling som samhandlingsform for å dekke samhandlingsbehovene som er identifisert innen DHO. Dette valget er gjengitt her og begrunnelsen ligger i delkapittelet om [datadeling](../behov/index.md#samhandlingsform-datadeling).
+I [behovskapittelet](../behov/index.md) dokumenterer vi valget om å bruke datadeling som samhandlingsform for å dekke samhandlingsbehovene som er identifisert innen DHO. Dette valget er gjengitt her men begrunnelsen ligger i delkapittelet om [datadeling i behovskapittelet](../behov/index.md#samhandlingsform-datadeling).
 
 !!! note "Arkitekturvalg 1: Datadeling som samhandlingsform"
 
