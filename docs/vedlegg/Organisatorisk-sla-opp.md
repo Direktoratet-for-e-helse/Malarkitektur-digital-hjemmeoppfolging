@@ -4,7 +4,7 @@ title: Datadeling - slå opp
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:BlueViolet">Prerelease</span>  | v0.8 | review  | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span>  | v0.9.0 | review  | ikke normert |
 
 **Samhandlingsformen innebærer at en datatilbyder deler informasjon med en datakonsument på forespørsel.**  
 

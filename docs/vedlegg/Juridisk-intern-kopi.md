@@ -4,7 +4,7 @@ title: Behandlingsrettede helseregistre – Intern kopi av opplysninger
 
 | Status           | Version | Maturity | Normative level |
 | :--------------- | :------ | :------- | :-------------- |
-| <span style="background-color:gold">Work in progress</span> | v0.1.0 | draft | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span> | v0.9.0 | draft | ikke normert |
 
 !!! note
 

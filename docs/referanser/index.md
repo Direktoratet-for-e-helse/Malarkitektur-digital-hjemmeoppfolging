@@ -4,7 +4,7 @@ title: Referanser
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:BlueViolet">Prerelease</span> | v0.8.3 | review  | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span> | v0.9.0 | review  | ikke normert |
 
 ### Referanser som er brukt i arbeidet med målarkitekturen  
 

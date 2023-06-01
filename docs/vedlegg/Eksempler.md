@@ -4,7 +4,7 @@ title: Eksempler fra utprøving
 
 | Status           | Version | Maturity | Normative level |
 | :--------------- | :------ | :------- | :-------------- |
-| <span style="background-color:BlueViolet">Prerelease</span>  | v0.5.0 | review | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span>  | v0.9.0 | review | ikke normert |
 
 Denne delen inneholder eksempler på implementasjoner av datadeling, i forbindlese med utprøving og spredingsprosjekter i [nasjonalt velferdsteknologiprogram](https://www.helsedirektoratet.no/tema/velferdsteknologi/velferdsteknologi). Eksemplene er her vist med samme notasjon som målarkitekturen, for å vise hvordan implementasjonen kan sees i sammenheng med målarkitekturen.  
 
