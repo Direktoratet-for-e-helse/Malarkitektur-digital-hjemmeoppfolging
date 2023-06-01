@@ -29,7 +29,7 @@ Slik DHO benyttes internt i en virksomhet i dag er det ikke nødvendig med regel
 
 ### Oppsummering
 
-De innsamlede data lagres i ulike DHO-systemer og i lokal journalløsning. Det kan i utprøving og videre bli aktuelt å lagre data fra digital hjemmeoppfølging hos databehandler som etablerer datadelingstjeneste på vegne av den dataansvarlige virksomheten. Datalageret kan enten lagre data for en virksomhet eller sammenstille data på tvers av flere dataansvarlige virksomheter. Det er nå avklart at en separat lagringsløsning hos databehandler for å understøtte en datadelingstjeneste for dataansvarlig virksomhet er innenfor dagens regelverk.  
+De innsamlede data lagres i ulike DHO-systemer og i lokal journalløsning. Det kan i utprøving og i det videre bli aktuelt å lagre data fra digital hjemmeoppfølging hos databehandler som etablerer datadelingstjeneste på vegne av den dataansvarlige virksomheten. Det er nå avklart at en separat lagringsløsning hos databehandler for å understøtte en datadelingstjeneste for dataansvarlig virksomhet er innenfor dagens regelverk.  
 
 Nasjonal lagring av sammenstilte data (hvor en nasjonal aktør har dataansvar) vil etter vår vurdering kreve et annet juridisk grunnlag enn det som finnes i dag, og forutsetter derfor regelverksutvikling/forskriftsendring.  
 
@@ -99,7 +99,7 @@ Et §9-register må komme til erstatning for de lokale §8-registrene. Ettersom 
 
 ## Nasjonal sentral datadelingsløsning med lagring
 
-Ved etablering av sentral nasjonal datadelingsløsning baserer vi oss på at informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagres i sentral infrastruktur hos NHN (eller annen leverandør) samtidig som den eksisterer i relevante fagsystem hos den enkelte virksomheten for å ivareta dokumentasjonsplikten. Grensesnitt for å avgi data i form av datadeling etableres også som en nasjonal løsning.
+Grensesnitt for å avgi data i form av datadeling etableres som en nasjonal løsning. Ved etablering av sentral nasjonal datadelingsløsning forutsettes det at informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagres i sentral infrastruktur hos NHN (eller annen leverandør) samtidig som den eksisterer i relevante fagsystem hos den enkelte virksomheten for å ivareta dokumentasjonsplikten.  
 
 ![Nasjonal sentral datadelingsløsning](../img/sentral-kopi.png)
 *Nasjonal sentral kopilagring og datadelingsløsning*
