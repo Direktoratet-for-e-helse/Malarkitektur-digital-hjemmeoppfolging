@@ -4,7 +4,7 @@ title: Oversikt over vedlegg
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:BlueViolet">Prerelease</span> | v0.9.0 | review  | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span> | v0.9.1 | review  | ikke normert |
 
 [Begreper](Begreper.md)  
 [Arkitekturprinsipper](Arkitekturprinsipper.md)  
@@ -18,3 +18,4 @@ title: Oversikt over vedlegg
 [Datadeling - slå opp](Organisatorisk-sla-opp.md)  
 [Hva er kapabiliteter](Kapabiliteter.md)  
 [Informasjonstjeneste - metamodell](Informasjonstjeneste-meta.md)  
+[Deltakere i dialogmøter](Dialogmoter.md)
