@@ -27,9 +27,7 @@ Effektiv digital samhandling krever endrede prosesser og etablering av tekniske 
 Som et ledd i arbeidet med målarkitekturen for datadeling innen DHO er [behovene for samhandling analysert](behov/index.md). Virksomhetene som er involvert i å etablere tjenesteforløp som inneholder DHO-tjenester peker spesielt på behovet for samhandling om felles planer, legemiddellister og målinger. Alle disse informasjonstjenestene vil dra nytte av styrket digital samhandling i form av datadeling av strukturert informasjon mellom virksomheter og omsorgsnivå. Den foreløpige analysen peker på at også andre informasjonstjenester som er etterspurt i forbindelse med DHO, kan understøttes med datadeling.
 
 <figure markdown>
-  <a href="img/veikart-DHO.png">
-    ![Aktører som skal samhandle, fastlegetjenesten, kommunal helse og omsorgstjeneste, spesialisthelsetjenesten og pasienten. Samhandlingsbehov innen DHO omfatter pasientdata, målinger, egenrapportering/skjema, notat, plan, hendelser og varsel/analyse](img/veikart-DHO.png){ width="500" }
-  </a>
+  [![Aktører som skal samhandle, fastlegetjenesten, kommunal helse og omsorgstjeneste, spesialisthelsetjenesten og pasienten. Samhandlingsbehov innen DHO omfatter pasientdata, målinger, egenrapportering/skjema, notat, plan, hendelser og varsel/analyse](img/veikart-DHO.png){ width="500" }](img/veikart-DHO.png)
   <figcaption>Figuren illustrerer hvilke aktører som kan være involvert i tjenesteforløp som inkluderer DHO og eksempel på informasjon som er relevant å dele mellom aktørene.</figcaption>
 </figure>
 
@@ -38,8 +36,8 @@ Som et ledd i arbeidet med målarkitekturen for datadeling innen DHO er [behoven
 Utveksling av informasjon ved hjelp av datadeling mellom virksomheter forutsetter at virksomhetene realiserer nødvendige evner ([kapabiliteter](vedlegg/Kapabiliteter.md)) for å understøtte datadeling. Det er hensikstmessig at noen av evnene realiseres som fellestjenester i nasjonal infrastruktur. Den [arkitekturtekniske delen](kravoganbefalinger/index.md) av målarkitekturen beskriver nødvendige evner for å realisere datadeling, samt overordnede prosesser og funksjoner som kan realisere disse evnene. Denne delen av målarkitekturen legger grunnlaget for betraktningene som er knyttet til løsningskonseptene for etableringen av datadelingsløsningene. Behovet for fellestjenester i samhandlingsinfrastrukturen, som beskrives i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren), bekreftes gjennom arbeidet med DHO. Noen viktige fellestjenester mangler i infrastrukturen for digital samhandling, og det anbefales tiltak for å etablere fellestjenester og felles semantiske spesifikasjoner i vedlegget [anbefalte tiltak](vedlegg/Anbefalte-tiltak.md).
 
 <figure markdown>
-  [![Oversikter over nødvendige evner for datadeling](img/kapabiliteter-enkel.png){ width="500" }](img/kapabiliteter-enkel.png)
-  <figcaption>Oversikt over nødvendige evner for å realisere datadeling</figcaption>
+  [![Oversikter over nødvendige evner for datadeling. Produsenter må ha evne for Dataproduksjon, databehandling og datalagring. Datakonsumenter må ha evner for visning, få tilgang til dta, lokalisere data og innhente data. Datatilbyder må ha evner for metadatautvinning, tilgjengeliggjøre data, metadatapublisering og avgi data. I tillegg er det behov for evner implementert som fellestjenester: tillitsanker, tjenesteformidling og metadataformidling.](img/kapabiliteter-enkel.png){ width="500" }](img/kapabiliteter-enkel.png)
+  <figcaption>Oversikt over nødvendige evner for å realisere datadeling for dataprodusenter, datakonsumenter, datatilbydere og som fellestjenester</figcaption>
 </figure>
 
 ## Målarkitektur for datadeling
@@ -48,7 +46,7 @@ Datadeling mellom virksomheter kan etableres på mange måter og målarkitekture
 
 <figure markdown>
   [![Målarkitektur for datadeling, med kombinasjon av distribuerte datadelingstjenester, bruk av leverandør som databehandler og samarbeid mellom virksomheter](img/malarkitektur.png){ width="600" }](img/malarkitektur.png)
-  <figcaption>Målarkitektur for datadeling, med kombinasjon av distribuerte datadelingstjenester, bruk av leverandør som databehandler og samarbeid mellom virksomheter</figcaption>
+  <figcaption>Målarkitektur for datadeling, med kombinasjon av distribuerte datadelingstjenester, bruk av leverandør som databehandler og samarbeid mellom virksomheter, samt fellestjenester for å ivareta API katalog, tillitsanker og pasientinformasjonslokalisator. Selve datadelingen mellom virksomheter må baseres på felles semantiske spesifikasjoner for utvksling av informasjon mellom ulike løsninger.</figcaption>
 </figure>
 
 ### Arkitekturvalg
