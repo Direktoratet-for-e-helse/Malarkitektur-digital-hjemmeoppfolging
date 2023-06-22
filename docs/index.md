@@ -28,7 +28,7 @@ Som et ledd i arbeidet med målarkitekturen for datadeling innen DHO er [behoven
 
 <figure markdown>
   <a href="img/veikart-DHO.png">
-    [Aktører som skal samhandle, Fastlegetjenesten, kommunal helse og omsorgstjeneste, spesialisthelsetjenesten og pasienten. Samhandlingsbehov innen DHO omfatter pasientdata, målinger, egenrapportering/skjema, notat, plan, hendelser og varsel/analyse](img/veikart-DHO.png){ width="500" }
+    ![Aktører som skal samhandle, fastlegetjenesten, kommunal helse og omsorgstjeneste, spesialisthelsetjenesten og pasienten. Samhandlingsbehov innen DHO omfatter pasientdata, målinger, egenrapportering/skjema, notat, plan, hendelser og varsel/analyse](img/veikart-DHO.png){ width="500" }
   </a>
   <figcaption>Figuren illustrerer hvilke aktører som kan være involvert i tjenesteforløp som inkluderer DHO og eksempel på informasjon som er relevant å dele mellom aktørene.</figcaption>
 </figure>
