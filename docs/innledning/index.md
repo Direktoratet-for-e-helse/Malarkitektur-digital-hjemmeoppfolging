@@ -21,7 +21,7 @@ Digital hjemmeoppfølging handler om å følge opp, behandle og kommunisere med 
 Det er vesentlig at oppfølgingen ikke begrenses til der pasienten bor, men at DHO også kan benyttes andre steder, for eksempel på jobb, skole, institusjon, på reise og hos ulike helseaktører. Pasienten kan i prinsippet oppholde seg hvor som helst fysisk, men likevel kunne motta oppfølging fra helsetjenesten når det er forsvarlig. Arbeidet med målarkitekturen har fokus på oppfølging av pasienten basert på data fra pasienten, som vist i figuren under. Se forøvrig oppsummering av målbildet for DHO.  
 
 <figure markdown>
-  [![Hva er DHO?](../img/hva-er-DHO.png){ width="700" }](../img/hva-er-DHO.png)
+  [![Hva er DHO?](../img/hva-er-DHO.svg){ width="700" }](../img/hva-er-DHO.svg)
   <figcaption>Hovedfokus for målarkitekturen er den delen av DHO som handler om oppfølging basert på data fra pasienten</figcaption>
 </figure>
 
