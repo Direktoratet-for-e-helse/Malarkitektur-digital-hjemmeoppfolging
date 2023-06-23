@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 7801 3743" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:8;">
+    <g transform="matrix(1,0,0,1,-502,-694)">
+        <clipPath id="_clip1">
+            <rect x="502" y="694" width="7801" height="3743"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <path d="M4776.5,1882.5L4776.5,2137.78L7696.7,2137.78L7696.7,2264.48" style="fill:none;stroke:rgb(1,82,185);stroke-width:4.58px;"/>
+            <path d="M4776.5,1882.5L4776.5,2137.78L6236.6,2137.78L6236.6,2264.48" style="fill:none;stroke:rgb(1,82,185);stroke-width:4.58px;"/>
+            <path d="M4776.5,2867.5L4776.5,2994.2L5506.55,2994.2L5506.55,3120.91" style="fill:none;stroke:rgb(1,94,210);stroke-width:4.58px;"/>
+            <path d="M4776.55,2867.5L4776.55,2994.2L4046.5,2994.2L4046.5,3120.91" style="fill:none;stroke:rgb(1,94,210);stroke-width:4.58px;"/>
+            <path d="M4777,1882.5L4777,2264.48" style="fill:none;stroke:rgb(1,82,185);stroke-width:4.58px;"/>
+            <path d="M2587.28,2863.5L2587.28,2994.6L2587,2994.6L2587,3121.3" style="fill:none;stroke:rgb(1,94,210);stroke-width:4.58px;"/>
+            <path d="M2586.88,2863.5L2586.88,2994.6L1126.5,2994.6L1126.5,3121.3" style="fill:none;stroke:rgb(1,94,210);stroke-width:4.58px;"/>
+            <g transform="matrix(1,0,0,1.01949,0,-36.6959)">
+                <path d="M4777.37,1882.5L4777.37,2133.38L2587.5,2133.38L2587.5,2260.08" style="fill:none;stroke:rgb(1,82,185);stroke-width:4.58px;"/>
+            </g>
+            <rect x="1984.5" y="1279.5" width="5585" height="603" style="fill:rgb(1,105,232);stroke:white;stroke-width:4.58px;"/>
+            <g transform="matrix(1,0,0,1,3845.63,1631)">
+                <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:165px;fill:white;">Digital</text>
+                <g transform="matrix(1,0,0,1,504.35,0)">
+                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:165px;fill:white;">hjemmeoppfølging</text>
+                </g>
+            </g>
+            <rect x="1983.5" y="2260.5" width="1207" height="603" style="fill:rgb(1,105,232);stroke:white;stroke-width:4.58px;"/>
+            <g transform="matrix(1,0,0,1,2040.95,2402)">
+                <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:128px;fill:white;">Kommunikasjon og</text>
+                <g transform="matrix(1,0,0,1,149.829,132)">
+                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:128px;fill:white;">dialog mellom</text>
+                </g>
+                <g transform="matrix(1,0,0,1,249.585,265)">
+                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:128px;fill:white;">pasient og</text>
+                </g>
+                <g transform="matrix(1,0,0,1,224.583,398)">
+                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:128px;fill:white;">behandlere</text>
+                </g>
+            </g>
+            <rect x="523.5" y="3121.5" width="1207" height="603" style="fill:rgb(1,105,232);stroke:white;stroke-width:4.58px;"/>
+            <g transform="matrix(1,0,0,1,852.726,3329)">
+                <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:128px;fill:white;">V<tspan x="83.063px 111.5px " y="0px 0px ">id</tspan>eo</text>
+                <g transform="matrix(1,0,0,1,325.875,0)">
+                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:128px;fill:white;">-</text>
+                </g>
+                <g transform="matrix(1,0,0,1,404.273,0)">
+                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:128px;fill:white;">og</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-275.802,132)">
+                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:128px;fill:white;">telefonkonsultasjon</text>
+                </g>
+                <g transform="matrix(1,0,0,1,23.8792,265)">
+                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:128px;fill:white;">(sanntid)</text>
+                </g>
+            </g>
+            <rect x="1983.5" y="3121.5" width="1207" height="603" style="fill:rgb(1,105,232);stroke:white;stroke-width:4.58px;"/>
+            <g transform="matrix(1,0,0,1,2304.61,3396)">
+                <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:128px;fill:white;">Meldinger</text>
+                <g transform="matrix(1,0,0,1,-21.3584,132)">
+                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:128px;fill:white;">(asynkron)</text>
+                </g>
+            </g>
+            <rect x="4173.5" y="2264.5" width="1207" height="603" style="fill:rgb(0,53,116);stroke:white;stroke-width:4.58px;"/>
+            <g transform="matrix(1,0,0,1,4266.47,2473)">
+                <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:128px;fill:white;">Oppfølging basert</text>
+                <g transform="matrix(1,0,0,1,203.225,132)">
+                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:128px;fill:white;">på data fra</text>
+                </g>
+                <g transform="matrix(1,0,0,1,231.756,265)">
+                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:128px;fill:white;">pasienten</text>
+                </g>
+            </g>
+            <rect x="3443.5" y="3121.5" width="1207" height="603" style="fill:rgb(0,53,116);stroke:white;stroke-width:4.58px;"/>
+            <g transform="matrix(1,0,0,1,3550.73,3396)">
+                <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:128px;fill:white;">Data fra sensorer</text>
+                <g transform="matrix(1,0,0,1,267.529,132)">
+                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:128px;fill:white;">og MTU</text>
+                </g>
+            </g>
+            <rect x="4903.5" y="3121.5" width="1207" height="603" style="fill:rgb(0,53,116);stroke:white;stroke-width:4.58px;"/>
+            <g transform="matrix(1,0,0,1,5003.71,3329)">
+                <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:128px;fill:white;">Pasientregistrerte</text>
+                <g transform="matrix(1,0,0,1,7.15039,132)">
+                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:128px;fill:white;">data (symptomer<tspan x="953.25px " y="0px ">,</tspan></text>
+                </g>
+                <g transform="matrix(1,0,0,1,-39.2334,265)">
+                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:128px;fill:white;">funksjon, målinger)</text>
+                </g>
+            </g>
+            <rect x="5633.5" y="2264.5" width="1207" height="603" style="fill:rgb(1,105,232);stroke:white;stroke-width:4.58px;"/>
+            <g transform="matrix(1,0,0,1,5940.58,2539)">
+                <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:128px;fill:white;">Nettbasert</text>
+                <g transform="matrix(1,0,0,1,-288.956,132)">
+                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:128px;fill:white;">behandlingsprogram</text>
+                </g>
+            </g>
+            <rect x="7093.5" y="2264.5" width="1207" height="603" style="fill:rgb(1,105,232);stroke:white;stroke-width:4.58px;"/>
+            <g transform="matrix(1,0,0,1,7197.34,2605)">
+                <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:128px;fill:white;">Pasientopplæring</text>
+            </g>
+        </g>
+    </g>
+</svg>
