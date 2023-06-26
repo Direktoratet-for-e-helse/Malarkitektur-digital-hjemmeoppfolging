@@ -4,7 +4,7 @@ title: Behov
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-|<span style="background-color:BlueViolet">Prerelease</span> | v0.9.0 | review  | ikke normert |
+|<span style="background-color:BlueViolet">Prerelease</span> | v0.9.1 | review  | ikke normert |
 
 Dette kapittelet gir en oversikt over de prioriterte behovene knyttet til tjenesteforløp der DHO benyttes. Det er ikke gjort et forsøk på å gi et komplett bilde av de funksjonelle behovene som må ivaretas for helsepersonell og pasient, det er isteden fokusert på behovet for informasjon, med formål å avdekke informasjonsbehov som må understøttes med samhandling mellom helsepersonell i ulike virksomheter. For en bredere og mer detaljert oversikt over brukerbehov, roller som er involvert og beskrivelse av de ulike informasjonstjenestene se vedlegget [Detaljert behovsbilde](../vedlegg/Detaljert-behovsbilde.md)
 
@@ -27,8 +27,8 @@ Spredningsprosjektet i Helsedirektoratet har publisert en animasjonsfilm om digi
 
 En fellesnevner ved behovsarbeidet vi har fått tilgang til er at alle utprøving- og spredningsprosjektene tar utgangspunkt i detaljerte beskrivelser av tjenesteforløp eller prosessbeskrivelser for å beskrive nå-situasjonen og for å avdekke behov knyttet til tjenesteforløpene som analyseres. Beskrivelsene av tjenesteforløpene er til dels svært detaljerte og beskriver ønsket eller eksisterende tjenesteforløp for en eller noen få pasientgrupper hvor DHO benyttes. Figuren under er et eksempel på hvordan Sykehuset i Vestfold illustrerer ønsket tjenesteforløp med utgangspunkt i oppfølging av pasient med KOLS og samarbeid mellom helsepersonell på Sykehuset Vestfold, Larvik kommune og fastlege.
 
-[![Tjenesteforløp eksempel](../img/tjenesteforlop-KOLS.png){ width="500" }](../img/tjenesteforlop-KOLS.png)  
-*Eksempel på tjenesteforløp for pasienter med KOLS*
+[![Figuren viser et eksempel på tjenesteforløp for pasient med KOLS diagnose som involverer oppfølging fra kommunehelsetjenesten og sykehus i samarbei og ved forverring av tilstanden](../img/tjenesteforlop-KOLS.png){ width="500" }](../img/tjenesteforlop-KOLS.png)  
+*Eksempel på tjenesteforløp for pasienter med KOLS diagnose, figuren er gjengitt med tillatelse fra Helse Sør-Øst HF.*
 
 ### Overordnet om samhandlingsbehov
 
