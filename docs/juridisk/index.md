@@ -75,7 +75,7 @@ Videre er det en juridisk forutsetning at informasjonen fra hver virksomhet ikke
 
 ## Regionale fellesløsninger
 
-Ved etablering av regionale fellesløsninger vil informasjonen som skal deles med andre virksomheter kun bli lagret i den regionale fellesløsningen (felles behandlingsrettet helseregister/journal), opplysningene skal ikke lagres lokalt. Grensesnitt for å avgi informasjon ved hjelp av datadeling etableres også som en del av den regionale fellesløsningen.
+Ved etablering av regionale fellesløsninger vil informasjonen som skal deles med andre virksomheter kun bli journalført i den regionale fellesløsningen (felles behandlingsrettet helseregister/journal), opplysningene skal ikke registreres i parallelle journaler. Grensesnitt for å avgi informasjon ved hjelp av datadeling etableres også som en del av den regionale fellesløsningen.
 
 ![Regionale fellesløsninger](../img/regional-felles-fokus.png)
 *Datadeling etableres som en del av en regional fellesløsning*
