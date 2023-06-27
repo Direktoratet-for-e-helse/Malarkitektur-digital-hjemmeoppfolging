@@ -27,8 +27,8 @@ Effektiv digital samhandling krever endrede prosesser og etablering av tekniske 
 Som et ledd i arbeidet med målarkitekturen for datadeling innen DHO er [behovene for samhandling analysert](behov/index.md). Virksomhetene som er involvert i å etablere tjenesteforløp som inneholder DHO-tjenester peker spesielt på behovet for samhandling om felles planer, legemiddellister og målinger. Alle disse informasjonstjenestene vil dra nytte av styrket digital samhandling i form av datadeling av strukturert informasjon mellom virksomheter og omsorgsnivå. Den foreløpige analysen peker på at også andre informasjonstjenester som er etterspurt i forbindelse med DHO, kan understøttes med datadeling.
 
 <figure markdown>
-  [![Figuren viser aktører som skal samhandle og de viktigste samhandlingsbehovene innen DHO. Aktørene omfatter: fastlegetjenesten, kommunal helse og omsorgstjeneste, spesialisthelsetjenesten og pasienten. De viktigste samhandlingsbehov innen DHO omfatter pasientdata, målinger, egenrapportering/skjema, notat, plan, hendelser og varsel/analyse](img/veikart-DHO.svg){ width="500" }](img/veikart-DHO.svg)
-  <figcaption>Figuren illustrerer hvilke aktører som kan være involvert i tjenesteforløp som inkluderer DHO og eksempel på informasjon som er relevant å dele mellom aktørene.</figcaption>
+  [![Figur som viser eksempler på aktører og informasjon som skal kunne utveksles med datadeling. Illustrasjon.](img/veikart-DHO.svg){ width="500" }](img/veikart-DHO.svg)
+  <figcaption>Figuren illustrerer hvilke aktører som kan være involvert i tjenesteforløp som inkluderer DHO og eksempel på informasjon som er relevant å dele mellom aktørene. Detaljene beskrives nærmere i [behovskapittelet](behov/index.md#eksempel-på-aktorer-og-samhandlingsbehov)</figcaption>
 </figure>
 
 ## Krav til etablering av datadeling

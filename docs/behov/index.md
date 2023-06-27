@@ -4,7 +4,7 @@ title: Behov
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-|<span style="background-color:BlueViolet">Prerelease</span> | v0.9.1 | review  | ikke normert |
+|<span style="background-color:BlueViolet">Prerelease</span> | v0.9.2 | review  | ikke normert |
 
 Dette kapittelet gir en oversikt over de prioriterte behovene knyttet til tjenesteforløp der DHO benyttes. Det er ikke gjort et forsøk på å gi et komplett bilde av de funksjonelle behovene som må ivaretas for helsepersonell og pasient, det er isteden fokusert på behovet for informasjon, med formål å avdekke informasjonsbehov som må understøttes med samhandling mellom helsepersonell i ulike virksomheter. For en bredere og mer detaljert oversikt over brukerbehov, roller som er involvert og beskrivelse av de ulike informasjonstjenestene se vedlegget [Detaljert behovsbilde](../vedlegg/Detaljert-behovsbilde.md)
 
@@ -20,7 +20,7 @@ Arbeidet med målarikteturen baserer seg i stor grad på innhenting av erfaringe
 
 Vi har ikke tatt inn detaljerte beskrivelser fra utprøving- og spredningsprosjektene, siden målarkitekturen skal være et generisk verktøy. For nye prosjekter som er i oppstart kan det være interessant å se til andre intitativer for å blant annet få erfaringer om organisatoriske utfordringer og få ideer til mulige løsninger.  
 
-Her er oversikt over de pågående spredningsprosjektene som er del av [Nasjonalt velferdsteknologiprogram](https://www.helsedirektoratet.no/nyheter/oppstart-av-spredning-av-digital-hjemmeoppfolging). 
+Her er oversikt over de pågående spredningsprosjektene som er del av [Nasjonalt velferdsteknologiprogram](https://www.helsedirektoratet.no/nyheter/oppstart-av-spredning-av-digital-hjemmeoppfolging).  
 Spredningsprosjektet i Helsedirektoratet har publisert en animasjonsfilm om digital hjemmeoppfølging på Helsedirektoratet sin hjemmeside som hjelp til å informere om hva DHO kan innebære. [Film - digital hjemmeoppfølging](https://www.helsedirektoratet.no/tema/velferdsteknologi/rapporter-og-andre-publikasjoner)
 
 ### Prosessbeskrivelser og tjenesteforløp
@@ -57,8 +57,27 @@ Samhandlingstjenester i behandlingsforløp der digital hjemmeoppfølging benytte
 3. Som pasient har jeg behov for tilgang til oppdatert og relevant informasjon for å mestre og ivareta egen helse
 4. Som pasient har jeg behov for at helsepersonell med tjenstlig behov har tilgang til relevant informasjon uavhengig av hvem som har registrert informasjonen, slik at jeg slipper å gjenfortelle historien min
 
-![Samhandlingsbehov](../img/datadeling-dho.png)  
-*Samhandlingsbehov knyttet til DHO*
+### Eksempel på aktører og samhandlingsbehov
+
+![Figur som viser eksempler på aktører og informasjon som skal kunne utveksles med datadeling. Illustrasjon.](../img/veikart-DHO.svg)  
+*Figuren viser eksempler på hvilke aktører som kan være involvert i tjenesteforløp som inkluderer DHO og eksempel på informasjon som er relevant å dele mellom aktørene.*
+
+Eksempler på aktører som har behov for å delta i samhandlingen:
+
+* fastlegetjenesten
+* kommunal helse og omsorgstjeneste
+* spesialisthelsetjenesten
+* pasient og pårørende
+
+Informasjon som skal kunne deles:  
+
+* pasientdata
+* målinger
+* egenrapportering/skjema
+* notat
+* plan
+* hendelser 
+* varsel/analyse
 
 ## Tjenesteforløp og samhandling
 
