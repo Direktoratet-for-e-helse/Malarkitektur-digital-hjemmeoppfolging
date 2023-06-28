@@ -46,7 +46,7 @@ Datadeling mellom virksomheter kan etableres på mange måter og målarkitekture
 
 <figure markdown>
   [![Figuren viser målarkitektur for datadeling. Illustrasjon.](img/malarkitektur.svg){ width="700" }](img/malarkitektur.svg)
-  <figcaption>Målarkitektur for datadeling, med kombinasjon av distribuerte datadelingstjenester, bruk av leverandør som databehandler og samarbeid mellom virksomheter, samt fellestjenester for å ivareta API katalog, tillitsanker og pasientinformasjonslokalisator. Selve datadelingen mellom virksomheter må baseres på felles semantiske spesifikasjoner for utvksling av informasjon mellom ulike løsninger.</figcaption>
+  <figcaption>Målarkitektur for datadeling, med kombinasjon av distribuerte datadelingstjenester, bruk av leverandør som databehandler og samarbeid mellom virksomheter. Datadelingen mellom virksomheter må baseres på felles semantiske spesifikasjoner for utvksling av informasjon mellom ulike datadelingsløsninger. Nødvendige fellestjenester må etableres for å understøtte datadelingen i form av API katalog, tillitsanker og pasientinformasjonslokalisator.</figcaption>
 </figure>
 
 ### Arkitekturvalg
