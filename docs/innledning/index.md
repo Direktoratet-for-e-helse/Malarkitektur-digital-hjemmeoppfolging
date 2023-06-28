@@ -92,11 +92,9 @@ Problemstillinger knyttet til avtalemessige og merkantile forhold er ikke behand
 
 ### Modenhet
 
-Bruk av datadeling for digital samhandling mellom virksomheter, omsorgsnivå og pårørende/pasient er relativt umodent. Til tross for mange utprøvingsprosjekter i Nasjonalt velferdsteknologiprogram har arbeidet med samhandling i form av datadeling kommet relativt kort og det er få tjenester som er realisert og tatt i bruk av helsetjenesten. Erfaringsgrunnlaget er derfor lite og anbefalingene knyttet til datadeling er beheftet med stor usikkerhet. Det vil være behov for revisjon av anbefalingene etterhvert som flere tjenester blir realisert.
+Bruk av datadeling for digital samhandling mellom virksomheter, omsorgsnivå og pårørende/pasient er relativt umodent. Til tross for mange utprøvingsprosjekter i Nasjonalt velferdsteknologiprogram (NVP) har arbeidet med samhandling i form av datadeling kommet relativt kort og det er få tjenester som er realisert og tatt i bruk av helsetjenesten. Erfaringsgrunnlaget er derfor lite og anbefalingene knyttet til datadeling er beheftet med stor usikkerhet. Det vil være behov for revisjon av anbefalingene etter hvert som flere tjenester blir realisert.
 
-Modenheten er også relativt lav når det gjelder å ta i bruk DHO i helsetjenesten. Men her er erfaringsunderlaget bedre etter at flere utprøvingsprosjekter er gjennomført i perioden 2018-2021. En erfaringsoppsummering er publisert av Helsedirektoratet.
-
-* [Digital hjemmeoppfølging - sluttrapport fra nasjonal utprøving 2018-2021](https://www.helsedirektoratet.no/rapporter/digital-hjemmeoppfolging-sluttrapport-fra-nasjonal-utproving-2018-2021)
+Modenheten er også relativt lav når det gjelder å ta i bruk DHO i helsetjenesten. NVP gjennomførte 6 nasjonale utprøvingsprosjekter i perioden 2018-2021. En [erfaringsoppsummering](https://www.helsedirektoratet.no/rapporter/digital-hjemmeoppfolging-sluttrapport-fra-nasjonal-utproving-2018-2021) er publisert av Helsedirektoratet. Fra 2022 er DHO videreført som et spredningsprosjekt i NVP og i overkant av 150 kommuner fordelt på 16 samarbeidsprosjekter jobber med spredning og innføring av DHO. I tillegg til prosjekter i regi av NVP pågår det flere lokale og regionale prosjekter i ulike RHF og HF.
 
 ## Metode for utvikling av målarkitekturen
 
@@ -117,7 +115,7 @@ I arbeidet med Nasjonalt velferdsteknologiprogram (NVP) er det identifisert utpr
 
 ### Koblingen mellom utprøving og målarkitektur
 
-Gjennom dialogen med helsepersonell i helsetjenesten, som har etablert tjenesteforløp, har vi identifisert og verifisert behov for samhandling og informasjonsdeling. Behovsforståelsen bygger på allerede gjennomførte kartlegginger og oppdateres løpende basert på praktiske erfaringer med å realisere nye tjenester som understøttes av nye informasjonstjenester som tas i bruk i helsetjenesten. Behovsarbeidet som gjennomføres i utprøving- og spredningsaktivitetene har vært viktige innspill til behovsarbeidet knyttet til målarkitekturen for datadeling DHO.  
+Gjennom dialog med helsepersonell, i de deler av helsetjenesten som har etablert tjenesteforløp, har vi identifisert og verifisert behov for samhandling og informasjonsdeling. Behovsforståelsen bygger på behovskartlegginger og oppdateres løpende basert på praktiske erfaringer med å realisere nye tjenester som understøttes av nye informasjonstjenester som tas i bruk i helsetjenesten. Behovsarbeidet som gjennomføres i utprøving- og spredningsaktivitetene har vært viktige innspill til behovsarbeidet knyttet til målarkitekturen for datadeling DHO.  
 
 Informasjonsbehovene er analysert og vurdert i forhold til hensiktsmessig bruk av samhandlingsform og behov for informasjonstjenester for å understøtte informasjonsbehovet. Det er også vurdert hvilke informasjonstjenester som bør realiseres som fellestjenester og hvilke som må realiseres i virksomhetenes infrastruktur. Resultatene er beskrevet som konkrete konsepter som er vurdert i forhold til gjeldende rett og hvor hensiktsmessig de ulike konseptene er for spredning, risiko og kompleksitet. Til slutt, peker målarkitekturen på nødvendige normerende produkter for å understøtte enhetlig semantisk samhandling.  
 
