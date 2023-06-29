@@ -84,7 +84,7 @@ Informasjon som skal kunne deles:
 Som en ramme for behovskartlegging beskrives generelle prosesstrinn som de fleste tjenesteforløp gjennomgår. Et tjenesteforløp beskriver organisering og oppgaver knyttet til å yte helsetjenester til pasienter som følges med digital hjemmeoppfølging. Prosesstrinnene er angitt på overordnet nivå og har som formål å knytte samhandlingsbehovene til et <!--Er det her ment å knytte til et behandlingsforløp eller tjenesteforløp? Hele denne innledende teksten må endres når vi er enige om begrepsbruk og innholdet-->generelt tjenesteforløp/pasientforløp. De overordnede prosesstrinnene kan spesifiseres ved behov for å synliggjøre hvordan samhandlingen understøtter mer spesifikke tjenesteforløp. Ved analyse av samhandlingsbehovene konsentrerer vi oss om hvordan tjenesteforløpet kan understøttes med nye eller endrede samhandlingsløsninger og det meste av arbeidet vil derfor handle om prosessene for **samhandling**. Vi tar utgangspunkt i en generell prosess for tjenesteforløpet i helsetjenesten (for eksempel knyttet til DHO) i figuren under.
 
 [![Figur som viser hvordan tjenesteforløet DHO inneholder samhandlingsprosesser. Archimate modell.](../img/tjenesteforlop-og-samhandling.png)](../img/tjenesteforlop-og-samhandling.png)  
-*Prosess for tjenesteforløp og samhandling*  
+*Sammenhenger mellom prosess for tjenesteforløpet DHO og samhandling med delprosesser*  
 
 I tillegg til behovskartlegging knyttet til [utprøving- og spredningsprosjekter](#behovskartlegging-basert-pa-pagaende-utprvingsprosjekter) er den generelle beskrivelsen av  tjenesteforløpet basert på Helsedirektoratets anbefalinger knyttet til [Utvikling av helhetlige tjenesteforløp](https://www.helsedirektoratet.no/rapporter/digital-hjemmeoppfolging-sluttrapport-fra-nasjonal-utproving-2018-2021/utvikling-av-helhetlige-tjenesteforlop).
 
@@ -112,8 +112,8 @@ Målarkitekturen skal beskrive behov for samhandling og informasjonstjenester so
 
 Figuren viser en oversikt over identifiserte informasjonsbehov i forbindelse med DHO:
 
-[![Identifiserte informasjonsbehov](../img/informasjonsbehov-enkel.png)](../img/informasjonsbehov-enkel.png)
-*Identifiserte informasjonsbehov*
+[![identifiserte informasjonsbehov i forbindelse med DHO. Illustrasjon.](../img/informasjonsbehov-enkel.svg)](../img/informasjonsbehov-enkel.svg)
+*Identifiserte informasjonsbehov i forbindelse med DHO*
 
 ### Samhandling innenfor geografiske regioner
 
@@ -161,8 +161,8 @@ Her vises i prioritert rekkefølge de informasjonstjenestene som er mest ettersp
 
 I tillegg er det en rekke andre informasjonstjenester som er høyt prioritert av tjenesten. Det er noen viktige sammenhenger mellom informasjonstjenestene som vises i figuren:
 
-[![Sammenhenger informasjonsbehov](../img/informasjonsbehov-sammenhenger.png)](../img/informasjonsbehov-sammenhenger.png)
-*Viktige sammenhenger mellom informasjonsbehov og informasjonskategorier*
+[![Modell som viser sammenhenger mellom informasjonsbehovene og ulike informasjonstjenester. Archimate modell.](../img/informasjonsbehov-sammenhenger.png)](../img/informasjonsbehov-sammenhenger.png)
+*Figuren viser viktige sammenhenger mellom informasjonsbehov og ulike informasjonstjenester*
 
 Det utvikles samhandlingsløsninger knyttet til behov for [digitale behandlings- og egenbehandlingsplaner](https://www.helsedirektoratet.no/om-oss/forsoksordninger-og-prosjekter/digital-behandlings-og-egenbehandlingsplan) og [legemiddelliste](https://www.ehelse.no/prosjekt/program-pasientens-legemiddelliste) gjennom egne initiativ. Disse behovene behandles derfor ikke videre i målarkitekturen, men intitaivene bør ses i sammenheng siden samhandlingsløsningene vil innvirke på den totale brukeropplevelsen for innbygger og helsepersonell.  
 
