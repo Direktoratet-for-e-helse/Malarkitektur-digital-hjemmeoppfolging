@@ -18,10 +18,10 @@ Arbeidet med målarikteturen baserer seg i stor grad på innhenting av erfaringe
 
     Jeg synes faktisk at mye av helsedataene som dokumenteres, med fordel også kan brukes ved polikliniske kontroller eller innleggelser... Å få denne dokumentasjonen inn i våre journaler høres veldig nyttig ut. 
 
-Vi har ikke tatt inn detaljerte beskrivelser fra utprøving- og spredningsprosjektene, siden målarkitekturen skal være et generisk verktøy. For nye prosjekter som er i oppstart kan det være interessant å se til andre intitativer for å blant annet få erfaringer om organisatoriske utfordringer og få ideer til mulige løsninger.  
+Vi har ikke tatt inn detaljerte beskrivelser fra utprøving- og spredningsprosjektene, siden målarkitekturen skal være et generisk verktøy. For nye prosjekter som er i oppstart kan det være interessant å se til andre intitativer for å blant annet få erfaringer om organisatoriske utfordringer og få ideer til mulige løsninger. Informasjon om spredningsprosjektet:  
 
-Her er oversikt over de pågående spredningsprosjektene som er del av [Nasjonalt velferdsteknologiprogram](https://www.helsedirektoratet.no/nyheter/oppstart-av-spredning-av-digital-hjemmeoppfolging).  
-Spredningsprosjektet i Helsedirektoratet har publisert en animasjonsfilm om digital hjemmeoppfølging på Helsedirektoratet sin hjemmeside som hjelp til å informere om hva DHO kan innebære. [Film - digital hjemmeoppfølging](https://www.helsedirektoratet.no/tema/velferdsteknologi/rapporter-og-andre-publikasjoner)
+* Her er oversikt over de pågående spredningsprosjektene som er del av [Nasjonalt velferdsteknologiprogram](https://www.helsedirektoratet.no/nyheter/oppstart-av-spredning-av-digital-hjemmeoppfolging).  
+* Spredningsprosjektet i Helsedirektoratet har publisert en animasjonsfilm om digital hjemmeoppfølging på Helsedirektoratet sin hjemmeside som hjelp til å informere om hva DHO kan innebære. [Film - digital hjemmeoppfølging](https://www.helsedirektoratet.no/tema/velferdsteknologi/rapporter-og-andre-publikasjoner)
 
 ### Prosessbeskrivelser og tjenesteforløp
 
@@ -76,14 +76,14 @@ Informasjon som skal kunne deles:
 * egenrapportering/skjema
 * notat
 * plan
-* hendelser 
+* hendelser
 * varsel/analyse
 
 ## Tjenesteforløp og samhandling
 
 Som en ramme for behovskartlegging beskrives generelle prosesstrinn som de fleste tjenesteforløp gjennomgår. Et tjenesteforløp beskriver organisering og oppgaver knyttet til å yte helsetjenester til pasienter som følges med digital hjemmeoppfølging. Prosesstrinnene er angitt på overordnet nivå og har som formål å knytte samhandlingsbehovene til et <!--Er det her ment å knytte til et behandlingsforløp eller tjenesteforløp? Hele denne innledende teksten må endres når vi er enige om begrepsbruk og innholdet-->generelt tjenesteforløp/pasientforløp. De overordnede prosesstrinnene kan spesifiseres ved behov for å synliggjøre hvordan samhandlingen understøtter mer spesifikke tjenesteforløp. Ved analyse av samhandlingsbehovene konsentrerer vi oss om hvordan tjenesteforløpet kan understøttes med nye eller endrede samhandlingsløsninger og det meste av arbeidet vil derfor handle om prosessene for **samhandling**. Vi tar utgangspunkt i en generell prosess for tjenesteforløpet i helsetjenesten (for eksempel knyttet til DHO) i figuren under.
 
-[![Prosess for tjenesteforløp og samhandling](../img/tjenesteforlop-og-samhandling.png)](../img/tjenesteforlop-og-samhandling.png)  
+[![Figur som viser hvordan tjenesteforløet DHO inneholder samhandlingsprosesser. Archimate modell.](../img/tjenesteforlop-og-samhandling.png)](../img/tjenesteforlop-og-samhandling.png)  
 *Prosess for tjenesteforløp og samhandling*  
 
 I tillegg til behovskartlegging knyttet til [utprøving- og spredningsprosjekter](#behovskartlegging-basert-pa-pagaende-utprvingsprosjekter) er den generelle beskrivelsen av  tjenesteforløpet basert på Helsedirektoratets anbefalinger knyttet til [Utvikling av helhetlige tjenesteforløp](https://www.helsedirektoratet.no/rapporter/digital-hjemmeoppfolging-sluttrapport-fra-nasjonal-utproving-2018-2021/utvikling-av-helhetlige-tjenesteforlop).
