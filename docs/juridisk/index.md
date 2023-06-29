@@ -4,7 +4,7 @@ title: Juridiske vurderinger
 
 | Status           | Version | Maturity | Normative level |
 | :--------------- | :------ | :------- | :-------------- |
-| <span style="background-color:BlueViolet">Prerelease</span> | v0.9.1 | review | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span> | v0.9.2 | review | ikke normert |
 
 ## Innledning
 
@@ -53,7 +53,7 @@ Konseptene som blir vurdert juridisk i dette kapittelet er nærmere beskrevet i 
 
 Distribuerte datadelingsløsninger i virksomhetenes infrastruktur baserer seg på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer. Helseopplysningene lagres lokalt.
 
-![Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)](../img/distribuert.png)
+![Figur som viser distribuerte datadelingsløsninger (i virksomhetenes infrastruktur). Illustrasjon.](../img/distribuert.svg)
 *Distribuerte datadelingsløsninger etablert i virksomhetenes infrastruktur*
 
 ### Juridisk
@@ -62,10 +62,10 @@ Virksomhetene kan selv etablere datadelingsløsninger for tilgjengeliggjøring a
 
 ## Distribuerte datadelingsløsninger (i sentral infrastruktur)
 
-Konseptet baserer seg (som ren distribuert modell) på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer, men istedenfor å etablere dette i egen infrastruktur etableres selve grensesnittet og datalager for datadeling i en felles infrastruktur. Helseopplysningene lagres lokalt. Helseopplysningene fra virksomhetene lagres i tillegg (duplisert) logisk adskilt i sentral infrastruktur.
+Konseptet baserer seg (som ren distribuert modell) på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer, men istedenfor å etablere dette i egen infrastruktur etableres selve grensesnittet og datalager for datadeling av en ekstern leverandør. Helseopplysningene lagres lokalt, i tillegg dupliseres de helseopplysningene som skal deles med andre virksomheter i en løsning fra leverandør. Helseopplysninger fra ulike virksomheter må lagres logisk adskilt hos leverandøren.
 
-![Distribuerte datadelingsløsninger (i sentral infrastruktur)](../img/distribuert-sentral.png)
-*Distribuerte datadelingsløsninger etablert i sentral infrastruktur*
+![Figur som viser distribuerte datadelingsløsninger etablert i leverandør sin infrastruktur. Illustrasjon.](../img/distribuert-sentral.svg)
+*Distribuerte datadelingsløsninger etablert i datadelingsløsning fra leverandør*
 
 ### Juridisk
 
