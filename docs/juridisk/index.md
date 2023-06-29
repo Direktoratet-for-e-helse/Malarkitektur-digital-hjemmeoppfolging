@@ -4,7 +4,7 @@ title: Juridiske vurderinger
 
 | Status           | Version | Maturity | Normative level |
 | :--------------- | :------ | :------- | :-------------- |
-| <span style="background-color:BlueViolet">Prerelease</span> | v0.9.0 | review | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span> | v0.9.1 | review | ikke normert |
 
 ## Innledning
 
@@ -24,8 +24,8 @@ For å behandle personopplysninger må den dataansvarlige videre ha et behandlin
 
 Slik DHO benyttes internt i en virksomhet i dag er det ikke nødvendig med regelverksutvikling. Det er først og fremst når virksomhetene har behov for å utveksle helseopplysninger på tvers av behandlingsnivåer (mellom primær- og spesialisthelsetjenesten), at det juridiske handlingsrommet blir utfordret.  
 
-![Datadeling i DHO](../img/datadeling-dho.png)
-*Behov for datadeling knyttet til DHO tjenesteforløp*
+![Figur som viser eksempler på aktører som har behov for å dele data om pasient i DHO tjenesteforløp. Illustrasjon.](../img/datadeling-dho.svg)
+*Aktører med behov for datadeling knyttet til DHO tjenesteforløp*
 
 ### Oppsummering
 
