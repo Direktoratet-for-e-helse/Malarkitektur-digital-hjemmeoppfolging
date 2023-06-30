@@ -4,13 +4,13 @@ title: Innledning
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:BlueViolet">Prerelease</span> | v0.9.1 | review  | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span> | v0.9.2 | review  | ikke normert |
 
-Helsesektoren har som overordnet mål å [styrke digital samhandling](https://www.ehelse.no/strategi/nasjonal-e-helsestrategi-for-helse-og-omsorgssektoren/mal-4-tilgjengelig-informasjon-og-styrket-samhandling) mellom aktørene i helse- og omsorgssektoren. Det er derfor startet en rekke tiltak innenfor området data- og dokumentdeling. Dette arbeidet er prioritert fordi data- og dokumentdeling er samhandlingsformer som tas i bruk på ulike måter innen stadig nye områder i helse- og omsorgstjenesten for å støtte opp under identifiserte behov.  
+Helse- og omsorgssektoren har samlet seg om en nasjonal e-helsestrategi. Et av målene i strategien er tilgjengelig informasjon og [styrket digital samhandling](https://www.ehelse.no/strategi/nasjonal-e-helsestrategi-for-helse-og-omsorgssektoren/mal-4-tilgjengelig-informasjon-og-styrket-samhandling). Digital samhandling, styrket informasjonsforvaltning og økt standardisering skal sørge for at oppdaterte helseopplysninger er sikre, av god kvalitet og lett tilgjengelig ved behov. Dette vil legge til rette for en mer aktiv innbygger, bedre og mer effektiv helsehjelp samt bedre datanalyser til kvalitetsforbedring, helseovervåkning og styring.  
 
-Innen digital hjemmeoppfølging (DHO) er behovet for datadeling spesielt stort. Pasientene som behandles trenger ofte fortløpende oppfølging fra flere virksomheter og på tvers av primær- og spesialisthelsetjenesten i et behandlingsforløp. Mange tjenestetilbydere ser at eksisterende samhandlingsløsninger ikke understøtter samhandlingsbehovet der hyppige oppdateringer, dialog og ansvarsoverganger forekommer, slik som for pasienter som benytter DHO.  Hensikten med målarkitekturen er å sikre en koordinert utvikling og bidra til økt bruk av datadeling i sektoren.  
+Innen digital hjemmeoppfølging (DHO) er behovet for bedre informasjonsflyt spesielt stort. Pasientene som behandles trenger ofte fortløpende oppfølging fra flere virksomheter og på tvers av primær- og spesialisthelsetjenesten i et behandlingsforløp. Mange tjenestetilbydere ser at eksisterende samhandlingsløsninger ikke understøtter samhandlingsbehovet der hyppige oppdateringer, dialog og ansvarsoverganger forekommer, slik som for pasienter som benytter DHO. Deling av strukturerte helseopplysninger mellom helsepersonell og med innbygger ved hjelp av datadeling er en ny samhandlingsform som gir helt nye muligheter for å digitalisere helse- og omsorgstjenestene og ta i bruk innovative løsning. Hensikten med målarkitekturen er å sikre en koordinert utvikling og bidra til økt bruk av datadeling i sektoren.  
 
-## Hva er Digital hjemmeoppfølging
+## Hva er digital hjemmeoppfølging
 
 Digital hjemmeoppfølging handler om å følge opp, behandle og kommunisere med pasienter på nye måter ved hjelp av ulike former for teknologistøtte.
 
@@ -18,7 +18,7 @@ Digital hjemmeoppfølging handler om å følge opp, behandle og kommunisere med 
 
     Digital hjemmeoppfølging innebærer at hele eller deler av et behandlingstilbud foregår uten fysisk kontakt, der dialog og deling av data mellom pasient/bruker og behandler(e) skjer digitalt.
 
-Det er vesentlig at oppfølgingen ikke begrenses til der pasienten bor, men at DHO også kan benyttes andre steder, for eksempel på jobb, skole, institusjon, på reise og hos ulike helseaktører. Pasienten kan i prinsippet oppholde seg hvor som helst fysisk, men likevel kunne motta oppfølging fra helsetjenesten når det er forsvarlig. Arbeidet med målarkitekturen har fokus på oppfølging av pasienten basert på data fra pasienten, som vist i figuren under. Se forøvrig oppsummering av målbildet for DHO.  
+Det er vesentlig at oppfølgingen ikke begrenses til der pasienten bor, men at DHO også kan benyttes andre steder, for eksempel på jobb, skole, institusjon, på reise og hos ulike helseaktører. Pasienten kan i prinsippet oppholde seg hvor som helst fysisk, men likevel kunne motta oppfølging fra helsetjenesten når det er forsvarlig. Målarkitekturen har fokus på oppfølging av pasienten basert på data fra pasienten, som vist i figuren under. Se forøvrig oppsummering av [målbildet for DHO](../vedlegg/Overordnet-maalbilde.md).  
 
 [![Figur som viser hovedfokus for arbeidet med målarkitekturen. Illustrasjon.](../img/hva-er-DHO.svg){ width="700" }](../img/hva-er-DHO.svg)
 *Hovedfokus for arbeidet med målarkitekturen er den delen av DHO som handler om oppfølging basert på data fra pasienten*  
@@ -83,6 +83,7 @@ Målarkitekturen for datadeling innen DHO bygger på eksisterende målarkitektur
 
 Problemstillinger knyttet til avtalemessige og merkantile forhold er ikke behandlet i målarkitekturen. Dette inkluderer:
 
+* Datadeling i en virksomhet
 * Løsningsarkitektur som beskriver hvordan konseptene realiseres behandles ikke, for eksempel bruk og utvidelse av funksjonaliteten i Velferdsteknologisk knutepunkt (VKP)
 * Finansiering av løsninger og fellesløsninger
 * Avtalemessige forhold mellom virksomhetene beskrives ikke i detalj

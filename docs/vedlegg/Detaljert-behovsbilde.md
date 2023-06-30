@@ -36,10 +36,10 @@ Tabellen under viser en oversikt over:
 |Rolle| Prioritet / tidsperspektiv|brukerbehov|Funksjonelle krav|
 |-----|-----------|-----------------|--------------------|
 |Helsepersonell (kommune, spesialist og fastlege)|høy / lang|Bedre støtte for eksplisitte ansvarsoverganger mellom virksomheter||
-|Helsepersonell (kommune, spesialist og fastlege)|høy / mellom|Finne hvilken informasjon andre virksomheter og behandlingsnivåer har om pasienten|Søkefunksjonalitet for å finne hvilke virksomhetene som har informasjon om pasienten|
+|Helsepersonell (kommune, spesialist og fastlege)|høy / mellom|Finne hvilken informasjon andre virksomheter og behandlingsnivåer har om pasienten|Søkefunksjonalitet for å finne hvilke virksomhetene som har informasjon om pasienten||
 |Helsepersonell (kommune, spesialist og fastlege)|høy / kort|Understøtte sammensatte behandlingsforløp med planlagte og uplanlagte kontakter med helsetjenesten, tilpasset informasjonsmengde til problemet|Mulighet for å tilpasse hvilken informasjon som hentes fra kildene|
-|Helsepersonell (kommune, spesialist og fastlege)|høy / kort|Understøtte sammensatte behandlingsforløp med planlagte og uplanlagte kontakter med helsetjenesten, umiddelbar tilgang til informasjon ved behov|Når informasjonen kan hentes fra kilden umiddelbart ved behov er det ikke nødvendig å vedlikeholde en oppdatert kopi lokalt eller sentralt|
-Understøtte umiddelbar tilgang til informasjon når behovet oppstår og med mulighet for å til
+|Helsepersonell (kommune, spesialist og fastlege)|høy / kort|Understøtte sammensatte behandlingsforløp med planlagte og uplanlagte kontakter med helsetjenesten, umiddelbar tilgang til informasjon ved behov|Når informasjonen kan hentes fra kilden umiddelbart ved behov er det ikke nødvendig å vedlikeholde en oppdatert kopi lokalt eller sentralt. </br> 
+Understøtte umiddelbar tilgang til informasjon når behovet oppstår og med mulighet for å til|
 |Helsepersonell (kommune, spesialist og fastlege)|høy / kort|Vise informasjon som andre virksomheter og behandlingsnivåer har samlet inn om pasienten|Felles informasjonsstruktur og innhold er viktig både for: </br> - Å vise informasjon fra flere eksterne virksomheter </br> - Tilby enhetlig søkegrensesnitt på tvers av flere virksomheter </br> - Sammenstilling av informasjon fra flere kilder i felles visning|
 |Helsepersonell (kommune, spesialist og fastlege) | høy / mellom | Vise trender og sammenhenger mellom informasjon samlet inn i egen og andre virksomheter|Felles informasjonsstruktur og innhold er viktig både for: </br> - Å vise informasjon fra flere eksterne virksomheter </br> - Tilby enhetlig søkegrensesnitt på tvers av flere virksomheter </br> - Sammenstilling av informasjon fra flere kilder i felles visning|
 |Helsepersonell (kommune, spesialist og fastlege)|høy / kort|Samhandlingen og arbeidsflyten skal ikke medføre dobbeltarbeid|Det skal ikke være nødvendig å registrere samme informasjon flere ganger (i ulike systemer) eller logge seg på i ulike systemer for å gjennomføre arbeidsoppgaver knyttet til samme pasient og tiltak (SSO) /Er det noe krav til innlogging med tanke på HPR, må alle være registrert der? Trenger også personell som sekretærer tilgang?|
@@ -62,7 +62,8 @@ Understøtte umiddelbar tilgang til informasjon når behovet oppstår og med mul
 
 Figuren viser en overordnet oversikt over roller som kan være involvert i DHO baserte tjenesteforløp. Denne rolleoversikten er basert på dialog med aktører fra kommune-, fastlege- og spesialisthelsetjenesten i to utprøvingsprosjekt, og vil derfor ikke være uttømmende.
 
-[![Roller](../img/roller.png)](../img/roller.png)
+[![Modell som viser roller knyttet til tjenesteforløp med digital hjemmeoppfølging. Archimate modell.](../img/roller.png)](../img/roller.png)
+*Roller knyttet til DHO baserte tjenesteforløp*  
 
 | **Rolle** | **Definisjon** |
 |---|---|
@@ -93,11 +94,13 @@ Referanser: [sentrale begreper definert i Program Digital Samhandling](https://s
 
 Ulike tjenesteforløp vil ha forskjellige behov for informasjon. Disse behovene beskriver vi i form av ulike typer informasjonsressurser og informasjonstjenester. Modellen viser hvilke overordnede informasjonsressurser og informasjonstjenester (gruppering av informasjonsbehov) det er avdekket behov for i forbindelse med DHO. Det er gjennomført en mapping av informasjonsressursene og hvordan informasjonsressursen henger sammen med informasjonstjenester definert i [Sentralt styringsdokument Akson - Helhetlig samhandling (bilag G2)](https://www.ehelse.no/publikasjoner/sentralt-styringsdokument-akson-helhetlig-samhandling-og-felles-kommunal-journallosning).
 
-[![Detaljert oversikt over informasjonsbehov](../img/informasjonsbehov-total.png)](../img/informasjonsbehov-total.png)
+[![Modell som viser detaljert oversikt over informasjonsbehov og sammenhenger mellom dem. Archimate modell.](../img/informasjonsbehov-total.png)](../img/informasjonsbehov-total.png)
+*Detaljerte informasjonsbehov identifisert i forbindelse med DHO*  
 
 I tillegg er det identifisert behov for dialogtjenester for kommunikasjon mellom helsepersonell og mellom helsepersonell og innbygger:
 
-![Dialogtjenester](../img/dialog.png)
+![Modell som viser ulike typer dialogtjenester. Archimate modell.](../img/dialog.png)
+*Ulike typer dialogtjenester som kan være relevante å benytte i forbindelse med DHO*
 
 ### Analyse av informasjonsbehovene
 
@@ -134,7 +137,7 @@ Tabellen under oppsummerer: <!--Tatt ut setning her da det sier det samme i kule
 | Vurderinger |  | Henger sammen med varsel og målinger, undersøkelser og funn |  |  |  |  |  |  |
 
 ## Målinger, vurderinger og varsel
-
+<!-- HIT -->
 Målinger består av flere typer måleparametere som beskriver pasientens helsetilstand og som kan bidra til å støtte oppfølging av behandling og synliggjøre endring i tilstand. Figuren viser omfanget for deling av målinger i første fase av utprøving av datadeling ved bruk av velferdsteknologisk knutepunkt (VKP):
 
 ![Datadeling av målinger med VKP](https://user-images.githubusercontent.com/6229665/201674756-0db63ed3-6100-42f1-9e4c-daa2a55b855b.png)
