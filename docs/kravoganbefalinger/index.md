@@ -4,7 +4,7 @@ title: Krav og anbefalinger
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:BlueViolet">Prerelease</span> | v0.9.0 | review  | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span> | v0.9.1 | review  | ikke normert |
 
 ## Samhandling mellom helsepersonell på tvers av virksomheter
 
@@ -33,7 +33,7 @@ Basert på  arkitekturvurderingene i dette kapittelet kombinert med identifisert
 
 Datadeling mellom virksomhetene realiseres ved at virksomhetene etablerer grensesnitt for å avgi data til andre virksomheter, enten som distribuerte løsninger (i egen infrastruktur eller levert av leverandør) eller gjennom regionale fellesløsninger innenfor et §9-samarbeid.
 
-[![Anbefalt konsept for datadeling med kombinasjon av distribuerte datadelingsløsninger og regionale fellesløsninger](../img/malarkitektur.png)](../img/malarkitektur.png)
+[![Figur som viser anbefalt konsept for datadeling med kombinasjon av distribuerte datadelingsløsninger og regionale fellesløsninger. Illustrasjon.](../img/malarkitektur.svg)](../img/malarkitektur.svg)
 *Målarkitektur for datadeling, med kombinasjon av distribuerte datadelingstjenester, bruk av leverandør som databehandler og samarbeid mellom virksomheter*  
 
 Målarkitekturen forutsetter at det foreligger felles semantiske spesifikasjoner for informasjonen som skal utveksles. Det er viktig at spesifikasjonene beskriver minimumskrav til struktur, innhold og bruk av terminologi og kodeverk, i tillegg til felles krav knyttet til selve datadelingsgrensesnittet.
@@ -119,8 +119,8 @@ Modellen *Kapabilitetskart koblet til samhandlingsprosess* viser overordnede rol
 
 Samhandling mellom virksomheter og omsorgsnivå kan foregå på flere måter, kapabilitetskartet viser kapabiliteter som er relevante for både datadeling, dokumentdeling, hendelsesstrømmer og meldingsutveksling. I forbindelse med tjenesteforløp i DHO er den mest relevante samhandlingsformen datadeling som understøttes av kapabilitetene "innhente data" og "avgi data". I tillegg er det behov for en rekke forberedende kapabiliteter for å sette opp datadeling (få tilgang til data, tilgjengeliggjøre data, lokalisere relevante data og metadatapublisering) og noen kapabiliteter som bør realiseres som fellestjenester (tjenesteformidling, metadataformidling, delegere rettigheter og meldingsformidling).
 
-[![Kapabilitetskart prosess](../img/kapabilitetskart-prosess.png)](../img/kapabilitetskart-prosess.png)
-*Kapabilitetskart koblet til samhandlingsprosess*
+[![Modell som viser samhandlingsprosessen med roller og kapabiliteter. Archimate modell.](../img/kapabilitetskart-prosess.png)](../img/kapabilitetskart-prosess.png)
+*Samhandlingsprosessen koblet til roller og kapabiliteter som er nødvendig for å realisere samhandlingen.*
 
 <!-- Tillitsskapende tjenester som avtalehåndtering og identitetsforvaltning kan legges in i kapabilitetsmodellen slik at det blir synliggjort at avtalehåndtering mangler (samordningsalternativet for tillitstjenester og tillitsanker) -->
 
@@ -178,8 +178,8 @@ I behovsbildet har vi beskrevet og prioritert hvilke [informasjonstjenester](../
 
 Modellen *Sentrale prosesser knyttet til samhandling* viser hvordan prosesser, funksjoner og applikasjonstjenester sammen realiserer samhandlingsevnene vi pekte på i forrige kapittel. Hovedfokuset i den videre analysen er å beskrive prosessene som må realiseres for å understøtte de mest sentrale kapabilitetene knyttet til [datadeling](../vedlegg/Organisatorisk-sla-opp.md).  
 
-[![Prosesser knyttet til samhandling](../img/tjenester-kapabiliteter.png)](../img/tjenester-kapabiliteter.png)
-*Overordnet bilde av prosesser og applikasjonstjenester som understøtter samhandling mellom virksomheter*
+[![Modell som viser prosesser og applikasjonstjenester koblet til kapabiliteter. Archimate modell.](../img/tjenester-kapabiliteter.png)](../img/tjenester-kapabiliteter.png)
+*Overordnet bilde av prosesser og applikasjonstjenester som understøtter samhandling mellom virksomheter og er nødvendige for å realisere kapabilitetene for samhandling*
 
 ### Informasjonstjenester og prosesser
 
@@ -189,7 +189,7 @@ I denne delen av målarkitekturen beskrives de mest sentrale prosessene for å k
 
 Det er flere problemstillinger knyttet til å faktisk understøtte utvekslingen av, bruken av og produksjonen av informasjon i forretningsprosessene hos datakonsumenter, dataprodusenter og datatilbydere som ikke er behandlet i detalj i HITR 1231:2021. Beskrivelsen av hvordan samhandlingen henger sammen med faktiske forretningsprosesser og automatiserte tjenester i virksomheten er hovedfokus for målarkitekturen for datadeling innen DHO.
 
-[![Overordnet bilde av fellestjenester beskrevet i målarkitektur for datadeling](../img/malarkitektur-datadeling.png)](../img/malarkitektur-datadeling.png)  
+[![Figur som viser et overordnet bilde av fellestjenester beskrevet i målarkitektur for datadeling. Illustrasjon](../img/malarkitektur-datadeling.png)](../img/malarkitektur-datadeling.png)  
 *Overordnet bilde av fellestjenester beskrevet i målarkitektur for datadeling*
 
 ### Tillitstjenester og tjenstlig behov
@@ -202,7 +202,7 @@ Tre prosesser står sentralt for datatilbydere som skal dele data ved hjelp av d
 
 På et overordnet nivå kan sammenhengen mellom disse prosessene beskrives som i modellen nedenfor. Prosessene i lys-lys-gul farge er behandlet i HITR 1231:2021 og underprosesser er beskrevet der.
 
-[![Sammenheng mellom tilgjengeliggjøring, produksjon og avgi forspurte data](../img/datadeling-datatilbyder.png)](../img/datadeling-datatilbyder.png)
+[![Modell som viser sammenheng mellom prosessene for tilgjengeliggjøring, produksjon og avgi forspurte data. Archimate modell.](../img/datadeling-datatilbyder.png)](../img/datadeling-datatilbyder.png)
 *Sammenhengen mellom prosessene for å tilgjengeliggjøre, produsere informasjon og avgi forespurte data*
 
 Prosessen for å **Tilgjengeliggjøre** etablerer datadelingstjenesten og beskriver grensesnittet datadelingstjenesten tilbyr (vanligvis i form av API dokumentasjon).  
@@ -215,8 +215,8 @@ Når en konsumerende virksomhet forespør data fra datadelingstjenesten starter 
 
 Tilgjengeliggjøring av API og hvilke programvarekomponenter det er behov for i den delen av prosessen som omhandler registrering, avtaler og tildele tilganger er godt behandlet i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren). Vi vil ikke diskutere denne delen av prosessen ytterligere her. Derimot er prosessen knyttet til å etablere og dokumentere et API ikke beskrevet som en del av HITR 1231:2021. Dette er en viktig prosess for å forstå hvordan man får forretningsprosessene i virksomheten til å henge sammen med samhandling gjennom datadeling. En overordnet beskrivelse av prosessen *Etablere API* er gjengitt nedenfor. Prosessene i lys-lys-gul farge er behandlet i HITR 1231:2021:
 
-[![Tilgjengeliggjøre data gjennom API (datadelingstjeneste)](../img/tilgjengeliggjore.png)](../img/tilgjengeliggjore.png)  
-*Tilgjengeliggjøre data gjennom API (datadelingstjeneste)*  
+[![Modell som viser prosessene for å tilgjengeliggjøre data gjennom API (datadelingstjeneste). Archimate modell.](../img/tilgjengeliggjore.png)](../img/tilgjengeliggjore.png)  
+*Prosessene for å tilgjengeliggjøre data gjennom API (datadelingstjeneste)*  
 
 *Etablere API* dekker den delen av prosessen som foregår før informasjon faktisk kan tilgjengeliggjøres fra en virksomhet til en annen og handler om prosessen knyttet til å vurdere hvilken informasjon som skal tilgjengeliggjøres, tilrettelegge for at denne informasjonen kan tilgjengeliggjøres for andre virksomheter (unntatt sikkerhet og tilgangstyring) og etableringen av funksjonalitet for å avgi informasjonen på en effektiv måte gjennom eksternt tilgjengelige funksjons-kall, samt å dokumentere de tilgjengelige grensesnittene.
 
@@ -226,7 +226,7 @@ Vanligvis vil reglene for ekstern tilgang etableres som automatiserte uttrekk fr
 
 Det vil vanligvis være et stort antall *forretningsprosesser* og løsninger knyttet til *produksjon av informasjon* i en virksomhet. Denne delen av prosessbeskrivelsen behandler ikke selve produksjonen av informasjon i *forretningsprosessen*, men fokuserer på de prosessene som må etableres i virksomheten for å gjøre informasjon som produseres i virksomhetens forretningsprosesser tilgjengelig for eksterne brukere i form av datadeling i et API. En overordnet modell av prosessen er gjengitt nedenfor:
 
-[![Produksjon av informasjon](../img/produksjon-informasjon.png)](../img/produksjon-informasjon.png)
+[![Modell som viser prosessene for produksjon av informasjon. Archimate modell.](../img/produksjon-informasjon.png)](../img/produksjon-informasjon.png)
 *Prosesser forbundet med å tilgjengeliggjøre produsert informasjon i et API og metadatahåndtering*
 
 Prosessene for å *tilgjengeliggjøre data i API* utløses når en *forretningsprosess* produserer informasjon og det på forhånd er bestemt at informasjonen skal tilgjengeliggjøres for datadeling (se [Tilgjengeliggjøre](#prosesser-for-tilgjengeliggjre)). Vanligvis vil da den interne sørge for at informasjonen som skal tilgjengeliggjøres i datadelingstjenesten kan håndteres av prosessen for å *tilgjengeliggjøre data i API*. Ofte vil det være slik at bare noe av informasjonen er interessant eller relevant å dele med eksterne virksomheter. Derfor vil de fleste *tilpasse data mengde* i forhold til hva eksterne brukere har tjenstlig behov for å se. Det vil også i mange tilfeller gjøres endringer i hvordan data struktureres og indekseres for å understøtte søk og utveksling av informasjon i prosesser knyttet til *tilpasse data format og søk*. Når disse delene av prosessen er gjennomført eksisterer det *Data tilgjengeliggjort i API* som eksterne virksomheter kan få tak i gjennom en *datadelingstjeneste*.  
@@ -237,8 +237,8 @@ Det er også viktig, men ikke absolutt nødvendig, å *utvinne metadata* om info
 
 Datatilbydere som ønsker å dele data ved hjelp av datadeling må realisere en prossess for å *avgi forespurte data*. Denne prosessen gjør det mulig å avgi data i form av et *svar på forespørsel* som inneholder data som er forespurt av datakonsumenten. En overordnet modell av prosessen er gjengitt nedenfor. Prosessene i lys-lys-gul farge er behandlet i HITR 1231:2021 og beskrives ikke i detalj her.
 
-[![Avgi forespurte data](../img/avgi-data.png)](../img/avgi-data.png)
-*Prosesser forbundet med å avgi forespurte data*
+[![Modell som viser prosessene for å avgi forespurte data ved hjelp av datadeling. Archimate modell.](../img/avgi-data.png)](../img/avgi-data.png)
+*Prosesser og applikasjonstjenester for å avgi forespurte data ved hjelp av datadeling*
 
 Vi antar her at datakonsument har tilgang til API og er autentisert og autorisert for bruk av APIet. En validert *sikkerhetsbillett* og en *forespørsel om data* foreligger for datatilbyder. Datatilbyder må bruke informasjonen i forespørselen for å *Finne forespurte data* i *data tilgjengeliggjort i API*. Resultatet av denne prosessen er at alle *forespurte data* trekkes ut for videre behandling. I noen tilfeller vil scopet i sikkerhetsbilletten ikke gi brukeren tilgang til all informasjonen som tilbys gjennom datadelingstjenesten. Da må *forespurte data* "filtreres basert på rolle og tjenstlig behov". *Forespørsel om data* kan også inneholde andre filtre der datakonsumenten har gjort en vurdering av hvilke data konsumenten trenger. Da må datatilbyder gjennomføre dataminimering basert på angitte filtre fra konsument. Data må også struktureres i henhold til datamodellen som er beskrevet for APIet før svaret til slutt kan sikres for transport i form av funksjoner for *kryptering og non repudiation*. *Svaret på forespørsel* foreligger nå og kan avgis til datakonsumenten.  
 
@@ -246,10 +246,10 @@ Vi antar her at datakonsument har tilgang til API og er autentisert og autoriser
 
 Tre prosesser står sentralt for datakonsumenter som skal innhente informasjon ved hjelp av datadeling: *Få tilgang til data*, *Finne relevante data* og *Slå opp*. På overordnet nivå kan sammenhengen mellom disse prosessene og informasjonen som flyter mellom disse beskrives som i modellen under. Prosessene i lys-lys-gul farge er behandlet i HITR 1231:2021 og underprosesser er beskrevet der.
 
-[![Prosesser for datakonsumenter](../img/datadeling-datakonsument.png)](../img/datadeling-datakonsument.png)
-*Prosesser forbundet med rollen som datakonsument, inkludert de viktigste tjenestene som må etableres og integreres med*
+[![Modell som viser prosesser for rollen datakonsument. Archimate modell.](../img/datadeling-datakonsument.png)](../img/datadeling-datakonsument.png)
+*Prosesser forbundet med rollen som datakonsument, inkludert de viktigste tjenestene som må etableres og integreres i arbeidsflyten*
 
-**Få tilgang til data** finner relevante APIer som virksomheten har behov for å integrere med, etablerer *Datadelingstjeneste (konsument)* (klientfunksjonalitet) som skal kommunisere med datatilbyderens datadelingstjeneste. Intern dataflyt etableres også her, noe som gjør det mulig å benytte data i interne fagsystemer. 
+**Få tilgang til data** finner relevante APIer som virksomheten har behov for å integrere med, etablerer *Datadelingstjeneste (konsument)* (klientfunksjonalitet) som skal kommunisere med datatilbyderens datadelingstjeneste. Intern dataflyt etableres også her, noe som gjør det mulig å benytte data i interne fagsystemer.  
 
 **Finne relevante data** utløses av *behov for informasjon* i eksisterende *forretningsprosesser* i virksomheten. Prosessen beskriver hvordan det er mulig å *finne tjenester som tilbyr spesifikk type informasjon* og *finne tjenester som har informasjon om pasient*. I det siste tilfellet trengs det tilgang til en fellestjeneste for *pasieninformasjonslokalisator* for å identifisere hvilke datadelingstjenster som inneholder informasjon om pasienten.
   
