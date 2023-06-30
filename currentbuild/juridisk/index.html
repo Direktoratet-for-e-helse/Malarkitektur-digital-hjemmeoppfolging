@@ -926,11 +926,11 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#distribuerte-datadelingslsninger-i-sentral-infrastruktur" class="md-nav__link">
-    Distribuerte datadelingsløsninger (i sentral infrastruktur)
+  <a href="#distribuerte-datadelingslsninger-i-leverandr-infrastruktur" class="md-nav__link">
+    Distribuerte datadelingsløsninger (i leverandør infrastruktur)
   </a>
   
-    <nav class="md-nav" aria-label="Distribuerte datadelingsløsninger (i sentral infrastruktur)">
+    <nav class="md-nav" aria-label="Distribuerte datadelingsløsninger (i leverandør infrastruktur)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1062,7 +1062,7 @@
 <p>Målarkitekturen for datadeling forutsetter at det opprettes en fellesløsning for å lokalisere data om en pasient (kalt Pasientinformasjonslokalisator (PIL)) for at datadeling mellom mange datadelingsløsninger skal fungere. Det er i dag ikke rettslig grunnlag for å etablere en slik fellesløsning med sentral sammenstilling av informasjon, dette krever forskriftsendring. Det er usikkert hvordan PIL kan/skal etableres. Pasientjournalloven § 10 åpner for å gi forskrift om sentraliserte  infrastrukturkomponenter for å støtte samhandlingen. Lovbestemmelsen gir i seg selv ikke tilstrekkelig grunnlag for å etablere en sentralisert PIL-komponent. Derimot kan en regional PIL-komponenent etableres innenfor gjeldende rett, jf. pasientjournalloven § 9.</p>
 <p>Vi har særlig vurdert følgende spørsmål som påvirker hvilke konsepter og løsningsvalg som kan vurderes:</p>
 <ol>
-<li>Hvilke rammer setter regelverket for å etablere datadelingsløsninger sentralisert (i sentral infrastruktur), regionalt eller distribuert (i virksomhetenes egen infrastruktur)?  </li>
+<li>Hvilke rammer setter regelverket for å etablere datadelingsløsninger sentralisert (i leverandør infrastruktur), regionalt eller distribuert (i virksomhetenes egen infrastruktur)?  </li>
 <li>Hvilket handlingsrom har dataansvarlig til å etablere teknisk infrastruktur for datadeling.  <ul>
 <li>Avklarer hvorvidt datadelingsløsninger kan etableres for en dataansvarlig av en tredjepart, der behandling av helseopplysninger er regulert av en databehandleravtale, eller om virksomheten er bundet til å håndtere alle funksjoner knyttet til datadeling innenfor egen infrastruktur og med en teknisk komponent for å lagre helseopplysningene.  </li>
 </ul>
@@ -1076,7 +1076,7 @@
 <em>Distribuerte datadelingsløsninger etablert i virksomhetenes infrastruktur</em></p>
 <h3 id="juridisk">Juridisk</h3>
 <p>Virksomhetene kan selv etablere datadelingsløsninger for tilgjengeliggjøring av pasientinformasjon fra egne interne systemer til helsepersonell i andre virksomheter som har tjenstlig behov for informasjonen. Forutsetningen for tilgjengeliggjøringen er at dette kan skje innenfor rammen av pasientjournalloven § 19, slik at hensynet til taushetsplikt, personvern og informasjonssikkerhet ivaretas.  </p>
-<h2 id="distribuerte-datadelingslsninger-i-sentral-infrastruktur">Distribuerte datadelingsløsninger (i sentral infrastruktur)</h2>
+<h2 id="distribuerte-datadelingslsninger-i-leverandr-infrastruktur">Distribuerte datadelingsløsninger (i leverandør infrastruktur)</h2>
 <p>Konseptet baserer seg (som ren distribuert modell) på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer, men istedenfor å etablere dette i egen infrastruktur etableres selve grensesnittet og datalager for datadeling av en ekstern leverandør. Helseopplysningene lagres lokalt, i tillegg dupliseres de helseopplysningene som skal deles med andre virksomheter i en løsning fra leverandør. Helseopplysninger fra ulike virksomheter må lagres logisk adskilt hos leverandøren.</p>
 <p><img alt="Figur som viser distribuerte datadelingsløsninger etablert i leverandør sin infrastruktur. Illustrasjon." src="../img/distribuert-sentral.svg" />
 <em>Distribuerte datadelingsløsninger etablert i datadelingsløsning fra leverandør</em></p>
@@ -1084,7 +1084,7 @@
 <p>Virksomhetene kan velge å benytte en tredjepart (databehandler) som tilbyr datadelingsløsning i stedet for å etablere dette selv. Forutsetningen er som over at tilgjengeliggjøringen kan skje innenfor rammen av pasientjournalloven § 19, slik at hensynet til taushetsplikt, personvern og informasjonssikkerhet ivaretas.  </p>
 <p>Videre er det en juridisk forutsetning at informasjonen fra hver virksomhet ikke sammenstilles med informasjon fra andre virksomheter i den sentrale infrastrukturen (hos databehandler), men at løsningene for lagring og grensesnittene etableres som logisk adskilte løsninger for hver virksomhet. Behandlingen av helseopplysninger i sentral infrastruktur må reguleres av en databehandleravtale mellom den enkelte virksomheten og leverandøren av infrastrukturen. Mer informasjon om de juridiske vurderingene knyttet til bruk av ekstern databehandler for å etablere datadelingsløsninger er lagt i <a href="../vedlegg/Juridisk-intern-kopi/">vedlegg</a>.  </p>
 <h2 id="regionale-felleslsninger">Regionale fellesløsninger</h2>
-<p>Ved etablering av regionale fellesløsninger vil informasjonen som skal deles med andre virksomheter kun bli journalført i den regionale fellesløsningen (felles behandlingsrettet helseregister/journal), opplysningene skal ikke registreres i parallelle journaler. Grensesnitt for å avgi informasjon ved hjelp av datadeling etableres også som en del av den regionale fellesløsningen.</p>
+<p>Ved etablering av regionale fellesløsninger vil informasjonen som skal deles med andre virksomheter kun bli journalført i den regionale fellesløsningen (felles behandlingsrettet helseregister/journal), opplysningene skal ikke registreres i parallelle journaler. Grensesnitt for å avgi informasjon ved hjelp av datadeling etableres også som en del av den regionale fellesløsningen, enten som en integrert del av fellesløsningen eller ved å bruke en løsning fra leverandør (se <a href="https://direktoratet-for-e-helse.github.io/Malarkitektur-digital-hjemmeoppfolging/currentbuild/vedlegg/Konsepter-realisering/#distribuerte-datadelingslsninger-i-leverandor-infrastruktur">Distribuerte datadelingsløsninger (i leverandør infrastruktur)</a>).  </p>
 <p><img alt="Figur som viser etablering av datadelingsløsning som en del av en regional fellesløsning. Illustrasjon." src="../img/regional-felles.svg" />
 <em>Datadeling etableres som en del av en regional fellesløsning og beskrives i en avtale mellom virksomhetene i henhold til pasientjournalloven §9</em></p>
 <h3 id="juridisk_2">Juridisk</h3>
@@ -1109,7 +1109,7 @@ Informasjonen som eventuelt skulle lagres i det nasjonale registeret er heller i
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">June 30, 2023 05:44:08</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">June 30, 2023 08:30:41</span>
       
     
   </small>
