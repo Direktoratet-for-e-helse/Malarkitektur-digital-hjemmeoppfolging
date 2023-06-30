@@ -34,7 +34,7 @@ Vi anbefaler at virksomhetene vurderer hvilke konsept for datadeling som egner s
 
 Anbefalt konsept baserer seg på at virksomhetene etablerer grensesnitt for å avgi data til andre virksomheter enten som distribuerte løsninger eller gjennom regionale fellesløsninger, innenfor et §9 samarbeid.
 
-![Anbefalt konsept for datadeling med kombinasjon av distribuerte datadelingsløsninger og regionale fellesløsninger](../img/fleksibel.png)
+![Anbefalt konsept for datadeling med kombinasjon av distribuerte datadelingsløsninger og regionale fellesløsninger](../img/fleksibel.svg)
 
 <!-- Legge til figurtekst som forklarer at virksomhetene som er nevnt i figuren er eksempler på virksomhetstyper som kan etablere grensesenitt på den måten som er vist -->
 
