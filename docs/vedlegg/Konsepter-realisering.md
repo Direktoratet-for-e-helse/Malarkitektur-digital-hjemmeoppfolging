@@ -79,7 +79,7 @@ Gitt virksomhetenes ulike størrelser og forutsetninger for å etablere datadeli
 Anbefalingen av konsepter for datadeling baserer seg på vurderinger knyttet til hvert enkelt konsept i forhold til vurderingskriteriene. Vurderingen er oppsummert med fordeler og ulemper knyttet til hvert enkelt konsept. Konseptene som er vurdert for etablering av datadeling er:
 
 * [Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)](#distribuerte-datadelingslsninger-i-virksomhetenes-infrastruktur)
-* [Distribuerte datadelingsløsninger (i sentral infrastruktur)](#distribuerte-datadelingslsninger-i-sentral-infrastruktur)
+* [Distribuerte datadelingsløsninger (i leverandør infrastruktur)](#distribuerte-datadelingslsninger-i-leverandor-infrastruktur)
 * [Regionale fellesløsninger](#regionale-felleslsninger)
 * [Regionale datadelingsløsninger med lagring](#regionale-datadelingslsninger-med-lagring)
 * [Nasjonal sentral datadelingsløsning med lagring](#nasjonal-sentral-datadelingslsning-med-lagring)
@@ -127,7 +127,7 @@ En distribuert modell stiller store krav til samhandlingsinfrastrukturen og sama
 * Det kan være komplisert å etablere felles tillitsanker og felles krav knyttet til felles tillitsmodell
 * Siden det er stor fleksibilitet til å prioritere lokale/regionale behov kan konsekvensen være lite enhetlig funksjonalitet på tvers av virksomhetene og derfor dårlig samhandling regionalt, hvis regionen ikke klarer å samordne utviklingen
 
-### Distribuerte datadelingsløsninger (i sentral infrastruktur)
+### Distribuerte datadelingsløsninger (i leverandør infrastruktur)
 
 Konseptet baserer seg (som ren distribuert modell) på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer, men istedenfor å etablere dette i egen infrastruktur etableres selve grensesnittet og datalager for datadeling i en felles infrastruktur. Det betyr at grensesnittet driftes og vedlikeholdes av en eller noen få leverandør(er). Datadelingen mellom virksomhetene gjennomføres ved at hver virksomhet gjør distribuerte oppslag mot grensesnittene for å avgi data, som er etablert av de andre virksomhetene. Det er en juridisk forutsetning at informasjonen fra hver virksomhet ikke sammenstilles med informasjon fra andre virksomheter i den sentrale infrastrukturen, men at løsningene for lagring og grensesnittene etableres som logisk adskilte løsninger for hver virksomhet. Behandlingen av helseopplysninger i sentral infrastruktur må reguleres av en databehandleravtale mellom den enkelte virksomheten og leverandøren av infrastrukturen.
 

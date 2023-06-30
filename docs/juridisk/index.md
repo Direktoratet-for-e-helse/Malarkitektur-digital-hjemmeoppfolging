@@ -41,7 +41,7 @@ Målarkitekturen for datadeling forutsetter at det opprettes en fellesløsning f
 
 Vi har særlig vurdert følgende spørsmål som påvirker hvilke konsepter og løsningsvalg som kan vurderes:
 
-1. Hvilke rammer setter regelverket for å etablere datadelingsløsninger sentralisert (i sentral infrastruktur), regionalt eller distribuert (i virksomhetenes egen infrastruktur)?  
+1. Hvilke rammer setter regelverket for å etablere datadelingsløsninger sentralisert (i leverandør infrastruktur), regionalt eller distribuert (i virksomhetenes egen infrastruktur)?  
 2. Hvilket handlingsrom har dataansvarlig til å etablere teknisk infrastruktur for datadeling.  
    * Avklarer hvorvidt datadelingsløsninger kan etableres for en dataansvarlig av en tredjepart, der behandling av helseopplysninger er regulert av en databehandleravtale, eller om virksomheten er bundet til å håndtere alle funksjoner knyttet til datadeling innenfor egen infrastruktur og med en teknisk komponent for å lagre helseopplysningene.  
 
@@ -60,7 +60,7 @@ Distribuerte datadelingsløsninger i virksomhetenes infrastruktur baserer seg p�
 
 Virksomhetene kan selv etablere datadelingsløsninger for tilgjengeliggjøring av pasientinformasjon fra egne interne systemer til helsepersonell i andre virksomheter som har tjenstlig behov for informasjonen. Forutsetningen for tilgjengeliggjøringen er at dette kan skje innenfor rammen av pasientjournalloven § 19, slik at hensynet til taushetsplikt, personvern og informasjonssikkerhet ivaretas.  
 
-## Distribuerte datadelingsløsninger (i sentral infrastruktur)
+## Distribuerte datadelingsløsninger (i leverandør infrastruktur)
 
 Konseptet baserer seg (som ren distribuert modell) på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer, men istedenfor å etablere dette i egen infrastruktur etableres selve grensesnittet og datalager for datadeling av en ekstern leverandør. Helseopplysningene lagres lokalt, i tillegg dupliseres de helseopplysningene som skal deles med andre virksomheter i en løsning fra leverandør. Helseopplysninger fra ulike virksomheter må lagres logisk adskilt hos leverandøren.
 
@@ -75,7 +75,7 @@ Videre er det en juridisk forutsetning at informasjonen fra hver virksomhet ikke
 
 ## Regionale fellesløsninger
 
-Ved etablering av regionale fellesløsninger vil informasjonen som skal deles med andre virksomheter kun bli journalført i den regionale fellesløsningen (felles behandlingsrettet helseregister/journal), opplysningene skal ikke registreres i parallelle journaler. Grensesnitt for å avgi informasjon ved hjelp av datadeling etableres også som en del av den regionale fellesløsningen.
+Ved etablering av regionale fellesløsninger vil informasjonen som skal deles med andre virksomheter kun bli journalført i den regionale fellesløsningen (felles behandlingsrettet helseregister/journal), opplysningene skal ikke registreres i parallelle journaler. Grensesnitt for å avgi informasjon ved hjelp av datadeling etableres også som en del av den regionale fellesløsningen, enten som en integrert del av fellesløsningen eller ved å bruke en løsning fra leverandør (se [Distribuerte datadelingsløsninger (i leverandør infrastruktur)](https://direktoratet-for-e-helse.github.io/Malarkitektur-digital-hjemmeoppfolging/currentbuild/vedlegg/Konsepter-realisering/#distribuerte-datadelingslsninger-i-leverandor-infrastruktur)).  
 
 ![Figur som viser etablering av datadelingsløsning som en del av en regional fellesløsning. Illustrasjon.](../img/regional-felles.svg)
 *Datadeling etableres som en del av en regional fellesløsning og beskrives i en avtale mellom virksomhetene i henhold til pasientjournalloven §9*
