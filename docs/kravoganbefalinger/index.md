@@ -247,7 +247,7 @@ Vi antar her at datakonsument har tilgang til API og er autentisert og autoriser
 Tre prosesser står sentralt for datakonsumenter som skal innhente informasjon ved hjelp av datadeling: *Få tilgang til data*, *Finne relevante data* og *Slå opp*. På overordnet nivå kan sammenhengen mellom disse prosessene og informasjonen som flyter mellom disse beskrives som i modellen under. Prosessene i lys-lys-gul farge er behandlet i HITR 1231:2021 og underprosesser er beskrevet der.
 
 [![Modell som viser prosesser for rollen datakonsument. Archimate modell.](../img/datadeling-datakonsument.png)](../img/datadeling-datakonsument.png)
-*Prosesser forbundet med rollen som datakonsument, inkludert de viktigste tjenestene som må etableres og integreres i arbeidsflyten*
+*Prosesser forbundet med rollen som datakonsument, inkludert de viktigste applikasjonstjenestene som må etableres og integreres i arbeidsflyten*
 
 **Få tilgang til data** finner relevante APIer som virksomheten har behov for å integrere med, etablerer *Datadelingstjeneste (konsument)* (klientfunksjonalitet) som skal kommunisere med datatilbyderens datadelingstjeneste. Intern dataflyt etableres også her, noe som gjør det mulig å benytte data i interne fagsystemer.  
 
@@ -259,8 +259,8 @@ Tre prosesser står sentralt for datakonsumenter som skal innhente informasjon v
 
 Å *få tilgang til data* gjennom et API innebærer både å *Etablere API klient* og *få tilgang til API* som innebærer avtalehåndtering og registrering av klienten for tilgang. Prosessen for *få tilgang til API* er nærmere beskrevet i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) og beskrives ikke her.
 
-[![Få tilgang til data](../img/fa-tilgang-data.png)](../img/fa-tilgang-data.png)
-*Prosesser forbundet med å få tilgang til data for en datakonsument*
+[![Modell som viser prosessene for å gå tilgang til data ved hjelp av datadeling. Archimate modell.](../img/fa-tilgang-data.png)](../img/fa-tilgang-data.png)
+*Prosesser og applikasjonstjenester for å få tilgang til data for en datakonsument*
 
 Når en virksomhet skal *få tilgang til data* må virksomheten *etablere API klient* først med mindre det er etablert en klient for denne integrasjonen tidligere. Resultatet av prosessen er at det etableres klientfunksjonalitet i form av *datadelingstjeneste (konsument)* som håndterer forespørsel og svar fra server (Datadelingstjeneste (tilbyder)) og *Dataflyt (intern)* som sørger for at informasjonen som hentes fra datatilbyder kan integreres i relevante fagsystemer hos datakonsumenten.
 
@@ -270,8 +270,8 @@ Den viktigste informasjonen som produseres er *behov for informasjon* som dokume
 
 Ofte vil aktørenes *behov for informasjon* være begrenset til informasjon av en spesiell type og om en bestemt pasient. Prosessen for å *finne relevante data* handler derfor om å *finne tjenester som tilbyr spesifikk type informasjon* og å *finne tjenester som har informasjon om (en bestemt) pasient*. Prosessene kan løses med større eller mindre grad av støtte fra applikasjoner, men det anbefales at prosessen er mest mulig automatisert basert på inndata som allerede foreligger knyttet til forretningsprosessen.
 
-[![Finne relevante data](../img/finne-relevante-data.png)](../img/finne-relevante-data.png)
-*Prosessene knyttet til å finne informasjon om spesifikk pasient*  
+[![Modell som viser prosessene for å finne relevante data. Archimate modell.](../img/finne-relevante-data.png)](../img/finne-relevante-data.png)
+*Prosessene for å finne informasjon om spesifikk pasient*  
 
 Prosessen for å *finne tjenester som har informasjon om pasient* skal identifisere de datadelingstjenestene som inneholder informasjon om en bestemt pasient. Prosessen understøttes av en fellestjeneste kalt *Pasientinformasjonslokalisator* (PIL) og forutsetter at datatilbydere har *publisert metadata* som en del av [informasjonsproduksjonen](#prosesser-for-produksjon-av-informasjon). Ved hjelp av oppslag mot PIL, med en *PIL klient*, får man tilgang til *metadata* som beskriver *Data som er tilgjengeliggjort i API* og hvilke pasienter de ulike tjenesten har informasjon om. Basert på denne informasjonen kan man lage en oversikt over *Datadelingstjenester med informasjon om pasient* som bestemmer hvor man skal *slå opp* for å finne relevant informasjon.
 
@@ -279,7 +279,7 @@ Prosessen for å *finne tjenester som har informasjon om pasient* skal identifis
 
 Å *slå opp* mot datatilbyderes datadelingstjenester omfatter både å utføre tjenestekall med dokumentert autentisering og autorisering i en sikkerhetsbillett og å *motta svar på forespørsel* slik at informasjonen fra datatilbyder sin datadelingstjeneste kan understøtte forretningsprosesser i virksomheten som slår opp. Prosessene knyttet til *Slå opp eller endre data gjennom et API* er beskrevet i [Målarkitektur for datadeling i helse og omsorgssektoren](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-helse-og-omsorgssektoren) og beskrives ikke her.
 
-[![Slå opp og motta svar](../img/sla-opp-prosess.png)](../img/sla-opp-prosess.png)  
-*Prosessene knyttet til å slå opp i API og motta svar på forespørsel*  
+[![Modell som viser prosessene for å slå opp og motta svar ved hjelp av datadeling. Archimate modell.](../img/sla-opp-prosess.png)](../img/sla-opp-prosess.png)  
+*Prosessene for å slå opp i API og motta svar på forespørsel*  
 
 Etter at *forespørsel om data* er formidlet av klienten (Datadelingstjeneste konsument) vil det etter kort tid foreligge et *svar på forespørsel* som må behandles av datakonsumenten. Datadelingstjenesten håndterer at informasjon som er sikret for transport fra datatilbyder kan leses av de interne prosessene hos datakonsumenten. *Svaret på forespørsel* kan deretter *integreres med fagsystemer* i virksomheten, slik at informasjonen foreligger som *data i fagsystem* og på den måten kan lagres og vises i forbindelse med relevante forretningsprosesser i virksomheten. Et fagsystem vil vanligvis ha oppgaven med å *sammenstille og behandle* data fra interne og eksterne kilder, slik at *forretningsprosessene* understøttes på best mulig måte.
