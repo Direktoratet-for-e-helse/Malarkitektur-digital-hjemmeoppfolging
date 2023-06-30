@@ -102,7 +102,9 @@ Det er lagt til grunn smidig metodikk i utviklingen av målarkitekturen der utpr
 ![Figur som viser prosess for utvikling av målarkitektur sammen med utprøving DHO. Illustrasjon.](../img/metode.svg){ width="500" }  
 *Metode for utvikling av målarkitektur koblet til utprøving og spredningsaktiviteter*
 
-Metoden baserer seg på at behov dokumenteres i tilknytning til utprøving- og spredningsaktivitetene og ligger til grunn for utviklingen av nye integrasjoner og informasjonstjenester i tjenesteforløpene. Både behovsarbeidet og erfaringene fra utprøvingen benyttes i arbeidet med å begrunne arkitekturvalg, bruk av fellestjenester og hvilke standardiserings- og normeringsaktiviteter det er behov for. Dette dokumenteres som en del av målarkitekturen og skal danne grunnlag for nye utprøving- og spredningsaktiviteter.
+Metoden baserer seg på at behov dokumenteres i tilknytning til utprøving- og spredningsaktivitetene og ligger til grunn for utviklingen av nye integrasjoner og informasjonstjenester i tjenesteforløpene i forbindelse med utprøvinger. Både behovsarbeidet og erfaringene fra utprøvingen fungerer også som utgangspunkt for arbeidet med å begrunne arkitekturvalg, bruk av fellestjenester og hvilke standardiserings- og normeringsaktiviteter det er behov for. Dette dokumenteres som en del av arbeidet med målarkitekturen og skal danne grunnlag for nye utprøving- og spredningsaktiviteter.
+
+Arbeidet med målarkitekturen starter med kartlegging av behov for informasjonstjenester og infrastrukturtjenester, disse behovene analyseres i forhold til hvilke samhandlingsmønster som egner seg og vurderinger av hvilke informasjonstjenester som bør realiseres i nasjonal infrastruktur og hvilke som kan realiseres i virksomhetenes infrastruktur. Videre gjennomføres det juridiske avklaringer knyttet til konseptene. Til slutt blir dokumenteres arkitekturvalg, fellestjenester og behov for normerende produkter som en del av målarkitekturen.
 
 ### Samarbeid og forankring
 
