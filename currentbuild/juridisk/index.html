@@ -1037,7 +1037,7 @@
 <tbody>
 <tr>
 <td align="left"><span style="background-color:BlueViolet">Prerelease</span></td>
-<td align="left">v0.9.0</td>
+<td align="left">v0.9.2</td>
 <td align="left">review</td>
 <td align="left">ikke normert</td>
 </tr>
@@ -1052,8 +1052,8 @@
 <p>For å behandle personopplysninger må den dataansvarlige videre ha et behandlingsgrunnlag. Det rettslige grunnlaget for registrering av opplysninger vil her være dokumentasjonsplikten, jf. helsepersonelloven §§ 39 og 40, jf. pasientjournalloven § 8, eventuelt § 9. For å tilgjengeliggjøre pasientopplysninger for andre enn de som har nedtegnet disse, må det foreligge et unntak fra helsepersonells taushetsplikt, jf. pasientjournalloven § 19.  </p>
 <h3 id="datadeling-og-dho">Datadeling og DHO</h3>
 <p>Slik DHO benyttes internt i en virksomhet i dag er det ikke nødvendig med regelverksutvikling. Det er først og fremst når virksomhetene har behov for å utveksle helseopplysninger på tvers av behandlingsnivåer (mellom primær- og spesialisthelsetjenesten), at det juridiske handlingsrommet blir utfordret.  </p>
-<p><img alt="Datadeling i DHO" src="../img/datadeling-dho.png" />
-<em>Behov for datadeling knyttet til DHO tjenesteforløp</em></p>
+<p><img alt="Figur som viser eksempler på aktører som har behov for å dele data om pasient i DHO tjenesteforløp. Illustrasjon." src="../img/datadeling-dho.svg" />
+<em>Aktører med behov for datadeling knyttet til DHO tjenesteforløp</em></p>
 <h3 id="oppsummering">Oppsummering</h3>
 <p>De innsamlede data lagres i ulike DHO-systemer og i lokal journalløsning. Det kan i utprøving og i det videre bli aktuelt å lagre data fra digital hjemmeoppfølging hos databehandler som etablerer datadelingstjeneste på vegne av den dataansvarlige virksomheten. Det er nå avklart at en separat lagringsløsning hos databehandler for å understøtte en datadelingstjeneste for dataansvarlig virksomhet er innenfor dagens regelverk.  </p>
 <p>Nasjonal lagring av sammenstilte data (hvor en nasjonal aktør har dataansvar) vil etter vår vurdering kreve et annet juridisk grunnlag enn det som finnes i dag, og forutsetter derfor regelverksutvikling/forskriftsendring.  </p>
@@ -1072,34 +1072,34 @@
 <p>Konseptene som blir vurdert juridisk i dette kapittelet er nærmere beskrevet i <a href="../vedlegg/Konsepter-realisering/">konsepter for realisering</a>. I den delen er også vurderingen av fordeler og ulemper med hvert konsept gjennomgått.</p>
 <h2 id="distribuerte-datadelingslsninger-i-virksomhetenes-infrastruktur">Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)</h2>
 <p>Distribuerte datadelingsløsninger i virksomhetenes infrastruktur baserer seg på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer. Helseopplysningene lagres lokalt.</p>
-<p><img alt="Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)" src="../img/distribuert.png" />
+<p><img alt="Figur som viser distribuerte datadelingsløsninger (i virksomhetenes infrastruktur). Illustrasjon." src="../img/distribuert.svg" />
 <em>Distribuerte datadelingsløsninger etablert i virksomhetenes infrastruktur</em></p>
 <h3 id="juridisk">Juridisk</h3>
 <p>Virksomhetene kan selv etablere datadelingsløsninger for tilgjengeliggjøring av pasientinformasjon fra egne interne systemer til helsepersonell i andre virksomheter som har tjenstlig behov for informasjonen. Forutsetningen for tilgjengeliggjøringen er at dette kan skje innenfor rammen av pasientjournalloven § 19, slik at hensynet til taushetsplikt, personvern og informasjonssikkerhet ivaretas.  </p>
 <h2 id="distribuerte-datadelingslsninger-i-sentral-infrastruktur">Distribuerte datadelingsløsninger (i sentral infrastruktur)</h2>
-<p>Konseptet baserer seg (som ren distribuert modell) på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer, men istedenfor å etablere dette i egen infrastruktur etableres selve grensesnittet og datalager for datadeling i en felles infrastruktur. Helseopplysningene lagres lokalt. Helseopplysningene fra virksomhetene lagres i tillegg (duplisert) logisk adskilt i sentral infrastruktur.</p>
-<p><img alt="Distribuerte datadelingsløsninger (i sentral infrastruktur)" src="../img/distribuert-sentral.png" />
-<em>Distribuerte datadelingsløsninger etablert i sentral infrastruktur</em></p>
+<p>Konseptet baserer seg (som ren distribuert modell) på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer, men istedenfor å etablere dette i egen infrastruktur etableres selve grensesnittet og datalager for datadeling av en ekstern leverandør. Helseopplysningene lagres lokalt, i tillegg dupliseres de helseopplysningene som skal deles med andre virksomheter i en løsning fra leverandør. Helseopplysninger fra ulike virksomheter må lagres logisk adskilt hos leverandøren.</p>
+<p><img alt="Figur som viser distribuerte datadelingsløsninger etablert i leverandør sin infrastruktur. Illustrasjon." src="../img/distribuert-sentral.svg" />
+<em>Distribuerte datadelingsløsninger etablert i datadelingsløsning fra leverandør</em></p>
 <h3 id="juridisk_1">Juridisk</h3>
 <p>Virksomhetene kan velge å benytte en tredjepart (databehandler) som tilbyr datadelingsløsning i stedet for å etablere dette selv. Forutsetningen er som over at tilgjengeliggjøringen kan skje innenfor rammen av pasientjournalloven § 19, slik at hensynet til taushetsplikt, personvern og informasjonssikkerhet ivaretas.  </p>
 <p>Videre er det en juridisk forutsetning at informasjonen fra hver virksomhet ikke sammenstilles med informasjon fra andre virksomheter i den sentrale infrastrukturen (hos databehandler), men at løsningene for lagring og grensesnittene etableres som logisk adskilte løsninger for hver virksomhet. Behandlingen av helseopplysninger i sentral infrastruktur må reguleres av en databehandleravtale mellom den enkelte virksomheten og leverandøren av infrastrukturen. Mer informasjon om de juridiske vurderingene knyttet til bruk av ekstern databehandler for å etablere datadelingsløsninger er lagt i <a href="../vedlegg/Juridisk-intern-kopi/">vedlegg</a>.  </p>
 <h2 id="regionale-felleslsninger">Regionale fellesløsninger</h2>
 <p>Ved etablering av regionale fellesløsninger vil informasjonen som skal deles med andre virksomheter kun bli journalført i den regionale fellesløsningen (felles behandlingsrettet helseregister/journal), opplysningene skal ikke registreres i parallelle journaler. Grensesnitt for å avgi informasjon ved hjelp av datadeling etableres også som en del av den regionale fellesløsningen.</p>
-<p><img alt="Regionale fellesløsninger" src="../img/regional-felles-fokus.png" />
-<em>Datadeling etableres som en del av en regional fellesløsning</em></p>
+<p><img alt="Figur som viser etablering av datadelingsløsning som en del av en regional fellesløsning. Illustrasjon." src="../img/regional-felles.svg" />
+<em>Datadeling etableres som en del av en regional fellesløsning og beskrives i en avtale mellom virksomhetene i henhold til pasientjournalloven §9</em></p>
 <h3 id="juridisk_2">Juridisk</h3>
 <p>Et § 9-samarbeid kan benyttes for å etablere et felles behandlingsrettet helseregister for virksomhetene i samarbeidet. Registeret må komme til erstatning for de lokale §8-registrene. Intern tilgang/tilgjengeliggjøring etter pasientjournalloven § 19 må vurderes på vanlig måte. Her innebærer det ordinær tilgangsstyring til «egen» journal, ikke datadeling på tvers av nivåer/aktører.</p>
 <p>For deling av opplysninger med aktører som ikke er med i §9-samarbeidet, blir vurderingen som for distribuerte datadelingsløsninger over.  </p>
 <h2 id="regional-datadelingslsning-med-lagring">Regional datadelingsløsning med lagring</h2>
 <p>Ved etablering av regional datadelingsløsning blir informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagret i regional infrastruktur hos NHN (eller annen leverandør) samtidig som den eksisterer i relevante fagsystem hos den enkelte virksomheten for å ivareta dokumentasjonsplikten. Grensesnitt for å avgi data fra regional datadelingsløsning etableres også i sentral infrastruktur.</p>
-<p><img alt="Regionale datadelingsløsninger" src="../img/regional-datadeling.png" />
+<p><img alt="Figur som viser en sentral regional datadelingsløsning med kopilagring. Illustrasjon." src="../img/regional-datadeling.svg" />
 <em>Regional datadelingsløsning etablert med kopilagring i sentral infrastruktur</em></p>
 <h3 id="juridisk_3">Juridisk</h3>
 <p>Et §9-register må komme til erstatning for de lokale §8-registrene. Ettersom dette konseptet forutsetter at også de lokale registrene videreføres, kan ikke et §9-samarbeid benyttes for å hjemle et felles sentralisert register med hovedformål å tilgjengeliggjøre informasjon mellom virksomhetene i det regionale samarbeidet.</p>
 <h2 id="nasjonal-sentral-datadelingslsning-med-lagring">Nasjonal sentral datadelingsløsning med lagring</h2>
 <p>Grensesnitt for å avgi data i form av datadeling etableres som en nasjonal løsning. Ved etablering av sentral nasjonal datadelingsløsning forutsettes det at informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagres i sentral infrastruktur hos NHN (eller annen leverandør) samtidig som den eksisterer i relevante fagsystem hos den enkelte virksomheten for å ivareta dokumentasjonsplikten.  </p>
-<p><img alt="Nasjonal sentral datadelingsløsning" src="../img/sentral-kopi.png" />
-<em>Nasjonal sentral kopilagring og datadelingsløsning</em></p>
+<p><img alt="Figur som viser en nasjonal sentral datadelingsløsning med kopilagring av helseopplysninger fra virksomhetene. Illustrasjon." src="../img/sentral-kopi.svg" />
+<em>Nasjonal sentral datadelingsløsning med kopilagring av helseopplysninger fra virksomhetene</em></p>
 <h3 id="juridisk_4">Juridisk</h3>
 <p>Med dagens regelverk kan det ikke opprettes et eget nasjonalt behandlingsrettet helseregister uten at det gis egen forskrift for dette hjemlet i pasientjournalloven §10, eller at det etableres selvstendig hjemmelsbestemmelse for et nytt register i pasientjournalloven.
 Informasjonen som eventuelt skulle lagres i det nasjonale registeret er heller ikke sammenfallende med innholdet i eksisterende nasjonale løsninger, som f.eks kjernejournal eller e-resept. Det er derfor ikke mulig å benytte noen av disse reglene for disse løsningene som grunnlag for et nasjonalt register for datadeling innen DHO.  </p>
@@ -1109,7 +1109,7 @@ Informasjonen som eventuelt skulle lagres i det nasjonale registeret er heller i
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">June 27, 2023 09:04:30</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">June 30, 2023 05:44:08</span>
       
     
   </small>
