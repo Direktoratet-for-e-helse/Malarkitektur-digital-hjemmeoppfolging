@@ -90,7 +90,7 @@ For deling av opplysninger med aktører som ikke er med i §9-samarbeidet, blir 
 
 Ved etablering av regional datadelingsløsning blir informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagret i regional infrastruktur hos NHN (eller annen leverandør) samtidig som den eksisterer i relevante fagsystem hos den enkelte virksomheten for å ivareta dokumentasjonsplikten. Grensesnitt for å avgi data fra regional datadelingsløsning etableres også i sentral infrastruktur.
 
-![Regionale datadelingsløsninger](../img/regional-datadeling.png)
+![Figur som viser en sentral regional datadelingsløsning med kopilagring. Illustrasjon.](../img/regional-datadeling.svg)
 *Regional datadelingsløsning etablert med kopilagring i sentral infrastruktur*
 
 ### Juridisk
@@ -101,8 +101,8 @@ Et §9-register må komme til erstatning for de lokale §8-registrene. Ettersom 
 
 Grensesnitt for å avgi data i form av datadeling etableres som en nasjonal løsning. Ved etablering av sentral nasjonal datadelingsløsning forutsettes det at informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagres i sentral infrastruktur hos NHN (eller annen leverandør) samtidig som den eksisterer i relevante fagsystem hos den enkelte virksomheten for å ivareta dokumentasjonsplikten.  
 
-![Nasjonal sentral datadelingsløsning](../img/sentral-kopi.png)
-*Nasjonal sentral kopilagring og datadelingsløsning*
+![Figur som viser en nasjonal sentral datadelingsløsning med kopilagring av helseopplysninger fra virksomhetene. Illustrasjon.](../img/sentral-kopi.svg)
+*Nasjonal sentral datadelingsløsning med kopilagring av helseopplysninger fra virksomhetene*
 
 ### Juridisk
 
