@@ -3,7 +3,7 @@ title: Semantisk samhandlingsevne
 ---
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:BlueViolet">Prerelease</span>  | v0.9.0 | review | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span>  | v0.9.2 | review | ikke normert |
 
 ## Hva er semantisk samhandlingsevne
 
@@ -14,7 +14,7 @@ Semantisk samhandlingsevne har å gjøre med meningen med innholdet i dataelemen
 
 Samhandling må vanligvis etableres på mange nivåer for å understøtte samhandling mellom personer i ulike virksomheter. I European Interoperability framework (EIF) skilles det på juridisk, organisatorisk, semantisk og teknisk samhandling. I praksis peker denne modellen på at man må oppnå samhandling på alle fire nivå for å oppnå reell semantisk samhandling mellom personer i ulik kontekst, for eksempel i ulike organisasjoner.
 
-![European Interoperability Framework](../img/no-domain-EIF.png)
+![Figur som viser European Interoperability Framework. Illustrasjon.](../img/no-domain-EIF.png)
 *European Interoperability Framework, juridisk, organisatorisk, semantisk og teknisk samhandlingsevne*
 
 ## Når er dette viktig?
