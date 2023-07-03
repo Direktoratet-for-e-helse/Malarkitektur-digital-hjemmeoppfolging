@@ -113,7 +113,7 @@ Målarkitekturen skal beskrive behov for samhandling og informasjonstjenester so
 Figuren viser en oversikt over identifiserte informasjonsbehov i forbindelse med DHO:
 
 [![identifiserte informasjonsbehov i forbindelse med DHO. Illustrasjon.](../img/informasjonsbehov-enkel.svg)](../img/informasjonsbehov-enkel.svg)
-*Identifiserte informasjonsbehov i forbindelse med DHO*
+*Identifiserte informasjonsbehov i forbindelse med DHO. Alle de identifiserte behovene er forklart i [vedlegget](../vedlegg/Detaljert-behovsbilde.md#analyse-av-informasjonsbehovene)*
 
 ### Samhandling innenfor geografiske regioner
 
@@ -162,7 +162,7 @@ Her vises i prioritert rekkefølge de informasjonstjenestene som er mest ettersp
 I tillegg er det en rekke andre informasjonstjenester som er høyt prioritert av tjenesten. Det er noen viktige sammenhenger mellom informasjonstjenestene som vises i figuren:
 
 [![Modell som viser sammenhenger mellom informasjonsbehovene og ulike informasjonstjenester. Archimate modell.](../img/informasjonsbehov-sammenhenger.png)](../img/informasjonsbehov-sammenhenger.png)
-*Figuren viser viktige sammenhenger mellom informasjonsbehov og ulike informasjonstjenester*
+*Figuren viser viktige sammenhenger mellom informasjonsbehov og ulike informasjonstjenester. Alle de identifiserte behovene er forklart i [vedlegget](../vedlegg/Detaljert-behovsbilde.md#analyse-av-informasjonsbehovene)*
 
 Det utvikles samhandlingsløsninger knyttet til behov for [digitale behandlings- og egenbehandlingsplaner](https://www.helsedirektoratet.no/om-oss/forsoksordninger-og-prosjekter/digital-behandlings-og-egenbehandlingsplan) og [legemiddelliste](https://www.ehelse.no/prosjekt/program-pasientens-legemiddelliste) gjennom egne initiativ. Disse behovene behandles derfor ikke videre i målarkitekturen, men intitaivene bør ses i sammenheng siden samhandlingsløsningene vil innvirke på den totale brukeropplevelsen for innbygger og helsepersonell.  
 
