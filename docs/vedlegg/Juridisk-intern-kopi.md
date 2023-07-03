@@ -65,7 +65,7 @@ Etter vår vurdering tilsier dette at det behandlingsrettede helseregisteret må
 
 Virksomheten skal innrette og forvalte sin journal slik at kravene i § 7 best mulig kan etterleves. Dette kan, som det fremgår av illustrasjonen under, bety at virksomheten velger å registrere opplysninger i ulike moduler (duplisering), der dette er egnet. Dette kan være av tekniske grunner, f.eks. ytelse, av hensyn til informasjonssikkerheten eller av andre grunner. Slik vi ser det, er det opp til virksomheten selv å vurdere løsningsvalg etter pasientjournalloven § 7 og dermed også hvorvidt det i de konkrete tilfellene er hensiktsmessig å separere og/eller duplisere opplysninger som ledd i den interne tekniske journalforvaltningen.  
 
-![Logiske moduler](../img/logiske-moduler.png){ width="500" }  
+![Figur som viser et behandlignsrettet helseregister bygd opp av flere logiske moduler. Illustrasjon.](../img/logiske-moduler.svg){ width="500" }  
 *Behandlingsrettet helseregister bygd opp av flere logiske moduler*
 
 Løsningen som etableres må herunder være egnet til å kunne tilfredsstille sikkerhetskravene som følger av pasientjournalloven § 22, jf. personvernforordningen artikkel 32. Duplisering må ikke være til hinder for at opplysningene som behandles er korrekte og oppdaterte. Eksempelvis vil ikke en kopiløsning kunne benyttes der det er behov for tilgjengeliggjøring av opplysninger i (tilnærmet) sanntid dersom duplisering forsinker informasjonsflyten utover det akseptable. En forsinket informasjonsflyt vil kunne være til fare for pasientsikkerheten og dermed ikke være akseptabelt / oppfylle lovkrav.  
@@ -84,14 +84,14 @@ I praksis skjer lokal kopiering i stort omfang. Ofte vil det være nødvendig me
 
 ### Særlig om tilgjengeliggjøring: Optimalisert kopi
 
-![Optimalisert kopi for datadeling](../img/optimalisert-kopi.png){ width="500" }  
-*Optimalisert kopi for datadeling*
+![Figur som viser løsningsmønster basert på optimalisert kopi for datadeling. Illustrasjon.](../img/optimalisert-kopi.png){ width="500" }  
+*Løsningsmønster med optimalisert kopi for datadeling*
 
 Et vanlig løsningsmønster for å tilgjengeliggjøre informasjon til eksterne tjenester er å lage en kopi av informasjonen man ønsker å eksponere eksternt. Tjenesten for tilgjengeliggjøring inneholder da en kopi av informasjon som er relevant for eksterne brukere. Tjenesten kan optimaliseres for de søk som etterspørres av eksterne brukere og vil ikke inneholde informasjon man ikke ønsker å eksponere eksternt. Informasjonen kan hentes på forespørsel fra eksterne konsumenter.  
 
 ### Optimalisert kopi - bruk av databehandler
 
-![Optimalisert kopi for datadeling hos ekstern databehandler](../img/optimalisert-kopi-databehandler.png){ width="500" }  
-*Optimalisert kopi for datadeling med bruk av ekstern databehandler*
+![Figur som viser løsningsmønster basert på optimalisert kopi for datadeling hos ekstern databehandler](../img/optimalisert-kopi-databehandler.png){ width="500" }  
+*Løsningsmønster med optimalisert kopi for datadeling med bruk av ekstern databehandler*
 
 Virksomheten kan, i forlengelsen av dette, også velge å sette bort deler av sin journalforvaltning til en ekstern part (databehandler). I eksempelet over kan virksomheten velge å benytte en databehandler som tilbyr delingsfunksjonalitet i stedet for selv å etablere en slik intern tilgjengeliggjøringstjeneste. Her vil også flere virksomheter kunne benytte den samme tjenesten fra den samme databehandleren. Dette forutsetter imidlertid at databehandleren behandler opplysningene fra virksomhetene logisk adskilt. En sammenstilling av opplysningene hos databehandleren ville derimot føre til samme problemstilling som for Pasientens prøvesvar, jf. over. Dette ville være et nytt behandlingsrettet helseregister som vil kreve eget selvstendig rettslig grunnlag. 
