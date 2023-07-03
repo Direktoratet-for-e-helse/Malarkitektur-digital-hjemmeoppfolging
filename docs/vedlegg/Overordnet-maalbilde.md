@@ -4,12 +4,20 @@ title: Målbilde DHO
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-|<span style="background-color:BlueViolet">Prerelease</span> | v0.9.0 | review  | ikke normert |
+|<span style="background-color:BlueViolet">Prerelease</span> | v0.9.1 | review  | ikke normert |
 
 Dette kapitlet beskriver de overordnede strategiske målene for arbeidet med digital hjemmeoppfølging i Nasjonalt velferdsteknologiprogram (NVP) knyttet til tilrettelegging for styrket digital samhandling. Målbildet på strategisk nivå for DHO er beskrevet i [Mål og tiltak i nasjonalt velferdsteknologiprogram](https://www.helsedirektoratet.no/tema/velferdsteknologi/velferdsteknologi).  
 
-![Samfunnsmål for NVP](../img/samfunnsmal.png)
+[![Figur som viser samfunnsmålene for Nasjonalt velferdsteknologiprogram. Illustrasjon](../img/samfunnsmal.png)](../img/samfunnsmal.png)
 *Figuren viser samfunnsmålene for Nasjonalt velferdsteknologiprogram*
+
+Samfunnsmålene for Nasjonalt velferdsteknologiprogram er:
+
+* Pasienter og brukere opplever økt trygghet og bedre helse.
+* Pasienter og brukere opplever økt mestring og bedre evne til å ivareta egen helse.
+* Pasienter og brukere er mer tilfreds med oppfølgingen fra helse- og omsorgstjenestene.
+* Det er økt kvalitet i helse- og omssorgstjenestene på tvers av tjenestenivåer.
+* Spart tid og ungåtte kostnader i helse- og omsorgstjenestene gir samfunnsøkonomiske gevinster og økt omsorgskapasitet.
 
 ## Tiltaksområde: Arkitektur og infrastruktur
 
