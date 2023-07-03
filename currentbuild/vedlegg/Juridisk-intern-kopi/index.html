@@ -1071,7 +1071,7 @@ Sverre Engelschiøn og Elisabeth Vigerust, Pasient¬journal¬loven og helse¬reg
 </blockquote>
 <p>Etter vår vurdering tilsier dette at det behandlingsrettede helseregisteret må betraktes som én helhet, selv om registeret består av fragmenterte og eventuelt dupliserte opplysninger. Så fremt dette ikke er til hinder for å oppfylle krav som stilles til pasientjournalsystemer og til behandling av helseopplysninger, kan vi ikke se at regelverket oppstiller prinsipielle skranker for kopiering av data i egne interne behandlingsrettede helseregistre. Virksomheten må selv vurdere løsningsvalg etter de prinsipper og krav som stilles i § 7. En eventuell kopiering må være i henhold til virksomhetens risikoaksept.  </p>
 <p>Virksomheten skal innrette og forvalte sin journal slik at kravene i § 7 best mulig kan etterleves. Dette kan, som det fremgår av illustrasjonen under, bety at virksomheten velger å registrere opplysninger i ulike moduler (duplisering), der dette er egnet. Dette kan være av tekniske grunner, f.eks. ytelse, av hensyn til informasjonssikkerheten eller av andre grunner. Slik vi ser det, er det opp til virksomheten selv å vurdere løsningsvalg etter pasientjournalloven § 7 og dermed også hvorvidt det i de konkrete tilfellene er hensiktsmessig å separere og/eller duplisere opplysninger som ledd i den interne tekniske journalforvaltningen.  </p>
-<p><img alt="Logiske moduler" src="../../img/logiske-moduler.png" width="500" /><br />
+<p><img alt="Figur som viser et behandlignsrettet helseregister bygd opp av flere logiske moduler. Illustrasjon." src="../../img/logiske-moduler.svg" width="500" /><br />
 <em>Behandlingsrettet helseregister bygd opp av flere logiske moduler</em></p>
 <p>Løsningen som etableres må herunder være egnet til å kunne tilfredsstille sikkerhetskravene som følger av pasientjournalloven § 22, jf. personvernforordningen artikkel 32. Duplisering må ikke være til hinder for at opplysningene som behandles er korrekte og oppdaterte. Eksempelvis vil ikke en kopiløsning kunne benyttes der det er behov for tilgjengeliggjøring av opplysninger i (tilnærmet) sanntid dersom duplisering forsinker informasjonsflyten utover det akseptable. En forsinket informasjonsflyt vil kunne være til fare for pasientsikkerheten og dermed ikke være akseptabelt / oppfylle lovkrav.  </p>
 <p>Videre vil dataminimeringsprinsippet, jf. personvernforordningen artikkel 5, sette en yttergrense for dupliseringsadgangen. Hvor denne grensen går kan imidlertid vanskelig forhåndsdefineres, dette må virksomheten(e) selv vurdere etter prinsippene i § 7.  </p>
@@ -1081,12 +1081,12 @@ Sverre Engelschiøn og Elisabeth Vigerust, Pasient¬journal¬loven og helse¬reg
 <p>Vi legger derfor til grunn at virksomheten kan velge å teknisk lagre helseopplysninger i EPJ-systemer flere steder dersom virksomheten anser dette mest hensiktsmessig for å ivareta funksjonskravene, inkludert kravene til informasjonssikkerhet (herunder integritet), og at regelverket ikke legger tekniske føringer eller prinsipielle begrensninger for dette. Ettersom dette vil gjelde tekniske løsningskonsepter som skjer «under panseret» i den tekniske infrastrukturen, vil det for det enkelte helsepersonell ikke fremstå som at opplysningene er duplisert. Løsningene skal dermed heller ikke medføre risiko for dårligere oversikt over opplysningene for helsepersonellet.  </p>
 <p>I praksis skjer lokal kopiering i stort omfang. Ofte vil det være nødvendig med en rekke tekniske konsepter for å oppfylle lovens krav. For tilgjengeliggjøring er dette beskrevet i kulepunktene nedenfor, se også vedlegg for utdypende beskrivelse og ytterligere eksempler. Som det fremgår her, kan det i mange tilfeller være behov for å duplisere opplysninger for å best mulig legge til rette for å kunne ivareta lovens funksjonskrav. Dette gjelder særlig krav knyttet til informasjonssikkerhet. Etter vår oppfatning er dette også i samsvar med hvordan de fleste journalsystemer/behandlingsrettede helseregistre innrettes og forvaltes i dag.  </p>
 <h3 id="srlig-om-tilgjengeliggjring-optimalisert-kopi">Særlig om tilgjengeliggjøring: Optimalisert kopi</h3>
-<p><img alt="Optimalisert kopi for datadeling" src="../../img/optimalisert-kopi.png" width="500" /><br />
-<em>Optimalisert kopi for datadeling</em></p>
+<p><img alt="Figur som viser løsningsmønster basert på optimalisert kopi for datadeling. Illustrasjon." src="../../img/optimalisert-kopi.png" width="500" /><br />
+<em>Løsningsmønster med optimalisert kopi for datadeling</em></p>
 <p>Et vanlig løsningsmønster for å tilgjengeliggjøre informasjon til eksterne tjenester er å lage en kopi av informasjonen man ønsker å eksponere eksternt. Tjenesten for tilgjengeliggjøring inneholder da en kopi av informasjon som er relevant for eksterne brukere. Tjenesten kan optimaliseres for de søk som etterspørres av eksterne brukere og vil ikke inneholde informasjon man ikke ønsker å eksponere eksternt. Informasjonen kan hentes på forespørsel fra eksterne konsumenter.  </p>
 <h3 id="optimalisert-kopi-bruk-av-databehandler">Optimalisert kopi - bruk av databehandler</h3>
-<p><img alt="Optimalisert kopi for datadeling hos ekstern databehandler" src="../../img/optimalisert-kopi-databehandler.png" width="500" /><br />
-<em>Optimalisert kopi for datadeling med bruk av ekstern databehandler</em></p>
+<p><img alt="Figur som viser løsningsmønster basert på optimalisert kopi for datadeling hos ekstern databehandler" src="../../img/optimalisert-kopi-databehandler.png" width="500" /><br />
+<em>Løsningsmønster med optimalisert kopi for datadeling med bruk av ekstern databehandler</em></p>
 <p>Virksomheten kan, i forlengelsen av dette, også velge å sette bort deler av sin journalforvaltning til en ekstern part (databehandler). I eksempelet over kan virksomheten velge å benytte en databehandler som tilbyr delingsfunksjonalitet i stedet for selv å etablere en slik intern tilgjengeliggjøringstjeneste. Her vil også flere virksomheter kunne benytte den samme tjenesten fra den samme databehandleren. Dette forutsetter imidlertid at databehandleren behandler opplysningene fra virksomhetene logisk adskilt. En sammenstilling av opplysningene hos databehandleren ville derimot føre til samme problemstilling som for Pasientens prøvesvar, jf. over. Dette ville være et nytt behandlingsrettet helseregister som vil kreve eget selvstendig rettslig grunnlag. </p>
 
   <hr>
@@ -1094,7 +1094,7 @@ Sverre Engelschiøn og Elisabeth Vigerust, Pasient¬journal¬loven og helse¬reg
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">June 1, 2023 14:02:23</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">July 3, 2023 08:25:38</span>
       
     
   </small>
