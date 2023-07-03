@@ -4,7 +4,7 @@ title: Vurdering av konsepter for realisering
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:BlueViolet">Prerelease</span> | v0.9.0 | review  | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span> | v0.9.1 | review  | ikke normert |
 
 Formålet med denne delen av målarkitekturen er å vise ulike konsepter for hvordan datadeling mellom virksomheter kan realiseres, og vurdere disse konseptene i forhold til hverandre. Det er hovedfokus på etablering av funksjonalitet for å avgi og tilgjengeliggjøre informasjon siden denne delen av datadelingsløsningen regnes som mer kompleks å etablere og vedlikeholde enn funksjonalitet for oppslag. Siden konseptene vurderes ut fra kjente premisser og erfaringer som eksisterer i dag vil dette være et øyeblikksbilde av situasjonen og konseptene må derfor utvikles i takt med at sektoren vinner erfaringer med konkret løsningsutvikling og eventuell utvikling i systemlandskap, organisering av helsetjenesten og juridiske rammebetingelser.
 
@@ -32,11 +32,10 @@ Konseptene for etablering av funksjonalitet for datatilbyder (avgi og tilgjengel
 
 Vi anbefaler at virksomhetene vurderer hvilke konsept for datadeling som egner seg best ut fra samhandlingsbehovene som identifiseres i tjenesteforløpene som skal etableres regionalt eller lokalt. Virksomhetene bør velge ett eller flere konsept som er innenfor gjeldende rett for å komme i gang med datadeling mellom virksomhetene i Helsefellesskapet eller regionen. Det kan vurderes kombinasjoner av alle konseptene som faller innenfor gjeldende rett også innenfor en region. Hvilke konsept som passer best er blant annet avhengig av virksomhetenes størrelse, eksisterende infrastruktur og behov for fleksibilitet.
 
-Anbefalt konsept baserer seg på at virksomhetene etablerer grensesnitt for å avgi data til andre virksomheter enten som distribuerte løsninger eller gjennom regionale fellesløsninger, innenfor et §9 samarbeid.
+Anbefalt konsept baserer seg på at virksomhetene etablerer grensesnitt for å avgi data til andre virksomheter enten som distribuerte løsninger eller gjennom regionale fellesløsninger, innenfor et §9 samarbeid. Virksomheter med stort behov for støtte for å realisere datadeling kan benytte en leverandør for å realisere datadelingstjenesten mens virksomheter som evner å realisere og vedlikeholde datadelingstjenester kan gjøre dette uten å benytte tredjepart til dette.
 
-![Anbefalt konsept for datadeling med kombinasjon av distribuerte datadelingsløsninger og regionale fellesløsninger](../img/fleksibel.svg)
-
-<!-- Legge til figurtekst som forklarer at virksomhetene som er nevnt i figuren er eksempler på virksomhetstyper som kan etablere grensesenitt på den måten som er vist -->
+![Figur som viser anbefalt konsept for datadeling med kombinasjon av distribuerte datadelingsløsninger og regionale fellesløsninger. Illustrasjon.](../img/fleksibel.svg)
+*Fleksibelt konsept for etablering av datadeling avhengig av behov for støtte og om virksomheten bruker selvstendige løsninger eller fellesløsninger i samarbeid med andre virksomheter*
 
 ### Vurdering
 
@@ -84,11 +83,11 @@ Anbefalingen av konsepter for datadeling baserer seg på vurderinger knyttet til
 * [Regionale datadelingsløsninger med lagring](#regionale-datadelingslsninger-med-lagring)
 * [Nasjonal sentral datadelingsløsning med lagring](#nasjonal-sentral-datadelingslsning-med-lagring)
 
-### Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur) <!--Litt pirk, men skal ikke alle konsepter og underavsnitt ha overskrifter på samme nivå? Her ## - neste nivå ### og ikke ####? Eller er inndelingne bevisst for å skille mellom det anbefalte og resten?--> <!-- Her tror jeg du har blingsa, det er riktig nivå på overskiftene i dette kapitelet såvidt jeg kan se-->
+### Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)  
 
-Distribuerte datadelingsløsninger i virksomhetenes infrastruktur baserer seg på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer. Grensesnitt og datalager for datadeling etableres i virksomhetens egen infrastruktur. Datadeling mellom virksomhetene gjennomføres ved at hver virksomhet gjør distribuerte oppslag mot grensesnittene for å avgi data som er etablert av de andre virksomhetene.
+Distribuerte datadelingsløsninger i virksomhetenes infrastruktur baserer seg på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer. Grensesnitt og datalager for datadeling etableres i virksomhetens egen infrastruktur. Datadeling mellom virksomhetene gjennomføres ved at hver virksomhet gjør oppslag mot datadelingstjenester etablert av andre virksomheter.
 
-![Distribuerte datadelingsløsninger i virksomhetenes infrastruktur](../img/distribuert.png)
+[![Figur som viser distribuerte datadelingsløsninger i virksomhetenes infrastruktur. Illustrasjon.](../img/distribuert.svg)](../img/distribuert.svg)
 *Distribuerte datadelingsløsninger etablert i virksomhetenes infrastruktur*
 
 #### Vurdering
@@ -131,8 +130,8 @@ En distribuert modell stiller store krav til samhandlingsinfrastrukturen og sama
 
 Konseptet baserer seg (som ren distribuert modell) på at hver enkelt virksomhet etablerer sin egen løsning for å avgi informasjon fra sine systemer, men istedenfor å etablere dette i egen infrastruktur etableres selve grensesnittet og datalager for datadeling i en felles infrastruktur. Det betyr at grensesnittet driftes og vedlikeholdes av en eller noen få leverandør(er). Datadelingen mellom virksomhetene gjennomføres ved at hver virksomhet gjør distribuerte oppslag mot grensesnittene for å avgi data, som er etablert av de andre virksomhetene. Det er en juridisk forutsetning at informasjonen fra hver virksomhet ikke sammenstilles med informasjon fra andre virksomheter i den sentrale infrastrukturen, men at løsningene for lagring og grensesnittene etableres som logisk adskilte løsninger for hver virksomhet. Behandlingen av helseopplysninger i sentral infrastruktur må reguleres av en databehandleravtale mellom den enkelte virksomheten og leverandøren av infrastrukturen.
 
-![Distribuerte datadelingsløsninger i sentral infrastruktur](../img/distribuert-sentral.png)
-*Distribuerte datadelingsløsninger etablert i sentral infrastruktur*
+[![Figur som viser distribuerte datadelingsløsninger i infrastruktur levert av ekstern leverandør. Illustrasjon.](../img/distribuert-sentral.svg)](../img/distribuert-sentral.svg)
+*Distribuerte datadelingsløsninger i infrastruktur levert av ekstern leverandør*
 
 #### Vurdering
 
@@ -170,8 +169,8 @@ Ved etablering av regionale fellesløsninger, for eksempel for DHO, blir informa
 
 Grensesnittet for datadeling som etableres i fellesløsningen benyttes hovedsaklig for samhandlingen med virksomheter som står utenfor samarbeidet og eventuelt andre systemer i de samarbeidende virksomhetene (som ivaretar dokumentasjonsbehov som ikke er dekket av fellesløsningen). En viktig forutsetning for å etablere samarbeidsløsning er at funksjonalitet som etableres i fellesløsningen kommer istedenfor funksjoner i andre systemer i virksomheten og at informasjonen bare journalføres i fellesløsningen.
 
-![Regionale fellesløsninger](../img/regional-felles.png)
-*Datadeling etableres som en del av en regional fellesløsning*
+[![Figur som viser etablering av datadelingsløsning som en del av en regional fellesløsning. Illustrasjon.](../img/regional-felles.svg)](../img/regional-felles.svg)
+*Datadeling etableres som en del av en regional fellesløsning og beskrives i en avtale mellom virksomhetene i henhold til pasientjournalloven §9*
 
 #### Vurdering
 
@@ -214,7 +213,7 @@ Virksomhetene som samarbeider om en fellesløsning vil ha mindre behov for bruk 
 
 Ved etablering av sentral regional datadelingsløsning blir informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagret i sentral infrastruktur hos NHN (eller annen leverandør) samtidig som den eksisterer i relevante fagsystem hos den enkelte virksomheten for å ivareta dokumentasjonsplikten. Grensesnitt for å avgi data fra felles datadelingsløsning etableres også i sentral infrastruktur. Virksomhetene som deltar i det regionale samarbeidet kan søke i den felles regionale tjenesten som tilbys og driftes av NHN. Det kan også opprettes søk mot den regionale løsningen for virksomheter som ikke er en del av det regionale samarbeidet.
 
-![Regionale datadelingsløsninger med lagring](../img/regional-datadeling.png)
+[![Figur som viser en sentral regional datadelingsløsning med kopilagring. Illustrasjon.](../img/regional-datadeling.svg)](../img/regional-datadeling.svg)
 *Regional datadelingsløsning etablert med kopilagring i sentral infrastruktur*
 
 #### Vurdering
@@ -252,8 +251,8 @@ Konseptet løser behovet virksomhetene i samarbeider har for datadeling gjennom 
 
 Ved etablering av sentral nasjonal datadelingsløsning baserer vi oss på at informasjonen som skal tilgjengeliggjøres mellom virksomhetene lagres i sentral infrastruktur hos NHN (eller annen leverandør) samtidig som den eksisterer i relevante fagsystem hos den enkelte virksomheten for å ivareta dokumentasjonsplikten. Virksomhetene kan da gjennomføre søk mot en felles nasjonal tjeneste som tilbys og driftes av NHN.
 
-![Nasjonal sentral datadelingsløsning med lagring](../img/sentral-kopi.png)
-*Nasjonal sentral kopilagring og datadelingsløsning*
+[![Figur som viser en nasjonal sentral datadelingsløsning med kopilagring av helseopplysninger fra virksomhetene. Illustrasjon.](../img/sentral-kopi.svg)](../img/sentral-kopi.svg)
+*Nasjonal sentral datadelingsløsning med kopilagring av helseopplysninger fra virksomhetene*
 
 #### Vurdering
 
