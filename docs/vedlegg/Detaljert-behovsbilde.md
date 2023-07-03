@@ -137,14 +137,20 @@ Tabellen under oppsummerer: <!--Tatt ut setning her da det sier det samme i kule
 | Vurderinger |  | Henger sammen med varsel og målinger, undersøkelser og funn |  |  |  |  |  |  |
 
 ## Målinger, vurderinger og varsel
-<!-- HIT -->
+
 Målinger består av flere typer måleparametere som beskriver pasientens helsetilstand og som kan bidra til å støtte oppfølging av behandling og synliggjøre endring i tilstand. Figuren viser omfanget for deling av målinger i første fase av utprøving av datadeling ved bruk av velferdsteknologisk knutepunkt (VKP):
 
-![Datadeling av målinger med VKP](https://user-images.githubusercontent.com/6229665/201674756-0db63ed3-6100-42f1-9e4c-daa2a55b855b.png)
+[![Modell som viser ulike måleparametere som prøves ut i forbindelse med DHO. Archimate modell.](https://user-images.githubusercontent.com/6229665/201674756-0db63ed3-6100-42f1-9e4c-daa2a55b855b.png)](https://user-images.githubusercontent.com/6229665/201674756-0db63ed3-6100-42f1-9e4c-daa2a55b855b.png)
+*Målinger som prøves ut i utprøvingsprosjekter i forbindelse med DHO*
 
-Målinger kan lagres og vises direkte eller fungere som grunnlag for andre arbeidsprosesser, for eksempel journalføring:
+Brukerne har identifisert noen av de målingene de ser på som mest relevante for oppfølging av DHO pasienter i ulike tjenesteforløp. Disse målingene handler i stor grad om enkle vitale parametere i tillegg til blodsukkermålinger og skjemabesvarelser. De vitale parameterene som testes ut i fase 1 er: hjertefrekvens, blodtrykk, oksygenmetning, kroppsvekt og temperatur.
 
-![Sammenheng med andre informasjonstjenester](https://user-images.githubusercontent.com/6229665/201674806-5f79126a-2505-4629-83af-69888656f6f9.png)
+### Bruk av målinger 
+
+Målinger kan lagres, vises enkeltvis og som trender, eller fungere som grunnlag for andre arbeidsprosesser, for eksempel journalføring:
+
+[![Modell som viser målinger i sammenheng med andre informasjonstjenester. Archimate modell.](https://user-images.githubusercontent.com/6229665/201674806-5f79126a-2505-4629-83af-69888656f6f9.png)](https://user-images.githubusercontent.com/6229665/201674806-5f79126a-2505-4629-83af-69888656f6f9.png)
+*Målinger i sammenheng med andre informasjonstjenester*
 
 * Målinger kan legges til i journaldokumenter og journalføres (strukturert eller ustrukturert).
 * Hvilke målinger som skal gjennomføres kan styres gjennom egenbehandlingsplanen for pasienten.
