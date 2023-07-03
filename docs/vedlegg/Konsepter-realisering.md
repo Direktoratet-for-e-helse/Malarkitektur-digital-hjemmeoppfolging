@@ -34,8 +34,8 @@ Vi anbefaler at virksomhetene vurderer hvilke konsept for datadeling som egner s
 
 Anbefalt konsept baserer seg på at virksomhetene etablerer grensesnitt for å avgi data til andre virksomheter enten som distribuerte løsninger eller gjennom regionale fellesløsninger, innenfor et §9 samarbeid. Virksomheter med stort behov for støtte for å realisere datadeling kan benytte en leverandør for å realisere datadelingstjenesten mens virksomheter som evner å realisere og vedlikeholde datadelingstjenester kan gjøre dette uten å benytte tredjepart til dette.
 
-![Figur som viser anbefalt konsept for datadeling med kombinasjon av distribuerte datadelingsløsninger og regionale fellesløsninger. Illustrasjon.](../img/fleksibel.svg)
-*Fleksibelt konsept for etablering av datadeling avhengig av behov for støtte og om virksomheten bruker selvstendige løsninger eller fellesløsninger i samarbeid med andre virksomheter*
+[![Figur som viser anbefalt konsept for datadeling med kombinasjon av distribuerte datadelingsløsninger og regionale fellesløsninger. Illustrasjon.](../img/fleksibel.svg)](../img/fleksibel.svg)
+*Fleksibelt konsept for etablering av datadeling hvor valg av løsning er avhengig av behov for støtte og om virksomheten tar utgangspunkt i selvstendige løsninger eller fellesløsninger etablert i samarbeid med andre virksomheter*
 
 ### Vurdering
 
@@ -78,7 +78,7 @@ Gitt virksomhetenes ulike størrelser og forutsetninger for å etablere datadeli
 Anbefalingen av konsepter for datadeling baserer seg på vurderinger knyttet til hvert enkelt konsept i forhold til vurderingskriteriene. Vurderingen er oppsummert med fordeler og ulemper knyttet til hvert enkelt konsept. Konseptene som er vurdert for etablering av datadeling er:
 
 * [Distribuerte datadelingsløsninger (i virksomhetenes infrastruktur)](#distribuerte-datadelingslsninger-i-virksomhetenes-infrastruktur)
-* [Distribuerte datadelingsløsninger (i leverandør infrastruktur)](#distribuerte-datadelingslsninger-i-leverandor-infrastruktur)
+* [Distribuerte datadelingsløsninger (i leverandør infrastruktur)](#distribuerte-datadelingslsninger-i-leverandr-infrastruktur)
 * [Regionale fellesløsninger](#regionale-felleslsninger)
 * [Regionale datadelingsløsninger med lagring](#regionale-datadelingslsninger-med-lagring)
 * [Nasjonal sentral datadelingsløsning med lagring](#nasjonal-sentral-datadelingslsning-med-lagring)
