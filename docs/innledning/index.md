@@ -4,7 +4,7 @@ title: Innledning
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:BlueViolet">Prerelease</span> | v0.9.2 | review  | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span> | v0.9.3 | review  | ikke normert |
 
 Helse- og omsorgssektoren har samlet seg om en nasjonal e-helsestrategi. Et av målene i strategien er tilgjengelig informasjon og [styrket digital samhandling](https://www.ehelse.no/strategi/nasjonal-e-helsestrategi-for-helse-og-omsorgssektoren/mal-4-tilgjengelig-informasjon-og-styrket-samhandling). Digital samhandling, styrket informasjonsforvaltning og økt standardisering skal sørge for at oppdaterte helseopplysninger er sikre, av god kvalitet og lett tilgjengelig ved behov. Dette vil legge til rette for en mer aktiv innbygger, bedre og mer effektiv helsehjelp samt bedre datanalyser til kvalitetsforbedring, helseovervåkning og styring.  
 
@@ -91,7 +91,7 @@ Problemstillinger knyttet til avtalemessige og merkantile forhold er ikke behand
 
 ### Modenhet
 
-Bruk av datadeling for digital samhandling mellom virksomheter, omsorgsnivå og pårørende/pasient er relativt umodent. Til tross for mange utprøvingsprosjekter i Nasjonalt velferdsteknologiprogram (NVP) har arbeidet med samhandling i form av datadeling kommet relativt kort og det er få tjenester som er realisert og tatt i bruk av helsetjenesten. Erfaringsgrunnlaget er derfor lite og anbefalingene knyttet til datadeling er beheftet med stor usikkerhet. Det vil være behov for revisjon av anbefalingene etter hvert som flere tjenester blir realisert.
+Bruk av datadeling for digital samhandling mellom virksomheter, omsorgsnivå og pårørende/pasient er relativt umodent. Til tross for mange utprøvingsprosjekter i Nasjonalt velferdsteknologiprogram (NVP) har arbeidet med samhandling i form av datadeling kommet relativt kort og det er få tjenester som er tatt i bruk av helsetjenesten. Erfaringsgrunnlaget er derfor lite. Med mer praktisk erfaring og læring vil det trolig være behov for revisjon av anbefalingene.
 
 Modenheten er også relativt lav når det gjelder å ta i bruk DHO i helsetjenesten. NVP gjennomførte 6 nasjonale utprøvingsprosjekter i perioden 2018-2021. En [erfaringsoppsummering](https://www.helsedirektoratet.no/rapporter/digital-hjemmeoppfolging-sluttrapport-fra-nasjonal-utproving-2018-2021) er publisert av Helsedirektoratet. Fra 2022 er DHO videreført som et spredningsprosjekt i NVP og i overkant av 150 kommuner fordelt på 16 samarbeidsprosjekter jobber med spredning og innføring av DHO. I tillegg til prosjekter i regi av NVP pågår det flere lokale og regionale prosjekter i ulike RHF og HF.
 
@@ -120,7 +120,7 @@ Gjennom dialog med helsepersonell, i de deler av helsetjenesten som har etablert
 
 Informasjonsbehovene er analysert og vurdert i forhold til hensiktsmessig bruk av samhandlingsform og behov for informasjonstjenester for å understøtte informasjonsbehovet. Det er også vurdert hvilke informasjonstjenester som bør realiseres som fellestjenester og hvilke som må realiseres i virksomhetenes infrastruktur. Resultatene er beskrevet som konkrete konsepter som er vurdert i forhold til gjeldende rett og hvor hensiktsmessig de ulike konseptene er for spredning, risiko og kompleksitet. Til slutt, peker målarkitekturen på nødvendige normerende produkter for å understøtte enhetlig semantisk samhandling.  
 
-I utprøving- og spredningsaktivitetene prøver virksomhetene å etablere faktisk samhandling mellom virksomhetene basert på konseptene som er tatt frem i målarkitekturen. Erfaringer med realisering og bruk av informasjonstjenestene benyttes i arbeidet med revisjon av målarkitekturen. Målarkitekturen vil også hjelpe utprøving- og spredningsprosjekter til å velge løsningskonsepter som kan realiseres innenfor gjeldende rett, eller føre til at prosjektene spiller inn nødvendige endringer i lovverket for å understøtte mer effektive samhandlingsløsninger på sikt.
+I utprøving- og spredningsaktivitetene er målet at virksomhetene skal etablere og prøve ut samhandling mellom virksomhetene basert på konseptene som er tatt frem i målarkitekturen. Erfaringene skal benyttes i arbeidet med revisjon av målarkitekturen. Målarkitekturen vil også hjelpe utprøving- og spredningsprosjekter til å velge løsningskonsepter som kan realiseres innenfor gjeldende rett, eller føre til at prosjektene spiller inn nødvendige endringer i lovverket for å understøtte mer effektive samhandlingsløsninger på sikt.
 
 ## Forvaltning og videreutvikling av målarkitekturen
 
