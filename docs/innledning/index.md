@@ -20,7 +20,7 @@ Digital hjemmeoppfølging handler om å følge opp, behandle og kommunisere med 
 
 Det er vesentlig at oppfølgingen ikke begrenses til der pasienten bor, men at DHO også kan benyttes andre steder, for eksempel på jobb, skole, institusjon, på reise og hos ulike helseaktører. Pasienten kan i prinsippet oppholde seg hvor som helst fysisk, men likevel kunne motta oppfølging fra helsetjenesten når det er forsvarlig. Målarkitekturen har fokus på oppfølging av pasienten basert på data fra pasienten, som vist i figuren under. Se forøvrig oppsummering av [målbildet for DHO](../vedlegg/Overordnet-maalbilde.md).  
 
-[![Figur som viser hovedfokus for arbeidet med målarkitekturen. Illustrasjon.](../img/hva-er-DHO.svg){ width="700" }](../img/hva-er-DHO.svg)
+[![Figur som viser hovedfokus for arbeidet med målarkitekturen. Illustrasjon.](../img/hva-er-DHO.svg){ width="700" }](../img/hva-er-DHO.svg)  
 *Hovedfokus for arbeidet med målarkitekturen er den delen av DHO som handler om oppfølging basert på data fra pasienten*  
 
 Figuren visualiserer hva ulike kategorier av oppfølging og behandlingstjenester som digital hjemmeoppfølging kan inneholde. Forslaget til definisjon har til hensikt å romme ulike former for digital oppfølging og samhandling mellom pasienten og helsetjenesten. Figuren bør oppdateres etter hvert som denne typen tjenester utvikles videre, og det skal jobbes videre med definisjonsbeskrivelsen gjennom Nasjonalt velferdsteknologiprogram.
@@ -58,7 +58,8 @@ Målgruppen for målarkitekturen er primært arkitekter og tekniske prosjektlede
 #### Vedlegg
 
 * [Vurdering av konsepter for realisering](../vedlegg/Konsepter-realisering.md) beskriver konseptene som er vurdert for å etablere datadeling og understøtter krav og anbefalinger.
-* [Anbefalte tiltak](../vedlegg/Anbefalte-tiltak.md) foreslår tiltak som kan gjennomføres for å understøtte etableringen av datadeling mellom virksomheter innen behovsområdet DHO
+* [Anbefalte tiltak](../vedlegg/Anbefalte-tiltak.md) foreslår tiltak som kan gjennomføres for å understøtte etableringen av datadeling mellom virksomheter innen behovsområdet DHO.
+* [Eksempler fra utprøving](../vedlegg/Eksempler.md) viser hvordan rammeverket beskrevet i målarkitekturen kan beskrive reelle løsninger.
 
 ## Omfang og avgrensninger
 
