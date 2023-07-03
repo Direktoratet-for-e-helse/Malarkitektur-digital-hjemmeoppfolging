@@ -59,7 +59,7 @@ Samhandlingstjenester i behandlingsforløp der digital hjemmeoppfølging benytte
 
 ### Eksempel på aktører og samhandlingsbehov
 
-![Figur som viser eksempler på aktører og informasjon som skal kunne utveksles med datadeling. Illustrasjon.](../img/veikart-DHO.svg){ width="500" }  
+[![Figur som viser eksempler på aktører og informasjon som skal kunne utveksles med datadeling. Illustrasjon.](../img/veikart-DHO.svg){ width="500" }](../img/veikart-DHO.svg)  
 *Figuren viser eksempler på hvilke aktører som kan være involvert i tjenesteforløp som inkluderer DHO og eksempel på informasjon som er relevant å dele mellom aktørene.*
 
 Eksempler på aktører som har behov for å delta i samhandlingen:
