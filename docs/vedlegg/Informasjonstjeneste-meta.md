@@ -4,7 +4,7 @@ title: Informasjonstjeneste metamodell
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:BlueViolet">Prerelease</span> | v0.9.0 | review | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span> | v0.9.1 | review | ikke normert |
 
 Et sentralt begrep i forbindelse med helhetlig samhandling og målarkitekturen for datadeling innen DHO er informasjonstjeneste. I sin grunnleggende form er en informasjonstjeneste definert:
 
@@ -14,7 +14,8 @@ Et sentralt begrep i forbindelse med helhetlig samhandling og målarkitekturen f
 
 Dette kan modelleres på denne måten:  
 
-![Informasjonstjeneste i enkel form](../img/Informasjonstjeneste-enkel.png){width=500}
+[![Modell som viser informasjonstjeneste som brukt i samhandling. Archimate modell.](../img/Informasjonstjeneste-enkel.png){width="500"}](../img/Informasjonstjeneste-enkel.png)
+*Enkel fremstilling av informasjonstjeneste i forbindelse med samhandling*
 
 En informasjonstjeneste kan skrive og lese informasjon i form av informasjonsressurser. Informasjonstjeneste kan understøtte Forretningsprosesser direkte eller indirekte som en del av en Samhandlingsprosess. Informasjonstjenester realiseres vanligvis som mer spesifikke applikasjonstjenester (tjenester for datadeling, meldingsutveksling eller dokumentdeling).
 
@@ -37,6 +38,6 @@ En definisjon av alle de ulike informasjonstjenestene som ble beskrevet i forbin
 
 Dette fører til en mer kompleks metamodell for informasjonstjenester i forbindelse med helhetlig samhandling.
 
-[![Metamodell for informasjonstjenester i helhetlig samhandling](../img/informasjonstjeneste-metamodell.png)](../img/informasjonstjeneste-metamodell.png){widt=500}
+[![Metamodell for informasjonstjenester i helhetlig samhandling](../img/informasjonstjeneste-metamodell.png)](../img/informasjonstjeneste-metamodell.png){width="600"}
 
 I arbeidet med målarkitektur for datadeling innen DHO er det den komplekse modellen vi forholder oss til. Det vil si at vi legger beskrivelsene av de ulike informasjonstjenesten til grunn når vi analyserer informasjonsbehovet i tilknytning til DHO.
