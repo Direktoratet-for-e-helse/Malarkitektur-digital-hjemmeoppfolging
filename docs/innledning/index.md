@@ -4,7 +4,13 @@ title: Innledning
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:BlueViolet">Prerelease</span> | v0.9.4 | review  | ikke normert |
+| <span style="background-color:BlueViolet">Prerelease</span> | v0.9.5 | review  | ikke normert |
+
+Direktoratet for e-helse har sammen med helse- og omsorgssektoren et [strategisk mål](https://www.ehelse.no/strategi/nasjonal-e-helsestrategi-for-helse-og-omsorgssektoren/mal-4-tilgjengelig-informasjon-og-styrket-samhandling) om å styrke digital samhandling mellom aktørene i sektoren. Dette målet sammenfaller med de strategiske føringene for Digital hjemmeoppfølging, som har identifisert et effektmål knyttet til samhandling.  Arbeidet med målarkitekturen handler om å bidra til å oppnå effektmålene for DHO arbeidet:
+
+!!! quote "Effektmål samhandling"
+
+    Økt, bedre og sikker digital samhandling på tvers av tjenestenivåer og øvrige sektorer
 
 ## Hva er digital hjemmeoppfølging
 
@@ -12,7 +18,7 @@ Digital hjemmeoppfølging handler om å følge opp, behandle og kommunisere med 
 
 !!! quote "Definisjon av Digital hjemmeoppfølging"
 
-    Digital hjemmeoppfølging innebærer at hele eller deler av et behandlingstilbud foregår uten fysisk kontakt, der dialog og deling av data mellom pasient/bruker og behandler(e) skjer digitalt.
+    Digital hjemmeoppfølging innebærer at hele eller deler av et behandlingstilbud foregår uten fysisk kontakt, der dialog og deling av data mellom pasient/bruker og behandler(e) skjer digitalt. Forslaget til definisjon har til hensikt å romme en bredde av ulike typer oppfølging og samhandling mellom pasienten og helsetjenesten. I arbeidet med målarkitektur og konsepter er hovedfokus på "Oppfølging basert på data fra pasient; data fra sensorer og medisinsk utstyr, samt pasientrapporterte data som symptomer, funksjon og målinger"
 
 Det er vesentlig at oppfølgingen ikke begrenses til der pasienten bor, men at DHO også kan benyttes andre steder, for eksempel på jobb, skole, institusjon, på reise og hos ulike helseaktører. Pasienten kan i prinsippet oppholde seg hvor som helst fysisk, men likevel kunne motta oppfølging fra helsetjenesten når det er forsvarlig. Målarkitekturen har fokus på oppfølging av pasienten basert på data fra pasienten, som vist i figuren under. Se forøvrig oppsummering av [målbildet for DHO](../vedlegg/Overordnet-maalbilde.md).  
 
