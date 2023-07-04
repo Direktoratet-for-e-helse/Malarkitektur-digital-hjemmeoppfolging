@@ -6,7 +6,7 @@ title: Eksempler fra utprøving
 | :--------------- | :------ | :------- | :-------------- |
 | <span style="background-color:BlueViolet">Prerelease</span>  | v0.9.1 | review | ikke normert |
 
-Denne delen inneholder eksempler på implementasjoner av datadeling, i forbindelse med utprøving og spredingsprosjekter i [nasjonalt velferdsteknologiprogram](https://www.helsedirektoratet.no/tema/velferdsteknologi/velferdsteknologi). Eksemplene er her vist med samme notasjon som målarkitekturen, for å vise hvordan implementasjonen kan sees i sammenheng med målarkitekturen.  
+Denne delen inneholder eksempler på implementasjoner av datadeling, i forbindelse med utprøving og spredingsprosjekter i [nasjonalt velferdsteknologiprogram](https://www.helsedirektoratet.no/tema/digital-hjemmeoppfolging-hjemmesykehus-og-velferdsteknologi/nasjonalt-velferdsteknologiprogram). Eksemplene er her vist med samme notasjon som målarkitekturen, for å vise hvordan implementasjonen kan sees i sammenheng med målarkitekturen.  
 
 ## Oslo og Lovisenberg
 
