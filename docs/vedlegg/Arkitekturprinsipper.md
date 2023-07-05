@@ -4,7 +4,7 @@ title: Arkitekturprinsipper
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:BlueViolet">Prerelease</span>  | v0.9.0 | review  | ikke normert |
+| <span style="background-color:LimeGreen">Release</span> | v0.9.5 | mature | ikke normert |
 
 Arkitektuprinsippene beskriver hvordan arbeidet med målarkitektur for samhandling innen digital hjemmeoppføling etterfølger de overordnede arkitekturprinsippene for digitalisering av offentlig sektor.  
 

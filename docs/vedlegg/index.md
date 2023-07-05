@@ -4,7 +4,7 @@ title: Oversikt over vedlegg
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:BlueViolet">Prerelease</span> | v0.9.1 | review  | ikke normert |
+| <span style="background-color:LimeGreen">Release</span> | v0.9.5 | mature | ikke normert |
 
 [Begreper](Begreper.md)  
 [Arkitekturprinsipper](Arkitekturprinsipper.md)  

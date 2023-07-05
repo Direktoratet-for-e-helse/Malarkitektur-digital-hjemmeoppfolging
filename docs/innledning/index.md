@@ -4,7 +4,7 @@ title: Innledning
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:BlueViolet">Prerelease</span> | v0.9.5 | review  | ikke normert |
+| <span style="background-color:LimeGreen">Release</span> | v0.9.5 | mature | veileder (TOBE) |
 
 Direktoratet for e-helse har sammen med helse- og omsorgssektoren et [strategisk mål](https://www.ehelse.no/strategi/nasjonal-e-helsestrategi-for-helse-og-omsorgssektoren/mal-4-tilgjengelig-informasjon-og-styrket-samhandling) om å styrke digital samhandling mellom aktørene i sektoren. Dette målet sammenfaller med de strategiske føringene for Digital hjemmeoppfølging, som har identifisert et effektmål knyttet til samhandling.  Arbeidet med målarkitekturen handler om å bidra til å oppnå effektmålene for DHO arbeidet:
 

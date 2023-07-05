@@ -4,7 +4,7 @@ title: Anbefalte tiltak
 
 | Status           | Version | Maturity | Normative level |
 | :--------------- | :------ | :------- | :-------------- |
-| <span style="background-color:BlueViolet">Prerelease</span> | v0.9.0 | review | ikke normert |
+| <span style="background-color:LimeGreen">Release</span> | v0.9.5 | mature | ikke normert |
 
 Denne delen av målarkitekturen skal foreslå tiltak som kan gjennomføres for å understøtte etableringen av datadeling mellom virksomheter innen for behovsområdet DHO.
 

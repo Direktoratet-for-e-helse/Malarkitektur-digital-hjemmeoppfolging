@@ -4,9 +4,13 @@ title: Tilbakemeldinger og innspill
 
 | Status | Version | Maturity | Normative level |
 |:-------------|:------------------|:------|:-------|
-| <span style="background-color:BlueViolet">Prerelease</span> | v0.9.0 | review  | ikke normert |
+| <span style="background-color:LimeGreen">Release</span> | v0.9.5 | mature  | ikke normert |
 
 Arbeidet med målarkitekturen er en smidig prosess og vi ønsker løpende innspill på innholdet. I utviklingsfasen bygger vi ny arbeidsversjon hver dag, og noen dager flere ganger om dagen. Siste arbeidsversjon ligger på [gihub.io](https://direktoratet-for-e-helse.github.io/Malarkitektur-digital-hjemmeoppfolging/currentbuild). "Kildekoden" for dokumentasjonen ligger i denne [katalogen docs](https://github.com/Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging/tree/master/docs). Forskjellige releaser av målarkitekturen finnes under [relases](https://github.com/Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging/releases). Innspillsversjoner til arbeidsgruppen blir en egen release med navn "innspillsversjon".
+
+## Høring av målarkitekturen
+
+Det gjennomføres høring av den foreslåtte "Målarkitektur for datadeling i digital hjemmeoppfølging" med høringsfrist 29. september. Høringen sendes ut 1. august og får en egen høringsside på [ehelse.no](ehelse.no).
 
 ## Innspill til målarkitekturen
 
