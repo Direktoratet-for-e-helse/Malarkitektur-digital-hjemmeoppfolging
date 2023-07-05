@@ -100,7 +100,7 @@ Modenheten er også relativt lav når det gjelder å ta i bruk DHO i helsetjenes
 
 ## Metode for utvikling av målarkitekturen
 
-Det er lagt til grunn smidig metodikk i utviklingen av målarkitekturen der utprøving av datadeling i konkrete utprøving- og spredningsaktiviteter knyttet til Nasjonalt velferdsteknologiprogram (Utprøving DHO) og utforming av målarkitektur datadeling DHO gjennomføres i parallell gjennom flere iterasjoner, hvor resultatet fra en iterasjon danner grunnlaget for gjennomføringen av neste. Se figur under.  
+Det er lagt til grunn smidig metodikk i utviklingen av målarkitekturen der utprøving av datadeling i konkrete utprøving- og spredningsaktiviteter knyttet til Nasjonalt velferdsteknologiprogram (Utprøving DHO) og utforming av målarkitektur for datadeling i DHO gjennomføres i parallell gjennom flere iterasjoner, hvor resultatet fra en iterasjon danner grunnlaget for gjennomføringen av neste. Se figur under.  
 
 ![Figur som viser prosess for utvikling av målarkitektur sammen med utprøving DHO. Illustrasjon.](../img/metode.svg){ width="500" }  
 *Metode for utvikling av målarkitektur koblet til utprøving og spredningsaktiviteter*
