@@ -91,7 +91,7 @@ plugins:
   - git-revision-date-localized:
       type: datetime
   - with-pdf:
-      cover_subtitle: "0.95"
+      cover_subtitle: "currentversion"
       copyright: ""
       # two_columns_level: 3
       output_path: ./pdf/malarkitektur.pdf
