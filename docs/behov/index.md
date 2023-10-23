@@ -27,7 +27,7 @@ Vi har ikke tatt inn detaljerte beskrivelser fra utprøving- og spredningsprosje
 
 En fellesnevner ved behovsarbeidet vi har fått tilgang til er at alle utprøving- og spredningsprosjektene tar utgangspunkt i detaljerte beskrivelser av tjenesteforløp eller prosessbeskrivelser for å beskrive nå-situasjonen og for å avdekke behov knyttet til tjenesteforløpene som analyseres. Beskrivelsene av tjenesteforløpene er til dels svært detaljerte og beskriver ønsket eller eksisterende tjenesteforløp for en eller noen få pasientgrupper hvor DHO benyttes. Figuren under er et eksempel på hvordan Sykehuset i Vestfold illustrerer ønsket tjenesteforløp med utgangspunkt i oppfølging av pasient med KOLS og samarbeid mellom helsepersonell på Sykehuset Vestfold, Larvik kommune og fastlege.
 
-[![Figuren viser et eksempel på tjenesteforløp for pasient med KOLS diagnose som involverer oppfølging fra kommunehelsetjenesten og sykehus i samarbei og ved forverring av tilstanden](../img/tjenesteforlop-KOLS.svg){ width="500" }](../img/tjenesteforlop-KOLS.svg)  
+[![Figuren viser et eksempel på tjenesteforløp for pasient med KOLS diagnose som involverer oppfølging fra kommunehelsetjenesten og sykehus i samarbei og ved forverring av tilstanden](../img/tjenesteforlop-KOLS.png)](../img/tjenesteforlop-KOLS.png)  
 *Eksempel på tjenesteforløp for pasienter med KOLS diagnose, figuren er gjengitt med tillatelse fra Helse Sør-Øst HF.*
 
 ### Overordnet om samhandlingsbehov
@@ -59,7 +59,7 @@ Samhandlingstjenester i behandlingsforløp der digital hjemmeoppfølging benytte
 
 ### Eksempel på aktører og samhandlingsbehov
 
-[![Figur som viser eksempler på aktører og informasjon som skal kunne utveksles med datadeling. Illustrasjon.](../img/veikart-DHO.svg){ width="500" }](../img/veikart-DHO.svg)  
+[![Figur som viser eksempler på aktører og informasjon som skal kunne utveksles med datadeling. Illustrasjon.](../img/veikart-DHO.png)](../img/veikart-DHO.png)  
 *Figuren viser eksempler på hvilke aktører som kan være involvert i tjenesteforløp som inkluderer DHO og eksempel på informasjon som er relevant å dele mellom aktørene.*
 
 Eksempler på aktører som har behov for å delta i samhandlingen:
@@ -112,7 +112,7 @@ Målarkitekturen skal beskrive behov for samhandling og informasjonstjenester so
 
 Figuren viser en oversikt over identifiserte informasjonsbehov i forbindelse med DHO:
 
-[![identifiserte informasjonsbehov i forbindelse med DHO. Illustrasjon.](../img/informasjonsbehov-enkel.svg)](../img/informasjonsbehov-enkel.svg)
+[![identifiserte informasjonsbehov i forbindelse med DHO. Illustrasjon.](../img/informasjonsbehov-enkel.png)](../img/informasjonsbehov-enkel.png)
 *Identifiserte informasjonsbehov i forbindelse med DHO. Alle de identifiserte behovene er forklart i [vedlegget](../vedlegg/Detaljert-behovsbilde.md#analyse-av-informasjonsbehovene)*
 
 ### Samhandling innenfor geografiske regioner

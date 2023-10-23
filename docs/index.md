@@ -18,19 +18,19 @@ Innen digital hjemmeoppfølging (DHO) er behovet for bedre informasjonsflyt spes
 
 Som et ledd i arbeidet med målarkitekturen for datadeling innen DHO er [behovene for samhandling analysert](behov/index.md). Virksomhetene som er involvert i å etablere tjenesteforløp som inneholder DHO-tjenester peker spesielt på behovet for samhandling om felles planer, legemiddellister og målinger. Alle disse informasjonstjenestene vil dra nytte av styrket digital samhandling i form av datadeling av strukturert informasjon mellom virksomheter og omsorgsnivå. Den foreløpige analysen peker på at også andre informasjonstjenester som er etterspurt i forbindelse med DHO, kan understøttes med datadeling. Detaljene i figuren beskrives nærmere i [behovskapittelet](behov/index.md#eksempel-pa-aktrer-og-samhandlingsbehov)
 
-<figure markdown>
-  [![Figur som viser eksempler på aktører og informasjon som skal kunne utveksles med datadeling. Illustrasjon.](img/veikart-DHO.svg){ width="500" }](img/veikart-DHO.svg)
-  <figcaption>Figuren illustrerer hvilke aktører som kan være involvert i tjenesteforløp som inkluderer DHO og eksempel på informasjon som er relevant å dele mellom aktørene.</figcaption>
-</figure>
+
+  [![Figur som viser eksempler på aktører og informasjon som skal kunne utveksles med datadeling. Illustrasjon.](img/veikart-DHO.png)](img/veikart-DHO.png)
+  Figuren illustrerer hvilke aktører som kan være involvert i tjenesteforløp som inkluderer DHO og eksempel på informasjon som er relevant å dele mellom aktørene.
+
 
 ## Målarkitektur for datadeling
 
 Datadeling mellom virksomheter kan etableres på mange måter og målarkitekturen går igjennom flere mulige [konsepter for å realisere samhandling](vedlegg/Konsepter-realisering.md) i form av datadeling. Etter å ha vurdert fordeler og ulemper ved de ulike konseptene anbefales en fleksibel tilnærming som kombinerer elementer fra flere konsepter for den videre utviklingen. Virksomhetene bør tar hensyn til lokale og regionale samhandlingsbehov når datadelingstjenester for DHO skal etableres. Aktørene må også ta hensyn til kompleksiteten i tjenesteforløpene som skal understøttes, noe som ofte krever samarbeid mellom klinikere fra flere virksomheter innenfor en region eller et helsefellesskap.  
 
-<figure markdown>
-  [![Figuren viser målarkitektur for datadeling. Illustrasjon.](img/malarkitektur.svg){ width="700" }](img/malarkitektur.svg)
-  <figcaption>Målarkitektur for datadeling, med kombinasjon av distribuerte datadelingstjenester, bruk av leverandør som databehandler og samarbeid mellom virksomheter. Datadelingen mellom virksomheter må baseres på felles semantiske spesifikasjoner for utveksling av informasjon mellom ulike datadelingsløsninger. Nødvendige fellestjenester må etableres for å understøtte datadelingen i form av API katalog, tillitsanker og pasientinformasjonslokalisator.</figcaption>
-</figure>
+
+  [![Figuren viser målarkitektur for datadeling. Illustrasjon.](img/malarkitektur.png)](img/malarkitektur.png)
+  Målarkitektur for datadeling, med kombinasjon av distribuerte datadelingstjenester, bruk av leverandør som databehandler og samarbeid mellom virksomheter. Datadelingen mellom virksomheter må baseres på felles semantiske spesifikasjoner for utveksling av informasjon mellom ulike datadelingsløsninger. Nødvendige fellestjenester må etableres for å understøtte datadelingen i form av API katalog, tillitsanker og pasientinformasjonslokalisator.
+
 
 ### Arkitekturvalg
 
