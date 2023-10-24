@@ -110,7 +110,7 @@ I denne delen av målarkitekturen viser vi hvilke kapabiliteter eller evner som 
 
 De viktigste kapabilitetene for å realisere datadeling mellom virksomheter og omsorgsnivå vises i figuren under. Kapabilitetene er knyttet til rollene Produsent, Datakonsument og Datatilbyder. I tillegg vises kapabiliteter som er fornuftig å tilby som fellestjenester.
 
-[![Figur med oversikt over nødvendige evner for datadeling. Illustrasjon.](../img/kapabiliteter-enkel.svg){ width="500" }](../img/kapabiliteter-enkel.svg)  
+[![Figur med oversikt over nødvendige evner for datadeling. Illustrasjon.](../img/kapabiliteter-enkel.svg)](../img/kapabiliteter-enkel.svg)  
 *Oversikt over nødvendige evner for å realisere datadeling for dataprodusenter, datakonsumenter, datatilbydere og som fellestjenester*
 
 Figuren viser oversikt over nødvendige evner for datadeling. Produsenter må ha evne for Dataproduksjon, databehandling og datalagring. Datakonsumenter må ha evner for visning, få tilgang til data, lokalisere data og innhente data. Datatilbyder må ha evner for metadatautvinning, tilgjengeliggjøre data, metadatapublisering og avgi data. I tillegg er det behov for evner implementert som fellestjenester: tillitsanker, tjenesteformidling og metadataformidling.
