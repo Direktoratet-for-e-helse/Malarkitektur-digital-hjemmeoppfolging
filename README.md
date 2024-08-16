@@ -4,6 +4,8 @@ Testprosjekt for å se hvordan arkitekturdokumentasjon kan publiseres og vedlike
 
 ### Oversikt over versjoner
 
+**Målarkitekturen er publisert** på [e-helse.no](https://www.ehelse.no/standardisering/standarder/malarkitektur-for-datadeling-i-digital-hjemmeoppfolging). Github versjonene under er kun for historikk.
+
 * [Siste arbeidsversjon av målarkitekturen](https://direktoratet-for-e-helse.github.io/Malarkitektur-digital-hjemmeoppfolging/currentbuild)
   * Denne versjonen bygges ved endringer, bygges akkurat nå fra [master branchen](https://github.com/Direktoratet-for-e-helse/Malarkitektur-digital-hjemmeoppfolging/tree/master)
   * [PDF versjon av currentbuild](https://direktoratet-for-e-helse.github.io/Malarkitektur-digital-hjemmeoppfolging/currentbuild/pdf/malarkitektur.pdf)
